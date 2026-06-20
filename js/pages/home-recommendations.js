@@ -6,8 +6,10 @@
 // Depends on: js/data/mods.js (MODS, GAMES, CATEGORIES), js/stats.js
 // (ModVaultStats), js/account.js (ModVaultAccount, optional).
 (function () {
-  const REC_COUNT = 8;
+  const REC_COUNT = 12;
   const MAX_PER_GAME = 2;
+  const SCROLL_SPEED = 0.4;   // px per frame for the auto-scroll
+  const RESUME_DELAY = 1200;  // ms to wait after a manual interaction
 
   function publishedMods() {
     return (typeof MODS === "undefined" ? [] : MODS)
@@ -150,11 +152,14 @@
       .replace(/"/g, "&quot;");
   }
 
-  function cardHtml(mod) {
+  function cardHtml(mod, duplicate) {
     const game = gamesData()[mod.game];
     const image = getModImage(mod);
+    // Duplicated cards are only there to make the loop seamless, so hide them
+    // from assistive tech and keyboard tabbing.
+    const dupAttrs = duplicate ? ` aria-hidden="true" tabindex="-1"` : "";
     return `
-      <a class="home-mod-result-card" href="${getModPageUrl(mod)}" style="--game-accent:${esc(game?.accent || "#e8ff00")}">
+      <a class="home-mod-result-card" href="${getModPageUrl(mod)}"${dupAttrs} style="--game-accent:${esc(game?.accent || "#e8ff00")}">
         <div class="home-mod-result-thumb">
           ${image ? `<img src="${esc(image)}" alt="${esc(mod.title)}" loading="lazy">` : ""}
           <span>${esc(catLabel(mod.game, mod.category))}</span>
@@ -170,10 +175,10 @@
 
   function render(mods, personalized) {
     const section = document.getElementById("home-recs");
-    const grid = document.getElementById("home-recs-grid");
+    const track = document.getElementById("home-recs-track");
     const kicker = document.getElementById("home-recs-kicker");
     const sub = document.getElementById("home-recs-sub");
-    if (!section || !grid || !mods.length) return;
+    if (!section || !track || !mods.length) return;
 
     if (kicker) kicker.textContent = personalized ? "Recommended for you" : "Popular right now";
     if (sub) {
@@ -181,8 +186,55 @@
         ? "Picked from the games and categories you save and download."
         : "The most downloaded and highest-rated mods on ModVault.";
     }
-    grid.innerHTML = mods.map(cardHtml).join("");
+    // Render the set twice so the auto-scroll can loop back seamlessly.
+    track.innerHTML = mods.map(m => cardHtml(m, false)).join("")
+      + mods.map(m => cardHtml(m, true)).join("");
+    track.scrollLeft = 0;
     section.hidden = false;
+    startAutoScroll(track);
+  }
+
+  // ---------- auto-scrolling feed ----------
+  let rafId = null;
+  let paused = false;
+  let resumeTimer = null;
+
+  function startAutoScroll(track) {
+    // Attach the interaction listeners only once; re-renders reuse them.
+    if (!track.dataset.scroller) {
+      track.dataset.scroller = "1";
+      const pause = () => { paused = true; clearTimeout(resumeTimer); };
+      const resumeSoon = () => {
+        clearTimeout(resumeTimer);
+        resumeTimer = setTimeout(() => { paused = false; }, RESUME_DELAY);
+      };
+      track.addEventListener("mouseenter", pause);
+      track.addEventListener("mouseleave", resumeSoon);
+      track.addEventListener("touchstart", pause, { passive: true });
+      track.addEventListener("touchend", resumeSoon, { passive: true });
+      track.addEventListener("focusin", pause);
+      track.addEventListener("focusout", resumeSoon);
+      track.addEventListener("wheel", () => { pause(); resumeSoon(); }, { passive: true });
+      track.addEventListener("pointerdown", pause);
+      track.addEventListener("pointerup", resumeSoon);
+    }
+
+    const reduceMotion = window.matchMedia
+      && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (rafId) cancelAnimationFrame(rafId);
+    function tick() {
+      const half = track.scrollWidth / 2; // width of one (un-duplicated) set
+      if (half > 0) {
+        if (!paused && !reduceMotion && track.clientWidth < half) {
+          track.scrollLeft += SCROLL_SPEED;
+        }
+        // Wrap around whether moved by the timer or by the user dragging.
+        if (track.scrollLeft >= half) track.scrollLeft -= half;
+      }
+      rafId = requestAnimationFrame(tick);
+    }
+    rafId = requestAnimationFrame(tick);
   }
 
   // ---------- init ----------
