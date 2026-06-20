@@ -100,25 +100,44 @@
   }
 
   // ---------- Favorite button on the mod detail page ----------
+  const BOOKMARK_ICON = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.2L5 21V4a1 1 0 0 1 1-1z"/></svg>`;
+
+  async function getFavoriteCount(modId) {
+    if (!db()) return 0;
+    try {
+      const { data, error } = await db().rpc("get_mod_favorite_count", { target_mod_id: Number(modId) });
+      return error ? 0 : Number(data || 0);
+    } catch { return 0; }
+  }
+
   async function mountFavoriteButton(mod) {
     const slot = document.getElementById("mod-detail-fav");
     if (!slot) return;
-    if (!(await getUser())) {
-      slot.innerHTML = `<a class="btn btn-ghost" href="/account">&#9734; Log in to save</a>`;
-      return;
-    }
-    let fav = await isFavorite(mod.id);
+    const loggedIn = !!(await getUser());
+    let fav = loggedIn ? await isFavorite(mod.id) : false;
+    let count = await getFavoriteCount(mod.id);
+
     function render() {
-      slot.innerHTML = `<button class="btn ${fav ? "btn-primary" : "btn-ghost"}" type="button" id="fav-toggle-btn">${fav ? "&#9733; In favorites" : "&#9734; Add to favorites"}</button>`;
+      slot.innerHTML = `
+        <button class="fav-btn ${fav ? "is-active" : ""}" type="button" id="fav-toggle-btn" title="${loggedIn ? "" : "Log in to save favorites"}">
+          ${BOOKMARK_ICON}
+          <span class="fav-count">${count}</span>
+        </button>`;
       slot.querySelector("#fav-toggle-btn").addEventListener("click", onClick);
     }
+
     async function onClick() {
+      if (!loggedIn) { window.location.href = "/account"; return; }
       const btn = slot.querySelector("#fav-toggle-btn");
-      if (btn) { btn.disabled = true; }
-      if (fav) { if ((await removeFavorite(mod.id)).ok) fav = false; }
-      else { if ((await addFavorite(mod)).ok) fav = true; }
+      if (btn) btn.disabled = true;
+      if (fav) {
+        if ((await removeFavorite(mod.id)).ok) { fav = false; count = Math.max(0, count - 1); }
+      } else {
+        if ((await addFavorite(mod)).ok) { fav = true; count = count + 1; }
+      }
       render();
     }
+
     render();
   }
 

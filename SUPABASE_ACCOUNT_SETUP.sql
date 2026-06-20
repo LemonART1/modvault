@@ -48,3 +48,17 @@ create policy "Users delete own downloads" on mod_downloads
   for delete to authenticated using (auth.uid() = user_id);
 
 create index if not exists mod_downloads_user_idx on mod_downloads (user_id, created_at desc);
+
+-- ---------- Public favorite count ----------
+-- Anyone can see HOW MANY people favorited a mod, without seeing WHO (RLS on
+-- mod_favorites still hides individual rows from other users).
+create or replace function get_mod_favorite_count(target_mod_id integer)
+returns integer
+language sql
+security definer
+stable
+as $$
+  select count(*)::integer from mod_favorites where mod_id = target_mod_id;
+$$;
+
+grant execute on function get_mod_favorite_count(integer) to anon, authenticated;
