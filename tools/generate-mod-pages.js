@@ -24,7 +24,7 @@ function esc(str) {
 }
 
 function absUrl(url) {
-  return `https://modvaultsite.com/${String(url || "").replace(/^\/+/, "")}`;
+  return `https://modvault.space/${String(url || "").replace(/^\/+/, "")}`;
 }
 
 function metaTags({ title, description, image, url, type = "website" }) {

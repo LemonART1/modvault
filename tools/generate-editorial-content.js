@@ -30,7 +30,7 @@ function esc(str) {
 }
 
 function absUrl(url) {
-  return `https://modvaultsite.com/${String(url || "").replace(/^\/+/, "")}`;
+  return `https://modvault.space/${String(url || "").replace(/^\/+/, "")}`;
 }
 
 function metaTags({ title, description, image = "images/og-default.svg", url, type = "article" }) {

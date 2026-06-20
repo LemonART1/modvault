@@ -3,7 +3,7 @@ const path = require("path");
 const vm = require("vm");
 
 const root = path.resolve(__dirname, "..");
-const SITE_URL = "https://modvaultsite.com";
+const SITE_URL = "https://modvault.space";
 
 function read(file) {
   return fs.readFileSync(path.join(root, file), "utf8");
@@ -163,7 +163,7 @@ function makeOgImage() {
   <text x="80" y="260" fill="#e8ff00" font-size="110" font-family="Arial Black, Impact, sans-serif">MOD</text>
   <text x="330" y="260" fill="#dde1f0" font-size="110" font-family="Arial Black, Impact, sans-serif">VAULT</text>
   <text x="86" y="345" fill="#6b738f" font-size="34" font-family="Arial, sans-serif">PC game mods, guides and modding news</text>
-  <text x="86" y="555" fill="#363c52" font-size="24" font-family="Arial, sans-serif">modvaultsite.com</text>
+  <text x="86" y="555" fill="#363c52" font-size="24" font-family="Arial, sans-serif">modvault.space</text>
 </svg>`);
 }
 

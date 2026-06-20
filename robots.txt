@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://modvaultsite.com/sitemap.xml
+Sitemap: https://modvault.space/sitemap.xml
