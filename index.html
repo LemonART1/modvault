@@ -101,11 +101,14 @@
       scroll-behavior: auto;
       scrollbar-width: none;
       -webkit-overflow-scrolling: touch;
+      cursor: grab;
+      user-select: none;
       /* Soft fade on the edges so cards "enter" and "leave" the feed nicely. */
       -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 calc(100% - 26px), transparent 100%);
       mask-image: linear-gradient(90deg, transparent 0, #000 26px, #000 calc(100% - 26px), transparent 100%);
     }
     .home-recs-track::-webkit-scrollbar { display: none; }
+    .home-recs-track:active { cursor: grabbing; }
     .home-recs-track .home-mod-result-card {
       flex: 0 0 clamp(232px, 24vw, 282px);
     }
@@ -270,7 +273,7 @@
 <script src="js/account.js?v=4"></script>
 <script src="js/effects.js"></script>
 <script src="js/site-search.js?v=7"></script>
-<script src="js/pages/home-recommendations.js?v=2"></script>
+<script src="js/pages/home-recommendations.js?v=3"></script>
 <script>
   const games = Object.entries(GAMES);
 

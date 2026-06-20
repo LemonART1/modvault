@@ -198,39 +198,85 @@
   let rafId = null;
   let paused = false;
   let resumeTimer = null;
+  // We track the position ourselves: assigning sub-pixel values to scrollLeft
+  // gets rounded by the browser, so a "+= 0.4" each frame never accumulates and
+  // the feed would sit still. Keeping our own float fixes that.
+  let pos = 0;
+
+  function pause() { paused = true; clearTimeout(resumeTimer); }
+  function resumeSoon() {
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(() => { paused = false; }, RESUME_DELAY);
+  }
+
+  function bindInteractions(track) {
+    track.addEventListener("mouseenter", pause);
+    track.addEventListener("mouseleave", resumeSoon);
+    track.addEventListener("focusin", pause);
+    track.addEventListener("focusout", resumeSoon);
+    track.addEventListener("touchstart", pause, { passive: true });
+    track.addEventListener("touchend", resumeSoon, { passive: true });
+
+    // Mouse wheel scrolls the feed sideways.
+    track.addEventListener("wheel", (e) => {
+      if (e.deltaY !== 0 && Math.abs(e.deltaY) >= Math.abs(e.deltaX)) {
+        track.scrollLeft += e.deltaY;
+        pos = track.scrollLeft;
+        e.preventDefault();
+      }
+      pause(); resumeSoon();
+    }, { passive: false });
+
+    // Click-and-drag with the mouse (touch already swipes natively).
+    let dragging = false, dragMoved = false, startX = 0, startScroll = 0;
+    track.addEventListener("pointerdown", (e) => {
+      if (e.pointerType !== "mouse") return;
+      dragging = true; dragMoved = false;
+      startX = e.clientX; startScroll = track.scrollLeft;
+      pause();
+    });
+    window.addEventListener("pointermove", (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - startX;
+      if (Math.abs(dx) > 4) dragMoved = true;
+      track.scrollLeft = startScroll - dx;
+      pos = track.scrollLeft;
+    });
+    window.addEventListener("pointerup", () => {
+      if (!dragging) return;
+      dragging = false; resumeSoon();
+    });
+    // If the pointer was dragged, swallow the click so it doesn't navigate.
+    track.addEventListener("click", (e) => {
+      if (dragMoved) { e.preventDefault(); e.stopPropagation(); dragMoved = false; }
+    }, true);
+  }
 
   function startAutoScroll(track) {
     // Attach the interaction listeners only once; re-renders reuse them.
     if (!track.dataset.scroller) {
       track.dataset.scroller = "1";
-      const pause = () => { paused = true; clearTimeout(resumeTimer); };
-      const resumeSoon = () => {
-        clearTimeout(resumeTimer);
-        resumeTimer = setTimeout(() => { paused = false; }, RESUME_DELAY);
-      };
-      track.addEventListener("mouseenter", pause);
-      track.addEventListener("mouseleave", resumeSoon);
-      track.addEventListener("touchstart", pause, { passive: true });
-      track.addEventListener("touchend", resumeSoon, { passive: true });
-      track.addEventListener("focusin", pause);
-      track.addEventListener("focusout", resumeSoon);
-      track.addEventListener("wheel", () => { pause(); resumeSoon(); }, { passive: true });
-      track.addEventListener("pointerdown", pause);
-      track.addEventListener("pointerup", resumeSoon);
+      bindInteractions(track);
     }
 
     const reduceMotion = window.matchMedia
       && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    pos = track.scrollLeft || 0;
     if (rafId) cancelAnimationFrame(rafId);
     function tick() {
       const half = track.scrollWidth / 2; // width of one (un-duplicated) set
       if (half > 0) {
         if (!paused && !reduceMotion && track.clientWidth < half) {
-          track.scrollLeft += SCROLL_SPEED;
+          pos += SCROLL_SPEED;
+        } else {
+          // Stay in sync with whatever the user scrolled to manually.
+          pos = track.scrollLeft;
         }
-        // Wrap around whether moved by the timer or by the user dragging.
-        if (track.scrollLeft >= half) track.scrollLeft -= half;
+        // Seamless wrap: the second (duplicate) half is identical.
+        if (pos >= half) pos -= half;
+        if (pos < 0) pos = 0;
+        track.scrollLeft = pos;
       }
       rafId = requestAnimationFrame(tick);
     }
