@@ -1,5 +1,61 @@
 const NEWS_POSTS = [
   {
+    "date": "2026-06-18",
+    "title": "Euro Truck Simulator 2 update 1.60 is officially released",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/news/euro-truck-simulator-2-update-1-60-is-officially-released",
+    "summary": "SCS Software released Euro Truck Simulator 2 update 1.60 on June 18, 2026, bringing the Game Radio feature, improved materials and expanded rest mechanics out of beta."
+  },
+  {
+    "date": "2026-06-10",
+    "title": "BeamNG.drive's mod catalog passes 37,000 uploads",
+    "tag": "BeamNG.drive",
+    "url": "content/news/beamng-drive-s-mod-catalog-passes-37-000-uploads",
+    "summary": "Mod repository tracking shows BeamNG.drive has crossed 37,000 total mods, including more than 30,000 vehicles and thousands of maps and trucks."
+  },
+  {
+    "date": "2026-06-10",
+    "title": "Euro Truck Simulator 2's 1.60 Open Beta arrives with new visuals",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/news/euro-truck-simulator-2-s-1-60-open-beta-arrives-with-new-visuals",
+    "summary": "Ahead of the full release, SCS opened a 1.60 beta covering the updated Volvo FH Series 6, material system and lighting changes."
+  },
+  {
+    "date": "2026-06-05",
+    "title": "BeamNG.drive's 2026 modding scene leans into physics tuning and scenarios",
+    "tag": "BeamNG.drive",
+    "url": "content/news/beamng-drive-s-2026-modding-scene-leans-into-physics-tuning-and-scenarios",
+    "summary": "Reporting on BeamNG.drive's 0.38.x cycle highlighted modders focusing on suspension tuning, configurations and complex scenario creation rather than just new vehicles."
+  },
+  {
+    "date": "2026-06-04",
+    "title": "Assetto Corsa EVO's 0.7 update marks the start of official modding",
+    "tag": "Assetto Corsa",
+    "url": "content/news/assetto-corsa-evo-s-0-7-update-marks-the-start-of-official-modding",
+    "summary": "Traxion's coverage of the 0.7 release framed it as the beginning of Assetto Corsa EVO's modding era, with custom cars now possible through the new SDK."
+  },
+  {
+    "date": "2026-06-03",
+    "title": "Assetto Corsa EVO 0.7 ships the official Editor Tool SDK",
+    "tag": "Assetto Corsa",
+    "url": "content/news/assetto-corsa-evo-0-7-ships-the-official-editor-tool-sdk",
+    "summary": "Assetto Corsa EVO's 0.7 update added the first official release of its Editor Tool SDK, plus a new particle system and four cars."
+  },
+  {
+    "date": "2026-06-01",
+    "title": "Subnautica 2's Hotfix 3 eases base-building costs",
+    "tag": "Subnautica 2",
+    "url": "content/news/subnautica-2-s-hotfix-3-eases-base-building-costs",
+    "summary": "Hotfix 3 cut the cost of Interior Walls to a quarter of their previous price and reduced the Nibbler creature's perception range."
+  },
+  {
+    "date": "2026-06-01",
+    "title": "NaturalVision Enhanced's June 2026 update pushes GTA V's visuals further",
+    "tag": "GTA V",
+    "url": "content/news/naturalvision-enhanced-s-june-2026-update-pushes-gta-v-s-visuals-further",
+    "summary": "The NaturalVision Enhanced mod for GTA V Enhanced received a June 2026 update with reworked lighting, vehicle shaders and atmospheric effects."
+  },
+  {
     "date": "2026-05-30",
     "title": "ETS2 and ATS 1.60 add an expanded rest mechanic",
     "tag": "Euro Truck Simulator 2",
@@ -12,6 +68,13 @@ const NEWS_POSTS = [
     "tag": "Euro Truck Simulator 2",
     "url": "content/news/scs-previews-improved-material-systems-for-update-1-60",
     "summary": "The 1.60 update preview includes improved material systems, which can affect how trucks, trailers, interiors and map objects look under new lighting."
+  },
+  {
+    "date": "2026-05-28",
+    "title": "BeamNG.drive confirmed for PS5, with version 0.39 detailed",
+    "tag": "BeamNG.drive",
+    "url": "content/news/beamng-drive-confirmed-for-ps5-with-version-0-39-detailed",
+    "summary": "BeamNG.drive is coming to PlayStation 5 in 2026, and the studio detailed the parallel Early Access version 0.39 update for PC players."
   },
   {
     "date": "2026-05-27",
@@ -28,6 +91,13 @@ const NEWS_POSTS = [
     "summary": "The reported shutdown of RageMP pushed GTA V multiplayer modding back into the spotlight and reminded players how fragile unofficial multiplayer ecosystems can be."
   },
   {
+    "date": "2026-05-25",
+    "title": "Subnautica 2's EA1.1 roadmap teases new Biomods and a Leviathan zone",
+    "tag": "Subnautica 2",
+    "url": "content/news/subnautica-2-s-ea1-1-roadmap-teases-new-biomods-and-a-leviathan-zone",
+    "summary": "Unknown Worlds outlined an EA1.1 content drop for Subnautica 2 with new Biomods, Blight visibility changes and a teased new Leviathan area."
+  },
+  {
     "date": "2026-05-23",
     "title": "ETS2 and ATS 1.60 refresh the job widget",
     "tag": "Euro Truck Simulator 2",
@@ -35,11 +105,46 @@ const NEWS_POSTS = [
     "summary": "The job widget is being updated in 1.60, giving truck sim players a cleaner way to read delivery information while driving."
   },
   {
+    "date": "2026-05-22",
+    "title": "Subnautica 2 hotfix adds more Silver and Troilite resource areas",
+    "tag": "Subnautica 2",
+    "url": "content/news/subnautica-2-hotfix-adds-more-silver-and-troilite-resource-areas",
+    "summary": "A May 22 hotfix expanded Silver locations and late-game Troilite sources in Subnautica 2, alongside fish AI tweaks and performance work."
+  },
+  {
+    "date": "2026-05-20",
+    "title": "A 20,000-prop mega-mod brings GTA V's map into 2026",
+    "tag": "GTA V",
+    "url": "content/news/a-20-000-prop-mega-mod-brings-gta-v-s-map-into-2026",
+    "summary": "A solo modder's environmental overhaul adds roughly 20,000 trees and street props across GTA V's map, refreshing how the world looks more than a decade after release."
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Unknown Worlds reflects on Subnautica 2's early access launch",
+    "tag": "Subnautica 2",
+    "url": "content/news/unknown-worlds-reflects-on-subnautica-2-s-early-access-launch",
+    "summary": "Unknown Worlds shared an update on Subnautica 2's early access debut, discussing reception after the game's May 14 launch."
+  },
+  {
+    "date": "2026-05-15",
+    "title": "CyberMP multiplayer mod nears release after its most stable test yet",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/cybermp-multiplayer-mod-nears-release-after-its-most-stable-test-yet",
+    "summary": "The unreleased CyberMP mod, which adds PvP combat and races to Cyberpunk 2077, reportedly had its most stable internal test so far, with a 2026 release window in view."
+  },
+  {
     "date": "2026-05-14",
     "title": "Subnautica 2 enters Early Access",
     "tag": "Subnautica 2",
     "url": "content/news/subnautica-2-enters-early-access",
     "summary": "Subnautica 2 entered Early Access on May 14, 2026, creating a fresh wave of interest around survival tools, console commands and quality-of-life mods."
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Assetto Corsa EVO 0.6.3 focuses on stability fixes",
+    "tag": "Assetto Corsa",
+    "url": "content/news/assetto-corsa-evo-0-6-3-focuses-on-stability-fixes",
+    "summary": "A 0.6.3 patch for Assetto Corsa EVO targeted crash fixes, aiming to keep the Early Access build stable while modding tools were still in development."
   },
   {
     "date": "2026-05-07",
@@ -54,6 +159,13 @@ const NEWS_POSTS = [
     "tag": "Euro Truck Simulator 2",
     "url": "content/news/euro-truck-simulator-2-update-1-59-is-live",
     "summary": "ETS2 update 1.59 brought the Benelux Rework and a set of UI, traffic sound and gameplay changes that affect mod compatibility checks."
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Baldur's Gate 3's third annual Modathon draws hundreds of entries",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/baldur-s-gate-3-s-third-annual-modathon-draws-hundreds-of-entries",
+    "summary": "Nexus Mods ran the third Baldur's Gate 3 Modathon with weekly themes like Celestial and Shadows, drawing close to 400 community submissions."
   },
   {
     "date": "2026-04-29",
@@ -77,11 +189,109 @@ const NEWS_POSTS = [
     "summary": "Assetto Corsa EVO Early Access 0.6 added Sebring International Raceway, new cars and server-related improvements for sim racing players."
   },
   {
+    "date": "2026-04-15",
+    "title": "Larian adds 15 more approved console mods for April",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/larian-adds-15-more-approved-console-mods-for-april",
+    "summary": "A follow-up approval round brought 15 additional Baldur's Gate 3 console mods, including new races and subclasses, further narrowing the PC-console mod gap."
+  },
+  {
+    "date": "2026-04-10",
+    "title": "A 2026 roundup highlights GTA V's essential story and police mods",
+    "tag": "GTA V",
+    "url": "content/news/a-2026-roundup-highlights-gta-v-s-essential-story-and-police-mods",
+    "summary": "A current roundup of essential GTA V mods points to story-expansion mods and police vehicle overhauls as standout 2026 picks."
+  },
+  {
+    "date": "2026-04-08",
+    "title": "Night City Reborn's mod collection gets a major April update",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/night-city-reborn-s-mod-collection-gets-a-major-april-update",
+    "summary": "The Night City Reborn collection added a large batch of new content in its April 2026 update, continuing to be one of Cyberpunk 2077's most followed mod projects."
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Ad Astra brings a sci-fi expansion to Stardew Valley",
+    "tag": "Stardew Valley",
+    "url": "content/news/ad-astra-brings-a-sci-fi-expansion-to-stardew-valley",
+    "summary": "The Ad Astra mod adds a large free sci-fi themed expansion to Stardew Valley, going well beyond the game's usual farm-life setting."
+  },
+  {
     "date": "2026-03-17",
     "title": "CD Projekt says Cyberpunk 2077 will not get more major content",
     "tag": "Cyberpunk 2077",
     "url": "content/news/cd-projekt-says-cyberpunk-2077-will-not-get-more-major-content",
     "summary": "Cyberpunk 2077 is no longer expected to receive major new official content, which makes community mods more important for fresh playthroughs."
+  },
+  {
+    "date": "2026-03-15",
+    "title": "Larian approves 19 more Baldur's Gate 3 console mods",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/larian-approves-19-more-baldur-s-gate-3-console-mods",
+    "summary": "Larian Studios approved another wave of 19 community mods for Baldur's Gate 3 on console, continuing to narrow the gap with the PC mod scene."
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Cyberpunk 2077's Fresh Start mod adds a brand-new lifepath",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/cyberpunk-2077-s-fresh-start-mod-adds-a-brand-new-lifepath",
+    "summary": "The long-running Fresh Start mod received a major update adding a new lifepath storyline, giving returning players a fresh way to begin in Night City."
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Stardew Valley's Modfest fills March with fan-made content",
+    "tag": "Stardew Valley",
+    "url": "content/news/stardew-valley-s-modfest-fills-march-with-fan-made-content",
+    "summary": "Nexus Mods ran a Stardew Valley Modfest to mark a decade in the valley, with creators uploading new mods and joining themed community events."
+  },
+  {
+    "date": "2026-03-01",
+    "title": "What GTA V modding looks like as GTA 6 approaches",
+    "tag": "GTA V",
+    "url": "content/news/what-gta-v-modding-looks-like-as-gta-6-approaches",
+    "summary": "GTA Boom looked at how the GTA V modding community is treating 2026 as one last major run before attention shifts toward GTA 6."
+  },
+  {
+    "date": "2026-02-26",
+    "title": "A fresh 2026 list highlights Stardew Valley's most essential mods",
+    "tag": "Stardew Valley",
+    "url": "content/news/a-fresh-2026-list-highlights-stardew-valley-s-most-essential-mods",
+    "summary": "A roundup of essential Stardew Valley mods for 2026 points to expansion packs, quality-of-life tools and cheese-making content as current community favorites."
+  },
+  {
+    "date": "2026-02-24",
+    "title": "Stardew Valley's 10th anniversary livestream teases update 1.7",
+    "tag": "Stardew Valley",
+    "url": "content/news/stardew-valley-s-10th-anniversary-livestream-teases-update-1-7",
+    "summary": "ConcernedApe used the Stardew Valley 10th anniversary livestream to confirm new romance options and a future 1.7 update, without a release date yet."
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Path to Menzoberranzan keeps growing as one of BG3's biggest mods",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/path-to-menzoberranzan-keeps-growing-as-one-of-bg3-s-biggest-mods",
+    "summary": "The team behind Path to Menzoberranzan, one of the largest Baldur's Gate 3 mod projects in development, said 2026 is going well and is recruiting more contributors."
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Assetto Corsa EVO's 0.5.1 patch addressed early launch issues",
+    "tag": "Assetto Corsa",
+    "url": "content/news/assetto-corsa-evo-s-0-5-1-patch-addressed-early-launch-issues",
+    "summary": "An early 0.5.1 patch fixed a batch of issues from Assetto Corsa EVO's Early Access launch, smoothing out the base the sim's later updates built on."
+  },
+  {
+    "date": "2026-02-02",
+    "title": "Outdoor V: Canyon Forest mod expands Night City's Badlands",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/outdoor-v-canyon-forest-mod-expands-night-city-s-badlands",
+    "summary": "The Outdoor V: Canyon Forest mod adds a large new forest area to the edge of the Eastern Badlands for players to explore on foot or by vehicle."
+  },
+  {
+    "date": "2026-01-15",
+    "title": "A fresh guide rounds up the best GTA V mods to install now",
+    "tag": "GTA V",
+    "url": "content/news/a-fresh-guide-rounds-up-the-best-gta-v-mods-to-install-now",
+    "summary": "A 2026 guide collects currently recommended GTA V mods across graphics, vehicles and gameplay categories for players returning to the PC version."
   },
   {
     "date": "2025-07-17",
@@ -214,5 +424,185 @@ const GUIDE_POSTS = [
     "tag": "Subnautica 2",
     "url": "content/guides/how-to-read-ue4ss-mod-requirements",
     "summary": "Learn what to look for when a mod mentions UE4SS, loader folders, config files or enabled mod lists."
+  },
+  {
+    "title": "How to configure BeamNG.drive vehicle parts and customization mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-configure-beamng-drive-vehicle-parts-and-customization-mods",
+    "summary": "A guide to picking and combining BeamNG.drive part packs, body kits and engine swaps without breaking a vehicle's base configuration."
+  },
+  {
+    "title": "How to choose BeamNG.drive map mods for your hardware",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-choose-beamng-drive-map-mods-for-your-hardware",
+    "summary": "A practical look at picking BeamNG.drive maps that match your PC's performance instead of just downloading the biggest one available."
+  },
+  {
+    "title": "How to use BeamNG.drive scenario and mission mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-use-beamng-drive-scenario-and-mission-mods",
+    "summary": "An overview of how scenario and mission-style BeamNG.drive mods are packaged, and what to check before loading one for the first time."
+  },
+  {
+    "title": "How to install Assetto Corsa EVO car and track mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-install-assetto-corsa-evo-car-and-track-mods",
+    "summary": "A guide to the Assetto Corsa EVO Editor Tool SDK workflow for adding community-made cars and tracks as official mod support expands."
+  },
+  {
+    "title": "How to use Content Manager with Assetto Corsa mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-use-content-manager-with-assetto-corsa-mods",
+    "summary": "A practical look at using Content Manager to install, organize and enable Assetto Corsa car, track and app mods more safely than manual copying."
+  },
+  {
+    "title": "How to pick Assetto Corsa weather and shader mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-pick-assetto-corsa-weather-and-shader-mods",
+    "summary": "A guide to choosing weather, time-of-day and shader mods that fit your CSP setup without conflicting with existing visual tools."
+  },
+  {
+    "title": "How to troubleshoot Assetto Corsa mod conflicts",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-troubleshoot-assetto-corsa-mod-conflicts",
+    "summary": "A step-by-step approach to finding which Assetto Corsa mod is causing a crash or visual issue when several are installed at once."
+  },
+  {
+    "title": "How to back up Subnautica 2 saves before modding",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-back-up-subnautica-2-saves-before-modding",
+    "summary": "A simple backup routine for Subnautica 2 survival saves before testing any UE4SS-based mod for the first time."
+  },
+  {
+    "title": "How to choose Subnautica 2 quality-of-life mods",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-choose-subnautica-2-quality-of-life-mods",
+    "summary": "A guide to picking inventory, UI and console command mods that smooth out Subnautica 2 without removing its survival challenge."
+  },
+  {
+    "title": "How to update Subnautica 2 mods after a game patch",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-update-subnautica-2-mods-after-a-game-patch",
+    "summary": "What to check when a Subnautica 2 hotfix or content update breaks a previously working UE4SS mod."
+  },
+  {
+    "title": "How to find compatible UE4SS mod versions for Subnautica 2",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-find-compatible-ue4ss-mod-versions-for-subnautica-2",
+    "summary": "A guide to matching UE4SS loader versions with Subnautica 2 mods so they actually load instead of failing silently."
+  },
+  {
+    "title": "How to manage a large Stardew Valley mod list",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-manage-a-large-stardew-valley-mod-list",
+    "summary": "A guide to keeping a big Stardew Valley mod list organized using update checkers and clear folder naming."
+  },
+  {
+    "title": "How to combine Stardew Valley expansion mods without conflicts",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-combine-stardew-valley-expansion-mods-without-conflicts",
+    "summary": "A practical look at running multiple large Stardew Valley expansion mods together without breaking quests or map connections."
+  },
+  {
+    "title": "How to choose Stardew Valley gameplay and farming mods",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-choose-stardew-valley-gameplay-and-farming-mods",
+    "summary": "A guide to picking farming, crop and automation mods that fit the pace you want for your Stardew Valley save."
+  },
+  {
+    "title": "How to update Stardew Valley mods safely after a new patch",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-update-stardew-valley-mods-safely-after-a-new-patch",
+    "summary": "What Stardew Valley players should check on SMAPI and individual mod pages right after a new game update lands."
+  },
+  {
+    "title": "How to install GTA V graphics and visual overhaul mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-install-gta-v-graphics-and-visual-overhaul-mods",
+    "summary": "A guide to installing GTA V visual overhaul mods like lighting and shader packs without conflicting with other graphics tools."
+  },
+  {
+    "title": "How to pick GTA V police and emergency vehicle packs",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-pick-gta-v-police-and-emergency-vehicle-packs",
+    "summary": "A guide to choosing police, fire and EMS vehicle packs for GTA V that fit your game version and existing vehicle mods."
+  },
+  {
+    "title": "How to add GTA V story expansion and mission mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-add-gta-v-story-expansion-and-mission-mods",
+    "summary": "What to check before installing story-expansion or new-mission mods that add content on top of GTA V's main campaign."
+  },
+  {
+    "title": "How to keep a stable GTA V mod setup across script and ASI mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-keep-a-stable-gta-v-mod-setup-across-script-and-asi-mods",
+    "summary": "A guide to organizing GTA V script mods, ASI loaders and trainers so they do not conflict with each other."
+  },
+  {
+    "title": "How to choose ETS2 trailer and cargo mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-choose-ets2-trailer-and-cargo-mods",
+    "summary": "A guide to picking Euro Truck Simulator 2 trailer and cargo mods that match your map mods and DLC ownership."
+  },
+  {
+    "title": "How to set up ETS2 multiplayer-safe mod lists",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-set-up-ets2-multiplayer-safe-mod-lists",
+    "summary": "What Euro Truck Simulator 2 players should check before bringing a personal mod list into a multiplayer convoy."
+  },
+  {
+    "title": "How to pick ETS2 sound and engine mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-pick-ets2-sound-and-engine-mods",
+    "summary": "A guide to choosing engine sound and horn mods for Euro Truck Simulator 2 without breaking truck physics settings."
+  },
+  {
+    "title": "How to test ETS2 map mods after a major game update",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-test-ets2-map-mods-after-a-major-game-update",
+    "summary": "A safe testing routine for Euro Truck Simulator 2 map mods after a version update like 1.60 changes lighting or materials."
+  },
+  {
+    "title": "How to install Cyberpunk 2077 area expansion mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-install-cyberpunk-2077-area-expansion-mods",
+    "summary": "A guide to installing large area-expansion mods for Cyberpunk 2077 like new districts or Badlands locations."
+  },
+  {
+    "title": "How to choose Cyberpunk 2077 gameplay overhaul mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-choose-cyberpunk-2077-gameplay-overhaul-mods",
+    "summary": "A guide to picking gameplay-overhaul mods for Cyberpunk 2077 that match the difficulty and pace you want from Night City."
+  },
+  {
+    "title": "How to manage Cyberpunk 2077 ReShade and graphics mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-manage-cyberpunk-2077-reshade-and-graphics-mods",
+    "summary": "A practical guide to installing ReShade presets and graphics mods for Cyberpunk 2077 without conflicting with in-game settings."
+  },
+  {
+    "title": "How to prepare for a Cyberpunk 2077 multiplayer mod beta",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-prepare-for-a-cyberpunk-2077-multiplayer-mod-beta",
+    "summary": "What to check before joining an early multiplayer mod test for Cyberpunk 2077, including save backups and clean mod lists."
+  },
+  {
+    "title": "How to install large Baldur's Gate 3 mods like Path to Menzoberranzan",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-install-large-baldur-s-gate-3-mods-like-path-to-menzoberranzan",
+    "summary": "A guide to preparing for big, in-development Baldur's Gate 3 mods that add entire new regions or storylines."
+  },
+  {
+    "title": "How to enter Baldur's Gate 3 community Modathon-style content",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-enter-baldur-s-gate-3-community-modathon-style-content",
+    "summary": "A look at how Baldur's Gate 3 Modathon-style community events work and how players can find newly submitted mods early."
+  },
+  {
+    "title": "How to manage Baldur's Gate 3 console mod approvals",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-manage-baldur-s-gate-3-console-mod-approvals",
+    "summary": "A guide to understanding how approved Baldur's Gate 3 console mods differ from the full PC mod catalog."
   }
 ];
