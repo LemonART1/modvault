@@ -210,10 +210,8 @@
   }
 
   function bindInteractions(track) {
-    track.addEventListener("mouseenter", pause);
-    track.addEventListener("mouseleave", resumeSoon);
-    track.addEventListener("focusin", pause);
-    track.addEventListener("focusout", resumeSoon);
+    // Hovering alone does NOT pause the feed - only an actual interaction
+    // (touch, wheel, drag) does, handled below.
     track.addEventListener("touchstart", pause, { passive: true });
     track.addEventListener("touchend", resumeSoon, { passive: true });
 
