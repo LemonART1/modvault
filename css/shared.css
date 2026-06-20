@@ -948,6 +948,37 @@ body::after {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 8px 0 60px;
+}
+.page-btn {
+  min-width: 40px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  background: var(--dark3);
+  color: var(--text2);
+  font-family: var(--font-m);
+  font-size: 11px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+.page-btn:hover:not(:disabled),
+.page-btn.active {
+  color: var(--game-accent, var(--accent));
+  border-color: var(--game-accent, var(--accent));
+  background: color-mix(in srgb, var(--game-accent, var(--accent)) 10%, transparent);
+}
+.page-btn:disabled {
+  opacity: .35;
+  cursor: default;
+}
 
 @media (max-width: 900px) {
   .mod-detail-layout {

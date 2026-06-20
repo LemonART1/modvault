@@ -157,7 +157,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
-  <link rel="stylesheet" href="css/shared.css?v=12">
+  <link rel="stylesheet" href="css/shared.css?v=13">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">

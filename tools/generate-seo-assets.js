@@ -67,16 +67,20 @@ function stripManagedSeo(html) {
 function ensureStyles(html, file) {
   html = html.replace(/(<meta name="twitter:image"[^>]*>)\s*(<link rel="stylesheet")/g, "$1\n  $2");
 
-  const styles = ["css/shared.css?v=8"];
+  const styles = ["css/shared.css?v=13"];
   if (gamePages.includes(file)) {
     styles.push("css/gamepage.css?v=6");
   }
   styles.push("css/effects.css?v=6");
 
   for (const href of styles) {
-    if (!html.includes(`href="${href}"`)) {
-      html = html.replace("</head>", `\n  <link rel="stylesheet" href="${href}">\n</head>`);
-    }
+    // Strip any existing link to this stylesheet (any version, including
+    // stale duplicates left by older runs of this script), then add back
+    // exactly one fresh link with the current version.
+    const base = href.split("?")[0].replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const existingRe = new RegExp(`\\s*<link rel="stylesheet" href="${base}(?:\\?[^"]*)?">`, "g");
+    html = html.replace(existingRe, "");
+    html = html.replace("</head>", `\n  <link rel="stylesheet" href="${href}">\n</head>`);
   }
 
   return html;
