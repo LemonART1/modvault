@@ -1,7 +1,6 @@
 (function () {
   const SUPABASE_URL = "https://dccmwduvehkdrbxctmhf.supabase.co";
   const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_x6V_h5FGKgq-eMF7WqY6eQ_5f2n2dpz";
-  const ADMIN_EMAILS = ["nbolilij@gmail.com"];
   const CURRENT_USER_KEY = "modvault-current-user";
   let knownUser = null;
 
@@ -17,10 +16,6 @@
 
   function getDisplayName(user) {
     return user?.user_metadata?.username || user?.email?.split("@")[0] || "Account";
-  }
-
-  function isAdmin(user) {
-    return ADMIN_EMAILS.includes(String(user?.email || "").toLowerCase());
   }
 
   function getCachedUser() {
@@ -124,7 +119,7 @@
     const links = Array.from(nav.querySelectorAll("a.nav-link"));
     let link =
       nav.querySelector('a[data-account-link="true"]') ||
-      links.find(item => !item.classList.contains("admin-nav-link") && /account\.html$/i.test(item.getAttribute("href") || "")) ||
+      links.find(item => !item.classList.contains("admin-nav-link") && /(^|\/)account(\.html)?$/i.test(item.getAttribute("href") || "")) ||
       links.find(item => !item.classList.contains("admin-nav-link") && /login|admin|account/i.test(item.textContent || "")) ||
       links[links.length - 1];
     if (!link) return;
@@ -132,37 +127,18 @@
     link.classList.add("nav-link");
     link.dataset.accountLink = "true";
 
-    const adminLinks = Array.from(nav.querySelectorAll(".admin-nav-link"));
-    adminLinks.slice(1).forEach(item => item.remove());
-    let adminLink = adminLinks[0] || null;
+    // Remove any stale admin links (the public admin page was removed).
+    nav.querySelectorAll(".admin-nav-link").forEach(item => item.remove());
 
     if (!user) {
-      if (adminLink) adminLink.remove();
-      link.href = "account.html";
+      link.href = "account";
       link.textContent = "Login";
       link.title = "Log in";
       return;
     }
 
     const name = getDisplayName(user);
-    if (isAdmin(user)) {
-      if (!adminLink) {
-        adminLink = document.createElement("a");
-        nav.insertBefore(adminLink, link);
-      }
-      adminLink.href = "admin.html";
-      adminLink.className = "nav-link admin-nav-link";
-      adminLink.textContent = "Add Mods";
-      adminLink.title = "Add mods";
-
-      link.href = "account.html";
-      link.textContent = name.length > 14 ? `${name.slice(0, 13)}...` : name;
-      link.title = `Admin: ${name}`;
-      return;
-    }
-
-    if (adminLink) adminLink.remove();
-    link.href = "account.html";
+    link.href = "account";
     link.textContent = name.length > 14 ? `${name.slice(0, 13)}...` : name;
     link.title = name;
   }
@@ -191,8 +167,6 @@
     getCachedUser,
     cacheUser,
     clearCachedUser,
-    getDisplayName,
-    isAdmin,
-    adminEmails: ADMIN_EMAILS
+    getDisplayName
   };
 })();

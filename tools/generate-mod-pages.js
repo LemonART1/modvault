@@ -123,7 +123,7 @@ ${staticModContent(mod, game)}
 ${footer}
 <script src="js/data/mods.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase-client.js?v=14"></script>
+<script src="js/supabase-client.js?v=15"></script>
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script>
 <script src="js/pages/mod-detail.js"></script>
