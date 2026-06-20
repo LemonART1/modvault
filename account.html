@@ -22,6 +22,19 @@
   <meta name="twitter:image" content="https://modvault.space/images/og-default.svg">
   <link rel="stylesheet" href="css/shared.css?v=7">
   <link rel="stylesheet" href="css/effects.css?v=6">
+  <style>
+    .account-section { margin-top: 22px; }
+    .account-section h2 { margin-bottom: 14px; }
+    .account-list { display: flex; flex-direction: column; gap: 10px; }
+    .account-item-row { display: flex; align-items: center; gap: 12px; justify-content: space-between; }
+    .account-item { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; flex: 1; min-width: 0; }
+    .account-item img, .account-item-noimg { width: 56px; height: 40px; object-fit: cover; border-radius: 6px; background: var(--dark2, #12141b); flex-shrink: 0; }
+    .account-item-text { display: flex; flex-direction: column; min-width: 0; }
+    .account-item-text strong { color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .account-item-text span { font-size: 12px; color: var(--text3, #8b90a0); }
+    .account-empty, .account-loading { color: var(--text3, #8b90a0); font-size: 14px; }
+    .account-item-row .btn { flex-shrink: 0; }
+  </style>
 </head>
 <body style="--game-accent:#e8ff00">
 <header class="site-header">
@@ -56,6 +69,8 @@
       <button class="btn btn-ghost" id="logout-button" type="button">Log out</button>
     </div>
 
+    <div id="account-dashboard"></div>
+
     <section class="auth-card" id="auth-card">
       <div class="content-panel auth-panel active" id="login-panel">
         <h2>Log in</h2>
@@ -84,9 +99,11 @@
 </main>
 
 <footer class="site-footer"><div class="container footer-inner"><a href="/" class="footer-logo">MOD<span>VAULT</span></a><div class="footer-copy">CURATED MODS FOR POPULAR GAMES</div><div class="footer-links"><a href="news">News</a><a href="guides">Guides</a><a href="about">About</a><a href="contact">Contact</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="copyright">Copyright</a></div></div></footer>
+<script src="js/data/mods.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=15"></script>
 <script src="js/auth.js?v=12"></script>
+<script src="js/account.js?v=1"></script>
 <script>document.addEventListener("DOMContentLoaded", ModVaultAuth.initAccountPage);</script>
 <script src="js/site-search.js?v=7"></script>
 </body>

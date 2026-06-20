@@ -54,6 +54,7 @@ function initModDetail(modId) {
           </div>
           <a class="modal-dl-btn mod-detail-download" href="${esc(mod.downloadUrl)}" target="_blank" rel="noopener" onclick="recordCurrentDownload(${mod.id})">Download Mod</a>
           <p class="dl-hint">Hosted on an external file service - click to proceed</p>
+          <div class="mod-detail-fav" id="mod-detail-fav" style="margin-top:14px"></div>
         </article>
       </div>
     </section>
@@ -71,11 +72,14 @@ function initModDetail(modId) {
     ModVaultStats.recordModView(mod.id),
     ModVaultStats.hydrateModStats([mod])
   ]).then(() => refreshCurrentModStats(mod));
+
+  if (window.ModVaultAccount) ModVaultAccount.mountFavoriteButton(mod);
 }
 
 async function recordCurrentDownload(modId) {
   const mod = MODS.find(item => item.id === modId);
   if (!mod) return;
+  if (window.ModVaultAccount) ModVaultAccount.recordUserDownload(modId);
   await ModVaultStats.recordDownload(modId);
   await ModVaultStats.hydrateModStats([mod]);
   refreshCurrentModStats(mod);

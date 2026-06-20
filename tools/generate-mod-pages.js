@@ -126,7 +126,8 @@ ${footer}
 <script src="js/supabase-client.js?v=15"></script>
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script>
-<script src="js/pages/mod-detail.js"></script>
+<script src="js/account.js?v=1"></script>
+<script src="js/pages/mod-detail.js?v=2"></script>
 <script>initModDetail(${mod.id});</script>
 </body>
 </html>
