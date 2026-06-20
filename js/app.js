@@ -199,7 +199,7 @@ function buildGrid(gameKey) {
           <span>${esc(mod.size)}</span>
           <span>${renderStars(stats.ratingAverage)} ${ModVaultStats.formatRating(stats.ratingAverage)}</span>
           <span>${ModVaultStats.formatCompact(stats.downloads)} downloads</span>
-          <span class="card-meta-muted">&#128065; ${ModVaultStats.formatCompact(stats.views)} views</span>
+          <span class="card-meta-muted">${ModVaultStats.formatCompact(stats.views)} views</span>
         </div>
       </div>
     </a>

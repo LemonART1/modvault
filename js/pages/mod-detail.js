@@ -27,7 +27,7 @@ function initModDetail(modId) {
           ` : ""}
         </div>
         <article class="mod-detail-copy">
-          <div class="mod-detail-views">&#128065; ${ModVaultStats.formatCompact(stats.views)} views</div>
+          <div class="mod-detail-views">${ModVaultStats.formatCompact(stats.views)} views</div>
           <div class="modal-breadcrumb">
             <a class="bc-back" href="${esc(game.page)}">Back to ${esc(game.shortName)}</a>
             <span class="sep">/</span>
@@ -109,7 +109,7 @@ function refreshCurrentModStats(mod, message = "") {
   const downloadsEl = document.getElementById("mod-downloads");
   const ratingEl = document.getElementById("mod-rating");
   const summaryEl = document.getElementById("rating-summary");
-  if (viewsEl) viewsEl.innerHTML = `&#128065; ${ModVaultStats.formatCompact(stats.views)} views`;
+  if (viewsEl) viewsEl.innerHTML = `${ModVaultStats.formatCompact(stats.views)} views`;
   if (downloadsEl) downloadsEl.textContent = ModVaultStats.formatCompact(stats.downloads);
   if (ratingEl) ratingEl.textContent = ModVaultStats.formatRating(stats.ratingAverage);
   if (summaryEl) {

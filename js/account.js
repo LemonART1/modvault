@@ -163,7 +163,7 @@
       </div>`;
     }).join("");
     return `<section class="content-panel account-section">
-      <h2>&#128276; Updates (${updates.length})</h2>
+      <h2>Updates (${updates.length})</h2>
       <div class="account-list">${rows}</div>
     </section>`;
   }
@@ -177,7 +177,7 @@
       </div>`;
     }).join("");
     return `<section class="content-panel account-section">
-      <h2>&#11088; Favorites (${favorites.length})</h2>
+      <h2>Favorites (${favorites.length})</h2>
       ${favorites.length
         ? `<div class="account-list">${rows}</div>`
         : `<p class="account-empty">No favorites yet. Open any mod and press &ldquo;Add to favorites&rdquo;.</p>`}
@@ -193,7 +193,7 @@
       </div>`;
     }).join("");
     return `<section class="content-panel account-section">
-      <h2>&#128229; Download history</h2>
+      <h2>Download history</h2>
       ${downloads.length
         ? `<div class="account-list">${rows}</div>`
         : `<p class="account-empty">No downloads yet.</p>`}
