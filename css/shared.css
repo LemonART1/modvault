@@ -595,13 +595,20 @@ body::after {
   color: var(--game-accent, var(--accent));
   text-shadow: 0 0 10px color-mix(in srgb, var(--game-accent, var(--accent)) 28%, transparent);
 }
-.rating-control {
+.mod-detail-actions-row {
   position: relative;
   z-index: 3;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
   margin: 0 0 26px;
+}
+.rating-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--text2);
 }
 .rating-stars {

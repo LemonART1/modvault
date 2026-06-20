@@ -46,15 +46,17 @@ function initModDetail(modId) {
           <div class="modal-tags">
             ${mod.tags.filter(Boolean).map(tag => `<a class="tag" href="${esc(game.page)}?tag=${encodeURIComponent(tag)}">${esc(tag)}</a>`).join("")}
           </div>
-          <div class="rating-control">
-            <div class="rating-stars" aria-label="Rate this mod">
-              ${[1,2,3,4,5].map(value => `<button class="rating-star-btn ${value <= stats.userRating ? "active" : ""}" type="button" onclick="rateCurrentMod(${mod.id}, ${value})">&#9733;</button>`).join("")}
+          <div class="mod-detail-actions-row">
+            <div class="mod-detail-fav" id="mod-detail-fav"></div>
+            <div class="rating-control">
+              <div class="rating-stars" aria-label="Rate this mod">
+                ${[1,2,3,4,5].map(value => `<button class="rating-star-btn ${value <= stats.userRating ? "active" : ""}" type="button" onclick="rateCurrentMod(${mod.id}, ${value})">&#9733;</button>`).join("")}
+              </div>
+              <div class="rating-summary" id="rating-summary">${ModVaultStats.formatRating(stats.ratingAverage)} / 5 from ${stats.ratingCount} votes</div>
             </div>
-            <div class="rating-summary" id="rating-summary">${ModVaultStats.formatRating(stats.ratingAverage)} / 5 from ${stats.ratingCount} votes</div>
           </div>
           <a class="modal-dl-btn mod-detail-download" href="${esc(mod.downloadUrl)}" target="_blank" rel="noopener" onclick="recordCurrentDownload(${mod.id})">Download Mod</a>
           <p class="dl-hint">Hosted on an external file service - click to proceed</p>
-          <div class="mod-detail-fav" id="mod-detail-fav" style="margin-top:14px"></div>
         </article>
       </div>
     </section>
