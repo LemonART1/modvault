@@ -1,0 +1,183 @@
+function initModDetail(modId) {
+  const mod = MODS.find(item => item.id === modId);
+  if (!mod) return;
+
+  const game = GAMES[mod.game];
+  const images = getModImages(mod);
+  const stats = ModVaultStats.getModStats(mod);
+  const root = document.getElementById("mod-detail");
+  document.title = `${mod.title} - ${game.name} Mods - ModVault`;
+  document.querySelector('meta[name="description"]')?.setAttribute("content", mod.short);
+
+  root.innerHTML = `
+    <section class="mod-detail-hero">
+      <div class="container mod-detail-layout">
+        <div class="mod-detail-media">
+          <div class="mod-detail-main-img" id="mod-detail-main-img" style="${thumbBg(mod)}">
+            ${images.length ? `<img src="${esc(images[0])}" alt="${esc(mod.title)} screenshot">` : svgPlaceholderLg()}
+          </div>
+          ${images.length > 1 ? `
+            <div class="mod-detail-thumbs">
+              ${images.map((src, index) => `
+                <button class="mod-detail-thumb ${index === 0 ? "active" : ""}" type="button" onclick="setModDetailImage('${esc(src)}', ${index})">
+                  <img src="${esc(src)}" alt="${esc(mod.title)} screenshot ${index + 1}">
+                </button>
+              `).join("")}
+            </div>
+          ` : ""}
+        </div>
+        <article class="mod-detail-copy">
+          <div class="mod-detail-views">&#128065; ${ModVaultStats.formatCompact(stats.views)} views</div>
+          <div class="modal-breadcrumb">
+            <a class="bc-back" href="${esc(game.page)}">Back to ${esc(game.shortName)}</a>
+            <span class="sep">/</span>
+            <span>${esc(game.name)}</span>
+            <span class="sep">/</span>
+            <span>${esc(catLabel(mod.game, mod.category))}</span>
+          </div>
+          <h1 class="modal-title">${esc(mod.title)}</h1>
+          <p class="modal-short">${esc(mod.short)}</p>
+          <div class="modal-stats" style="--stat-count:4">
+            <div class="modal-stat"><span class="stat-val">v${esc(mod.version)}</span><span class="stat-lbl">Version</span></div>
+            <div class="modal-stat"><span class="stat-val">${esc(mod.size)}</span><span class="stat-lbl">File size</span></div>
+            <div class="modal-stat"><span class="stat-val" id="mod-downloads">${ModVaultStats.formatCompact(stats.downloads)}</span><span class="stat-lbl">Downloads</span></div>
+            <div class="modal-stat"><span class="stat-val" id="mod-rating">${ModVaultStats.formatRating(stats.ratingAverage)}</span><span class="stat-lbl">Rating</span></div>
+          </div>
+          <div class="modal-tags">
+            ${mod.tags.filter(Boolean).map(tag => `<a class="tag" href="${esc(game.page)}?tag=${encodeURIComponent(tag)}">${esc(tag)}</a>`).join("")}
+          </div>
+          <div class="rating-control">
+            <div class="rating-stars" aria-label="Rate this mod">
+              ${[1,2,3,4,5].map(value => `<button class="rating-star-btn ${value <= stats.userRating ? "active" : ""}" type="button" onclick="rateCurrentMod(${mod.id}, ${value})">&#9733;</button>`).join("")}
+            </div>
+            <div class="rating-summary" id="rating-summary">${ModVaultStats.formatRating(stats.ratingAverage)} / 5 from ${stats.ratingCount} votes</div>
+          </div>
+          <a class="modal-dl-btn mod-detail-download" href="${esc(mod.downloadUrl)}" target="_blank" rel="noopener" onclick="recordCurrentDownload(${mod.id})">Download Mod</a>
+          <p class="dl-hint">Hosted on an external file service - click to proceed</p>
+        </article>
+      </div>
+    </section>
+    <section class="mod-detail-about">
+      <div class="container">
+        <div class="modal-desc-section">
+          <h2>About this mod</h2>
+          <p class="modal-desc-text">${esc(mod.description)}</p>
+        </div>
+      </div>
+    </section>
+  `;
+
+  Promise.allSettled([
+    ModVaultStats.recordModView(mod.id),
+    ModVaultStats.hydrateModStats([mod])
+  ]).then(() => refreshCurrentModStats(mod));
+}
+
+async function recordCurrentDownload(modId) {
+  const mod = MODS.find(item => item.id === modId);
+  if (!mod) return;
+  await ModVaultStats.recordDownload(modId);
+  await ModVaultStats.hydrateModStats([mod]);
+  refreshCurrentModStats(mod);
+}
+
+async function rateCurrentMod(modId, rating) {
+  const mod = MODS.find(item => item.id === modId);
+  if (!mod) return;
+  setRatingButtons(rating);
+  const summaryEl = document.getElementById("rating-summary");
+  if (summaryEl) summaryEl.textContent = "Saving rating...";
+
+  try {
+    const stats = await ModVaultStats.rateMod(mod, rating);
+    refreshCurrentModStats(mod, stats.error);
+    if (stats.error) setRatingButtons(rating);
+  } catch (error) {
+    refreshCurrentModStats(mod, error.message || "Could not save rating.");
+    setRatingButtons(rating);
+  }
+}
+
+function refreshCurrentModStats(mod, message = "") {
+  const stats = ModVaultStats.getModStats(mod);
+  setRatingButtons(stats.userRating);
+  const viewsEl = document.querySelector(".mod-detail-views");
+  const downloadsEl = document.getElementById("mod-downloads");
+  const ratingEl = document.getElementById("mod-rating");
+  const summaryEl = document.getElementById("rating-summary");
+  if (viewsEl) viewsEl.innerHTML = `&#128065; ${ModVaultStats.formatCompact(stats.views)} views`;
+  if (downloadsEl) downloadsEl.textContent = ModVaultStats.formatCompact(stats.downloads);
+  if (ratingEl) ratingEl.textContent = ModVaultStats.formatRating(stats.ratingAverage);
+  if (summaryEl) {
+    summaryEl.textContent = message || `${ModVaultStats.formatRating(stats.ratingAverage)} / 5 from ${stats.ratingCount} votes`;
+  }
+}
+
+function setRatingButtons(value) {
+  document.querySelectorAll(".rating-star-btn").forEach((button, index) => {
+    button.classList.toggle("active", index < Number(value || 0));
+  });
+}
+
+function getModImages(mod) {
+  const list = Array.isArray(mod.images) ? mod.images : [mod.image];
+  return list.filter(Boolean).slice(0, 3);
+}
+
+function setModDetailImage(src, index) {
+  const imgWrap = document.getElementById("mod-detail-main-img");
+  if (!imgWrap) return;
+  imgWrap.innerHTML = `<img src="${esc(src)}" alt="Mod screenshot">`;
+  document.querySelectorAll(".mod-detail-thumb").forEach((button, i) => {
+    button.classList.toggle("active", i === index);
+  });
+}
+
+function catLabel(gameKey, cat) {
+  return CATEGORIES[gameKey]?.[normalizeCategory(gameKey, cat)] ?? cat;
+}
+
+function normalizeCategory(gameKey, cat) {
+  const normalized = String(cat ?? "").trim().toLowerCase().replace(/_/g, "-");
+  const aliases = {
+    beamng: { car: "cars", configs: "other", parts: "other" },
+    ac: { tools: "apps", motorcycles: "cars" },
+    subnautica2: { tools: "miscellaneous", creatures: "gameplay", ui: "ui" },
+    stardew: { tools: "modding-tools", visuals: "visuals-graphics", gameplay: "gameplay-mechanics", animals: "livestock-animals", "user-interface": "ui" },
+    gta5: { characters: "player", graphics: "other" },
+    ets2: { traffic: "other", characters: "other" },
+    cyberpunk: { resources: "modders-resources", props: "props-decorations", ui: "user-interface", visuals: "visuals-graphics" },
+    bg3: { characters: "character-customisation", ui: "user-interface" }
+  };
+  return aliases[gameKey]?.[normalized] || normalized;
+}
+
+function thumbBg(mod) {
+  const palettes = {
+    cars: "#0e1018", trucks: "#100e18", maps: "#0e1810", configs: "#0e1518",
+    parts: "#18100e", tracks: "#18180e", apps: "#0e1818", skins: "#180e18",
+    tools: "#0e1418", creatures: "#0b1820", ui: "#101525", biomes: "#0b1714",
+    expansions: "#10180e", visuals: "#161126", crops: "#12180e", graphics: "#14131f",
+    vehicles: "#0e1018", scripts: "#18120e", interiors: "#18140e", traffic: "#13181a",
+    gameplay: "#181018", characters: "#17101f", spells: "#101224"
+  };
+  const c = palettes[normalizeCategory(mod.game, mod.category)] ?? "#0e1018";
+  const accent = GAMES[mod.game]?.accent ?? "#e8ff00";
+  return `background:linear-gradient(135deg,${c},rgba(5,6,10,.94)),radial-gradient(circle at 80% 20%,${accent}22,transparent 45%);`;
+}
+
+function svgPlaceholderLg() {
+  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width=".6" style="width:80px;height:80px;opacity:.08">
+    <rect x="2" y="7" width="20" height="14" rx="2"/>
+    <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+    <line x1="12" y1="12" x2="12" y2="16"/>
+    <line x1="10" y1="14" x2="14" y2="14"/>
+  </svg>`;
+}
+
+function esc(str) {
+  return String(str ?? "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;")
+    .replace(/'/g,"&#39;");
+}

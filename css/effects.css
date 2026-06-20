@@ -1,0 +1,280 @@
+/* ============================================================
+   effects.css - particles, reveals, subtle interaction polish
+   ============================================================ */
+
+/* CLICK FEEDBACK */
+.tap-flash {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99997;
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  border: 1px solid color-mix(in srgb, var(--game-accent, var(--accent)) 70%, transparent);
+  background: color-mix(in srgb, var(--game-accent, var(--accent)) 18%, transparent);
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: tapFlash .32s ease-out forwards;
+}
+@keyframes tapFlash {
+  to {
+    width: 34px;
+    height: 34px;
+    opacity: 0;
+    border-color: color-mix(in srgb, var(--game-accent, var(--accent)) 0%, transparent);
+  }
+}
+
+/* PARTICLE CANVAS */
+#particle-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* SCROLL REVEAL */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity .85s cubic-bezier(.2,.7,.2,1),
+    transform .85s cubic-bezier(.2,.7,.2,1),
+    border-color .22s,
+    box-shadow .22s;
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* HERO GLITCH */
+.hero-title {
+  position: relative;
+}
+.hero-title.glitch::before,
+.hero-title.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  white-space: pre-line;
+  pointer-events: none;
+}
+.hero-title.glitch::before {
+  color: rgba(0,255,200,.6);
+  clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
+  animation: glitchA .3s steps(2) forwards;
+}
+.hero-title.glitch::after {
+  color: rgba(255,80,20,.5);
+  clip-path: polygon(0 60%, 100% 60%, 100% 75%, 0 75%);
+  animation: glitchB .3s steps(2) forwards;
+}
+@keyframes glitchA {
+  0%   { transform: translateX(0); }
+  25%  { transform: translateX(-6px) skewX(-2deg); }
+  50%  { transform: translateX(4px); }
+  75%  { transform: translateX(-2px) skewX(1deg); }
+  100% { transform: translateX(0); }
+}
+@keyframes glitchB {
+  0%   { transform: translateX(0); }
+  25%  { transform: translateX(6px) skewX(2deg); }
+  50%  { transform: translateX(-4px); }
+  75%  { transform: translateX(2px) skewX(-1deg); }
+  100% { transform: translateX(0); }
+}
+
+/* CARD HOVER LIGHT */
+.mod-card,
+.feat-item,
+.game-card {
+  position: relative;
+  overflow: hidden;
+}
+.mod-card::after,
+.feat-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    color-mix(in srgb, var(--game-accent, var(--accent)) 5%, transparent) 50%,
+    transparent 60%
+  );
+  transform: translateX(-100%);
+  transition: transform .6s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.mod-card:hover::after,
+.feat-item:hover::after {
+  transform: translateX(100%);
+}
+.mod-card::before,
+.game-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(
+    220px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in srgb, var(--game-accent, var(--accent)) 13%, transparent),
+    transparent 58%
+  );
+  transition: opacity .22s ease;
+  z-index: 1;
+}
+.mod-card:hover::before,
+.game-card:hover::after {
+  opacity: 1;
+}
+
+/* FEATURED CARD BORDER GLOW ON HOVER */
+.feat-item {
+  transition:
+    border-color .22s,
+    transform .3s cubic-bezier(.4,0,.2,1),
+    box-shadow .3s;
+}
+.feat-item:hover {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--game-accent, var(--accent)) 22%, transparent),
+              0 16px 48px rgba(0,0,0,.5);
+}
+
+/* HOME MENU */
+.home-page .game-card {
+  opacity: 1;
+  animation: menuCardIn 1.35s cubic-bezier(.16,1,.3,1);
+}
+.home-page .game-card:nth-child(1) {
+  animation-delay: .18s;
+}
+.home-page .game-card:nth-child(2) {
+  animation-delay: .36s;
+}
+.home-page .game-card:nth-child(3) { animation-delay: .54s; }
+.home-page .game-card:nth-child(4) { animation-delay: .72s; }
+.home-page .game-card:nth-child(5) { animation-delay: .90s; }
+.home-page .game-card:nth-child(6) { animation-delay: 1.08s; }
+.home-page .game-card:nth-child(7) { animation-delay: 1.26s; }
+.home-page .game-card:nth-child(8) { animation-delay: 1.44s; }
+.home-page .game-card::before {
+  animation: menuPulse 4.5s ease-in-out infinite;
+}
+.home-page .game-card.menu-ready {
+  animation-name: menuCardIn;
+}
+.game-card-num {
+  transition: opacity .4s, transform .4s;
+  transform: scale(.9);
+}
+.game-card:hover .game-card-num {
+  opacity: .14 !important;
+  transform: scale(1.1);
+}
+@keyframes menuCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(34px) scale(.96);
+    filter: blur(10px);
+  }
+  58% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+@keyframes menuPulse {
+  0%, 100% { opacity: .12; }
+  50%      { opacity: .42; }
+}
+
+/* MODAL OPEN ANIMATION */
+.modal-overlay.open .modal-box {
+  animation: modalIn .3s cubic-bezier(.34,1.4,.64,1) both;
+}
+@keyframes modalIn {
+  from { transform: scale(.94) translateY(16px); opacity: 0; }
+  to   { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* DOWNLOAD BUTTON PULSE */
+.modal-dl-btn {
+  animation: btnPulse 2.5s ease-in-out infinite;
+}
+.modal-dl-btn:hover { animation: none; }
+@keyframes btnPulse {
+  0%,100% { box-shadow: 0 0 20px color-mix(in srgb, var(--game-accent, var(--accent)) 20%, transparent); }
+  50%     { box-shadow: 0 0 44px color-mix(in srgb, var(--game-accent, var(--accent)) 42%, transparent), 0 0 80px color-mix(in srgb, var(--game-accent, var(--accent)) 12%, transparent); }
+}
+
+/* NAV LINK UNDERLINE SLIDE */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 14px;
+  right: 14px;
+  height: 1px;
+  background: var(--game-accent, var(--accent));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .25s ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* PAGE LOAD FADE IN */
+.page {
+  animation: pageFade .4s ease both;
+}
+@keyframes pageFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* SMALL HOVER STATES */
+.logo {
+  transition: text-shadow .3s;
+}
+.logo:hover {
+  text-shadow: 0 0 20px color-mix(in srgb, var(--game-accent, var(--accent)) 42%, transparent);
+}
+.tag {
+  transition: border-color .18s, color .18s, transform .18s, box-shadow .18s;
+}
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--game-accent, var(--accent)) 12%, transparent);
+}
+.sort-select:focus,
+.hero-search:focus {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--game-accent, var(--accent)) 18%, transparent);
+}
+
+@media (max-width: 768px) {
+  .hero-title.glitch::before,
+  .hero-title.glitch::after {
+    display: none;
+  }
+}

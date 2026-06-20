@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ModVault — AI & Auto-ID Turbo Админка</title>
+    <style>
+        body { background-color: #0b0c10; color: #c5c6c7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 30px; margin: 0; }
+        .container { max-width: 850px; margin: 0 auto; background: #1f2833; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); }
+        h2 { color: #fff; margin-top: 0; font-size: 24px; border-bottom: 2px solid #ff5014; padding-bottom: 10px; margin-bottom: 20px; }
+        .row { display: flex; gap: 20px; }
+        .col { flex: 1; }
+        .form-group { margin-bottom: 18px; }
+        label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 600; color: #95989a; }
+        input, select, textarea { width: 100%; padding: 10px; background: #0b0c10; border: 1px solid #45f3ff33; border-radius: 6px; color: #fff; box-sizing: border-box; font-size: 14px; }
+        input:focus, select:focus, textarea:focus { border-color: #ff5014; outline: none; box-shadow: 0 0 5px rgba(255, 80, 20, 0.4); }
+        
+        input[type="file"] { padding: 8px; cursor: pointer; }
+        .checkbox-group { display: flex; align-items: center; gap: 10px; margin-top: 30px; }
+        .checkbox-group input { width: auto; cursor: pointer; }
+        
+        button { background: #ff5014; color: white; border: none; padding: 14px 20px; font-size: 16px; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 15px; transition: 0.2s; }
+        button:hover { background: #e0430f; transform: translateY(-1px); }
+        
+        .ai-btn { background: #45f3ff; color: #0b0c10; width: auto; padding: 10px 20px; margin-top: 5px; font-size: 13px; font-weight: bold; }
+        .ai-btn:hover { background: #2bcdd9; }
+        .ai-btn:disabled { background: #444; color: #888; cursor: not-allowed; }
+
+        .output-box { margin-top: 25px; background: #000; padding: 20px; border-radius: 6px; position: relative; border: 1px solid #333; }
+        pre { margin: 0; white-space: pre-wrap; word-wrap: break-word; color: #66ff66; font-family: 'Consolas', monospace; font-size: 13px; }
+        .copy-btn { position: absolute; top: 15px; right: 15px; background: #222; border: 1px solid #444; width: auto; padding: 6px 12px; font-size: 12px; margin: 0; color: #fff; cursor: pointer; }
+        .copy-btn:hover { background: #ff5014; border-color: #ff5014; }
+        
+        .status-msg { font-size: 12px; margin-top: 4px; display: block; }
+        .loading-spy { color: #ff5014; font-weight: bold; display: none; margin-left: 10px; animation: blink 1.5s infinite; }
+        .admin-locked { max-width: 680px; margin: 90px auto; background: #1f2833; border: 1px solid #333; border-radius: 12px; padding: 28px; text-align: center; }
+        .admin-locked a { color: #45f3ff; }
+        .admin-tools { display: grid; gap: 10px; margin-top: 16px; }
+        .admin-tools button { margin-top: 0; background: #2d3542; }
+        .admin-tools button:hover { background: #3a4658; }
+        
+        @keyframes blink { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+    </style>
+</head>
+<body>
+
+<div class="admin-locked" id="adminLocked">
+    <h2>Admin access</h2>
+    <p>Войди под аккаунтом <strong>nbolilij@gmail.com</strong>, чтобы открыть админку.</p>
+    <p><a href="account.html">Go to Login</a></p>
+</div>
+
+<div class="container" id="adminApp" style="display:none">
+    <h2>Добавление мода в ModVault (Official Gemini API)</h2>
+
+    <div class="form-group" style="background: #1a232d; padding: 15px; border-radius: 8px; border: 1px dashed #45f3ff55; margin-bottom: 25px;">
+        <label style="color: #45f3ff; font-size: 15px;">🤖 Шаг 1: Закинь огромное грязное описание для ИИ обработки:</label>
+        <textarea id="aiRawText" rows="6" placeholder="Вставь сюда сырой текст, характеристики, косяки, комплектации с любого сайта..."></textarea>
+        <button type="button" class="ai-btn" id="aiRunBtn" onclick="processTextWithAI()">Запустить Нейро-Магию ✨</button>
+        <span id="aiLoading" class="loading-spy">Gemini обрабатывает и переводит текст...</span>
+    </div>
+
+    <div class="row">
+        <div class="form-group col">
+            <label for="game">Игра</label>
+            <select id="game" onchange="updateCategories()">
+                <option value="beamng">BeamNG.drive</option>
+                <option value="ac">Assetto Corsa</option>
+                <option value="subnautica2">Subnautica 2</option>
+                <option value="stardew">Stardew Valley</option>
+                <option value="gta5">GTA V</option>
+                <option value="ets2">Euro Truck Simulator 2</option>
+                <option value="cyberpunk">Cyberpunk 2077</option>
+                <option value="bg3">Baldur's Gate 3</option>
+            </select>
+        </div>
+        <div class="form-group col">
+            <label for="category">Категория</label>
+            <select id="category"></select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col" style="flex: 0 0 160px;">
+            <label for="modId">ID мода (Авто)</label>
+            <input type="number" id="modId" readonly style="background: #151c24; color: #66ff66; font-weight: bold; border-color: #222;">
+            <span id="idStatus" class="status-msg" style="color: #95989a;">Проверка базы...</span>
+        </div>
+        <div class="form-group col">
+            <label for="title">Название мода (Title)</label>
+            <input type="text" id="title" placeholder="Например: Audi RS5 Coupe 2010">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col">
+            <label for="version">Версия мода</label>
+            <input type="text" id="version" value="1.0">
+        </div>
+        <div class="form-group col">
+            <label for="size">Размер файла</label>
+            <input type="text" id="size" placeholder="например: 250 MB">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="images">Выбери картинки мода (.webp превратятся в .jpg, "modland" сотрется)</label>
+        <input type="file" id="images" multiple accept="image/*" onchange="handleImagesProcessing()">
+        <span id="imgStatus" class="status-msg" style="color: #45f3ff;">Файлы не выбраны</span>
+    </div>
+
+    <div class="form-group">
+        <label for="downloadUrl">Ссылка на Скачивание (downloadUrl)</label>
+        <input type="text" id="downloadUrl" placeholder="https://modsfire.com/...">
+    </div>
+
+    <div class="row">
+        <div class="form-group col">
+            <label for="tags">Теги (через запятую)</label>
+            <input type="text" id="tags" placeholder="car, coupe, audi">
+        </div>
+        <div class="form-group col checkbox-group">
+            <input type="checkbox" id="featured" checked>
+            <label for="featured">Показывать на главной (featured)</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="shortDesc">Короткое описание (short)</label>
+        <input type="text" id="shortDesc" placeholder="German performance coupe AWD">
+    </div>
+
+    <div class="form-group">
+        <label for="fullDesc">Полное описание (description)</label>
+        <textarea id="fullDesc" rows="10" placeholder="Тут будет подробное очищенное описание мода..."></textarea>
+    </div>
+
+    <button onclick="generateJSON()">Сгенерировать JS Объект</button>
+
+    <div class="output-box" id="outputContainer" style="display: none;">
+        <button class="copy-btn" onclick="copyResult()">Копировать код</button>
+        <pre id="jsonOutput"></pre>
+        <div class="admin-tools">
+            <button type="button" onclick="downloadUpdatedModsFile()">Скачать обновлённый mods.js</button>
+            <button type="button" onclick="downloadModPagesReminder()">Что делать после скачивания?</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const ADMIN_EMAIL = "nbolilij@gmail.com";
+    const categoriesData = {
+        beamng: ["Boats", "Buses", "Cars", "Excavators", "Maps", "Motorcycles", "News", "Other", "Planes", "Tractors", "Trucks"],
+        ac: ["Apps", "Career", "Cars", "News", "Skins", "Sounds", "Tracks"],
+        subnautica2: ["Audio", "Buildables", "Gameplay", "Items", "Miscellaneous", "Performance", "User Interface", "Vehicles", "Visuals"],
+        stardew: ["Audio", "Buildings", "Characters", "Cheats", "Clothing", "Crafting", "Crops", "Dialogue", "Events", "Expansions", "Fishing", "Furniture", "Gameplay Mechanics", "Interiors", "Items", "Livestock and Animals", "Locations", "Maps", "Miscellaneous", "Modding Tools", "New Characters", "Pets / Horses", "Player", "Portraits", "User Interface", "Visuals and Graphics"],
+        gta5: ["Maps", "Other", "Player", "Scripts", "Tools", "Vehicles", "Weapons"],
+        ets2: ["Cars & Bus", "Interiors", "Maps", "Other", "Parts & Tuning", "Skins", "Sounds", "Trailers", "Trucks", "Tutorials & Cheats"],
+        cyberpunk: ["Add-On Apartment", "Adverts", "AI Voices", "AMM Props", "Animations", "Apartment", "Appearance", "Appearance Change Unlocker", "Appearance Menu Mod Presets", "Armour and Clothing", "Atelier Shop", "Audio", "Audio Replacer", "Characters", "Crafting", "Gameplay", "Locations", "Miscellaneous", "Modders Resources", "Props and Decorations", "Scripts", "User Interface", "Utilities", "Vehicles", "Visuals and Graphics", "Weapons"],
+        bg3: ["Accessories", "Animations", "Armor", "Audio", "Character Customisation", "Classes", "Clothing", "Companions", "Dice", "Equipment", "Gameplay", "Maps", "Miscellaneous", "Photo Mode", "Quests", "Races", "Resources", "Spells", "User Interface", "Utilities", "Visuals", "Weapons"]
+    };
+
+    let processedImageNames = [];
+
+    function autoCalculateId() {
+        const idInput = document.getElementById('modId');
+        const statusSpan = document.getElementById('idStatus');
+        
+        let targetArray = null;
+        if (typeof MODS !== 'undefined' && Array.isArray(MODS)) targetArray = MODS;
+        else if (typeof mods !== 'undefined' && Array.isArray(mods)) targetArray = mods;
+
+        if (targetArray) {
+            const maxId = targetArray.reduce((max, mod) => mod.id > max ? mod.id : max, 0);
+            const nextId = maxId + 1;
+            idInput.value = nextId;
+            statusSpan.innerText = `Найдено модов в базе: ${targetArray.length}`;
+            statusSpan.style.color = "#66ff66";
+        } else {
+            idInput.value = 1;
+            idInput.readOnly = false;
+            idInput.style.background = "#0b0c10";
+            statusSpan.innerText = "Файл базы не подгрузился автоматически";
+            statusSpan.style.color = "#ff3333";
+        }
+    }
+
+    function handleImagesProcessing() {
+        const fileInput = document.getElementById('images');
+        const statusSpan = document.getElementById('imgStatus');
+        processedImageNames = [];
+
+        if (fileInput.files.length === 0) {
+            statusSpan.innerText = "Файлы не выбраны";
+            return;
+        }
+
+        for (let i = 0; i < fileInput.files.length; i++) {
+            let name = fileInput.files[i].name;
+            name = name.replace(/modland/gi, '').replace(/[-_]{2,}/g, '_').replace(/^[-_]|[-_]$/g, '');
+
+            const dotIndex = name.lastIndexOf('.');
+            if (dotIndex !== -1) {
+                name = name.substring(0, dotIndex) + '.jpg';
+            } else {
+                name = name + '.jpg';
+            }
+            processedImageNames.push(`images/mods/${name}`);
+        }
+
+        statusSpan.innerText = `Успешно! Фото (${processedImageNames.length} шт.) приведены к .jpg`;
+        statusSpan.style.color = "#66ff66";
+    }
+
+    const GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"];
+
+    function setAiStatus(text, color = "#ff7a45") {
+        const loadingSpan = document.getElementById('aiLoading');
+        loadingSpan.innerText = text;
+        loadingSpan.style.color = color;
+        loadingSpan.style.display = text ? 'inline' : 'none';
+    }
+
+    async function callGemini(prompt, apiKey) {
+        let lastError = null;
+
+        for (const model of GEMINI_MODELS) {
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    contents: [{ parts: [{ text: prompt }] }]
+                })
+            });
+
+            const data = await response.json();
+
+            if (!data.error) {
+                return { data, model };
+            }
+
+            lastError = data.error;
+            if (data.error.code !== 404) {
+                break;
+            }
+        }
+
+        throw new Error(lastError ? `${lastError.message} (Код: ${lastError.code})` : "Google API не вернул ответ.");
+    }
+
+    // Твой официальный метод запроса к серверам Google AI Studio
+    async function processTextWithAI() {
+        const rawText = document.getElementById('aiRawText').value.trim();
+        const runBtn = document.getElementById('aiRunBtn');
+        
+        // Ключ из твоего личного кабинета Google AI Studio
+        const API_KEY = "AQ.Ab8RN6LCxu3SsAuTjcRBqHmGNyY3u7fhqF9woINIRhXiNCuNog"; 
+
+        if (!rawText) {
+            setAiStatus('Сначала вставь текст.', '#ff7a45');
+            return;
+        }
+
+        runBtn.disabled = true;
+        setAiStatus('Gemini обрабатывает и переводит текст...', '#ff5014');
+
+        const prompt = `Ты работаешь с текстами описаний видеоигровых модов. 
+Входной текст может быть на русском или английском. Итоговый ответ должен быть СТРОГО на английском.
+Ты обязан выдать ответ, используя специальные теги-маркеры. Не пиши никакого текста, вступлений или Markdown-символов (вроде **) вне этих маркеров.
+
+Список доступных игр и их точные значения (value):
+- beamng = BeamNG.drive
+- ac = Assetto Corsa
+- subnautica2 = Subnautica 2
+- stardew = Stardew Valley
+- gta5 = GTA V
+- ets2 = Euro Truck Simulator 2
+- cyberpunk = Cyberpunk 2077
+- bg3 = Baldur's Gate 3
+
+Категории по играм:
+beamng: Boats, Buses, Cars, Excavators, Maps, Motorcycles, News, Other, Planes, Tractors, Trucks
+ac: Apps, Career, Cars, News, Skins, Sounds, Tracks
+subnautica2: Audio, Buildables, Gameplay, Items, Miscellaneous, Performance, User Interface, Vehicles, Visuals
+stardew: Audio, Buildings, Characters, Cheats, Clothing, Crafting, Crops, Dialogue, Events, Expansions, Fishing, Furniture, Gameplay Mechanics, Interiors, Items, Livestock and Animals, Locations, Maps, Miscellaneous, Modding Tools, New Characters, Pets / Horses, Player, Portraits, User Interface, Visuals and Graphics
+gta5: Maps, Other, Player, Scripts, Tools, Vehicles, Weapons
+ets2: Cars & Bus, Interiors, Maps, Other, Parts & Tuning, Skins, Sounds, Trailers, Trucks, Tutorials & Cheats
+cyberpunk: Add-On Apartment, Adverts, AI Voices, AMM Props, Animations, Apartment, Appearance, Appearance Change Unlocker, Appearance Menu Mod Presets, Armour and Clothing, Atelier Shop, Audio, Audio Replacer, Characters, Crafting, Gameplay, Locations, Miscellaneous, Modders Resources, Props and Decorations, Scripts, User Interface, Utilities, Vehicles, Visuals and Graphics, Weapons
+bg3: Accessories, Animations, Armor, Audio, Character Customisation, Classes, Clothing, Companions, Dice, Equipment, Gameplay, Maps, Miscellaneous, Photo Mode, Quests, Races, Resources, Spells, User Interface, Utilities, Visuals, Weapons
+
+Структура ответа:
+[TITLE] Название мода без изменений.
+[GAME] Значение игры из списка выше (например: cyberpunk). Только значение, без текста.
+[CATEGORY] Наиболее подходящая категория из списка категорий для определённой игры. Точное написание как в списке.
+[VERSION] Версия мода если упоминается в тексте (например: 1.0, 2.3.1). Если не упоминается — напиши: 1.0
+[DESCRIPTION] Подробное описание мода на 3-5 предложений. Включи: что делает мод, ключевые особенности, важные системные требования или зависимости (патчи, библиотеки). Убери воду, ссылки и маркетинговые фразы. Пиши связным текстом, не списками.
+[SHORT] Живое, естественное описание сути мода длиной ровно от 6 до 10 слов.
+[TAGS] Список тегов через запятую (6-12 штук). Пример: car, track, framework, lua, utility.
+
+Исходный текст:
+${rawText}`;
+
+      try {
+            const { data, model } = await callGemini(prompt, API_KEY);
+
+            if (!data.candidates || data.candidates.length === 0) {
+                throw new Error("Google вернул пустой массив кандидатов.");
+            }
+
+            const candidate = data.candidates[0];
+
+            // Проверяем, не заблокировал ли внутренний цензор Google этот текст (фидбек по безопасности)
+            if (candidate.finishReason && candidate.finishReason !== "STOP") {
+                throw new Error(`Текст заблокирован фильтрами Google. Причина: ${candidate.finishReason}`);
+            }
+
+            if (!candidate.content || !candidate.content.parts) {
+                throw new Error("В ответе отсутствует текстовый блок content.parts");
+            }
+
+            const aiOutputText = candidate.content.parts[0].text.trim();
+
+            const titleMatch = aiOutputText.match(/\[TITLE\]([\s\S]*?)(?=\[GAME\]|\[CATEGORY\]|\[VERSION\]|\[DESCRIPTION\]|\[SHORT\]|\[TAGS\]|$)/i);
+            const gameMatch = aiOutputText.match(/\[GAME\]([\s\S]*?)(?=\[TITLE\]|\[CATEGORY\]|\[VERSION\]|\[DESCRIPTION\]|\[SHORT\]|\[TAGS\]|$)/i);
+            const categoryMatch = aiOutputText.match(/\[CATEGORY\]([\s\S]*?)(?=\[TITLE\]|\[GAME\]|\[VERSION\]|\[DESCRIPTION\]|\[SHORT\]|\[TAGS\]|$)/i);
+            const versionMatch = aiOutputText.match(/\[VERSION\]([\s\S]*?)(?=\[TITLE\]|\[GAME\]|\[CATEGORY\]|\[DESCRIPTION\]|\[SHORT\]|\[TAGS\]|$)/i);
+            const descMatch = aiOutputText.match(/\[DESCRIPTION\]([\s\S]*?)(?=\[TITLE\]|\[GAME\]|\[CATEGORY\]|\[VERSION\]|\[SHORT\]|\[TAGS\]|$)/i);
+            const shortMatch = aiOutputText.match(/\[SHORT\]([\s\S]*?)(?=\[TITLE\]|\[GAME\]|\[CATEGORY\]|\[VERSION\]|\[DESCRIPTION\]|\[TAGS\]|$)/i);
+            const tagsMatch = aiOutputText.match(/\[TAGS\]([\s\S]*?)(?=\[TITLE\]|\[GAME\]|\[CATEGORY\]|\[VERSION\]|\[DESCRIPTION\]|\[SHORT\]|$)/i);
+
+            if (titleMatch) document.getElementById('title').value = titleMatch[1].trim();
+            if (descMatch) document.getElementById('fullDesc').value = descMatch[1].trim();
+            if (shortMatch) document.getElementById('shortDesc').value = shortMatch[1].trim();
+            if (versionMatch) {
+                const ver = versionMatch[1].trim();
+                if (ver) document.getElementById('version').value = ver;
+            }
+
+            // Автовыбор игры и категории
+            if (gameMatch) {
+                const gameVal = gameMatch[1].trim().toLowerCase();
+                const gameSelect = document.getElementById('game');
+                for (let opt of gameSelect.options) {
+                    if (opt.value === gameVal) {
+                        gameSelect.value = gameVal;
+                        updateCategories();
+                        break;
+                    }
+                }
+            }
+            if (categoryMatch) {
+                const catRaw = categoryMatch[1].trim().toLowerCase()
+                    .replace(/ & /g, '_').replace(/ \/ /g, '_').replace(/ and /g, '_')
+                    .replace(/[^a-z0-9_-]/g, '_').replace(/__+/g, '_');
+                const catSelect = document.getElementById('category');
+                for (let opt of catSelect.options) {
+                    if (opt.value === catRaw) {
+                        catSelect.value = catRaw;
+                        break;
+                    }
+                }
+            }
+            
+            if (tagsMatch) {
+                let rawTags = tagsMatch[1].trim().toLowerCase().replace(/\.$/, '');
+                if (rawTags.length > 35) {
+                    let sub = rawTags.substring(0, 35);
+                    let lastComma = sub.lastIndexOf(',');
+                    if (lastComma !== -1) rawTags = sub.substring(0, lastComma).trim();
+                    else rawTags = sub;
+                }
+                document.getElementById('tags').value = rawTags;
+            }
+
+            if (!titleMatch && !descMatch) {
+                document.getElementById('fullDesc').value = aiOutputText;
+            }
+
+            setAiStatus(`Готово через ${model}.`, '#66ff66');
+        } catch (error) {
+            console.error(error);
+            setAiStatus(`Gemini не сработал: ${error.message}. Включен локальный режим.`, '#ff7a45');
+            
+            // Запасной локальный режим, чтобы админка не висла
+            document.getElementById('fullDesc').value = rawText.replace(/\r?\n|\r/g, " ").replace(/\s+/g, " ");
+        } finally {
+            runBtn.disabled = false;
+        }
+    }
+
+    function updateCategories() {
+        const game = document.getElementById('game').value;
+        const categorySelect = document.getElementById('category');
+        categorySelect.innerHTML = '';
+        
+        const cats = categoriesData[game];
+        cats.forEach(catName => {
+            const opt = document.createElement('option');
+            let catValue = catName.toLowerCase().replace(/ & /g, '_').replace(/ \/ /g, '_').replace(/ and /g, '_').replace(/[^a-z0-9_-]/g, '_').replace(/__+/g, '_');
+            opt.value = catValue;
+            opt.innerText = catName;
+            categorySelect.appendChild(opt);
+        });
+    }
+
+    function generateJSON() {
+        const game = document.getElementById('game').value;
+        const tagsInput = document.getElementById('tags').value;
+        const tagsArray = tagsInput ? tagsInput.split(',').map(t => t.trim().toLowerCase()) : [];
+
+        const modObject = {
+            id: parseInt(document.getElementById('modId').value) || 0,
+            game: game,
+            title: document.getElementById('title').value,
+            category: document.getElementById('category').value,
+            version: document.getElementById('version').value,
+            size: document.getElementById('size').value,
+            images: processedImageNames,
+            downloadUrl: document.getElementById('downloadUrl').value,
+            short: document.getElementById('shortDesc').value,
+            description: document.getElementById('fullDesc').value,
+            tags: tagsArray,
+            featured: document.getElementById('featured').checked
+        };
+
+        let jsString = "  {\n";
+        for (const key in modObject) {
+            let value = modObject[key];
+            if (typeof value === 'string') {
+                jsString += `    ${key}: "${value.replace(/"/g, '\\"')}",\n`;
+            } else if (Array.isArray(value)) {
+                jsString += `    ${key}: ${JSON.stringify(value, null, 4).replace(/\n/g, '\n    ')},\n`;
+            } else {
+                jsString += `    ${key}: ${value},\n`;
+            }
+        }
+        jsString = jsString.slice(0, -2) + "\n  },";
+
+        document.getElementById('jsonOutput').innerText = jsString;
+        document.getElementById('outputContainer').style.display = 'block';
+    }
+
+    function getGeneratedModObject() {
+        const text = document.getElementById('jsonOutput').innerText.trim();
+        if (!text) {
+            alert('Сначала сгенерируй JS объект.');
+            return null;
+        }
+
+        try {
+            return Function(`"use strict"; return (${text.replace(/,\s*$/, '')});`)();
+        } catch (error) {
+            alert('Не удалось прочитать сгенерированный объект: ' + error.message);
+            return null;
+        }
+    }
+
+    function serializeMod(mod) {
+        const lines = ["  {"];
+        for (const [key, value] of Object.entries(mod)) {
+            if (typeof value === "string") {
+                lines.push(`    ${key}: "${value.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}",`);
+            } else if (Array.isArray(value)) {
+                lines.push(`    ${key}: ${JSON.stringify(value, null, 4).replace(/\n/g, "\n    ")},`);
+            } else {
+                lines.push(`    ${key}: ${value},`);
+            }
+        }
+        lines[lines.length - 1] = lines[lines.length - 1].replace(/,$/, "");
+        lines.push("  }");
+        return lines.join("\n");
+    }
+
+    function downloadUpdatedModsFile() {
+        const mod = getGeneratedModObject();
+        if (!mod) return;
+        if (typeof MODS === "undefined" || !Array.isArray(MODS)) {
+            alert('MODS не загружен. Проверь подключение js/data/mods.js');
+            return;
+        }
+
+        const updatedMods = [...MODS.filter(item => Number(item.id) !== Number(mod.id)), mod]
+            .sort((a, b) => Number(a.id) - Number(b.id));
+        const text = [
+            `const GAMES = ${JSON.stringify(GAMES, null, 2)};`,
+            "",
+            "const MODS = [",
+            updatedMods.map(serializeMod).join(",\n"),
+            "];",
+            "",
+            `const CATEGORIES = ${JSON.stringify(CATEGORIES, null, 2)};`,
+            ""
+        ].join("\n");
+
+        const blob = new Blob([text], { type: "text/javascript;charset=utf-8" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "mods.js";
+        link.click();
+        URL.revokeObjectURL(link.href);
+    }
+
+    function downloadModPagesReminder() {
+        alert('Замени файл js/data/mods.js скачанным mods.js, затем запусти генераторы страниц модов/SEO и заново залей сайт на Netlify.');
+    }
+
+    function copyResult() {
+        const text = document.getElementById('jsonOutput').innerText;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Объект скопирован в буфер! Авто-ID увеличен.');
+                const idInput = document.getElementById('modId');
+                idInput.value = parseInt(idInput.value) + 1;
+                document.getElementById('idStatus').innerText = `Найдено модов в базе: ${idInput.value - 1}`;
+            }).catch(err => {
+                alert('Не удалось скопировать автоматически: ' + err);
+            });
+        } else {
+            alert('Буфер обмена недоступен. Скопируйте текст вручную.');
+        }
+    }
+
+    async function checkAdminAccess() {
+        const locked = document.getElementById('adminLocked');
+        const app = document.getElementById('adminApp');
+
+        try {
+            const user = await window.ModVaultUser?.getCurrentUser?.();
+            const email = String(user?.email || '').toLowerCase();
+            if (email === ADMIN_EMAIL) {
+                locked.style.display = 'none';
+                app.style.display = 'block';
+                updateCategories();
+                autoCalculateId();
+                return;
+            }
+        } catch (error) {
+            console.warn(error);
+        }
+
+        locked.style.display = 'block';
+        app.style.display = 'none';
+    }
+
+    window.onload = function() {
+        checkAdminAccess();
+    };
+</script>
+
+<script src="js/data/mods.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase-client.js?v=14"></script>
+<script>
+    if (window.ModVaultSupabase) {
+        window.ModVaultSupabase.auth.onAuthStateChange(() => checkAdminAccess());
+    }
+</script>
+</body>
+</html>

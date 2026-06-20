@@ -1,0 +1,10 @@
+# ModVault — Netlify configuration
+
+# Pretty URLs: serve /beamng instead of /beamng.html and
+# 301-redirect the old .html addresses to the clean ones.
+# This keeps already-indexed pages in Google (no SEO loss).
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true

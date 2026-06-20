@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ModVault - PC Game Mods Hub</title>
+  <meta name="description" content="Browse PC game mods, modding guides and real modding news for BeamNG.drive, Assetto Corsa, Subnautica 2, GTA V, ETS2, Cyberpunk 2077 and more.">
+  <meta name="keywords" content="PC game mods, mod downloads, BeamNG mods, Assetto Corsa mods, GTA V mods, ETS2 mods">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://modvaultsite.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ModVault">
+  <meta property="og:title" content="ModVault - PC Game Mods Hub">
+  <meta property="og:description" content="Browse PC game mods, modding guides and real modding news for BeamNG.drive, Assetto Corsa, Subnautica 2, GTA V, ETS2, Cyberpunk 2077 and more.">
+  <meta property="og:image" content="https://modvaultsite.com/images/og-default.svg">
+  <meta property="og:url" content="https://modvaultsite.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ModVault - PC Game Mods Hub">
+  <meta name="twitter:description" content="Browse PC game mods, modding guides and real modding news for BeamNG.drive, Assetto Corsa, Subnautica 2, GTA V, ETS2, Cyberpunk 2077 and more.">
+  <meta name="twitter:image" content="https://modvaultsite.com/images/og-default.svg">
+  <link rel="stylesheet" href="css/shared.css?v=7">
+  <link rel="stylesheet" href="css/effects.css?v=6">
+  <style>
+    .home-page { min-height: 100vh; display: flex; flex-direction: column; }
+    .hero {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 112px 32px 76px;
+      position: relative; overflow: hidden; text-align: center;
+    }
+    .hero::before {
+      content: ""; position: absolute; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 82% at 50% 46%, black 28%, transparent 100%);
+      opacity: .38;
+    }
+    .hero-content { position: relative; z-index: 1; width: min(1120px, 100%); }
+    .hero-eyebrow {
+      font-family: var(--font-m); font-size: 11px; letter-spacing: 3px;
+      text-transform: uppercase; color: var(--accent);
+      margin-bottom: 22px; display: block;
+    }
+    .hero-title {
+      font-family: var(--font-d); font-size: clamp(64px, 10vw, 122px);
+      letter-spacing: 4px; line-height: .92; color: #fff; margin-bottom: 26px;
+    }
+    .hero-title .accent-word { color: var(--accent); }
+    .hero-sub {
+      font-size: 17px; color: var(--text2); max-width: 620px;
+      margin: 0 auto 30px; line-height: 1.7;
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      max-width: 720px;
+      margin: 0 auto 48px;
+      border: 1px solid var(--border);
+      border-radius: var(--r2);
+      background: rgba(18,20,27,.72);
+      overflow: hidden;
+    }
+    .hero-stat {
+      padding: 18px 20px;
+      border-right: 1px solid var(--border);
+    }
+    .hero-stat:last-child { border-right: 0; }
+    .hero-stat-num {
+      font-family: var(--font-d);
+      font-size: 36px;
+      line-height: .95;
+      color: var(--accent);
+    }
+    .hero-stat-label {
+      margin-top: 7px;
+      font-family: var(--font-m);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text3);
+    }
+    .game-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px; width: 100%; margin: 0 auto; position: relative; z-index: 1;
+    }
+    .game-card {
+      position: relative; overflow: hidden;
+      min-height: 245px; border-radius: 14px; border: 1px solid var(--border2);
+      padding: 34px 30px; background: var(--dark2);
+      cursor: pointer; text-align: left;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+      display: flex; flex-direction: column; gap: 13px;
+    }
+    .game-card::before {
+      content: ""; position: absolute; inset: 0; z-index: 0; border-radius: inherit;
+      opacity: .12; transition: opacity var(--transition);
+      background: radial-gradient(ellipse at top left, var(--game-accent), transparent 70%);
+    }
+    .game-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--game-accent);
+      box-shadow: 0 16px 60px color-mix(in srgb, var(--game-accent) 16%, transparent);
+    }
+    .game-card:hover::before { opacity: .34; }
+    .game-card > * { position: relative; z-index: 1; }
+    .game-card-num {
+      font-family: var(--font-d); font-size: 66px; letter-spacing: -1px;
+      line-height: 1; opacity: .07; position: absolute; right: 22px; top: 18px; color: #fff;
+    }
+    .game-card-label {
+      font-family: var(--font-m); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--text3);
+    }
+    .game-card-name {
+      font-family: var(--font-d); font-size: clamp(26px, 2.8vw, 34px); letter-spacing: 1px;
+      line-height: .98; color: #fff; max-width: 100%;
+      text-wrap: balance; overflow-wrap: normal;
+    }
+    .game-card-name span { color: var(--game-accent); }
+    .game-card-desc { font-size: 13.5px; color: var(--text2); line-height: 1.6; flex: 1; }
+    .game-card-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--font-m); font-size: 11px; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--text3); transition: color var(--transition);
+    }
+    .game-card:hover .game-card-cta { color: var(--game-accent); }
+    .game-card-cta-arrow {
+      width: 20px; height: 1px; background: currentColor;
+      position: relative; transition: width var(--transition);
+    }
+    .game-card-cta-arrow::after {
+      content: ""; position: absolute; right: 0; top: 50%;
+      transform: translateY(-50%) rotate(35deg);
+      width: 6px; height: 1px; background: currentColor; transform-origin: right center;
+    }
+    .game-card:hover .game-card-cta-arrow { width: 32px; }
+    .stats-row {
+      display: flex; justify-content: center; gap: 56px;
+      padding: 38px 0 0; margin-top: 34px;
+      border-top: 1px solid var(--border); position: relative; z-index: 1;
+    }
+    .stats-row-item { text-align: center; }
+    .stats-row-num {
+      font-family: var(--font-d); font-size: 36px; letter-spacing: 1px; color: var(--accent);
+    }
+    .stats-row-lbl {
+      font-family: var(--font-m); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--text3); margin-top: 4px;
+    }
+    @media (max-width: 640px) {
+      .hero { padding: 96px 18px 54px; }
+      .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .hero-stat:nth-child(2) { border-right: 0; }
+      .hero-stat:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
+      .stats-row { gap: 28px; flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body class="home-page">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">MOD<span>VAULT</span></a>
+    <nav class="header-nav" id="header-nav"><a href="/" class="nav-link active">Home</a><div class="nav-dropdown">
+  <button class="nav-link nav-dropdown-toggle" type="button">Games</button>
+  <div class="nav-dropdown-menu">
+    <a href="beamng" class="nav-dropdown-item"><span>BeamNG</span><span class="nav-dropdown-dot" style="--game-accent:#e8ff00"></span></a>
+    <a href="assetto" class="nav-dropdown-item"><span>Assetto</span><span class="nav-dropdown-dot" style="--game-accent:#ff5014"></span></a>
+    <a href="subnautica2" class="nav-dropdown-item"><span>Subnautica 2</span><span class="nav-dropdown-dot" style="--game-accent:#00d8ff"></span></a>
+    <a href="stardew" class="nav-dropdown-item"><span>Stardew</span><span class="nav-dropdown-dot" style="--game-accent:#7cff6b"></span></a>
+    <a href="gta5" class="nav-dropdown-item"><span>GTA V</span><span class="nav-dropdown-dot" style="--game-accent:#56ff9d"></span></a>
+    <a href="ets2" class="nav-dropdown-item"><span>ETS2</span><span class="nav-dropdown-dot" style="--game-accent:#ffb13b"></span></a>
+    <a href="cyberpunk" class="nav-dropdown-item"><span>Cyberpunk</span><span class="nav-dropdown-dot" style="--game-accent:#ffe600"></span></a>
+    <a href="bg3" class="nav-dropdown-item"><span>BG3</span><span class="nav-dropdown-dot" style="--game-accent:#c77dff"></span></a>
+  </div>
+</div><a href="news" class="nav-link">News</a><a href="guides" class="nav-link">Guides</a><a href="about" class="nav-link">About</a><a href="contact" class="nav-link">Contact</a><a href="account" class="nav-link">Login</a></nav>
+  </div>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <canvas id="particle-canvas"></canvas>
+    <div class="hero-content">
+      <span class="hero-eyebrow">PC game mods collected in one clean catalog</span>
+      <h1 class="hero-title">
+        FIND YOUR<br>
+        <span class="accent-word">NEXT</span><br>
+        MOD
+      </h1>
+      <p class="hero-sub">
+        Browse a growing catalog of mod reuploads with clear categories, screenshots,
+        versions, file sizes and direct download links for popular PC games.
+      </p>
+      <div id="home-search-slot"></div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="site-stat-mods">0</div>
+          <div class="hero-stat-label">Mods</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="site-stat-downloads">0</div>
+          <div class="hero-stat-label">Downloads</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="site-stat-views">0</div>
+          <div class="hero-stat-label">Views</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="site-stat-visitors">0</div>
+          <div class="hero-stat-label">Users</div>
+        </div>
+      </div>
+      <div class="game-grid" id="game-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">MOD<span>VAULT</span></div>
+    <div class="footer-copy">CURATED MODS FOR POPULAR GAMES</div><div class="footer-links"><a href="news">News</a><a href="guides">Guides</a><a href="about">About</a><a href="contact">Contact</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="copyright">Copyright</a></div>
+  </div>
+</footer>
+
+<script src="js/data/mods.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase-client.js?v=14"></script>
+<script src="js/stats.js?v=11"></script>
+<script src="js/effects.js"></script>
+<script src="js/site-search.js?v=7"></script>
+<script>
+  const games = Object.entries(GAMES);
+
+  document.getElementById("game-grid").innerHTML = games.map(([key, game], index) => {
+    const count = MODS.filter(mod => mod.game === key && String(mod.title || "").trim()).length;
+    const accentPart = game.name.match(/\s(\d+|V)$/)?.[1] ?? "";
+    const baseName = accentPart ? game.name.slice(0, -accentPart.length).trimEnd() : game.name;
+    const name = accentPart
+      ? `${esc(baseName)} <span>${esc(accentPart)}</span>`
+      : esc(game.name);
+    return `
+      <a href="${game.page}" class="game-card" style="--game-accent:${game.accent}">
+        <span class="game-card-num">${String(index + 1).padStart(2, "0")}</span>
+        <div class="game-card-label">${game.label}</div>
+        <div class="game-card-name">${name}</div>
+        <p class="game-card-desc">${game.description}</p>
+        <div class="game-card-cta">
+          ${count} mods
+          <span class="game-card-cta-arrow"></span>
+        </div>
+      </a>
+    `;
+  }).join("");
+
+  function renderSiteStats(siteStats) {
+    document.getElementById("site-stat-mods").textContent = siteStats.mods;
+    document.getElementById("site-stat-downloads").textContent = ModVaultStats.formatCompact(siteStats.downloads);
+    document.getElementById("site-stat-views").textContent = ModVaultStats.formatCompact(siteStats.views);
+    document.getElementById("site-stat-visitors").textContent = ModVaultStats.formatCompact(siteStats.visitors);
+  }
+
+  renderSiteStats(ModVaultStats.getSiteStats(MODS));
+  ModVaultStats.hydrateSiteStats(MODS).then(renderSiteStats).catch(() => {});
+
+  function esc(str) {
+    return String(str ?? "")
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+</script>
+</body>
+</html>
+
