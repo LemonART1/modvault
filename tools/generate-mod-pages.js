@@ -54,6 +54,48 @@ function getImages(mod) {
   return list.filter(Boolean).slice(0, 3);
 }
 
+function catLabelSimple(cat) {
+  return String(cat || "").replace(/[-_]/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function getRelatedMods(mod, limit = 4) {
+  const tagSet = new Set((mod.tags || []).filter(Boolean));
+  const candidates = MODS.filter(m => m.id !== mod.id && m.game === mod.game && String(m.title || "").trim());
+  return candidates
+    .map(m => {
+      const sharedTags = (m.tags || []).filter(t => tagSet.has(t)).length;
+      const score = (m.category === mod.category ? 2 : 0) + sharedTags;
+      return { m, score };
+    })
+    .sort((a, b) => b.score - a.score || a.m.id - b.m.id)
+    .slice(0, limit)
+    .map(x => x.m);
+}
+
+function relatedModsSection(mod) {
+  const related = getRelatedMods(mod);
+  if (!related.length) return "";
+  return `<section class="related-mods-section">
+    <h2>Related mods</h2>
+    <div class="related-mods-grid">
+      ${related.map(m => {
+        const image = getImages(m)[0];
+        const url = `mods/${m.game}/${slugify(`${m.id}-${m.title}`)}`;
+        return `<a class="mod-card" href="${esc(url)}">
+          <div class="card-thumb">
+            ${image ? `<img src="${esc(image)}" alt="${esc(m.title)}" loading="lazy">` : ""}
+            <span class="card-cat">${esc(catLabelSimple(m.category))}</span>
+          </div>
+          <div class="card-body">
+            <div class="card-title">${esc(m.title)}</div>
+            <div class="card-desc">${esc(m.short)}</div>
+          </div>
+        </a>`;
+      }).join("")}
+    </div>
+  </section>`;
+}
+
 function staticModContent(mod, game) {
   const images = getImages(mod);
   return `<main class="page" id="mod-detail">
@@ -88,6 +130,7 @@ function staticModContent(mod, game) {
         <h2>About this mod</h2>
         <p class="modal-desc-text">${esc(mod.description)}</p>
       </article>
+      ${relatedModsSection(mod)}
     </div>
   </section>
 </main>`;
@@ -114,7 +157,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
-  <link rel="stylesheet" href="css/shared.css?v=11">
+  <link rel="stylesheet" href="css/shared.css?v=12">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -127,7 +170,7 @@ ${footer}
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script>
 <script src="js/account.js?v=4"></script>
-<script src="js/pages/mod-detail.js?v=3"></script>
+<script src="js/pages/mod-detail.js?v=4"></script>
 <script>initModDetail(${mod.id});</script>
 </body>
 </html>

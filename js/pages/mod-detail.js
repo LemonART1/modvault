@@ -66,6 +66,7 @@ function initModDetail(modId) {
           <h2>About this mod</h2>
           <p class="modal-desc-text">${esc(mod.description)}</p>
         </div>
+        ${relatedModsSection(mod)}
       </div>
     </section>
   `;
@@ -128,6 +129,48 @@ function setRatingButtons(value) {
 function getModImages(mod) {
   const list = Array.isArray(mod.images) ? mod.images : [mod.image];
   return list.filter(Boolean).slice(0, 3);
+}
+
+function slugify(str) {
+  return String(str).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+function getRelatedMods(mod, limit = 4) {
+  const tagSet = new Set((mod.tags || []).filter(Boolean));
+  const candidates = MODS.filter(m => m.id !== mod.id && m.game === mod.game && String(m.title || "").trim());
+  return candidates
+    .map(m => {
+      const sharedTags = (m.tags || []).filter(t => tagSet.has(t)).length;
+      const score = (m.category === mod.category ? 2 : 0) + sharedTags;
+      return { m, score };
+    })
+    .sort((a, b) => b.score - a.score || a.m.id - b.m.id)
+    .slice(0, limit)
+    .map(x => x.m);
+}
+
+function relatedModsSection(mod) {
+  const related = getRelatedMods(mod);
+  if (!related.length) return "";
+  return `<div class="related-mods-section">
+    <h2>Related mods</h2>
+    <div class="related-mods-grid">
+      ${related.map(m => {
+        const image = getModImages(m)[0];
+        const url = `mods/${m.game}/${slugify(`${m.id}-${m.title}`)}`;
+        return `<a class="mod-card" href="${esc(url)}">
+          <div class="card-thumb">
+            ${image ? `<img src="${esc(image)}" alt="${esc(m.title)}" loading="lazy">` : ""}
+            <span class="card-cat">${esc(catLabel(m.game, m.category))}</span>
+          </div>
+          <div class="card-body">
+            <div class="card-title">${esc(m.title)}</div>
+            <div class="card-desc">${esc(m.short)}</div>
+          </div>
+        </a>`;
+      }).join("")}
+    </div>
+  </div>`;
 }
 
 function setModDetailImage(src, index) {
