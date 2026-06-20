@@ -1,0 +1,11 @@
+# Normalize line endings: store text files with LF in the repo.
+# Stops the "LF will be replaced by CRLF" warnings on Windows.
+* text=auto eol=lf
+
+# Binary files: never touch.
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
