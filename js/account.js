@@ -212,7 +212,8 @@
       return mod && String(mod.version || "") !== String(f.saved_version || "");
     });
 
-    root.innerHTML = renderNotifications(updates) + renderFavorites(favorites) + renderDownloads(downloads);
+    root.innerHTML = renderNotifications(updates)
+      + `<div class="account-columns">${renderFavorites(favorites)}${renderDownloads(downloads)}</div>`;
 
     root.querySelectorAll(".account-seen-btn").forEach(btn => {
       btn.addEventListener("click", async () => { btn.disabled = true; await markSeen(btn.dataset.mod); renderDashboard(); });
