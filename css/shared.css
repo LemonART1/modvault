@@ -1171,9 +1171,6 @@ body::after {
 }
 .mod-comment-reply {
   margin-left: 36px;
-  padding-top: 16px;
-  margin-top: 0;
-  border-top: 1px dashed var(--border);
 }
 .pagination {
   display: flex;

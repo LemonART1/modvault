@@ -67,7 +67,7 @@ function stripManagedSeo(html) {
 function ensureStyles(html, file) {
   html = html.replace(/(<meta name="twitter:image"[^>]*>)\s*(<link rel="stylesheet")/g, "$1\n  $2");
 
-  const styles = ["css/shared.css?v=17"];
+  const styles = ["css/shared.css?v=18"];
   if (gamePages.includes(file)) {
     styles.push("css/gamepage.css?v=6");
   }
