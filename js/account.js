@@ -141,6 +141,116 @@
     render();
   }
 
+  // ---------- Avatar ----------
+  const AVATAR_BUCKET = "avatars";
+  const AVATAR_DIM = 256;
+  const DEFAULT_AVATAR_ICON = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.4-3.6 4.4-5.5 7.5-5.5s6.1 1.9 7.5 5.5"/></svg>`;
+
+  async function getProfile(userId) {
+    if (!db() || !userId) return null;
+    const { data, error } = await db().from("profiles")
+      .select("username, avatar_url")
+      .eq("id", userId)
+      .maybeSingle();
+    if (error) { console.warn("Unable to load profile.", error); return null; }
+    return data;
+  }
+
+  // Crops to a centered square and downsizes to AVATAR_DIM, so uploads stay
+  // tiny (a few KB) regardless of what the user picks.
+  function resizeImageToWebp(file, dim) {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => {
+        const side = Math.min(img.naturalWidth, img.naturalHeight);
+        const sx = (img.naturalWidth - side) / 2;
+        const sy = (img.naturalHeight - side) / 2;
+        const canvas = document.createElement("canvas");
+        canvas.width = dim;
+        canvas.height = dim;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, sx, sy, side, side, 0, 0, dim, dim);
+        URL.revokeObjectURL(url);
+        canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error("Could not process image.")), "image/webp", 0.85);
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error("Could not read image.")); };
+      img.src = url;
+    });
+  }
+
+  async function uploadAvatar(file) {
+    const user = await getUser();
+    if (!db() || !user) return { ok: false, message: "Log in first." };
+    if (!file || !file.type?.startsWith("image/")) return { ok: false, message: "Choose an image file." };
+
+    let blob;
+    try {
+      blob = await resizeImageToWebp(file, AVATAR_DIM);
+    } catch (error) {
+      return { ok: false, message: error.message || "Could not process image." };
+    }
+
+    const path = `${user.id}/avatar.webp`;
+    const { error: uploadError } = await db().storage.from(AVATAR_BUCKET)
+      .upload(path, blob, { upsert: true, contentType: "image/webp" });
+    if (uploadError) return { ok: false, message: uploadError.message };
+
+    const { data } = db().storage.from(AVATAR_BUCKET).getPublicUrl(path);
+    // The path never changes on re-upload, so bust any CDN/browser cache
+    // with a fresh query string each time.
+    const avatarUrl = `${data.publicUrl}?t=${Date.now()}`;
+
+    const { error: profileError } = await db().from("profiles")
+      .upsert({ id: user.id, avatar_url: avatarUrl, updated_at: new Date().toISOString() });
+    if (profileError) return { ok: false, message: profileError.message };
+
+    return { ok: true, url: avatarUrl };
+  }
+
+  function avatarImgHtml(url, size = 84) {
+    return url
+      ? `<img class="account-avatar-img" src="${esc(url)}" alt="Avatar" style="width:${size}px;height:${size}px">`
+      : `<span class="account-avatar-img account-avatar-placeholder" style="width:${size}px;height:${size}px">${DEFAULT_AVATAR_ICON}</span>`;
+  }
+
+  async function mountAvatarWidget() {
+    const root = document.getElementById("account-avatar");
+    if (!root) return;
+    const user = await getUser();
+    if (!user) { root.innerHTML = ""; return; }
+
+    const profile = await getProfile(user.id);
+    root.innerHTML = `
+      <div class="account-avatar-block">
+        ${avatarImgHtml(profile?.avatar_url)}
+        <div class="account-avatar-controls">
+          <label class="btn btn-ghost account-avatar-upload-btn" for="account-avatar-input">Change avatar</label>
+          <input type="file" id="account-avatar-input" accept="image/*" hidden>
+          <p class="account-avatar-status" id="account-avatar-status"></p>
+        </div>
+      </div>
+    `;
+
+    const input = document.getElementById("account-avatar-input");
+    const status = document.getElementById("account-avatar-status");
+    input.addEventListener("change", async () => {
+      const file = input.files?.[0];
+      if (!file) return;
+      status.textContent = "Uploading...";
+      status.classList.remove("ok");
+      const result = await uploadAvatar(file);
+      if (result.ok) {
+        status.textContent = "Avatar updated.";
+        status.classList.add("ok");
+        mountAvatarWidget();
+      } else {
+        status.textContent = result.message || "Could not upload avatar.";
+      }
+      input.value = "";
+    });
+  }
+
   // ---------- Account dashboard ----------
   function thumb(mod) {
     const img = modImage(mod);
@@ -224,9 +334,10 @@
   }
 
   function init() {
-    if (!document.getElementById("account-dashboard")) return;
+    if (!document.getElementById("account-dashboard") && !document.getElementById("account-avatar")) return;
     renderDashboard();
-    db()?.auth.onAuthStateChange(() => renderDashboard());
+    mountAvatarWidget();
+    db()?.auth.onAuthStateChange(() => { renderDashboard(); mountAvatarWidget(); });
   }
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
@@ -237,6 +348,7 @@
   window.ModVaultAccount = {
     getUser, isFavorite, addFavorite, removeFavorite, markSeen,
     recordUserDownload, loadFavorites, loadDownloads,
-    mountFavoriteButton, renderDashboard
+    mountFavoriteButton, renderDashboard,
+    getProfile, uploadAvatar, mountAvatarWidget, avatarImgHtml
   };
 })();
