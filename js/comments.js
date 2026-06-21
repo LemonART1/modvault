@@ -12,6 +12,13 @@
 
   const THUMB_UP = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M7 11v9H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h3zm0 0 4.5-8a2 2 0 0 1 2 2.2L12.7 9H18a2 2 0 0 1 2 2.4l-1.4 7A2 2 0 0 1 16.6 20H7"/></svg>`;
   const THUMB_DOWN = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M17 13V4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-3zm0 0-4.5 8a2 2 0 0 1-2-2.2L11.3 15H6a2 2 0 0 1-2-2.4l1.4-7A2 2 0 0 1 7.4 4H17"/></svg>`;
+  const DEFAULT_AVATAR_ICON = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.4-3.6 4.4-5.5 7.5-5.5s6.1 1.9 7.5 5.5"/></svg>`;
+
+  function avatarHtml(url) {
+    return url
+      ? `<img class="mod-comment-avatar" src="${esc(url)}" alt="">`
+      : `<span class="mod-comment-avatar mod-comment-avatar-placeholder">${DEFAULT_AVATAR_ICON}</span>`;
+  }
 
   function db() { return window.ModVaultSupabase || null; }
 
@@ -50,7 +57,7 @@
   async function loadComments(modId) {
     if (!db()) return [];
     const { data, error } = await db().from("mod_comments")
-      .select("id, user_id, username, body, parent_id, created_at")
+      .select("id, user_id, username, avatar_url, body, parent_id, created_at")
       .eq("mod_id", Number(modId))
       .order("created_at", { ascending: false })
       .limit(500);
@@ -83,8 +90,9 @@
     const user = await window.ModVaultAccount?.getUser();
     if (!db() || !user) return { ok: false, message: "Log in first." };
     const username = user.user_metadata?.username || user.email?.split("@")[0] || "User";
+    const profile = await window.ModVaultAccount?.getProfile?.(user.id);
     const { error } = await db().from("mod_comments").insert({
-      mod_id: Number(modId), user_id: user.id, username, body: text,
+      mod_id: Number(modId), user_id: user.id, username, avatar_url: profile?.avatar_url || null, body: text,
       parent_id: parentId ? Number(parentId) : null
     });
     return error ? { ok: false, message: error.message } : { ok: true };
@@ -128,14 +136,17 @@
     const mine = currentUserId && (comment.user_id === currentUserId || currentUserId === ADMIN_USER_ID);
     return `
       <div class="mod-comment${parentUsername ? " mod-comment-reply" : ""}" data-comment-id="${comment.id}">
-        <div class="mod-comment-head">
-          <strong>${esc(comment.username)}</strong>
-          <time>${timeAgo(comment.created_at)}</time>
-          ${mine ? `<button class="mod-comment-delete" type="button" data-id="${comment.id}">Delete</button>` : ""}
+        ${avatarHtml(comment.avatar_url)}
+        <div class="mod-comment-body">
+          <div class="mod-comment-head">
+            <strong>${esc(comment.username)}</strong>
+            <time>${timeAgo(comment.created_at)}</time>
+            ${mine ? `<button class="mod-comment-delete" type="button" data-id="${comment.id}">Delete</button>` : ""}
+          </div>
+          <p>${renderBody(comment.body, parentUsername)}</p>
+          <div class="mod-comment-actions">${voteRowHtml(comment, votes)}</div>
+          <div class="mod-comment-reply-slot" id="reply-slot-${comment.id}"></div>
         </div>
-        <p>${renderBody(comment.body, parentUsername)}</p>
-        <div class="mod-comment-actions">${voteRowHtml(comment, votes)}</div>
-        <div class="mod-comment-reply-slot" id="reply-slot-${comment.id}"></div>
       </div>
     `;
   }

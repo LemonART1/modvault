@@ -1041,12 +1041,38 @@ body::after {
   gap: 18px;
 }
 .mod-comment {
+  display: flex;
+  gap: 14px;
   padding-bottom: 18px;
   border-bottom: 1px solid var(--border);
 }
 .mod-comment:last-child {
   border-bottom: none;
   padding-bottom: 0;
+}
+.mod-comment-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--dark3);
+  flex-shrink: 0;
+}
+.mod-comment-avatar-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text3);
+  padding: 9px;
+  box-sizing: border-box;
+}
+.mod-comment-avatar-placeholder svg {
+  width: 100%;
+  height: 100%;
+}
+.mod-comment-body {
+  flex: 1;
+  min-width: 0;
 }
 .mod-comment-head {
   display: flex;
@@ -1057,6 +1083,7 @@ body::after {
 }
 .mod-comment-head strong {
   color: var(--text);
+  font-size: 16px;
 }
 .mod-comment-head time {
   color: var(--text3);

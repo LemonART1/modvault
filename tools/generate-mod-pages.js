@@ -192,7 +192,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image)}
-  <link rel="stylesheet" href="css/shared.css?v=16">
+  <link rel="stylesheet" href="css/shared.css?v=17">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -205,7 +205,7 @@ ${footer}
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script>
 <script src="js/account.js?v=6"></script>
-<script src="js/comments.js?v=3"></script>
+<script src="js/comments.js?v=4"></script>
 <script src="js/pages/mod-detail.js?v=5"></script>
 <script>initModDetail(${mod.id});</script>
 </body>

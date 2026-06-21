@@ -15,6 +15,11 @@ create table if not exists mod_comments (
 -- answers; top-level comments have parent_id = null.
 alter table mod_comments add column if not exists parent_id bigint references mod_comments(id) on delete cascade;
 
+-- Avatar URL is denormalized onto the comment at post time (same as
+-- username), so it doesn't need a join to render and matches what the
+-- author's profile looked like when they wrote it.
+alter table mod_comments add column if not exists avatar_url text;
+
 create index if not exists mod_comments_mod_id_idx on mod_comments (mod_id, created_at desc);
 create index if not exists mod_comments_parent_id_idx on mod_comments (parent_id);
 
