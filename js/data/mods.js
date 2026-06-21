@@ -87,9 +87,9 @@ const MODS = [
     version: "2.0",
     size: "176 MB",
     images: [
-      "images/mods/McLaren-Senna.jpg",
-      "images/mods/McLaren-Senna3.jpg",
-      "images/mods/McLaren-Senna2.jpg"
+      "images/mods/McLaren-Senna.webp",
+      "images/mods/McLaren-Senna3.webp",
+      "images/mods/McLaren-Senna2.webp"
     ],
     downloadUrl: "https://modsfire.com/VQl7o4VGvGsB4H2",
     short: "High-detail McLaren Senna mod with realistic physics",
@@ -110,9 +110,9 @@ const MODS = [
     version: "1.2",
     size: "565 MB",
     images: [
-      "images/mods/BMW-G20.jpg",
-      "images/mods/BMW-G202.jpg",
-      "images/mods/BMW-G203.jpg"
+      "images/mods/BMW-G20.webp",
+      "images/mods/BMW-G202.webp",
+      "images/mods/BMW-G203.webp"
     ],
     downloadUrl: "https://modsfire.com/j7kWWHP26CWGeB5",
     short: "Realistic BMW G20 pack with tuning and variants",
@@ -132,8 +132,8 @@ const MODS = [
     version: "2.1",
     size: "152 MB",
     images: [
-      "images/mods/BMW-X5-E70.jpg",
-      "images/mods/BMW-X5-E702.jpg"
+      "images/mods/BMW-X5-E70.webp",
+      "images/mods/BMW-X5-E702.webp"
     ],
     downloadUrl: "https://modsfire.com/LQm293uXUBfA3cm",
     short: "Compact luxury SUV pack with tuning",
@@ -153,8 +153,8 @@ const MODS = [
     version: "2.9.9",
     size: "213 MB",
     images: [
-      "images/mods/sol.png",
-      "images/mods/sol2.png"
+      "images/mods/sol.webp",
+      "images/mods/sol2.webp"
     ],
     downloadUrl: "https://modsfire.com/231Bx0Rj3cw9Eef",
     short: "Dynamic weather and lighting mod",
@@ -174,8 +174,8 @@ const MODS = [
     version: "0.70",
     size: "82 MB",
     images: [
-      "images/mods/bmw-s1000-rr-1-lg_modland.jpg",
-      "images/mods/bmw-s1000-rr-1-lg_modland2.jpg"
+      "images/mods/bmw-s1000-rr-1-lg_modland.webp",
+      "images/mods/bmw-s1000-rr-1-lg_modland2.webp"
     ],
     downloadUrl: "https://modsfire.com/09oY45b48N50et2",
     short: "High performance sport motorcycle",
@@ -195,8 +195,8 @@ const MODS = [
     version: "3.0",
     size: "15 KB",
     images: [
-      "images/mods/RealityFilter.jpg",
-      "images/mods/RealityFilter2.jpg"
+      "images/mods/RealityFilter.webp",
+      "images/mods/RealityFilter2.webp"
     ],
     downloadUrl: "https://modsfire.com/WW40RcGdnu5w5sv",
     short: "Graphics enhancement filter mod",
@@ -215,7 +215,7 @@ const MODS = [
     category: "tools",
     version: "1.0",
     size: "7 MB",
-    image: "images/mods/UE4SS-Subnautica-2.jpg",
+    image: "images/mods/UE4SS-Subnautica-2.webp",
     downloadUrl: "https://modsfire.com/8L5Hf6I7BYFQDgP",
     short: "Unreal Engine modding framework",
     description: "UE4SS is a modding framework for Unreal Engine games used in Subnautica 2, it adds support for Lua scripting, C++ mods, blueprint loading, live game editing and advanced mod development tools, includes fork maintained by Subnautica modding community with updates and integration for Nautilus ecosystem, supports Unreal Engine 5.6.1 and Io Store system instead of .pak files, provides installation in game binaries folder with Mods directory for custom content, generates UE4SS.log on correct setup, includes optional developer build for modders, supports Game Pass WinGDK and Linux Wine launch options, used as core base for community modding libraries and future expansion of Subnautica 2 modding tools",
@@ -233,7 +233,7 @@ const MODS = [
     category: "tools",
     version: "1.0",
     size: "100 KB",
-    image: "images/mods/Console-Commands.jpg",
+    image: "images/mods/Console-Commands.webp",
     downloadUrl: "https://modsfire.com/fWFT8zT9lV05725",
     short: "Developer console and cheat commands",
     description: "Enables in game developer console in Subnautica 2, activated with F2, adds gameplay command system for spawning items, editing world state, enabling god mode and other debug functions, requires UE4SS framework installed in game binaries folder with mod placed inside UE4SS directory, used for testing and gameplay manipulation during development",
@@ -252,9 +252,9 @@ const MODS = [
     version: "1.0",
     size: "1 KB",
     images: [
-      "images/mods/Performance-Mod.jpg",
-      "images/mods/Performance-Mod2.jpg",
-      "images/mods/Performance-Mod3.jpg"
+      "images/mods/Performance-Mod.webp",
+      "images/mods/Performance-Mod2.webp",
+      "images/mods/Performance-Mod3.webp"
     ],
     downloadUrl: "https://modsfire.com/A3g7c5voROKrNPA",
     short: "Performance optimization and FPS boost mod",
@@ -275,7 +275,7 @@ const MODS = [
     version: "4.5.2",
     size: "41 MB",
     images: [
-      "images/mods/SMAPI.jpg"
+      "images/mods/SMAPI.webp"
     ],
     downloadUrl: "https://modsfire.com/30pARwH0091h5u1",
     short: "Stardew Valley mod loader framework tool",
@@ -295,9 +295,9 @@ const MODS = [
     version: "2.9.1",
     size: "380 KB",
     images: [
-      "images/mods/Content-Patcher.jpg",
-      "images/mods/Content-Patcher2.jpg",
-      "images/mods/Content-Patcher3.jpg"
+      "images/mods/Content-Patcher.webp",
+      "images/mods/Content-Patcher2.webp",
+      "images/mods/Content-Patcher3.webp"
     ],
     downloadUrl: "https://modsfire.com/VD55qY8kHtx5tCa",
     short: "Stardew Valley content framework mod loader",
@@ -318,9 +318,9 @@ const MODS = [
     version: "3.5.2",
     size: "119 KB",
     images: [
-      "images/mods/NPC-Map-Locations.jpg",
-      "images/mods/NPC-Map-Locations2.jpg",
-      "images/mods/NPC-Map-Locations3.jpg"
+      "images/mods/NPC-Map-Locations.webp",
+      "images/mods/NPC-Map-Locations2.webp",
+      "images/mods/NPC-Map-Locations3.webp"
     ],
     downloadUrl: "https://modsfire.com/372p9V7I1wCU9rE",
     short: "NPC tracking and map overlay quality of life gameplay mod",
@@ -342,9 +342,9 @@ const MODS = [
     version: "1.1",
     size: "49 MB",
     images: [
-      "images/mods/2018-Maybach-S650.jpg",
-      "images/mods/2018-Maybach-S6503.jpg",
-      "images/mods/2018-Maybach-S6502.jpg"
+      "images/mods/2018-Maybach-S650.webp",
+      "images/mods/2018-Maybach-S6503.webp",
+      "images/mods/2018-Maybach-S6502.webp"
     ],
     downloadUrl: "https://modsfire.com/LmUqIzrAKsjY6nY",
     short: "Luxury Maybach S650 sedan mod",
@@ -366,9 +366,9 @@ const MODS = [
     version: "1.0",
     size: "225 MB",
     images: [
-      "images/mods/Jetta-GLI-2025.jpg",
-      "images/mods/Jetta-GLI-20252.jpg",
-      "images/mods/Jetta-GLI-20253.jpg"
+      "images/mods/Jetta-GLI-2025.webp",
+      "images/mods/Jetta-GLI-20252.webp",
+      "images/mods/Jetta-GLI-20253.webp"
     ],
     downloadUrl: "https://modsfire.com/yxPiKCOq8EQn7cN",
     short: "Modern compact sports sedan",
@@ -389,9 +389,9 @@ const MODS = [
     version: "1.0",
     size: "136 MB",
     images: [
-      "images/mods/Nissan-Patrol-2025.jpg",
-      "images/mods/Nissan-Patrol-20252.jpg",
-      "images/mods/Nissan-Patrol-20253.jpg"
+      "images/mods/Nissan-Patrol-2025.webp",
+      "images/mods/Nissan-Patrol-20252.webp",
+      "images/mods/Nissan-Patrol-20253.webp"
     ],
     downloadUrl: "https://modsfire.com/hc9Nffc2GgMITK8",
     short: "High quality Patrol with functional interior features",
@@ -412,9 +412,9 @@ const MODS = [
     version: "3.22",
     size: "601 MB",
     images: [
-      "images/mods/BMW-M5-F90 .jpg",
-      "images/mods/BMW-M5-F902 .jpg",
-      "images/mods/BMW-M5-F903 .jpg"
+      "images/mods/BMW-M5-F90 .webp",
+      "images/mods/BMW-M5-F902 .webp",
+      "images/mods/BMW-M5-F903 .webp"
     ],
     downloadUrl: "https://modsfire.com/p1W927cds4HDpK5",
     short: "Sport sedan update with fixes and tuning",
@@ -434,9 +434,9 @@ const MODS = [
     version: "1.4",
     size: "409 MB",
     images: [
-      "images/mods/Lamborghini-Gallardo.jpg",
-      "images/mods/Lamborghini-Gallardo2.jpg",
-      "images/mods/Lamborghini-Gallardo3.jpg"
+      "images/mods/Lamborghini-Gallardo.webp",
+      "images/mods/Lamborghini-Gallardo2.webp",
+      "images/mods/Lamborghini-Gallardo3.webp"
     ],
     downloadUrl: "https://modsfire.com/6Wf344u4ZT1DM0L",
     short: "Supercar with tuning and realism",
@@ -456,9 +456,9 @@ const MODS = [
     version: "1.0",
     size: "37 MB",
     images: [
-      "images/mods/Rimac-C2.jpg",
-      "images/mods/Rimac-C22.jpg",
-      "images/mods/Rimac-C23.jpg"
+      "images/mods/Rimac-C2.webp",
+      "images/mods/Rimac-C22.webp",
+      "images/mods/Rimac-C23.webp"
     ],
     downloadUrl: "https://modsfire.com/7qw0yg7p9hSv6k4",
     short: "Electric hypercar with active aero",
@@ -479,8 +479,8 @@ const MODS = [
     version: "1.0",
     size: "89 MB",
     images: [
-      "images/mods/Nissan-180SX.jpg",
-      "images/mods/Nissan-180SX2.jpg"
+      "images/mods/Nissan-180SX.webp",
+      "images/mods/Nissan-180SX2.webp"
     ],
     downloadUrl: "https://modsfire.com/405S3N1744Z3lkI",
     short: "Classic drift coupe with tuning",
@@ -500,8 +500,8 @@ const MODS = [
     version: "2.0",
     size: "147 MB",
     images: [
-      "images/mods/Tesla-ModelY.jpg",
-      "images/mods/Tesla-ModelY2.jpg"
+      "images/mods/Tesla-ModelY.webp",
+      "images/mods/Tesla-ModelY2.webp"
     ],
     downloadUrl: "https://modsfire.com/9j429WFCB98EKXf",
     short: "Electric SUV with realistic features",
@@ -521,9 +521,9 @@ const MODS = [
     version: "1.0",
     size: "934 MB",
     images: [
-      "images/mods/BMW 135i.jpg",
-      "images/mods/BMW 135i2.jpg",
-      "images/mods/BMW 135i3.jpg"
+      "images/mods/BMW 135i.webp",
+      "images/mods/BMW 135i2.webp",
+      "images/mods/BMW 135i3.webp"
     ],
     downloadUrl: "https://modsfire.com/Sonqs9f1KNTNUET",
     short: "Hot hatch with performance tuning",
@@ -543,9 +543,9 @@ const MODS = [
     version: "2.1",
     size: "121 MB",
     images: [
-      "images/mods/Toyota-Hilux.jpg",
-      "images/mods/Toyota-Hilux2.jpg",
-      "images/mods/Toyota-Hilux3.jpg"
+      "images/mods/Toyota-Hilux.webp",
+      "images/mods/Toyota-Hilux2.webp",
+      "images/mods/Toyota-Hilux3.webp"
     ],
     downloadUrl: "https://modsfire.com/50lRN6t6gtQ2Tgt",
     short: "Off-road pickup with tuning options",
@@ -565,8 +565,8 @@ const MODS = [
     version: "1.1",
     size: "170 MB",
     images: [
-      "images/mods/Toyota-Yaris-Sedan.jpg",
-      "images/mods/Toyota-Yaris-Sedan2.jpg"
+      "images/mods/Toyota-Yaris-Sedan.webp",
+      "images/mods/Toyota-Yaris-Sedan2.webp"
     ],
     downloadUrl: "https://modsfire.com/1pxbJcJ1bytrN5Z",
     short: "Compact sedan with wide customization",
@@ -586,9 +586,9 @@ const MODS = [
     version: "1.0",
     size: "225 MB",
     images: [
-      "images/mods/Dodge-Viper-GTS.jpg",
-      "images/mods/Dodge-Viper-GTS2.jpg",
-      "images/mods/Dodge-Viper-GTS3.jpg"
+      "images/mods/Dodge-Viper-GTS.webp",
+      "images/mods/Dodge-Viper-GTS2.webp",
+      "images/mods/Dodge-Viper-GTS3.webp"
     ],
     downloadUrl: "https://modsfire.com/Skn4HBSm00dVSLO",
     short: "American supercar V10",
@@ -608,9 +608,9 @@ const MODS = [
     version: "1.0",
     size: "71 MB",
     images: [
-      "images/mods/Audi-RS5.jpg",
-      "images/mods/Audi-RS52.jpg",
-      "images/mods/Audi-RS53.jpg"
+      "images/mods/Audi-RS5.webp",
+      "images/mods/Audi-RS52.webp",
+      "images/mods/Audi-RS53.webp"
     ],
     downloadUrl: "https://modsfire.com/Mi54NE6BLb23MQ9",
     short: "German performance coupe AWD",
@@ -630,9 +630,9 @@ const MODS = [
     version: "1.0",
     size: "250 MB",
     images: [
-      "images/mods/Mercedes-Benz-E55.jpg",
-      "images/mods/Mercedes-Benz-E551.jpg",
-      "images/mods/Mercedes-Benz-E552.jpg"
+      "images/mods/Mercedes-Benz-E55.webp",
+      "images/mods/Mercedes-Benz-E551.webp",
+      "images/mods/Mercedes-Benz-E552.webp"
     ],
     downloadUrl: "https://modsfire.com/9UR11IU54H4rEK3",
     short: "German super sedan V8 Kompressor",
@@ -652,9 +652,9 @@ const MODS = [
     version: "1.0",
     size: "172 MB",
     images: [
-      "images/mods/BMW-M3-Competition.jpg",
-      "images/mods/BMW-M3-Competition2.jpg",
-      "images/mods/BMW-M3-Competition3.jpg"
+      "images/mods/BMW-M3-Competition.webp",
+      "images/mods/BMW-M3-Competition2.webp",
+      "images/mods/BMW-M3-Competition3.webp"
     ],
     downloadUrl: "https://modsfire.com/3F61QSQ6k3z90qr",
     short: "Modern performance sedan",
@@ -674,9 +674,9 @@ const MODS = [
     version: "1.0",
     size: "88 MB",
     images: [
-      "images/mods/Mazda-RX-7.jpg",
-      "images/mods/3Mazda-RX-7.jpg",
-      "images/mods/2Mazda-RX-7.jpg"
+      "images/mods/Mazda-RX-7.webp",
+      "images/mods/3Mazda-RX-7.webp",
+      "images/mods/2Mazda-RX-7.webp"
     ],
     downloadUrl: "https://modsfire.com/IJNNxH6tle29Ngr",
     short: "Japanese rotary street sports car",
@@ -696,9 +696,9 @@ const MODS = [
     version: "1.0",
     size: "226 MB",
     images: [
-      "images/mods/BMW-M4.jpg",
-      "images/mods/2BMW-M4.jpg",
-      "images/mods/3BMW-M4.jpg"
+      "images/mods/BMW-M4.webp",
+      "images/mods/2BMW-M4.webp",
+      "images/mods/3BMW-M4.webp"
     ],
     downloadUrl: "https://modsfire.com/TJK2oRZ2je2JmdH",
     short: "Modern German performance coupe",
@@ -718,9 +718,9 @@ const MODS = [
     version: "1.0",
     size: "56 MB",
     images: [
-      "images/mods/Audi-RS3.jpg",
-      "images/mods/2Audi-RS3.jpg",
-      "images/mods/3Audi-RS3.jpg"
+      "images/mods/Audi-RS3.webp",
+      "images/mods/2Audi-RS3.webp",
+      "images/mods/3Audi-RS3.webp"
     ],
     downloadUrl: "https://modsfire.com/IJNNxH6tle29Ngr",
     short: "Drift competition sedan",
@@ -741,9 +741,9 @@ const MODS = [
     version: "1.0",
     size: "167 MB",
     images: [
-      "images/mods/Porsche-911-GT3-RS.jpg",
-      "images/mods/Porsche-911-GT3-RS2.jpg",
-      "images/mods/Porsche-911-GT3-RS3.jpg"
+      "images/mods/Porsche-911-GT3-RS.webp",
+      "images/mods/Porsche-911-GT3-RS2.webp",
+      "images/mods/Porsche-911-GT3-RS3.webp"
     ],
     downloadUrl: "https://modsfire.com/rTZY67WZaj0H38V",
     short: "Track focused German supercar",
@@ -764,7 +764,7 @@ const MODS = [
     version: "1.0",
     size: "7 KB",
     images: [
-      "images/mods/Cheat-Toggles.jpg"
+      "images/mods/Cheat-Toggles.webp"
     ],
     downloadUrl: "https://modsfire.com/q0gWVHjxbglJav1",
     short: "Gameplay cheat menu and toggles",
@@ -784,9 +784,9 @@ const MODS = [
     version: "1.0",
     size: "1.9 MB",
     images: [
-      "images/mods/Simple-Minimap.jpg",
-      "images/mods/Simple-Minimap2.jpg",
-      "images/mods/Simple-Minimap3.jpg"
+      "images/mods/Simple-Minimap.webp",
+      "images/mods/Simple-Minimap2.webp",
+      "images/mods/Simple-Minimap3.webp"
     ],
     downloadUrl: "https://modsfire.com/w2D5X9FBp75BG0V",
     short: "HUD minimap navigation and map overlay mod",
@@ -808,9 +808,9 @@ const MODS = [
     version: "1.1",
     size: "10 KB",
     images: [
-      "images/mods/Killable-Creatures.jpg",
-      "images/mods/Killable-Creatures2.jpg",
-      "images/mods/Killable-Creatures3.jpg"
+      "images/mods/Killable-Creatures.webp",
+      "images/mods/Killable-Creatures2.webp",
+      "images/mods/Killable-Creatures3.webp"
     ],
     downloadUrl: "https://modsfire.com/4a374t7ae4dXAtv",
     short: "Creature combat and damage gameplay mod",
@@ -832,8 +832,8 @@ const MODS = [
     version: "1.2.1",
     size: "84 KB",
     images: [
-      "images/mods/Better-Vehicles.jpg",
-      "images/mods/Better-Vehicles2.jpg"
+      "images/mods/Better-Vehicles.webp",
+      "images/mods/Better-Vehicles2.webp"
     ],
     downloadUrl: "https://modsfire.com/wHIlFU1J7t6n4x2",
     short: "Vehicle performance and upgrade enhancement mod",
@@ -854,7 +854,7 @@ const MODS = [
     version: "1.2",
     size: "6 KB",
     images: [
-      "images/mods/Comfort-Tweaks.jpg"
+      "images/mods/Comfort-Tweaks.webp"
     ],
     downloadUrl: "https://modsfire.com/Y0L2H6anHuTA55T",
     short: "Gameplay quality and UI convenience mod",
@@ -880,8 +880,8 @@ const MODS = [
     version: "1.0",
     size: "1 KB",
     images: [
-      "images/mods/Expanded-Inventory.jpg",
-      "images/mods/Expanded-Inventory2.jpg"
+      "images/mods/Expanded-Inventory.webp",
+      "images/mods/Expanded-Inventory2.webp"
     ],
     downloadUrl: "https://modsfire.com/j8h4L81nKEwX36E",
     short: "Instant inventory expansion mod",
@@ -903,9 +903,9 @@ const MODS = [
     version: "1.55.0",
     size: "616 KB",
     images: [
-      "images/mods/Lookup-Anything.jpg",
-      "images/mods/Lookup-Anything2.jpg",
-      "images/mods/Lookup-Anything3.jpg"
+      "images/mods/Lookup-Anything.webp",
+      "images/mods/Lookup-Anything2.webp",
+      "images/mods/Lookup-Anything3.webp"
     ],
     downloadUrl: "https://modsfire.com/HhFA5x253w18X06",
     short: "In game information and tooltips expansion quality of life mod",
@@ -929,9 +929,9 @@ const MODS = [
     version: "1.20.0",
     size: "49 KB",
     images: [
-      "images/mods/Mail-Framework-Mod.jpg",
-      "images/mods/Mail-Framework-Mod2.jpg",
-      "images/mods/Mail-Framework-Mod3.jpg"
+      "images/mods/Mail-Framework-Mod.webp",
+      "images/mods/Mail-Framework-Mod2.webp",
+      "images/mods/Mail-Framework-Mod3.webp"
     ],
     downloadUrl: "https://modsfire.com/LVkI8vy24rr6bEa",
     short: "Flexible mail system for modders",
@@ -952,9 +952,9 @@ const MODS = [
     version: "4.24.4",
     size: "360 KB",
     images: [
-      "images/mods/Tractor-Mod.jpg",
-      "images/mods/Tractor-Mod2.jpg",
-      "images/mods/Tractor-Mod3.jpg"
+      "images/mods/Tractor-Mod.webp",
+      "images/mods/Tractor-Mod2.webp",
+      "images/mods/Tractor-Mod3.webp"
     ],
     downloadUrl: "https://modsfire.com/PCom1WtGlv7CafB",
     short: "Farm tractor automation system",
@@ -976,9 +976,9 @@ const MODS = [
     version: "1.3",
     size: "656 MB",
     images: [
-      "images/mods/BMW4-SeriesF32.jpg",
-      "images/mods/BMW4-SeriesF322.jpg",
-      "images/mods/BMW4-SeriesF323.jpg"
+      "images/mods/BMW4-SeriesF32.webp",
+      "images/mods/BMW4-SeriesF322.webp",
+      "images/mods/BMW4-SeriesF323.webp"
     ],
     downloadUrl: "https://modsfire.com/xb1w50c0Acmd0n6",
     short: "Luxury coupe with advanced customization",
@@ -998,8 +998,8 @@ const MODS = [
     version: "1.0",
     size: "317 MB",
     images: [
-      "images/mods/BMW X3 2020–20212.png",
-      "images/mods/BMW X3 2020–2021.png"
+      "images/mods/BMW X3 2020–20212.webp",
+      "images/mods/BMW X3 2020–2021.webp"
     ],
     downloadUrl: "https://modsfire.com/xgW6s03ijde15i2",
     short: "Modern premium SUV",
@@ -1019,8 +1019,8 @@ const MODS = [
     version: "1.1",
     size: "254 MB",
     images: [
-      "images/mods/Porsche-911-GT32.jpg",
-      "images/mods/Porsche-911-GT3.jpg"
+      "images/mods/Porsche-911-GT32.webp",
+      "images/mods/Porsche-911-GT3.webp"
     ],
     downloadUrl: "https://modsfire.com/VE5Gv44kA98jZ11",
     short: "Track focused sports car",
@@ -1040,9 +1040,9 @@ const MODS = [
     version: "1.0",
     size: "114 MB",
     images: [
-      "images/mods/Camaro2015.jpg",
-      "images/mods/3Camaro2015.jpg",
-      "images/mods/2Camaro2015.jpg"
+      "images/mods/Camaro2015.webp",
+      "images/mods/3Camaro2015.webp",
+      "images/mods/2Camaro2015.webp"
     ],
     downloadUrl: "https://modsfire.com/ul5X13e6X6Zs2Xn",
     short: "Muscle car with V8 performance",
@@ -1062,9 +1062,9 @@ const MODS = [
     version: "1.0",
     size: "254 MB",
     images: [
-      "images/mods/Audi-RS4.jpg",
-      "images/mods/Audi-RS2.jpg",
-      "images/mods/Audi-RS43.jpg"
+      "images/mods/Audi-RS4.webp",
+      "images/mods/Audi-RS2.webp",
+      "images/mods/Audi-RS43.webp"
     ],
     downloadUrl: "https://modsfire.com/XFyNP79tE6VdRN8",
     short: "Premium sedan and performance lineup",
@@ -1084,9 +1084,9 @@ const MODS = [
     version: "1.0",
     size: "53 KB",
     images: [
-      "images/mods/Properties-and-Raids.jpg",
-      "images/mods/Properties-and-Raids2.jpg",
-      "images/mods/Properties-and-Raids3.jpg"
+      "images/mods/Properties-and-Raids.webp",
+      "images/mods/Properties-and-Raids2.webp",
+      "images/mods/Properties-and-Raids3.webp"
     ],
     downloadUrl: "https://modsfire.com/21QoVlmgQa34DH9",
     short: "Dynamic property system with police raids and risk",
@@ -1108,9 +1108,9 @@ const MODS = [
     version: "1.1",
     size: "20 KB",
     images: [
-      "images/mods/Added-Traffic-Enhanced.jpg",
-      "images/mods/Added-Traffic-Enhanced2.jpg",
-      "images/mods/Added-Traffic-Enhanced3.jpg"
+      "images/mods/Added-Traffic-Enhanced.webp",
+      "images/mods/Added-Traffic-Enhanced2.webp",
+      "images/mods/Added-Traffic-Enhanced3.webp"
     ],
     downloadUrl: "https://modsfire.com/3UI2o7X15t3LAIb",
     short: "Advanced configurable traffic expansion system with custom spawns",
@@ -1132,9 +1132,9 @@ const MODS = [
     version: "1.3",
     size: "73 KB",
     images: [
-      "images/mods/Jailbreak.jpg",
-      "images/mods/Jailbreak2.jpg",
-      "images/mods/Jailbreak3.jpg"
+      "images/mods/Jailbreak.webp",
+      "images/mods/Jailbreak2.webp",
+      "images/mods/Jailbreak3.webp"
     ],
     downloadUrl: "https://modsfire.com/6hDpQpIB6r1I828",
     short: "Prison system with sentences, lockdowns and escape mechanics",
@@ -1156,9 +1156,9 @@ const MODS = [
     version: "0.3",
     size: "46 MB",
     images: [
-      "images/mods/Cypress-Vice-Smuggling.jpg",
-      "images/mods/Cypress-Vice-Smuggling2.jpg",
-      "images/mods/Cypress-Vice-Smuggling3.jpg"
+      "images/mods/Cypress-Vice-Smuggling.webp",
+      "images/mods/Cypress-Vice-Smuggling2.webp",
+      "images/mods/Cypress-Vice-Smuggling3.webp"
     ],
     downloadUrl: "https://modsfire.com/S3gQOHeV21537os",
     short: "Smuggling heist mission with story and multiple approaches",
@@ -1180,9 +1180,9 @@ const MODS = [
     version: "1.26.1",
     size: "130 KB",
     images: [
-      "images/mods/(FTM).jpg",
-      "images/mods/(FTM)2.jpg",
-      "images/mods/(FTM)3.jpg"
+      "images/mods/(FTM).webp",
+      "images/mods/(FTM)2.webp",
+      "images/mods/(FTM)3.webp"
     ],
     downloadUrl: "https://modsfire.com/pYhwWH18WW5E6E9",
     short: "Spawning framework and world population mod system",
@@ -1204,9 +1204,9 @@ const MODS = [
     version: "1.6.2",
     size: "173 KB",
     images: [
-      "images/mods/Skull-Cavern-Elevator.jpg",
-      "images/mods/Skull-Cavern-Elevator2.jpg",
-      "images/mods/Skull-Cavern-Elevator3.jpg"
+      "images/mods/Skull-Cavern-Elevator.webp",
+      "images/mods/Skull-Cavern-Elevator2.webp",
+      "images/mods/Skull-Cavern-Elevator3.webp"
     ],
     downloadUrl: "https://modsfire.com/rC1TOwaLxPNn1OC",
     short: "Skull Cavern elevator progression system",
@@ -1228,9 +1228,9 @@ const MODS = [
     version: "2.2",
     size: "161 MB",
     images: [
-      "images/mods/eurotrucks2-2025-09-21-12-32-48-693-lg.jpg",
-      "images/mods/eurotrucks2-2025-09-21-12-37-17-875-lg.jpg",
-      "images/mods/eurotrucks2-2025-09-21-12-41-52-403-lg.jpg"
+      "images/mods/eurotrucks2-2025-09-21-12-32-48-693-lg.webp",
+      "images/mods/eurotrucks2-2025-09-21-12-37-17-875-lg.webp",
+      "images/mods/eurotrucks2-2025-09-21-12-41-52-403-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/3N9XM0sO3DRfd8e",
     short: "Luxury S-Class with realistic driving and detailed systems",
@@ -1252,9 +1252,9 @@ const MODS = [
     version: "1.1",
     size: "72 MB",
     images: [
-      "images/mods/cs-01-lg.jpg",
-      "images/mods/cs-02-lg.jpg",
-      "images/mods/cs-03-lg.jpg"
+      "images/mods/cs-01-lg.webp",
+      "images/mods/cs-02-lg.webp",
+      "images/mods/cs-03-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/gnF6b5iZT9OCtyR",
     short: "Refined M5 with improved sound, lights, and handling",
@@ -1275,9 +1275,9 @@ const MODS = [
     version: "2.0",
     size: "402 MB",
     images: [
-      "images/mods/amftbq2h4n7pcujl-lg.jpg",
-      "images/mods/dipq8axt5yuvi21r-lg.jpg",
-      "images/mods/xvoyaiwjmqczbcl1-lg.jpg"
+      "images/mods/amftbq2h4n7pcujl-lg.webp",
+      "images/mods/dipq8axt5yuvi21r-lg.webp",
+      "images/mods/xvoyaiwjmqczbcl1-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/7E4MZ74i6tgf30r",
     short: "Scania truck with custom chassis and tuning options",
@@ -1301,9 +1301,9 @@ const MODS = [
     version: "0.9.39",
     size: "2 GB",
     images: [
-      "images/mods/3v9peko1hoz2lufn-lg.jpg",
-      "images/mods/or8ed9ldj0utzs37-lg.jpg",
-      "images/mods/rfmtoysj3ghp6cnd-lg.jpg"
+      "images/mods/3v9peko1hoz2lufn-lg.webp",
+      "images/mods/or8ed9ldj0utzs37-lg.webp",
+      "images/mods/rfmtoysj3ghp6cnd-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/DUe0J6M9dM5Hok3",
     short: "Expanded Hungary map with updated structure and fixes",
@@ -1325,9 +1325,9 @@ const MODS = [
     version: "1.5",
     size: "83 MB",
     images: [
-      "images/mods/gts1-lg.jpg",
-      "images/mods/gts2-lg.jpg",
-      "images/mods/gts3-lg.jpg"
+      "images/mods/gts1-lg.webp",
+      "images/mods/gts2-lg.webp",
+      "images/mods/gts3-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/4wCR270e5gmQh9e",
     short: "Refined Porsche with improved visuals and handling",
@@ -1349,8 +1349,8 @@ const MODS = [
     version: "1.2",
     size: "49 MB",
     images: [
-      "images/mods/488-2-lg.jpg",
-      "images/mods/488-lg.jpg"
+      "images/mods/488-2-lg.webp",
+      "images/mods/488-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/7o0Tqaranstl5ak",
     short: "Refined Ferrari 488 with improved sound and visuals",
@@ -1373,9 +1373,9 @@ const MODS = [
     version: "1.0",
     size: "153 MB",
     images: [
-      "images/mods/01-lg.jpg",
-      "images/mods/04-lg.jpg",
-      "images/mods/09-lg.jpg"
+      "images/mods/01-lg.webp",
+      "images/mods/04-lg.webp",
+      "images/mods/09-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/5NulkAJJpM8hKRN",
     short: "Volvo truck series with multiple cabins and tuning options",
@@ -1398,9 +1398,9 @@ const MODS = [
     version: "1.37.1",
     size: "33 MB",
     images: [
-      "images/mods/107-1613641770-185635979.jpg",
-      "images/mods/107-1607849951-175543836.jpg",
-      "images/mods/107-1607967339-1488777036.jpg"
+      "images/mods/107-1613641770-185635979.webp",
+      "images/mods/107-1607849951-175543836.webp",
+      "images/mods/107-1607967339-1488777036.webp"
     ],
     downloadUrl: "https://modsfire.com/kC9dnWC0EIGU5p7",
     short: "Essential framework for Cyberpunk 2077 modders, offering Lua scripting and patches.",
@@ -1421,7 +1421,7 @@ const MODS = [
     version: "1.30.0",
     size: "562 KB",
     images: [
-      "images/mods/2380-1618829826-1376548256.jpg"
+      "images/mods/2380-1618829826-1376548256.webp"
     ],
     downloadUrl: "https://modsfire.com/30UfI8Qq529H2FI",
     short: "Essential library extending REDengine 4 for advanced Cyberpunk 2077 modding.",
@@ -1440,7 +1440,7 @@ const MODS = [
     version: "1.26.8",
     size: "1 MB",
     images: [
-      "images/mods/4198-1648116857-72076015.jpg"
+      "images/mods/4198-1648116857-72076015.webp"
     ],
     downloadUrl: "https://modsfire.com/V27VE7l2lwL8F0P",
     short: "Essential modding tool for Cyberpunk 2077 to load custom content.",
@@ -1460,9 +1460,9 @@ const MODS = [
     version: "1.0",
     size: "24 MB",
     images: [
-      "images/mods/30067-1780097818-1999627383.jpg",
-      "images/mods/30067-1780098524-2127472732.jpg",
-      "images/mods/30067-1780415792-1844134855.jpg"
+      "images/mods/30067-1780097818-1999627383.webp",
+      "images/mods/30067-1780098524-2127472732.webp",
+      "images/mods/30067-1780415792-1844134855.webp"
     ],
     downloadUrl: "https://modsfire.com/1Zgur8w57NgYTDw",
     short: "Adds a standalone custom 1997 Lada VAZ 2105 car.",
@@ -1483,9 +1483,9 @@ const MODS = [
     version: "1.5.1",
     size: "19 KB",
     images: [
-      "images/mods/2675-1622146563-1527606060.jpg",
-      "images/mods/2675-1625341600-1341388716.jpg",
-      "images/mods/2675-1667748771-454639035.jpg"
+      "images/mods/2675-1622146563-1527606060.webp",
+      "images/mods/2675-1625341600-1341388716.webp",
+      "images/mods/2675-1667748771-454639035.webp"
     ],
     downloadUrl: "https://modsfire.com/9Q1hmosO2LomW0K",
     short: "Better first-person view, visible torso, and free-look camera.",
@@ -1505,9 +1505,9 @@ const MODS = [
     version: "3.07",
     size: "177 MB",
     images: [
-      "images/mods/11077-1761990550-1909361106.jpg",
-      "images/mods/11077-1763811653-552820629.jpg",
-      "images/mods/11077-1770458395-1334083899.jpg"
+      "images/mods/11077-1761990550-1909361106.webp",
+      "images/mods/11077-1763811653-552820629.webp",
+      "images/mods/11077-1770458395-1334083899.webp"
     ],
     downloadUrl: "https://modsfire.com/5z20nLLslTO80wP",
     short: "Adds extensive braindance catalog with romance, relaxation, and streaming options.",
@@ -1527,9 +1527,9 @@ const MODS = [
     version: "1.0.0.9",
     size: "21 MB",
     images: [
-      "images/mods/22731-1779279304-1462120058.jpg",
-      "images/mods/22731-1779280511-1184795248.jpg",
-      "images/mods/22731-1779310598-16266189.jpg"
+      "images/mods/22731-1779279304-1462120058.webp",
+      "images/mods/22731-1779280511-1184795248.webp",
+      "images/mods/22731-1779310598-16266189.webp"
     ],
     downloadUrl: "https://modsfire.com/81e879V4O4L6XKw",
     short: "Empowers Wyll with more story agency through new dialogue and quests.",
@@ -1550,9 +1550,9 @@ const MODS = [
     version: "1.0",
     size: "31 MB",
     images: [
-      "images/mods/22912-1779026963-276802780.jpg",
-      "images/mods/22912-1779027104-1506796504.jpg",
-      "images/mods/22912-1779027131-473483231.jpg"
+      "images/mods/22912-1779026963-276802780.webp",
+      "images/mods/22912-1779027104-1506796504.webp",
+      "images/mods/22912-1779027131-473483231.webp"
     ],
     downloadUrl: "https://modsfire.com/f323bl6Pou9052E",
     short: "Adds Emily's iconic outfit to Baldur's Gate 3 for select races.",
@@ -1573,9 +1573,9 @@ const MODS = [
     version: "1.0.1.10",
     size: "9 KB",
     images: [
-      "images/mods/22789-1778852333-480866062.jpg",
-      "images/mods/22789-1778770441-78477308.jpg",
-      "images/mods/22789-1778763918-1882052883.jpg"
+      "images/mods/22789-1778852333-480866062.webp",
+      "images/mods/22789-1778770441-78477308.webp",
+      "images/mods/22789-1778763918-1882052883.webp"
     ],
     downloadUrl: "https://modsfire.com/LAZ5D1RsL4WygTo",
     short: "Create multiple player characters for unique, story-rich Baldur's Gate 3 playthroughs.",
@@ -1593,9 +1593,9 @@ const MODS = [
     version: "1.0.2.1",
     size: "71 MB",
     images: [
-      "images/mods/23095-1780073580-1790105963.jpg",
-      "images/mods/23095-1780012216-587688297.jpg",
-      "images/mods/23095-1779992333-567564600.jpg"
+      "images/mods/23095-1780073580-1790105963.webp",
+      "images/mods/23095-1780012216-587688297.webp",
+      "images/mods/23095-1779992333-567564600.webp"
     ],
     downloadUrl: "https://modsfire.com/tdy71Qtbu5LESur",
     short: "New themed outfits for Baldur's Gate 3 with scaling stats.",
@@ -1616,9 +1616,9 @@ const MODS = [
     version: "1.0",
     size: "35 MB",
     images: [
-      "images/mods/23111-1780077255-1435933341.jpg",
-      "images/mods/23111-1780077326-966875550.jpg",
-      "images/mods/23111-1780077772-1052113101.jpg"
+      "images/mods/23111-1780077255-1435933341.webp",
+      "images/mods/23111-1780077326-966875550.webp",
+      "images/mods/23111-1780077772-1052113101.webp"
     ],
     downloadUrl: "https://modsfire.com/34DB1WI17BeFCcA",
     short: "Adds two armor sets and boots to tutorial chest.",
@@ -1638,9 +1638,9 @@ const MODS = [
     version: "1.0.0.9",
     size: "31 MB",
     images: [
-      "images/mods/23007-1779459250-1200179086.jpg",
-      "images/mods/23007-1779459267-140274658.jpg",
-      "images/mods/23007-1779459419-458209086.jpg"
+      "images/mods/23007-1779459250-1200179086.webp",
+      "images/mods/23007-1779459267-140274658.webp",
+      "images/mods/23007-1779459419-458209086.webp"
     ],
     downloadUrl: "https://modsfire.com/fApu7XP1uE8XVRP",
     short: "Restores Nautiloid front deck, cut content, and Early Access dialogue.",
@@ -1659,9 +1659,9 @@ const MODS = [
     version: "2.0.0.17",
     size: "81 MB",
     images: [
-      "images/mods/22873-1778832529-1039354262.jpg",
-      "images/mods/22873-1778832556-1583725575.jpg",
-      "images/mods/22873-1778846058-1320719840.jpg"
+      "images/mods/22873-1778832529-1039354262.webp",
+      "images/mods/22873-1778832556-1583725575.webp",
+      "images/mods/22873-1778846058-1320719840.webp"
     ],
     downloadUrl: "https://modsfire.com/7rNXyIPjDU5i4f0",
     short: "Adds gold jewels exclusively for male characters, with minimized clipping.",
@@ -1681,9 +1681,9 @@ const MODS = [
     version: "1.0",
     size: "11 MB",
     images: [
-      "images/mods/23014-1779486921-427007674.jpg",
-      "images/mods/23014-1779487023-499084155.jpg",
-      "images/mods/23014-1779487054-1002045177.jpg"
+      "images/mods/23014-1779486921-427007674.webp",
+      "images/mods/23014-1779487023-499084155.webp",
+      "images/mods/23014-1779487054-1002045177.webp"
     ],
     downloadUrl: "https://modsfire.com/7a6iQ6Z8mgzWv7l",
     short: "Adds new BT1 head preset for various races, enhancing character customization.",
@@ -1703,9 +1703,9 @@ const MODS = [
     version: "1.0",
     size: "353 MB",
     images: [
-      "images/mods/nismo-lg.jpg",
-      "images/mods/plain-lg.jpg",
-      "images/mods/big-lg.jpg"
+      "images/mods/nismo-lg.webp",
+      "images/mods/plain-lg.webp",
+      "images/mods/big-lg.webp"
     ],
     downloadUrl: "https://modsfire.com/cOm58GP4VK08LKf",
     short: "Experience a highly detailed, customizable Nissan Skyline R34 in BeamNG.",
@@ -1727,8 +1727,8 @@ const MODS = [
     version: "1.0",
     size: "97 MB",
     images: [
-      "images/mods/dodge-ram-3500-flatbed-1.jpg",
-      "images/mods/dodge-ram-3500-flatbed-2.jpg"
+      "images/mods/dodge-ram-3500-flatbed-1.webp",
+      "images/mods/dodge-ram-3500-flatbed-2.webp"
     ],
     downloadUrl: "https://modsfire.com/6b7SW9mpP1CSId0",
     short: "Adds a high-quality Dodge Ram 3500 Flatbed truck with tuning.",
@@ -1755,8 +1755,8 @@ const MODS = [
     version: "1.0",
     size: "270 MB",
     images: [
-      "images/mods/volkswagen-passat-b8ps-1.jpg",
-      "images/mods/volkswagen-passat-b8ps-2.jpg"
+      "images/mods/volkswagen-passat-b8ps-1.webp",
+      "images/mods/volkswagen-passat-b8ps-2.webp"
     ],
     downloadUrl: "https://modsfire.com/9SprU06d7EcTj5I",
     short: "High-quality Volkswagen Passat B8PS with detailed models and a hybrid system.",
@@ -1780,9 +1780,9 @@ const MODS = [
     version: "3.0",
     size: "217 MB",
     images: [
-      "images/mods/toyota-camry-xv55-1.jpg",
-      "images/mods/toyota-camry-xv55-2.jpg",
-      "images/mods/toyota-camry-xv55-3.jpg"
+      "images/mods/toyota-camry-xv55-1.webp",
+      "images/mods/toyota-camry-xv55-2.webp",
+      "images/mods/toyota-camry-xv55-3.webp"
     ],
     downloadUrl: "https://modsfire.com/5wj9v1V1ypaMn0x",
     short: "High-quality Toyota Camry with many configurations, detailed interior, and updates.",
@@ -1806,8 +1806,8 @@ const MODS = [
     version: "1.2",
     size: "238 MB",
     images: [
-      "images/mods/bmw-x6-e71-1.jpg",
-      "images/mods/bmw-x6-e71-2.jpg"
+      "images/mods/bmw-x6-e71-1.webp",
+      "images/mods/bmw-x6-e71-2.webp"
     ],
     downloadUrl: "https://modsfire.com/MSl80I1OV8PSnYG",
     short: "High-quality BMW X6 E71 with multiple configurations and detailed features.",
@@ -1831,9 +1831,9 @@ const MODS = [
     version: "1.5.0",
     size: "602 MB",
     images: [
-      "images/mods/toyota-supra-a80-1.jpg",
-      "images/mods/toyota-supra-a80-2.jpg",
-      "images/mods/toyota-supra-a80-3.jpg"
+      "images/mods/toyota-supra-a80-1.webp",
+      "images/mods/toyota-supra-a80-2.webp",
+      "images/mods/toyota-supra-a80-3.webp"
     ],
     downloadUrl: "https://modsfire.com/FT4PmVg7yeH0sQN",
     short: "Experience the iconic Toyota Supra A80 with detailed features and fixes.",
@@ -1857,9 +1857,9 @@ const MODS = [
     version: "1.0",
     size: "895 MB",
     images: [
-      "images/mods/bmw-5-series-g30f90-pack-v10-1.jpg",
-      "images/mods/bmw-5-series-g30f90-pack-v10-2.jpg",
-      "images/mods/bmw-5-series-g30f90-pack-v10-3.jpg"
+      "images/mods/bmw-5-series-g30f90-pack-v10-1.webp",
+      "images/mods/bmw-5-series-g30f90-pack-v10-2.webp",
+      "images/mods/bmw-5-series-g30f90-pack-v10-3.webp"
     ],
     downloadUrl: "https://modsfire.com/wHB96Vo934XyGF2",
     short: "Adds a highly detailed BMW 5-Series G30/F90 pack with tuning options.",
@@ -1883,8 +1883,8 @@ const MODS = [
     version: "4.0",
     size: "94 MB",
     images: [
-      "images/mods/2024-chevrolet-corvette-c8-mega-pack-with-z06-parts-1.jpg",
-      "images/mods/2024-chevrolet-corvette-c8-mega-pack-with-z06-parts-2.jpg"
+      "images/mods/2024-chevrolet-corvette-c8-mega-pack-with-z06-parts-1.webp",
+      "images/mods/2024-chevrolet-corvette-c8-mega-pack-with-z06-parts-2.webp"
     ],
     downloadUrl: "https://modsfire.com/7utk8fWRk0aj7p4",
     short: "Revamped 2024 Chevrolet Corvette C8 MEGA PACK with Z06 parts.",
@@ -1907,9 +1907,9 @@ const MODS = [
     version: "1.1.1",
     size: "38 MB",
     images: [
-      "images/mods/bmw-m4-2020-1.jpg",
-      "images/mods/bmw-m4-2020-2.jpg",
-      "images/mods/bmw-m4-2020-3.jpg"
+      "images/mods/bmw-m4-2020-1.webp",
+      "images/mods/bmw-m4-2020-2.webp",
+      "images/mods/bmw-m4-2020-3.webp"
     ],
     downloadUrl: "https://modsfire.com/u0BLUluHhNx7caS",
     short: "Add a high-quality 2020 BMW M4 with detailed features.",
@@ -1931,9 +1931,9 @@ const MODS = [
     version: "1.8",
     size: "166 MB",
     images: [
-      "images/mods/mercedes-benz-gls-maybach-2023-1.jpg",
-      "images/mods/mercedes-benz-gls-maybach-2023-2.jpg",
-      "images/mods/mercedes-benz-gls-maybach-2023-3.jpg"
+      "images/mods/mercedes-benz-gls-maybach-2023-1.webp",
+      "images/mods/mercedes-benz-gls-maybach-2023-2.webp",
+      "images/mods/mercedes-benz-gls-maybach-2023-3.webp"
     ],
     downloadUrl: "https://modsfire.com/h5KKm6Ok14I0AJ2",
     short: "Adds Mercedes-Benz GLS Maybach 2023 with improved visuals and physics.",
@@ -1956,9 +1956,9 @@ const MODS = [
     version: "6.0",
     size: "462 MB",
     images: [
-      "images/mods/scania-s650-eckhardt-1.jpg",
-      "images/mods/scania-s650-eckhardt-2.jpg",
-      "images/mods/scania-s650-eckhardt-3.jpg"
+      "images/mods/scania-s650-eckhardt-1.webp",
+      "images/mods/scania-s650-eckhardt-2.webp",
+      "images/mods/scania-s650-eckhardt-3.webp"
     ],
     downloadUrl: "https://modsfire.com/AlsLV3Ryv9NzcG8",
     short: "Adds standalone Scania S650 Eckhardt truck and Lamberet trailer with custom features.",
@@ -1980,8 +1980,8 @@ const MODS = [
     version: "1.4",
     size: "189 MB",
     images: [
-      "images/mods/ekeri-trailers-revision-by-kast-v14-1.jpg",
-      "images/mods/ekeri-trailers-revision-by-kast-v14-2.jpg"
+      "images/mods/ekeri-trailers-revision-by-kast-v14-1.webp",
+      "images/mods/ekeri-trailers-revision-by-kast-v14-2.webp"
     ],
     downloadUrl: "https://modsfire.com/f8D222042JO077e",
     short: "Realistic Ekeri semi and full trailers with new customization options.",
@@ -2003,9 +2003,9 @@ const MODS = [
     version: "1.5",
     size: "164 MB",
     images: [
-      "images/mods/2023-mercedes-benz-gls-63-1.jpg",
-      "images/mods/2023-mercedes-benz-gls-63-2.jpg",
-      "images/mods/2023-mercedes-benz-gls-63-3.jpg"
+      "images/mods/2023-mercedes-benz-gls-63-1.webp",
+      "images/mods/2023-mercedes-benz-gls-63-2.webp",
+      "images/mods/2023-mercedes-benz-gls-63-3.webp"
     ],
     downloadUrl: "https://modsfire.com/Rr5LI8e3Gt14Lhk",
     short: "Add the luxurious 2023 Mercedes-Benz GLS 63 to ETS2.",
@@ -2027,8 +2027,8 @@ const MODS = [
     version: "8.0",
     size: "657 MB",
     images: [
-      "images/mods/scania-s650-heinrichs-thermoliner-1.jpg",
-      "images/mods/scania-s650-heinrichs-thermoliner-2.jpg"
+      "images/mods/scania-s650-heinrichs-thermoliner-1.webp",
+      "images/mods/scania-s650-heinrichs-thermoliner-2.webp"
     ],
     downloadUrl: "https://modsfire.com/OQJwKU7t7yqlqX8",
     short: "Experience the Scania S650 Heinrichs Thermoliner with custom features.",

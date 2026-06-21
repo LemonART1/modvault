@@ -1,0 +1,24 @@
+{
+  "name": "mods",
+  "version": "1.0.0",
+  "description": "Каталог модов для популярных PC-игр (BeamNG.drive, Assetto Corsa, Subnautica 2, Stardew Valley, GTA V, ETS2, Cyberpunk 2077, Baldur's Gate 3).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemonART1/modvault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LemonART1/modvault/issues"
+  },
+  "homepage": "https://github.com/LemonART1/modvault#readme",
+  "devDependencies": {
+    "sharp": "^0.35.2"
+  }
+}
