@@ -231,7 +231,7 @@ ${metaTags({ title: `${post.title} - ModVault`, description: post.summary, url: 
 <main class="page content-page"><div class="container"><article class="content-hero"><span class="content-kicker">${kicker}</span><h1 class="content-title">${esc(post.title)}</h1><p class="content-lede">${esc(post.summary)}</p></article><section class="content-grid">${post.sections.map(([heading, body]) => `<div class="content-panel"><h2>${esc(heading)}</h2><p>${esc(body)}</p></div>`).join("")}${source}</section></div></main>
 ${footer}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase-client.js?v=15"></script>
+<script src="js/supabase-client.js?v=16"></script>
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script></body>
 </html>

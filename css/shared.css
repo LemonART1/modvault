@@ -81,7 +81,13 @@ body::after {
 }
 .logo span { color: var(--text); }
 .header-nav {
-  display: flex; gap: 6px; margin-left: auto;
+  display: flex; align-items: center; gap: 6px; margin-left: auto;
+}
+.nav-avatar {
+  width: 24px; height: 24px; border-radius: 50%;
+  object-fit: cover; flex-shrink: 0;
+  margin-left: 4px;
+  background: var(--dark3);
 }
 .global-search {
   position: relative;

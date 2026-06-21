@@ -205,6 +205,10 @@
       .upsert({ id: user.id, avatar_url: avatarUrl, updated_at: new Date().toISOString() });
     if (profileError) return { ok: false, message: profileError.message };
 
+    // Push the new avatar into the header immediately instead of waiting
+    // for its cache to expire.
+    window.ModVaultUser?.setAvatarUrl?.(user.id, avatarUrl);
+
     return { ok: true, url: avatarUrl };
   }
 

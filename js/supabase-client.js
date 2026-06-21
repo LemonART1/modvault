@@ -52,7 +52,56 @@
 
   function clearCachedUser() {
     knownUser = null;
+    avatarCache = { userId: null, url: null };
     localStorage.removeItem(CURRENT_USER_KEY);
+  }
+
+  // ---------- Header avatar ----------
+  // Cached so the frequent nav refreshes (see scheduleNavRefreshes) don't
+  // hit the profiles table on every tick.
+  let avatarCache = { userId: null, url: null };
+
+  async function getAvatarUrl(userId) {
+    if (!userId) return null;
+    if (avatarCache.userId === userId) return avatarCache.url;
+    if (!window.ModVaultSupabase) return null;
+    try {
+      const { data } = await withTimeout(
+        window.ModVaultSupabase.from("profiles").select("avatar_url").eq("id", userId).maybeSingle(),
+        1500
+      );
+      avatarCache = { userId, url: data?.avatar_url || null };
+    } catch {
+      avatarCache = { userId, url: null };
+    }
+    return avatarCache.url;
+  }
+
+  // Lets the account page push a freshly-uploaded avatar into the header
+  // immediately, instead of waiting for the next cache-expiry fetch.
+  function setAvatarUrl(userId, url) {
+    avatarCache = { userId, url };
+    updateAccountNavFromUser(knownUser || getCachedUser());
+  }
+
+  function renderNavAvatar(user) {
+    const nav = document.querySelector(".header-nav");
+    if (!nav) return;
+    let img = nav.querySelector(".nav-avatar");
+    if (!user) { img?.remove(); return; }
+    if (!img) {
+      img = document.createElement("img");
+      img.className = "nav-avatar";
+      img.alt = "";
+      img.loading = "lazy";
+      const link = nav.querySelector('[data-account-link="true"]');
+      link?.insertAdjacentElement("afterend", img);
+    }
+    getAvatarUrl(user.id).then(url => {
+      if (!img.isConnected) return;
+      if (url) { img.src = url; img.style.display = ""; }
+      else { img.removeAttribute("src"); img.style.display = "none"; }
+    });
   }
 
   async function getCurrentUser() {
@@ -134,6 +183,7 @@
       link.href = "account";
       link.textContent = "Login";
       link.title = "Log in";
+      renderNavAvatar(null);
       return;
     }
 
@@ -141,6 +191,7 @@
     link.href = "account";
     link.textContent = name.length > 14 ? `${name.slice(0, 13)}...` : name;
     link.title = name;
+    renderNavAvatar(user);
   }
 
   function scheduleNavRefreshes() {
@@ -167,6 +218,7 @@
     getCachedUser,
     cacheUser,
     clearCachedUser,
-    getDisplayName
+    getDisplayName,
+    setAvatarUrl
   };
 })();
