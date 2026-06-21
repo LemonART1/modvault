@@ -69,6 +69,11 @@ function initModDetail(modId) {
         ${relatedModsSection(mod)}
       </div>
     </section>
+    <section class="mod-detail-comments">
+      <div class="container">
+        <div id="mod-comments"></div>
+      </div>
+    </section>
   `;
 
   Promise.allSettled([
@@ -77,6 +82,7 @@ function initModDetail(modId) {
   ]).then(() => refreshCurrentModStats(mod));
 
   if (window.ModVaultAccount) ModVaultAccount.mountFavoriteButton(mod);
+  if (window.ModVaultComments) ModVaultComments.mount(mod.id);
 }
 
 async function recordCurrentDownload(modId) {

@@ -948,6 +948,122 @@ body::after {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
+.mod-detail-comments {
+  padding: 36px 0 60px;
+  border-top: 1px solid var(--border);
+}
+.mod-detail-comments h2 {
+  font-family: var(--font-d);
+  font-size: 26px;
+  letter-spacing: .5px;
+  margin-bottom: 18px;
+}
+.mod-comment-form textarea {
+  width: 100%;
+  min-height: 84px;
+  padding: 12px 14px;
+  background: var(--dark3);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+}
+.mod-comment-form textarea:focus {
+  outline: none;
+  border-color: var(--game-accent, var(--accent));
+}
+.mod-comment-form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+}
+.mod-comment-counter {
+  font-family: var(--font-m);
+  font-size: 11px;
+  color: var(--text3);
+}
+.mod-comment-form-row button {
+  padding: 10px 22px;
+  border-radius: var(--r);
+  border: none;
+  background: var(--game-accent, var(--accent));
+  color: #05060a;
+  font-family: var(--font-m);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  cursor: pointer;
+  transition: opacity var(--transition);
+}
+.mod-comment-form-row button:hover { opacity: .85; }
+.mod-comment-form-row button:disabled { opacity: .5; cursor: default; }
+.mod-comment-error {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: #ff5a5a;
+}
+.mod-comments-login,
+.mod-comments-empty,
+.mod-comments-loading {
+  color: var(--text2);
+  font-size: 14px;
+}
+.mod-comments-login a {
+  color: var(--game-accent, var(--accent));
+}
+.mod-comment-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.mod-comment {
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.mod-comment:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.mod-comment-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+.mod-comment-head strong {
+  color: var(--text);
+}
+.mod-comment-head time {
+  color: var(--text3);
+  font-family: var(--font-m);
+  font-size: 11px;
+}
+.mod-comment-delete {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--text3);
+  font-family: var(--font-m);
+  font-size: 11px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.mod-comment-delete:hover { color: #ff5a5a; }
+.mod-comment p {
+  color: var(--text2);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
 .pagination {
   display: flex;
   justify-content: center;

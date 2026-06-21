@@ -245,10 +245,34 @@ Rules:
 - [CATEGORY] must be one category key for that game.
 - [SHORT] must be 6 to 10 words.
 - [DESCRIPTION] must be 3 to 5 useful sentences, no markdown, no links.
-- [TAGS] must be 6 to 12 comma-separated lowercase tags.
+- [TAGS] must be 3 to 5 comma-separated lowercase tags, each tag 1-2 words and under 12 characters, short enough that all of them together fit on one line.
 
 Raw text:
 ${$("rawText").value.trim()}`;
+    }
+
+    // Hard safety net so tags always fit on one line in the .modal-tags pill
+    // row, regardless of whether the AI actually followed the prompt's
+    // length rule. Tags are JetBrains Mono 11px pills (~6.6px/char + ~26px
+    // padding/border) in a column as narrow as 360px - 64px padding, so this
+    // keeps the combined width comfortably under that.
+    const MAX_TAGS = 5;
+    const MAX_TAG_CHARS = 32;
+    function capTags(rawTags) {
+      const tags = String(rawTags || "")
+        .split(",")
+        .map(t => t.trim())
+        .filter(Boolean);
+      const kept = [];
+      let chars = 0;
+      for (const tag of tags) {
+        if (kept.length >= MAX_TAGS) break;
+        const next = chars + tag.length;
+        if (kept.length > 0 && next > MAX_TAG_CHARS) break;
+        kept.push(tag);
+        chars = next;
+      }
+      return kept.join(", ");
     }
 
     function readMarker(text, marker, nextMarkers) {
@@ -293,7 +317,7 @@ ${$("rawText").value.trim()}`;
         if (version) $("version").value = version;
         if (description) $("description").value = description;
         if (short) $("short").value = short;
-        if (tags) $("tags").value = tags.toLowerCase();
+        if (tags) $("tags").value = capTags(tags.toLowerCase());
         setStatus($("aiStatus"), `Done via ${data.model}. Check fields before saving.`, "ok");
       } catch (error) {
         setStatus($("aiStatus"), `AI error: ${error.message}`, "bad");
