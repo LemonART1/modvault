@@ -192,7 +192,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image)}
-  <link rel="stylesheet" href="css/shared.css?v=19">
+  <link rel="stylesheet" href="css/shared.css?v=20">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -201,7 +201,7 @@ ${staticModContent(mod, game)}
 ${footer}
 <script src="js/data/mods.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase-client.js?v=16"></script>
+<script src="js/supabase-client.js?v=17"></script>
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=7"></script>
 <script src="js/account.js?v=7"></script>

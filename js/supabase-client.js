@@ -95,7 +95,7 @@
       img.alt = "";
       img.loading = "lazy";
       const link = nav.querySelector('[data-account-link="true"]');
-      link?.insertAdjacentElement("afterend", img);
+      link?.appendChild(img);
     }
     getAvatarUrl(user.id).then(url => {
       if (!img.isConnected) return;
