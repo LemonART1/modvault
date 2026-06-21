@@ -206,7 +206,7 @@ ${footer}
 <script src="js/site-search.js?v=7"></script>
 <script src="js/account.js?v=4"></script>
 <script src="js/comments.js?v=2"></script>
-<script src="js/pages/mod-detail.js?v=4"></script>
+<script src="js/pages/mod-detail.js?v=5"></script>
 <script>initModDetail(${mod.id});</script>
 </body>
 </html>
