@@ -194,7 +194,7 @@ ${softwareAppSchema(mod, game, pagePath, image)}
 <header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${nav}</nav></div></header>
 ${staticModContent(mod, game)}
 ${footer}
-<script src="js/data/mods.js"></script>
+<script src="js/data/mods.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=15"></script>
 <script src="js/stats.js?v=11"></script>
