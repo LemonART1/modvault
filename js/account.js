@@ -208,10 +208,10 @@
     return { ok: true, url: avatarUrl };
   }
 
-  function avatarImgHtml(url, size = 84) {
+  function avatarImgHtml(url) {
     return url
-      ? `<img class="account-avatar-img" src="${esc(url)}" alt="Avatar" style="width:${size}px;height:${size}px">`
-      : `<span class="account-avatar-img account-avatar-placeholder" style="width:${size}px;height:${size}px">${DEFAULT_AVATAR_ICON}</span>`;
+      ? `<img class="account-avatar-img" src="${esc(url)}" alt="Avatar">`
+      : `<span class="account-avatar-img account-avatar-placeholder">${DEFAULT_AVATAR_ICON}</span>`;
   }
 
   async function mountAvatarWidget() {
@@ -222,14 +222,12 @@
 
     const profile = await getProfile(user.id);
     root.innerHTML = `
-      <div class="account-avatar-block">
+      <label class="account-avatar-circle" for="account-avatar-input" title="Change avatar">
         ${avatarImgHtml(profile?.avatar_url)}
-        <div class="account-avatar-controls">
-          <label class="btn btn-ghost account-avatar-upload-btn" for="account-avatar-input">Change avatar</label>
-          <input type="file" id="account-avatar-input" accept="image/*" hidden>
-          <p class="account-avatar-status" id="account-avatar-status"></p>
-        </div>
-      </div>
+        <span class="account-avatar-overlay">Change</span>
+      </label>
+      <input type="file" id="account-avatar-input" accept="image/*" hidden>
+      <p class="account-avatar-status" id="account-avatar-status"></p>
     `;
 
     const input = document.getElementById("account-avatar-input");

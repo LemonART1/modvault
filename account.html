@@ -34,17 +34,26 @@
     .account-item-row .btn { flex-shrink: 0; }
     .account-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
     @media (max-width: 720px) { .account-columns { grid-template-columns: 1fr; } }
-    .account-avatar-block { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
-    .account-avatar-img { border-radius: 50%; object-fit: cover; background: var(--dark2, #12141b); flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
-    .account-avatar-placeholder { color: var(--text3, #8b90a0); padding: 18px; box-sizing: border-box; }
+    .account-avatar-circle {
+      position: relative; display: block; flex-shrink: 0;
+      width: 58px; height: 58px; border-radius: 50%; overflow: hidden; cursor: pointer;
+    }
+    .account-avatar-img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: var(--dark2, #12141b); display: flex; align-items: center; justify-content: center; }
+    .account-avatar-placeholder { color: var(--text3, #8b90a0); padding: 13px; box-sizing: border-box; }
     .account-avatar-placeholder svg { width: 100%; height: 100%; }
-    .account-avatar-controls { display: flex; flex-direction: column; gap: 6px; }
-    .account-avatar-upload-btn { cursor: pointer; display: inline-block; width: fit-content; }
-    .account-avatar-status { font-size: 12px; color: var(--text3, #8b90a0); min-height: 14px; margin: 0; }
+    .account-avatar-overlay {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      background: rgba(5, 6, 10, .68); color: #fff;
+      font-family: var(--font-m); font-size: 9.5px; letter-spacing: .5px; text-transform: uppercase;
+      opacity: 0; transition: opacity var(--transition, .2s);
+    }
+    .account-avatar-circle:hover .account-avatar-overlay { opacity: 1; }
+    .account-avatar-status { font-size: 12px; color: var(--text3, #8b90a0); margin: 4px 0 0; }
+    .account-avatar-status:empty { display: none; }
     .account-avatar-status.ok { color: #5fd97a; }
   </style>
 
-  <link rel="stylesheet" href="css/shared.css?v=15">
+  <link rel="stylesheet" href="css/shared.css?v=16">
 
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
@@ -76,10 +85,14 @@
       <p class="content-lede">Create a ModVault account or log in to rate mods and use account features across devices.</p>
     </article>
 
-    <div id="account-avatar"></div>
-    <div class="account-status" id="account-status"></div>
-    <div class="account-actions" id="account-actions" hidden>
-      <button class="btn btn-ghost" id="logout-button" type="button">Log out</button>
+    <div class="account-profile-card">
+      <div class="account-profile-left">
+        <div id="account-avatar"></div>
+        <div class="account-status" id="account-status"></div>
+      </div>
+      <div class="account-actions" id="account-actions" hidden>
+        <button class="btn btn-ghost" id="logout-button" type="button">Log out</button>
+      </div>
     </div>
 
     <div id="account-dashboard"></div>
@@ -116,7 +129,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=15"></script>
 <script src="js/auth.js?v=12"></script>
-<script src="js/account.js?v=5"></script>
+<script src="js/account.js?v=6"></script>
 <script>document.addEventListener("DOMContentLoaded", ModVaultAuth.initAccountPage);</script>
 <script src="js/site-search.js?v=7"></script>
 </body>
