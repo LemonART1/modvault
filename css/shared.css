@@ -1059,10 +1059,76 @@ body::after {
 .mod-comment-delete:hover { color: #ff5a5a; }
 .mod-comment p {
   color: var(--text2);
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 16.5px;
+  line-height: 1.65;
   overflow-wrap: break-word;
   white-space: pre-wrap;
+}
+.mod-comment-mention {
+  color: var(--game-accent, var(--accent));
+  font-weight: 600;
+}
+.mod-comment-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+.mod-comment-vote {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--r);
+  color: var(--text3);
+  font-family: var(--font-m);
+  font-size: 12px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+.mod-comment-vote svg {
+  width: 15px;
+  height: 15px;
+}
+.mod-comment-vote:hover {
+  border-color: var(--border);
+  color: var(--text);
+}
+.mod-comment-vote.active-up {
+  color: #5fd97a;
+  border-color: #5fd97a;
+}
+.mod-comment-vote.active-down {
+  color: #ff5a5a;
+  border-color: #ff5a5a;
+}
+.mod-comment-reply-btn {
+  margin-left: 4px;
+  padding: 6px 10px;
+  background: none;
+  border: none;
+  color: var(--text3);
+  font-family: var(--font-m);
+  font-size: 12px;
+  letter-spacing: .3px;
+  cursor: pointer;
+}
+.mod-comment-reply-btn:hover {
+  color: var(--game-accent, var(--accent));
+}
+.mod-comment-reply-slot:not(:empty) {
+  margin-top: 12px;
+}
+.mod-comment-reply-form textarea {
+  font-size: 15px;
+}
+.mod-comment-reply {
+  margin-left: 36px;
+  padding-top: 16px;
+  margin-top: 0;
+  border-top: 1px dashed var(--border);
 }
 .pagination {
   display: flex;
