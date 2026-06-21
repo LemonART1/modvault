@@ -31,8 +31,10 @@ for insert
 to authenticated
 with check (auth.uid() = user_id);
 
+-- Site owner's account (modvault.space admin) can delete any comment,
+-- everyone else can only delete their own.
 create policy "Users can delete their own comments"
 on mod_comments
 for delete
 to authenticated
-using (auth.uid() = user_id);
+using (auth.uid() = user_id or auth.uid() = '3e836ea2-bb01-406b-94c0-59bf49ab3bc9');

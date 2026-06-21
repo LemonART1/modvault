@@ -5,6 +5,10 @@
 // (ModVaultAccount.getUser).
 (function () {
   const MAX_LENGTH = 500;
+  // Site owner's account - matches the RLS delete policy in
+  // SUPABASE_COMMENTS_SETUP.sql, so this only controls whether the Delete
+  // button is shown; the database enforces it either way.
+  const ADMIN_USER_ID = "3e836ea2-bb01-406b-94c0-59bf49ab3bc9";
 
   function db() { return window.ModVaultSupabase || null; }
 
@@ -56,7 +60,7 @@
   }
 
   function commentHtml(comment, currentUserId) {
-    const mine = currentUserId && comment.user_id === currentUserId;
+    const mine = currentUserId && (comment.user_id === currentUserId || currentUserId === ADMIN_USER_ID);
     return `
       <div class="mod-comment">
         <div class="mod-comment-head">
