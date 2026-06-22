@@ -1,10 +1,24 @@
 const NEWS_POSTS = [
   {
+    "date": "2026-06-20",
+    "title": "Baldur's Gate 3 Legendary Edition mod gets a fresh round of classes",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/baldur-s-gate-3-legendary-edition-mod-gets-a-fresh-round-of-classes",
+    "summary": "The long-running Legendary Edition mod added another batch of classes, subclasses and smaller tweaks for Baldur's Gate 3."
+  },
+  {
     "date": "2026-06-18",
     "title": "Euro Truck Simulator 2 update 1.60 is officially released",
     "tag": "Euro Truck Simulator 2",
     "url": "content/news/euro-truck-simulator-2-update-1-60-is-officially-released",
     "summary": "SCS Software released Euro Truck Simulator 2 update 1.60 on June 18, 2026, bringing the Game Radio feature, improved materials and expanded rest mechanics out of beta."
+  },
+  {
+    "date": "2026-06-12",
+    "title": "PC Gamer adds a dynamic ambush mod to its Baldur's Gate 3 list",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/pc-gamer-adds-a-dynamic-ambush-mod-to-its-baldur-s-gate-3-list",
+    "summary": "PC Gamer's updated mod guide highlighted Hunted, a mod that adds a reactive ambush and revenge system tied to the player's own actions."
   },
   {
     "date": "2026-06-10",
@@ -21,6 +35,13 @@ const NEWS_POSTS = [
     "summary": "Ahead of the full release, SCS opened a 1.60 beta covering the updated Volvo FH Series 6, material system and lighting changes."
   },
   {
+    "date": "2026-06-07",
+    "title": "Baldur's Gate 3's Cosmic Vessel mod reveals its new class and subclasses",
+    "tag": "Baldur's Gate 3",
+    "url": "content/news/baldur-s-gate-3-s-cosmic-vessel-mod-reveals-its-new-class-and-subclasses",
+    "summary": "The Cosmic Vessel expansion mod showed a first-look trailer for its fully voiced origin character, new explorable areas and an original class with four subclasses."
+  },
+  {
     "date": "2026-06-05",
     "title": "BeamNG.drive's 2026 modding scene leans into physics tuning and scenarios",
     "tag": "BeamNG.drive",
@@ -35,11 +56,25 @@ const NEWS_POSTS = [
     "summary": "Traxion's coverage of the 0.7 release framed it as the beginning of Assetto Corsa EVO's modding era, with custom cars now possible through the new SDK."
   },
   {
+    "date": "2026-06-04",
+    "title": "Subnautica 2's EA 1.1 update will bring back the Prawn Suit",
+    "tag": "Subnautica 2",
+    "url": "content/news/subnautica-2-s-ea-1-1-update-will-bring-back-the-prawn-suit",
+    "summary": "Unknown Worlds previewed Subnautica 2's EA 1.1 update, confirming the return of the Prawn Suit vehicle alongside a new biome and proximity chat."
+  },
+  {
     "date": "2026-06-03",
     "title": "Assetto Corsa EVO 0.7 ships the official Editor Tool SDK",
     "tag": "Assetto Corsa",
     "url": "content/news/assetto-corsa-evo-0-7-ships-the-official-editor-tool-sdk",
     "summary": "Assetto Corsa EVO's 0.7 update added the first official release of its Editor Tool SDK, plus a new particle system and four cars."
+  },
+  {
+    "date": "2026-06-03",
+    "title": "Assetto Corsa EVO 0.7 adds a new EVO Safety Rating system",
+    "tag": "Assetto Corsa",
+    "url": "content/news/assetto-corsa-evo-0-7-adds-a-new-evo-safety-rating-system",
+    "summary": "Assetto Corsa EVO's 0.7 update introduced a Safety Rating system designed to reward clean, close racing instead of just avoiding contact."
   },
   {
     "date": "2026-06-01",
@@ -77,6 +112,13 @@ const NEWS_POSTS = [
     "summary": "BeamNG.drive is coming to PlayStation 5 in 2026, and the studio detailed the parallel Early Access version 0.39 update for PC players."
   },
   {
+    "date": "2026-05-28",
+    "title": "BeamNG.drive confirms official multiplayer has been years in development",
+    "tag": "BeamNG.drive",
+    "url": "content/news/beamng-drive-confirms-official-multiplayer-has-been-years-in-development",
+    "summary": "BeamNG's developers confirmed for the first time that official multiplayer support has been in development for several years and will roll out gradually."
+  },
+  {
     "date": "2026-05-27",
     "title": "Euro Truck Simulator 2 update 1.60 improves game radio",
     "tag": "Euro Truck Simulator 2",
@@ -110,6 +152,13 @@ const NEWS_POSTS = [
     "tag": "Subnautica 2",
     "url": "content/news/subnautica-2-hotfix-adds-more-silver-and-troilite-resource-areas",
     "summary": "A May 22 hotfix expanded Silver locations and late-game Troilite sources in Subnautica 2, alongside fish AI tweaks and performance work."
+  },
+  {
+    "date": "2026-05-22",
+    "title": "BeamNG.drive's V0.39 update will overhaul lighting and graphics presets",
+    "tag": "BeamNG.drive",
+    "url": "content/news/beamng-drive-s-v0-39-update-will-overhaul-lighting-and-graphics-presets",
+    "summary": "BeamNG.drive's next major update is being framed as one of its most ambitious yet, adding volumetric clouds, HDR support and reworked graphics presets."
   },
   {
     "date": "2026-05-20",
@@ -196,6 +245,13 @@ const NEWS_POSTS = [
     "summary": "A follow-up approval round brought 15 additional Baldur's Gate 3 console mods, including new races and subclasses, further narrowing the PC-console mod gap."
   },
   {
+    "date": "2026-04-14",
+    "title": "Euro Truck Simulator 2's console release keeps slipping further into 2026",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/news/euro-truck-simulator-2-s-console-release-keeps-slipping-further-into-2026",
+    "summary": "SCS Software said untangling decades of PC-only engine shortcuts is taking longer than expected, pushing the PS5 and Xbox versions further out."
+  },
+  {
     "date": "2026-04-10",
     "title": "A 2026 roundup highlights GTA V's essential story and police mods",
     "tag": "GTA V",
@@ -259,6 +315,13 @@ const NEWS_POSTS = [
     "summary": "A roundup of essential Stardew Valley mods for 2026 points to expansion packs, quality-of-life tools and cheese-making content as current community favorites."
   },
   {
+    "date": "2026-02-26",
+    "title": "Stardew Valley's 1.7 update will add Clint and Sandy as marriage candidates",
+    "tag": "Stardew Valley",
+    "url": "content/news/stardew-valley-s-1-7-update-will-add-clint-and-sandy-as-marriage-candidates",
+    "summary": "ConcernedApe confirmed that Stardew Valley's upcoming 1.7 update will add Clint and Sandy as new marriage candidates, among other changes."
+  },
+  {
     "date": "2026-02-24",
     "title": "Stardew Valley's 10th anniversary livestream teases update 1.7",
     "tag": "Stardew Valley",
@@ -271,6 +334,13 @@ const NEWS_POSTS = [
     "tag": "Baldur's Gate 3",
     "url": "content/news/path-to-menzoberranzan-keeps-growing-as-one-of-bg3-s-biggest-mods",
     "summary": "The team behind Path to Menzoberranzan, one of the largest Baldur's Gate 3 mod projects in development, said 2026 is going well and is recruiting more contributors."
+  },
+  {
+    "date": "2026-02-08",
+    "title": "Cyberpunk 2077's Afterlife-themed mods keep Night City's biggest club fresh",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/cyberpunk-2077-s-afterlife-themed-mods-keep-night-city-s-biggest-club-fresh",
+    "summary": "A roundup of community mods like Afterlife Unlocked and Remastered and Totentanz Club Unlocked shows Cyberpunk 2077's modding scene still expanding years after launch."
   },
   {
     "date": "2026-02-05",
@@ -292,6 +362,13 @@ const NEWS_POSTS = [
     "tag": "GTA V",
     "url": "content/news/a-fresh-guide-rounds-up-the-best-gta-v-mods-to-install-now",
     "summary": "A 2026 guide collects currently recommended GTA V mods across graphics, vehicles and gameplay categories for players returning to the PC version."
+  },
+  {
+    "date": "2025-12-26",
+    "title": "Modders are rebuilding all of GTA San Andreas inside GTA V's engine",
+    "tag": "GTA V",
+    "url": "content/news/modders-are-rebuilding-all-of-gta-san-andreas-inside-gta-v-s-engine",
+    "summary": "Revolution Team, known for its GTA: Vice City Nextgen Edition project, announced a Nextgen Edition of GTA: San Andreas built on top of GTA V's RAGE engine."
   },
   {
     "date": "2025-07-17",
@@ -604,5 +681,305 @@ const GUIDE_POSTS = [
     "tag": "Baldur's Gate 3",
     "url": "content/guides/how-to-manage-baldur-s-gate-3-console-mod-approvals",
     "summary": "A guide to understanding how approved Baldur's Gate 3 console mods differ from the full PC mod catalog."
+  },
+  {
+    "title": "How to install BeamNG.drive map mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-install-beamng-drive-map-mods",
+    "summary": "A guide to placing BeamNG.drive map mods correctly and loading them without breaking an existing level list."
+  },
+  {
+    "title": "How to set up BeamNG.drive traffic and AI mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-set-up-beamng-drive-traffic-and-ai-mods",
+    "summary": "A look at installing traffic density and AI behavior mods for BeamNG.drive without conflicting with a map's built-in traffic system."
+  },
+  {
+    "title": "How to use BeamNG.drive livery and skin mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-use-beamng-drive-livery-and-skin-mods",
+    "summary": "A practical guide to applying livery and skin mods to BeamNG.drive vehicles without overwriting the base paint configuration."
+  },
+  {
+    "title": "How to fix BeamNG.drive mod version mismatch errors",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-fix-beamng-drive-mod-version-mismatch-errors",
+    "summary": "What to check when a BeamNG.drive mod throws an error after a game update changes its expected version."
+  },
+  {
+    "title": "How to organize a large BeamNG.drive vehicle mod collection",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-organize-a-large-beamng-drive-vehicle-mod-collection",
+    "summary": "A guide to sorting BeamNG.drive vehicle mods by brand, class and update date so a large collection stays manageable."
+  },
+  {
+    "title": "How to test BeamNG.drive crash physics mods safely",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-test-beamng-drive-crash-physics-mods-safely",
+    "summary": "A safe testing routine for BeamNG.drive mods that change deformation, crumple zones or suspension physics."
+  },
+  {
+    "title": "How to pick BeamNG.drive sound and engine mods",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-pick-beamng-drive-sound-and-engine-mods",
+    "summary": "A guide to choosing engine sound and exhaust mods for BeamNG.drive that match a vehicle's existing configuration."
+  },
+  {
+    "title": "How to install Assetto Corsa physics and tyre mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-install-assetto-corsa-physics-and-tyre-mods",
+    "summary": "A guide to installing physics and tyre mods for Assetto Corsa without breaking force feedback settings."
+  },
+  {
+    "title": "How to set up Assetto Corsa multiplayer-compatible mod lists",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-set-up-assetto-corsa-multiplayer-compatible-mod-lists",
+    "summary": "What Assetto Corsa players should check before joining a multiplayer server with a personal mod list installed."
+  },
+  {
+    "title": "How to pick Assetto Corsa sound mods for engines and tyres",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-pick-assetto-corsa-sound-mods-for-engines-and-tyres",
+    "summary": "A guide to choosing engine and tyre sound mods for Assetto Corsa that work well with existing physics mods."
+  },
+  {
+    "title": "How to back up an Assetto Corsa mod setup before a big change",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-back-up-an-assetto-corsa-mod-setup-before-a-big-change",
+    "summary": "A simple backup routine for an Assetto Corsa content folder before installing a large car or track pack."
+  },
+  {
+    "title": "How to choose Assetto Corsa AI and career mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-choose-assetto-corsa-ai-and-career-mods",
+    "summary": "A guide to picking AI behavior and career mode mods for Assetto Corsa that fit a single-player racing routine."
+  },
+  {
+    "title": "How to update Assetto Corsa EVO mods after an SDK patch",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-update-assetto-corsa-evo-mods-after-an-sdk-patch",
+    "summary": "What to check when an Assetto Corsa EVO Editor Tool SDK update changes how existing car and track mods load."
+  },
+  {
+    "title": "How to choose Assetto Corsa career and championship mods",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-choose-assetto-corsa-career-and-championship-mods",
+    "summary": "A guide to picking championship and career-structure mods for Assetto Corsa that add longer race seasons."
+  },
+  {
+    "title": "How to choose Subnautica 2 creature and biome mods",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-choose-subnautica-2-creature-and-biome-mods",
+    "summary": "A guide to picking creature and biome mods for Subnautica 2 that fit the game's current early access build."
+  },
+  {
+    "title": "How to set up a UE4SS mod folder for Subnautica 2 from scratch",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-set-up-a-ue4ss-mod-folder-for-subnautica-2-from-scratch",
+    "summary": "A beginner's walkthrough for installing UE4SS and creating the first working mod folder for Subnautica 2."
+  },
+  {
+    "title": "How to read Subnautica 2 mod changelogs before updating",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-read-subnautica-2-mod-changelogs-before-updating",
+    "summary": "A guide to reading changelog notes on Subnautica 2 mods so an update does not break a long-running save."
+  },
+  {
+    "title": "How to avoid Subnautica 2 mod conflicts in early access",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-avoid-subnautica-2-mod-conflicts-in-early-access",
+    "summary": "A practical look at avoiding conflicts between Subnautica 2 mods while the game is still in active early access development."
+  },
+  {
+    "title": "How to pick Subnautica 2 UI and HUD mods",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-pick-subnautica-2-ui-and-hud-mods",
+    "summary": "A guide to choosing UI and HUD mods for Subnautica 2 that improve readability without cluttering the screen."
+  },
+  {
+    "title": "How to roll back a Subnautica 2 mod after a bad update",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-roll-back-a-subnautica-2-mod-after-a-bad-update",
+    "summary": "Steps for reverting to a previous Subnautica 2 mod version when a new release breaks an existing save."
+  },
+  {
+    "title": "How to choose Stardew Valley NPC and romance mods",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-choose-stardew-valley-npc-and-romance-mods",
+    "summary": "A guide to picking new NPC and romance mods for Stardew Valley that fit the tone of the base game."
+  },
+  {
+    "title": "How to set up SMAPI for the first time",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-set-up-smapi-for-the-first-time",
+    "summary": "A beginner's walkthrough for installing SMAPI and confirming Stardew Valley mods are actually loading."
+  },
+  {
+    "title": "How to pick Stardew Valley map and building mods",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-pick-stardew-valley-map-and-building-mods",
+    "summary": "A guide to choosing map and building mods for Stardew Valley that fit an existing farm layout."
+  },
+  {
+    "title": "How to keep a multiplayer-safe Stardew Valley mod list",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-keep-a-multiplayer-safe-stardew-valley-mod-list",
+    "summary": "What Stardew Valley players should check before bringing a personal mod list into a multiplayer farm."
+  },
+  {
+    "title": "How to find actively updated Stardew Valley mods",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-find-actively-updated-stardew-valley-mods",
+    "summary": "A guide to spotting which Stardew Valley mods are still actively maintained before adding them to a long-running save."
+  },
+  {
+    "title": "How to combine Stardew Valley UI and quality-of-life mods",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-combine-stardew-valley-ui-and-quality-of-life-mods",
+    "summary": "A practical look at running several Stardew Valley UI and convenience mods together without overlapping menus."
+  },
+  {
+    "title": "How to install GTA V map and DLC mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-install-gta-v-map-and-dlc-mods",
+    "summary": "A guide to installing map and DLC-style mods for GTA V without breaking existing vehicle and script mods."
+  },
+  {
+    "title": "How to choose GTA V realism and traffic mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-choose-gta-v-realism-and-traffic-mods",
+    "summary": "A guide to picking realism and traffic density mods for GTA V that fit a stable script mod setup."
+  },
+  {
+    "title": "How to set up a trainer mod safely in GTA V",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-set-up-a-trainer-mod-safely-in-gta-v",
+    "summary": "What to check before installing a trainer mod for GTA V, including version compatibility and script conflicts."
+  },
+  {
+    "title": "How to back up a GTA V install before a big overhaul mod",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-back-up-a-gta-v-install-before-a-big-overhaul-mod",
+    "summary": "A simple backup routine for a GTA V install before adding a large graphics or gameplay overhaul mod."
+  },
+  {
+    "title": "How to pick GTA V weapon and animation mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-pick-gta-v-weapon-and-animation-mods",
+    "summary": "A guide to choosing weapon and animation mods for GTA V that work cleanly with existing script frameworks."
+  },
+  {
+    "title": "How to keep GTA V Enhanced and Legacy mods separate",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-keep-gta-v-enhanced-and-legacy-mods-separate",
+    "summary": "A practical guide to avoiding mixed installs between GTA V's Enhanced and Legacy versions."
+  },
+  {
+    "title": "How to choose ETS2 economy and career mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-choose-ets2-economy-and-career-mods",
+    "summary": "A guide to picking economy and career-progression mods for Euro Truck Simulator 2 that fit your preferred pace."
+  },
+  {
+    "title": "How to pick ETS2 weather and environment mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-pick-ets2-weather-and-environment-mods",
+    "summary": "A guide to choosing weather and environment mods for Euro Truck Simulator 2 that match your map combo."
+  },
+  {
+    "title": "How to set up ETS2 dashboard and interior mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-set-up-ets2-dashboard-and-interior-mods",
+    "summary": "A practical guide to installing dashboard and interior mods for Euro Truck Simulator 2 trucks."
+  },
+  {
+    "title": "How to find ETS2 mods compatible with the current DLC map",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-find-ets2-mods-compatible-with-the-current-dlc-map",
+    "summary": "A guide to checking whether Euro Truck Simulator 2 mods support the latest official DLC map before installing."
+  },
+  {
+    "title": "How to organize an ETS2 mod manager profile",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-organize-an-ets2-mod-manager-profile",
+    "summary": "A guide to using Euro Truck Simulator 2's built-in mod manager to keep load order consistent across sessions."
+  },
+  {
+    "title": "How to test ETS2 AI traffic mods before a long route",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-test-ets2-ai-traffic-mods-before-a-long-route",
+    "summary": "A safe testing routine for Euro Truck Simulator 2 AI traffic mods before committing to a long-haul delivery."
+  },
+  {
+    "title": "How to choose Cyberpunk 2077 weapon and combat mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-choose-cyberpunk-2077-weapon-and-combat-mods",
+    "summary": "A guide to picking weapon and combat mods for Cyberpunk 2077 that fit an existing gameplay overhaul setup."
+  },
+  {
+    "title": "How to set up Cyberpunk 2077 mod manager tools",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-set-up-cyberpunk-2077-mod-manager-tools",
+    "summary": "A practical guide to using a mod manager for Cyberpunk 2077 instead of installing files manually."
+  },
+  {
+    "title": "How to pick Cyberpunk 2077 quest and story mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-pick-cyberpunk-2077-quest-and-story-mods",
+    "summary": "A guide to choosing quest and story-expansion mods for Cyberpunk 2077 that fit a specific point in the campaign."
+  },
+  {
+    "title": "How to back up a Cyberpunk 2077 save before a big mod",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-back-up-a-cyberpunk-2077-save-before-a-big-mod",
+    "summary": "A simple backup routine for Cyberpunk 2077 saves before installing a large quest, area or gameplay mod."
+  },
+  {
+    "title": "How to find actively maintained Cyberpunk 2077 mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-find-actively-maintained-cyberpunk-2077-mods",
+    "summary": "A guide to spotting which Cyberpunk 2077 mods are still being updated after a game patch."
+  },
+  {
+    "title": "How to combine Cyberpunk 2077 visual and gameplay mods safely",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-combine-cyberpunk-2077-visual-and-gameplay-mods-safely",
+    "summary": "A practical look at running visual overhauls and gameplay mods together in Cyberpunk 2077 without script conflicts."
+  },
+  {
+    "title": "How to choose Baldur's Gate 3 race and subclass mods",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-choose-baldur-s-gate-3-race-and-subclass-mods",
+    "summary": "A guide to picking race and subclass mods for Baldur's Gate 3 that fit your character build."
+  },
+  {
+    "title": "How to set up Baldur's Gate 3 mod manager tools",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-set-up-baldur-s-gate-3-mod-manager-tools",
+    "summary": "A practical guide to using a mod manager for Baldur's Gate 3 instead of editing files manually."
+  },
+  {
+    "title": "How to back up a Baldur's Gate 3 save before a big mod",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-back-up-a-baldur-s-gate-3-save-before-a-big-mod",
+    "summary": "A simple backup routine for Baldur's Gate 3 saves before installing a large class, region or story mod."
+  },
+  {
+    "title": "How to pick Baldur's Gate 3 companion and romance mods",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-pick-baldur-s-gate-3-companion-and-romance-mods",
+    "summary": "A guide to choosing companion and romance mods for Baldur's Gate 3 that fit an existing playthrough."
+  },
+  {
+    "title": "How to find actively updated Baldur's Gate 3 mods",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-find-actively-updated-baldur-s-gate-3-mods",
+    "summary": "A guide to spotting which Baldur's Gate 3 mods are still being maintained after a major patch."
+  },
+  {
+    "title": "How to combine Baldur's Gate 3 UI and gameplay mods safely",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-combine-baldur-s-gate-3-ui-and-gameplay-mods-safely",
+    "summary": "A practical look at running UI and gameplay mods together in Baldur's Gate 3 without overlapping menus or scripts."
   }
 ];
