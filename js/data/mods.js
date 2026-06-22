@@ -2065,6 +2065,145 @@ const MODS = [
       "pbr"
     ],
     featured: true
+  },
+  {
+    id: 111,
+    game: "beamng",
+    title: "Maextro S800",
+    category: "cars",
+    version: "1.0",
+    size: "134 MB",
+    images: [
+      "images/mods/maextro-s800-1.jpg",
+      "images/mods/maextro-s800-2.jpg",
+      "images/mods/maextro-s800-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I354l0jYT59hMm4",
+    short: "Experience the Maextro S800, a luxurious, high-quality sedan with detailed features.",
+    description: "The Maextro S800 is a high-end luxury sedan, developed through a collaboration between JAC and Huawei to rival premium models like the Mercedes-Maybach S-Class. This mod features a meticulously crafted exterior and interior with PBR materials, a detailed engine compartment, and smooth baked lighting for headlights. Drivers will appreciate interactive elements such as an animated dashboard, working mirrors, rear axle steering, and cabin triggers. It includes custom sounds, five interior options with customizable lighting colors, and unique custom wheels. The Maextro S800 comes with four distinct configurations for varied driving experiences.",
+    tags: [
+      "luxury",
+      "sedan",
+      "maextro",
+      "car",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 112,
+    game: "beamng",
+    title: "Audi R8 Rest and Dorest",
+    category: "cars",
+    version: "1.0",
+    size: "74 MB",
+    images: [
+      "images/mods/audi-r8-rest-and-dorest-1.jpg",
+      "images/mods/audi-r8-rest-and-dorest-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HlvtxH8ANC4mBFk",
+    short: "Experience a highly customizable Audi R8 with realistic PBR materials.",
+    description: "This mod introduces a highly detailed Audi R8 to BeamNG.drive, boasting a wide array of customization options. It features 12 unique configurations, 7 custom wheel sets, and multiple headlight, taillight, body, and bumper types. Enjoy realistic visuals thanks to PBR materials and improved handling from an edited JBeam structure. Experience an immersive driving experience with this extensively customizable sports car.",
+    tags: [
+      "audi r8",
+      "sports car",
+      "custom",
+      "pbr"
+    ],
+    featured: true
+  },
+  {
+    id: 113,
+    game: "beamng",
+    title: "Lamborghini Countach",
+    category: "cars",
+    version: "1.9",
+    size: "259 MB",
+    images: [
+      "images/mods/lamborghini-countach-1.jpg",
+      "images/mods/lamborghini-countach-2.jpg",
+      "images/mods/lamborghini-countach-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0V2Dst6LN2MBMhY",
+    short: "Experience the iconic Lamborghini Countach with improved visuals and driving physics.",
+    description: "Bring the legendary Lamborghini Countach to Assetto Corsa with this highly detailed mod. This classic supercar offers an exhilarating driving experience on any track. The latest version 1.9 includes essential fixes for improved visuals and physics. Previews have been corrected, and air resistance has been fine-tuned for more realistic handling. Enjoy driving this iconic vehicle with enhanced accuracy and immersion.",
+    tags: [
+      "lamborghini",
+      "countach",
+      "car",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 114,
+    game: "beamng",
+    title: "2002 Ram 3500",
+    category: "trucks",
+    version: "1.0",
+    size: "456 MB",
+    images: [
+      "images/mods/2002-ram-3500-1.jpg",
+      "images/mods/2002-ram-3500-2.jpg",
+      "images/mods/2002-ram-3500-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pkZ8Ag74Tp4zQBo",
+    short: "Add a highly detailed 2002 Ram 3500 with 12 unique configurations.",
+    description: "Experience the iconic 2002 Ram 3500 in BeamNG.drive, featuring 12 meticulously crafted configurations. From the classic Ram 1500 daily driver to the heavy-duty Ram 3500 dually, each model offers distinct capabilities. Explore specialized setups like the Ram Offroader, Ram Sports, and the rugged Hauler designed for towing. Discover unique custom builds including the Harkonix Stance, TRYXRenderings SEMA Special, and a functional Recovery truck.",
+    tags: [
+      "ram",
+      "truck",
+      "pickup",
+      "custom",
+      "dually"
+    ],
+    featured: true
+  },
+  {
+    id: 115,
+    game: "beamng",
+    title: "LADA-2110",
+    category: "cars",
+    version: "1.1.1",
+    size: "267 MB",
+    images: [
+      "images/mods/lada-2110-1.jpg",
+      "images/mods/lada-2110-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7w4Rj9886o2fjBs",
+    short: "Highly detailed LADA-2110 car with extensive customization and animations.",
+    description: "Experience the LADA-2110 with 48 configurations, featuring a high-quality exterior and interior model with detailed engine bay and PBR materials. Enjoy smooth headlights, an animated dashboard, pedals, handbrake, and turn signal switch for an immersive driving experience. This update brings new LED lights, varied suspension options, and extensive interior and exterior customization. Benefit from working lights, mirrors, and various tuning options, including custom wheels and skins.",
+    tags: [
+      "lada",
+      "car",
+      "sedan",
+      "tuning",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 116,
+    game: "beamng",
+    title: "Volvo 740 Pack 1984-1992",
+    category: "cars",
+    version: "1.0",
+    size: "233 MB",
+    images: [
+      "images/mods/volvo-740-pack-1984-1992-1.jpg",
+      "images/mods/volvo-740-pack-1984-1992-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NH0p074LB5pW60w",
+    short: "Classic Volvo 740 sedan and wagon with detailed engines.",
+    description: "Experience the classic Volvo 740 with this comprehensive mod pack featuring models from 1984-1992. Choose from 8 configurations including both sedan and wagon variants, each boasting high-quality exterior and interior models. The pack includes detailed engine bays for B200, B230, B234 16V, B280, and D24 engines, all rendered with PBR materials for enhanced realism. Enjoy an immersive driving experience with an animated dashboard, pedals, and gear shifter, alongside functional lighting and openable parts. Customize your interior with multiple color options to perfectly match your style.",
+    tags: [
+      "volvo",
+      "740",
+      "sedan",
+      "wagon",
+      "classic car"
+    ],
+    featured: true
   }
 ];
 
