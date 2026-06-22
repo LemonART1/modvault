@@ -2204,6 +2204,147 @@ const MODS = [
       "classic car"
     ],
     featured: true
+  },
+  {
+    id: 117,
+    game: "cyberpunk",
+    title: "Hailey Task Force Outfit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "45 MB",
+    images: [
+      "images/mods/hailey-task-force-outfit-1.jpg",
+      "images/mods/hailey-task-force-outfit-2.jpg",
+      "images/mods/hailey-task-force-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KB7urv2857jgA29",
+    short: "Add a tactical Hailey Task Force outfit to your character.",
+    description: "This mod introduces the stylish and tactical Hailey Task Force Outfit to Cyberpunk 2077, enhancing your character's wardrobe. Please note that this clothing set requires a compatible body mod to be installed in your game first. The description lists several specific body mods, such as \"Enhanced Big Breasts Body\" and \"EVE - BODY MOD,\" from which players must choose one. Installation is straightforward: simply extract the downloaded zip file directly into your Cyberpunk 2077 game directory. Upgrade V's appearance with this distinct and imposing outfit.",
+    tags: [
+      "outfit",
+      "clothing",
+      "armor",
+      "bodymod",
+      "hailey"
+    ],
+    featured: true
+  },
+  {
+    id: 118,
+    game: "cyberpunk",
+    title: "Veegee Tumi Hair",
+    category: "appearance",
+    version: "1.0",
+    size: "5 MB",
+    images: [
+      "images/mods/veegee-tumi-hair-1.jpg",
+      "images/mods/veegee-tumi-hair-2.jpg",
+      "images/mods/veegee-tumi-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/87UY0L3B88lSPe0",
+    short: "New elegant hair mesh perfect for Cyberpunk 2077 photo mode.",
+    description: "Adds a new hair mesh for player characters in Cyberpunk 2077. This unique hair is specifically designed for use in photo mode scenarios, enhancing your character's visual appeal. Users are kindly asked to request permission before making any edits or modifications to this mod. You are welcome to share your in-game photos featuring this stylish new hair. The original mesh for this asset is sourced from Where Winds Meet.",
+    tags: [
+      "hair",
+      "appearance",
+      "female v",
+      "photomode"
+    ],
+    featured: true
+  },
+  {
+    id: 119,
+    game: "cyberpunk",
+    title: "Veegee Anlan Hair",
+    category: "appearance",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/veegee-anlan-hair-1.jpg",
+      "images/mods/veegee-anlan-hair-2.jpg",
+      "images/mods/veegee-anlan-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Teg4M5i03ein3dB",
+    short: "New female hair mod for Cyberpunk 2077, perfect for photo mode.",
+    description: "Introduce a new female hair asset for Cyberpunk 2077, utilizing a mesh originally from Naraka Bladepoint. This stylish hair mod is specifically optimized and intended for use within photo mode. The creator kindly requests that users do not modify or reupload the mod without explicit prior permission. You are encouraged to share your in-game screenshots and creations featuring this unique hairstyle. Please direct any editing requests to the original author.",
+    tags: [
+      "hair",
+      "female",
+      "style",
+      "photo mode",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 120,
+    game: "cyberpunk",
+    title: "Ziva Beachwear 2026",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "23 MB",
+    images: [
+      "images/mods/ziva-beachwear-2026-1.jpg",
+      "images/mods/ziva-beachwear-2026-2.jpg",
+      "images/mods/ziva-beachwear-2026-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Mp5LZJjB00F48B0",
+    short: "Add stylish Ziva Beachwear 2026 collection to Cyberpunk 2077.",
+    description: "Introduce the Ziva Beachwear 2026 collection to Cyberpunk 2077, featuring custom-modeled and textured items. This collection includes 16 unique beachwear top variants, 16 bottom variants, and 8 towel variants. It offers automatic refitting for compatible body mods, ensuring a seamless look for your character. Enjoy these stylish new outfits in both first-person and third-person perspectives. The collection is integrated via Virtual Atelier for easy access within the game.",
+    tags: [
+      "beachwear",
+      "clothing",
+      "apparel",
+      "bikini"
+    ],
+    featured: true
+  },
+  {
+    id: 121,
+    game: "cyberpunk",
+    title: "Cross Top - MASC FEM V",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "68 MB",
+    images: [
+      "images/mods/cross-top-masc-fem-v-1.jpg",
+      "images/mods/cross-top-masc-fem-v-2.jpg",
+      "images/mods/cross-top-masc-fem-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4HmLvE3TPnagUI6",
+    short: "A stylish cross top for both male and female V.",
+    description: "This mod introduces a stylish Cross Top designed for both male and female V characters in Cyberpunk 2077. It offers extensive compatibility, supporting numerous popular body mods for female V, including Vanilla, EBBP, EBB, EVE, Angel, Small, and Solo 2.0. Male V also receives support for Vanilla and Gymfiend body types. Enhance your character's wardrobe with this versatile and well-integrated clothing item. Installation can be done conveniently via Vortex or through a simple manual file extraction into your game folders.",
+    tags: [
+      "clothing",
+      "top",
+      "armour",
+      "female v",
+      "male v"
+    ],
+    featured: true
+  },
+  {
+    id: 122,
+    game: "cyberpunk",
+    title: "Summer Shorts",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "3 MB",
+    images: [
+      "images/mods/summer-shorts-1.jpg",
+      "images/mods/summer-shorts-2.jpg",
+      "images/mods/summer-shorts-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/18L7XbuNMniKGL7",
+    short: "Add a collection of stylish summer shorts to your wardrobe.",
+    description: "This mod introduces a collection of stylish summer shorts to Cyberpunk 2077. It adds various models and color variations, some featuring aviator glasses details. For optimal functionality, it is recommended to use this mod in conjunction with Equipment-EX. You can easily obtain these new clothing items using the provided console commands. Enhance your V's wardrobe with these unique apparel options.",
+    tags: [
+      "shorts",
+      "clothing",
+      "apparel",
+      "fashion"
+    ],
+    featured: true
   }
 ];
 
