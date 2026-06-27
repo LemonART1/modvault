@@ -83,6 +83,22 @@ function softwareAppSchema(mod, game, pagePath, image) {
   return `  <script type="application/ld+json">${json}</script>`;
 }
 
+// BreadcrumbList structured data mirroring the visible breadcrumb
+// (Home > Game > Mod), so Google can show the path in search results.
+function breadcrumbSchema(mod, game, pagePath) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absUrl("") },
+      { "@type": "ListItem", position: 2, name: game.name, item: absUrl(game.page) },
+      { "@type": "ListItem", position: 3, name: mod.title, item: absUrl(pagePath.replace(/\.html$/, "")) }
+    ]
+  };
+  const json = JSON.stringify(data).replace(/<\//g, "<\\/");
+  return `  <script type="application/ld+json">${json}</script>`;
+}
+
 function catLabelSimple(cat) {
   return String(cat || "").replace(/[-_]/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 }
@@ -192,6 +208,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image)}
+${breadcrumbSchema(mod, game, pagePath)}
   <link rel="stylesheet" href="css/shared.css?v=20">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
