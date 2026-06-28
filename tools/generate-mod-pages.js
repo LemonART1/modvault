@@ -46,7 +46,8 @@ function metaTags({ title, description, image, url, type = "website" }) {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDescription}">
-  <meta name="twitter:image" content="${safeImage}">`;
+  <meta name="twitter:image" content="${safeImage}">
+  <link rel="alternate" type="application/rss+xml" title="ModVault News &amp; Guides" href="${absUrl("feed.xml")}">`;
 }
 
 function getImages(mod) {
@@ -166,6 +167,8 @@ function staticModContent(mod, game) {
         </div>
         <div class="modal-tags">${(mod.tags || []).filter(Boolean).map(tag => `<a class="tag" href="${esc(game.page)}?tag=${encodeURIComponent(tag)}">${esc(tag)}</a>`).join("")}</div>
         <a class="modal-dl-btn mod-detail-download" href="${esc(mod.downloadUrl)}" target="_blank" rel="noopener">Download Mod</a>
+        <button class="report-link-btn" type="button" onclick="toggleReportForm(${mod.id})">Report a problem with this mod</button>
+        <div class="report-form-slot" id="report-form-slot"></div>
       </article>
     </div>
   </section>
@@ -209,7 +212,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=20">
+  <link rel="stylesheet" href="css/shared.css?v=21">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -223,7 +226,8 @@ ${footer}
 <script src="js/site-search.js?v=7"></script>
 <script src="js/account.js?v=7"></script>
 <script src="js/comments.js?v=4"></script>
-<script src="js/pages/mod-detail.js?v=5"></script>
+<script src="js/reports.js?v=1"></script>
+<script src="js/pages/mod-detail.js?v=6"></script>
 <script>initModDetail(${mod.id});</script>
 </body>
 </html>

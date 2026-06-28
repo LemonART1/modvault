@@ -57,6 +57,8 @@ function initModDetail(modId) {
           </div>
           <a class="modal-dl-btn mod-detail-download" href="${esc(mod.downloadUrl)}" target="_blank" rel="noopener" onclick="recordCurrentDownload(${mod.id})">Download Mod</a>
           <p class="dl-hint">Hosted on an external file service - click to proceed</p>
+          <button class="report-link-btn" type="button" onclick="toggleReportForm(${mod.id})">Report a problem with this mod</button>
+          <div class="report-form-slot" id="report-form-slot"></div>
         </article>
       </div>
     </section>
@@ -83,6 +85,40 @@ function initModDetail(modId) {
 
   if (window.ModVaultAccount) ModVaultAccount.mountFavoriteButton(mod);
   if (window.ModVaultComments) ModVaultComments.mount(mod.id);
+}
+
+function toggleReportForm(modId) {
+  const slot = document.getElementById("report-form-slot");
+  if (!slot) return;
+  if (slot.innerHTML) { slot.innerHTML = ""; return; }
+  slot.innerHTML = `
+    <form class="report-form" onsubmit="return submitReport(event, ${modId})">
+      <textarea placeholder="What's wrong? (broken link, wrong file, outdated version...)" maxlength="500" rows="2"></textarea>
+      <div class="report-form-row">
+        <button type="submit">Send report</button>
+        <button type="button" class="report-form-cancel" onclick="toggleReportForm(${modId})">Cancel</button>
+      </div>
+      <p class="report-form-status"></p>
+    </form>
+  `;
+  slot.querySelector("textarea")?.focus();
+}
+
+async function submitReport(event, modId) {
+  event.preventDefault();
+  const form = event.target;
+  const textarea = form.querySelector("textarea");
+  const status = form.querySelector(".report-form-status");
+  const btn = form.querySelector("button[type=submit]");
+  btn.disabled = true;
+  const result = await window.ModVaultReports.submitReport(modId, textarea.value);
+  if (result.ok) {
+    form.outerHTML = `<p class="report-form-status ok">Thanks, we'll take a look.</p>`;
+  } else {
+    status.textContent = result.message || "Could not send report.";
+    btn.disabled = false;
+  }
+  return false;
 }
 
 async function recordCurrentDownload(modId) {

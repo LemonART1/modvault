@@ -50,7 +50,8 @@ function metaTags({ title, description, url, image = "images/og-default.svg", ty
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDescription}">
-  <meta name="twitter:image" content="${safeImage}">`;
+  <meta name="twitter:image" content="${safeImage}">
+  <link rel="alternate" type="application/rss+xml" title="ModVault News &amp; Guides" href="${absUrl("feed.xml")}">`;
 }
 
 function stripManagedSeo(html) {
@@ -61,13 +62,14 @@ function stripManagedSeo(html) {
     .replace(/\n?\s*<link rel="icon"[^>]*>/g, "")
     .replace(/\n?\s*<link rel="shortcut icon"[^>]*>/g, "")
     .replace(/\n?\s*<meta property="og:[^"]+"[^>]*>/g, "")
-    .replace(/\n?\s*<meta name="twitter:[^"]+"[^>]*>/g, "");
+    .replace(/\n?\s*<meta name="twitter:[^"]+"[^>]*>/g, "")
+    .replace(/\n?\s*<link rel="alternate" type="application\/rss\+xml"[^>]*>/g, "");
 }
 
 function ensureStyles(html, file) {
   html = html.replace(/(<meta name="twitter:image"[^>]*>)\s*(<link rel="stylesheet")/g, "$1\n  $2");
 
-  const styles = ["css/shared.css?v=20"];
+  const styles = ["css/shared.css?v=21"];
   if (gamePages.includes(file)) {
     styles.push("css/gamepage.css?v=6");
   }
@@ -284,6 +286,38 @@ ${urls.map(url => `  <url>
     <priority>${url === "index.html" ? "1.0" : url.startsWith("mods/") ? "0.8" : "0.6"}</priority>
   </url>`).join("\n")}
 </urlset>
+`);
+
+// RSS feed for news + guides. News posts carry a real publish date; guides
+// are evergreen how-tos with no date in the data, so their <item> simply
+// omits pubDate (optional per the RSS spec) rather than inventing one.
+const editorialCtx = {};
+vm.createContext(editorialCtx);
+vm.runInContext(`${read("js/data/editorial.js")}\nthis.NEWS_POSTS = NEWS_POSTS; this.GUIDE_POSTS = GUIDE_POSTS;`, editorialCtx);
+const { NEWS_POSTS, GUIDE_POSTS } = editorialCtx;
+
+function rssItem(post) {
+  const pubDate = post.date ? new Date(`${post.date}T12:00:00Z`).toUTCString() : "";
+  return `  <item>
+    <title>${esc(post.title)}</title>
+    <link>${esc(absUrl(post.url))}</link>
+    <guid isPermaLink="true">${esc(absUrl(post.url))}</guid>
+    <description>${esc(post.summary)}</description>
+    <category>${esc(post.tag)}</category>${pubDate ? `\n    <pubDate>${pubDate}</pubDate>` : ""}
+  </item>`;
+}
+
+const feedItems = [...NEWS_POSTS, ...GUIDE_POSTS.map(g => ({ ...g, date: "" }))];
+write("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>ModVault News &amp; Guides</title>
+  <link>${SITE_URL}/</link>
+  <description>Real modding news and practical guides for popular PC games, from ModVault.</description>
+  <language>en</language>
+${feedItems.map(rssItem).join("\n")}
+</channel>
+</rss>
 `);
 
 console.log(`Generated SEO assets for ${urls.length} URLs.`);

@@ -52,7 +52,8 @@ function metaTags({ title, description, image = "images/og-default.svg", url, ty
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDescription}">
-  <meta name="twitter:image" content="${safeImage}">`;
+  <meta name="twitter:image" content="${safeImage}">
+  <link rel="alternate" type="application/rss+xml" title="ModVault News &amp; Guides" href="${absUrl("feed.xml")}">`;
 }
 
 function makePost({ gameKey, kind, date = "", title, summary, sourceLabel = "", sourceUrl = "", sections }) {
