@@ -2,7 +2,7 @@
 // they've posted across the site. Anyone can view any profile (no login
 // required) since profiles and mod_comments are both publicly readable.
 // Depends on: js/data/mods.js (MODS, GAMES), js/supabase-client.js
-// (ModVaultSupabase), js/account.js (ModVaultAccount.getProfile/avatarImgHtml).
+// (ModVaultSupabase), js/account.js (ModVaultAccount.avatarImgHtml).
 (function () {
   const PAGE_SIZE = 7;
   // Site owner's account - matches ADMIN_USER_ID in js/comments.js. Shows
@@ -26,6 +26,10 @@
   function gamesData() { return (typeof GAMES !== "undefined" && GAMES) ? GAMES : {}; }
   function modById(id) { return allMods().find(m => m.id === Number(id)) || null; }
   function modPageUrl(mod) { return `mods/${mod.game}/${slugify(`${mod.id}-${mod.title}`)}`; }
+  function modImage(mod) {
+    const list = Array.isArray(mod.images) ? mod.images : [mod.image];
+    return list.filter(Boolean)[0] || "";
+  }
 
   function timeAgo(iso) {
     const diffSec = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
@@ -35,6 +39,23 @@
       if (value >= 1) return `${value} ${name}${value > 1 ? "s" : ""} ago`;
     }
     return "just now";
+  }
+
+  function monthYear(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+  }
+
+  async function loadProfile(userId) {
+    if (!db()) return null;
+    const { data, error } = await db().from("profiles")
+      .select("username, avatar_url, created_at")
+      .eq("id", userId)
+      .maybeSingle();
+    if (error) { console.warn("Unable to load profile.", error); return null; }
+    return data;
   }
 
   async function loadComments(userId) {
@@ -52,15 +73,20 @@
     const mod = modById(comment.mod_id);
     const target = mod ? modPageUrl(mod) : null;
     const modLabel = mod ? `${gamesData()[mod.game]?.name || mod.game} - ${mod.title}` : `Mod #${comment.mod_id}`;
+    const image = mod ? modImage(mod) : "";
+    const thumb = image
+      ? `<img src="${esc(image)}" alt="" loading="lazy">`
+      : `<span class="account-item-noimg"></span>`;
     return `
       <div class="account-item-row">
         <a class="account-item" href="${target ? esc(target) : "#"}">
+          ${thumb}
           <div class="account-item-text">
             <strong>${esc(modLabel)}</strong>
             <span>${esc(comment.body)}</span>
           </div>
         </a>
-        <span class="account-item-text"><span>${timeAgo(comment.created_at)}</span></span>
+        <span class="account-item-time">${timeAgo(comment.created_at)}</span>
       </div>
     `;
   }
@@ -99,11 +125,19 @@
       return;
     }
 
-    const profile = await window.ModVaultAccount?.getProfile?.(userId);
+    const [profile, comments] = await Promise.all([loadProfile(userId), loadComments(userId)]);
     if (!profile) {
       root.innerHTML = `<p class="account-empty">This profile could not be found.</p>`;
       return;
     }
+    commentsData = comments;
+
+    const joined = monthYear(profile.created_at);
+    const count = commentsData.length;
+    const meta = [
+      `${count} comment${count === 1 ? "" : "s"}`,
+      joined ? `Member since ${joined}` : ""
+    ].filter(Boolean).join(" · ");
 
     root.innerHTML = `
       <div class="account-profile-card">
@@ -111,16 +145,18 @@
           <div class="account-avatar-circle" style="cursor:default">
             ${window.ModVaultAccount.avatarImgHtml(profile.avatar_url)}
           </div>
-          <div class="account-status"><strong>${esc(profile.username || "User")}${userId === ADMIN_USER_ID ? VERIFIED_BADGE : ""}</strong></div>
+          <div class="account-status">
+            <strong>${esc(profile.username || "User")}${userId === ADMIN_USER_ID ? VERIFIED_BADGE : ""}</strong>
+            <span>${esc(meta)}</span>
+          </div>
         </div>
       </div>
       <div class="account-section">
-        <h2>Comments</h2>
-        <div id="profile-comments"><p class="account-loading">Loading&hellip;</p></div>
+        <h2>Comments${count ? ` (${count})` : ""}</h2>
+        <div id="profile-comments"></div>
       </div>
     `;
 
-    commentsData = await loadComments(userId);
     renderComments();
   }
 

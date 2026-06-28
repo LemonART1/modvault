@@ -244,7 +244,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=23">
+  <link rel="stylesheet" href="css/shared.css?v=24">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
