@@ -2345,6 +2345,116 @@ const MODS = [
       "fashion"
     ],
     featured: true
+  },
+  {
+    id: 123,
+    game: "subnautica2",
+    title: "Scanner Station Range Extender",
+    category: "gameplay",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/scanner-station-range-extender-1.jpg",
+      "images/mods/scanner-station-range-extender-2.jpg",
+      "images/mods/scanner-station-range-extender-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8ND19Cy2G4o5n0P",
+    short: "Configurably extend your Scanner Station's range for broader exploration in Subnautica 2.",
+    description: "This mod significantly increases the operational range of the Scanner Station, providing a configurable boost to its default capabilities. By default, the mod expands the scanning radius to 500 meters, up from the standard 300 meters. Users have the flexibility to customize these range values further by simply editing the config.lua file. Installation requires UE4SS, into which the mod's folder should be placed to extend your exploration range.",
+    tags: [
+      "scanner",
+      "range",
+      "gameplay",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 124,
+    game: "subnautica2",
+    title: "More Quick Slots",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/more-quick-slots-1.jpg",
+      "images/mods/more-quick-slots-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0Ax8vrEkLB3pK2f",
+    short: "Customize your quick slots with a custom number for tools and items.",
+    description: "This mod allows you to specify a custom number of quick slots for tools and other equippable items. You can configure the exact number by editing the `config.lua` file within the mod's Scripts folder. Please note that this mod overrides the game's normal quick slot progression. Be cautious not to decrease the number of slots if they contain items, as this risks item loss. The mod requires UE4SS and may experience issues with game updates or unpredictable behavior in multiplayer environments.",
+    tags: [
+      "quick slots",
+      "inventory",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 125,
+    game: "subnautica2",
+    title: "Portable Locker Expanded",
+    category: "ui",
+    version: "2.0",
+    size: "1 KB",
+    images: [
+      "images/mods/portable-locker-expanded-1.jpg",
+      "images/mods/portable-locker-expanded-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Kvs15nL860U62f6",
+    short: "Expands Portable Locker storage, breaking default limits for more space.",
+    description: "This mod significantly increases the storage capacity of the Portable Locker, removing the restrictive 15-slot vanilla limit. It allows for much greater inventory management during your aquatic adventures. Users can customize the locker's grid size by editing the main.lua file to suit their preferences. This expansion makes the portable locker a far more practical and useful storage solution.",
+    tags: [
+      "storage",
+      "locker",
+      "inventory",
+      "items"
+    ],
+    featured: true
+  },
+  {
+    id: 126,
+    game: "subnautica2",
+    title: "Auto Metal Farm Collector",
+    category: "gameplay",
+    version: "1.0",
+    size: "25 KB",
+    images: [
+      "images/mods/auto-metal-farm-collector-1.jpg",
+      "images/mods/auto-metal-farm-collector-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2U15DH24gi8T5Oj",
+    short: "Automatically collects and stores Metal Farm output for convenience.",
+    description: "Auto Metal Farm Collector is a simple quality-of-life mod for Subnautica 2. It automates the collection process for completed Metal Farms. The mod automatically deposits the output into a bigger inventory within the Metal Farm itself. This saves time and simplifies resource management, allowing you to focus on exploration.",
+    tags: [
+      "metal farm",
+      "automation",
+      "qol",
+      "resources"
+    ],
+    featured: true
+  },
+  {
+    id: 127,
+    game: "subnautica2",
+    title: "Too Many Divers - Beyond 4 Player Co-op Unlocker",
+    category: "gameplay",
+    version: "1.2.0",
+    size: "2 MB",
+    images: [
+      "images/mods/too-many-divers-beyond-4-player-co-op-unlocker-1.jpg",
+      "images/mods/too-many-divers-beyond-4-player-co-op-unlocker-2.jpg",
+      "images/mods/too-many-divers-beyond-4-player-co-op-unlocker-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XEMwR6PoKLrS8hf",
+    short: "Unlock Subnautica 2 co-op, play with up to 16 divers.",
+    description: "This mod removes the default 4-player co-op cap in Subnautica 2, enabling up to 16 players in a single session. It is confirmed stable for up to 16 players, with host-only installation required for clients to join. Cross-platform compatibility is maintained, ensuring a broader player base can participate together. For sessions with many divers, a powerful CPU and good internet connection are recommended for the host. The mod offers live configuration and an optional in-game slider for easily adjusting player limits.",
+    tags: [
+      "co-op",
+      "multiplayer",
+      "player limit"
+    ],
+    featured: true
   }
 ];
 
