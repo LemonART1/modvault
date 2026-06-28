@@ -254,6 +254,30 @@
   }
 
   // ---------- Account dashboard ----------
+  const ACCOUNT_PAGE_SIZE = 7;
+  let favoritesData = [];
+  let downloadsData = [];
+  let favPage = 1;
+  let dlPage = 1;
+
+  // Slices a list to the current page, clamping the page number if the
+  // list shrank (e.g. after removing a favorite) so it never points past
+  // the last page.
+  function paginate(list, page) {
+    const totalPages = Math.max(1, Math.ceil(list.length / ACCOUNT_PAGE_SIZE));
+    const clamped = Math.min(Math.max(1, page), totalPages);
+    return { slice: list.slice((clamped - 1) * ACCOUNT_PAGE_SIZE, clamped * ACCOUNT_PAGE_SIZE), page: clamped, totalPages };
+  }
+
+  function paginationHtml(section, page, totalPages) {
+    if (totalPages <= 1) return "";
+    return `<div class="account-pagination">
+      <button class="btn btn-ghost account-page-btn" data-section="${section}" data-page="${page - 1}" type="button" ${page === 1 ? "disabled" : ""}>Prev</button>
+      <span class="account-page-label">${page} / ${totalPages}</span>
+      <button class="btn btn-ghost account-page-btn" data-section="${section}" data-page="${page + 1}" type="button" ${page === totalPages ? "disabled" : ""}>Next</button>
+    </div>`;
+  }
+
   function thumb(mod) {
     const img = modImage(mod);
     return img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<span class="account-item-noimg"></span>`;
@@ -281,7 +305,9 @@
   }
 
   function renderFavorites(favorites) {
-    const rows = favorites.map(f => {
+    const { slice, page, totalPages } = paginate(favorites, favPage);
+    favPage = page;
+    const rows = slice.map(f => {
       const mod = modById(f.mod_id); if (!mod) return "";
       return `<div class="account-item-row">
         ${itemLink(mod, `${esc(gameName(mod))} &middot; v${esc(mod.version)}`)}
@@ -291,13 +317,15 @@
     return `<section class="content-panel account-section">
       <h2>Favorites (${favorites.length})</h2>
       ${favorites.length
-        ? `<div class="account-list">${rows}</div>`
+        ? `<div class="account-list">${rows}</div>${paginationHtml("favorites", page, totalPages)}`
         : `<p class="account-empty">No favorites yet. Open any mod and press &ldquo;Add to favorites&rdquo;.</p>`}
     </section>`;
   }
 
   function renderDownloads(downloads) {
-    const rows = downloads.map(d => {
+    const { slice, page, totalPages } = paginate(downloads, dlPage);
+    dlPage = page;
+    const rows = slice.map(d => {
       const mod = modById(d.mod_id); if (!mod) return "";
       const date = new Date(d.created_at).toLocaleDateString();
       return `<div class="account-item-row">
@@ -307,9 +335,37 @@
     return `<section class="content-panel account-section">
       <h2>Download history</h2>
       ${downloads.length
-        ? `<div class="account-list">${rows}</div>`
+        ? `<div class="account-list">${rows}</div>${paginationHtml("downloads", page, totalPages)}`
         : `<p class="account-empty">No downloads yet.</p>`}
     </section>`;
+  }
+
+  // Rebuilds the dashboard body from already-fetched data, so paging
+  // through favorites/downloads doesn't refetch from Supabase each click.
+  function renderDashboardBody() {
+    const root = document.getElementById("account-dashboard");
+    if (!root) return;
+    const updates = favoritesData.filter(f => {
+      const mod = modById(f.mod_id);
+      return mod && String(mod.version || "") !== String(f.saved_version || "");
+    });
+
+    root.innerHTML = renderNotifications(updates)
+      + `<div class="account-columns">${renderFavorites(favoritesData)}${renderDownloads(downloadsData)}</div>`;
+
+    root.querySelectorAll(".account-seen-btn").forEach(btn => {
+      btn.addEventListener("click", async () => { btn.disabled = true; await markSeen(btn.dataset.mod); renderDashboard(); });
+    });
+    root.querySelectorAll(".account-remove-btn").forEach(btn => {
+      btn.addEventListener("click", async () => { btn.disabled = true; await removeFavorite(btn.dataset.mod); renderDashboard(); });
+    });
+    root.querySelectorAll(".account-page-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (btn.dataset.section === "favorites") favPage = Number(btn.dataset.page);
+        else dlPage = Number(btn.dataset.page);
+        renderDashboardBody();
+      });
+    });
   }
 
   async function renderDashboard() {
@@ -319,20 +375,9 @@
 
     root.innerHTML = `<p class="account-loading">Loading your data&hellip;</p>`;
     const [favorites, downloads] = await Promise.all([loadFavorites(), loadDownloads()]);
-    const updates = favorites.filter(f => {
-      const mod = modById(f.mod_id);
-      return mod && String(mod.version || "") !== String(f.saved_version || "");
-    });
-
-    root.innerHTML = renderNotifications(updates)
-      + `<div class="account-columns">${renderFavorites(favorites)}${renderDownloads(downloads)}</div>`;
-
-    root.querySelectorAll(".account-seen-btn").forEach(btn => {
-      btn.addEventListener("click", async () => { btn.disabled = true; await markSeen(btn.dataset.mod); renderDashboard(); });
-    });
-    root.querySelectorAll(".account-remove-btn").forEach(btn => {
-      btn.addEventListener("click", async () => { btn.disabled = true; await removeFavorite(btn.dataset.mod); renderDashboard(); });
-    });
+    favoritesData = favorites;
+    downloadsData = downloads;
+    renderDashboardBody();
   }
 
   function init() {

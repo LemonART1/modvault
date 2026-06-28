@@ -34,6 +34,9 @@
     .account-empty, .account-loading { color: var(--text3, #8b90a0); font-size: 14px; }
     .account-item-row .btn { flex-shrink: 0; }
     .account-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+    .account-pagination { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 14px; }
+    .account-page-label { font-size: 12px; color: var(--text3, #8b90a0); }
+    .account-page-btn:disabled { opacity: .4; cursor: default; }
     @media (max-width: 720px) { .account-columns { grid-template-columns: 1fr; } }
     .account-avatar-circle {
       position: relative; display: block; flex-shrink: 0;
@@ -130,7 +133,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=17"></script>
 <script src="js/auth.js?v=12"></script>
-<script src="js/account.js?v=7"></script>
+<script src="js/account.js?v=8"></script>
 <script>document.addEventListener("DOMContentLoaded", ModVaultAuth.initAccountPage);</script>
 <script src="js/site-search.js?v=7"></script>
 </body>
