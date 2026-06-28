@@ -217,7 +217,46 @@
       .replace(/"/g, "&quot;");
   }
 
+  // Mobile menu: the header nav is hidden by default below 860px (see
+  // shared.css), this toggle button shows/hides it as a dropdown panel.
+  function initMobileNav() {
+    const toggle = document.getElementById("nav-menu-toggle");
+    const nav = document.querySelector(".header-nav");
+    if (!toggle || !nav) return;
+
+    function closeMenu() {
+      toggle.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+      nav.classList.remove("nav-open");
+      nav.querySelectorAll(".nav-dropdown.nav-open").forEach(d => d.classList.remove("nav-open"));
+    }
+
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("nav-open");
+      toggle.classList.toggle("open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+
+    nav.querySelectorAll(".nav-dropdown-toggle").forEach(dropdownToggle => {
+      dropdownToggle.addEventListener("click", () => {
+        if (!nav.classList.contains("nav-open")) return;
+        dropdownToggle.closest(".nav-dropdown")?.classList.toggle("nav-open");
+      });
+    });
+
+    nav.querySelectorAll(".nav-link:not(.nav-dropdown-toggle), .nav-dropdown-item").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!nav.classList.contains("nav-open")) return;
+      if (nav.contains(event.target) || toggle.contains(event.target)) return;
+      closeMenu();
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
+    initMobileNav();
     loadModsData().then(initSearch).catch(() => {});
   });
 })();

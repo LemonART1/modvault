@@ -285,17 +285,19 @@ function page(post) {
   <title>${esc(post.title)} - ModVault</title>
   <meta name="description" content="${esc(post.summary)}">
 ${metaTags({ title: `${post.title} - ModVault`, description: post.summary, url: post.url.replace(/\.html$/, "") })}
-  <link rel="stylesheet" href="css/shared.css?v=24">
+  <link rel="stylesheet" href="css/shared.css?v=25">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${post.game.accent}">
-<header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${activeNav}</nav></div></header>
+<header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${activeNav}</nav>
+  <button class="nav-menu-toggle" id="nav-menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><svg class="icon-menu" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="icon-close" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div></header>
 <main class="page content-page"><div class="container"><article class="content-hero"><span class="content-kicker">${kicker}</span><h1 class="content-title">${esc(post.title)}</h1><p class="content-lede">${esc(post.summary)}</p></article><section class="content-grid">${post.sections.map(([heading, body]) => `<div class="content-panel"><h2>${esc(heading)}</h2><p>${esc(body)}</p></div>`).join("")}${source}</section></div></main>
 ${footer}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=17"></script>
 <script src="js/stats.js?v=11"></script>
-<script src="js/site-search.js?v=7"></script></body>
+<script src="js/site-search.js?v=9"></script></body>
 </html>
 `;
 }

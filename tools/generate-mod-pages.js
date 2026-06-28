@@ -244,18 +244,20 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=24">
+  <link rel="stylesheet" href="css/shared.css?v=25">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
-<header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${nav}</nav></div></header>
+<header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${nav}</nav>
+  <button class="nav-menu-toggle" id="nav-menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><svg class="icon-menu" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="icon-close" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div></header>
 ${staticModContent(mod, game)}
 ${footer}
 <script src="js/data/mods.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=17"></script>
 <script src="js/stats.js?v=11"></script>
-<script src="js/site-search.js?v=7"></script>
+<script src="js/site-search.js?v=9"></script>
 <script src="js/account.js?v=8"></script>
 <script src="js/comments.js?v=6"></script>
 <script src="js/reports.js?v=1"></script>
