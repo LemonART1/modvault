@@ -2455,6 +2455,117 @@ const MODS = [
       "player limit"
     ],
     featured: true
+  },
+  {
+    id: 128,
+    game: "stardew",
+    title: "Anime Mods",
+    category: "characters",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/anime-mods-1.jpg",
+      "images/mods/anime-mods-2.jpg",
+      "images/mods/anime-mods-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/72eAV6HxuA3f4LZ",
+    short: "Anime-styled portraits and character updates for Stardew Valley villagers.",
+    description: "This mod pack introduces anime-styled portraits and character designs for Stardew Valley. The creator plans to gradually upload new modifications, including portraits, character appearance changes, and possibly animal visuals. Recent updates include new winter outfits for Sam, Sebastian, Elliott, Maru, and Evelyn, alongside an updated alternate Evelyn design.",
+    tags: [
+      "anime",
+      "portraits",
+      "characters",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 129,
+    game: "stardew",
+    title: "Ridgeside Village",
+    category: "expansions",
+    version: "2.5.16",
+    size: "53 MB",
+    images: [
+      "images/mods/ridgeside-village-1.jpg",
+      "images/mods/ridgeside-village-2.jpg",
+      "images/mods/ridgeside-village-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0L831fs1fo2ixaC",
+    short: "Massive expansion mod adds new village, NPCs, quests, and maps.",
+    description: "Ridgeside Village is a massive expansion mod for Stardew Valley, adding significant new content without being intrusive to the base game. It offers over 50 new NPCs, including 22 marriage candidates, hundreds of new dialogue lines, and numerous character animations. Explore over 100 new maps, engage in more than 400 new events, complete 50+ fresh quests, and discover new shops, items, and combat challenges. Enjoy original music themes for the village and unique scores for each marriageable NPC, enhancing the immersive experience. This mod seamlessly blends with vanilla aesthetics and lore, providing extensive late-game challenges and rewards.",
+    tags: [
+      "expansion",
+      "new village",
+      "npcs",
+      "quests"
+    ],
+    featured: true
+  },
+  {
+    id: 130,
+    game: "stardew",
+    title: "Fashion Sense",
+    category: "modding-tools",
+    version: "7.5.0",
+    size: "310 KB",
+    images: [
+      "images/mods/fashion-sense-1.jpg",
+      "images/mods/fashion-sense-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j1Vme9Cvdh7Aq7H",
+    short: "Framework for custom, animated, and oversized apparel in Stardew Valley.",
+    description: "Fashion Sense is a powerful framework that allows mod authors to create static or animated accessories, hairstyles, hats, shirts, pants, and shoes. These custom items can be larger than the default vanilla dimensions and support dynamic animations based on player actions. The framework also includes features for saving and loading custom outfits in-game. To use this mod, you will need separate Fashion Sense content packs installed, which are fully compatible with each other. Players can manage their custom outfits and items using the Hand Mirror tool, purchasable from Pierre or given at character creation.",
+    tags: [
+      "clothing",
+      "apparel",
+      "framework"
+    ],
+    featured: true
+  },
+  {
+    id: 131,
+    game: "stardew",
+    title: "Custom Companions 5.1.0",
+    category: "modding-tools",
+    version: "5.1.0",
+    size: "77 KB",
+    images: [
+      "images/mods/custom-companions-510-1.jpg",
+      "images/mods/custom-companions-510-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ylj5GJFyrX4Waf8",
+    short: "Create and add custom companions with multiplayer and Content Patcher support.",
+    description: "This mod provides a robust framework for creating and adding custom companions to Stardew Valley. It empowers mod authors with tools and a detailed wiki on how to develop unique content packs. The mod fully supports multiplayer, allowing custom companions to appear in shared game sessions. It also integrates smoothly with Content Patcher and maintains compatibility with the Save Anywhere mod for enhanced gameplay flexibility.",
+    tags: [
+      "custom comp",
+      "new char",
+      "multiplayer"
+    ],
+    featured: true
+  },
+  {
+    id: 132,
+    game: "stardew",
+    title: "DaisyNiko's Earthy Recolour 1.4.4",
+    category: "visuals-graphics",
+    version: "1.4.4",
+    size: "7 MB",
+    images: [
+      "images/mods/daisynikos-earthy-recolour-144-1.jpg",
+      "images/mods/daisynikos-earthy-recolour-144-2.jpg",
+      "images/mods/daisynikos-earthy-recolour-144-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m9Fj4023t7Rt4dO",
+    short: "Transform Stardew Valley with a beautiful earthy recolour and custom visuals.",
+    description: "This mod offers a complete game recolour, transforming all outdoor tilesheets for a fresh look. It includes custom trees, dig spots, and grass, alongside revamped town buildings designed to match the natural terrain. Players can customize various elements like grass, dig spots, fruit trees, and building appearances via the config file. This mod enhances the visual experience, making Stardew Valley more vibrant and cohesive.",
+    tags: [
+      "recolour",
+      "visuals",
+      "graphics",
+      "trees"
+    ],
+    featured: true
   }
 ];
 
