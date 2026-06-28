@@ -19,7 +19,7 @@ Deno.serve(async (req) => {
 
   const payload = await req.json();
   const { table, record } = payload;
-  const text = buildMessage(table, record);
+  const text = await buildMessage(table, record);
   if (!text) return new Response("ignored", { status: 200 });
 
   const botToken = Deno.env.get("TELEGRAM_BOT_TOKEN");
@@ -33,19 +33,51 @@ Deno.serve(async (req) => {
   return new Response("ok", { status: 200 });
 });
 
-function buildMessage(table: string, record: Record<string, unknown>): string | null {
+// mods.js is the static site's single source of truth for mod data, and is
+// not duplicated into a Supabase table - so the mod's title/page is looked
+// up by fetching the live file and pattern-matching the one entry, rather
+// than keeping a second copy of the catalog in sync.
+async function getModInfo(modId: number): Promise<{ title: string; url: string } | null> {
+  try {
+    const res = await fetch("https://modvault.space/js/data/mods.js");
+    const code = await res.text();
+    const re = /id:\s*(\d+),\s*game:\s*"([^"]*)",\s*title:\s*"((?:[^"\\]|\\.)*)"/g;
+    let match: RegExpExecArray | null;
+    while ((match = re.exec(code))) {
+      if (Number(match[1]) === modId) {
+        const game = match[2];
+        const title = match[3].replace(/\\"/g, "\"");
+        return { title, url: `https://modvault.space/mods/${game}/${slugify(`${modId}-${title}`)}` };
+      }
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+function slugify(str: string): string {
+  return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+async function buildMessage(table: string, record: Record<string, unknown>): Promise<string | null> {
   switch (table) {
-    case "mod_reports":
+    case "mod_reports": {
+      const mod = await getModInfo(Number(record.mod_id));
       return [
-        "New report on mod " + record.mod_id,
-        "Reason: " + (record.reason || "(no reason given)")
+        "New report on " + (mod ? mod.title : "mod " + record.mod_id),
+        "Reason: " + (record.reason || "(no reason given)"),
+        ...(mod ? [mod.url] : [])
       ].join("\n");
-    case "mod_comments":
-      // Only notify on top-level comments and replies alike; both are useful.
+    }
+    case "mod_comments": {
+      const mod = await getModInfo(Number(record.mod_id));
       return [
         "New comment from " + record.username,
-        "Mod " + record.mod_id + ": " + record.body
+        "On " + (mod ? mod.title : "mod " + record.mod_id) + ": " + record.body,
+        ...(mod ? [mod.url] : [])
       ].join("\n");
+    }
     case "profiles":
       return "New account registered: " + (record.username || record.id);
     default:
