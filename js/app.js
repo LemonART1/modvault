@@ -152,6 +152,8 @@ function buildGrid(gameKey) {
   if (filterSort === "newest") list.sort((a, b) => b.id - a.id);
   else if (filterSort === "oldest") list.sort((a, b) => a.id - b.id);
   else if (filterSort === "az") list.sort((a, b) => a.title.localeCompare(b.title));
+  else if (filterSort === "downloads") list.sort((a, b) => ModVaultStats.getModStats(b).downloads - ModVaultStats.getModStats(a).downloads || b.id - a.id);
+  else if (filterSort === "rating") list.sort((a, b) => ModVaultStats.getModStats(b).ratingAverage - ModVaultStats.getModStats(a).ratingAverage || b.id - a.id);
 
   const grid  = document.getElementById("mods-grid");
   const count = document.getElementById("mod-count");
