@@ -5,6 +5,10 @@
 // (ModVaultSupabase), js/account.js (ModVaultAccount.getProfile/avatarImgHtml).
 (function () {
   const PAGE_SIZE = 7;
+  // Site owner's account - matches ADMIN_USER_ID in js/comments.js. Shows
+  // a verified badge so visitors can tell this is the real admin account.
+  const ADMIN_USER_ID = "3e836ea2-bb01-406b-94c0-59bf49ab3bc9";
+  const VERIFIED_BADGE = `<svg class="verified-badge" viewBox="0 0 24 24" fill="currentColor" title="Verified admin"><path d="M12 1.5 14.6 3.9 18.1 3.5 18.6 7 21.8 8.8 20.6 12.2 21.8 15.6 18.6 17.4 18.1 20.9 14.6 20.5 12 22.9 9.4 20.5 5.9 20.9 5.4 17.4 2.2 15.6 3.4 12.2 2.2 8.8 5.4 7 5.9 3.5 9.4 3.9Z"/><path d="M8.7 12.2 11 14.5 15.5 9.8" stroke="#05060a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   let commentsData = [];
   let page = 1;
 
@@ -107,7 +111,7 @@
           <div class="account-avatar-circle" style="cursor:default">
             ${window.ModVaultAccount.avatarImgHtml(profile.avatar_url)}
           </div>
-          <div class="account-status"><strong>${esc(profile.username || "User")}</strong></div>
+          <div class="account-status"><strong>${esc(profile.username || "User")}${userId === ADMIN_USER_ID ? VERIFIED_BADGE : ""}</strong></div>
         </div>
       </div>
       <div class="account-section">

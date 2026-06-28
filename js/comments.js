@@ -13,6 +13,7 @@
   const THUMB_UP = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M7 11v9H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h3zm0 0 4.5-8a2 2 0 0 1 2 2.2L12.7 9H18a2 2 0 0 1 2 2.4l-1.4 7A2 2 0 0 1 16.6 20H7"/></svg>`;
   const THUMB_DOWN = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M17 13V4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-3zm0 0-4.5 8a2 2 0 0 1-2-2.2L11.3 15H6a2 2 0 0 1-2-2.4l1.4-7A2 2 0 0 1 7.4 4H17"/></svg>`;
   const DEFAULT_AVATAR_ICON = `<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.4-3.6 4.4-5.5 7.5-5.5s6.1 1.9 7.5 5.5"/></svg>`;
+  const VERIFIED_BADGE = `<svg class="verified-badge" viewBox="0 0 24 24" fill="currentColor" title="Verified admin"><path d="M12 1.5 14.6 3.9 18.1 3.5 18.6 7 21.8 8.8 20.6 12.2 21.8 15.6 18.6 17.4 18.1 20.9 14.6 20.5 12 22.9 9.4 20.5 5.9 20.9 5.4 17.4 2.2 15.6 3.4 12.2 2.2 8.8 5.4 7 5.9 3.5 9.4 3.9Z"/><path d="M8.7 12.2 11 14.5 15.5 9.8" stroke="#05060a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
   function avatarHtml(url) {
     return url
@@ -139,7 +140,7 @@
         ${avatarHtml(comment.avatar_url)}
         <div class="mod-comment-body">
           <div class="mod-comment-head">
-            <a class="mod-comment-author" href="profile?u=${esc(comment.user_id)}"><strong>${esc(comment.username)}</strong></a>
+            <a class="mod-comment-author" href="profile?u=${esc(comment.user_id)}"><strong>${esc(comment.username)}</strong>${comment.user_id === ADMIN_USER_ID ? VERIFIED_BADGE : ""}</a>
             <time>${timeAgo(comment.created_at)}</time>
             ${mine ? `<button class="mod-comment-delete" type="button" data-id="${comment.id}">Delete</button>` : ""}
           </div>

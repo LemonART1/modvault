@@ -956,6 +956,9 @@ body::after {
   min-width: 0;
 }
 .account-status strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-family: var(--font-d);
   font-size: 24px;
   letter-spacing: 1px;
@@ -1114,10 +1117,19 @@ body::after {
   font-size: 13px;
 }
 .mod-comment-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   text-decoration: none;
 }
 .mod-comment-author:hover strong {
   text-decoration: underline;
+}
+.verified-badge {
+  width: 15px;
+  height: 15px;
+  color: #4ab8ff;
+  flex-shrink: 0;
 }
 .mod-comment-head strong {
   color: var(--text);
