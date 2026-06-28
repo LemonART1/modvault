@@ -139,7 +139,7 @@
         ${avatarHtml(comment.avatar_url)}
         <div class="mod-comment-body">
           <div class="mod-comment-head">
-            <strong>${esc(comment.username)}</strong>
+            <a class="mod-comment-author" href="profile?u=${esc(comment.user_id)}"><strong>${esc(comment.username)}</strong></a>
             <time>${timeAgo(comment.created_at)}</time>
             ${mine ? `<button class="mod-comment-delete" type="button" data-id="${comment.id}">Delete</button>` : ""}
           </div>

@@ -972,6 +972,7 @@ body::after {
 }
 .account-actions {
   display: flex;
+  gap: 10px;
   flex-shrink: 0;
 }
 .account-actions[hidden],
@@ -1111,6 +1112,12 @@ body::after {
   gap: 10px;
   margin-bottom: 6px;
   font-size: 13px;
+}
+.mod-comment-author {
+  text-decoration: none;
+}
+.mod-comment-author:hover strong {
+  text-decoration: underline;
 }
 .mod-comment-head strong {
   color: var(--text);

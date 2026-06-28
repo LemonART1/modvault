@@ -95,6 +95,8 @@
         status.classList.add("is-logged-in");
         if (authCard) authCard.hidden = true;
         if (accountActions) accountActions.hidden = false;
+        const profileLink = document.getElementById("view-profile-link");
+        if (profileLink) profileLink.href = `profile?u=${encodeURIComponent(current.id)}`;
       } else {
         window.ModVaultUser?.clearCachedUser?.();
         window.ModVaultUser?.updateAccountNavFromUser?.(null);
