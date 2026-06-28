@@ -55,11 +55,36 @@ function getImages(mod) {
   return list.filter(Boolean).slice(0, 3);
 }
 
-// SoftwareApplication structured data for the mod detail page. Ratings are
-// deliberately left out: they only exist live in Supabase, not in this
-// static mod data, and Google requires structured-data ratings to match
-// what's actually visible on the page.
-function softwareAppSchema(mod, game, pagePath, image) {
+// Real per-mod rating aggregates from Supabase, fetched once per run.
+// Google requires structured-data ratings to match what's actually
+// visible on the page, so a mod only gets aggregateRating once it has at
+// least one real vote - never a fabricated count.
+const SUPABASE_URL = "https://dccmwduvehkdrbxctmhf.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_x6V_h5FGKgq-eMF7WqY6eQ_5f2n2dpz";
+
+async function fetchRatingAggregates() {
+  const aggregates = new Map();
+  try {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/mod_ratings?select=mod_id,rating`, {
+      headers: { apikey: SUPABASE_ANON_KEY }
+    });
+    if (!res.ok) throw new Error(`Supabase responded ${res.status}`);
+    const rows = await res.json();
+    for (const row of rows) {
+      const id = Number(row.mod_id);
+      const entry = aggregates.get(id) || { count: 0, sum: 0 };
+      entry.count += 1;
+      entry.sum += Number(row.rating) || 0;
+      aggregates.set(id, entry);
+    }
+  } catch (error) {
+    console.warn("Could not fetch live mod ratings, skipping aggregateRating in JSON-LD.", error.message);
+  }
+  return aggregates;
+}
+
+function softwareAppSchema(mod, game, pagePath, image, ratingAggregates) {
+  const rating = ratingAggregates.get(Number(mod.id));
   const data = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -72,6 +97,11 @@ function softwareAppSchema(mod, game, pagePath, image) {
     fileSize: mod.size || undefined,
     image: image ? absUrl(image) : undefined,
     downloadUrl: mod.downloadUrl || undefined,
+    aggregateRating: rating && rating.count > 0 ? {
+      "@type": "AggregateRating",
+      ratingValue: (rating.sum / rating.count).toFixed(1),
+      ratingCount: rating.count
+    } : undefined,
     offers: {
       "@type": "Offer",
       price: "0",
@@ -192,6 +222,8 @@ function staticModContent(mod, game) {
 const nav = `<a href="/" class="nav-link">Home</a><div class="nav-dropdown"><button class="nav-link nav-dropdown-toggle active" type="button">Games</button><div class="nav-dropdown-menu"><a href="beamng" class="nav-dropdown-item"><span>BeamNG</span><span class="nav-dropdown-dot" style="--game-accent:#e8ff00"></span></a><a href="assetto" class="nav-dropdown-item"><span>Assetto</span><span class="nav-dropdown-dot" style="--game-accent:#ff5014"></span></a><a href="subnautica2" class="nav-dropdown-item"><span>Subnautica 2</span><span class="nav-dropdown-dot" style="--game-accent:#00d8ff"></span></a><a href="stardew" class="nav-dropdown-item"><span>Stardew</span><span class="nav-dropdown-dot" style="--game-accent:#7cff6b"></span></a><a href="gta5" class="nav-dropdown-item"><span>GTA V</span><span class="nav-dropdown-dot" style="--game-accent:#56ff9d"></span></a><a href="ets2" class="nav-dropdown-item"><span>ETS2</span><span class="nav-dropdown-dot" style="--game-accent:#ffb13b"></span></a><a href="cyberpunk" class="nav-dropdown-item"><span>Cyberpunk</span><span class="nav-dropdown-dot" style="--game-accent:#ffe600"></span></a><a href="bg3" class="nav-dropdown-item"><span>BG3</span><span class="nav-dropdown-dot" style="--game-accent:#c77dff"></span></a></div></div><a href="news" class="nav-link">News</a><a href="guides" class="nav-link">Guides</a><a href="about" class="nav-link">About</a><a href="contact" class="nav-link">Contact</a><a href="account" class="nav-link">Login</a>`;
 const footer = `<footer class="site-footer"><div class="container footer-inner"><a href="/" class="footer-logo">MOD<span>VAULT</span></a><div class="footer-copy">CURATED MODS FOR POPULAR GAMES</div><div class="footer-links"><a href="news">News</a><a href="guides">Guides</a><a href="about">About</a><a href="contact">Contact</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="copyright">Copyright</a></div></div></footer>`;
 
+async function main() {
+const ratingAggregates = await fetchRatingAggregates();
 let count = 0;
 for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   const game = GAMES[mod.game];
@@ -210,7 +242,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(mod.short)}">
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
-${softwareAppSchema(mod, game, pagePath, image)}
+${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
   <link rel="stylesheet" href="css/shared.css?v=21">
   <link rel="stylesheet" href="css/effects.css?v=6">
@@ -237,3 +269,6 @@ ${footer}
 }
 
 console.log(`Generated ${count} mod pages.`);
+}
+
+main();
