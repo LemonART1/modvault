@@ -14,6 +14,13 @@ const NEWS_POSTS = [
     "summary": "SCS Software released Euro Truck Simulator 2 update 1.60 on June 18, 2026, bringing the Game Radio feature, improved materials and expanded rest mechanics out of beta."
   },
   {
+    "date": "2026-06-17",
+    "title": "GTA Online's Kortz Center Heist headlines a July 2026 update",
+    "tag": "GTA V",
+    "url": "content/news/gta-online-s-kortz-center-heist-headlines-a-july-2026-update",
+    "summary": "Rockstar is preparing a new GTA Online update built around the multi-stage Kortz Center Heist, showing GTA V is still getting official content even as GTA 6 approaches its release window."
+  },
+  {
     "date": "2026-06-12",
     "title": "PC Gamer adds a dynamic ambush mod to its Baldur's Gate 3 list",
     "tag": "Baldur's Gate 3",
@@ -140,6 +147,13 @@ const NEWS_POSTS = [
     "summary": "Unknown Worlds outlined an EA1.1 content drop for Subnautica 2 with new Biomods, Blight visibility changes and a teased new Leviathan area."
   },
   {
+    "date": "2026-05-25",
+    "title": "Cyberpunk 2077's Combat Evolved mod overhauls Night City's factions",
+    "tag": "Cyberpunk 2077",
+    "url": "content/news/cyberpunk-2077-s-combat-evolved-mod-overhauls-night-city-s-factions",
+    "summary": "A ScreenRant roundup highlighted Combat Evolved, a mod that gives 20 Cyberpunk 2077 factions unique combat profiles, fear systems and home-turf behavior, alongside a story-fixing Immersion Patch."
+  },
+  {
     "date": "2026-05-23",
     "title": "ETS2 and ATS 1.60 refresh the job widget",
     "tag": "Euro Truck Simulator 2",
@@ -166,6 +180,13 @@ const NEWS_POSTS = [
     "tag": "GTA V",
     "url": "content/news/a-20-000-prop-mega-mod-brings-gta-v-s-map-into-2026",
     "summary": "A solo modder's environmental overhaul adds roughly 20,000 trees and street props across GTA V's map, refreshing how the world looks more than a decade after release."
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Subnautica 2 tops 4 million sales in under a week",
+    "tag": "Subnautica 2",
+    "url": "content/news/subnautica-2-tops-4-million-sales-in-under-a-week",
+    "summary": "Subnautica 2 sold an estimated four million copies within five days of its May 14 early access launch, making it one of 2026's fastest-selling Steam games."
   },
   {
     "date": "2026-05-16",
@@ -981,5 +1002,101 @@ const GUIDE_POSTS = [
     "tag": "Baldur's Gate 3",
     "url": "content/guides/how-to-combine-baldur-s-gate-3-ui-and-gameplay-mods-safely",
     "summary": "A practical look at running UI and gameplay mods together in Baldur's Gate 3 without overlapping menus or scripts."
+  },
+  {
+    "title": "How to safely remove BeamNG.drive mods and clear the cache",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-safely-remove-beamng-drive-mods-and-clear-the-cache",
+    "summary": "A clean routine for uninstalling BeamNG.drive mods and clearing the cache so leftover files do not cause errors."
+  },
+  {
+    "title": "How to tell if a BeamNG.drive mod is abandoned",
+    "tag": "BeamNG.drive",
+    "url": "content/guides/how-to-tell-if-a-beamng-drive-mod-is-abandoned",
+    "summary": "A guide to judging whether a BeamNG.drive mod is still maintained before adding it to a long-term collection."
+  },
+  {
+    "title": "How to install Assetto Corsa skin and livery packs",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-install-assetto-corsa-skin-and-livery-packs",
+    "summary": "A guide to adding skin and livery packs to Assetto Corsa cars without overwriting existing paint options."
+  },
+  {
+    "title": "How to keep Content Manager and Custom Shaders Patch versions in sync",
+    "tag": "Assetto Corsa",
+    "url": "content/guides/how-to-keep-content-manager-and-custom-shaders-patch-versions-in-sync",
+    "summary": "A practical look at matching Content Manager and CSP versions so Assetto Corsa visual mods load correctly."
+  },
+  {
+    "title": "How to use OpenIV safely when installing GTA V mods",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-use-openiv-safely-when-installing-gta-v-mods",
+    "summary": "A beginner-friendly guide to using OpenIV and its mods folder to install GTA V files without touching the original game data."
+  },
+  {
+    "title": "How to spot a safe GTA V script mod before installing",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-spot-a-safe-gta-v-script-mod-before-installing",
+    "summary": "A guide to checking GTA V script and ASI mods for compatibility and safety before adding them to your game."
+  },
+  {
+    "title": "How to manage GTA V add-on vehicles with dlclist",
+    "tag": "GTA V",
+    "url": "content/guides/how-to-manage-gta-v-add-on-vehicles-with-dlclist",
+    "summary": "A guide to adding GTA V add-on vehicles correctly using dlclist entries so they spawn in-game."
+  },
+  {
+    "title": "How to move a modded Stardew Valley save to a new PC",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-move-a-modded-stardew-valley-save-to-a-new-pc",
+    "summary": "A step-by-step guide to transferring a modded Stardew Valley save and its mod list to another computer."
+  },
+  {
+    "title": "How to read SMAPI error logs to find a broken mod",
+    "tag": "Stardew Valley",
+    "url": "content/guides/how-to-read-smapi-error-logs-to-find-a-broken-mod",
+    "summary": "A guide to using the SMAPI log to identify which Stardew Valley mod is causing a crash or warning."
+  },
+  {
+    "title": "How to cleanly uninstall Cyberpunk 2077 mods",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-cleanly-uninstall-cyberpunk-2077-mods",
+    "summary": "A guide to fully removing Cyberpunk 2077 mods and their framework files without leaving broken references behind."
+  },
+  {
+    "title": "How to update Cyberpunk 2077 mods after a game patch",
+    "tag": "Cyberpunk 2077",
+    "url": "content/guides/how-to-update-cyberpunk-2077-mods-after-a-game-patch",
+    "summary": "What to check on your Cyberpunk 2077 mods and frameworks right after an official game update lands."
+  },
+  {
+    "title": "How to fix Baldur's Gate 3 mod load order problems",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-fix-baldur-s-gate-3-mod-load-order-problems",
+    "summary": "A guide to diagnosing and fixing load order issues that stop Baldur's Gate 3 mods from working together."
+  },
+  {
+    "title": "How to carry a Baldur's Gate 3 mod list into a new playthrough",
+    "tag": "Baldur's Gate 3",
+    "url": "content/guides/how-to-carry-a-baldur-s-gate-3-mod-list-into-a-new-playthrough",
+    "summary": "A practical guide to reusing a stable Baldur's Gate 3 mod list when starting a fresh campaign."
+  },
+  {
+    "title": "How to use Subnautica 2 debug and console commands safely",
+    "tag": "Subnautica 2",
+    "url": "content/guides/how-to-use-subnautica-2-debug-and-console-commands-safely",
+    "summary": "A guide to enabling Subnautica 2 console or debug commands for testing without breaking a survival save."
+  },
+  {
+    "title": "How to back up an ETS2 profile before installing mods",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-back-up-an-ets2-profile-before-installing-mods",
+    "summary": "A simple routine for backing up a Euro Truck Simulator 2 profile before adding new map or truck mods."
+  },
+  {
+    "title": "How to fix an ETS2 profile after removing a map mod",
+    "tag": "Euro Truck Simulator 2",
+    "url": "content/guides/how-to-fix-an-ets2-profile-after-removing-a-map-mod",
+    "summary": "What to check when a Euro Truck Simulator 2 profile will not load after a map mod has been removed."
   }
 ];

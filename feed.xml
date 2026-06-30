@@ -22,6 +22,14 @@
     <pubDate>Thu, 18 Jun 2026 12:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>GTA Online's Kortz Center Heist headlines a July 2026 update</title>
+    <link>https://modvault.space/content/news/gta-online-s-kortz-center-heist-headlines-a-july-2026-update</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/gta-online-s-kortz-center-heist-headlines-a-july-2026-update</guid>
+    <description>Rockstar is preparing a new GTA Online update built around the multi-stage Kortz Center Heist, showing GTA V is still getting official content even as GTA 6 approaches its release window.</description>
+    <category>GTA V</category>
+    <pubDate>Wed, 17 Jun 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>PC Gamer adds a dynamic ambush mod to its Baldur's Gate 3 list</title>
     <link>https://modvault.space/content/news/pc-gamer-adds-a-dynamic-ambush-mod-to-its-baldur-s-gate-3-list</link>
     <guid isPermaLink="true">https://modvault.space/content/news/pc-gamer-adds-a-dynamic-ambush-mod-to-its-baldur-s-gate-3-list</guid>
@@ -166,6 +174,14 @@
     <pubDate>Mon, 25 May 2026 12:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>Cyberpunk 2077's Combat Evolved mod overhauls Night City's factions</title>
+    <link>https://modvault.space/content/news/cyberpunk-2077-s-combat-evolved-mod-overhauls-night-city-s-factions</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/cyberpunk-2077-s-combat-evolved-mod-overhauls-night-city-s-factions</guid>
+    <description>A ScreenRant roundup highlighted Combat Evolved, a mod that gives 20 Cyberpunk 2077 factions unique combat profiles, fear systems and home-turf behavior, alongside a story-fixing Immersion Patch.</description>
+    <category>Cyberpunk 2077</category>
+    <pubDate>Mon, 25 May 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>ETS2 and ATS 1.60 refresh the job widget</title>
     <link>https://modvault.space/content/news/ets2-and-ats-1-60-refresh-the-job-widget</link>
     <guid isPermaLink="true">https://modvault.space/content/news/ets2-and-ats-1-60-refresh-the-job-widget</guid>
@@ -196,6 +212,14 @@
     <description>A solo modder's environmental overhaul adds roughly 20,000 trees and street props across GTA V's map, refreshing how the world looks more than a decade after release.</description>
     <category>GTA V</category>
     <pubDate>Wed, 20 May 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Subnautica 2 tops 4 million sales in under a week</title>
+    <link>https://modvault.space/content/news/subnautica-2-tops-4-million-sales-in-under-a-week</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/subnautica-2-tops-4-million-sales-in-under-a-week</guid>
+    <description>Subnautica 2 sold an estimated four million copies within five days of its May 14 early access launch, making it one of 2026's fastest-selling Steam games.</description>
+    <category>Subnautica 2</category>
+    <pubDate>Tue, 19 May 2026 12:00:00 GMT</pubDate>
   </item>
   <item>
     <title>Unknown Worlds reflects on Subnautica 2's early access launch</title>
@@ -1138,6 +1162,118 @@
     <guid isPermaLink="true">https://modvault.space/content/guides/how-to-combine-baldur-s-gate-3-ui-and-gameplay-mods-safely</guid>
     <description>A practical look at running UI and gameplay mods together in Baldur's Gate 3 without overlapping menus or scripts.</description>
     <category>Baldur's Gate 3</category>
+  </item>
+  <item>
+    <title>How to safely remove BeamNG.drive mods and clear the cache</title>
+    <link>https://modvault.space/content/guides/how-to-safely-remove-beamng-drive-mods-and-clear-the-cache</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-safely-remove-beamng-drive-mods-and-clear-the-cache</guid>
+    <description>A clean routine for uninstalling BeamNG.drive mods and clearing the cache so leftover files do not cause errors.</description>
+    <category>BeamNG.drive</category>
+  </item>
+  <item>
+    <title>How to tell if a BeamNG.drive mod is abandoned</title>
+    <link>https://modvault.space/content/guides/how-to-tell-if-a-beamng-drive-mod-is-abandoned</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-tell-if-a-beamng-drive-mod-is-abandoned</guid>
+    <description>A guide to judging whether a BeamNG.drive mod is still maintained before adding it to a long-term collection.</description>
+    <category>BeamNG.drive</category>
+  </item>
+  <item>
+    <title>How to install Assetto Corsa skin and livery packs</title>
+    <link>https://modvault.space/content/guides/how-to-install-assetto-corsa-skin-and-livery-packs</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-install-assetto-corsa-skin-and-livery-packs</guid>
+    <description>A guide to adding skin and livery packs to Assetto Corsa cars without overwriting existing paint options.</description>
+    <category>Assetto Corsa</category>
+  </item>
+  <item>
+    <title>How to keep Content Manager and Custom Shaders Patch versions in sync</title>
+    <link>https://modvault.space/content/guides/how-to-keep-content-manager-and-custom-shaders-patch-versions-in-sync</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-keep-content-manager-and-custom-shaders-patch-versions-in-sync</guid>
+    <description>A practical look at matching Content Manager and CSP versions so Assetto Corsa visual mods load correctly.</description>
+    <category>Assetto Corsa</category>
+  </item>
+  <item>
+    <title>How to use OpenIV safely when installing GTA V mods</title>
+    <link>https://modvault.space/content/guides/how-to-use-openiv-safely-when-installing-gta-v-mods</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-use-openiv-safely-when-installing-gta-v-mods</guid>
+    <description>A beginner-friendly guide to using OpenIV and its mods folder to install GTA V files without touching the original game data.</description>
+    <category>GTA V</category>
+  </item>
+  <item>
+    <title>How to spot a safe GTA V script mod before installing</title>
+    <link>https://modvault.space/content/guides/how-to-spot-a-safe-gta-v-script-mod-before-installing</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-spot-a-safe-gta-v-script-mod-before-installing</guid>
+    <description>A guide to checking GTA V script and ASI mods for compatibility and safety before adding them to your game.</description>
+    <category>GTA V</category>
+  </item>
+  <item>
+    <title>How to manage GTA V add-on vehicles with dlclist</title>
+    <link>https://modvault.space/content/guides/how-to-manage-gta-v-add-on-vehicles-with-dlclist</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-manage-gta-v-add-on-vehicles-with-dlclist</guid>
+    <description>A guide to adding GTA V add-on vehicles correctly using dlclist entries so they spawn in-game.</description>
+    <category>GTA V</category>
+  </item>
+  <item>
+    <title>How to move a modded Stardew Valley save to a new PC</title>
+    <link>https://modvault.space/content/guides/how-to-move-a-modded-stardew-valley-save-to-a-new-pc</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-move-a-modded-stardew-valley-save-to-a-new-pc</guid>
+    <description>A step-by-step guide to transferring a modded Stardew Valley save and its mod list to another computer.</description>
+    <category>Stardew Valley</category>
+  </item>
+  <item>
+    <title>How to read SMAPI error logs to find a broken mod</title>
+    <link>https://modvault.space/content/guides/how-to-read-smapi-error-logs-to-find-a-broken-mod</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-read-smapi-error-logs-to-find-a-broken-mod</guid>
+    <description>A guide to using the SMAPI log to identify which Stardew Valley mod is causing a crash or warning.</description>
+    <category>Stardew Valley</category>
+  </item>
+  <item>
+    <title>How to cleanly uninstall Cyberpunk 2077 mods</title>
+    <link>https://modvault.space/content/guides/how-to-cleanly-uninstall-cyberpunk-2077-mods</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-cleanly-uninstall-cyberpunk-2077-mods</guid>
+    <description>A guide to fully removing Cyberpunk 2077 mods and their framework files without leaving broken references behind.</description>
+    <category>Cyberpunk 2077</category>
+  </item>
+  <item>
+    <title>How to update Cyberpunk 2077 mods after a game patch</title>
+    <link>https://modvault.space/content/guides/how-to-update-cyberpunk-2077-mods-after-a-game-patch</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-update-cyberpunk-2077-mods-after-a-game-patch</guid>
+    <description>What to check on your Cyberpunk 2077 mods and frameworks right after an official game update lands.</description>
+    <category>Cyberpunk 2077</category>
+  </item>
+  <item>
+    <title>How to fix Baldur's Gate 3 mod load order problems</title>
+    <link>https://modvault.space/content/guides/how-to-fix-baldur-s-gate-3-mod-load-order-problems</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-fix-baldur-s-gate-3-mod-load-order-problems</guid>
+    <description>A guide to diagnosing and fixing load order issues that stop Baldur's Gate 3 mods from working together.</description>
+    <category>Baldur's Gate 3</category>
+  </item>
+  <item>
+    <title>How to carry a Baldur's Gate 3 mod list into a new playthrough</title>
+    <link>https://modvault.space/content/guides/how-to-carry-a-baldur-s-gate-3-mod-list-into-a-new-playthrough</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-carry-a-baldur-s-gate-3-mod-list-into-a-new-playthrough</guid>
+    <description>A practical guide to reusing a stable Baldur's Gate 3 mod list when starting a fresh campaign.</description>
+    <category>Baldur's Gate 3</category>
+  </item>
+  <item>
+    <title>How to use Subnautica 2 debug and console commands safely</title>
+    <link>https://modvault.space/content/guides/how-to-use-subnautica-2-debug-and-console-commands-safely</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-use-subnautica-2-debug-and-console-commands-safely</guid>
+    <description>A guide to enabling Subnautica 2 console or debug commands for testing without breaking a survival save.</description>
+    <category>Subnautica 2</category>
+  </item>
+  <item>
+    <title>How to back up an ETS2 profile before installing mods</title>
+    <link>https://modvault.space/content/guides/how-to-back-up-an-ets2-profile-before-installing-mods</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-back-up-an-ets2-profile-before-installing-mods</guid>
+    <description>A simple routine for backing up a Euro Truck Simulator 2 profile before adding new map or truck mods.</description>
+    <category>Euro Truck Simulator 2</category>
+  </item>
+  <item>
+    <title>How to fix an ETS2 profile after removing a map mod</title>
+    <link>https://modvault.space/content/guides/how-to-fix-an-ets2-profile-after-removing-a-map-mod</link>
+    <guid isPermaLink="true">https://modvault.space/content/guides/how-to-fix-an-ets2-profile-after-removing-a-map-mod</guid>
+    <description>What to check when a Euro Truck Simulator 2 profile will not load after a map mod has been removed.</description>
+    <category>Euro Truck Simulator 2</category>
   </item>
 </channel>
 </rss>

@@ -179,7 +179,11 @@ function listHtmlFiles(dir) {
   return fs.readdirSync(full, { withFileTypes: true }).flatMap(entry => {
     const rel = path.join(dir, entry.name).replace(/\\/g, "/");
     if (entry.isDirectory()) return listHtmlFiles(rel);
-    return entry.isFile() && entry.name.endsWith(".html") ? [rel] : [];
+    // Match any non-directory .html entry rather than entry.isFile(): on
+    // cloud-synced folders (OneDrive Files On-Demand) dehydrated files are
+    // reparse points, so isFile() returns false and would silently drop
+    // every mod page from the sitemap.
+    return !entry.isDirectory() && entry.name.endsWith(".html") ? [rel] : [];
   });
 }
 
