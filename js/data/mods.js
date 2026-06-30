@@ -2566,6 +2566,125 @@ const MODS = [
       "trees"
     ],
     featured: true
+  },
+  {
+    id: 133,
+    game: "gta5",
+    title: "2024 Rolls Royce Ghost Series II",
+    category: "vehicles",
+    version: "1.0",
+    size: "83 MB",
+    images: [
+      "images/mods/2024-rolls-royce-ghost-series-ii-1.jpg",
+      "images/mods/2024-rolls-royce-ghost-series-ii-2.jpg",
+      "images/mods/2024-rolls-royce-ghost-series-ii-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vEWrCXiMP6dhNBd",
+    short: "Add the luxurious 2024 Rolls Royce Ghost Series II to GTA V.",
+    description: "Experience the opulence of the 2024 Rolls Royce Ghost Series II in GTA V, featuring a meticulously crafted HQ exterior and interior. This luxury vehicle boasts realistic scale, working dials, breakable glass, and fully openable doors, boot, and bonnet. Enjoy functional mirrors, lights, and authentic hand placement on the steering wheel, along with customizable paint options for the body and interior stitches. Included extras allow you to switch between EU and GTA plates, and toggle an elegant open or closed table.",
+    tags: [
+      "rolls royce",
+      "ghost",
+      "luxury",
+      "car",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 134,
+    game: "gta5",
+    title: "2026 BMW M3 CS Touring",
+    category: "vehicles",
+    version: "1.0",
+    size: "21 MB",
+    images: [
+      "images/mods/2026-bmw-m3-cs-touring-1.jpg",
+      "images/mods/2026-bmw-m3-cs-touring-2.jpg",
+      "images/mods/2026-bmw-m3-cs-touring-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2JKBm9rGsUKW15h",
+    short: "Add the detailed 2026 BMW M3 CS Touring to GTA V.",
+    description: "This mod introduces the highly detailed 2026 BMW M3 CS Touring to Grand Theft Auto V. Enjoy a realistic driving experience with a fully modeled exterior, interior, and engine bay, complete with working dials and functioning lights. The car features breakable glass, a dirtmap, and realistic handling for an immersive gameplay addition. Experience precision with adjusted vertex AO for all body parts and hands on the steering wheel. Converted and improved for GTA V by Abolfazl Danaee, this vehicle is ready for your modded game.",
+    tags: [
+      "bmw",
+      "m3",
+      "car",
+      "vehicle",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 135,
+    game: "gta5",
+    title: "Toyota GR GT",
+    category: "vehicles",
+    version: "1.0",
+    size: "83 MB",
+    images: [
+      "images/mods/toyota-gr-gt-1.jpg",
+      "images/mods/toyota-gr-gt-2.jpg",
+      "images/mods/toyota-gr-gt-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qYWzzS6l8TKX7dI",
+    short: "High-quality Toyota GR GT car mod for GTA V, with tuning.",
+    description: "Experience the high-quality Toyota GR GT for GTA V, featuring a detailed exterior, interior, and lighting with high ambient occlusion. This mod includes LODs 1-3, breakable windows, working dials, and realistic mirrors for an immersive driving experience. Customize your ride with a GT3 kit, paintable wheels, brake calipers, and interior parts. Enjoy realistic handling as your character's hands remain on the steering wheel. Note that this model does not include an engine or trunk model.",
+    tags: [
+      "toyota",
+      "gr gt",
+      "car",
+      "tuning",
+      "high quality"
+    ],
+    featured: true
+  },
+  {
+    id: 136,
+    game: "gta5",
+    title: "Online Vehicles in SP",
+    category: "vehicles",
+    version: "1.0",
+    size: "29 KB",
+    images: [
+      "images/mods/online-vehicles-in-sp-1.jpg",
+      "images/mods/online-vehicles-in-sp-2.jpg",
+      "images/mods/online-vehicles-in-sp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ltV1TiQOAwm7aN5",
+    short: "Brings GTA Online vehicles into your GTA V single-player traffic.",
+    description: "This mod integrates a wide selection of GTA Online vehicles directly into GTA V's single-player traffic system. Enjoy seeing cars, bikes, and other vehicles previously exclusive to online sessions now populating Los Santos. It uses an OIV installer for straightforward integration, requiring OpenIV for installation. Please note, this mod is designed for single-player use only and does not include external vehicle models.",
+    tags: [
+      "vehicles",
+      "traffic",
+      "online cars",
+      "sp mod"
+    ],
+    featured: true
+  },
+  {
+    id: 137,
+    game: "gta5",
+    title: "United States Special Forces (SOF) Clothing Pack",
+    category: "player",
+    version: "1.0",
+    size: "363 MB",
+    images: [
+      "images/mods/united-states-special-forces-sof-clothing-pack-1.jpg",
+      "images/mods/united-states-special-forces-sof-clothing-pack-2.jpg",
+      "images/mods/united-states-special-forces-sof-clothing-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ljufcT1bZJ3TewO",
+    short: "Add detailed US Special Forces clothing and gear to GTA V.",
+    description: "This mod adds a comprehensive United States Special Forces (SOF) clothing pack to GTA V. It includes a wide array of tactical gear such as Crye G3 combat uniforms, various backpacks, a tactical helmet, and night vision goggles. The pack features detailed models and textures for a realistic military look. It's designed to be compatible with the U.S. Army Pack for a complete uniform set. Players can customize their character with items like American flag patches and special forces insignia.",
+    tags: [
+      "sof",
+      "clothing",
+      "military",
+      "gear",
+      "tactical"
+    ],
+    featured: true
   }
 ];
 
