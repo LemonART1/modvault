@@ -2685,6 +2685,165 @@ const MODS = [
       "tactical"
     ],
     featured: true
+  },
+  {
+    id: 138,
+    game: "bg3",
+    title: "Crimson Hair Catalog Part 3",
+    category: "character-customisation",
+    version: "1.1",
+    size: "33 MB",
+    images: [
+      "images/mods/crimson-hair-catalog-part-3-1.jpg",
+      "images/mods/crimson-hair-catalog-part-3-2.jpg",
+      "images/mods/crimson-hair-catalog-part-3-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0cwep9OFKGQk4s5",
+    short: "Adds new autosnapping hairstyles with physics for various races and body types.",
+    description: "This mod introduces new autosnapping hairstyles compatible with all body types and races in Baldur's Gate 3. The hairstyles feature physics and are best suited for Bodytype 1 & 2 of normie races such as elves, half-elves, humans, and tieflings. It is also compatible with WotD Asimar. Installation is straightforward using BG3MM or by manually placing files into the Mods folder.",
+    tags: [
+      "hair",
+      "hairstyles",
+      "char custom",
+      "physics"
+    ],
+    featured: true
+  },
+  {
+    id: 139,
+    game: "bg3",
+    title: "Nihilium - Light Armor and Clothing",
+    category: "armor",
+    version: "1.0",
+    size: "189 MB",
+    images: [
+      "images/mods/nihilium-light-armor-and-clothing-1.jpg",
+      "images/mods/nihilium-light-armor-and-clothing-2.jpg",
+      "images/mods/nihilium-light-armor-and-clothing-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/z747BxYUcbFq4Zm",
+    short: "Adds a lore-inspired light armor and clothing set with a unique spear.",
+    description: "Introducing the Nihilium light armor and clothing set, featuring cloth physics and available for various female races and body types, though some poses may show underwear due to the skirt design. This set includes the Nihil Spear, which comes in both legendary and rare versions, with stats and names subtly inspired by the Persona series. The armor is light, dyeable, and the spear boasts a unique, once-per-battle spell that is weaker on the rare version. Ensure the gloves' passive is toggled on if it doesn't appear immediately on your hotbar. Find the complete set within the Nihil Chest located in the tutorial chest, with Arron, Talli, Fytz, and Helsik across the acts.",
+    tags: [
+      "armor",
+      "clothing",
+      "weapon",
+      "light armor"
+    ],
+    featured: true
+  },
+  {
+    id: 140,
+    game: "bg3",
+    title: "Draco's Fantasy Gunslinger v12",
+    category: "classes",
+    version: "12",
+    size: "63 MB",
+    images: [
+      "images/mods/dracos-fantasy-gunslinger-v12-1.jpg",
+      "images/mods/dracos-fantasy-gunslinger-v12-2.jpg",
+      "images/mods/dracos-fantasy-gunslinger-v12-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5LFcOs2W84nK34K",
+    short: "Adds five unique gunslinger subclasses for diverse combat experiences.",
+    description: "Unleash your inner sharpshooter with five distinct gunslinger subclasses to enhance your Baldur's Gate 3 adventure. Choose from Deadeye for precision, Marauder for relentless burst damage, Maverick for risky critical hit play, Pirate for explosive melee-ranged combos, or Sheriff for revolver mastery. Each subclass offers unique mechanics such as special reactions, dual-wielding synergies, and weapon-specific actions to master. Explore diverse playstyles, from straightforward to challenging, to transform your combat experience and character build.",
+    tags: [
+      "gunslinger",
+      "subclasses",
+      "new class"
+    ],
+    featured: true
+  },
+  {
+    id: 141,
+    game: "bg3",
+    title: "Elven Head Pack",
+    category: "character-customisation",
+    version: "1.0",
+    size: "58 MB",
+    images: [
+      "images/mods/elven-head-pack-1.jpg",
+      "images/mods/elven-head-pack-2.jpg",
+      "images/mods/elven-head-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ny15oS4ag1t96kl",
+    short: "Customize your BG3 character with new elven head options.",
+    description: "This mod introduces a new pack of elven heads for your Baldur's Gate 3 characters. These heads have been tested in the Nautiloid, with minor eyelash glitches noted during some expressions. For best compatibility with mods like UTAV/KAVT or Eyes of the Beholder, use their Universal Automatic Patchers. The creator recommends pairing this pack with their 'Less Wrinkled Expression and Forehead for Face' mod. Share pictures of your unique Tav or Durge creations using these new elven heads.",
+    tags: [
+      "elven",
+      "heads",
+      "character",
+      "appearance"
+    ],
+    featured: true
+  },
+  {
+    id: 142,
+    game: "bg3",
+    title: "ABSolutely",
+    category: "character-customisation",
+    version: "2.2.1",
+    size: "11 KB",
+    images: [
+      "images/mods/absolutely-1.jpg",
+      "images/mods/absolutely-2.jpg",
+      "images/mods/absolutely-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/02PQyrWsB30W38Y",
+    short: "Enhance male and female body types for non-short races.",
+    description: "ABSolutely puts the core in hardcore, toning body types 1 & 2 for non-short races, allowing your Tav and NPCs to look like proper adventurers. This mod works straight out of the box with no old shaders required and can be safely added or removed mid-playthrough. Currently implemented races include Human, Half-Elf, Elf, Drow males and females, Tiefling, and Githyanki females. Specific companions like Minthara and Lae'zel are covered, with standalone options for unique textures.",
+    tags: [
+      "abs",
+      "physique",
+      "body type",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 143,
+    game: "bg3",
+    title: "Kai's Overhauled Appearance Interface aka KaiLimeUI",
+    category: "character-customisation",
+    version: "1.1",
+    size: "57 KB",
+    images: [
+      "images/mods/kais-overhauled-appearance-interface-aka-kailimeui-1.jpg",
+      "images/mods/kais-overhauled-appearance-interface-aka-kailimeui-2.jpg",
+      "images/mods/kais-overhauled-appearance-interface-aka-kailimeui-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jZ8Be6t7GK8NUJJ",
+    short: "Overhauled keyboard-only UI for character creation and magic mirror appearance.",
+    description: "This mod overhauls the appearance user interface for Baldur's Gate 3 character creation and the magic mirror. It provides an expanded and rearranged keyboard-only UI, designed to improve the character customization experience. The mod works for both Tav and the guardian, specifically affecting the right-side panels in the character creator. Install like any other .pak mod, preferably placed near the top of your load order for best results. It may conflict with other mods altering character creation xaml files.",
+    tags: [
+      "ui overhaul",
+      "appearance",
+      "customize"
+    ],
+    featured: true
+  },
+  {
+    id: 144,
+    game: "bg3",
+    title: "Huffman's Magus - A Class of Spell and Steel",
+    category: "classes",
+    version: "1.0.0.15",
+    size: "4 MB",
+    images: [
+      "images/mods/huffmans-magus-a-class-of-spell-and-steel-1.jpg",
+      "images/mods/huffmans-magus-a-class-of-spell-and-steel-2.jpg",
+      "images/mods/huffmans-magus-a-class-of-spell-and-steel-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eb47j1olc642oa2",
+    short: "Adds a powerful new Magus class with unique spellcasting and combat styles.",
+    description: "Introduce the Huffman's Magus, a spellsword class based on Benjamin Huffman's design, ported with permission. Unlike standard martials, Magi don't get Extra Attack but utilize weapon cantrips and unique spell lists for mixed combat. They can use spell slots to Smite and Mystic Marks to enchant weaponry or shield allies, with effects varying by subclass. Choose from six distinct Eldritch Societies like the Arcane Order or Knights Stygian, each offering a unique playstyle and casting stat. This mod also introduces new cantrips, available to specific subclasses, further enhancing the class's versatile combat capabilities.",
+    tags: [
+      "magus",
+      "new class",
+      "spellsword",
+      "magic"
+    ],
+    featured: true
   }
 ];
 
