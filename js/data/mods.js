@@ -2844,6 +2844,233 @@ const MODS = [
       "magic"
     ],
     featured: true
+  },
+  {
+    id: 145,
+    game: "stardew",
+    title: "Chests Anywhere",
+    category: "gameplay-mechanics",
+    version: "1.30.1",
+    size: "186 KB",
+    images: [
+      "images/mods/chests-anywhere-1.jpg",
+      "images/mods/chests-anywhere-2.jpg",
+      "images/mods/chests-anywhere-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I80uqY622vTEVwR",
+    short: "Access all your chests and storage from anywhere, organize items.",
+    description: "Access your chests, dressers, fridge, shipping bin, and Junimo huts from anywhere in Stardew Valley. Effortlessly transfer items across the map, from the comfort of your bed to the deepest mine levels, without needing to run around. Organize your storage as you wish and even retrieve items from the shipping bin before they are sent off. This mod also includes an optional balanced mode and offers translations for non-English players.",
+    tags: [
+      "chests",
+      "anywhere",
+      "inventory",
+      "storage"
+    ],
+    featured: true
+  },
+  {
+    id: 146,
+    game: "stardew",
+    title: "Custom NPC Exclusions",
+    category: "gameplay-mechanics",
+    version: "1.0.0",
+    size: "19 KB",
+    images: [
+      "images/mods/custom-npc-exclusions-1.jpg",
+      "images/mods/custom-npc-exclusions-2.jpg",
+      "images/mods/custom-npc-exclusions-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qowtpK8p4OZnYjL",
+    short: "Exclude NPCs from quests and events for better compatibility.",
+    description: "This mod allows other mods to exclude specific NPCs from quests and events. It is particularly useful for mods that randomly select NPCs, helping to maintain narrative consistency or improve mod compatibility. For example, it can prevent custom NPCs from appearing in inappropriate quests like delivery missions. The mod requires SMAPI to function and is recommended for all players in multiplayer sessions.",
+    tags: [
+      "npcs",
+      "quests",
+      "compatibility",
+      "events"
+    ],
+    featured: true
+  },
+  {
+    id: 147,
+    game: "stardew",
+    title: "TMXL Map Toolkit",
+    category: "locations",
+    version: "1.8.4",
+    size: "400 KB",
+    images: [
+      "images/mods/tmxl-map-toolkit-1.jpg",
+      "images/mods/tmxl-map-toolkit-2.jpg",
+      "images/mods/tmxl-map-toolkit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9JcLPb33QYphJvV",
+    short: "Edit and create maps, buildables, and more in Stardew Valley.",
+    description: "This toolkit allows you to add, edit, and replace maps, as well as create buildables within Stardew Valley. It introduces features like image layers and coloring for buildables, and new functionalities for map edits such as exit tiles and festival spot settings. The mod now uses SMAPI ContentPacks for easier integration and supports various new tile actions, including conditional actions and Lua script integration.",
+    tags: [
+      "maps",
+      "buildables",
+      "editing",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 148,
+    game: "stardew",
+    title: "Extra Map Layers",
+    category: "maps",
+    version: "1.0.0",
+    size: "9 KB",
+    images: [
+      "images/mods/extra-map-layers-1.jpg",
+      "images/mods/extra-map-layers-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/zY4ecix8115uRrU",
+    short: "Display extra map layers in Stardew Valley.",
+    description: "This mod allows Stardew Valley to recognize and display extra layers within map mods. Extra layers need to be named sequentially, like Buildings1 or Front1, to be recognized. These layers will then be drawn immediately after their base layer in the game.",
+    tags: [
+      "maps",
+      "layers",
+      "ui",
+      "smapi"
+    ],
+    featured: true
+  },
+  {
+    id: 149,
+    game: "stardew",
+    title: "Visible Fish",
+    category: "fishing",
+    version: "1.0",
+    size: "41 KB",
+    images: [
+      "images/mods/visible-fish-1.jpg",
+      "images/mods/visible-fish-2.jpg",
+      "images/mods/visible-fish-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/F746pCUAtvHLMDL",
+    short: "See catchable fish in the water, works with modded locations.",
+    description: "This mod visually displays catchable fish in the water, compatible with modded locations and fish. It only affects visuals and does not alter fishing gameplay. The mod uses existing fish tank sprites, so only fish with these will be visible.",
+    tags: [
+      "visual",
+      "fishing",
+      "mods",
+      "ui"
+    ],
+    featured: true
+  },
+  {
+    id: 150,
+    game: "stardew",
+    title: "Alternative Textures",
+    category: "modding-tools",
+    version: "8.1.1",
+    size: "156 KB",
+    images: [
+      "images/mods/alternative-textures-1.jpg",
+      "images/mods/alternative-textures-2.jpg",
+      "images/mods/alternative-textures-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/IC04Zpmin4TxZAi",
+    short: "Enables texture variation for objects, buildings, and entities.",
+    description: "This framework allows for texture variation on placeable objects, buildings, and entities. Multiple content packs can be used simultaneously and textures can be season-specific or have custom probabilities. Craftable items and furniture can also be animated.",
+    tags: [
+      "textures",
+      "visuals",
+      "framework",
+      "objects"
+    ],
+    featured: true
+  },
+  {
+    id: 151,
+    game: "stardew",
+    title: "Wear More Rings",
+    category: "gameplay-mechanics",
+    version: "7.9",
+    size: "30 KB",
+    images: [
+      "images/mods/wear-more-rings-1.jpg",
+      "images/mods/wear-more-rings-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1UUSuOpO0Rpx5L6",
+    short: "Configure more ring slots and manage your rings easily.",
+    description: "This mod allows you to configure the number of ring slots available in your inventory, increasing it beyond the default. It includes a configuration file for customization and adds console commands for managing your rings. The mod requires SMAPI and StardewHack to function.",
+    tags: [
+      "rings",
+      "inventory",
+      "slots",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 152,
+    game: "stardew",
+    title: "Portraiture",
+    category: "characters",
+    version: "1.11.8",
+    size: "143 KB",
+    images: [
+      "images/mods/portraiture-1.jpg",
+      "images/mods/portraiture-2.jpg",
+      "images/mods/portraiture-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8E19Ce9w1Rq2GNT",
+    short: "Higher resolution portraits and easy switching between mods.",
+    description: "This mod allows you to use higher resolution portraits in-game and switch between different portrait mods easily. You can change portrait sets by pressing 'P' during dialogues, toggle above-dialogue portraits with 'I', and fix portraits for NPCs with 'O'. This mod does not include any portraits itself.",
+    tags: [
+      "portraits",
+      "ui",
+      "customisation",
+      "dialogue"
+    ],
+    featured: true
+  },
+  {
+    id: 153,
+    game: "stardew",
+    title: "CJB Show Item Sell Price",
+    category: "ui",
+    version: "1.11.0",
+    size: "42 KB",
+    images: [
+      "images/mods/cjb-show-item-sell-price-1.jpg",
+      "images/mods/cjb-show-item-sell-price-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KjTA9oasajtjloz",
+    short: "See item sell prices directly in your inventory.",
+    description: "This mod displays the sell price of items directly in your inventory or hotbar. It shows the unit price and the total price next to your cursor. The mod is compatible with Stardew Valley 1.6.15+ and works in both single-player and multiplayer. Non-English translations are included, and contributions are welcome.",
+    tags: [
+      "ui",
+      "price",
+      "inventory",
+      "sell"
+    ],
+    featured: true
+  },
+  {
+    id: 154,
+    game: "stardew",
+    title: "Gift Taste Helper",
+    category: "ui",
+    version: "2.9.1",
+    size: "153 KB",
+    images: [
+      "images/mods/gift-taste-helper-1.jpg",
+      "images/mods/gift-taste-helper-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Xn1MAGK1ZjiA9bA",
+    short: "Shows NPC favorite gifts on calendar and social page.",
+    description: "This mod adds a helpful tooltip that shows an NPC's favorite gifts when hovering over their birthday on the calendar or social page. It features a \"Progression\" mode that only displays gifts you've already given to an NPC, and this progress can be tracked across saves. The mod also supports all locales and offers extensive configuration options.",
+    tags: [
+      "ui",
+      "gifts",
+      "calendar",
+      "npcs",
+      "helper"
+    ],
+    featured: true
   }
 ];
 
