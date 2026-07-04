@@ -50,6 +50,34 @@
       <div class="status" id="dbStatus">Loading database...</div>
     </div>
 
+    <div class="panel card" id="bookmarkletPanel">
+      <label>Кнопка "Send to ModVault"</label>
+      <p class="hint" style="margin:0 0 12px">Перетащи эту кнопку на панель закладок браузера (один раз). Потом на любой странице мода NexusMods жми её — она сама заберёт ссылку и картинки галереи и откроет админку с автозаполнением.</p>
+      <a id="bookmarkletLink" style="display:inline-block;padding:11px 18px;border-radius:8px;background:var(--accent);color:#05070a;font-weight:900;text-decoration:none;cursor:grab">Send to ModVault</a>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
+        <label for="nexusUrl">NexusMods URL</label>
+        <input id="nexusUrl" placeholder="https://www.nexusmods.com/baldursgate3/mods/1234">
+      </div>
+      <div class="field">
+        <label for="nexusExtraImages">Картинки галереи (заполняется кнопкой автоматически)</label>
+        <textarea id="nexusExtraImages" style="min-height:70px" placeholder="Ссылки staticdelivery.nexusmods.com, по одной на строку. Обычно сюда их кладёт кнопка Send to ModVault."></textarea>
+      </div>
+      <div class="grid">
+        <div class="field">
+          <label for="nexusApiKey">NexusMods API key</label>
+          <input id="nexusApiKey" type="password" placeholder="nexusmods.com → Settings → API Keys">
+        </div>
+        <div class="actions">
+          <button id="nexusBtn" type="button">Import from NexusMods</button>
+          <span class="hint">Заполнит поля и запустит AI автоматически.</span>
+        </div>
+      </div>
+      <div class="status" id="nexusStatus">Вставь URL мода и нажми Import.</div>
+    </div>
+
     <div class="panel card">
       <div class="field">
         <label for="rawText">AI raw text</label>
@@ -99,7 +127,7 @@
         </div>
         <div class="field full">
           <label for="images">Images, 1-3 files</label>
-          <input id="images" type="file" accept="image/*" multiple required>
+          <input id="images" type="file" accept="image/*" multiple>
           <div class="images" id="previews">
             <div class="preview">Image 1</div>
             <div class="preview">Image 2</div>
@@ -365,9 +393,70 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function convertDataUrl(dataUrl) {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1600;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve({ name: "nexus-image.jpg", dataUrl: canvas.toDataURL("image/jpeg", 0.86) });
+        };
+        image.onerror = () => reject(new Error("Cannot load image"));
+        image.src = dataUrl;
+      });
+    }
+
+    async function importNexus() {
+      const url = $("nexusUrl").value.trim();
+      const apiKey = $("nexusApiKey").value.trim();
+      if (!url) { setStatus($("nexusStatus"), "Вставь URL мода.", "bad"); return; }
+      if (!apiKey) { setStatus($("nexusStatus"), "Введи NexusMods API key.", "bad"); return; }
+      localStorage.setItem("modvault-local-nexus-key", apiKey);
+      $("nexusBtn").disabled = true;
+      setStatus($("nexusStatus"), "Загружаю данные с NexusMods...");
+      try {
+        const extraUrls = $("nexusExtraImages").value.split("\n").map(s => s.trim()).filter(Boolean);
+        const response = await fetch("/api/nexus", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url, apiKey, extraUrls })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        // Pre-fill rawText for Gemini
+        $("rawText").value = [data.name, data.summary, data.description].filter(Boolean).join("\n\n");
+        if (data.version) $("version").value = data.version;
+
+        // Load images if available
+        if (data.images && data.images.length) {
+          try {
+            const converted = await Promise.all(data.images.map(convertDataUrl));
+            state.convertedImages = converted;
+            const slots = [0, 1, 2].map(i => converted[i]
+              ? `<div class="preview"><img src="${converted[i].dataUrl}" alt=""></div>`
+              : `<div class="preview">Image ${i + 1}</div>`).join("");
+            $("previews").innerHTML = slots;
+          } catch (_) { /* images optional */ }
+        }
+
+        setStatus($("nexusStatus"), `Загружено: ${data.name}. Запускаю AI...`, "ok");
+        await runAi();
+      } catch (error) {
+        setStatus($("nexusStatus"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("nexusBtn").disabled = false;
+      }
+    }
+
     $("game").addEventListener("change", () => updateCategories());
     $("images").addEventListener("change", handleImages);
     $("aiBtn").addEventListener("click", runAi);
+    $("nexusBtn").addEventListener("click", importNexus);
     $("modForm").addEventListener("submit", saveMod);
     $("resetBtn").addEventListener("click", () => {
       $("modForm").reset();
@@ -378,8 +467,65 @@ ${$("rawText").value.trim()}`;
       setStatus($("saveStatus"), "Ready.");
     });
 
+    // The "Send to ModVault" bookmarklet runs in the NexusMods page context
+    // (which passes Cloudflare because the user is logged in there), reads the
+    // gallery image URLs straight from the loaded DOM, and reopens this admin
+    // with the mod URL + images in the location hash for auto-import.
+    function bookmarkletBody() {
+      var m = location.pathname.match(/\/([^\/]+)\/mods\/(\d+)/);
+      if (!m) { alert("Open a NexusMods mod page first, then click this button."); return; }
+      var s = new Set();
+      function add(u) {
+        if (!u) return;
+        u = String(u).split("?")[0];
+        if (!/staticdelivery\.nexusmods\.com/.test(u)) return;
+        u = u.replace("/thumbnails/", "/");
+        s.add(u);
+      }
+      document.querySelectorAll("img").forEach(function (i) {
+        add(i.currentSrc || i.src);
+        if (i.srcset) i.srcset.split(",").forEach(function (x) { add(x.trim().split(" ")[0]); });
+      });
+      document.querySelectorAll("a").forEach(function (x) { add(x.href); });
+      var payload = { url: location.href, images: Array.from(s).slice(0, 40) };
+      var data = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+      // A synthetic click on a target=_blank link opens a foreground tab and is
+      // not caught by Chrome's popup blocker, unlike window.open from a bookmarklet.
+      var a = document.createElement("a");
+      a.href = "__ADMIN_ORIGIN__/local-admin.html#import=" + data;
+      a.target = "_blank";
+      a.rel = "noopener";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+    $("bookmarkletLink").setAttribute(
+      "href",
+      "javascript:(" + bookmarkletBody.toString().replace("__ADMIN_ORIGIN__", location.origin) + ")();"
+    );
+    // This is a drag-to-bookmarks button, not a normal button. Clicking it here
+    // (on the admin page) does nothing useful, so explain instead of staying silent.
+    $("bookmarkletLink").addEventListener("click", function (e) {
+      e.preventDefault();
+      alert("Эту кнопку не нажимай здесь.\n\n1) Перетащи её мышкой на панель закладок браузера (один раз).\n2) Открой страницу мода на NexusMods.\n3) Нажми закладку \"Send to ModVault\" уже ТАМ, на странице мода.");
+    });
+
+    // Auto-import when opened by the bookmarklet (data lives in the URL hash).
+    async function maybeHashImport() {
+      const m = location.hash.match(/import=([^&]+)/);
+      if (!m) return;
+      let payload;
+      try { payload = JSON.parse(decodeURIComponent(escape(atob(m[1])))); }
+      catch (e) { return; }
+      history.replaceState(null, "", location.pathname);
+      if (payload.url) $("nexusUrl").value = payload.url;
+      if (payload.images && payload.images.length) $("nexusExtraImages").value = payload.images.join("\n");
+      await importNexus();
+    }
+
     $("apiKey").value = localStorage.getItem("modvault-local-gemini-key") || "";
-    loadData().catch(error => setStatus($("dbStatus"), error.message, "bad"));
+    $("nexusApiKey").value = localStorage.getItem("modvault-local-nexus-key") || "";
+    loadData().then(maybeHashImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
   </script>
 </body>
 </html>

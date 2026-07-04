@@ -223,6 +223,101 @@ async function handleAddMod(req, res) {
   });
 }
 
+function stripBBCode(text) {
+  return String(text || "")
+    .replace(/\[img[^\]]*\][\s\S]*?\[\/img\]/gi, "")
+    .replace(/\[url=[^\]]*\]([\s\S]*?)\[\/url\]/gi, "$1")
+    .replace(/\[color=[^\]]*\]([\s\S]*?)\[\/color\]/gi, "$1")
+    .replace(/\[size=[^\]]*\]([\s\S]*?)\[\/size\]/gi, "$1")
+    .replace(/\[font=[^\]]*\]([\s\S]*?)\[\/font\]/gi, "$1")
+    .replace(/\[b\]([\s\S]*?)\[\/b\]/gi, "$1")
+    .replace(/\[i\]([\s\S]*?)\[\/i\]/gi, "$1")
+    .replace(/\[u\]([\s\S]*?)\[\/u\]/gi, "$1")
+    .replace(/\[s\]([\s\S]*?)\[\/s\]/gi, "$1")
+    .replace(/\[center\]([\s\S]*?)\[\/center\]/gi, "$1")
+    .replace(/\[heading\]([\s\S]*?)\[\/heading\]/gi, "$1\n")
+    .replace(/\[h[1-6]\]([\s\S]*?)\[\/h[1-6]\]/gi, "$1\n")
+    .replace(/\[quote[^\]]*\]([\s\S]*?)\[\/quote\]/gi, "$1")
+    .replace(/\[spoiler[^\]]*\]([\s\S]*?)\[\/spoiler\]/gi, "$1")
+    .replace(/\[code[^\]]*\]([\s\S]*?)\[\/code\]/gi, "")
+    .replace(/\[\*\]/g, "\n- ")
+    .replace(/\[list[^\]]*\]/gi, "")
+    .replace(/\[\/list\]/gi, "")
+    .replace(/\[line\]/gi, "\n")
+    .replace(/\[[^\]]*\]/g, "")
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+async function handleNexus(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  const apiKey = String(payload.apiKey || process.env.NEXUS_API_KEY || "").trim();
+  if (!apiKey) throw new Error("NexusMods API key required. Get it at nexusmods.com → Settings → API Keys.");
+
+  const match = url.match(/nexusmods\.com\/([^\/?\s]+)\/mods\/(\d+)/i);
+  if (!match) throw new Error("Invalid NexusMods URL. Expected: nexusmods.com/{game}/mods/{id}");
+  const [, gameDomain, modId] = match;
+
+  const response = await fetch(`https://api.nexusmods.com/v1/games/${gameDomain}/mods/${modId}.json`, {
+    headers: { apikey: apiKey, "User-Agent": "ModVault-LocalAdmin/1.0", Accept: "application/json" }
+  });
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(`NexusMods API ${response.status}: ${err.message || response.statusText}`);
+  }
+  const mod = await response.json();
+
+  // NexusMods exposes only the main picture through its API; the gallery is
+  // behind Cloudflare (page scraping returns 403). So we auto-grab the main
+  // image and let the user paste extra gallery image URLs (right-click "Copy
+  // image address" on the mod page), which we download from staticdelivery.
+  const imageUrls = [];
+  if (mod.picture_url) imageUrls.push(mod.picture_url);
+  // The bookmarklet sends every staticdelivery URL it finds on the page; keep
+  // only this mod's own gallery (path contains /images/{modId}/) and drop the
+  // blurred variants, so site banners/badges never slip in. Doing this here
+  // (not in the bookmarklet) means filter tweaks never need a re-drag.
+  for (const raw of Array.isArray(payload.extraUrls) ? payload.extraUrls : []) {
+    const u = String(raw || "").trim();
+    if (!/^https:\/\/staticdelivery\.nexusmods\.com\//i.test(u)) continue;
+    if (u.indexOf(`/images/${modId}/`) === -1) continue;
+    if (/_blurred/i.test(u)) continue;
+    if (!imageUrls.includes(u)) imageUrls.push(u);
+  }
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, {
+        headers: { "User-Agent": "ModVault-LocalAdmin/1.0", "Referer": "https://www.nexusmods.com/" },
+        signal: AbortSignal.timeout(15000)
+      });
+      if (!r.ok) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      const ct = r.headers.get("content-type") || "image/jpeg";
+      if (!ct.startsWith("image/")) return null;
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+
+  const rawVersion = String(mod.version || "").trim();
+  const version = (rawVersion && rawVersion.toLowerCase() !== "n/a" && rawVersion !== "0") ? rawVersion : "1.0";
+
+  send(res, 200, {
+    ok: true,
+    name: mod.name,
+    summary: mod.summary,
+    description: stripBBCode(mod.description),
+    version,
+    category_name: mod.category_name || "",
+    gameDomain,
+    images
+  });
+}
+
 async function handleAi(req, res) {
   const payload = JSON.parse(await readBody(req, 1024 * 1024));
   const apiKey = String(payload.apiKey || process.env.GEMINI_API_KEY || "").trim();
@@ -248,7 +343,10 @@ async function handleAi(req, res) {
       return;
     }
     lastError = data.error;
-    if (data.error.code !== 404) break;
+    // 404 = model name not available, 429 = quota exhausted for this model.
+    // Both are worth retrying on the next model (each has its own free quota);
+    // any other error (e.g. bad key) is fatal, so stop.
+    if (data.error.code !== 404 && data.error.code !== 429) break;
   }
 
   throw new Error(lastError ? `${lastError.message} (${lastError.code})` : "Gemini did not return text.");
@@ -303,6 +401,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/ai") {
       await handleAi(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/nexus") {
+      await handleNexus(req, res);
       return;
     }
     if (req.method === "GET") {
