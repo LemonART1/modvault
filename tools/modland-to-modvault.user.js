@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      2.6
+// @version      2.7
 // @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
 // @match        https://*.modland.net/*
 // @run-at       document-idle
@@ -108,9 +108,28 @@
   }
 
   function grabImageCandidates() {
-    // Collect every modland-hosted image on the page, then keep only those that
-    // share a CDN folder with the biggest one (the mod's main screenshot). This
-    // drops the related-mod thumbnails that live in other folders.
+    // Primary source: the mod gallery is a lightGallery — every slide is an
+    // <a href="full-size image"> wrapping the thumbnail. The href IS the exact
+    // full-size file (no size-token guessing), the viewer and its thumbnail
+    // point at the same file (so duplicates collapse), and related-mod/sidebar
+    // thumbnails link to .html pages, not images (so junk is excluded).
+    var seenA = {};
+    var fromAnchors = [];
+    document.querySelectorAll("a[href]").forEach(function (a) {
+      var href = (a.href || "").split("#")[0].trim();
+      if (!/^https?:\/\//i.test(href)) return;
+      if (!/\.(jpe?g|png|webp|gif)(\?|$)/i.test(href)) return;
+      if (/\/avatars?\//i.test(href)) return;
+      try { if (!/modland/i.test(new URL(href).hostname)) return; } catch (e) { return; }
+      if (seenA[href]) return;
+      seenA[href] = 1;
+      fromAnchors.push({ url: href, origUrl: href, el: a.querySelector("img") });
+    });
+    if (fromAnchors.length) return fromAnchors.slice(0, 8);
+
+    // Fallback (no image links found): collect every modland-hosted <img>, keep
+    // only those sharing a CDN folder with the biggest one (this mod's gallery),
+    // and normalise each to the full-size -lg variant.
     var all = [];
     document.querySelectorAll("img").forEach(function (img) {
       var w = img.naturalWidth || img.clientWidth || img.width || 0;
