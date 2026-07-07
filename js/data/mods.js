@@ -3389,6 +3389,72 @@ const MODS = [
       "jewelry"
     ],
     featured: true
+  },
+  {
+    id: 169,
+    game: "beamng",
+    title: "Nissan Silvia S15",
+    category: "cars",
+    version: "1.6",
+    size: "1.3 GB",
+    images: [
+      "images/mods/nissan-silvia-s15-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j0J3Q259P8mv6Bw",
+    short: "Nissan Silvia S15 with extensive tuning and body kits.",
+    description: "This mod adds the Nissan Silvia S15 to BeamNG.drive. It features extensive tuning options with over 20 body kits, including Vertex, D-MAX, Duce, and Uras. The car includes a customizable engine bay, working lights, and adjustable interior elements like the gear lever and steering wheel. Installation is straightforward: unpack the archive and place the car and spare parts files into your mods folder.",
+    tags: [
+      "s15",
+      "nissan",
+      "drift",
+      "tuning",
+      "jbeam"
+    ],
+    featured: true
+  },
+  {
+    id: 170,
+    game: "beamng",
+    title: "Dodge Charger (2015-2023)",
+    category: "cars",
+    version: "1.2",
+    size: "176 MB",
+    images: [
+      "images/mods/dodge-charger-2015-2023-1.jpg",
+      "images/mods/dodge-charger-2015-2023-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/aX3vUt2066e6gPG",
+    short: "Detailed 2015-2023 Dodge Charger with high-quality features and tuning.",
+    description: "This mod adds a highly detailed 2015-2023 Dodge Charger to BeamNG.drive. It features a high-quality model, engine compartment, interior, and PBR textures. The mod includes good damage modeling, custom sounds, animated dashboard and pedals, and working lights and mirrors. It also offers tuning options, custom wheels, skins, and 30 configurations for extensive customization.",
+    tags: [
+      "charger",
+      "dodge",
+      "car mod",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 171,
+    game: "beamng",
+    title: "Subaru Legacy",
+    category: "cars",
+    version: "v1.0",
+    size: "79 MB",
+    images: [
+      "images/mods/subaru-legacy-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3B0D2XCiwhsr4w6",
+    short: "Detailed Subaru Legacy with multiple configurations and PBR materials.",
+    description: "This mod adds the Subaru Legacy to BeamNG.drive, featuring 12 configurations to choose from. It boasts detailed exterior and interior models, an intricate engine bay, and PBR materials for enhanced visuals. Enjoy animated dashboards and gear levers, working lights and mirrors, and customizable tuning options including custom wheels.",
+    tags: [
+      "subaru",
+      "legacy",
+      "cars",
+      "jdm",
+      "tuning"
+    ],
+    featured: true
   }
 ];
 
