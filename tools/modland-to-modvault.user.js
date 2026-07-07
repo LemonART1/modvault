@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      1.5
-// @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (downloaded in the browser, since modland is behind Cloudflare) and hands them to the local ModVault admin.
-// @match        https://www.modland.net/*
+// @version      2.3
+// @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
+// @match        https://*.modland.net/*
 // @run-at       document-idle
 // @grant        GM_xmlhttpRequest
 // @grant        GM_openInTab
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_deleteValue
 // @connect      modland.net
 // @connect      *
 // ==/UserScript==
@@ -17,16 +20,46 @@
 // POSTs them to the local admin's /api/stash; the admin tab pulls it and fills
 // the form (Gemini then cleans it up).
 //
-// Screenshots are best-effort: modland serves them from a Cloudflare host with
-// no CORS, so their bytes usually can't be read from a script (direct XHR is
-// 403'd, canvas is tainted). We try anyway; when it fails the user saves the 2-3
-// screenshots by hand. Everything else still imports automatically.
+// Screenshots: the CDN (temp2.modland.net) has no CORS and 403s bare XHRs, so
+// bytes can't be read in-page (XHR blocked, canvas tainted). BUT a top-level
+// navigation to the image URL is served normally (same as the user opening the
+// image in a new tab). So we relay: open the image in a background tab, where
+// this same script (matched via *.modland.net) does a same-origin
+// fetch(location.href) - no CORS needed - stores the data URL in Tampermonkey
+// value storage, and the tab is closed. The mod-page side polls the storage.
 
 (function () {
   "use strict";
 
   var ADMIN_ORIGIN = "http://localhost:8787";
   var BTN_ID = "modvault-send-btn";
+
+  // ---- image-tab relay branch -------------------------------------------
+  // When this script wakes up on a directly-opened image (top-level navigation
+  // to the CDN), read the bytes same-origin and hand them to the opener via
+  // GM storage, then close self.
+  if ((document.contentType || "").indexOf("image/") === 0) {
+    fetch(location.href, { credentials: "include", cache: "force-cache" })
+      .then(function (r) { return r.ok ? r.blob() : null; })
+      .then(function (blob) {
+        return new Promise(function (resolve) {
+          if (!blob) { resolve(null); return; }
+          var fr = new FileReader();
+          fr.onloadend = function () {
+            resolve(typeof fr.result === "string" && fr.result.indexOf("data:image/") === 0 ? fr.result : null);
+          };
+          fr.onerror = function () { resolve(null); };
+          fr.readAsDataURL(blob);
+        });
+      })
+      .then(function (dataUrl) {
+        GM_setValue("mvimg:" + location.href.split("#")[0], dataUrl || "FAIL");
+        setTimeout(function () { window.close(); }, 300);
+      });
+    return;
+  }
+  // Anything else on non-www subdomains is not a mod page - do nothing there.
+  if (!/^www\./i.test(location.hostname)) return;
 
   function detectGame() {
     var p = location.pathname.toLowerCase();
@@ -63,26 +96,49 @@
     return [metaTxt, best].filter(Boolean).join("\n\n").slice(0, 3000);
   }
 
+  function galleryFolder(u) {
+    // modland stores each mod's images under /i/{modHash}/...; the hash is
+    // unique per mod, so it tells this mod's screenshots apart from the
+    // related-mod thumbnails also present on the page.
+    var m = u.match(/\/i\/([^/]+)\//);
+    return m ? m[1] : null;
+  }
+
   function grabImageCandidates() {
-    // Return {url, el} pairs: url is the large-variant CDN link (best for GM
-    // download), el is the already-rendered <img> (used as a canvas fallback
-    // when Cloudflare 403s the direct request).
-    var seen = {};
-    var cands = [];
+    // Collect every modland-hosted image on the page, then keep only those that
+    // share a CDN folder with the biggest one (the mod's main screenshot). This
+    // drops the related-mod thumbnails that live in other folders.
+    var all = [];
     document.querySelectorAll("img").forEach(function (img) {
       var w = img.naturalWidth || img.clientWidth || img.width || 0;
-      if (w && w < 150) return; // skip small UI icons/logos
       var src = (img.currentSrc || img.src || "").trim();
       if (!/^https?:\/\//i.test(src)) return;
       if (/\.svg(\?|$)/i.test(src)) return;
       if (/\/avatars?\//i.test(src)) return; // skip uploader/commenter avatars
       try { if (!/modland/i.test(new URL(src).hostname)) return; } catch (e) { return; } // drop ad banners
-      var lg = src.replace(/-(sm|th|md|xs)_modland\./i, "-lg_modland.");
+      all.push({ src: src, w: w, el: img });
+    });
+    if (!all.length) return [];
+    all.sort(function (a, b) { return b.w - a.w; });
+    var anchor = galleryFolder(all[0].src); // folder of the biggest image = this mod
+
+    var seen = {};
+    var cands = [];
+    all.forEach(function (it) {
+      if (it.w && it.w < 150) return; // skip small UI icons/logos
+      if (anchor && galleryFolder(it.src) !== anchor) return; // a different mod's image
+      var lg = it.src.replace(/-(sm|th|md|xs)_modland\./i, "-lg_modland.");
       if (seen[lg]) return;
       seen[lg] = 1;
-      cands.push({ url: lg, el: img });
+      // A gallery thumbnail has two path segments under /i/ (…/i/{mod}/{shot}/N-…);
+      // the single-segment "…/i/{mod}/img-…" is just the main viewer, which
+      // duplicates the first thumbnail. Prefer thumbnails and drop the viewer.
+      var isThumb = /\/i\/[^/]+\/[^/]+\//.test(lg);
+      cands.push({ url: lg, origUrl: it.src, el: it.el, isThumb: isThumb });
     });
-    return cands.slice(0, 6);
+    var thumbs = cands.filter(function (c) { return c.isThumb; });
+    var chosen = thumbs.length ? thumbs : cands;
+    return chosen.slice(0, 4); // admin stores 3; one spare in case a download fails
   }
 
   // Read an already-rendered image via canvas. Works only if the CDN sent CORS
@@ -99,10 +155,46 @@
     } catch (e) { return null; }
   }
 
+  // Tab relay: open the image as a top-level background tab. Cloudflare serves
+  // top-level navigations normally (same as a human opening the image in a new
+  // tab); the copy of this script running there reads the bytes same-origin and
+  // reports back through GM value storage.
+  function relayDownload(url) {
+    return new Promise(function (resolve) {
+      var key = "mvimg:" + url.split("#")[0];
+      GM_deleteValue(key);
+      var tab = null;
+      try { tab = GM_openInTab(url, { active: false, insert: true, setParent: true }); } catch (e) { resolve(null); return; }
+      var done = false;
+      var poll = setInterval(check, 400);
+      var kill = setTimeout(function () { finish(null); }, 20000);
+      function check() {
+        var v = GM_getValue(key);
+        if (v !== undefined) finish(v === "FAIL" ? null : v);
+      }
+      function finish(value) {
+        if (done) return;
+        done = true;
+        clearInterval(poll);
+        clearTimeout(kill);
+        GM_deleteValue(key);
+        try { if (tab && !tab.closed) tab.close(); } catch (e) { /* tab closed itself */ }
+        resolve(value);
+      }
+    });
+  }
+
   async function getImageData(cand) {
     var viaGm = await downloadImage(cand.url);
     if (viaGm) return viaGm;
-    return canvasDataUrl(cand.el);
+    var viaCanvas = canvasDataUrl(cand.el);
+    if (viaCanvas) return viaCanvas;
+    // Last resort: full-size via tab relay; if the -lg_ variant 404s in the
+    // relay, retry with the original (thumbnail) URL so we get *something*.
+    var viaTab = await relayDownload(cand.url);
+    if (viaTab) return viaTab;
+    if (cand.origUrl && cand.origUrl !== cand.url) return relayDownload(cand.origUrl);
+    return null;
   }
 
   function downloadImage(url) {
@@ -141,13 +233,17 @@
     var original = btn.textContent;
     btn.textContent = "Downloading images...";
     try {
+      // Sequential: the tab relay opens background tabs one at a time, so
+      // parallel downloads would spawn a burst of tabs at once.
       var cands = grabImageCandidates();
-      var images = (await Promise.all(cands.map(getImageData))).filter(Boolean);
+      var images = [];
+      for (var i = 0; i < cands.length && images.length < 3; i++) {
+        btn.textContent = "Image " + (i + 1) + "/" + cands.length + "...";
+        var data = await getImageData(cands[i]);
+        if (data) images.push(data);
+      }
       if (images.length === 0 && cands.length) {
-        // modland screenshots sit on a Cloudflare host with no CORS, so their
-        // bytes can't be read from a script (XHR is 403'd, canvas is tainted).
-        // Everything else still imports; the user adds images by hand.
-        alert("Картинки modland защищены Cloudflare — автоматически не скачиваются.\n\n" +
+        alert("Картинки не удалось скачать даже через вкладки.\n\n" +
           "Сохрани 2-3 скриншота вручную (правый клик по картинке -> Сохранить) и добавь их в админке через 'Выбрать файлы'.\n\n" +
           "Остальные поля (название, игра, версия, описание, теги) заполнятся сами.");
       }

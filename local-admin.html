@@ -31,8 +31,10 @@
     .status.ok { color:#b8ff4d; border-color:rgba(184,255,77,.45); }
     .status.bad { color:#ff9d9d; border-color:rgba(255,80,80,.45); }
     .images { display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; margin-top:12px; }
-    .preview { aspect-ratio:16/9; border:1px solid #2b3650; border-radius:8px; overflow:hidden; background:#070a10; display:grid; place-items:center; color:#52607d; font-size:12px; }
+    .preview { position:relative; aspect-ratio:16/9; border:1px solid #2b3650; border-radius:8px; overflow:hidden; background:#070a10; display:grid; place-items:center; color:#52607d; font-size:12px; }
     .preview img { width:100%; height:100%; object-fit:cover; }
+    .preview-remove { position:absolute; top:6px; right:6px; width:26px; height:26px; padding:0; display:flex; align-items:center; justify-content:center; border-radius:50%; background:rgba(5,7,10,.72); color:#fff; font-size:16px; line-height:1; font-weight:900; cursor:pointer; border:1px solid rgba(255,255,255,.2); }
+    .preview-remove:hover { background:#ff4d4d; color:#fff; }
     .toggle { display:flex; align-items:center; gap:10px; color:#aeb8d3; font-weight:800; }
     .toggle input { width:auto; }
     .small-row { display:grid; grid-template-columns:120px 1fr; gap:14px; }
@@ -229,22 +231,22 @@
       };
     }
 
+    // Render the three preview slots from state.convertedImages. Filled slots get
+    // a remove (x) button so wrong/duplicate images (common with the modland
+    // import) can be dropped by hand.
+    function renderPreviews() {
+      $("previews").innerHTML = [0, 1, 2].map(i => state.convertedImages[i]
+        ? `<div class="preview"><img src="${state.convertedImages[i].dataUrl}" alt=""><button class="preview-remove" type="button" data-remove="${i}" title="Remove">&times;</button></div>`
+        : `<div class="preview">Image ${i + 1}</div>`).join("");
+    }
+
     async function handleImages() {
       const files = Array.from($("images").files || []).slice(0, 3);
       state.convertedImages = [];
-      $("previews").innerHTML = "";
-      for (let i = 0; i < 3; i += 1) {
-        const box = document.createElement("div");
-        box.className = "preview";
-        if (files[i]) {
-          const converted = await convertImage(files[i]);
-          state.convertedImages.push(converted);
-          box.innerHTML = `<img src="${converted.dataUrl}" alt="">`;
-        } else {
-          box.textContent = `Image ${i + 1}`;
-        }
-        $("previews").appendChild(box);
+      for (let i = 0; i < files.length; i += 1) {
+        state.convertedImages.push(await convertImage(files[i]));
       }
+      renderPreviews();
     }
 
     function buildPrompt() {
@@ -435,12 +437,8 @@ ${$("rawText").value.trim()}`;
         // Load images if available
         if (data.images && data.images.length) {
           try {
-            const converted = await Promise.all(data.images.map(convertDataUrl));
-            state.convertedImages = converted;
-            const slots = [0, 1, 2].map(i => converted[i]
-              ? `<div class="preview"><img src="${converted[i].dataUrl}" alt=""></div>`
-              : `<div class="preview">Image ${i + 1}</div>`).join("");
-            $("previews").innerHTML = slots;
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
           } catch (_) { /* images optional */ }
         }
 
@@ -458,12 +456,20 @@ ${$("rawText").value.trim()}`;
     $("aiBtn").addEventListener("click", runAi);
     $("nexusBtn").addEventListener("click", importNexus);
     $("modForm").addEventListener("submit", saveMod);
+    // Remove a single preview image via its x button.
+    $("previews").addEventListener("click", (event) => {
+      const btn = event.target.closest(".preview-remove");
+      if (!btn) return;
+      state.convertedImages.splice(Number(btn.dataset.remove), 1);
+      $("images").value = "";
+      renderPreviews();
+    });
     $("resetBtn").addEventListener("click", () => {
       $("modForm").reset();
       state.convertedImages = [];
       updateCategories();
       loadData();
-      $("previews").innerHTML = '<div class="preview">Image 1</div><div class="preview">Image 2</div><div class="preview">Image 3</div>';
+      renderPreviews();
       setStatus($("saveStatus"), "Ready.");
     });
 
@@ -541,11 +547,8 @@ ${$("rawText").value.trim()}`;
         $("rawText").value = [stash.title, stash.description].filter(Boolean).join("\n\n");
         if (stash.game && state.games[stash.game]) { $("game").value = stash.game; updateCategories(); }
         if (stash.images && stash.images.length) {
-          const converted = await Promise.all(stash.images.map(convertDataUrl));
-          state.convertedImages = converted;
-          $("previews").innerHTML = [0, 1, 2].map(i => converted[i]
-            ? `<div class="preview"><img src="${converted[i].dataUrl}" alt=""></div>`
-            : `<div class="preview">Image ${i + 1}</div>`).join("");
+          state.convertedImages = await Promise.all(stash.images.map(convertDataUrl));
+          renderPreviews();
         }
         setStatus($("nexusStatus"), `Загружено: ${stash.title}. Запускаю AI...`, "ok");
         await runAi();
