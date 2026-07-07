@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      2.3
+// @version      2.5
 // @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
 // @match        https://*.modland.net/*
 // @run-at       document-idle
@@ -35,31 +35,34 @@
   var BTN_ID = "modvault-send-btn";
 
   // ---- image-tab relay branch -------------------------------------------
-  // When this script wakes up on a directly-opened image (top-level navigation
-  // to the CDN), read the bytes same-origin and hand them to the opener via
-  // GM storage, then close self.
-  if ((document.contentType || "").indexOf("image/") === 0) {
+  // Any non-www modland host (temp2.modland.net etc.) means this tab was opened
+  // by the relay to fetch an image. Read it same-origin — which works even
+  // though a bare XHR from the mod page is Cloudflare-403'd — and report back
+  // through GM storage, then close. Non-image responses (a 404 for a missing
+  // -lg variant) report FAIL fast so the opener doesn't wait out the timeout.
+  if (!/^www\./i.test(location.hostname)) {
+    var relayKey = "mvimg:" + location.href.split("#")[0];
+    var reportAndClose = function (value) {
+      GM_setValue(relayKey, value || "FAIL");
+      setTimeout(function () { window.close(); }, 200);
+    };
     fetch(location.href, { credentials: "include", cache: "force-cache" })
-      .then(function (r) { return r.ok ? r.blob() : null; })
-      .then(function (blob) {
-        return new Promise(function (resolve) {
-          if (!blob) { resolve(null); return; }
-          var fr = new FileReader();
-          fr.onloadend = function () {
-            resolve(typeof fr.result === "string" && fr.result.indexOf("data:image/") === 0 ? fr.result : null);
-          };
-          fr.onerror = function () { resolve(null); };
-          fr.readAsDataURL(blob);
-        });
+      .then(function (r) {
+        var ct = r.headers.get("content-type") || "";
+        return (r.ok && ct.indexOf("image/") === 0) ? r.blob() : null;
       })
-      .then(function (dataUrl) {
-        GM_setValue("mvimg:" + location.href.split("#")[0], dataUrl || "FAIL");
-        setTimeout(function () { window.close(); }, 300);
-      });
+      .then(function (blob) {
+        if (!blob) { reportAndClose(null); return; }
+        var fr = new FileReader();
+        fr.onloadend = function () {
+          reportAndClose(typeof fr.result === "string" && fr.result.indexOf("data:image/") === 0 ? fr.result : null);
+        };
+        fr.onerror = function () { reportAndClose(null); };
+        fr.readAsDataURL(blob);
+      })
+      .catch(function () { reportAndClose(null); });
     return;
   }
-  // Anything else on non-www subdomains is not a mod page - do nothing there.
-  if (!/^www\./i.test(location.hostname)) return;
 
   function detectGame() {
     var p = location.pathname.toLowerCase();
@@ -127,7 +130,7 @@
     all.forEach(function (it) {
       if (it.w && it.w < 150) return; // skip small UI icons/logos
       if (anchor && galleryFolder(it.src) !== anchor) return; // a different mod's image
-      var lg = it.src.replace(/-(sm|th|md|xs)_modland\./i, "-lg_modland.");
+      var lg = it.src.replace(/-(sm|th|md|xs|s|m|thumb|small|medium)_modland\./i, "-lg_modland.");
       if (seen[lg]) return;
       seen[lg] = 1;
       // A gallery thumbnail has two path segments under /i/ (…/i/{mod}/{shot}/N-…);
@@ -138,21 +141,7 @@
     });
     var thumbs = cands.filter(function (c) { return c.isThumb; });
     var chosen = thumbs.length ? thumbs : cands;
-    return chosen.slice(0, 4); // admin stores 3; one spare in case a download fails
-  }
-
-  // Read an already-rendered image via canvas. Works only if the CDN sent CORS
-  // headers (otherwise the canvas is tainted and toDataURL throws) — a free
-  // fallback that costs nothing to try.
-  function canvasDataUrl(img) {
-    try {
-      if (!img.naturalWidth) return null;
-      var c = document.createElement("canvas");
-      c.width = img.naturalWidth;
-      c.height = img.naturalHeight;
-      c.getContext("2d").drawImage(img, 0, 0);
-      return c.toDataURL("image/jpeg", 0.86);
-    } catch (e) { return null; }
+    return chosen.slice(0, 8); // admin stores 3; extra spares in case some -lg downloads fail
   }
 
   // Tab relay: open the image as a top-level background tab. Cloudflare serves
@@ -185,16 +174,12 @@
   }
 
   async function getImageData(cand) {
+    // Always target the full-size (-lg) URL. Never fall back to the small
+    // thumbnail: an empty slot the user can fill beats a blurry image. Callers
+    // keep a spare candidate so a skipped shot is replaced by the next one.
     var viaGm = await downloadImage(cand.url);
     if (viaGm) return viaGm;
-    var viaCanvas = canvasDataUrl(cand.el);
-    if (viaCanvas) return viaCanvas;
-    // Last resort: full-size via tab relay; if the -lg_ variant 404s in the
-    // relay, retry with the original (thumbnail) URL so we get *something*.
-    var viaTab = await relayDownload(cand.url);
-    if (viaTab) return viaTab;
-    if (cand.origUrl && cand.origUrl !== cand.url) return relayDownload(cand.origUrl);
-    return null;
+    return relayDownload(cand.url);
   }
 
   function downloadImage(url) {
