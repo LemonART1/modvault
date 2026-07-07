@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      2.5
+// @version      2.6
 // @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
 // @match        https://*.modland.net/*
 // @run-at       document-idle
@@ -130,7 +130,15 @@
     all.forEach(function (it) {
       if (it.w && it.w < 150) return; // skip small UI icons/logos
       if (anchor && galleryFolder(it.src) !== anchor) return; // a different mod's image
+      // Normalise to the full-size (-lg) variant. modland names images
+      // {prefix}-{stamp}[-{size}]_modland.ext with several prefixes (img, photo,
+      // izobrazhenie, numbered thumbs). If a size token is present, swap it for
+      // lg; if there's no size token at all (e.g. photo-{stamp}_modland.webp,
+      // which is a small version), insert -lg before _modland.
       var lg = it.src.replace(/-(sm|th|md|xs|s|m|thumb|small|medium)_modland\./i, "-lg_modland.");
+      if (!/-lg_modland\./i.test(lg)) {
+        lg = lg.replace(/_modland\.(\w+)(\?|$)/i, "-lg_modland.$1$2");
+      }
       if (seen[lg]) return;
       seen[lg] = 1;
       // A gallery thumbnail has two path segments under /i/ (…/i/{mod}/{shot}/N-…);
