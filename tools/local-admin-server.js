@@ -352,6 +352,32 @@ async function handleAi(req, res) {
   throw new Error(lastError ? `${lastError.message} (${lastError.code})` : "Gemini did not return text.");
 }
 
+// In-memory hand-off for the modland userscript. modland.net is fully behind
+// Cloudflare, so the server can't scrape it; instead the userscript (running in
+// the user's browser, which passed the challenge) downloads the images itself
+// and POSTs the scraped mod here. The admin page then pulls it once and clears it.
+let modlandStash = null;
+
+async function handleStashPost(req, res) {
+  const payload = JSON.parse(await readBody(req));
+  modlandStash = {
+    game: String(payload.game || "").trim(),
+    title: String(payload.title || "").trim(),
+    description: String(payload.description || "").trim(),
+    images: (Array.isArray(payload.images) ? payload.images : [])
+      .filter(img => typeof img === "string" && img.startsWith("data:image/"))
+      .slice(0, 3),
+    sourceUrl: String(payload.sourceUrl || "").trim()
+  };
+  send(res, 200, { ok: true, images: modlandStash.images.length });
+}
+
+function handleStashGet(req, res) {
+  const stash = modlandStash;
+  modlandStash = null;
+  send(res, 200, { ok: true, stash });
+}
+
 function serveStatic(req, res) {
   const url = new URL(req.url, `http://localhost:${port}`);
   const requested = url.pathname === "/" ? "/local-admin.html" : decodeURIComponent(url.pathname);
@@ -405,6 +431,14 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/nexus") {
       await handleNexus(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/stash") {
+      await handleStashPost(req, res);
+      return;
+    }
+    if (req.method === "GET" && req.url === "/api/stash") {
+      handleStashGet(req, res);
       return;
     }
     if (req.method === "GET") {

@@ -523,9 +523,48 @@ ${$("rawText").value.trim()}`;
       await importNexus();
     }
 
+    // Auto-import a mod stashed by the modland userscript. Unlike NexusMods
+    // (URL-hash), modland images are downloaded in the browser and POSTed to
+    // the server, so here we just pull them back out and fill the form.
+    async function maybeStashImport() {
+      if (!/(^|[#&])stash\b/.test(location.hash)) return;
+      history.replaceState(null, "", location.pathname);
+      setStatus($("nexusStatus"), "Забираю мод из браузера...");
+      try {
+        const response = await fetch("/api/stash");
+        const data = await response.json();
+        if (!data.ok || !data.stash) {
+          setStatus($("nexusStatus"), "Тайник пуст. Нажми кнопку на странице мода ещё раз.", "bad");
+          return;
+        }
+        const stash = data.stash;
+        $("rawText").value = [stash.title, stash.description].filter(Boolean).join("\n\n");
+        if (stash.game && state.games[stash.game]) { $("game").value = stash.game; updateCategories(); }
+        if (stash.images && stash.images.length) {
+          const converted = await Promise.all(stash.images.map(convertDataUrl));
+          state.convertedImages = converted;
+          $("previews").innerHTML = [0, 1, 2].map(i => converted[i]
+            ? `<div class="preview"><img src="${converted[i].dataUrl}" alt=""></div>`
+            : `<div class="preview">Image ${i + 1}</div>`).join("");
+        }
+        setStatus($("nexusStatus"), `Загружено: ${stash.title}. Запускаю AI...`, "ok");
+        await runAi();
+        // modland titles are "Mod name - Author"; after Gemini strips the version
+        // the trailing single-word author handle is left over. Drop it here (only
+        // for modland imports, so NexusMods titles are untouched).
+        const parts = $("title").value.split(/\s+-\s+/);
+        if (parts.length > 1 && !/\s/.test(parts[parts.length - 1])) {
+          parts.pop();
+          $("title").value = parts.join(" - ");
+        }
+      } catch (error) {
+        setStatus($("nexusStatus"), `Ошибка: ${error.message}`, "bad");
+      }
+    }
+
     $("apiKey").value = localStorage.getItem("modvault-local-gemini-key") || "";
     $("nexusApiKey").value = localStorage.getItem("modvault-local-nexus-key") || "";
-    loadData().then(maybeHashImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
+    loadData().then(maybeHashImport).then(maybeStashImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
   </script>
 </body>
 </html>
