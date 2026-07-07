@@ -3071,6 +3071,324 @@ const MODS = [
       "helper"
     ],
     featured: true
+  },
+  {
+    id: 155,
+    game: "cyberpunk",
+    title: "Stellar Blade EVIE - Judy OVERHAUL",
+    category: "appearance",
+    version: "1.0",
+    size: "105 MB",
+    images: [
+      "images/mods/stellar-blade-evie-judy-overhaul-1.jpg",
+      "images/mods/stellar-blade-evie-judy-overhaul-2.jpg",
+      "images/mods/stellar-blade-evie-judy-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nF8t59SP10mD5RT",
+    short: "Replaces Judy Alvarez with Stellar Blade's Evie, a complete character overhaul.",
+    description: "This mod completely overhauls Judy Alvarez's original design, replacing her with Stellar Blade's Evie. Evie is fully optimized for complete gameplay and photomode support. It features hand-painted 4K full-body skin textures and a customized full-body model and head sculpt. Evie's hairstyle, eyes, makeup, and facial details are completely faithful to the original trailer.",
+    tags: [
+      "judy",
+      "evie",
+      "character",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 156,
+    game: "cyberpunk",
+    title: "Summer Laces Bikini - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "153 MB",
+    images: [
+      "images/mods/summer-laces-bikini-archive-xl-1.jpg",
+      "images/mods/summer-laces-bikini-archive-xl-2.jpg",
+      "images/mods/summer-laces-bikini-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/08o9SN9zh4ww74G",
+    short: "Adds 18 variants of a summer laces bikini for FemV.",
+    description: "This mod introduces the Summer Laces Bikini for FemV characters, offering 18 distinct variants for players to choose from. It provides extensive support for all Hyst body types, including Vanilla, EVE, ANGEL, EBB, and more. A specific refit for the small body type is also included. Enhance your character's wardrobe with this stylish and versatile bikini set.",
+    tags: [
+      "bikini",
+      "clothing",
+      "femv",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 157,
+    game: "cyberpunk",
+    title: "Casual Style Outfit Pt36",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "36 MB",
+    images: [
+      "images/mods/casual-style-outfit-pt36-1.jpg",
+      "images/mods/casual-style-outfit-pt36-2.jpg",
+      "images/mods/casual-style-outfit-pt36-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EyiKUw0Jis8Zd50",
+    short: "A new stylish casual outfit for female V in Cyberpunk 2077.",
+    description: "Introducing the Casual Style Outfit Pt36, an exclusive new clothing set for female V in Cyberpunk 2077. This outfit is designed primarily for use in photo mode, offering stylish new options for your character. Installation requires several essential framework mods like ArchiveXL, TweakXL, and Cyber Engine Tweaks. Easily add the outfit pieces to your inventory using provided console commands for different color variations. Enjoy dressing your V in this unique casual attire and share your creative screenshots.",
+    tags: [
+      "female v",
+      "outfit",
+      "clothing",
+      "casual"
+    ],
+    featured: true
+  },
+  {
+    id: 158,
+    game: "cyberpunk",
+    title: "Nightwire Dress - MASC FEM V (Archive XL)",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "169 MB",
+    images: [
+      "images/mods/nightwire-dress-masc-fem-v-archive-xl-1.jpg",
+      "images/mods/nightwire-dress-masc-fem-v-archive-xl-2.jpg",
+      "images/mods/nightwire-dress-masc-fem-v-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qq21D17LX0dDhJV",
+    short: "Nightwire Dress and Glasses for V with toggleable skirt.",
+    description: "This mod introduces the stylish Nightwire Dress and matching glasses for both Male and Female V characters. Players can toggle the dress's skirt, allowing it to be worn as a top or a full dress ensemble. The outfit comes in numerous color variations for the dress, glasses frames, and lenses, offering extensive customization options. It supports various popular female V body types like Vanilla, EBBP, EBB, and EVE, alongside Vanilla for male V. Easily installed via Vortex or manual file placement, this mod significantly enhances your character's wardrobe.",
+    tags: [
+      "dress",
+      "clothing",
+      "glasses",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 159,
+    game: "cyberpunk",
+    title: "LoveOverride - Romance Anyone",
+    category: "gameplay",
+    version: "2.31",
+    size: "10 KB",
+    images: [
+      "images/mods/loveoverride-romance-anyone-1.jpg",
+      "images/mods/loveoverride-romance-anyone-2.jpg",
+      "images/mods/loveoverride-romance-anyone-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OL31X2spo5XQeQ3",
+    short: "Unlock romance options for V, ignoring body type and voice restrictions.",
+    description: "LoveOverride is a simple mod that unlocks romance options in Cyberpunk 2077. It allows you to romance Judy, Panam, River, and Kerry regardless of V's body type or voice restrictions. The mod features a simple in-game Mod Settings menu for easy configuration, requiring no console commands. It changes romance-related quest facts but does not add new voice lines, animations, or scenes. This is an unlocker, not a full romance expansion, so always make a backup save before using it.",
+    tags: [
+      "romance",
+      "unlock",
+      "characters",
+      "gameplay",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 160,
+    game: "cyberpunk",
+    title: "Zeusico Quickhacks - 8 New Custom Quickhacks",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/zeusico-quickhacks-8-new-custom-quickhacks-1.jpg",
+      "images/mods/zeusico-quickhacks-8-new-custom-quickhacks-2.jpg",
+      "images/mods/zeusico-quickhacks-8-new-custom-quickhacks-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tnm1h453qx6My9A",
+    short: "Adds 8 unique custom quickhacks for diverse gameplay in Night City.",
+    description: "This mod introduces eight entirely new custom quickhacks to Cyberpunk 2077, each designed to support distinct playstyles. Unleash unique abilities like summoning an elite Trauma Team AV to assist you or creating a temporary clone of V to distract enemies. You can also force foes to dance, perform powerful superhero landings, or utilize stealth-focused optical camo. Each quickhack features custom animations, sounds, and effects for an immersive and impactful experience.",
+    tags: [
+      "quickhack",
+      "new abilities",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 161,
+    game: "cyberpunk",
+    title: "Santo Serenity Residence",
+    category: "apartment",
+    version: "2.21-2.31",
+    size: "2 MB",
+    images: [
+      "images/mods/santo-serenity-residence-1.jpg",
+      "images/mods/santo-serenity-residence-2.jpg",
+      "images/mods/santo-serenity-residence-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZCA5LMMIIq3IGvk",
+    short: "Escape Night City chaos in a luxury Santo Domingo apartment with pool.",
+    description: "Escape the chaos of Night City with the Santo Serenity Residence, a modern luxury player home located in Santo Domingo. It features a private pool, beautifully landscaped gardens, and premium interiors. Enjoy numerous immersive details like native interactions, stash, wardrobe, and a custom jukebox. This peaceful retreat offers all the amenities needed to call it a true home. The mod has been tested and works on game versions 2.21 and 2.31.",
+    tags: [
+      "apartment",
+      "player home",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 162,
+    game: "cyberpunk",
+    title: "Yaiba Tower Apartment",
+    category: "add-on-apartment",
+    version: "1.0",
+    size: "78 MB",
+    images: [
+      "images/mods/yaiba-tower-apartment-1.jpg",
+      "images/mods/yaiba-tower-apartment-2.jpg",
+      "images/mods/yaiba-tower-apartment-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8Iai3jXGJBPDb9O",
+    short: "Unlock a stunning industrial-chic penthouse apartment in Night City's Yaiba Tower.",
+    description: "Discover a stunning, industrial-chic penthouse apartment located in Yaiba Tower, right above Regina's hideout. This new purchasable property offers breathtaking 360-degree views of Night City and all modern amenities for a busy merc. It features a stash, wardrobe, appearance changing mirror, in-unit fast travel terminal, a rooftop garden, and a fillable bathtub. Access the penthouse level via the elevator after purchasing it in the Yaiba Tower lobby.",
+    tags: [
+      "apartment",
+      "penthouse",
+      "yaiba tower"
+    ],
+    featured: true
+  },
+  {
+    id: 163,
+    game: "cyberpunk",
+    title: "Zenitex Assault Helmet - ArchiveXL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "35 MB",
+    images: [
+      "images/mods/zenitex-assault-helmet-archivexl-1.jpg",
+      "images/mods/zenitex-assault-helmet-archivexl-2.jpg",
+      "images/mods/zenitex-assault-helmet-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z0QdXPpJ9Hcqy31",
+    short: "Heavily armored helmet with dual visors and extensive customization.",
+    description: "The Zenitex Assault Helmet offers heavy armor with two unique, deployable visors for both male and female V. This mod includes 107 items, featuring dynamic customization with various color variants, LEDs, glass options, and optional hairstyles. Benefit from significant gameplay bonuses like increased armor points, explosive and melee resistance, plus specialized visor functions for optical zoom or flashbang immunity. Optimized for both gameplay and photomode, it boasts garment support and compatibility with all body mods. Requires ArchiveXL, TweakXL, RED4ext, and EquipmentEx for full functionality and in-depth customization options.",
+    tags: [
+      "helmet",
+      "armor",
+      "customisation",
+      "visors"
+    ],
+    featured: true
+  },
+  {
+    id: 164,
+    game: "cyberpunk",
+    title: "Zenitex G24 Viper Visor - ArchiveXL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "9 MB",
+    images: [
+      "images/mods/zenitex-g24-viper-visor-archivexl-1.jpg",
+      "images/mods/zenitex-g24-viper-visor-archivexl-2.jpg",
+      "images/mods/zenitex-g24-viper-visor-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8Yt319F2P88HkQ5",
+    short: "Adds a G24 Viper Visor with trap highlighting and customization.",
+    description: "This mod adds the Zenitex G24 Viper Visor, a headwear item with 43 variants including equipment, cosmetics, and toggles. It offers dynamic customization and garment support for seamless integration with character models. The visor provides unique gameplay bonuses, such as highlighting traps and explosive devices within view upon scanning. It features detailed tooltips, FPP camera compatibility, and appropriate tags for other gameplay mods. Compatible with both male and female V, it supports all body mods and is optimized for gameplay and photomode.",
+    tags: [
+      "visor",
+      "headwear",
+      "armor",
+      "traps",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 165,
+    game: "cyberpunk",
+    title: "Chevrolet Chevelle Super Sport 454",
+    category: "vehicles",
+    version: "2",
+    size: "17 MB",
+    images: [
+      "images/mods/chevrolet-chevelle-super-sport-454-1.jpg",
+      "images/mods/chevrolet-chevelle-super-sport-454-2.jpg",
+      "images/mods/chevrolet-chevelle-super-sport-454-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cJS2RL5kW6I5294",
+    short: "Add a classic 1970 Chevrolet Chevelle SS 454 to Cyberpunk.",
+    description: "This mod introduces a highly detailed 1970 Chevrolet Chevelle SS 454 to your game. It functions as a completely standalone vehicle, ensuring it doesn't replace any existing in-game cars. Seamlessly integrate this classic muscle car into your collection with full support for the Call menu and Virtual Car Dealer. Experience the iconic power and style of the Chevelle SS 454 cruising the streets of Night City.",
+    tags: [
+      "chevelle",
+      "muscle car",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 166,
+    game: "cyberpunk",
+    title: "Rei Ayanami Bodysuit - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "22 MB",
+    images: [
+      "images/mods/rei-ayanami-bodysuit-archive-xl-1.jpg",
+      "images/mods/rei-ayanami-bodysuit-archive-xl-2.jpg",
+      "images/mods/rei-ayanami-bodysuit-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/18s619M2nJ35JkV",
+    short: "Add a multi-color Rei Ayanami inspired bodysuit for female V.",
+    description: "This mod introduces a stylish Rei Ayanami inspired bodysuit, exclusively designed for female V characters. The bodysuit is available in multiple vibrant colors, allowing for extensive customization. It is compatible with various Hyst Body types, including Vanilla, ANGEL, EBB, and other popular options. This outfit is designed to be fully gameplay and photomode friendly, ensuring seamless integration into your Cyberpunk 2077 experience. Easily acquire different color variations of the bodysuit using the provided in-game console commands.",
+    tags: [
+      "bodysuit",
+      "clothing",
+      "female v"
+    ],
+    featured: true
+  },
+  {
+    id: 167,
+    game: "cyberpunk",
+    title: "KOERU - CCXL HAIR",
+    category: "appearance",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/koeru-ccxl-hair-1.jpg",
+      "images/mods/koeru-ccxl-hair-2.jpg",
+      "images/mods/koeru-ccxl-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8pu4OcWD8tCbZPR",
+    short: "Add a beautiful, custom CCXL hairstyle for your Fem V character.",
+    description: "This mod introduces the unique CCXL hairstyle specifically for Fem V in Cyberpunk 2077. It features fully custom meshes, meticulously crafted in Blender to ensure high quality. The hair includes detailed 2k textures, providing a realistic and immersive look for your character. Enhance your Fem V's appearance with this distinct and stylish hair option.",
+    tags: [
+      "hairstyle",
+      "fem v",
+      "custom hair"
+    ],
+    featured: true
+  },
+  {
+    id: 168,
+    game: "cyberpunk",
+    title: "Ziva Navel Piercing Archive XL",
+    category: "appearance",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/ziva-navel-piercing-archive-xl-1.jpg",
+      "images/mods/ziva-navel-piercing-archive-xl-2.jpg",
+      "images/mods/ziva-navel-piercing-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/22I5vH86rj2IT6B",
+    short: "Adds four stylish Ziva Navel Piercing variants for Female V.",
+    description: "This mod introduces the Ziva Navel Piercing for Female V, adding a stylish new aesthetic option to your character. It comes with four distinct variants, allowing for personal customization. The piercing features automatic refitting for various compatible body mods and is fully integrated with Virtual Atelier for easy access. Designed to support both First Person Perspective (FPP) and Third Person Perspective (TPP), it ensures consistent appearance during gameplay. Please note that several required mods and compatible body mods are necessary for proper installation and functionality.",
+    tags: [
+      "piercing",
+      "navel",
+      "female v",
+      "jewelry"
+    ],
+    featured: true
   }
 ];
 
