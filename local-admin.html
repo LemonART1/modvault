@@ -82,6 +82,18 @@
 
     <div class="panel card">
       <div class="field">
+        <label for="gta5Url">GTA5-Mods URL</label>
+        <input id="gta5Url" placeholder="https://www.gta5-mods.com/vehicles/lamborghini-centenario">
+      </div>
+      <div class="actions">
+        <button id="gta5Btn" type="button">Import from GTA5-Mods</button>
+        <span class="hint">Заберёт название, описание и картинки, запустит AI. Ключ не нужен.</span>
+      </div>
+      <div class="status" id="gta5Status">Вставь URL мода GTA5-Mods и нажми Import.</div>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
         <label for="rawText">AI raw text</label>
         <textarea id="rawText" placeholder="Вставь сюда грязное описание мода. ИИ заполнит title, game, category, version, short, description и tags."></textarea>
       </div>
@@ -457,10 +469,44 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function importGta5() {
+      const url = $("gta5Url").value.trim();
+      if (!url) { setStatus($("gta5Status"), "Вставь URL мода GTA5-Mods.", "bad"); return; }
+      $("gta5Btn").disabled = true;
+      setStatus($("gta5Status"), "Загружаю данные с GTA5-Mods...");
+      try {
+        const response = await fetch("/api/gta5", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        $("rawText").value = [data.name, data.description].filter(Boolean).join("\n\n");
+        if (data.game && state.games[data.game]) { $("game").value = data.game; updateCategories(); }
+
+        if (data.images && data.images.length) {
+          try {
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
+          } catch (_) { /* images optional */ }
+        }
+
+        setStatus($("gta5Status"), `Загружено: ${data.name}. Запускаю AI...`, "ok");
+        await runAi();
+      } catch (error) {
+        setStatus($("gta5Status"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("gta5Btn").disabled = false;
+      }
+    }
+
     $("game").addEventListener("change", () => updateCategories());
     $("images").addEventListener("change", handleImages);
     $("aiBtn").addEventListener("click", runAi);
     $("nexusBtn").addEventListener("click", importNexus);
+    $("gta5Btn").addEventListener("click", importGta5);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.
     $("previews").addEventListener("click", (event) => {

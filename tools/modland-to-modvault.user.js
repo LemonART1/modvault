@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      2.7
+// @version      2.8
 // @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
 // @match        https://*.modland.net/*
 // @run-at       document-idle
@@ -68,6 +68,7 @@
     var p = location.pathname.toLowerCase();
     if (p.indexOf("beamng") !== -1) return "beamng";
     if (p.indexOf("assetto") !== -1) return "assetto";
+    if (p.indexOf("euro-truck") !== -1 || p.indexOf("ets2") !== -1 || p.indexOf("truck-simulator-2") !== -1) return "ets2";
     return "";
   }
 

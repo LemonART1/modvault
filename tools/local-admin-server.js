@@ -318,6 +318,59 @@ async function handleNexus(req, res) {
   });
 }
 
+function decodeEntities(str) {
+  return String(str || "")
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&nbsp;/g, " ");
+}
+
+// GTA5-Mods.com is served through Cloudflare but does NOT challenge normal
+// requests, so unlike modland the server can scrape it directly - no userscript
+// needed. og:title/og:description give the text; the mod's own gallery lives
+// under img.gta5-mods.com/.../images/{slug}/ (slug = the URL's last segment),
+// and the size is baked into the path prefix, so q95/images/... is full-res.
+async function handleGta5(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  const match = url.match(/gta5-mods\.com\/[a-z]+\/([a-z0-9-]+)/i);
+  if (!match) throw new Error("Invalid GTA5-Mods URL. Expected: gta5-mods.com/{category}/{slug}");
+  const slug = match[1].toLowerCase();
+  const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+  const pageRes = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" }, signal: AbortSignal.timeout(20000) });
+  if (!pageRes.ok) throw new Error(`GTA5-Mods page returned ${pageRes.status}.`);
+  const html = await pageRes.text();
+
+  const meta = (prop) => (html.match(new RegExp(`<meta (?:property|name)="${prop}" content="([^"]*)"`, "i")) || [])[1] || "";
+  const name = decodeEntities(meta("og:title"));
+  const description = decodeEntities(meta("og:description") || meta("description"));
+  if (!name) throw new Error("Could not read the mod title from the page.");
+
+  const seen = new Set();
+  const imageUrls = [];
+  for (const raw of [...html.matchAll(/https?:\/\/img\.gta5-mods\.com\/[^"'\s)]+/gi)].map(m => m[0])) {
+    const im = raw.match(/\/images\/([^/]+)\/([^"'\s)]+?\.(?:jpg|jpeg|png|webp))/i);
+    if (!im || im[1].toLowerCase() !== slug) continue; // skip sidebar/related mods
+    if (seen.has(im[2])) continue;
+    seen.add(im[2]);
+    imageUrls.push(`https://img.gta5-mods.com/q95/images/${slug}/${im[2]}`);
+  }
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, { headers: { "User-Agent": UA, Referer: url }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      const ct = r.headers.get("content-type") || "image/jpeg";
+      if (!ct.startsWith("image/")) return null;
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+  send(res, 200, { ok: true, name, description, images, game: "gta5" });
+}
+
 async function tryGemini(apiKey, prompt) {
   if (!apiKey) return { ok: false, error: "no Gemini key" };
   const models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"];
@@ -458,6 +511,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/nexus") {
       await handleNexus(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/gta5") {
+      await handleGta5(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/stash") {
