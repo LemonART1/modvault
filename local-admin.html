@@ -90,10 +90,14 @@
           <label for="apiKey">Google AI Studio API key</label>
           <input id="apiKey" type="password" placeholder="Можно оставить пустым, если ключ задан в GEMINI_API_KEY">
         </div>
-        <div class="actions">
-          <button id="aiBtn" type="button">Run AI helper</button>
-          <span class="hint">Ключ сохраняется только в этом браузере, не в сайте.</span>
+        <div class="field">
+          <label for="groqApiKey">Groq API key (fallback, необязательно)</label>
+          <input id="groqApiKey" type="password" placeholder="Используется, если у Gemini закончилась квота">
         </div>
+      </div>
+      <div class="actions">
+        <button id="aiBtn" type="button">Run AI helper</button>
+        <span class="hint">Ключи сохраняются только в этом браузере, не в сайте.</span>
       </div>
       <div class="status" id="aiStatus">AI helper is ready.</div>
     </div>
@@ -313,7 +317,9 @@ ${$("rawText").value.trim()}`;
 
     async function runAi() {
       const apiKey = $("apiKey").value.trim();
+      const groqApiKey = $("groqApiKey").value.trim();
       if (apiKey) localStorage.setItem("modvault-local-gemini-key", apiKey);
+      if (groqApiKey) localStorage.setItem("modvault-local-groq-key", groqApiKey);
       if (!$("rawText").value.trim()) {
         setStatus($("aiStatus"), "Paste raw mod text first.", "bad");
         return;
@@ -324,7 +330,7 @@ ${$("rawText").value.trim()}`;
         const response = await fetch("/api/ai", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ apiKey, prompt: buildPrompt() })
+          body: JSON.stringify({ apiKey, groqApiKey, prompt: buildPrompt() })
         });
         const data = await response.json();
         if (!data.ok) throw new Error(data.error);
@@ -566,6 +572,7 @@ ${$("rawText").value.trim()}`;
     }
 
     $("apiKey").value = localStorage.getItem("modvault-local-gemini-key") || "";
+    $("groqApiKey").value = localStorage.getItem("modvault-local-groq-key") || "";
     $("nexusApiKey").value = localStorage.getItem("modvault-local-nexus-key") || "";
     loadData().then(maybeHashImport).then(maybeStashImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
   </script>

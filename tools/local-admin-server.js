@@ -318,12 +318,8 @@ async function handleNexus(req, res) {
   });
 }
 
-async function handleAi(req, res) {
-  const payload = JSON.parse(await readBody(req, 1024 * 1024));
-  const apiKey = String(payload.apiKey || process.env.GEMINI_API_KEY || "").trim();
-  if (!apiKey) throw new Error("Add a Google AI Studio API key or set GEMINI_API_KEY.");
-
-  const prompt = String(payload.prompt || "");
+async function tryGemini(apiKey, prompt) {
+  if (!apiKey) return { ok: false, error: "no Gemini key" };
   const models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"];
   let lastError = null;
 
@@ -335,21 +331,52 @@ async function handleAi(req, res) {
     });
     const data = await response.json();
     if (!data.error) {
-      send(res, 200, {
-        ok: true,
-        model,
-        text: data.candidates?.[0]?.content?.parts?.[0]?.text || ""
-      });
-      return;
+      return { ok: true, model, text: data.candidates?.[0]?.content?.parts?.[0]?.text || "" };
     }
     lastError = data.error;
     // 404 = model name not available, 429 = quota exhausted for this model.
     // Both are worth retrying on the next model (each has its own free quota);
-    // any other error (e.g. bad key) is fatal, so stop.
+    // any other error (e.g. bad key) is fatal, so stop trying Gemini models.
     if (data.error.code !== 404 && data.error.code !== 429) break;
   }
+  return { ok: false, error: lastError ? `${lastError.message} (${lastError.code})` : "Gemini did not return text." };
+}
 
-  throw new Error(lastError ? `${lastError.message} (${lastError.code})` : "Gemini did not return text.");
+// Groq fallback: same free-text prompt, OpenAI-compatible chat completions API.
+// Used when every Gemini model is out of daily quota (the shared 20 req/day
+// free tier is easy to exhaust while bulk-importing mods). Groq's free tier is
+// far more generous, so it rarely needs its own fallback.
+const GROQ_MODEL = "llama-3.3-70b-versatile";
+const GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions";
+
+async function tryGroq(apiKey, prompt) {
+  if (!apiKey) return { ok: false, error: "no Groq key" };
+  const response = await fetch(GROQ_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({ model: GROQ_MODEL, messages: [{ role: "user", content: prompt }] })
+  });
+  const data = await response.json();
+  if (!response.ok) return { ok: false, error: data.error?.message || `Groq HTTP ${response.status}` };
+  const text = data.choices?.[0]?.message?.content || "";
+  if (!text) return { ok: false, error: "Groq returned an empty response." };
+  return { ok: true, model: `groq/${GROQ_MODEL}`, text };
+}
+
+async function handleAi(req, res) {
+  const payload = JSON.parse(await readBody(req, 1024 * 1024));
+  const geminiKey = String(payload.apiKey || process.env.GEMINI_API_KEY || "").trim();
+  const groqKey = String(payload.groqApiKey || process.env.GROQ_API_KEY || "").trim();
+  if (!geminiKey && !groqKey) throw new Error("Add a Google AI Studio API key (or Groq key) or set GEMINI_API_KEY/GROQ_API_KEY.");
+
+  const prompt = String(payload.prompt || "");
+  const gemini = await tryGemini(geminiKey, prompt);
+  if (gemini.ok) { send(res, 200, { ok: true, model: gemini.model, text: gemini.text }); return; }
+
+  const groq = await tryGroq(groqKey, prompt);
+  if (groq.ok) { send(res, 200, { ok: true, model: groq.model, text: groq.text }); return; }
+
+  throw new Error(`Gemini: ${gemini.error} | Groq: ${groq.error}`);
 }
 
 // In-memory hand-off for the modland userscript. modland.net is fully behind
