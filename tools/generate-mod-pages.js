@@ -225,11 +225,19 @@ const footer = `<footer class="site-footer"><div class="container footer-inner">
 async function main() {
 const ratingAggregates = await fetchRatingAggregates();
 let count = 0;
+// Renaming a mod's title changes its slug, so the old page file is never
+// touched again by writeFileSync below - it just sits there as a dead/duplicate
+// URL forever (this happened for real: mod 177's old long title left behind
+// "177-bmw-m2-g87-high-quality-fully-openable.html" after being shortened).
+// Track every page path we actually generate, then delete anything else already
+// on disk under mods/<game>/ that isn't in that set.
+const generatedPaths = new Set();
 for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   const game = GAMES[mod.game];
   const dir = path.join(root, "mods", mod.game);
   fs.mkdirSync(dir, { recursive: true });
   const pagePath = `mods/${mod.game}/${slugify(`${mod.id}-${mod.title}`)}.html`;
+  generatedPaths.add(pagePath);
   const file = path.join(root, pagePath);
   const image = getImages(mod)[0];
   const title = `${mod.title} - Download ${game.name} Mod - ModVault`;
@@ -270,7 +278,20 @@ ${footer}
   count += 1;
 }
 
-console.log(`Generated ${count} mod pages.`);
+let removed = 0;
+for (const gameKey of Object.keys(GAMES)) {
+  const dir = path.join(root, "mods", gameKey);
+  if (!fs.existsSync(dir)) continue;
+  for (const name of fs.readdirSync(dir)) {
+    const rel = `mods/${gameKey}/${name}`;
+    if (!name.endsWith(".html") || generatedPaths.has(rel)) continue;
+    fs.unlinkSync(path.join(dir, name));
+    console.log(`Removed stale mod page: ${rel}`);
+    removed += 1;
+  }
+}
+
+console.log(`Generated ${count} mod pages.${removed ? ` Removed ${removed} stale page(s).` : ""}`);
 }
 
 main();
