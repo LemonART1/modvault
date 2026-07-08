@@ -3508,7 +3508,7 @@ const MODS = [
     game: "beamng",
     title: "Lamborghini Huracan",
     category: "cars",
-    version: "v2.7",
+    version: "2.7",
     size: "242 MB",
     images: [
       "images/mods/lamborghini-huracan-1.jpg"
@@ -3571,7 +3571,7 @@ const MODS = [
   {
     id: 177,
     game: "beamng",
-    title: "BMW M2 (G87) — High Quality & Fully Openable",
+    title: "BMW M2 (G87)",
     category: "cars",
     version: "3.0",
     size: "323 MB",

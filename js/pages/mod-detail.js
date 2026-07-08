@@ -16,7 +16,7 @@ function initModDetail(modId) {
           <div class="mod-detail-main-img" id="mod-detail-main-img" style="${thumbBg(mod)}">
             ${images.length ? `<img src="${esc(images[0])}" alt="${esc(mod.title)} screenshot">` : svgPlaceholderLg()}
           </div>
-          ${images.length > 1 ? `
+          ${images.length ? `
             <div class="mod-detail-thumbs">
               ${images.map((src, index) => `
                 <button class="mod-detail-thumb ${index === 0 ? "active" : ""}" type="button" onclick="setModDetailImage('${esc(src)}', ${index})">
@@ -38,7 +38,7 @@ function initModDetail(modId) {
           <h1 class="modal-title">${esc(mod.title)}</h1>
           <p class="modal-short">${esc(mod.short)}</p>
           <div class="modal-stats" style="--stat-count:4">
-            <div class="modal-stat"><span class="stat-val">v${esc(mod.version)}</span><span class="stat-lbl">Version</span></div>
+            <div class="modal-stat"><span class="stat-val">v${esc(String(mod.version).replace(/^\s*v\.?\s*/i, ""))}</span><span class="stat-lbl">Version</span></div>
             <div class="modal-stat"><span class="stat-val">${esc(mod.size)}</span><span class="stat-lbl">File size</span></div>
             <div class="modal-stat"><span class="stat-val" id="mod-downloads">${ModVaultStats.formatCompact(stats.downloads)}</span><span class="stat-lbl">Downloads</span></div>
             <div class="modal-stat"><span class="stat-val" id="mod-rating">${ModVaultStats.formatRating(stats.ratingAverage)}</span><span class="stat-lbl">Rating</span></div>

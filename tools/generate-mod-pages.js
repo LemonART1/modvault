@@ -191,7 +191,7 @@ function staticModContent(mod, game) {
         <h1 class="modal-title">${esc(mod.title)}</h1>
         <p class="modal-short">${esc(mod.short)}</p>
         <div class="modal-stats" style="--stat-count:3">
-          <div class="modal-stat"><span class="stat-val">v${esc(mod.version)}</span><span class="stat-lbl">Version</span></div>
+          <div class="modal-stat"><span class="stat-val">v${esc(String(mod.version).replace(/^\s*v\.?\s*/i, ""))}</span><span class="stat-lbl">Version</span></div>
           <div class="modal-stat"><span class="stat-val">${esc(mod.size)}</span><span class="stat-lbl">File size</span></div>
           <div class="modal-stat"><span class="stat-val">${esc(game.name)}</span><span class="stat-lbl">Game</span></div>
         </div>
@@ -244,7 +244,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=25">
+  <link rel="stylesheet" href="css/shared.css?v=26">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -261,7 +261,7 @@ ${footer}
 <script src="js/account.js?v=8"></script>
 <script src="js/comments.js?v=6"></script>
 <script src="js/reports.js?v=1"></script>
-<script src="js/pages/mod-detail.js?v=6"></script>
+<script src="js/pages/mod-detail.js?v=7"></script>
 <script>initModDetail(${mod.id});</script>
 </body>
 </html>
