@@ -711,29 +711,6 @@ const MODS = [
     featured: true
   },
   {
-    id: 39,
-    game: "ac",
-    title: "Audi RS3 Sedan (DMVC Spec)",
-    category: "cars",
-    version: "1.0",
-    size: "56 MB",
-    images: [
-      "images/mods/Audi-RS3.webp",
-      "images/mods/2Audi-RS3.webp",
-      "images/mods/3Audi-RS3.webp"
-    ],
-    downloadUrl: "https://modsfire.com/IJNNxH6tle29Ngr",
-    short: "Drift competition sedan",
-    description: "Audi RS3 Sedan DMVC spec built for competitive drift championships, aggressive widebody kit with large rear wing, custom racing livery and deep dish BBS wheels, stripped interior tuned for high angle drifting, performance oriented setup for stable tandem driving, optimized model for smooth online multiplayer gameplay",
-    tags: [
-      "car",
-      "sedan",
-      "audi",
-      "rs3"
-    ],
-    featured: true
-  },
-  {
     id: 40,
     game: "ac",
     title: "Porsche 911 GT3 RS",
