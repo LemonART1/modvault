@@ -3455,6 +3455,184 @@ const MODS = [
       "tuning"
     ],
     featured: true
+  },
+  {
+    id: 172,
+    game: "beamng",
+    title: "BMW M5 F90",
+    category: "cars",
+    version: "4.0",
+    size: "895 MB",
+    images: [
+      "images/mods/bmw-m5-f90-1.jpg",
+      "images/mods/bmw-m5-f90-2.jpg",
+      "images/mods/bmw-m5-f90-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/15twrW2wU7969bm",
+    short: "Experience the highly detailed BMW M5 F90 with real power and sound.",
+    description: "This mod introduces a highly detailed BMW M5 F90 to BeamNG.drive. It features multiple variants including LCI, Pre-LCI, CS, and ASCO models for diverse experiences. Players can enjoy realistic power and authentic engine sounds that enhance immersion. The mod also comes with an expanded selection of wheels for greater customization options. Experience the thrill of driving this iconic performance sedan with impressive fidelity.",
+    tags: [
+      "bmw",
+      "m5",
+      "f90",
+      "car",
+      "sport"
+    ],
+    featured: true
+  },
+  {
+    id: 173,
+    game: "beamng",
+    title: "Nissan Skyline R34 GT-R",
+    category: "cars",
+    version: "1.0",
+    size: "368 MB",
+    images: [
+      "images/mods/nissan-skyline-r34-gt-r-1.jpg",
+      "images/mods/nissan-skyline-r34-gt-r-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SA2QK303Xu6gP8z",
+    short: "Detailed Nissan Skyline R34 GT-R with working lights and options.",
+    description: "This mod adds the iconic Nissan Skyline R34 GT-R to BeamNG.drive. It features a highly detailed model with a high-quality interior. Enjoy working lights and multiple configurations for varied gameplay. It also includes various color options to customize your ride.",
+    tags: [
+      "nissan",
+      "skyline",
+      "r34",
+      "gtr",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 174,
+    game: "beamng",
+    title: "Lamborghini Huracan",
+    category: "cars",
+    version: "v2.7",
+    size: "242 MB",
+    images: [
+      "images/mods/lamborghini-huracan-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kx4IOrU6qJ72GEd",
+    short: "Adds a high-quality Lamborghini Huracan with detailed model and physics.",
+    description: "This mod introduces a high-quality Lamborghini Huracan to BeamNG.drive. It features a detailed 3D engine, animated steering wheel, and a functional digital speedometer. Enjoy realistic touches like reflective mirrors, opening doors, and destructible headlights and windows. The car also boasts dynamic suspension operation for an immersive driving experience.",
+    tags: [
+      "lamborghini",
+      "huracan",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 175,
+    game: "beamng",
+    title: "Audi RS3 Sport 2023",
+    category: "cars",
+    version: "1.0",
+    size: "261 MB",
+    images: [
+      "images/mods/audi-rs3-sport-2023-1.jpg",
+      "images/mods/audi-rs3-sport-2023-2.jpg",
+      "images/mods/audi-rs3-sport-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/C0A738uAycpU68q",
+    short: "Add the detailed Audi RS3 Sport 2023 to your game.",
+    description: "Experience the Audi RS3 Sport 2023 with four realistic configurations. Enjoy authentic tuning and driving settings for a true-to-life feel. The mod features a high-quality, detailed interior and fully functional lighting. Custom-designed wheels and full PBR materials enhance visual realism. This car mod provides an immersive driving experience in BeamNG.drive.",
+    tags: [
+      "audi rs3",
+      "sport car",
+      "realistic",
+      "pbr"
+    ],
+    featured: true
+  },
+  {
+    id: 176,
+    game: "beamng",
+    title: "BMW E36",
+    category: "cars",
+    version: "1.0",
+    size: "121 MB",
+    images: [
+      "images/mods/bmw-e36-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Hy0R1Cs47mgEqE7",
+    short: "Adds a highly detailed and realistic BMW E36 to BeamNG.drive.",
+    description: "This mod introduces the iconic BMW E36 to BeamNG.drive, featuring highly detailed technical and mechanical specifications. It accurately simulates the legendary M50B25 and S50B32 (M3) engine blocks, complete with authentic torque curves. Players can experience realistic throttle response and engine sounds, enhancing the immersion. The visual design details are faithfully recreated to match the classic vehicle. Enjoy driving a meticulously crafted E36 with full fidelity.",
+    tags: [
+      "bmw",
+      "e36",
+      "car",
+      "realistic",
+      "engine"
+    ],
+    featured: true
+  },
+  {
+    id: 177,
+    game: "beamng",
+    title: "BMW M2 (G87) — High Quality & Fully Openable",
+    category: "cars",
+    version: "3.0",
+    size: "323 MB",
+    images: [
+      "images/mods/bmw-m2-g87-high-quality-fully-openable-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cxD230ss4VdzCZB",
+    short: "High-quality BMW M2 (G87) with realistic physics and openable parts.",
+    description: "Experience the aggressive dynamics of the modern Bavarian compact coupe! The BMW M2 (G87) for BeamNG.drive delivers premium modeling quality, full body interactivity, and realistic crash physics, making it perfect for track days and tight drift corners. It boasts fully openable doors, hood, and trunk, along with high-fidelity 3D exterior and detailed interior cabin modeling. Advanced deformation physics and authentic lighting optics ensure a modern and immersive driving experience. Choose from 9 unique configurations to customize your ride.",
+    tags: [
+      "bmw m2",
+      "sports car",
+      "realistic",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 178,
+    game: "beamng",
+    title: "Audi S8 D2",
+    category: "cars",
+    version: "1.1",
+    size: "66 MB",
+    images: [
+      "images/mods/audi-s8-d2-1.jpg",
+      "images/mods/audi-s8-d2-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7h55cz5Jf96h37C",
+    short: "Classic Audi S8 D2 with 9 configs, custom sounds, and improved JBeam.",
+    description: "Experience the classic Audi S8 D2 in BeamNG.drive with its latest v1.1 update. This version includes slight model tweaks and removed unnecessary long blocks for a smoother experience. The mod features 9 unique configurations to choose from, along with custom sounds for an immersive feel. Enjoy realistic headlight bloom, incorporating both baked and glow effects. The JBeam structure has also been carefully edited to enhance the car's physics and handling within the game.",
+    tags: [
+      "audi",
+      "s8",
+      "car",
+      "sedan",
+      "sounds"
+    ],
+    featured: true
+  },
+  {
+    id: 179,
+    game: "beamng",
+    title: "Seat Leon Cupra 2022 Sportline Edition",
+    category: "cars",
+    version: "1.0",
+    size: "375 MB",
+    images: [
+      "images/mods/seat-leon-cupra-2022-sportline-edition-1.jpg",
+      "images/mods/seat-leon-cupra-2022-sportline-edition-2.jpg",
+      "images/mods/seat-leon-cupra-2022-sportline-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/im11ZOc3DuV8No0",
+    short: "Add the sporty and realistic Seat Leon Cupra 2022 to BeamNG.drive.",
+    description: "Experience the perfect blend of sporty performance, aggressive styling, and realistic driving dynamics with the Seat Leon Cupra mod. This highly detailed vehicle mod brings one of the most recognizable European hot hatchbacks into the game, offering an immersive driving experience. Designed with attention to detail, it accurately recreates the exterior, interior, and driving characteristics of the real vehicle, leveraging BeamNG.drive’s advanced physics. The mod features a premium-quality 3D model with full PBR materials for realistic reflections, textures, and lighting effects.",
+    tags: [
+      "seat cupra",
+      "hatchback",
+      "sport car"
+    ],
+    featured: true
   }
 ];
 
