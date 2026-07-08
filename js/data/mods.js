@@ -3633,6 +3633,229 @@ const MODS = [
       "sport car"
     ],
     featured: true
+  },
+  {
+    id: 180,
+    game: "beamng",
+    title: "Jeep Grand Cherokee Trackhawk/SRT + Wheel Pack",
+    category: "cars",
+    version: "1.0",
+    size: "815 MB",
+    images: [
+      "images/mods/jeep-grand-cherokee-trackhawksrt-wheel-pack-1.jpg",
+      "images/mods/jeep-grand-cherokee-trackhawksrt-wheel-pack-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/a9CgYT93VxwDr8w",
+    short: "Experience the Jeep Grand Cherokee Trackhawk/SRT with realistic physics and sounds.",
+    description: "This custom pack brings the Jeep Grand Cherokee Trackhawk/SRT to BeamNG.drive, complete with a specialized wheel pack. It features PBR materials, high-quality engine sounds, and a new navigation system for an immersive driving experience. Enjoy realistic car physics, including real weight, engine characteristics, and aerodynamic properties. The mod includes an intricately animated interior with reflections, varied chair types, and correctly adjusted headlights. Experience authentic visuals with a realistic color palette and high-quality tire textures.",
+    tags: [
+      "jeep",
+      "trackhawk",
+      "srt",
+      "wheels",
+      "car pack"
+    ],
+    featured: true
+  },
+  {
+    id: 181,
+    game: "beamng",
+    title: "Koenigsegg Jesko 2023 Offroad Edition",
+    category: "cars",
+    version: "1.0",
+    size: "647 MB",
+    images: [
+      "images/mods/koenigsegg-jesko-2023-offroad-edition-1.jpg",
+      "images/mods/koenigsegg-jesko-2023-offroad-edition-2.jpg",
+      "images/mods/koenigsegg-jesko-2023-offroad-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bnya41DTk43q6QE",
+    short: "Add the incredible Koenigsegg Jesko Offroad hypercar to BeamNG.drive.",
+    description: "Experience one of the world's most extraordinary hypercars with this meticulously crafted Koenigsegg Jesko mod for BeamNG.drive. Designed with exceptional attention to detail, this vehicle delivers an authentic blend of breathtaking performance and realistic physics. Its unique off-road tuning ensures exhilarating handling on diverse terrains, pushing the boundaries of what a hypercar can do. Enjoy a fully immersive driving experience with precise controls and stunning visual fidelity.",
+    tags: [
+      "koenigsegg",
+      "jesko",
+      "hypercar",
+      "offroad"
+    ],
+    featured: true
+  },
+  {
+    id: 182,
+    game: "beamng",
+    title: "Volkswagen Golf MK7.5 R / GTI (2017–2020)",
+    category: "cars",
+    version: "1.0",
+    size: "116 MB",
+    images: [
+      "images/mods/volkswagen-golf-mk75-r-gti-20172020-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yMuIj49I7vW5GoV",
+    short: "Detailed Volkswagen Golf MK7.5 R/GTI with customization for BeamNG.drive.",
+    description: "Experience the highly detailed Volkswagen Golf MK7.5 R and GTI in BeamNG.drive. This mod features a meticulously crafted model that brings realism to your driving. Enjoy functional working lights and explore multiple configurations to suit your preferences. Personalize your Golf with various customization options available. It's a comprehensive package for fans of the iconic hot hatch.",
+    tags: [
+      "golf",
+      "gti",
+      "car",
+      "custom",
+      "detailed"
+    ],
+    featured: true
+  },
+  {
+    id: 183,
+    game: "beamng",
+    title: "BMW M3 G80/G81",
+    category: "cars",
+    version: "v2.8",
+    size: "175 MB",
+    images: [
+      "images/mods/bmw-m3-g80g81-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZOeXC6RHPRyjRa1",
+    short: "Adds a highly detailed BMW M3 G80/G81 with custom sound.",
+    description: "This mod introduces the BMW M3 G80/G81 to BeamNG.drive with high-quality modelling and PBR textures for a realistic look. It features 100% accurate jbeaming and includes a custom sound by Cyborella, enhancing the driving experience. The detailed interior boasts animated elements and working lights, while the performance data is meticulously replicated for authenticity. Experience driving this iconic sports car with impressive visual and audio fidelity.",
+    tags: [
+      "bmw",
+      "m3",
+      "sports car",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 184,
+    game: "beamng",
+    title: "Koenigsegg Agera",
+    category: "cars",
+    version: "1.0",
+    size: "166 MB",
+    images: [
+      "images/mods/koenigsegg-agera-1.jpg",
+      "images/mods/koenigsegg-agera-2.jpg",
+      "images/mods/koenigsegg-agera-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nj4xK347VH9d9eJ",
+    short: "Experience a highly detailed Koenigsegg Agera with custom features in BeamNG.drive.",
+    description: "This mod introduces a highly detailed Koenigsegg Agera to BeamNG.drive, featuring a high-quality exterior and interior model. Enjoy a meticulously crafted engine compartment, PBR materials, custom sounds, and an edited Jbeam for realistic physics. The vehicle includes working lights, mirrors, openable parts, a removable roof, and custom wheels. Choose from 7 configurations and experience full support for career mode gameplay.",
+    tags: [
+      "koenigsegg",
+      "agera",
+      "supercar",
+      "sport car"
+    ],
+    featured: true
+  },
+  {
+    id: 185,
+    game: "beamng",
+    title: "Bugatti Veyron EB 16.4",
+    category: "cars",
+    version: "2.0",
+    size: "226 MB",
+    images: [
+      "images/mods/bugatti-veyron-eb-164-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/88t47I63604c0a6",
+    short: "Adds the iconic Bugatti Veyron with realistic physics and detail.",
+    description: "This mod brings the iconic Bugatti Veyron EB 16.4 to BeamNG.drive, featuring 18 configurations with various options. It boasts a high-detail 3D model, high-quality textures, and a fully custom JBeam for realistic damage and deformation physics. The interior includes multiple interactive buttons, dynamic mirrors, and a multi-layered design with diverse trim and color choices. Enjoy custom driving modes with automatic shifting and a fully working, animated rear wing. This highly detailed vehicle is perfect for sports racing, everyday driving, and creating realistic scenarios in-game.",
+    tags: [
+      "bugatti",
+      "veyron",
+      "supercar",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 186,
+    game: "beamng",
+    title: "BMW E46 3-Series Pro Drift",
+    category: "cars",
+    version: "v1.0",
+    size: "614 MB",
+    images: [
+      "images/mods/bmw-e46-3-series-pro-drift-1.jpg",
+      "images/mods/bmw-e46-3-series-pro-drift-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7HkKUZz4i9zRjQ4",
+    short: "High-quality BMW E46 Pro Drift car with customizable engines and body kits.",
+    description: "Experience the thrill of drifting with this highly detailed BMW E46 3-Series Pro Drift mod for BeamNG.drive. It features three comprehensive body kits, allowing for extensive visual customization. Players can choose between a powerful BMW S54B32 engine or a classic Toyota 2JZ swap to suit their drifting style. The mod includes high-quality textures, detailed 3D models, and a custom interior with a functional hydraulic handbrake and gear shifter. Enjoy fully openable parts, custom wheels, and various headlight options for an immersive driving experience.",
+    tags: [
+      "drift",
+      "bmw",
+      "e46",
+      "custom",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 187,
+    game: "beamng",
+    title: "2023 Audi RS6 C8",
+    category: "cars",
+    version: "3.0",
+    size: "170 MB",
+    images: [
+      "images/mods/2023-audi-rs6-c8-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kZg6cQ0DPnu5t16",
+    short: "Experience the powerful, highly detailed 2023 Audi RS6 C8 station wagon.",
+    description: "This mod introduces the powerful 2023 Audi RS6 C8 station wagon to BeamNG.drive. It features seven distinct configurations for varied gameplay experiences. The vehicle boasts a complete and extremely detailed redesign of its 3D model. Additionally, it includes working sensors (beta), more powerful brakes with a new 3D model, and custom large, wide rims and tires. All previous texture issues have been thoroughly addressed and fixed in this version.",
+    tags: [
+      "audi",
+      "rs6",
+      "car",
+      "station wagon",
+      "detailed"
+    ],
+    featured: true
+  },
+  {
+    id: 188,
+    game: "beamng",
+    title: "Mercedes-Benz A45 AMG 2014",
+    category: "cars",
+    version: "1.2",
+    size: "498 MB",
+    images: [
+      "images/mods/mercedes-benz-a45-amg-2014-1.jpg",
+      "images/mods/mercedes-benz-a45-amg-2014-2.jpg",
+      "images/mods/mercedes-benz-a45-amg-2014-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/PUwxzcmpz6rbnRn",
+    short: "Adds a highly detailed Mercedes-Benz A45 AMG 2014 car.",
+    description: "This mod introduces a highly detailed Mercedes-Benz A45 AMG 2014 to BeamNG.drive, featuring an excellent model for both the exterior and interior. It comes with PBR materials, custom sounds, and a meticulously developed engine compartment. The vehicle includes an animated dashboard, working pedals, functional radio, and realistic lighting equipment and mirrors. Players can also enjoy tuning options, custom skins, unique wheels, and five distinct configurations.",
+    tags: [
+      "mercedes",
+      "amg",
+      "car",
+      "vehicle",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 189,
+    game: "beamng",
+    title: "Toyota Land Cruiser 70th Anniversary (300)",
+    category: "cars",
+    version: "1.8",
+    size: "91 MB",
+    images: [
+      "images/mods/toyota-land-cruiser-70th-anniversary-300-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yqqMrV2fqS3wL8Z",
+    short: "Experience premium off-road and city driving with the Toyota Land Cruiser.",
+    description: "Conquer any terrain with this legendary Japanese full-size SUV for BeamNG.drive. It offers a premium off-road and city driving experience, featuring high-quality modeling for both exterior and detailed interior. Enjoy smooth steering wheel animations, functional instrument cluster illumination, and fully working headlight and taillight optics. The mod includes its own dedicated set of factory Toyota wheels and 7 unique configurations for luxury cruising or heavy off-road use.",
+    tags: [
+      "toyota",
+      "land cruiser",
+      "suv",
+      "offroad"
+    ],
+    featured: true
   }
 ];
 
