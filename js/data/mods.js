@@ -3956,7 +3956,7 @@ const MODS = [
     images: [
       "images/mods/f1-2008-mclaren-mp4-23-1.jpg"
     ],
-    downloadUrl: "https://modsfire.com/FZ8mD1SU5tW1AVN",
+    downloadUrl: "https://modsfire.com/M5JW7kX47o6N3i6",
     short: "Add the iconic 2008 McLaren MP4-23 F1 car to Assetto Corsa.",
     description: "Experience the iconic F1 2008 McLaren MP4-23, an authentic Formula 1 car from Great Britain. This vehicle features 780 hp, 316 Nm of torque, and a top speed of 320 km/h. It boasts a RWD drivetrain, sequential gearbox, and a lightweight mass of 605 kg. Accelerate from 0-100 km/h in a blistering 3.6 seconds, delivering thrilling performance. Install this mod to bring a piece of F1 history and high-speed racing to your Assetto Corsa game.",
     tags: [
