@@ -18,3 +18,6 @@ _backup_*/
 
 # Logs
 *.log
+
+# Local secrets (never commit)
+.env

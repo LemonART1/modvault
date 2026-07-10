@@ -14,5 +14,13 @@ if %errorlevel% equ 0 (
 echo Starting ModVault Local Admin...
 echo Open http://localhost:8787/local-admin.html if the browser does not open automatically.
 start "" "http://localhost:8787/local-admin.html"
-node tools\local-admin-server.js
+
+REM Load local secrets (GROQ_API_KEY etc.) from .env if present. The file is
+REM gitignored and holds the Groq fallback key so the AI keeps working after
+REM Gemini's daily quota runs out, without pasting it in the browser each time.
+if exist ".env" (
+  node --env-file=.env tools\local-admin-server.js
+) else (
+  node tools\local-admin-server.js
+)
 pause
