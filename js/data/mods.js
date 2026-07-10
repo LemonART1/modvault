@@ -3833,6 +3833,402 @@ const MODS = [
       "offroad"
     ],
     featured: true
+  },
+  {
+    id: 190,
+    game: "ac",
+    title: "HAMBURG",
+    category: "tracks",
+    version: "1.3",
+    size: "937 MB",
+    images: [
+      "images/mods/hamburg-1.jpg",
+      "images/mods/hamburg-2.jpg",
+      "images/mods/hamburg-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/46gN18yjXEXY24z",
+    short: "Experience a free Assetto Corsa track demo featuring Hamburg and Harbour.",
+    description: "This is a free Track Demo that includes the two major spawns, ''Hamburg by 4r'' and ''Harbour Freeroam. The free version does not have Freeroam Access or Extended Highway. In addition, the impending Denmark 1.3 Update will prevent this Free Version from connecting with Denmark via 4r map.",
+    tags: [
+      "hamburg",
+      "track",
+      "demo",
+      "freeroam",
+      "map"
+    ],
+    featured: true
+  },
+  {
+    id: 191,
+    game: "ac",
+    title: "SPR Graphics Settings - Pure Config and Video/CSP Presets",
+    category: "apps",
+    version: "1.0",
+    size: "90 KB",
+    images: [
+      "images/mods/spr-graphics-settings-pure-config-and-videocsp-presets-1.jpg",
+      "images/mods/spr-graphics-settings-pure-config-and-videocsp-presets-2.jpg",
+      "images/mods/spr-graphics-settings-pure-config-and-videocsp-presets-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3ld8wy1Uyxsbo8X",
+    short: "Enhance Assetto Corsa visuals with Pure Config and CSP presets for realism.",
+    description: "The SPR Graphics Settings mod significantly enhances Assetto Corsa's visual experience with a comprehensive pack of configuration settings. It includes 'Pure Config' designed to optimize in-game graphics detailing, texture quality, and anti-aliasing for a more realistic look on various systems. Additionally, 'Video/CSP Presets' offer predefined settings for visual effects, shading, lighting, and weather conditions, calibrated for a cohesive aesthetic. This mod is specifically intended to be used with Pure or the Pure Candy PP filter. For optimal functioning, users will need to have the Custom Shader Patch (CSP) installed, and a detailed installation guide is provided.",
+    tags: [
+      "csp",
+      "graphics",
+      "visuals",
+      "pure",
+      "presets"
+    ],
+    featured: true
+  },
+  {
+    id: 192,
+    game: "ac",
+    title: "CSP + RainFx v0.3.0",
+    category: "apps",
+    version: "v0.3.0",
+    size: "137 MB",
+    images: [
+      "images/mods/csp-rainfx-v030-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rs050pH2h309SE4",
+    short: "Elevate Assetto Corsa visuals with dynamic rain and shader enhancements.",
+    description: "This mod introduces the highly anticipated Custom Shaders Patch (CSP) with integrated RainFX features to Assetto Corsa. Experience dynamic weather effects, realistic rain droplets, and enhanced visual fidelity on tracks and cars. The Preview445 update brings further optimizations and bug fixes for a smoother driving experience. It significantly improves the graphical capabilities of the game, adding depth and immersion. Enjoy advanced lighting, reflections, and particle effects previously unavailable in the base game.",
+    tags: [
+      "rainfx",
+      "csp",
+      "shaders",
+      "visuals",
+      "weather"
+    ],
+    featured: true
+  },
+  {
+    id: 193,
+    game: "ac",
+    title: "BMW M5 F90 CS",
+    category: "cars",
+    version: "v1.0",
+    size: "162 MB",
+    images: [
+      "images/mods/bmw-m5-f90-cs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z8MN75Js68pbtJs",
+    short: "Experience the powerful 2022 BMW M5 F90 CS in Assetto Corsa.",
+    description: "This mod introduces the 2022 BMW M5 F90 CS to Assetto Corsa. It features a powerful 732 hp engine with 879 Nm of torque. The car boasts an impressive top speed of 360 km/h and accelerates from 0-100 km/h in just 2.8 seconds. Equipped with AWD and a semi-automatic gearbox, this road and sportscar offers a thrilling driving experience. Its mass is 1825 kg, providing a balanced performance on the track.",
+    tags: [
+      "bmw",
+      "m5",
+      "f90",
+      "sports car",
+      "awd"
+    ],
+    featured: true
+  },
+  {
+    id: 194,
+    game: "ac",
+    title: "Dodge Viper GT3-R",
+    category: "cars",
+    version: "v1.0",
+    size: "474 MB",
+    images: [
+      "images/mods/dodge-viper-gt3-r-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NcuKa9JclN3LKdw",
+    short: "Unleash the 2015 Dodge Viper GT3-R's power on Assetto Corsa tracks.",
+    description: "Experience the raw power of the 2015 Dodge Viper GT3-R in Assetto Corsa. This American GT3-spec race car boasts 652 hp, 823 Nm of torque, and can hit 100 km/h in just 3.2 seconds with a top speed of 295 km/h. Featuring RWD drivetrain and a sequential gearbox, it weighs in at 1300 kg for a thrilling drive. Ensure you have Content Manager and Custom Shaders Patch installed for proper functionality and the best experience.",
+    tags: [
+      "dodge viper",
+      "gt3",
+      "racing car"
+    ],
+    featured: true
+  },
+  {
+    id: 195,
+    game: "ac",
+    title: "F1 2008 – McLaren MP4-23",
+    category: "cars",
+    version: "1.0",
+    size: "76 MB",
+    images: [
+      "images/mods/f1-2008-mclaren-mp4-23-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/FZ8mD1SU5tW1AVN",
+    short: "Add the iconic 2008 McLaren MP4-23 F1 car to Assetto Corsa.",
+    description: "Experience the iconic F1 2008 McLaren MP4-23, an authentic Formula 1 car from Great Britain. This vehicle features 780 hp, 316 Nm of torque, and a top speed of 320 km/h. It boasts a RWD drivetrain, sequential gearbox, and a lightweight mass of 605 kg. Accelerate from 0-100 km/h in a blistering 3.6 seconds, delivering thrilling performance. Install this mod to bring a piece of F1 history and high-speed racing to your Assetto Corsa game.",
+    tags: [
+      "f1 car",
+      "mclaren",
+      "racecar",
+      "2008",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 196,
+    game: "ac",
+    title: "Porsche \"Traction Master\" 930",
+    category: "cars",
+    version: "0.6",
+    size: "104 MB",
+    images: [
+      "images/mods/porsche-traction-master-930-1.jpg",
+      "images/mods/porsche-traction-master-930-2.jpg",
+      "images/mods/porsche-traction-master-930-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/v90PrYN60Q778Tj",
+    short: "Drive the classic Porsche \"Traction Master\" 930 with detailed visuals.",
+    description: "This mod introduces the iconic Porsche \"Traction Master\" 930 to Assetto Corsa. It features metallic paint, part-changing skins, and detailed PBR materials for both exterior and interior. Experience advanced lighting with refracting headlights, tail lights, blinkers, and reverse lights, plus toggleable fog lights via Extra A. The vehicle also boasts animated wipers with trace effects and emissive interior lighting for enhanced realism.",
+    tags: [
+      "porsche",
+      "930",
+      "classic",
+      "car",
+      "detailed"
+    ],
+    featured: true
+  },
+  {
+    id: 197,
+    game: "ac",
+    title: "Toyota GT86 (Street Spec.)",
+    category: "cars",
+    version: "v1.0",
+    size: "114 MB",
+    images: [
+      "images/mods/toyota-gt86-street-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7F1eJkxrQx67276",
+    short: "Aggressive Toyota GT86 Street Spec. car for Assetto Corsa.",
+    description: "This mod introduces the Toyota GT86 (Street Spec.) to Assetto Corsa, perfect for street performance. It features an aggressive Japanese sport coupe design, tuned for spirited daily driving. The vehicle boasts custom Street Spec styling, including a vibrant red finish, distinct 6-spoke wheels, and a cut rear bumper. Enjoy balanced rear-wheel-drive physics for an authentic driving experience.",
+    tags: [
+      "toyota",
+      "gt86",
+      "street car",
+      "sport coupe"
+    ],
+    featured: true
+  },
+  {
+    id: 198,
+    game: "ac",
+    title: "Pagani Zonda AY | No Hesi Spec",
+    category: "cars",
+    version: "1.0",
+    size: "74 MB",
+    images: [
+      "images/mods/pagani-zonda-ay-no-hesi-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/02wcIx6ID5w0rZP",
+    short: "Experience the iconic Pagani Zonda AY with No Hesi Spec.",
+    description: "Meet the No Hesi Spec Pagani Zonda AY, a sculptural icon brought to life in vivid detail for Assetto Corsa. Its naturally aspirated V12 voice has been amplified into a symphony of mechanical power. Experience its advanced aerodynamics that precisely slice through the virtual wind, offering unparalleled handling. This mod delivers a high-fidelity driving experience, capturing the essence of the real Zonda AY.",
+    tags: [
+      "pagani",
+      "zonda",
+      "supercar",
+      "race car"
+    ],
+    featured: true
+  },
+  {
+    id: 199,
+    game: "ac",
+    title: "Jaguar XF-RS ‘15",
+    category: "cars",
+    version: "v1.0",
+    size: "46 MB",
+    images: [
+      "images/mods/jaguar-xf-rs-15-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p23aqOwL38NduRa",
+    short: "Experience the powerful Jaguar XF-RS '15, a British super-sedan.",
+    description: "Experience the high-performance British super-sedan, the Jaguar XF-RS ‘15. This mod features a supercharged V8 engine for exhilarating drives. It boasts bold 2015 XF-RS body styling with a sport rear wing and dark metallic finish. Enjoy fun rear-wheel drive physics, perfect for highway cruising and power slides.",
+    tags: [
+      "jaguar",
+      "xf-rs",
+      "sports car",
+      "british"
+    ],
+    featured: true
+  },
+  {
+    id: 200,
+    game: "ac",
+    title: "Volkswagen Polo Rally",
+    category: "cars",
+    version: "v2.15",
+    size: "58 MB",
+    images: [
+      "images/mods/volkswagen-polo-rally-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oNh8tFq6L90CIWW",
+    short: "Bring the iconic Volkswagen Polo Rally car to Assetto Corsa.",
+    description: "Experience the thrill of rally racing with the Volkswagen Polo Rally car. This mod features a powerful 1.6L 4-cylinder engine, delivering 272 horsepower for intense performance. Equipped with a 5-speed gearbox and 4x4 drivetrain, it ensures excellent handling on various terrains.",
+    tags: [
+      "volkswagen",
+      "polo",
+      "rally",
+      "car",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 201,
+    game: "ac",
+    title: "Ford Mustang S650 GT3",
+    category: "cars",
+    version: "v1.0",
+    size: "72 MB",
+    images: [
+      "images/mods/ford-mustang-s650-gt3-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2ACqLvNhYgB2557",
+    short: "Experience the powerful 2024 Ford Mustang S650 GT3 race car.",
+    description: "This mod introduces the high-performance 2024 Ford Mustang S650 GT3 to Assetto Corsa. It features a powerful 568 hp engine and 592 Nm of torque, allowing it to reach a top speed of 294 km/h. With its RWD drivetrain and sequential gearbox, the car accelerates from 0-100 km/h in just 3.6 seconds. Weighing 1250 kg, it offers a realistic GT3 racing experience. Please note that this mod requires Content Shader Patch (CSP) to function correctly.",
+    tags: [
+      "ford mustang",
+      "gt3",
+      "race car"
+    ],
+    featured: true
+  },
+  {
+    id: 202,
+    game: "ac",
+    title: "F1 2008 – Super Aguri SA08A",
+    category: "cars",
+    version: "v1.0",
+    size: "76 MB",
+    images: [
+      "images/mods/f1-2008-super-aguri-sa08a-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/FZ8mD1SU5tW1AVN",
+    short: "Add the iconic 2008 Super Aguri SA08A F1 car to Assetto Corsa.",
+    description: "This mod introduces the Super Aguri SA08A Formula 1 car from the 2008 season. Experience the iconic Japanese F1 machine with its RWD drivetrain. It boasts 780 hp, 316 Nm of torque, and a top speed of 320 km/h. The car can accelerate from 0-100 km/h in just 3 seconds, featuring a sequential gearbox. Drive this lightweight 605 kg F1 vehicle for an authentic racing simulation.",
+    tags: [
+      "f1 car",
+      "formula 1",
+      "racing",
+      "2008 season"
+    ],
+    featured: true
+  },
+  {
+    id: 203,
+    game: "ac",
+    title: "Aston Martin V12 Vantage",
+    category: "cars",
+    version: "v1.0",
+    size: "74 MB",
+    images: [
+      "images/mods/aston-martin-v12-vantage-1.jpg",
+      "images/mods/aston-martin-v12-vantage-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eVfe26416GVwQ3a",
+    short: "Drive the powerful 2023 Aston Martin V12 Vantage supercar in Assetto Corsa.",
+    description: "This mod introduces the 2023 Aston Martin V12 Vantage, a high-performance supercar from Great Britain, to Assetto Corsa. It boasts a powerful 690 hp engine with 753 Nm of torque, enabling a top speed of 346 km/h. The car features a RWD drivetrain and a semi-automatic gearbox, reaching 100 km/h in just 4.6 seconds. Weighing 1760 kg, it offers a thrilling driving experience with authentic specifications.",
+    tags: [
+      "aston martin",
+      "supercar",
+      "v12",
+      "british"
+    ],
+    featured: true
+  },
+  {
+    id: 204,
+    game: "ac",
+    title: "Subaru WRX STi 2016 650hp",
+    category: "cars",
+    version: "v1.0",
+    size: "122 MB",
+    images: [
+      "images/mods/subaru-wrx-sti-2016-650hp-1.jpg",
+      "images/mods/subaru-wrx-sti-2016-650hp-2.jpg",
+      "images/mods/subaru-wrx-sti-2016-650hp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/62iB8L73aA36VGd",
+    short: "Experience the powerful Subaru WRX STi 2016 650hp in Assetto Corsa.",
+    description: "This mod brings the powerful Subaru WRX STi 2016 with 650hp to Assetto Corsa. It retains the iconic 2.5-liter EJ257 engine with dual AVCS from the previous generation STI. ECU modifications have slightly improved fuel economy and boosted the factory power to 227 kW (305 HP), providing a thrilling driving experience. Enjoy its agile handling and performance on any track. This high-performance variant is a must-have for car enthusiasts.",
+    tags: [
+      "subaru",
+      "wrx",
+      "sti",
+      "sport car",
+      "jdm"
+    ],
+    featured: true
+  },
+  {
+    id: 205,
+    game: "ac",
+    title: "BMW M4 crash.Sp Varis Widebody",
+    category: "cars",
+    version: "v1.0",
+    size: "76 MB",
+    images: [
+      "images/mods/bmw-m4-crashsp-varis-widebody-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5G9x905SfMOVhgK",
+    short: "2014 BMW M4 Varis Widebody RWD sportscar mod.",
+    description: "This mod features the 2014 BMW M4 crash.Sp Varis Widebody. It is a German road sportscar with RWD, 733 hp, and a top speed of 319 km/h. Installation instructions are provided separately.",
+    tags: [
+      "bmw",
+      "m4",
+      "sportscar",
+      "widebody",
+      "tuned"
+    ],
+    featured: true
+  },
+  {
+    id: 206,
+    game: "ac",
+    title: "Ford Fiesta WRC+ 2019",
+    category: "cars",
+    version: "1.0",
+    size: "388 MB",
+    images: [
+      "images/mods/ford-fiesta-wrc-2019-1.jpg",
+      "images/mods/ford-fiesta-wrc-2019-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XO2867vO7F02B8F",
+    short: "Add the 2019 Ford Fiesta WRC+ rally car with detailed specs.",
+    description: "This mod adds the Ford Fiesta WRC+ 2019 rally car to the game. It features AWD drivetrain, 360 horsepower, and a top speed of 230 km/h. The car has a sequential gearbox and a mass of 1260 kg.",
+    tags: [
+      "rally car",
+      "ford",
+      "wrc",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 207,
+    game: "ac",
+    title: "Nissan Silvia S13 (justin240v2 Spec.)",
+    category: "cars",
+    version: "v1.0",
+    size: "68 MB",
+    images: [
+      "images/mods/nissan-silvia-s13-justin240v2-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8K367FX6ef90G1v",
+    short: "Iconic JDM drift coupe with custom high-performance engine.",
+    description: "This mod brings the iconic Nissan Silvia S13 with a custom justin240v2 specification to Assetto Corsa. It features a high-performance engine setup for an engaging driving experience. The unique styling includes a distinctive blue roof pattern and deep-dish chrome wheels.",
+    tags: [
+      "jdm",
+      "silvia",
+      "drift",
+      "performance",
+      "custom"
+    ],
+    featured: true
   }
 ];
 
