@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Send to ModVault (modland)
 // @namespace    modvault.space
-// @version      2.8
+// @version      2.9
 // @description  Adds a "Send to ModVault" button on modland.net mod pages. Grabs title, description and screenshots (via tab-relay around Cloudflare) and hands them to the local ModVault admin.
 // @match        https://*.modland.net/*
 // @run-at       document-idle
@@ -126,7 +126,7 @@
       seenA[href] = 1;
       fromAnchors.push({ url: href, origUrl: href, el: a.querySelector("img") });
     });
-    if (fromAnchors.length) return fromAnchors.slice(0, 8);
+    if (fromAnchors.length) return fromAnchors.slice(0, 4); // 3 needed + 1 spare
 
     // Fallback (no image links found): collect every modland-hosted <img>, keep
     // only those sharing a CDN folder with the biggest one (this mod's gallery),
@@ -169,7 +169,7 @@
     });
     var thumbs = cands.filter(function (c) { return c.isThumb; });
     var chosen = thumbs.length ? thumbs : cands;
-    return chosen.slice(0, 8); // admin stores 3; extra spares in case some -lg downloads fail
+    return chosen.slice(0, 4); // admin stores 3; one spare in case a download fails
   }
 
   // Tab relay: open the image as a top-level background tab. Cloudflare serves
@@ -250,8 +250,9 @@
       // parallel downloads would spawn a burst of tabs at once.
       var cands = grabImageCandidates();
       var images = [];
+      var target = Math.min(cands.length, 3);
       for (var i = 0; i < cands.length && images.length < 3; i++) {
-        btn.textContent = "Image " + (i + 1) + "/" + cands.length + "...";
+        btn.textContent = "Image " + (images.length + 1) + "/" + target + "...";
         var data = await getImageData(cands[i]);
         if (data) images.push(data);
       }
