@@ -4670,6 +4670,251 @@ const MODS = [
       "liveries"
     ],
     featured: true
+  },
+  {
+    id: 227,
+    game: "subnautica2",
+    title: "BatteryIndicator",
+    category: "ui",
+    version: "1.0.2",
+    size: "7 KB",
+    images: [
+      "images/mods/batteryindicator-1.jpg",
+      "images/mods/batteryindicator-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kDOhSJHJBV06n1I",
+    short: "Displays live battery percentage with color coding above all toolbar tools.",
+    description: "This mod displays a live battery percentage above every toolbar tool that uses a battery in Subnautica 2. The indicator is color-coded: red below 33%, yellow 33-66%, green 66-99%, and cyan when fully charged at 100%. It is always on, refreshing every second, and is read-only, ensuring it's safe for cooperative play for both host and client. The mod is compatible with \"More Quick Slots\" and supports a range of tools like the Scanner, Flashlight, and Habitat Builder. You can also configure some settings by editing the config.lua file.",
+    tags: [
+      "battery",
+      "ui",
+      "percentage",
+      "toolbar",
+      "tools"
+    ],
+    featured: true
+  },
+  {
+    id: 228,
+    game: "subnautica2",
+    title: "QuickSorter",
+    category: "gameplay",
+    version: "1.0.8",
+    size: "20 KB",
+    images: [
+      "images/mods/quicksorter-1.jpg",
+      "images/mods/quicksorter-2.jpg",
+      "images/mods/quicksorter-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Q63q255O2Bqwcu6",
+    short: "Auto-sorts resources to lockers, keeps best items.",
+    description: "QuickSorter automatically stashes resources into nearby lockers with a single hotkey. It intelligently keeps essential tools, batteries, and your best food, drink, and healing items. The mod features charge-aware battery sorting and can automatically pull better items from chests. It offers full multiplayer support and an optional strict per-locker mode for precise organization.",
+    tags: [
+      "inventory",
+      "sort",
+      "storage",
+      "crafting"
+    ],
+    featured: true
+  },
+  {
+    id: 229,
+    game: "subnautica2",
+    title: "Axum Bacterial Culture in Metal Farm",
+    category: "buildables",
+    version: "1.0",
+    size: "9 KB",
+    images: [
+      "images/mods/axum-bacterial-culture-in-metal-farm-1.jpg",
+      "images/mods/axum-bacterial-culture-in-metal-farm-2.jpg",
+      "images/mods/axum-bacterial-culture-in-metal-farm-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H5mX1n3s95Dl030",
+    short: "Infinite Axum Bacterial Cultures from metal farms.",
+    description: "This mod enables Axum Bacterial Cultures to grow within metal farms, allowing for an infinite supply. You can now obtain more than the current in-game limit of five. Simply place the mod files into your main game directory.",
+    tags: [
+      "buildables",
+      "farms",
+      "items",
+      "infinite"
+    ],
+    featured: true
+  },
+  {
+    id: 230,
+    game: "subnautica2",
+    title: "UE4SS Mod Manager",
+    category: "miscellaneous",
+    version: "1.0.0",
+    size: "11 MB",
+    images: [
+      "images/mods/ue4ss-mod-manager-1.jpg",
+      "images/mods/ue4ss-mod-manager-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xMVbb9v7jFS6ym0",
+    short: "Manage Subnautica 2 UE4SS mods with this GUI application.",
+    description: "A GUI application for managing UE4SS mods for Subnautica 2. It allows for easy installation, enabling, disabling, and configuration of mods. The manager supports drag-and-drop installation and offers a dark mode UI with a simple, intuitive interface. It also works for other UE4SS games.",
+    tags: [
+      "ui",
+      "manager",
+      "mods",
+      "gameplay",
+      "tools"
+    ],
+    featured: true
+  },
+  {
+    id: 231,
+    game: "subnautica2",
+    title: "FOV Slider",
+    category: "ui",
+    version: "1",
+    size: "1 KB",
+    images: [
+      "images/mods/fov-slider-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bi073zWF3r041MD",
+    short: "Adds a much-needed Field of View slider to game settings.",
+    description: "This mod implements a missing Field of View (FOV) slider directly into the game's settings menu. It utilizes SN2ModSettings to seamlessly integrate this essential display option for players. You can now adjust your field of vision for a more comfortable or immersive experience within the game. The slider allows for precise fine-tuning of the camera perspective to match individual preferences. This mod addresses a common request for improved visual customization options.",
+    tags: [
+      "fov",
+      "slider",
+      "ui",
+      "display",
+      "camera"
+    ],
+    featured: true
+  },
+  {
+    id: 232,
+    game: "subnautica2",
+    title: "Resource Multiplier",
+    category: "gameplay",
+    version: "1.0",
+    size: "72 KB",
+    images: [
+      "images/mods/resource-multiplier-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KV2AwuF1rEhkd3L",
+    short: "Get more mineral resources from pickups, configurable multiplier.",
+    description: "Get more mineral resources from pickups in the world. The multiplier defaults to 2x and can be configured from 1x to 10x. This mod only affects mineral resource pickups. For multiplayer, the host should install the mod for it to work for others.",
+    tags: [
+      "resources",
+      "multiplier",
+      "pickup",
+      "config"
+    ],
+    featured: true
+  },
+  {
+    id: 233,
+    game: "subnautica2",
+    title: "Not Only Titanium",
+    category: "gameplay",
+    version: "1.1",
+    size: "12 MB",
+    images: [
+      "images/mods/not-only-titanium-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/R4qHT63ELa73vN3",
+    short: "Scanner rewards improved, explore for better loot and components.",
+    description: "This mod overhauls scanner rewards to make exploration more meaningful and rewarding. Previously discovered objects will always grant additional materials, while newly scanned objects also have a chance to drop useful resources. The mod includes adjustable loot rates and scanner speed. It has been tested and works in multiplayer.",
+    tags: [
+      "scanner",
+      "loot",
+      "exploration",
+      "resources"
+    ],
+    featured: true
+  },
+  {
+    id: 234,
+    game: "subnautica2",
+    title: "Global Storage Pull",
+    category: "gameplay",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/global-storage-pull-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/n3G5KD5ZJ593RDY",
+    short: "Craft using materials from other bases across the map.",
+    description: "This mod expands Subnautica 2's built-in storage pull system. It allows your crafting recipes to utilize resources from other bases you have established on the map. This significantly improves resource management and base building convenience.",
+    tags: [
+      "storage",
+      "crafting",
+      "convenience",
+      "bases"
+    ],
+    featured: true
+  },
+  {
+    id: 235,
+    game: "subnautica2",
+    title: "Unpublished Content - More to Build",
+    category: "buildables",
+    version: "EA 1.1",
+    size: "15 KB",
+    images: [
+      "images/mods/unpublished-content-more-to-build-1.jpg",
+      "images/mods/unpublished-content-more-to-build-2.jpg",
+      "images/mods/unpublished-content-more-to-build-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/23a8wkG1TfHC7Kb",
+    short: "Adds unreleased buildable recipes: foundations, decor, storage, solar panel.",
+    description: "This mod adds several unreleased buildable recipes to the game. These include foundations, decorative items like chairs and lamps, water current rings, an extra storage container, and a functional tier 2 solar panel. The recipes are accessible in both creative and survival modes.",
+    tags: [
+      "buildables",
+      "creative",
+      "survival",
+      "decor"
+    ],
+    featured: true
+  },
+  {
+    id: 236,
+    game: "subnautica2",
+    title: "Capacity and QuickBar Tweaks",
+    category: "ui",
+    version: "1.0.0",
+    size: "11 KB",
+    images: [
+      "images/mods/capacity-and-quickbar-tweaks-1.jpg",
+      "images/mods/capacity-and-quickbar-tweaks-2.jpg",
+      "images/mods/capacity-and-quickbar-tweaks-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4M9w154VD62vJlw",
+    short: "Customize storage capacity and quickbar slots in-game.",
+    description: "Personalize your storage and quickbar with this UE4SS mod for Subnautica 2. Adjust locker capacity, increase quickbar slots, and benefit from live in-game updates. The mod also features multi-language support, falling back to English if your language is not supported.",
+    tags: [
+      "ui",
+      "tweaks",
+      "storage",
+      "quickbar"
+    ],
+    featured: true
+  },
+  {
+    id: 237,
+    game: "subnautica2",
+    title: "SN2 Console Commands Enabler",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "72 KB",
+    images: [
+      "images/mods/sn2-console-commands-enabler-1.jpg",
+      "images/mods/sn2-console-commands-enabler-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KV2AwuF1rEhkd3L",
+    short: "Enable the in-game command console for testing and cheats.",
+    description: "This mod enables the in-game command console by marking the game as a development build. It allows players to use various commands for testing, recording, or cheating. Be aware that using this mod may cause the game to freeze when quitting to the main menu, requiring a force quit. It is not recommended for multiplayer unless all players agree to its use.",
+    tags: [
+      "console",
+      "commands",
+      "gameplay",
+      "testing"
+    ],
+    featured: true
   }
 ];
 
