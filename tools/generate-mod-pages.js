@@ -252,7 +252,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=26">
+  <link rel="stylesheet" href="css/shared.css?v=27">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
@@ -291,7 +291,42 @@ for (const gameKey of Object.keys(GAMES)) {
   }
 }
 
-console.log(`Generated ${count} mod pages.${removed ? ` Removed ${removed} stale page(s).` : ""}`);
+// Inject a static, crawlable index of every mod into each game landing page.
+// The interactive grid (#mods-grid) is rendered by app.js, so Googlebot sees no
+// links to individual mod pages there - which leaves them "Discovered, currently
+// not indexed". This block gives real internal <a href> links (and is a handy
+// browse-all list for users too). Rewritten between markers on every run.
+let indexed = 0;
+for (const [gameKey, game] of Object.entries(GAMES)) {
+  const file = path.join(root, `${game.page}.html`);
+  if (!fs.existsSync(file)) continue;
+  const gameMods = MODS
+    .filter(m => m.game === gameKey && String(m.title ?? "").trim())
+    .sort((a, b) => Number(a.id) - Number(b.id));
+  if (!gameMods.length) continue;
+
+  const links = gameMods.map(m =>
+    `<a href="mods/${gameKey}/${slugify(`${m.id}-${m.title}`)}">${esc(m.title)}</a>`).join("\n        ");
+  const block = `<!-- MOD-INDEX:START -->
+<section class="mod-index-section"><div class="container">
+      <h2 class="mod-index-title">All ${esc(game.name)} mods</h2>
+      <nav class="mod-index-links" aria-label="All ${esc(game.name)} mods">
+        ${links}
+      </nav>
+    </div></section>
+<!-- MOD-INDEX:END -->`;
+
+  let html = fs.readFileSync(file, "utf8");
+  if (/<!-- MOD-INDEX:START -->[\s\S]*?<!-- MOD-INDEX:END -->/.test(html)) {
+    html = html.replace(/<!-- MOD-INDEX:START -->[\s\S]*?<!-- MOD-INDEX:END -->/, block);
+  } else {
+    html = html.replace(/<footer/, `${block}\n<footer`);
+  }
+  fs.writeFileSync(file, html, "utf8");
+  indexed += 1;
+}
+
+console.log(`Generated ${count} mod pages.${removed ? ` Removed ${removed} stale page(s).` : ""} Injected mod index into ${indexed} game page(s).`);
 }
 
 main();

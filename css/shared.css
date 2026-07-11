@@ -849,6 +849,31 @@ body::after {
   gap: 10px;
   margin-top: 12px;
 }
+/* Static crawlable "all mods" index at the bottom of each game page. */
+.mod-index-section {
+  border-top: 1px solid var(--border);
+  padding: 28px 0 8px;
+  margin-top: 32px;
+}
+.mod-index-title {
+  font-size: 13px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--text3, #8b90a0);
+  margin: 0 0 14px;
+}
+.mod-index-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+.mod-index-links a {
+  font-size: 13px;
+  color: var(--text3, #8b90a0);
+  text-decoration: none;
+  transition: color var(--transition, .2s);
+}
+.mod-index-links a:hover { color: var(--game-accent, #e8ff00); }
 .mod-detail-thumb {
   aspect-ratio: 16/9;
   border: 1px solid var(--border);

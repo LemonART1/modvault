@@ -304,7 +304,7 @@ function page(post) {
   <title>${esc(post.title)} - ModVault</title>
   <meta name="description" content="${esc(post.summary)}">
 ${metaTags({ title: `${post.title} - ModVault`, description: post.summary, url: post.url.replace(/\.html$/, "") })}
-  <link rel="stylesheet" href="css/shared.css?v=26">
+  <link rel="stylesheet" href="css/shared.css?v=27">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${post.game.accent}">
