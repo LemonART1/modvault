@@ -4900,12 +4900,12 @@ const MODS = [
     title: "SN2 Console Commands Enabler",
     category: "gameplay",
     version: "1.0.0",
-    size: "72 KB",
+    size: "1 KB",
     images: [
       "images/mods/sn2-console-commands-enabler-1.jpg",
       "images/mods/sn2-console-commands-enabler-2.jpg"
     ],
-    downloadUrl: "https://modsfire.com/KV2AwuF1rEhkd3L",
+    downloadUrl: "https://modsfire.com/sN8JM9TdLcmkLeh",
     short: "Enable the in-game command console for testing and cheats.",
     description: "This mod enables the in-game command console by marking the game as a development build. It allows players to use various commands for testing, recording, or cheating. Be aware that using this mod may cause the game to freeze when quitting to the main menu, requiring a force quit. It is not recommended for multiplayer unless all players agree to its use.",
     tags: [
