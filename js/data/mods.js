@@ -4229,6 +4229,447 @@ const MODS = [
       "custom"
     ],
     featured: true
+  },
+  {
+    id: 208,
+    game: "gta5",
+    title: "2024 BMW X6M Competition [Add-On | Tuning | Legacy | Enhanced]",
+    category: "vehicles",
+    version: "1.0",
+    size: "68 MB",
+    images: [
+      "images/mods/2024-bmw-x6m-competition-add-on-tuning-legacy-enhanced-1.jpg",
+      "images/mods/2024-bmw-x6m-competition-add-on-tuning-legacy-enhanced-2.jpg",
+      "images/mods/2024-bmw-x6m-competition-add-on-tuning-legacy-enhanced-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oYnG6373BG26KSi",
+    short: "High-quality 2024 BMW X6M Competition for GTA V with detailed features.",
+    description: "Experience the highly detailed 2024 BMW X6M Competition, converted from Forza Horizon 6 for Grand Theft Auto V. This add-on vehicle features a high-quality 3D model, textures, and a detailed rearview mirror, ensuring a premium in-game look. Enjoy realistic details like working lights and dials, window tinting, fragile glass, and accurate dirt textures. The car supports both Enhanced and Legacy versions of GTA V, offering broad compatibility for players. Damageable front and rear bumpers, along with precise scale and proportions, enhance the immersive driving experience.",
+    tags: [
+      "bmw",
+      "x6m",
+      "car",
+      "vehicle",
+      "add-on"
+    ],
+    featured: true
+  },
+  {
+    id: 209,
+    game: "gta5",
+    title: "Open World Interiors (Restaurants, Fast Food, Hospitals, Diners, Laundromats, Nightclubs, Gyms, Bite!)",
+    category: "maps",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/open-world-interiors-restaurants-fast-food-hospitals-diners-laundromats-nightclubs-gyms-bite-1.jpg",
+      "images/mods/open-world-interiors-restaurants-fast-food-hospitals-diners-laundromats-nightclubs-gyms-bite-2.jpg",
+      "images/mods/open-world-interiors-restaurants-fast-food-hospitals-diners-laundromats-nightclubs-gyms-bite-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ukn0e66cjZ4Sb17",
+    short: "Adds 93 interactable interiors to the GTA 5 open world.",
+    description: "This mod aims to make almost every building in GTA 5 accessible. It adds 93 unique interiors to the game map. Each newly added location features its own interactable environment. Explore a variety of new spaces, including fast-food restaurants, hospitals, diners, and nightclubs.",
+    tags: [
+      "interiors",
+      "open world",
+      "new map"
+    ],
+    featured: true
+  },
+  {
+    id: 210,
+    game: "gta5",
+    title: "2027 Audi RS5 Sportback (B10) [Add-On | Animated Lights | Tuning]",
+    category: "vehicles",
+    version: "1.0",
+    size: "134 MB",
+    images: [
+      "images/mods/2027-audi-rs5-sportback-b10-add-on-animated-lights-tuning-1.jpg",
+      "images/mods/2027-audi-rs5-sportback-b10-add-on-animated-lights-tuning-2.jpg",
+      "images/mods/2027-audi-rs5-sportback-b10-add-on-animated-lights-tuning-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0fEdENQWL14vAoP",
+    short: "Add a highly detailed 2027 Audi RS5 Sportback to GTA V.",
+    description: "This mod introduces the highly detailed 2027 Audi RS5 Sportback (B10) to GTA V. It features advanced animated lights and extensive tuning options for a personalized driving experience. The model is presented as an add-on, ensuring compatibility without replacing existing vehicles. Enjoy a premium vehicle with realistic design and performance in your game world. This car requires ScriptHookV and Simple Trainer for full functionality.",
+    tags: [
+      "audi",
+      "rs5",
+      "sportback",
+      "tuning",
+      "lights"
+    ],
+    featured: true
+  },
+  {
+    id: 211,
+    game: "gta5",
+    title: "2020 Toyota Kijang Innova (AN140) [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "86 MB",
+    images: [
+      "images/mods/2020-toyota-kijang-innova-an140-add-on-1.jpg",
+      "images/mods/2020-toyota-kijang-innova-an140-add-on-2.jpg",
+      "images/mods/2020-toyota-kijang-innova-an140-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z1QXb0lsJQ0F1cm",
+    short: "Detailed 2020 Toyota Kijang Innova add-on for GTA V.",
+    description: "Experience the 2020 Toyota Kijang Innova (AN140) in GTA V with a detailed and optimized model. This add-on features a high-quality exterior and interior, realistic animations, working gauges, and support for right-hand drive (RHD). Built with attention to detail to provide an immersive driving experience for enthusiasts.",
+    tags: [
+      "toyota",
+      "innova",
+      "car",
+      "add-on",
+      "rhd"
+    ],
+    featured: true
+  },
+  {
+    id: 212,
+    game: "gta5",
+    title: "Freemode Identity",
+    category: "player",
+    version: "1.0",
+    size: "155 KB",
+    images: [
+      "images/mods/freemode-identity-1.jpg",
+      "images/mods/freemode-identity-2.jpg",
+      "images/mods/freemode-identity-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Es555K1ZK0CcJn2",
+    short: "Integrates your freemode character into story mode with full persistence.",
+    description: "This mod allows your freemode (multiplayer) character to exist and function fully within story mode. Your character's authored look, spendable wallet, weapons, armor, and health are all persistent. Shops, money, and your loadout will now work seamlessly for your freemode character in story mode. It combines the features of Appearance Keeper and Freemode Wallet into a single mod. This mod is compatible with both GTA V Enhanced and Legacy editions, detected automatically from one build.",
+    tags: [
+      "freemode",
+      "story mode",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 213,
+    game: "gta5",
+    title: "JobCenterV",
+    category: "scripts",
+    version: "1.0",
+    size: "11 MB",
+    images: [
+      "images/mods/jobcenterv-1.jpg",
+      "images/mods/jobcenterv-2.jpg",
+      "images/mods/jobcenterv-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/q7V8WtROO1G8Ds0",
+    short: "Adds an immersive, dynamic job system to GTA V single player.",
+    description: "JobCenterV is an immersive job system for GTA V Single Player that lets players browse, choose, and start various jobs, adding depth and realism to the gameplay experience. This mod introduces a range of new opportunities including trucker logistics, tow truck operation, bus driving, power washing, and poster placement. Future updates are planned to expand the selection of available jobs, ensuring fresh content. Players should consult the included LSJC_Manual.pdf for detailed information on job features and keybinds.",
+    tags: [
+      "jobs",
+      "script",
+      "gameplay",
+      "trucker"
+    ],
+    featured: true
+  },
+  {
+    id: 214,
+    game: "gta5",
+    title: "Simple Mods Loader",
+    category: "tools",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/simple-mods-loader-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/067KQ8cgycLlbY3",
+    short: "Load GTA V mods easily from folders, inspired by CLEO.",
+    description: "Simple Mods Loader loads custom game files from a \"mods\" folder, supporting both loose file and classic RPF formats. This tool was inspired by the old CLEO system from GTA San Andreas, where mods were simply files within folders. It allows users to add mods on the fly, eliminating the need to reinstall them when game files change. The loader automatically installs addons upon dropping them and dynamically adjusts auto-heap and pack file sizes. This system simplifies mod management and avoids duplicated RPF files in your game directory.",
+    tags: [
+      "mod loader",
+      "mod manager",
+      "rpf files"
+    ],
+    featured: true
+  },
+  {
+    id: 215,
+    game: "gta5",
+    title: "LS Drugs Dealer",
+    category: "scripts",
+    version: "1.0",
+    size: "544 KB",
+    images: [
+      "images/mods/ls-drugs-dealer-1.jpg",
+      "images/mods/ls-drugs-dealer-2.jpg",
+      "images/mods/ls-drugs-dealer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5Dz5rakY3Npx26N",
+    short: "Build your criminal drug empire across Los Santos in Story Mode.",
+    description: "LS Drug Dealer offers a comprehensive drug dealing simulation for GTA V Story Mode. Build your criminal empire from a street-level dealer to a powerful kingpin. Manage 10 different drugs, recruit AI dealers, control territories across Los Santos, and navigate police heat. This mod features a dynamic economy, stash houses, and the ability to deal weapons.",
+    tags: [
+      "drug dealer",
+      "criminal",
+      "empire",
+      "economy"
+    ],
+    featured: true
+  },
+  {
+    id: 216,
+    game: "gta5",
+    title: "Volvo V60 T8 Polestar Engineered",
+    category: "vehicles",
+    version: "1.0",
+    size: "44 MB",
+    images: [
+      "images/mods/volvo-v60-t8-polestar-engineered-1.jpg",
+      "images/mods/volvo-v60-t8-polestar-engineered-2.jpg",
+      "images/mods/volvo-v60-t8-polestar-engineered-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/RHD3f0WIXX50JH6",
+    short: "Drive the detailed Volvo V60 Polestar Engineered with many custom features.",
+    description: "Introducing the Volvo V60 T8 Polestar Engineered as an add-on vehicle for GTA V, featuring a base model from Sketchfab. This highly detailed car boasts customized body and caliper paint options, along with tintable glass and working lights. Enjoy a fully functional interior including a customized speedometer, reflective mirrors, and an animated steering wheel with driver's hands. The vehicle also includes breakable glass for a more realistic damage experience. Easily integrate this model into your game using the provided add-on installation instructions.",
+    tags: [
+      "volvo",
+      "v60",
+      "polestar",
+      "car",
+      "add-on"
+    ],
+    featured: true
+  },
+  {
+    id: 217,
+    game: "gta5",
+    title: "Online Vehicles Shops in SP",
+    category: "vehicles",
+    version: "1.0",
+    size: "181 KB",
+    images: [
+      "images/mods/online-vehicles-shops-in-sp-1.jpg",
+      "images/mods/online-vehicles-shops-in-sp-2.jpg",
+      "images/mods/online-vehicles-shops-in-sp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/G22X2fTmI9IAlP5",
+    short: "Buy GTA Online vehicles in single-player through patched in-game websites.",
+    description: "This mod patches the Legendary Motorsport, Southern San Andreas Super Autos, and Warstock Cache & Carry websites. It allows you to buy GTA Online vehicles directly in single-player mode. The purchase system instantly places you near your home with the newly bought car. This enables storing multiplayer cars in custom garages, such as the Vinewood Club Garage. The mod notes that this purchase system may undergo changes in future updates.",
+    tags: [
+      "online cars",
+      "sp vehicles",
+      "car shop"
+    ],
+    featured: true
+  },
+  {
+    id: 218,
+    game: "gta5",
+    title: "GTA Offline: The Kortz Center Heist",
+    category: "scripts",
+    version: "1.0",
+    size: "257 KB",
+    images: [
+      "images/mods/gta-offline-the-kortz-center-heist-1.jpg",
+      "images/mods/gta-offline-the-kortz-center-heist-2.jpg",
+      "images/mods/gta-offline-the-kortz-center-heist-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xgpEWK64vTHnk33",
+    short: "Infiltrate the Kortz Center and steal valuable fine art pieces.",
+    description: "Infiltrate the Kortz Center, known for its valuable fine art pieces in Los Santos. The center keeps its upcoming displays securely in the lower level of the premises. Your mission is to breach their defenses, infiltrate the facility, and successfully steal the precious loot.",
+    tags: [
+      "heist",
+      "mission",
+      "steal",
+      "art",
+      "kortz"
+    ],
+    featured: true
+  },
+  {
+    id: 219,
+    game: "gta5",
+    title: "M4A1 Custom [MK2 Replacement]",
+    category: "weapons",
+    version: "1.0",
+    size: "94 MB",
+    images: [
+      "images/mods/m4a1-custom-mk2-replacement-1.jpg",
+      "images/mods/m4a1-custom-mk2-replacement-2.jpg",
+      "images/mods/m4a1-custom-mk2-replacement-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0h8Pg19ye3kwsr7",
+    short: "Replaces Carbine Mk2 with custom M4A1 rifle from MW2.",
+    description: "This mod replaces the Carbine Mk2 with a custom M4A1 rifle, inspired by the real-life Colt M4A1 and MW2. It includes numerous variations, animated models, and high-quality textures to enhance your game visuals. Enjoy a wide range of custom attachments to personalize your weapon setup. Please note that scopes and sights do not function correctly in first-person view.",
+    tags: [
+      "m4a1",
+      "carbine",
+      "weapon mod",
+      "rifle",
+      "mw2"
+    ],
+    featured: true
+  },
+  {
+    id: 220,
+    game: "gta5",
+    title: "BreakingV",
+    category: "scripts",
+    version: "1.0",
+    size: "647 KB",
+    images: [
+      "images/mods/breakingv-1.jpg",
+      "images/mods/breakingv-2.jpg",
+      "images/mods/breakingv-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LwboIE2ge6EnhfJ",
+    short: "Deep, interactive meth crafting system for GTA V Single Player.",
+    description: "This BreakingV mod introduces a dynamic meth crafting system to GTA V Single Player. Unlike other passive meth mods, BreakingV requires active participation and strategic thinking from the player. You must carefully add ingredients, monitor temperatures, and follow precise steps to achieve the highest possible purity in your product. Experience a more engaging and challenging drug manufacturing simulation. Your choices directly impact the outcome of your lab operations.",
+    tags: [
+      "meth",
+      "crafting",
+      "gameplay",
+      "drugs",
+      "script"
+    ],
+    featured: true
+  },
+  {
+    id: 221,
+    game: "gta5",
+    title: "Davis Motel and Shop [SP | FiveM]",
+    category: "maps",
+    version: "1.0",
+    size: "80 MB",
+    images: [
+      "images/mods/davis-motel-and-shop-sp-fivem-1.jpg",
+      "images/mods/davis-motel-and-shop-sp-fivem-2.jpg",
+      "images/mods/davis-motel-and-shop-sp-fivem-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dV8g4p6lZZzmD37",
+    short: "Add a new, optimized motel and shop to Davis, GTA V.",
+    description: "Escape the city's hustle and bustle at the new Davis Motel and Shop. This wonderful place offers six detailed motel rooms for players to utilize. It includes improved audio occlusion, realistic sound emitters for phones and refrigerators, and static radio sounds. Optimized with baked shadows, this addition ensures smooth performance for your game.",
+    tags: [
+      "motel",
+      "shop",
+      "davis",
+      "fivem",
+      "location"
+    ],
+    featured: true
+  },
+  {
+    id: 222,
+    game: "gta5",
+    title: "BMW X6 M",
+    category: "vehicles",
+    version: "1.1",
+    size: "80 MB",
+    images: [
+      "images/mods/bmw-x6-m-1.jpg",
+      "images/mods/bmw-x6-m-2.jpg",
+      "images/mods/bmw-x6-m-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H9G655oGz8cb4Rh",
+    short: "Add a detailed BMW X6 M with custom features to GTA V.",
+    description: "Add a highly detailed BMW X6 M to your GTA V game as an add-on vehicle. This model includes a functional HUD display, tintable glass, a customized speedometer, and reflective mirrors. Enjoy a fully detailed interior, working lights, a responsive steering wheel, and hands-on-wheel animations. The body and calipers feature customizable paint options to personalize your ride.",
+    tags: [
+      "bmw x6",
+      "luxury car",
+      "custom suv"
+    ],
+    featured: true
+  },
+  {
+    id: 223,
+    game: "gta5",
+    title: "Audi A6 C6 3.0 TDI Quattro 2006 [Add-On | Extras]",
+    category: "vehicles",
+    version: "1.0",
+    size: "23 MB",
+    images: [
+      "images/mods/audi-a6-c6-30-tdi-quattro-2006-add-on-extras-1.jpg",
+      "images/mods/audi-a6-c6-30-tdi-quattro-2006-add-on-extras-2.jpg",
+      "images/mods/audi-a6-c6-30-tdi-quattro-2006-add-on-extras-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/V8mJx8M3nTV5gJI",
+    short: "Add a 2006 Audi A6 TDI to GTA V traffic.",
+    description: "This mod introduces the Audi A6 C6 3.0 TDI Quattro 2006 to GTA V, ideal for enhancing in-game traffic and general gameplay. It features a normal quality exterior but has a bad quality interior, reflecting its average overall detail. The vehicle includes working lights and indicators, custom handling, and fully supported damaged parts for a more realistic experience. An extra front plate is included, and the model boasts 75k polygons and 68k vertices.",
+    tags: [
+      "audi",
+      "a6",
+      "car",
+      "vehicle",
+      "traffic"
+    ],
+    featured: true
+  },
+  {
+    id: 224,
+    game: "gta5",
+    title: "New Families Hood",
+    category: "maps",
+    version: "1.0",
+    size: "329 KB",
+    images: [
+      "images/mods/new-families-hood-1.jpg",
+      "images/mods/new-families-hood-2.jpg",
+      "images/mods/new-families-hood-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/r7M7Wmh76zp2gf2",
+    short: "Revamps an area with custom YMAP layout and 30 enterable doors.",
+    description: "This mod revamps an area with a custom YMAP layout, expanding the neighborhood. It includes a fully standalone, highly optimized script. This script makes 30 different doors fully enterable, offering seamless transitions. Players can explore various new interiors directly from the outside. Enhance your game world with this detailed environment and added interactivity.",
+    tags: [
+      "ymap",
+      "enterable",
+      "hood",
+      "script",
+      "new area"
+    ],
+    featured: true
+  },
+  {
+    id: 225,
+    game: "gta5",
+    title: "Money Storage",
+    category: "scripts",
+    version: "1.0",
+    size: "6 KB",
+    images: [
+      "images/mods/money-storage-1.jpg",
+      "images/mods/money-storage-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1whcDi469ExkXW5",
+    short: "Store and retrieve your GTA V money physically via phone contact.",
+    description: "This mod introduces a unique way to manage your in-game currency within GTA V. By calling a specific \"Money Storage\" contact on your phone, you can access a menu to store your money physically in the world. You have the flexibility to retrieve your funds from these physical stacks whenever you need them. This system adds a new layer of realism and immersion to your gameplay experience. It requires ScriptHookV and ScriptHookVDotNet to function correctly.",
+    tags: [
+      "money",
+      "storage",
+      "script",
+      "phone",
+      "economy"
+    ],
+    featured: true
+  },
+  {
+    id: 226,
+    game: "gta5",
+    title: "Lampadati Rossati",
+    category: "vehicles",
+    version: "1.0",
+    size: "30 MB",
+    images: [
+      "images/mods/lampadati-rossati-1.jpg",
+      "images/mods/lampadati-rossati-2.jpg",
+      "images/mods/lampadati-rossati-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tUKbq6upWAd3vyU",
+    short: "Add the iconic, rally-inspired Lampadati Rossati to GTA V.",
+    description: "The Lampadati Rossati is a loud, boxy, and brutally honest relic, inspired by the great Lancia Delta HF. This vehicle embodies an era when engineers prioritized victory over regulations. This mod was a learning project, bringing a classic rally-inspired car to GTA V. It features almost all GTA basic functions, 28 unique liveries, 4 wheel options, and extensive tuning parts.",
+    tags: [
+      "car",
+      "rally",
+      "vehicle",
+      "tuning",
+      "liveries"
+    ],
+    featured: true
   }
 ];
 
