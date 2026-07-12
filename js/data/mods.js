@@ -4915,6 +4915,587 @@ const MODS = [
       "testing"
     ],
     featured: true
+  },
+  {
+    id: 238,
+    game: "bg3",
+    title: "Minthara's Weaknesses - Astarion Minthara Banter Restored",
+    category: "companions",
+    version: "1.0.1.1",
+    size: "1.8 GB",
+    images: [
+      "images/mods/mintharas-weaknesses-astarion-minthara-banter-restored-1.jpg",
+      "images/mods/mintharas-weaknesses-astarion-minthara-banter-restored-2.jpg",
+      "images/mods/mintharas-weaknesses-astarion-minthara-banter-restored-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3WxW91nQFzdYV21",
+    short: "Restores unique Astarion, Minthara, Emperor conversation as a mini-cutscene.",
+    description: "This mod restores an unused conversation between Astarion, Minthara, and the Emperor. It triggers as a mini-cutscene when you approach the Upper City with both Astarion and Minthara in your party. The mod successfully resurrects one of the game's bugged or inaccessible party banters. Install easily with a mod manager; it is compatible mid-playthrough and with most other mods. Enjoy this unique interaction adding more depth to your companion dynamics.",
+    tags: [
+      "astarion",
+      "minthara",
+      "dialogue",
+      "banter"
+    ],
+    featured: true
+  },
+  {
+    id: 239,
+    game: "bg3",
+    title: "Recruit Karlach Earlier",
+    category: "gameplay",
+    version: "2.0",
+    size: "3 MB",
+    images: [
+      "images/mods/recruit-karlach-earlier-1.jpg",
+      "images/mods/recruit-karlach-earlier-2.jpg",
+      "images/mods/recruit-karlach-earlier-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j6cjx947CBG3R78",
+    short: "Recruit Karlach earlier, unlocking new dialogues and unique interactions.",
+    description: "This mod allows you to recruit Karlach much earlier in Baldur's Gate 3, shortly after landing on the beach. It unlocks many new dialogue options and special interactions, especially when bringing Karlach to meet Wyll in the Druid's Grove. You'll gain access to unique early-game character development that is normally inaccessible. For optimal performance, this mod works best on new save games. Carefully follow the installation and load order instructions for the best experience.",
+    tags: [
+      "karlach",
+      "companion",
+      "early recruit"
+    ],
+    featured: true
+  },
+  {
+    id: 240,
+    game: "bg3",
+    title: "Waterproof Shadowheart",
+    category: "character-customisation",
+    version: "1.0",
+    size: "614 KB",
+    images: [
+      "images/mods/waterproof-shadowheart-1.jpg",
+      "images/mods/waterproof-shadowheart-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y0R4VT9gH3Ntf3c",
+    short: "Keeps Shadowheart's custom appearance during her Act 3 romance scene.",
+    description: "This mod ensures that any custom appearance changes made to Shadowheart persist throughout her Act 3 romance scene. In the vanilla game, she reverts to her default look during this specific cutscene. This modification prevents that reversion, allowing your personalized Shadowheart to remain consistent. Enjoy her keeping her unique hair, makeup, and tattoos during this pivotal moment.",
+    tags: [
+      "shadowheart",
+      "appearance",
+      "romance"
+    ],
+    featured: true
+  },
+  {
+    id: 241,
+    game: "bg3",
+    title: "Book Club With Gale",
+    category: "companions",
+    version: "1.0",
+    size: "16 MB",
+    images: [
+      "images/mods/book-club-with-gale-1.jpg",
+      "images/mods/book-club-with-gale-2.jpg",
+      "images/mods/book-club-with-gale-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8Bjl6JXBdhi0vlH",
+    short: "Gale reacts to you sitting with over 50 contextual lines.",
+    description: "This mod places a stool in Gale's camp spot and adds over 50 unique reactions from him when you sit on it. Gale's greetings and responses will dynamically change based on your current relationship status and approval level with him. An optional \"Meme Edition\" is available, replacing these lines with humorous, simplified dialogue. All dialogue uses repurposed existing in-game voice content, ensuring no new audio files are added. The mod is installed with a mod manager and is safe for mid-playthrough installation.",
+    tags: [
+      "gale",
+      "companion",
+      "dialogue",
+      "reactions"
+    ],
+    featured: true
+  },
+  {
+    id: 242,
+    game: "bg3",
+    title: "Heads of Plenty Vol. III",
+    category: "character-customisation",
+    version: "1",
+    size: "181 MB",
+    images: [
+      "images/mods/heads-of-plenty-vol-iii-1.jpg",
+      "images/mods/heads-of-plenty-vol-iii-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uP2Q6Te8bwgZMoL",
+    short: "New heads for character creator",
+    description: "This mod adds eight new heads to the character creator for various races in Baldur's Gate 3, including elves, drow, half-elves, humans, and tieflings. The mod is compatible with UTav/KAVT and EotB, and patches are available for these mods. The piercing bones have been adjusted to fit the vanilla piercings and Trips' Accessory Collection. The mod also includes icons and is available as a standalone version or with compatibility patches.",
+    tags: [
+      "faces",
+      "heads",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 243,
+    game: "bg3",
+    title: "Myky's Accessories",
+    category: "accessories",
+    version: "not specified",
+    size: "102 MB",
+    images: [
+      "images/mods/mykys-accessories-1.jpg",
+      "images/mods/mykys-accessories-2.jpg",
+      "images/mods/mykys-accessories-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/20nIM1a4dcoDHF2",
+    short: "Dyeable accessories added",
+    description: "This mod adds dyeable accessories in a variety of styles to the tutorial chest in Baldur's Gate 3. The accessories can be obtained by accessing the Cartilaginous Chest inside the Nautiloid, also known as the tutorial chest, using a mod such as Tutorial Chest Summoning. These accessories are primarily usable by tall races with BT1–4, but unfortunately, most of them are not compatible with Githyanki BT2 or Dragonborn characters. The accessories do not have any stats, and it is recommended to use Transmog Enhanced or similar mods.",
+    tags: [
+      "mods",
+      "games",
+      "fun"
+    ],
+    featured: true
+  },
+  {
+    id: 244,
+    game: "cyberpunk",
+    title: "Map Exit Nuclear Explosion Fix",
+    category: "visuals-graphics",
+    version: "2.31",
+    size: "2 KB",
+    images: [
+      "images/mods/map-exit-nuclear-explosion-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/20CYyLzFeKys56R",
+    short: "Fixes the distracting map exit flashbang visual bug effectively.",
+    description: "This mod provides a crucial fix for a persistent visual bug. It eliminates the jarring \"nuclear explosion\" flashbang effect that sometimes occurs when exiting the map. Players will no longer be subjected to unexpected visual disruptions during transitions. Note that this mod is incompatible with the \"Realistic Map\" modification. The fix remains effective and relevant even after the game's 2.31 update.",
+    tags: [
+      "bug fix",
+      "visuals",
+      "flashbang"
+    ],
+    featured: true
+  },
+  {
+    id: 245,
+    game: "cyberpunk",
+    title: "Vehicle Exit Fix for 2.3",
+    category: "gameplay",
+    version: "1.0",
+    size: "711 bytes",
+    images: [
+      "images/mods/vehicle-exit-fix-for-23-1.jpg",
+      "images/mods/vehicle-exit-fix-for-23-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/10IYJ06rYf666SY",
+    short: "Fixes vehicle kickback and bike tilt bugs after exiting.",
+    description: "This mod addresses the slight kickback or roll that occurs after exiting vehicles, an issue introduced in game version 2.3 and persisting in 2.31. This problem is particularly noticeable with certain modded cars, which can sometimes fly off after player exit. For vanilla vehicles, it manifests as a minor kickback immediately after leaving the car. Additionally, it resolves the bug where bikes fail to return to their proper lean position after exiting, also present since game version 2.3.",
+    tags: [
+      "vehicle fix",
+      "bike fix",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 246,
+    game: "cyberpunk",
+    title: "Zenitex Covert Leggings - ArchiveXL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/zenitex-covert-leggings-archivexl-1.jpg",
+      "images/mods/zenitex-covert-leggings-archivexl-2.jpg",
+      "images/mods/zenitex-covert-leggings-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/R8EsU1wa2wJGxF9",
+    short: "Skin-tight military leggings with gameplay bonuses and dynamic customization.",
+    description: "Enhance your female V's wardrobe with the Zenitex Covert Leggings, a set of 22 skin-tight military-themed items. These lore-friendly leggings offer dynamic customization, garment support, and significant gameplay bonuses, optimizing for both gameplay and photomode. They feature various color variants, rarities, and stat modifiers categorized as 'Covert' class. The mod is compatible with multiple body types and integrates with other Zenitex mods for a cohesive experience. Requires ArchiveXL, TweakXL, RED4ext, Zenitex Core Dependency, EquipmentEx, Codeware, and Redscript.",
+    tags: [
+      "leggings",
+      "clothing",
+      "female",
+      "military"
+    ],
+    featured: true
+  },
+  {
+    id: 247,
+    game: "cyberpunk",
+    title: "Modular Military Combat Helmet - ArchiveXL",
+    category: "armour-clothing",
+    version: "2.0",
+    size: "17 MB",
+    images: [
+      "images/mods/modular-military-combat-helmet-archivexl-1.jpg",
+      "images/mods/modular-military-combat-helmet-archivexl-2.jpg",
+      "images/mods/modular-military-combat-helmet-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/c6BCv991E1OPtVQ",
+    short: "Modular combat helmet with smart targeting, dynamic customization, and gameplay bonuses.",
+    description: "This mod introduces the Zenitex Combat Helmet, a highly modular tactical helmet with a smart targeting visor for both male and female V. It features 105 distinct items including helmet and visor variants, decals, LEDs, and toggles for dynamic customization. The helmet offers significant gameplay bonuses such as assault class stats, armor points, resistances, and enhanced smart targeting capabilities. Designed for use with EquipmentEx for extensive layering, it is fully compatible with all body mods. Acquire it through the Zenitex Store, Atelier, or console commands, but remember stat bonuses only apply in vanilla equipment slots.",
+    tags: [
+      "helmet",
+      "armor",
+      "clothing",
+      "tactical"
+    ],
+    featured: true
+  },
+  {
+    id: 248,
+    game: "cyberpunk",
+    title: "The Zenitex Military Store",
+    category: "miscellaneous",
+    version: "2.3",
+    size: "420 MB",
+    images: [
+      "images/mods/the-zenitex-military-store-1.jpg",
+      "images/mods/the-zenitex-military-store-2.jpg",
+      "images/mods/the-zenitex-military-store-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iylBSkA178l382t",
+    short: "Military store with unique vendors",
+    description: "This mod adds a lore-friendly faction called Zenitex to the game, along with a unique store where players can purchase equipment and interact with vendors. The store features a custom interior, NPCs with their own schedules and behaviors, and a variety of items to buy and sell. The mod also includes detailed information about the Zenitex faction and its history, which can be accessed through scannable objects and data terminals. The store is designed to blend in with the game's existing environment, and features a range of immersive details such as dynamic lighting, sound effects, and interactive objects.",
+    tags: [
+      "store",
+      "military",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 249,
+    game: "cyberpunk",
+    title: "Zenitex Combat T-Shirt - ArchiveXL",
+    category: "armour-clothing",
+    version: "1.3",
+    size: "19 MB",
+    images: [
+      "images/mods/zenitex-combat-t-shirt-archivexl-1.jpg",
+      "images/mods/zenitex-combat-t-shirt-archivexl-2.jpg",
+      "images/mods/zenitex-combat-t-shirt-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2BCguyMj8U3R13t",
+    short: "Adds 22 skin-tight Zenitex Combat T-Shirt variants with gameplay bonuses.",
+    description: "This mod introduces 22 variants of the skin-tight Zenitex Combat T-Shirt for both male and female V, supporting multiple body types. It includes dynamic customization options, optional garment support to minimize clipping, and grants unique gameplay bonuses as part of the Covert class. Players can acquire these items by purchasing them at the Zenitex Store, ordering through the Zenitex Atelier, or using console commands. The garment support dynamically morphs overlapping clothing for a more integrated appearance. Ensure all mandatory dependencies like ArchiveXL, TweakXL, and Zenitex Core are installed for full functionality.",
+    tags: [
+      "clothing",
+      "t-shirt",
+      "armor",
+      "zenitex"
+    ],
+    featured: true
+  },
+  {
+    id: 250,
+    game: "cyberpunk",
+    title: "Toyota GT86 - ArchiveXL",
+    category: "vehicles",
+    version: "1.0",
+    size: "87 MB",
+    images: [
+      "images/mods/toyota-gt86-archivexl-1.jpg",
+      "images/mods/toyota-gt86-archivexl-2.jpg",
+      "images/mods/toyota-gt86-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ecs2tM377J84aX3",
+    short: "Highly detailed Toyota GT86 with extensive tuning and custom liveries.",
+    description: "This mod introduces the highly detailed Toyota GT86 to Night City, featuring the innovative CrystalCoat™ paint system and five distinct appearances, including four unique liveries. Players can extensively customize their vehicle with a wide array of tuning parts, such as body colors, wheel colors, various bumpers, spoilers, and neon underglow. Enjoy a custom-built interior with a functional clock and animated equalizer, along with realistic handling tailored to its real-life counterpart. The mod also supports custom liveries, allowing creative players to personalize their ride further. It integrates seamlessly with mod managers like Vortex for an easy installation experience.",
+    tags: [
+      "car",
+      "vehicle",
+      "tuning",
+      "custom",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 251,
+    game: "cyberpunk",
+    title: "Nylon Tights (Archive XL)",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "19 MB",
+    images: [
+      "images/mods/nylon-tights-archive-xl-1.jpg",
+      "images/mods/nylon-tights-archive-xl-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6wq366N24p18VId",
+    short: "Adds stylish nylon tights for female V with multiple colors and designs.",
+    description: "This mod introduces new nylon tights specifically designed for female V in Cyberpunk 2077. It includes two distinct designs, one with a lace top and a clean version, available in seven vibrant colors. The tights offer automatic refitting for multiple body types, including ANGEL, EBB, EBBP, and VANILLA. Players can acquire these items by purchasing them at Tony's Adult Store or by manually using the provided CET codes. While generally well-fitted, minor clipping may occasionally occur in certain poses.",
+    tags: [
+      "tights",
+      "clothing",
+      "female v",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 252,
+    game: "cyberpunk",
+    title: "Militech Sight Pack",
+    category: "weapons",
+    version: "1.4",
+    size: "50 MB",
+    images: [
+      "images/mods/militech-sight-pack-1-2.jpg",
+      "images/mods/militech-sight-pack-2-2.jpg",
+      "images/mods/militech-sight-pack-3-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5YW3Rh6889bDi9V",
+    short: "Adds seven new Militech sights and optics to vanilla weapons.",
+    description: "This mod introduces seven new Militech-themed sights and optics for your vanilla weapons in Cyberpunk 2077. It includes various options such as holo sights, reflex sights, red dot sights, and 4x scopes, with a special 4x night vision scope. The sights are fully compatible with rifles, SMGs, and pistols, enhancing your combat experience. Recent updates have improved aiming down sights (ADS) times, fixed reticle alignment issues, and reduced bullet spread and weapon sway for better accuracy. Players can acquire these new optics from gun vendors throughout Night City or by using provided CET console commands.",
+    tags: [
+      "sights",
+      "optics",
+      "weapons",
+      "militech"
+    ],
+    featured: true
+  },
+  {
+    id: 253,
+    game: "cyberpunk",
+    title: "Lamborghini Aventador LP 700-4",
+    category: "vehicles",
+    version: "1.0",
+    size: "17 MB",
+    images: [
+      "images/mods/lamborghini-aventador-lp-700-4-1.jpg",
+      "images/mods/lamborghini-aventador-lp-700-4-2.jpg",
+      "images/mods/lamborghini-aventador-lp-700-4-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/305ehp2wtu4Hk12",
+    short: "Drive the iconic Lamborghini Aventador LP 700-4 in Night City.",
+    description: "The Aventador LP 700-4 is a luxurious supercar with a timeless look, now available in Night City. This sleek vehicle adds a touch of high-end luxury to your drives through the neon-drenched streets. Experience its powerful performance and enjoy the meticulously crafted 3D model. A big thank you to Vans123 for their exceptional work on the 3D model and textures.",
+    tags: [
+      "lamborghini",
+      "aventador",
+      "supercar"
+    ],
+    featured: true
+  },
+  {
+    id: 254,
+    game: "cyberpunk",
+    title: "Audi R8 V10 Plus - ArchiveXL",
+    category: "vehicles",
+    version: "1.0",
+    size: "98 MB",
+    images: [
+      "images/mods/audi-r8-v10-plus-archivexl-1.jpg",
+      "images/mods/audi-r8-v10-plus-archivexl-2.jpg",
+      "images/mods/audi-r8-v10-plus-archivexl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0hnH988of7p9qmm",
+    short: "Add a highly customizable Audi R8 V10 Plus to Night City.",
+    description: "This mod introduces a highly detailed Audi R8 V10 Plus to Cyberpunk 2077 with extensive customization options. Utilize the CrystalCoat™ system for deep color changes across various body parts, wheels, and interior elements, guided by an included PDF tutorial. Choose from a vast array of tuning parts, including body kits for different model years, bumpers, spoilers, wheels, and interior accessories, all selectable via a convenient fomod installer for Vortex. The car features a detailed interior with functional dashboard elements, custom handling accurate to its real-life counterpart, and seamless integration into Night City traffic and virtual car dealers.",
+    tags: [
+      "audi r8",
+      "car",
+      "vehicle",
+      "customization"
+    ],
+    featured: true
+  },
+  {
+    id: 255,
+    game: "cyberpunk",
+    title: "Model 003 Cyber Arms for Masc and Fem V",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "10 MB",
+    images: [
+      "images/mods/model-003-cyber-arms-for-masc-and-fem-v-1.jpg",
+      "images/mods/model-003-cyber-arms-for-masc-and-fem-v-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/wcxYv84pb3VBr4u",
+    short: "Equippable Model 003 cyberarms for Masc and Fem V.",
+    description: "This mod brings the Model 003 NPC cyberarms as equippable items for both Male and Female V, supporting all major body modifications. It includes Garment Support, allowing the cyberarms to fit seamlessly under compatible clothing. Players can choose from fourteen base game appearances plus two exclusive custom colors: Black and White. A full Fem V refit is included, as these arms are originally for Masc NPCs only. The arms are also compatible with various cyberhand mods and the Inorganic Skin Materials mod.",
+    tags: [
+      "cyberarms",
+      "v custom",
+      "body mod"
+    ],
+    featured: true
+  },
+  {
+    id: 256,
+    game: "cyberpunk",
+    title: "Kurt Hansen's Cyber Arms for Masc and Fem V",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "27 MB",
+    images: [
+      "images/mods/kurt-hansens-cyber-arms-for-masc-and-fem-v-1.jpg",
+      "images/mods/kurt-hansens-cyber-arms-for-masc-and-fem-v-2.jpg",
+      "images/mods/kurt-hansens-cyber-arms-for-masc-and-fem-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SRBZHv5B874hNY3",
+    short: "Add Kurt Hansen's iconic cyberarms to your V, fully customizable.",
+    description: "This mod provides Kurt Hansen's unique cyberarms as equippable items for both Masc and Fem V, with extensive support for all major body mods. Both of Kurt's distinct arm types, full and forearm, are included in left and right variations, featuring independent hand cyberware. The arms and hand cyberware are available in multiple appearances and color options, with Garment Support ensuring compatibility with clothing. This mod offers wide compatibility with various body mods and allows for combinations with other hand cyberware mods. You can acquire these items through the KiasuBurger ZetaTech Cyberware Atelier or an interactive vendor mod for an immersive experience.",
+    tags: [
+      "cyberarms",
+      "hansen",
+      "cyberware",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 257,
+    game: "cyberpunk",
+    title: "ReLUX Plus (Riders on the Storm)",
+    category: "visuals-graphics",
+    version: "2.0.0",
+    size: "258 KB",
+    images: [
+      "images/mods/relux-plus-riders-on-the-storm-1.jpg",
+      "images/mods/relux-plus-riders-on-the-storm-2.jpg",
+      "images/mods/relux-plus-riders-on-the-storm-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/aj6pFm2GrYaE1Aw",
+    short: "Adds dynamic, multi-phase lighting to the Riders on the Storm quest.",
+    description: "ReLUX+ is a dynamic evolution of the original ReLUX mod, introducing multi-phase lighting that adapts to quest progression, heightening immersion and storytelling. This mod brings multi-phase environmental lighting to Cyberpunk 2077's “Riders on the Storm” quest, giving you a cinematic experience that evolves with every twist of the story. From the Aldecaldos' tense hideout prep to the rain-soaked chaos of the Raffen Shiv stronghold, lighting now reflects the vibe, the mood, and the absolute madness of it all. Whether you’re sneaking through shadows or lighting up the badlands with Panam at your side, ReLUX+ ensures the storm isn't just coming; it's casting the perfect shadows while it's at it.",
+    tags: [
+      "lighting",
+      "quest",
+      "visuals",
+      "cinematic"
+    ],
+    featured: true
+  },
+  {
+    id: 258,
+    game: "cyberpunk",
+    title: "Casual Day Outfit - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "54 MB",
+    images: [
+      "images/mods/casual-day-outfit-archive-xl-1.jpg",
+      "images/mods/casual-day-outfit-archive-xl-2.jpg",
+      "images/mods/casual-day-outfit-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A2PZL6vdt8bO6Y8",
+    short: "Female character casual outfit",
+    description: "This mod adds a new outfit for female characters in Cyberpunk 2077, featuring a top and pants. The outfit is designed to be casual and can be used with various body mods, including Enhanced Big Breasts and Angel Body Mod. The mod is easy to install, simply extract the zip file and drop it into the game folder. The outfit is now available for use in the game, adding a new layer of customization for players.",
+    tags: [
+      "clothes",
+      "female",
+      "cyber"
+    ],
+    featured: true
+  },
+  {
+    id: 259,
+    game: "cyberpunk",
+    title: "Office Top - Archive XL M F",
+    category: "armour-clothing",
+    version: "3",
+    size: "40 MB",
+    images: [
+      "images/mods/office-top-archive-xl-m-f-1.jpg",
+      "images/mods/office-top-archive-xl-m-f-2.jpg",
+      "images/mods/office-top-archive-xl-m-f-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Eb3331gvEP61zfa",
+    short: "Add a versatile office-style top for male and female V.",
+    description: "This mod introduces an elegant office-style top for both masculine and feminine V characters. It comes in 11 vibrant colors, including opaque and wet variants, with automatic refits for various body types. The bra component can be easily removed using Appearance Change Menu (ACM). Please avoid editing your character while wearing the top to prevent loading issues; use Equipment-EX to fix it if it occurs. This item is designed with photomode in mind, so first-person perspective issues will not be addressed.",
+    tags: [
+      "office top",
+      "clothing",
+      "armor",
+      "male v"
+    ],
+    featured: true
+  },
+  {
+    id: 260,
+    game: "cyberpunk",
+    title: "Beautiful EYEBROWS II - CCXL - Realistic Textures - BOTH V",
+    category: "appearance",
+    version: "1.0",
+    size: "36 MB",
+    images: [
+      "images/mods/beautiful-eyebrows-ii-ccxl-realistic-textures-both-v-1.jpg",
+      "images/mods/beautiful-eyebrows-ii-ccxl-realistic-textures-both-v-2.jpg",
+      "images/mods/beautiful-eyebrows-ii-ccxl-realistic-textures-both-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/37UrJRL06TQxTyi",
+    short: "Realistic hand-drawn eyebrow textures for Cyberpunk 2077 V.",
+    description: "This mod adds 40 new realistic, hand-drawn eyebrow textures for both Female and Male V in Cyberpunk 2077. These textures are not replacers and add new options to the Character Creation menu via ArchiveXL. You can choose between a Default version for a natural look or a Fuller version mimicking makeup.",
+    tags: [
+      "eyebrows",
+      "appearance",
+      "ccxl",
+      "makeup"
+    ],
+    featured: true
+  },
+  {
+    id: 261,
+    game: "cyberpunk",
+    title: "Beautiful Exotics Eyes Pack - CCXL Version",
+    category: "appearance",
+    version: "N/A",
+    size: "6 MB",
+    images: [
+      "images/mods/beautiful-exotics-eyes-pack-ccxl-version-1.jpg",
+      "images/mods/beautiful-exotics-eyes-pack-ccxl-version-2.jpg",
+      "images/mods/beautiful-exotics-eyes-pack-ccxl-version-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/77a9p5E146P5m33",
+    short: "Adds 39 unique, exotic eye colors for V character creation.",
+    description: "This mod introduces 39 new eye colors to your Cyberpunk 2077 character creation menu. It offers a diverse range of natural, exotic, and vibrant designs suitable for both Fem V and Male V. As a CCXL version, these eyes are added as new options rather than replacing any existing in-game items. Simply select from the expanded list during character customization to apply them. This mod requires ArchiveXL and TweakXL to function correctly.",
+    tags: [
+      "eyes",
+      "character",
+      "appearance",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 262,
+    game: "cyberpunk",
+    title: "Zenitex Modular Assault Vest",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "28 MB",
+    images: [
+      "images/mods/zenitex-modular-assault-vest-1.jpg",
+      "images/mods/zenitex-modular-assault-vest-2.jpg",
+      "images/mods/zenitex-modular-assault-vest-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NagilrY2xiB1b63",
+    short: "Ultra-heavy modular assault vest with dynamic customization.",
+    description: "This mod introduces the Zenitex Modular Assault Vest, an ultra-heavy vest with modular accessories. It features 69 items with dynamic customization options and garment support. The vest provides gameplay bonuses, is lore-friendly, and is optimized for both gameplay and photomode.",
+    tags: [
+      "armor",
+      "clothing",
+      "modular",
+      "vest"
+    ],
+    featured: true
+  },
+  {
+    id: 263,
+    game: "cyberpunk",
+    title: "Eve Jeans",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "52 MB",
+    images: [
+      "images/mods/eve-jeans-1.jpg",
+      "images/mods/eve-jeans-2.jpg",
+      "images/mods/eve-jeans-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m935t8DGz8VB85N",
+    short: "Eve Jeans mod for Cyberpunk",
+    description: "This mod adds a variety of jeans outfits for the player character in Cyberpunk 2077. The mod includes 30 different items, each with its own unique texture and design. The jeans are available in different colors and materials, including denim, latex, and leather. The mod also includes ripped versions of some of the jeans. The assets are original and made from scratch, with custom meshes and textures. The mod is compatible with the Eve body and other popular body mods.",
+    tags: [
+      "clothing",
+      "jeans",
+      "cyberpunk"
+    ],
+    featured: true
   }
 ];
 
