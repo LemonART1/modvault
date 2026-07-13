@@ -5031,7 +5031,7 @@ const MODS = [
     game: "bg3",
     title: "Myky's Accessories",
     category: "accessories",
-    version: "not specified",
+    version: "1.0",
     size: "102 MB",
     images: [
       "images/mods/mykys-accessories-1.jpg",
@@ -5434,7 +5434,7 @@ const MODS = [
     game: "cyberpunk",
     title: "Beautiful Exotics Eyes Pack - CCXL Version",
     category: "appearance",
-    version: "N/A",
+    version: "1.0",
     size: "6 MB",
     images: [
       "images/mods/beautiful-exotics-eyes-pack-ccxl-version-1.jpg",
