@@ -266,7 +266,7 @@ ${footer}
 <script src="js/supabase-client.js?v=17"></script>
 <script src="js/stats.js?v=11"></script>
 <script src="js/site-search.js?v=9"></script>
-<script src="js/account.js?v=8"></script>
+<script src="js/account.js?v=9"></script>
 <script src="js/comments.js?v=6"></script>
 <script src="js/reports.js?v=1"></script>
 <script src="js/pages/mod-detail.js?v=7"></script>

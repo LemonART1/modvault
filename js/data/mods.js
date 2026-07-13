@@ -5908,7 +5908,7 @@ const MODS = [
     game: "ets2",
     title: "Scania R650 \"JQ van der Meer\"",
     category: "trucks",
-    version: "v12.0",
+    version: "12.0",
     size: "391 MB",
     images: [
       "images/mods/scania-r650-jq-van-der-meer-1.jpg",
@@ -5955,7 +5955,7 @@ const MODS = [
     game: "ets2",
     title: "Realistic Brutal Weather",
     category: "cars-bus",
-    version: "v13.9",
+    version: "13.9",
     size: "2.6 GB",
     images: [
       "images/mods/realistic-brutal-weather-1.jpg",
@@ -6046,7 +6046,7 @@ const MODS = [
     game: "bg3",
     title: "Runestone And Grymforge Dice",
     category: "dice",
-    version: "Not specified",
+    version: "1.0",
     size: "33 MB",
     images: [
       "images/mods/runestone-and-grymforge-dice-1.jpg",
@@ -6311,7 +6311,7 @@ const MODS = [
     game: "bg3",
     title: "Stewards of the Sea - Playable Tritons",
     category: "character-customisation",
-    version: "Not specified",
+    version: "1.0",
     size: "48 MB",
     images: [
       "images/mods/stewards-of-the-sea-playable-tritons-1.jpg",
@@ -6399,7 +6399,7 @@ const MODS = [
     game: "bg3",
     title: "Auto Wares - MCM",
     category: "accessories",
-    version: "Not specified",
+    version: "1.0",
     size: "11 KB",
     images: [
       "images/mods/auto-wares-mcm-1.jpg",

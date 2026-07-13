@@ -197,7 +197,7 @@ function buildGrid(gameKey) {
         <div class="card-title">${esc(mod.title)}</div>
         <div class="card-desc">${esc(mod.short)}</div>
         <div class="card-meta">
-          <span>v${esc(mod.version)}</span>
+          <span>v${esc(String(mod.version).replace(/^\s*v\.?\s*/i, ""))}</span>
           <span>${esc(mod.size)}</span>
           <span>${renderStars(stats.ratingAverage)} ${ModVaultStats.formatRating(stats.ratingAverage)}</span>
           <span>${ModVaultStats.formatCompact(stats.downloads)} downloads</span>
@@ -262,7 +262,7 @@ function openMod(id) {
   document.getElementById("modal-game-tag").textContent  = GAMES[gameKey]?.name ?? gameKey;
   document.getElementById("modal-title").textContent     = mod.title;
   document.getElementById("modal-short").textContent     = mod.short;
-  document.getElementById("modal-stat-ver").textContent  = "v" + mod.version;
+  document.getElementById("modal-stat-ver").textContent  = "v" + String(mod.version).replace(/^\s*v\.?\s*/i, "");
   document.getElementById("modal-stat-size").textContent = mod.size;
 
   document.getElementById("modal-desc").textContent = mod.description;

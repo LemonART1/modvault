@@ -1,6 +1,10 @@
 // ModVault personal account: favorites, download history, version notifications.
 // Depends on: js/data/mods.js (MODS, GAMES), js/supabase-client.js (ModVaultSupabase, ModVaultUser).
 (function () {
+  // Some mod entries store the version with a leading "v" already (e.g. "V10.0"),
+  // which duplicated into "vv10.0" wherever we prefix our own "v". Strip it first.
+  function cleanVersion(v) { return String(v || "").replace(/^\s*v\.?\s*/i, ""); }
+
   function db() { return window.ModVaultSupabase || null; }
 
   function withTimeout(promise, ms) {
@@ -294,7 +298,7 @@
     const rows = updates.map(f => {
       const mod = modById(f.mod_id); if (!mod) return "";
       return `<div class="account-item-row">
-        ${itemLink(mod, `${esc(gameName(mod))} &middot; v${esc(f.saved_version)} &rarr; v${esc(mod.version)}`)}
+        ${itemLink(mod, `${esc(gameName(mod))} &middot; v${esc(cleanVersion(f.saved_version))} &rarr; v${esc(cleanVersion(mod.version))}`)}
         <button class="btn btn-ghost account-seen-btn" data-mod="${mod.id}" type="button">Mark seen</button>
       </div>`;
     }).join("");
@@ -310,7 +314,7 @@
     const rows = slice.map(f => {
       const mod = modById(f.mod_id); if (!mod) return "";
       return `<div class="account-item-row">
-        ${itemLink(mod, `${esc(gameName(mod))} &middot; v${esc(mod.version)}`)}
+        ${itemLink(mod, `${esc(gameName(mod))} &middot; v${esc(cleanVersion(mod.version))}`)}
         <button class="btn btn-ghost account-remove-btn" data-mod="${mod.id}" type="button">Remove</button>
       </div>`;
     }).join("");
