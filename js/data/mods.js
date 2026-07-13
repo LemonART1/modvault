@@ -5496,6 +5496,991 @@ const MODS = [
       "cyberpunk"
     ],
     featured: true
+  },
+  {
+    id: 264,
+    game: "ets2",
+    title: "PNG Road to Spring",
+    category: "maps",
+    version: "v2.0.2",
+    size: "2.5 GB",
+    images: [
+      "images/mods/png-road-to-spring-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/u474q6PP0K83JQ7",
+    short: "Experience updated visuals and new rain effects for Euro Truck Simulator 2.",
+    description: "The PNG Road to Spring mod package has been updated to version 2.0.2. This release includes significant updates to the PhotorealisticExperience and NorthExperience mods. PhotorealisticExperience features a huge textures and materials overhaul, alongside new rain environments. Additionally, the free Real Generic Logos mod has also received an update. All included components are compatible with game versions 1.58 and 1.59.",
+    tags: [
+      "visuals",
+      "environment",
+      "textures"
+    ],
+    featured: true
+  },
+  {
+    id: 265,
+    game: "ets2",
+    title: "Scania R560 V8 + Trailer",
+    category: "trucks",
+    version: "v1.4",
+    size: "625 MB",
+    images: [
+      "images/mods/scania-r560-v8-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/L8JNkB3430RlUJ3",
+    short: "Detailed Scania R560 V8 truck and trailer with HQ features.",
+    description: "This mod introduces a highly detailed Scania R560 V8 truck for Euro Truck Simulator 2. It features an HQ model and interior with added shadows for enhanced realism. The package also includes a special trailer designed to match the truck, complete with 4K textures for visual fidelity. Drivers can personalize their experience with 5-color cabin lights and Holland Style accessories. This version is updated for compatibility with ETS2 game version 1.60.x.",
+    tags: [
+      "scania truck",
+      "r560 v8",
+      "trailer"
+    ],
+    featured: true
+  },
+  {
+    id: 266,
+    game: "ets2",
+    title: "Volvo FH1 by Krille",
+    category: "trucks",
+    version: "v1.2",
+    size: "204 MB",
+    images: [
+      "images/mods/volvo-fh1-by-krille-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/97318MUt0JxUQ3h",
+    short: "Add the iconic Volvo FH1 truck with extensive customization options.",
+    description: "This mod introduces the classic Volvo FH1 truck to Euro Truck Simulator 2. It features three cabin options, including Globetrotter and Sleeper, along with five distinct chassis configurations. Players can choose from eleven powerful engines ranging from 340hp to 520hp and ten transmission options. The truck boasts an authentic 1994 interior and supports various tuning accessories. This version also includes compatibility updates for game version 1.60 and supports Rigids and Wolli's Interior Addons.",
+    tags: [
+      "volvo",
+      "fh1",
+      "truck",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 267,
+    game: "ets2",
+    title: "Nextgen Graphics",
+    category: "other",
+    version: "v1.15.7",
+    size: "3 GB",
+    images: [
+      "images/mods/nextgen-graphics-1.jpg",
+      "images/mods/nextgen-graphics-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QT6MBy7AZLK1W48",
+    short: "Experience a complete graphical overhaul for Euro Truck Simulator 2.",
+    description: "This mod significantly overhauls the graphics in Euro Truck Simulator 2. It reworks 70% of PBR materials for roads, terrain, and other environmental elements. Enjoy new weather and lighting systems, complete with updated sky textures. The mod also introduces a new Spring Addon and realistic air traffic. Several new Reshade presets are included to further enhance your visual experience.",
+    tags: [
+      "graphics",
+      "visual",
+      "weather",
+      "materials"
+    ],
+    featured: true
+  },
+  {
+    id: 268,
+    game: "ets2",
+    title: "MAN F2000 Commander",
+    category: "trucks",
+    version: "v26.0",
+    size: "253 MB",
+    images: [
+      "images/mods/man-f2000-commander-1.jpg",
+      "images/mods/man-f2000-commander-2.jpg",
+      "images/mods/man-f2000-commander-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j4zzF5jnU55U6SK",
+    short: "Adds the highly detailed MAN F2000 Commander truck with ownable trailers.",
+    description: "This mod introduces the MAN F2000 Commander, a highly detailed standalone truck for Euro Truck Simulator 2. It features high-poly 3D models, advanced coupling, and support for custom license plates. The package includes ownable trailers, unique wheels, and high-quality lightmasks for enhanced visuals. Experience realistic cable physics, an animated window, and a custom flarepack. A template is also provided for easy skinning and personalization.",
+    tags: [
+      "truck",
+      "man",
+      "f2000",
+      "trailer",
+      "standalone"
+    ],
+    featured: true
+  },
+  {
+    id: 269,
+    game: "ets2",
+    title: "MAN TG3 2020 v1.8",
+    category: "cars-bus",
+    version: "v1.8",
+    size: "1 GB",
+    images: [
+      "images/mods/man-tg3-2020-v18-1.jpg",
+      "images/mods/man-tg3-2020-v18-2.jpg",
+      "images/mods/man-tg3-2020-v18-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4ZPrS1xLp80F9Z0",
+    short: "MAN TG3 truck mod available",
+    description: "The MAN TG3 2020 is a highly detailed truck mod for Euro Truck Simulator 2. It features a standalone truck with its own interior, wheels, and skins. The truck also has a lot of tuning options available, giving players a high level of customization. The sound of the truck is provided by Kriechbaum, adding to the overall realism of the mod. The truck is sold in the MAN store and comes with 4 chassis and 1 cabin option.",
+    tags: [
+      "truck",
+      "euro",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 270,
+    game: "ets2",
+    title: "BMW M4 G82 Competition 2022",
+    category: "cars-bus",
+    version: "2.6",
+    size: "32 MB",
+    images: [
+      "images/mods/bmw-m4-g82-competition-2022-1.jpg",
+      "images/mods/bmw-m4-g82-competition-2022-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/87FoDmuGCXZNPU4",
+    short: "Drive the high-performance BMW M4 G82 with updated sound and physics.",
+    description: "This mod introduces the BMW M4 G82 Competition 2022 to Euro Truck Simulator 2. It features a new, rough exhaust engine sound for an immersive driving experience. The engine and transmission have been updated to support game version 1.60.x. Players will also find an added license plate and improved physics, allowing for a top speed of up to 280 Km/H. Enjoy a high-performance sports car in your trucking adventures.",
+    tags: [
+      "bmw",
+      "m4",
+      "car",
+      "sports car",
+      "engine sound"
+    ],
+    featured: true
+  },
+  {
+    id: 271,
+    game: "ets2",
+    title: "Grand Utopia",
+    category: "maps",
+    version: "v1.20c",
+    size: "339 MB",
+    images: [
+      "images/mods/grand-utopia-1.jpg",
+      "images/mods/grand-utopia-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oi995ojVV98m8UW",
+    short: "A new standalone 1:1 scale map for Euro Truck Simulator 2.",
+    description: "Grand Utopia invites all truck enthusiasts to explore a new virtual world in Euro Truck Simulator 2. This standalone map features a vast territory with many roads and interesting interchanges. Discover meticulously built cities and picturesque natural landscapes throughout your journeys. The map is designed at a realistic 1:1 scale, offering an immersive driving experience. Prepare for endless hours of exploration and challenging routes.",
+    tags: [
+      "map",
+      "standalone",
+      "1:1 scale",
+      "roads"
+    ],
+    featured: true
+  },
+  {
+    id: 272,
+    game: "ets2",
+    title: "Scania RT 2016",
+    category: "trucks",
+    version: "v1.5",
+    size: "353 MB",
+    images: [
+      "images/mods/scania-rt-2016-1.jpg",
+      "images/mods/scania-rt-2016-2.jpg",
+      "images/mods/scania-rt-2016-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/D4f4d587JFg4H25",
+    short: "Add the highly customizable Scania RT 2016 truck to ETS2.",
+    description: "This mod introduces the Scania RT 2016 truck model to Euro Truck Simulator 2. It features extensive customization options for cabins, chassis, engines, and transmissions. Players can also choose from various interior designs and steering wheel options. Additionally, the mod includes many tuning possibilities to personalize your truck. This highly detailed vehicle enhances your ETS2 trucking experience.",
+    tags: [
+      "scania",
+      "truck",
+      "tune",
+      "custom",
+      "chassis"
+    ],
+    featured: true
+  },
+  {
+    id: 273,
+    game: "ets2",
+    title: "BMW M5 F10",
+    category: "cars-bus",
+    version: "v3.0",
+    size: "41 MB",
+    images: [
+      "images/mods/bmw-m5-f10-1.jpg",
+      "images/mods/bmw-m5-f10-2.jpg",
+      "images/mods/bmw-m5-f10-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vmkLY8P2NT0iV2J",
+    short: "Drive the luxurious BMW M5 F10 sedan in Euro Truck Simulator 2.",
+    description: "This mod introduces the high-performance BMW M5 F10 luxury sports sedan to Euro Truck Simulator 2. Experience driving this iconic car with its detailed model, exactly as depicted. The vehicle is fully functional within the game, ensuring a smooth and immersive experience. Enjoy cruising the European roads in a sleek and powerful car, deviating from the usual truck gameplay.",
+    tags: [
+      "bmw",
+      "m5",
+      "car",
+      "sedan",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 274,
+    game: "ets2",
+    title: "Audi RS 7 Mansory P780",
+    category: "cars-bus",
+    version: "1.2",
+    size: "79 MB",
+    images: [
+      "images/mods/audi-rs-7-mansory-p780-1.jpg",
+      "images/mods/audi-rs-7-mansory-p780-2.jpg",
+      "images/mods/audi-rs-7-mansory-p780-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pkBGL3me3AEVmN7",
+    short: "Drive the luxurious Audi RS 7 Mansory P780 with updated interior.",
+    description: "This mod introduces the Audi RS 7 Mansory P780 to Euro Truck Simulator 2, featuring a recent update with fixed interior materials and additional lighting. It boasts a very high-quality exterior and interior, offering options for interior color and wheel rims. The vehicle includes an HQ UI dashboard with digital speed and RPM gauges, alongside an HQ GPS with screens. Drivers will experience excellent driveability thanks to improved engine physics and a new, pleasant V8 engine sound. Additional features include openable front windows, accurate wipers, a top speed of 320 KM/H, and a 7th gear.",
+    tags: [
+      "audi",
+      "rs7",
+      "mansory",
+      "car",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 275,
+    game: "ets2",
+    title: "Audi ABT RS7 C8 2023",
+    category: "cars-bus",
+    version: "2.2",
+    size: "51 MB",
+    images: [
+      "images/mods/audi-abt-rs7-c8-2023-1.jpg",
+      "images/mods/audi-abt-rs7-c8-2023-2.jpg",
+      "images/mods/audi-abt-rs7-c8-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uT9fSIMn45163I0",
+    short: "Drive the updated Audi ABT RS7 C8 with improved features and physics.",
+    description: "Experience the luxurious Audi ABT RS7 C8 2023 in Euro Truck Simulator 2. This mod brings a high-performance car with significant updates to the game. It features fixed interior materials, new color options, and added interior lights for a more immersive feel. The dashboard has been redesigned, and a license plate is now included. Enjoy improved physics and engine performance, allowing you to reach speeds of up to 320 KmH.",
+    tags: [
+      "audi",
+      "sports car",
+      "luxury",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 276,
+    game: "ets2",
+    title: "Ilha da Madeira",
+    category: "maps",
+    version: "1.0",
+    size: "1.7 GB",
+    images: [
+      "images/mods/ilha-da-madeira-1.jpg",
+      "images/mods/ilha-da-madeira-2.jpg",
+      "images/mods/ilha-da-madeira-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3Zom4lJ5Z7RHf1s",
+    short: "Conquer the scenic and challenging roads of Madeira Island in ETS2.",
+    description: "Experience the beautiful and challenging landscapes of Ilha da Madeira in Euro Truck Simulator 2. This custom map, currently in a beta stage, introduces various cities, places, and companies for dynamic cargo deliveries. Navigate winding roads and mountainous terrain, but be cautious with heavy 36t loads as some climbs are difficult. The latest update, version 1.0, expands the map with new cities, companies, and significant bug fixes. For the best experience, it is recommended to have all game DLCs and a high-level profile.",
+    tags: [
+      "madeira",
+      "island map",
+      "challenging",
+      "beta"
+    ],
+    featured: true
+  },
+  {
+    id: 277,
+    game: "ets2",
+    title: "Scania Torpedo NextGen 730",
+    category: "trucks",
+    version: "3.7.1",
+    size: "1.1 GB",
+    images: [
+      "images/mods/scania-torpedo-nextgen-730-1.jpg",
+      "images/mods/scania-torpedo-nextgen-730-2.jpg",
+      "images/mods/scania-torpedo-nextgen-730-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MGdLZR649SiO3YO",
+    short: "Add a high-quality Scania Torpedo NextGen 730 truck with customization options.",
+    description: "This mod introduces a high-quality Scania Torpedo NextGen 730 truck to Euro Truck Simulator 2. It features a detailed exterior and interior model, alongside 3 cabin types and 7 diverse chassis configurations including BDF options. Players can customize their truck with various interior variants, accessories, and both standard and custom steering wheels. A skinpack and template are provided for personalization, and it also includes ownable container trailers.",
+    tags: [
+      "scania",
+      "truck",
+      "nextgen",
+      "customization"
+    ],
+    featured: true
+  },
+  {
+    id: 278,
+    game: "ets2",
+    title: "MAN TGX E6 by Gloover",
+    category: "trucks",
+    version: "2.2.1",
+    size: "292 MB",
+    images: [
+      "images/mods/man-tgx-e6-by-gloover-1.jpg",
+      "images/mods/man-tgx-e6-by-gloover-2.jpg",
+      "images/mods/man-tgx-e6-by-gloover-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/X9g9RL8D1B4GeJ6",
+    short: "Experience the MAN TGX E6 truck with new features and tuning.",
+    description: "This mod introduces the MAN TGX E6 truck by Gloover, adapted for game version 1.51. It features new interior shadows and includes fixes for speed limit icons. The truck is standalone, sold in MAN dealerships, and utilizes SCS sounds with an 8-speed transmission. Enjoy a custom interior, support for DLC Cabin Accessories, and a variety of tuning parts and accessories.",
+    tags: [
+      "man",
+      "truck",
+      "tgx",
+      "vehicle",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 279,
+    game: "ets2",
+    title: "BMW 320i F30 M Sport",
+    category: "cars-bus",
+    version: "v3.2",
+    size: "86 MB",
+    images: [
+      "images/mods/bmw-320i-f30-m-sport-1.jpg",
+      "images/mods/bmw-320i-f30-m-sport-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Gh189tD3Brmh7f4",
+    short: "Adds a high-quality BMW 320i F30 M Sport with realistic physics.",
+    description: "This mod introduces a highly detailed BMW 320i F30 M Sport into the game. It features an HQ model with realistic ambient occlusion for enhanced visual fidelity. The vehicle boasts accurate engine, transmission, and weight values, ensuring an authentic driving experience. This version also includes various bug fixes and new features.",
+    tags: [
+      "bmw",
+      "car",
+      "sport",
+      "vehicle",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 280,
+    game: "ets2",
+    title: "Scania 143M 470 Combo 6x2 Rigid",
+    category: "cars-bus",
+    version: "v10.0",
+    size: "240 MB",
+    images: [
+      "images/mods/scania-143m-470-combo-6x2-rigid-1.jpg",
+      "images/mods/scania-143m-470-combo-6x2-rigid-2.jpg",
+      "images/mods/scania-143m-470-combo-6x2-rigid-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/O1yQrP2GpzWg5C9",
+    short: "Scania truck mod with details",
+    description: "The Scania 143M 470 Combo 6x2 Rigid is a standalone truck mod for Euro Truck Simulator 2. It features a 6x2 taglift chassis, two engine sounds, and four transmissions. The mod also includes two interiors, beige and brown, and black and grey, as well as six steering wheels. Additionally, there are five optional bullbars available in chrome and paint finishes. This mod provides a realistic and detailed trucking experience for players.",
+    tags: [
+      "truck",
+      "scania",
+      "euro"
+    ],
+    featured: true
+  },
+  {
+    id: 281,
+    game: "ets2",
+    title: "Opel Astra 2024",
+    category: "cars-bus",
+    version: "1.4",
+    size: "175 MB",
+    images: [
+      "images/mods/opel-astra-2024-1.jpg",
+      "images/mods/opel-astra-2024-2.jpg",
+      "images/mods/opel-astra-2024-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9cvrh7Ca6LoY82B",
+    short: "Opel Astra 2024 mod updated",
+    description: "The Opel Astra 2024 is a high-quality mod for Euro Truck Simulator 2, featuring a very detailed exterior and interior design. The mod includes a new engine sound, improved engine and physics, and openable front windows. The dashboard has a digital speed and RPM gauge, making it feel more realistic. The mod also includes working wipers and a top speed of 230KH. The gearbox has been fixed, and the mirrors have been adjusted to the correct positions.",
+    tags: [
+      "car",
+      "mod",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 282,
+    game: "ets2",
+    title: "Scania R650 \"JQ van der Meer\"",
+    category: "trucks",
+    version: "v12.0",
+    size: "391 MB",
+    images: [
+      "images/mods/scania-r650-jq-van-der-meer-1.jpg",
+      "images/mods/scania-r650-jq-van-der-meer-2.jpg",
+      "images/mods/scania-r650-jq-van-der-meer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/FmQCXK3CCRa3ooC",
+    short: "Scania R650 truck and Pacton trailer add-on.",
+    description: "This mod adds the Scania R650 \"JQ van der Meer\" truck to Euro Truck Simulator 2. It features a normal cabin, 6x2 chassis, and a powerful DC16 E6 V8 engine. The mod includes an exclusive interior, custom salon, multiple fender options, and a Pacton trailer. It is compatible with ETS 2 version 1.60.x.",
+    tags: [
+      "scania",
+      "truck",
+      "trailer",
+      "custom",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 283,
+    game: "ets2",
+    title: "BMW M8 Competition G16 2022",
+    category: "cars-bus",
+    version: "3.8",
+    size: "91 MB",
+    images: [
+      "images/mods/bmw-m8-competition-g16-2022-1.jpg",
+      "images/mods/bmw-m8-competition-g16-2022-2.jpg",
+      "images/mods/bmw-m8-competition-g16-2022-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/wwIRo1k7AGN1Pr6",
+    short: "Improved BMW M8 with rough exhaust and better interior.",
+    description: "This mod updates the BMW M8 Competition G16 2022 for Euro Truck Simulator 2. It features a rough exhaust sound, improved engine and transmission, and enhanced interior details like additional color options and dashboard lights. The mod also includes updated physics and engine performance, allowing for a maximum speed of 280 KmH.",
+    tags: [
+      "bmw",
+      "car",
+      "ets2",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 284,
+    game: "ets2",
+    title: "Realistic Brutal Weather",
+    category: "cars-bus",
+    version: "v13.9",
+    size: "2.6 GB",
+    images: [
+      "images/mods/realistic-brutal-weather-1.jpg",
+      "images/mods/realistic-brutal-weather-2.jpg",
+      "images/mods/realistic-brutal-weather-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ggs3pOho1UI1c0f",
+    short: "Improved weather effects overall",
+    description: "The Realistic Brutal Weather mod is designed to enhance the weather experience in Euro Truck Simulator 2. It reworks the climate in general, making tweaks to the weather and improving color schemes. The mod also adds climate features for the Black Sea and improves water effects for rivers, oceans, beaches, lakes, and ponds. Additionally, it reworks rain effects and improves the overall climate. The goal is to create a more realistic and immersive weather experience for players.",
+    tags: [
+      "rain",
+      "snow",
+      "weather"
+    ],
+    featured: true
+  },
+  {
+    id: 285,
+    game: "bg3",
+    title: "Dialogue and Reactivity Tags (DART) Framework",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "38 KB",
+    images: [
+      "images/mods/dialogue-and-reactivity-tags-dart-framework-1.jpg",
+      "images/mods/dialogue-and-reactivity-tags-dart-framework-2.jpg",
+      "images/mods/dialogue-and-reactivity-tags-dart-framework-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H9BYLNPQHmRg15R",
+    short: "Enhances dialogue reactivity and options for modded content.",
+    description: "This framework mod enhances dialogue options in Baldur's Gate 3. It allows other mods to attribute dialogue reactivity tags to their custom content like classes and races. DART works client-side to modify how these tags appear during conversations, offering automatic functionality or advanced control via JSON configuration for modmakers. It also supports minor dialogue editing and precise control over when dialogue options appear.",
+    tags: [
+      "dialogue",
+      "reactivity",
+      "mods",
+      "gameplay",
+      "ui"
+    ],
+    featured: true
+  },
+  {
+    id: 286,
+    game: "bg3",
+    title: "Book of Druids",
+    category: "classes",
+    version: "1.0.0.5",
+    size: "23 MB",
+    images: [
+      "images/mods/book-of-druids-1.jpg",
+      "images/mods/book-of-druids-2.jpg",
+      "images/mods/book-of-druids-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8f57z6qH88bA9u3",
+    short: "New Druid subclasses added",
+    description: "This mod adds the Circle of Dreams, Circle of the Shepherd, and the Circle of Wildfire from Xanathar's Guide to Everything and Tasha's Cauldron of Everything to Baldur's Gate 3. The mod includes new subclass icons and support for Compatibility Framework. It also features Spirit Totems, such as Bear, Hawk, and Flumph, which provide various benefits to allies. The Circle of Wildfire's abilities, including Cauterizing Flames and Blazing Revival, have been implemented with some limitations due to game engine restrictions. The mod also introduces new armours for each Druid subclass.",
+    tags: [
+      "druid",
+      "magic",
+      "spells"
+    ],
+    featured: true
+  },
+  {
+    id: 287,
+    game: "bg3",
+    title: "Camp Event Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/camp-event-overhaul-1.jpg",
+      "images/mods/camp-event-overhaul-2.jpg",
+      "images/mods/camp-event-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J7t1lACRhv340HU",
+    short: "Overhauls Act 1 camp scenes for better accessibility and content.",
+    description: "This mod overhauls easily missed camp scenes in Act 1 of Baldur's Gate 3. It revises trigger and cancellation conditions for several early-game camp scenes to make them more accessible without sacrificing narrative logic. Various events, including initial contemplations, ceremorphosis nights, and companion-specific dialogues, have been adjusted for better trigger conditions and to unlock previously inaccessible content.",
+    tags: [
+      "camp",
+      "events",
+      "gameplay",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 288,
+    game: "bg3",
+    title: "Runestone And Grymforge Dice",
+    category: "dice",
+    version: "Not specified",
+    size: "33 MB",
+    images: [
+      "images/mods/runestone-and-grymforge-dice-1.jpg",
+      "images/mods/runestone-and-grymforge-dice-2.jpg",
+      "images/mods/runestone-and-grymforge-dice-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5d9xMazx3qd84h2",
+    short: "New dice skins added now",
+    description: "This mod adds two new dice skins to your game. The set includes two unique skins: Runestone and Grymforge. The Runestone skin features a mysterious and ancient design, while the Grymforge skin has a metallic and industrial look. These new skins can add a touch of personality to your game. They are part of the July 2025 Modathon submission for the \"Stone & Metal\" theme.",
+    tags: [
+      "dice",
+      "metal",
+      "game"
+    ],
+    featured: true
+  },
+  {
+    id: 289,
+    game: "bg3",
+    title: "Valkrana's Necrobroker - Wizard Subclass",
+    category: "classes",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/valkranas-necrobroker-wizard-subclass-1.jpg",
+      "images/mods/valkranas-necrobroker-wizard-subclass-2.jpg",
+      "images/mods/valkranas-necrobroker-wizard-subclass-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3Aob9JMmeGU0j5K",
+    short: "Wizard subclass using souls and auguries to extract secrets.",
+    description: "This wizard subclass blends necromancy with divination, allowing you to extract secrets using souls and auguries. Key features include summoning a Skeletal Scout for reconnaissance and the powerful Invoke Intel Hoard ability to pierce deceptions. This mod also introduces the Valkrana's Soul Secret spell for enhanced information gathering.",
+    tags: [
+      "wizard",
+      "necromancy",
+      "divination"
+    ],
+    featured: true
+  },
+  {
+    id: 290,
+    game: "bg3",
+    title: "Early Access Scenes Restored",
+    category: "gameplay",
+    version: "1.0",
+    size: "212 MB",
+    images: [
+      "images/mods/early-access-scenes-restored-1.jpg",
+      "images/mods/early-access-scenes-restored-2.jpg",
+      "images/mods/early-access-scenes-restored-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/37OBfh7dm48d4Ch",
+    short: "Restores Early Access scenes and NPCs",
+    description: "This mod restores deleted scenes, encounters, and NPCs from Early Access in Baldur's Gate 3. It brings back over 100 conversations and more than 1000 lines of voiced dialogue, adding more companion reactivity and NPC encounters. The mod also includes brand new content, such as reconstructed and remastered scenes, and fixes some bugged dialogues and spelling errors. The mod is compatible with some other mods, but may conflict with those that override the same files or resurrect the same dialogs from Early Access.",
+    tags: [
+      "game",
+      "mods",
+      "scenes"
+    ],
+    featured: true
+  },
+  {
+    id: 291,
+    game: "bg3",
+    title: "Goon's Slayer Overhaul",
+    category: "accessories",
+    version: "1.0",
+    size: "14 KB",
+    images: [
+      "images/mods/goons-slayer-overhaul-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p4xvBLx2MlOjokb",
+    short: "Slayer class bug fixes",
+    description: "This mod provides a comprehensive overhaul of the Slayer class, addressing various bugs, quality of life issues, and balance tweaks. It fixes issues with abilities such as Slayer's Extra Attack, Let the Slaughter Begin, and Multiattack, ensuring that they function as intended. Additionally, the mod introduces changes to improve gameplay, including the use of Maneuver Save DC instead of Spell Save DC for certain abilities. The mod also enhances the functionality of abilities like Piercing Growl, Relentless Lunge, Slay, and Sumptuous Blood Bath, making them more effective and synergistic with other character features.",
+    tags: [
+      "fixes",
+      "slayer",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 292,
+    game: "bg3",
+    title: "Dirt B Gone - NPC Edition",
+    category: "character-customisation",
+    version: "1.0",
+    size: "811 KB",
+    images: [
+      "images/mods/dirt-b-gone-npc-edition-1.jpg",
+      "images/mods/dirt-b-gone-npc-edition-2.jpg",
+      "images/mods/dirt-b-gone-npc-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6XoXhNEp40b3Oia",
+    short: "Cleans dirty NPCs instantly",
+    description: "This mod removes baked-in dirt and blood from certain NPCs in the game, making them look cleaner and more presentable. The mod targets specific characters, including Nine-Fingers Keene, Quartermaster Talli, Kagha, Auntie Ethel, Rolan, and Roah Moonglow, and removes dirt and blood from their models. The mod is designed to be compatible with other mods that alter NPC appearances, but may have some compatibility issues with certain mods. The mod is an ongoing project, and new characters will be added as the author notices them. The mod comes in two versions: a single pak file that includes all the cleaned NPCs, and a separate paks version that includes each NPC in a separate file.",
+    tags: [
+      "clean",
+      "npcs",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 293,
+    game: "bg3",
+    title: "Goblin Leaders' New Look",
+    category: "character-customisation",
+    version: "1.0",
+    size: "26 KB",
+    images: [
+      "images/mods/goblin-leaders-new-look-1.jpg",
+      "images/mods/goblin-leaders-new-look-2.jpg",
+      "images/mods/goblin-leaders-new-look-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vv8PYuacuPXzX6L",
+    short: "Goblin Leaders New Look Mod",
+    description: "This mod gives the Goblin leaders a new, Absolute-inspired look. Minthara, Gut, and Dror Ragzlin have all been redesigned with new uniforms, skin tones, and accessories. The mod includes new outfits, haircuts, and equipment for each character. The changes are designed to reflect their status as powerful Goblin leaders. The mod is compatible with Patch 8 and can be safely installed or uninstalled mid-playthrough.",
+    tags: [
+      "goblin",
+      "leader",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 294,
+    game: "bg3",
+    title: "Character Preset Framework (CPF)",
+    category: "utilities",
+    version: "1.0.0",
+    size: "89 KB",
+    images: [
+      "images/mods/character-preset-framework-cpf-1.jpg",
+      "images/mods/character-preset-framework-cpf-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2W0f1495dxzY4VP",
+    short: "Create, share, and manage character appearance presets easily.",
+    description: "This framework allows you to save, share, and manage character appearance presets. It includes essential features like compatibility checks, dependency tracking, and a mod generator for easy distribution. CPF provides an intuitive in-game interface for creating and applying presets, ensuring a seamless experience for both creators and users. It's designed to work seamlessly in multiplayer environments and offers robust validation to prevent errors.",
+    tags: [
+      "presets",
+      "character",
+      "appearance"
+    ],
+    featured: true
+  },
+  {
+    id: 295,
+    game: "bg3",
+    title: "Grimoire Familiar",
+    category: "spells",
+    version: "1.0",
+    size: "41 KB",
+    images: [
+      "images/mods/grimoire-familiar-1.jpg",
+      "images/mods/grimoire-familiar-2.jpg",
+      "images/mods/grimoire-familiar-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oMlv88oZzG6AWmm",
+    short: "Flying grimoire for Find Familiar spell. Animated tome companion.",
+    description: "Adds a flying grimoire to the Find Familiar spell. This animated tome provides a unique companion for your spellcaster. It offers minor stat boosts and a psychic damage attack.",
+    tags: [
+      "spells",
+      "familiar",
+      "magic",
+      "wizard"
+    ],
+    featured: true
+  },
+  {
+    id: 296,
+    game: "bg3",
+    title: "Immersive Character Lighting",
+    category: "visuals",
+    version: "Patch 7+",
+    size: "6 KB",
+    images: [
+      "images/mods/immersive-character-lighting-1.jpg",
+      "images/mods/immersive-character-lighting-2.jpg",
+      "images/mods/immersive-character-lighting-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/324fRQe3179hjzo",
+    short: "Natural character lighting overhaul",
+    description: "This mod overhauls Baldur's Gate 3's character lighting system to provide a more natural and cinematic appearance. The vanilla game's character lighting suffers from issues such as over-illuminated rim lights, harsh key lights, and unrealistic color temperatures. This mod rebalances the lighting setup to create a more immersive experience. It disables unrealistic key lights and rim lights, improves the light ratio for natural contrast, and eliminates harsh blue casts. The mod also ensures consistent warm-neutral tones across all environments and simplifies the lighting to a single optimized fill light.",
+    tags: [
+      "light",
+      "fix",
+      "game"
+    ],
+    featured: true
+  },
+  {
+    id: 297,
+    game: "bg3",
+    title: "Precious Head Presets - Lorelai",
+    category: "character-customisation",
+    version: "1.0",
+    size: "25 MB",
+    images: [
+      "images/mods/precious-head-presets-lorelai-1.jpg",
+      "images/mods/precious-head-presets-lorelai-2.jpg",
+      "images/mods/precious-head-presets-lorelai-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/V4H5bjlp94GCFop",
+    short: "New head preset for characters",
+    description: "This mod adds a new head preset to the game, compatible with all BT1 humanoids except Gith. It has support for both UT/KAVT and EOTB, and can be used as an individual or combined patch. The mod is designed to be used with the BG3MM installer and is released as-is, with no plans for future updates or changes. The mod is fully functional and ready to use, with no known bugs or issues. It is compatible with other mods, such as KAVT and Eyes of the Beholder, which were used in the screenshots.",
+    tags: [
+      "face",
+      "head",
+      "preset"
+    ],
+    featured: true
+  },
+  {
+    id: 298,
+    game: "bg3",
+    title: "Tooltip Manager - Highlight Everything SE - MCM",
+    category: "accessories",
+    version: "1.0.0",
+    size: "14 KB",
+    images: [
+      "images/mods/tooltip-manager-highlight-everything-se-mcm-1.jpg",
+      "images/mods/tooltip-manager-highlight-everything-se-mcm-2.jpg",
+      "images/mods/tooltip-manager-highlight-everything-se-mcm-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kuV6DqAmg515fGO",
+    short: "Highlight Everything with Script Extender and MCM customization.",
+    description: "This mod enhances the Highlight Everything feature with Script Extender and MCM customization. It offers lightweight highlighting when the alt key is held, providing better customization and compatibility. Users can import and export presets, making it easy to share and use custom configurations. The mod is safe to install or uninstall mid-game.",
+    tags: [
+      "ui",
+      "highlight",
+      "mcm",
+      "presets"
+    ],
+    featured: true
+  },
+  {
+    id: 299,
+    game: "bg3",
+    title: "Zethino Love Test Buff Fix",
+    category: "gameplay",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/zethino-love-test-buff-fix-1.jpg",
+      "images/mods/zethino-love-test-buff-fix-2.jpg",
+      "images/mods/zethino-love-test-buff-fix-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5Nvv3M2Jx86zGmt",
+    short: "Fixes broken Zethino love test buffs with multiple version options.",
+    description: "This mod fixes a broken script in the vanilla game that prevents Zethino's love test buffs from being applied. It restores the Dryad's Blessing and Love Protects buffs, with adjustments for increased practicality and visual appeal. The mod offers multiple versions for different gameplay preferences, including temporary, permanent passive, and retroactive passive options.",
+    tags: [
+      "buffs",
+      "quests",
+      "romance",
+      "fix",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 300,
+    game: "bg3",
+    title: "Stewards of the Sea - Playable Tritons",
+    category: "character-customisation",
+    version: "Not specified",
+    size: "48 MB",
+    images: [
+      "images/mods/stewards-of-the-sea-playable-tritons-1.jpg",
+      "images/mods/stewards-of-the-sea-playable-tritons-2.jpg",
+      "images/mods/stewards-of-the-sea-playable-tritons-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2gDGbY130r7wFvA",
+    short: "Play as tritons in game now",
+    description: "This mod adds tritons as a playable race in the game, originating from the Elemental Plane of Water. The tritons have spread across the world's oceans, protecting the surface from deep-sea terrors. The mod features customizable character creation with unique body types, fin-like ears, and tintable spots. The tritons also have special abilities such as Resistance to Cold damage, Darkvision, and the ability to cast certain spells. The mod aims to create a unique and immersive experience for players.",
+    tags: [
+      "races",
+      "ocean",
+      "magic"
+    ],
+    featured: true
+  },
+  {
+    id: 301,
+    game: "bg3",
+    title: "Berry's Head - Somnia",
+    category: "character-customisation",
+    version: "1.0",
+    size: "21 MB",
+    images: [
+      "images/mods/berrys-head-somnia-1.jpg",
+      "images/mods/berrys-head-somnia-2.jpg",
+      "images/mods/berrys-head-somnia-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YDsQ2P8md2cdz3N",
+    short: "Custom head for characters",
+    description: "This custom head mod for Baldur's Gate 3 supports various characters, including Elf, Half-Elf, Human, Drow, and Tiefling. It is compatible with EotB, Unique Tav, and KAVT. The mod includes custom bases and fixes the neck seam issue. The head is designed to work with different character types, and the creator is satisfied with the result. The mod has been updated to fix a missing mesh issue, and users who downloaded the previous version are advised to replace it with the current one.",
+    tags: [
+      "face",
+      "mods",
+      "games"
+    ],
+    featured: true
+  },
+  {
+    id: 302,
+    game: "bg3",
+    title: "Koralina's Aesthetics - Hair Collection",
+    category: "character-customisation",
+    version: "1.0",
+    size: "63 MB",
+    images: [
+      "images/mods/koralinas-aesthetics-hair-collection-1.jpg",
+      "images/mods/koralinas-aesthetics-hair-collection-2.jpg",
+      "images/mods/koralinas-aesthetics-hair-collection-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xxymI0Hc91Z5MrG",
+    short: "New hairstyles added easily",
+    description: "This mod adds new hairstyles to the character creation menu, compatible with all body types for various character races. The hairstyles have custom textures and are made from scratch. There are currently 3 new hairstyles with icons added to the menu. The hairstyles do not have physics yet, but they are compatible with different body types. The mod is installed using the BG3 Mod Manager.",
+    tags: [
+      "hair",
+      "mods",
+      "game"
+    ],
+    featured: true
+  },
+  {
+    id: 303,
+    game: "bg3",
+    title: "Berry's Head - Aureolus",
+    category: "character-customisation",
+    version: "1.0",
+    size: "20 MB",
+    images: [
+      "images/mods/berrys-head-aureolus-1.jpg",
+      "images/mods/berrys-head-aureolus-2.jpg",
+      "images/mods/berrys-head-aureolus-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/G2NsT2cH5oMxWc4",
+    short: "New head preset for characters",
+    description: "This mod adds a new head preset to the game, supporting Human, Elves, Drow, and Tiefling characters with body types 2 and 4. The head preset is sculpted from the Half-Elf head B and has built-in support for Unique Tav and Custom Face/Body tattoos, as well as KAVT. The mod is designed to work with various other mods, including hair, clothing, and tattoo mods. The author has also provided information on the mods used in the showcase images and has given thanks to other authors for their tutorials and tools.",
+    tags: [
+      "heads",
+      "mods",
+      "games"
+    ],
+    featured: true
+  },
+  {
+    id: 304,
+    game: "bg3",
+    title: "Auto Wares - MCM",
+    category: "accessories",
+    version: "Not specified",
+    size: "11 KB",
+    images: [
+      "images/mods/auto-wares-mcm-1.jpg",
+      "images/mods/auto-wares-mcm-2.jpg",
+      "images/mods/auto-wares-mcm-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MkSJI877oM7c3cT",
+    short: "Auto mark items as wares easily",
+    description: "The Auto Wares mod for Baldur's Gate 3 allows for automatic marking of items as wares, featuring customization through the MCM menu. This mod is simple, compatible, and lightweight, making it safe to install or uninstall at any time. It includes features for importing and exporting presets, and it can automatically import presets from other mods, such as Auto Loot Seller V4. The load order for this mod is flexible, but it must be below MCM in the load order. The mod also includes a tagging system, with wares tagged as \"AUTOWARES\" for potential use by other modders.",
+    tags: [
+      "mods",
+      "auto",
+      "ease"
+    ],
+    featured: true
+  },
+  {
+    id: 305,
+    game: "bg3",
+    title: "Hairtrix - Kpop Huntrix inspired Hair Pack",
+    category: "character-customisation",
+    version: "1.0",
+    size: "15 MB",
+    images: [
+      "images/mods/hairtrix-kpop-huntrix-inspired-hair-pack-1.jpg",
+      "images/mods/hairtrix-kpop-huntrix-inspired-hair-pack-2.jpg",
+      "images/mods/hairtrix-kpop-huntrix-inspired-hair-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/53i8fjag42L2dHr",
+    short: "Kpop Huntrix Hair Pack",
+    description: "This mod adds six hairstyles inspired by Huntrix from Kpop Demon Hunters to the game. Each hairstyle comes with three hair color presets to match the original character's appearance. The mod is a collaboration between Mouch30 and Ezuneo, and it has been made with the official tools provided by Larian Studio. The hairstyles are auto-snap and will work on all races and body types, and they have custom hair materials and highlights. Some hairstyles also have physics, such as Rumi's braid and Mira's pigtails.",
+    tags: [
+      "hair",
+      "kpop",
+      "huntrix"
+    ],
+    featured: true
+  },
+  {
+    id: 306,
+    game: "bg3",
+    title: "Four Elven Heads",
+    category: "accessories",
+    version: "1.0",
+    size: "43 MB",
+    images: [
+      "images/mods/four-elven-heads-1.jpg",
+      "images/mods/four-elven-heads-2.jpg",
+      "images/mods/four-elven-heads-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8gPfkr0Cug2H78E",
+    short: "New elven head presets added",
+    description: "This mod adds four new head presets for elves, half elves, and drows in Baldur's Gate 3. The presets are designed to be used with the BT1 body type. The mod is easy to install, simply download the zip file and drop it into the BG3MM folder. However, be aware that some users may notice wrinkling on the head presets, and a separate mod is recommended to fix this issue. The creator of the mod has also provided a list of tools used to create the presets, including Blender, Gimp, and various tutorials.",
+    tags: [
+      "elves",
+      "heads",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 307,
+    game: "bg3",
+    title: "Lydia's Heads - Cara Mia",
+    category: "character-customisation",
+    version: "1.0",
+    size: "28 MB",
+    images: [
+      "images/mods/lydias-heads-cara-mia-1.jpg",
+      "images/mods/lydias-heads-cara-mia-2.jpg",
+      "images/mods/lydias-heads-cara-mia-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cDBjnbp12qYN77f",
+    short: "New head for body one characters",
+    description: "This mod adds a new head option for characters in Baldur's Gate 3, compatible with Body 1 Elves/Drow, Half-Elves, Humans, and Tieflings. The head has pointy teeth, as requested by the person it was created for. It is not planned to be converted for other races or body types. The mod is installed using the BG3 Mod Manager and requires the \"Animation LOD Detail\" setting to be set to \"High\" to avoid floating heads. The mod is designed to work with other character customization mods.",
+    tags: [
+      "heads",
+      "mods",
+      "game"
+    ],
+    featured: true
   }
 ];
 
