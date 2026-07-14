@@ -7664,7 +7664,7 @@ const MODS = [
       "images/mods/rss-formula-hybride-2024-2.jpg",
       "images/mods/rss-formula-hybride-2024-3.jpg"
     ],
-    downloadUrl: "102.20 KB",
+    downloadUrl: "https://modsfire.com/tz4dLf04z00v55G",
     short: "Hybrid formula car mod",
     description: "The RSS Formula Hybride 2024 is a new car mod for Assetto Corsa. It features a hybrid formula car with impressive performance and handling. This mod is designed for racing enthusiasts who want to experience the thrill of driving a high-tech hybrid car. The mod includes detailed models and realistic physics, making it a great addition to the game. With its advanced technology and sleek design, the RSS Formula Hybride 2024 is a must-try for any Assetto Corsa player.",
     tags: [
