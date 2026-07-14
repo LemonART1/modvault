@@ -373,7 +373,14 @@ async function handleGta5(req, res) {
 
 async function tryGemini(apiKey, prompt) {
   if (!apiKey) return { ok: false, error: "no Gemini key" };
-  const models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"];
+  // gemini-3-flash has its own separate free-tier daily quota from the 2.5
+  // models, so it's tried first when the 2.5 quota (20 req/day) is exhausted -
+  // pushes the AI helper further before falling back to Groq. Listed as two ID
+  // guesses since the exact API slug for newer models isn't confirmed; wrong
+  // ones just 404 and the loop moves on, so this is safe either way.
+  // gemini-2.0-flash was dropped: this account's tier shows a 0/0 quota for it
+  // (unavailable), so it always failed and wasted a round trip.
+  const models = ["gemini-3-flash", "gemini-3-flash-preview", "gemini-2.5-flash", "gemini-2.5-flash-lite"];
   let lastError = null;
 
   for (const model of models) {
