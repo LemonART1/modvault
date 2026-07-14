@@ -155,6 +155,11 @@
         <div class="field full">
           <label for="downloadUrl">Download URL</label>
           <input id="downloadUrl" placeholder="https://modsfire.com/...">
+          <div class="actions" style="margin-top:8px">
+            <button class="secondary" type="button" id="modsfireBtn">Load recent modsfire uploads</button>
+            <span class="hint">Pick the file that matches this mod - fills Download URL + File size.</span>
+          </div>
+          <div id="modsfireList" style="display:none;margin-top:10px;max-height:220px;overflow-y:auto;border:1px solid #2b3650;border-radius:8px"></div>
         </div>
         <div class="field">
           <label for="tags">Tags</label>
@@ -184,6 +189,7 @@
   <script>
     const state = { games: {}, categories: {}, convertedImages: [] };
     const $ = id => document.getElementById(id);
+    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
     function setStatus(el, text, kind = "") {
       el.className = `status ${kind}`.trim();
@@ -502,11 +508,55 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    // Lists the account's recent modsfire uploads so the right file can be
+    // picked by name (matches the "upload the whole batch first, then work
+    // through the admin one mod at a time" workflow - a single "latest
+    // upload" guess would be wrong as soon as a second file is uploaded).
+    async function loadModsfireList() {
+      $("modsfireBtn").disabled = true;
+      const original = $("modsfireBtn").textContent;
+      $("modsfireBtn").textContent = "Loading...";
+      try {
+        const response = await fetch("/api/modsfire-recent", { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+        const list = $("modsfireList");
+        if (!data.files.length) {
+          list.innerHTML = '<div style="padding:12px;color:var(--muted)">No uploads found on modsfire.</div>';
+        } else {
+          list.innerHTML = data.files.map((f, i) => `
+            <button type="button" class="modsfire-row" data-index="${i}" style="display:flex;justify-content:space-between;gap:10px;width:100%;padding:10px 12px;background:${i % 2 ? "#0d121c" : "#0b0f18"};border:0;border-bottom:1px solid #1b2334;color:#dce4ff;text-align:left;cursor:pointer;font:inherit">
+              <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(f.name)}</span>
+              <span style="flex-shrink:0;color:var(--muted)">${esc(f.size)}</span>
+            </button>`).join("");
+          list.dataset.files = JSON.stringify(data.files);
+        }
+        list.style.display = "block";
+      } catch (error) {
+        setStatus($("saveStatus"), `modsfire error: ${error.message}`, "bad");
+      } finally {
+        $("modsfireBtn").disabled = false;
+        $("modsfireBtn").textContent = original;
+      }
+    }
+
+    $("modsfireList").addEventListener("click", (event) => {
+      const row = event.target.closest(".modsfire-row");
+      if (!row) return;
+      const files = JSON.parse($("modsfireList").dataset.files || "[]");
+      const file = files[Number(row.dataset.index)];
+      if (!file) return;
+      $("downloadUrl").value = file.url;
+      if (file.size) $("size").value = file.size;
+      $("modsfireList").style.display = "none";
+    });
+
     $("game").addEventListener("change", () => updateCategories());
     $("images").addEventListener("change", handleImages);
     $("aiBtn").addEventListener("click", runAi);
     $("nexusBtn").addEventListener("click", importNexus);
     $("gta5Btn").addEventListener("click", importGta5);
+    $("modsfireBtn").addEventListener("click", loadModsfireList);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.
     $("previews").addEventListener("click", (event) => {

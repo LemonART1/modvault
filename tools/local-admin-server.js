@@ -371,6 +371,49 @@ async function handleGta5(req, res) {
   send(res, 200, { ok: true, name, description, images, game: "gta5" });
 }
 
+// modsfire's legacy "size" field is a plain number of bytes. (The docs example
+// showing "size": 1760 for a tiny placeholder file made KB look plausible at
+// first, but checking real uploads - a 51026071 that's a sane 48.7MB car mod
+// as bytes but an absurd 48.6GB as KB - confirms it's bytes.) Format to match
+// the catalog's existing "104 MB" / "56 KB" convention.
+function formatModsfireSize(bytesValue) {
+  const bytes = Number(bytesValue);
+  if (!Number.isFinite(bytes) || bytes <= 0) return "";
+  const kb = bytes / 1024;
+  if (kb < 1024) return `${Math.round(kb)} KB`;
+  const mb = kb / 1024;
+  if (mb < 1024) return `${mb.toFixed(mb >= 100 ? 0 : 1)} MB`;
+  const gb = mb / 1024;
+  return `${gb.toFixed(gb >= 100 ? 0 : 2)} GB`;
+}
+
+// Replaces the manual "upload a whole batch to modsfire, then hunt the file
+// list for each mod's link and size" step. The user still downloads and
+// uploads files to modsfire themselves (batched ahead of time), but the admin
+// lists their recent uploads so the right one can be picked by filename
+// instead of copying URL/size by hand from modsfire's own dashboard.
+async function handleModsfireRecent(req, res) {
+  const token = String(process.env.MODSFIRE_API_TOKEN || "").trim();
+  if (!token) throw new Error("MODSFIRE_API_TOKEN is not set. Add it to .env.");
+
+  const response = await fetch("https://modsfire.com/api/upload/file", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ token, offset: 0, limit: 20 }),
+    signal: AbortSignal.timeout(15000)
+  });
+  const data = await response.json();
+  if (data.error) throw new Error(`modsfire API: ${data.error}`);
+
+  const files = (data.files || []).map(f => ({
+    name: f.name || "",
+    url: f.url || "",
+    size: formatModsfireSize(f.size),
+    uploadDate: f.upload_date || ""
+  }));
+  send(res, 200, { ok: true, files });
+}
+
 async function tryGemini(apiKey, prompt) {
   if (!apiKey) return { ok: false, error: "no Gemini key" };
   // Each of these has its own separate free-tier daily quota (per Google AI
@@ -524,6 +567,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/gta5") {
       await handleGta5(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/modsfire-recent") {
+      await handleModsfireRecent(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/stash") {
