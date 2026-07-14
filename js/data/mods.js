@@ -3969,30 +3969,6 @@ const MODS = [
     featured: true
   },
   {
-    id: 196,
-    game: "ac",
-    title: "Porsche \"Traction Master\" 930",
-    category: "cars",
-    version: "0.6",
-    size: "104 MB",
-    images: [
-      "images/mods/porsche-traction-master-930-1.jpg",
-      "images/mods/porsche-traction-master-930-2.jpg",
-      "images/mods/porsche-traction-master-930-3.jpg"
-    ],
-    downloadUrl: "https://modsfire.com/v90PrYN60Q778Tj",
-    short: "Drive the classic Porsche \"Traction Master\" 930 with detailed visuals.",
-    description: "This mod introduces the iconic Porsche \"Traction Master\" 930 to Assetto Corsa. It features metallic paint, part-changing skins, and detailed PBR materials for both exterior and interior. Experience advanced lighting with refracting headlights, tail lights, blinkers, and reverse lights, plus toggleable fog lights via Extra A. The vehicle also boasts animated wipers with trace effects and emissive interior lighting for enhanced realism.",
-    tags: [
-      "porsche",
-      "930",
-      "classic",
-      "car",
-      "detailed"
-    ],
-    featured: true
-  },
-  {
     id: 197,
     game: "ac",
     title: "Toyota GT86 (Street Spec.)",
@@ -6479,6 +6455,1392 @@ const MODS = [
       "heads",
       "mods",
       "game"
+    ],
+    featured: true
+  },
+  {
+    id: 308,
+    game: "stardew",
+    title: "Elle's Cuter Barn Animals",
+    category: "livestock-animals",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/elles-cuter-barn-animals-1.jpg",
+      "images/mods/elles-cuter-barn-animals-2.jpg",
+      "images/mods/elles-cuter-barn-animals-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/u1k2k364H85V71T",
+    short: "Hundreds of cute, unique skins for all your barn animals.",
+    description: "This mod introduces a vast collection of new skins for your Stardew Valley barn animals, leveraging the game's new 1.6 feature for multiple animal variants. Discover unique looks for cows, goats, sheep (including alpacas), pigs (with deer and mini pig options), and ostriches, plus special void variants. You can customize which skins appear, with options for menu icon changes and wool/cloth item recolors. Add as many or as few skins as you desire; they will have a chance to appear when an animal is born, hatched, or purchased. Ensure all co-op players install the mod with identical skin settings to prevent errors or possible crashes.",
+    tags: [
+      "animals",
+      "skins",
+      "barn",
+      "visuals",
+      "cute"
+    ],
+    featured: true
+  },
+  {
+    id: 309,
+    game: "stardew",
+    title: "Way Back Pelican Town",
+    category: "buildings",
+    version: "1.0",
+    size: "51 MB",
+    images: [
+      "images/mods/way-back-pelican-town-1.jpg",
+      "images/mods/way-back-pelican-town-2.jpg",
+      "images/mods/way-back-pelican-town-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pz598Gp21Bx1muE",
+    short: "Seasonal retexture of all town buildings, structures, and decor.",
+    description: "This mod provides a seasonal retexture for all buildings, structures, and décor across Pelican Town, the desert, and Ginger Island. It brings a cohesive visual update to the environment, though farm buildings are not included. For optimal results, it is recommended to use this mod with vanilla Stardew Valley or specific recolor mods. Be aware that some visual anomalies may occur when paired with certain town map changing mods, which will be addressed in future updates.",
+    tags: [
+      "seasonal",
+      "retexture",
+      "buildings"
+    ],
+    featured: true
+  },
+  {
+    id: 310,
+    game: "stardew",
+    title: "Elle's Cuter Coop Animals",
+    category: "livestock-animals",
+    version: "1.0.3",
+    size: "2 MB",
+    images: [
+      "images/mods/elles-cuter-coop-animals-1.jpg",
+      "images/mods/elles-cuter-coop-animals-2.jpg",
+      "images/mods/elles-cuter-coop-animals-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4c7Jim7x1A1Jxdh",
+    short: "Adds many new adorable skins for your Stardew Valley coop animals.",
+    description: "Enhance your Stardew Valley coop with a vast collection of new skins for your animals. This mod utilizes the new 1.6 feature to add multiple sprite variants for chickens, ducks, rabbits, and dinosaurs. Customize which skins appear when animals are born, hatched, or purchased, with options for void variants and optional item recolors. Ensure all co-op players install this mod with identical skin settings to prevent issues. It is compatible with Alternative Textures for further customization.",
+    tags: [
+      "animal skins",
+      "coop animals",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 311,
+    game: "stardew",
+    title: "DCBurger's High Res Portrait Mod (CP)",
+    category: "portraits",
+    version: "1.5.2",
+    size: "29 MB",
+    images: [
+      "images/mods/dcburgers-high-res-portrait-mod-cp-1.jpg",
+      "images/mods/dcburgers-high-res-portrait-mod-cp-2.jpg",
+      "images/mods/dcburgers-high-res-portrait-mod-cp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5kf4pCWvPso853Z",
+    short: "Adds 69 high-resolution portraits for all Stardew Valley villagers.",
+    description: "This mod introduces 69 brand new high-resolution portraits for every villager in Stardew Valley. It significantly enhances the visual experience during character interactions and dialogues. The mod is compatible with various installation methods, including Content Patcher and Portraiture. It also offers optional portraits for Stardew Valley Expanded characters. Enjoy a fresh, detailed look for all your favorite Pelican Town residents.",
+    tags: [
+      "portraits",
+      "high res",
+      "villagers"
+    ],
+    featured: true
+  },
+  {
+    id: 312,
+    game: "stardew",
+    title: "No More Bowlegs",
+    category: "characters",
+    version: "1.28 Update",
+    size: "81 KB",
+    images: [
+      "images/mods/no-more-bowlegs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5d6751pW5oZM3z7",
+    short: "Removes bow-leggedness from character sprites for Abigail, Leah, Maru, and Emily.",
+    description: "This mod eliminates bow-leggedness from the sprites of Abigail, Leah, Maru, and Emily, removing visible gaps between their legs. It also includes optional cosmetic tweaks for Maru's hair and overalls, along with a slimmer appearance for Jodi's sprite. The mod is compatible with Stardew Valley version 1.4 and requires Content Patcher for installation. Simply download, unzip the folder into your Stardew Valley/Mods directory, and run the game via SMAPI. It offers a subtle yet noticeable visual enhancement for several beloved characters.",
+    tags: [
+      "bowlegs",
+      "sprites",
+      "characters",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 313,
+    game: "stardew",
+    title: "Mini Bars - Healthbars Mod",
+    category: "gameplay-mechanics",
+    version: "1.0.5",
+    size: "111 KB",
+    images: [
+      "images/mods/mini-bars-healthbars-mod-1.jpg",
+      "images/mods/mini-bars-healthbars-mod-2.jpg",
+      "images/mods/mini-bars-healthbars-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1TrCwQ1NASp136T",
+    short: "Adds customizable healthbars to monsters with various display options and themes.",
+    description: "This mod adds customizable healthbars to most monsters within the game. It includes options to show healthbars only when mobs are in range, change their visual theme, and display them only when monsters are not at full health. Different healthbars are available for various monsters, and configuration can be managed through in-game commands. The mod ensures compatibility with popular expansions like Ridgeside Village and other mods like Swim Continued.",
+    tags: [
+      "healthbar",
+      "monster hp",
+      "combat ui"
+    ],
+    featured: true
+  },
+  {
+    id: 314,
+    game: "stardew",
+    title: "Button's Extra Trigger Action Stuff (BETAS)",
+    category: "modding-tools",
+    version: "3.4.0",
+    size: "115 KB",
+    images: [
+      "images/mods/buttons-extra-trigger-action-stuff-betas-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6tzRMYvw9OO0HqC",
+    short: "Adds new triggers, actions, and queries for Content Patcher mods.",
+    description: "Button's Extra Trigger Action Stuff, or BETAS for short, aims to add plenty of new triggers, actions, and game state queries that mod authors can utilize to help their mods \"react\" to more things or do more useful stuff as a result of things happening. All of the new stuff can be used with any Content Patcher mod so long as this mod is set as a dependency. This mod does nothing on its own. There is no benefit to installing this as a user if another mod that you are using does not require it.",
+    tags: [
+      "modding tool",
+      "cp api",
+      "triggers"
+    ],
+    featured: true
+  },
+  {
+    id: 315,
+    game: "stardew",
+    title: "UI Info Suite 2",
+    category: "ui",
+    version: "v2.3.7",
+    size: "590 KB",
+    images: [
+      "images/mods/ui-info-suite-2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/PaL428w3787m090",
+    short: "Gain essential UI information and awareness for your Stardew Valley farm.",
+    description: "UI Info Suite 2 provides a comprehensive set of helpful on-screen information designed to enhance your Stardew Valley experience without feeling like you're cheating. This mod is a dedicated rewrite, continuing the legacy of previous versions by fixing bugs and adding new features. It displays various crucial details, such as daily luck, experience gains, accurate heart levels, crop days until harvest, and NPC locations on your map. You can also view calendar and quest billboards anywhere, identify items needed for bundles, and see animal needs. All individual features can be toggled on or off via a dedicated options menu tab.",
+    tags: [
+      "ui",
+      "info",
+      "helper",
+      "farm",
+      "awareness"
+    ],
+    featured: true
+  },
+  {
+    id: 316,
+    game: "stardew",
+    title: "PolyamorySweet",
+    category: "gameplay-mechanics",
+    version: "1.2.9",
+    size: "605 KB",
+    images: [
+      "images/mods/polyamorysweet-1.jpg",
+      "images/mods/polyamorysweet-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/n8r09DFgeWK2ixO",
+    short: "Allows multiple spouses, roommates, unlimited affection, and custom relationship mechanics.",
+    description: "This mod introduces comprehensive polyamory and custom romance options to Stardew Valley, allowing you to marry multiple spouses or have multiple roommates. You can enjoy unlimited hugging and kissing with your partners, and even have all spouses join your wedding. The mod adds new items like the Aphrodite Flower and Atagartis Pendant, along with a custom shop and NPC, Lantana, in a new area called Lantana Lagoon. Highly configurable, it offers settings for bed size, spouse sleep order, varied pregnancy options, and complex divorce scenarios. It ensures compatibility with major expansion mods and functions seamlessly in both single-player and multiplayer modes.",
+    tags: [
+      "polyamory",
+      "marriage",
+      "relationships"
+    ],
+    featured: true
+  },
+  {
+    id: 317,
+    game: "stardew",
+    title: "Better Ranching",
+    category: "gameplay-mechanics",
+    version: "2.0.5",
+    size: "24 KB",
+    images: [
+      "images/mods/better-ranching-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jgGa427pDal9is8",
+    short: "Prevent failed ranching attempts, get visual animal interaction indicators.",
+    description: "This mod significantly enhances ranching gameplay by preventing failed milking and shearing attempts. It introduces clear visual indicators that show when pets and farm animals are ready to be petted, milked, or sheared. This streamlines daily farm tasks, improving overall efficiency and reducing frustration. The mod is compatible with Stardew Valley 1.6.0+ and requires SMAPI 4.0.0 or later for proper function.",
+    tags: [
+      "ranching",
+      "animals",
+      "indicators"
+    ],
+    featured: true
+  },
+  {
+    id: 318,
+    game: "stardew",
+    title: "Event Repeater - A useful tool for Content Patcher Modding",
+    category: "modding-tools",
+    version: "6.6",
+    size: "29 KB",
+    images: [
+      "images/mods/event-repeater-a-useful-tool-for-content-patcher-modding-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3UOhe3N3591E0QX",
+    short: "Powerful modding tool to repeat events and debug game content.",
+    description: "This mod allows Content Patcher creators to repeat events multiple times, adding depth to their game stories. It provides robust debugging tools, including commands to search, inject, and complete quests by ID. The latest updates feature console alerts for mail and response IDs, along with active mailbox monitoring. Players can utilize hotkeys for emergency event skips or information display, greatly aiding in development and troubleshooting. Additionally, the mod now integrates GMCM support for convenient hotkey configuration.",
+    tags: [
+      "event",
+      "mod tool",
+      "debugger",
+      "mechanics"
+    ],
+    featured: true
+  },
+  {
+    id: 319,
+    game: "stardew",
+    title: "Producer Framework Mod",
+    category: "modding-tools",
+    version: "1.9.8",
+    size: "67 KB",
+    images: [
+      "images/mods/producer-framework-mod-1.jpg",
+      "images/mods/producer-framework-mod-2.jpg",
+      "images/mods/producer-framework-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/l2cs3g6LqsJhKa3",
+    short: "Powerful framework for adding custom production rules and machine mechanics.",
+    description: "This framework mod allows for the creation of custom rules for producing objects within Stardew Valley. It provides a simple and powerful way for modders and content creators to introduce new crafting and processing mechanics. The mod supports both code and content pack interfaces, making it flexible for various development approaches. It enhances machine behavior, allowing for complex conditions, animations, and diverse outputs. Install this to expand Stardew Valley's production possibilities dramatically, enabling unique gameplay additions.",
+    tags: [
+      "framework",
+      "produhttps://modsfire.com/l2cs3g6lqsjhka3ction",
+      "modding"
+    ],
+    featured: true
+  },
+  {
+    id: 320,
+    game: "stardew",
+    title: "Seasonal Outfits - Slightly Cuter Aesthetic for SVE",
+    category: "characters",
+    version: "1.0",
+    size: "16 MB",
+    images: [
+      "images/mods/seasonal-outfits-slightly-cuter-aesthetic-for-sve-1.jpg",
+      "images/mods/seasonal-outfits-slightly-cuter-aesthetic-for-sve-2.jpg",
+      "images/mods/seasonal-outfits-slightly-cuter-aesthetic-for-sve-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/26Aht28IW7z9h6y",
+    short: "Adds seasonal outfits for SVE characters with a slightly cuter aesthetic.",
+    description: "This mod adds seasonal outfits for characters featured in Stardew Valley Expanded, enhancing their appearances as shown in the picture section. It's designed to complement the 'Seasonal Outfits - Slightly Cuter Aesthetic' mod for a consistent visual style. The mod offers configurable options for character noses, festival outfits, extra outfits for specific activities, and Sophia's age. Users can customize these settings to tailor the character aesthetics to their preference.",
+    tags: [
+      "seasonal",
+      "sve",
+      "characters",
+      "outfits"
+    ],
+    featured: true
+  },
+  {
+    id: 321,
+    game: "stardew",
+    title: "Elle's Seasonal Buildings",
+    category: "buildings",
+    version: "1.3.5",
+    size: "47 MB",
+    images: [
+      "images/mods/elles-seasonal-buildings-1.jpg",
+      "images/mods/elles-seasonal-buildings-2.jpg",
+      "images/mods/elles-seasonal-buildings-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/plg08f8Wr6v9y8H",
+    short: "Transform your Stardew Valley farm buildings with seasonal looks and styles.",
+    description: "This mod provides a comprehensive Content Patcher pack to replace all farm buildings with seasonal variations. Choose from seven distinct color palettes and three unique building themes to perfectly match your farm's aesthetic. It offers eight different farmhouse styles, optional holiday decor, and configurable wall colors for upgraded farmhouses. Additionally, the mod includes optional recolors for fences, shipping bins, mailboxes, and fish ponds, with the ability to disable any retexture. Seasonal overlays ensure your buildings always complement your chosen map mod and the current season.",
+    tags: [
+      "seasonal",
+      "buildings",
+      "farm",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 322,
+    game: "stardew",
+    title: "Medieval buildings",
+    category: "buildings",
+    version: "1.0",
+    size: "84 MB",
+    images: [
+      "images/mods/medieval-buildings-1.jpg",
+      "images/mods/medieval-buildings-2.jpg",
+      "images/mods/medieval-buildings-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/636Tm20OMI701Ft",
+    short: "Overhaul your Stardew Valley farm buildings with a charming medieval aesthetic.",
+    description: "Transform your Stardew Valley farm with a complete set of medieval-themed buildings. This mod offers multiple seasonal options for all your farm structures, allowing for a charming, rustic aesthetic. Inspired by popular visual mods, it features improved color matching with several recolor packs. It began as a small edit but evolved into a comprehensive re-imagining of farm architecture. SMAPI and Content Patcher are required for installation to bring this beautiful visual overhaul to your game.",
+    tags: [
+      "medieval",
+      "buildings",
+      "farm",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 323,
+    game: "stardew",
+    title: "Convenient Inventory",
+    category: "gameplay-mechanics",
+    version: "1.6.1",
+    size: "116 KB",
+    images: [
+      "images/mods/convenient-inventory-1.jpg",
+      "images/mods/convenient-inventory-2.jpg",
+      "images/mods/convenient-inventory-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WhgnqslVJ0fq75d",
+    short: "Streamline Stardew Valley inventory with quick stack, favorites, and auto organization.",
+    description: "This mod adds crucial convenience features to Stardew Valley's inventory management system. Easily quick stack items into nearby chests and favorite important items to prevent accidental loss or shipping. It also includes features like \"Take All But One,\" \"Auto Organize Chest,\" and controller-friendly inventory navigation. Streamline your daily farm routine and manage your belongings with greater efficiency. Various configuration options allow you to perfectly suit the mod to your playstyle.",
+    tags: [
+      "inventory",
+      "quick stack",
+      "qol",
+      "storage"
+    ],
+    featured: true
+  },
+  {
+    id: 324,
+    game: "stardew",
+    title: "Better Crafting",
+    category: "crafting",
+    version: "Latest",
+    size: "518 KB",
+    images: [
+      "images/mods/better-crafting-1.jpg",
+      "images/mods/better-crafting-2.jpg",
+      "images/mods/better-crafting-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GEb7uWuhpBg3Ptm",
+    short: "New customizable crafting UI with bulk crafting, favorites, and better workbench.",
+    description: "Better Crafting introduces a new, customizable crafting UI featuring support for user-defined categories, favorites, and a uniform grid size. It enables easy bulk crafting and enhances workbench functionality by connecting to more chests and preventing locks in multiplayer. The mod also provides a robust framework for content authors to create powerful recipes and custom crafting stations. Additionally, it offers optional choices like using Qi Seasoning for cooking and allows full customization or disabling of categories.",
+    tags: [
+      "crafting",
+      "ui",
+      "workbench",
+      "multiplayer"
+    ],
+    featured: true
+  },
+  {
+    id: 325,
+    game: "stardew",
+    title: "Stardew Valley Expanded Chinese Localization",
+    category: "expansions",
+    version: "v1.0",
+    size: "426 KB",
+    images: [
+      "images/mods/stardew-valley-expanded-chinese-localization-1.jpg",
+      "images/mods/stardew-valley-expanded-chinese-localization-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7Vm5R1x75lJpG4J",
+    short: "Chinese localization for Stardew Valley Expanded, enhancing the game experience.",
+    description: "This mod provides a comprehensive Chinese localization for the highly popular Stardew Valley Expanded content mod. It translates all dialogues, item descriptions, events, and other textual elements, significantly enhancing the gameplay experience for Chinese-speaking players. The translation team ensures regular updates to maintain compatibility and accuracy with the latest versions of Stardew Valley Expanded. Detailed installation instructions are included, guiding users through the process of correctly merging the translation files. Please note known issues like certain untranslated dialogues are documented within the package.",
+    tags: [
+      "chinese",
+      "localization",
+      "translation"
+    ],
+    featured: true
+  },
+  {
+    id: 326,
+    game: "stardew",
+    title: "Elle's New Barn Animals",
+    category: "livestock-animals",
+    version: "1.1.3",
+    size: "1 MB",
+    images: [
+      "images/mods/elles-new-barn-animals-1.jpg",
+      "images/mods/elles-new-barn-animals-2.jpg",
+      "images/mods/elles-new-barn-animals-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/AGLAXGEc9i581oK",
+    short: "Replace Stardew Valley barn animals with many new custom skins.",
+    description: "This mod replaces the default barn animal sprites in Stardew Valley with many new visual options. Choose from various skins for cows, goats, sheep, pigs, and ostriches, including unique deer and alpaca variants. It also updates Marnie's shop icons and offers optional wool and cloth recolors. Designed for Content Patcher, the mod allows extensive customization through its config file. An optional folder is included for use with the Adopt 'n Skin mod, enabling even more animal diversity on your farm.",
+    tags: [
+      "barn animals",
+      "livestock"
+    ],
+    featured: true
+  },
+  {
+    id: 327,
+    game: "stardew",
+    title: "Destroyable Bushes",
+    category: "gameplay-mechanics",
+    version: "1.0",
+    size: "43 KB",
+    images: [
+      "images/mods/destroyable-bushes-1.jpg",
+      "images/mods/destroyable-bushes-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j1P7CaiRx8mrY1v",
+    short: "Chop bushes with an axe for wood, customize regrowth, and more.",
+    description: "Destroyable Bushes allows players to destroy bushes with an axe. By default, destroyed bushes drop small amounts of wood and regrow after 3 days. These features can be customized in the mod's settings. The mod supports configuration via SMAPI's config file and the Generic Mod Config Menu. It also adds specific SMAPI console commands for bush management.",
+    tags: [
+      "bush",
+      "destroy",
+      "wood",
+      "axe",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 328,
+    game: "stardew",
+    title: "Lumisteria Tilesheets - Outdoor",
+    category: "modding-tools",
+    version: "1.4.0",
+    size: "1 MB",
+    images: [
+      "images/mods/lumisteria-tilesheets-outdoor-1.jpg",
+      "images/mods/lumisteria-tilesheets-outdoor-2.jpg",
+      "images/mods/lumisteria-tilesheets-outdoor-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e6nnNhlvk7SC5CB",
+    short: "Resource mod adding outdoor tilesheets for Stardew Valley map makers.",
+    description: "This mod is a resource for map modders, providing new tilesheets to enhance their creations. It adds a wide variety of outdoor buildings, decorations, and environmental elements. Discover seasonal giant flowers, reeds with animations, grassy water edges, and diverse cliff options. Utilize new waterfalls, foam, and wood elements to enrich your Stardew Valley maps. This mod functions as a dependency, allowing other mod authors to incorporate its unique assets.",
+    tags: [
+      "tilesheet",
+      "modder tool",
+      "outdoor"
+    ],
+    featured: true
+  },
+  {
+    id: 329,
+    game: "stardew",
+    title: "Item Extensions",
+    category: "modding-tools",
+    version: "1.6",
+    size: "152 KB",
+    images: [
+      "images/mods/item-extensions-1.jpg",
+      "images/mods/item-extensions-2.jpg",
+      "images/mods/item-extensions-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7bYJzYC5PQM6yOP",
+    short: "Framework expanding Stardew Valley item functionality, adding new features for modders.",
+    description: "Item Extensions is a powerful framework designed for Stardew Valley 1.6, significantly expanding item functionality. It allows mod creators to introduce custom resources, unique eating animations, and advanced item interactions. Furthermore, the framework provides an API for C# mods, enabling deeper customization and integration. It simplifies the process of adding custom drops and complex trade requirements to the game.",
+    tags: [
+      "framework",
+      "modding",
+      "items",
+      "api",
+      "tools"
+    ],
+    featured: true
+  },
+  {
+    id: 330,
+    game: "stardew",
+    title: "Unlockable Bundles",
+    category: "gameplay-mechanics",
+    version: "v1.1.1",
+    size: "1 MB",
+    images: [
+      "images/mods/unlockable-bundles-1.jpg",
+      "images/mods/unlockable-bundles-2.jpg",
+      "images/mods/unlockable-bundles-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/N4J8L7PLs26zGoN",
+    short: "Create and add custom unlockable bundles to your game.",
+    description: "This mod allows content creators to easily add custom bundles into the game. You can create anything from simple repairable bridges to complex community centers. It's also possible to add farm upgrades, shortcuts, quest NPCs, and even custom expansions. All players must have the mod and content packs installed for multiplayer to function correctly.",
+    tags: [
+      "bundles",
+      "custom",
+      "creators",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 331,
+    game: "stardew",
+    title: "Romanceable Rasmodia - Female Wizard",
+    category: "characters",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/romanceable-rasmodia-female-wizard-1.jpg",
+      "images/mods/romanceable-rasmodia-female-wizard-2.jpg",
+      "images/mods/romanceable-rasmodia-female-wizard-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/S7X7B5XgKLm874S",
+    short: "Female Wizard Rasmodia replaces Magnus, with dialogue and event adjustments.",
+    description: "This mod replaces the male Wizard, Magnus, with his female counterpart, Rasmodia. It includes a new portrait and sprite, and adjusts dialogue, events, and quests from the base game and various other mods to reflect the gender change. Rasmodia is only romanceable when used with Stardew Valley Expanded or a specific version of Romanceable Rasmodius.",
+    tags: [
+      "female wizard",
+      "rasmodia",
+      "characters"
+    ],
+    featured: true
+  },
+  {
+    id: 332,
+    game: "stardew",
+    title: "Custom Kissing Mod",
+    category: "gameplay-mechanics",
+    version: "1.3.3",
+    size: "34 KB",
+    images: [
+      "images/mods/custom-kissing-mod-1.jpg",
+      "images/mods/custom-kissing-mod-2.jpg",
+      "images/mods/custom-kissing-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ua5Dua3EtVJqw2d",
+    short: "Kiss NPCs, customize conditions, and add romance to your Stardew Valley.",
+    description: "This mod allows players to kiss NPCs after reaching ten hearts with them. You can customize which NPCs can be kissed and the conditions required. The mod mimics the marriage kiss mechanics, offering friendship bonuses and curing exhaustion. It also includes an optional jealousy system for married players.",
+    tags: [
+      "kissing",
+      "romance",
+      "npc",
+      "dating"
+    ],
+    featured: true
+  },
+  {
+    id: 333,
+    game: "stardew",
+    title: "Elle's New Coop Animals",
+    category: "livestock-animals",
+    version: "1.1.5",
+    size: "886 KB",
+    images: [
+      "images/mods/elles-new-coop-animals-1.jpg",
+      "images/mods/elles-new-coop-animals-2.jpg",
+      "images/mods/elles-new-coop-animals-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bo00aW62aCrX3YT",
+    short: "Adds numerous new skins for coop animals and customizable items.",
+    description: "This mod replaces your coop animals with a variety of new skins, offering extensive customization for chickens, ducks, rabbits, and dinosaurs. It also includes optional replacements for Marnie's shop icons and items like rabbit feet and duck feathers. The mod is highly configurable, allowing you to disable specific replacements for compatibility with other mods.",
+    tags: [
+      "animals",
+      "coop",
+      "skins",
+      "sprites"
+    ],
+    featured: true
+  },
+  {
+    id: 334,
+    game: "stardew",
+    title: "BaZhua's Marriable Role Portraits",
+    category: "portraits",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/bazhuas-marriable-role-portraits-1.jpg",
+      "images/mods/bazhuas-marriable-role-portraits-2.jpg",
+      "images/mods/bazhuas-marriable-role-portraits-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Os6k9Q44hKO4C9w",
+    short: "Pixel art portraits for twelve marriable characters.",
+    description: "This mod replaces existing portraits with new pixel art versions of twelve marriable characters. The creator based the designs on walking sprites from Korean artists, aiming for a distinct pixel style. Installation is simple: unzip the mod and copy the XNB files into your game's Portraits folder. Remember to back up your original files before proceeding.",
+    tags: [
+      "portraits",
+      "pixel art",
+      "marriable"
+    ],
+    featured: true
+  },
+  {
+    id: 335,
+    game: "stardew",
+    title: "Romanceable Rasmodius SVE Compatible",
+    category: "characters",
+    version: "1.5.2",
+    size: "251 KB",
+    images: [
+      "images/mods/romanceable-rasmodius-sve-compatible-1.jpg",
+      "images/mods/romanceable-rasmodius-sve-compatible-2.jpg",
+      "images/mods/romanceable-rasmodius-sve-compatible-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h7F4Xu88V6M4jwK",
+    short: "Makes the Wizard romanceable and marriageable, SVE compatible.",
+    description: "This mod makes the Wizard romanceable and marriageable in Stardew Valley, with full compatibility for the Stardew Valley Expanded mod. It includes numerous heart events, new dialogue, and customizable options for portraits, sprites, and event integration. The mod is built upon existing work and integrates seamlessly with SVE lore and schedules.",
+    tags: [
+      "wizard",
+      "romance",
+      "sve",
+      "marriage",
+      "events"
+    ],
+    featured: true
+  },
+  {
+    id: 336,
+    game: "stardew",
+    title: "Fishing Assistant 2",
+    category: "fishing",
+    version: "1.6 Compatible",
+    size: "97 KB",
+    images: [
+      "images/mods/fishing-assistant-2-1.jpg",
+      "images/mods/fishing-assistant-2-2.jpg",
+      "images/mods/fishing-assistant-2-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LL9Q6io0yg9Z25c",
+    short: "Automates Stardew Valley fishing, including looting and mini-games.",
+    description: "This mod automates the entire fishing process for you, from casting to looting. It can handle mini-games, treasure collection, bait attachment, and even pauses at night. You can also customize various fishing mechanics, such as skipping mini-games, instant bites, and fish preferences. An in-game configuration menu and fish preview feature are also included for a more tailored experience.",
+    tags: [
+      "fishing",
+      "automation",
+      "quality of life"
+    ],
+    featured: true
+  },
+  {
+    id: 337,
+    game: "stardew",
+    title: "Overgrown Flowery Interface",
+    category: "ui",
+    version: "3.0",
+    size: "1 MB",
+    images: [
+      "images/mods/overgrown-flowery-interface-1.jpg",
+      "images/mods/overgrown-flowery-interface-2.jpg",
+      "images/mods/overgrown-flowery-interface-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p057b0Q5AZQiDeA",
+    short: "Overhaul your Stardew Valley UI with a beautiful, customizable floral theme.",
+    description: "This mod overhauls the user interface of Stardew Valley with a beautiful, overgrown flowery theme. It features fresh vines, dreamy petals, and a romantic floral aesthetic throughout the game's menus. Now fully updated for Stardew Valley 1.6, it offers extensive customization options for elements like the title card, tab overlay, farmer portrait, and cursors. The mod provides optional compatibility patches for many popular mods, ensuring a cohesive visual experience. You can also download standalone components like dig spots or pointers to mix and match with other UI mods.",
+    tags: [
+      "floral",
+      "ui overhaul",
+      "interface"
+    ],
+    featured: true
+  },
+  {
+    id: 338,
+    game: "stardew",
+    title: "Calcifer",
+    category: "modding-tools",
+    version: "1.0.0",
+    size: "17 KB",
+    images: [
+      "images/mods/calcifer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZM8e42a397ZsKfV",
+    short: "Core mod utility for Stardew Valley modding.",
+    description: "Calcifer is a core mod containing shared code and utility features for other mods. It provides custom functionality for modders, such as custom item offsets on furniture and NPC swimming within schedules. This mod is a required dependency for other Content Patcher mods and is a work in progress.",
+    tags: [
+      "utility",
+      "modding",
+      "content patcher"
+    ],
+    featured: true
+  },
+  {
+    id: 339,
+    game: "ac",
+    title: "BMW M3 Competition (G80) 2023",
+    category: "cars",
+    version: "1.0",
+    size: "130 MB",
+    images: [
+      "images/mods/bmw-m3-competition-g80-2023-1.jpg",
+      "images/mods/bmw-m3-competition-g80-2023-2.jpg",
+      "images/mods/bmw-m3-competition-g80-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Cr058Xu9n57Idj6",
+    short: "Experience the 2023 BMW M3 Competition with realistic details and handling.",
+    description: "The BMW M3 Competition (G80) 2023 mod for Assetto Corsa brings the latest iteration of the popular BMW M3 series into the live racing game. This mod is carefully designed to replicate the actual aesthetics and performance of the 2023 BMW M3 Competition. It offers a highly detailed 3D model, accurate handling and engine performance based on real life data to provide a realistic driving experience. This mod may also come with different liveries and customization options that match the look and feel of the real car. It's perfect for players who are keen to drive this luxury sports car in the virtual world of Assetto Corsa.",
+    tags: [
+      "bmw",
+      "m3",
+      "g80",
+      "sports car",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 340,
+    game: "ac",
+    title: "Nissan Laurel C35 (Drift Spec.)",
+    category: "cars",
+    version: "1.0",
+    size: "144 MB",
+    images: [
+      "images/mods/nissan-laurel-c35-drift-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eZu90lGl1sek3EL",
+    short: "Vintage JDM drift sedan for high-angle slides and street drifting.",
+    description: "This mod features a vintage JDM drift sedan specifically designed for high-angle slides and intense street drifting. It boasts raw drift spec styling with a dark metallic finish. Notable details include a mismatched yellow door and an unpainted rear bumper, contributing to its aggressive look. The car is tuned for loose, highly engaging driving dynamics.",
+    tags: [
+      "jdm",
+      "drift",
+      "sedan",
+      "classic",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 341,
+    game: "ac",
+    title: "Porsche \"Traction Master\" 930",
+    category: "cars",
+    version: "0.6",
+    size: "104 MB",
+    images: [
+      "images/mods/porsche-traction-master-930-1-2.jpg",
+      "images/mods/porsche-traction-master-930-2-2.jpg",
+      "images/mods/porsche-traction-master-930-3-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/D5ANk3a6t2U37S9",
+    short: "Realistic Porsche 930 with detailed lights and skins.",
+    description: "This mod adds the Porsche \"Traction Master\" 930 to the game. It features metallic paint and part-changing skins. Enjoy realistic lighting with refracting headlights, tail lights, blinkers, and reverse lights. Additional features include fog lights, wipers with animation and trace, and emissive interior lights.",
+    tags: [
+      "porsche",
+      "cars",
+      "skins",
+      "lights"
+    ],
+    featured: true
+  },
+  {
+    id: 342,
+    game: "ac",
+    title: "Nissan Skyline GTR R34 V-Spec Drag",
+    category: "cars",
+    version: "2.0",
+    size: "61 MB",
+    images: [
+      "images/mods/nissan-skyline-gtr-r34-v-spec-drag-1.jpg",
+      "images/mods/nissan-skyline-gtr-r34-v-spec-drag-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pjNAsyl85oDn538",
+    short: "R34 GTR drag car for high HP servers.",
+    description: "This mod features a re-tuned Nissan Skyline GTR R34 V-Spec. It is specifically optimized for high HP servers and capable of achieving 6-second 1/4 mile times. The car boasts over 100 PSI of boost and a 7-speed transmission. Please note that the top speed is not realistic.",
+    tags: [
+      "skyline",
+      "drag",
+      "r34",
+      "japanese"
+    ],
+    featured: true
+  },
+  {
+    id: 343,
+    game: "ac",
+    title: "Saudi Arabia Streets (+Traffic)",
+    category: "tracks",
+    version: "v2.2",
+    size: "926 MB",
+    images: [
+      "images/mods/saudi-arabia-streets-traffic-1.jpg",
+      "images/mods/saudi-arabia-streets-traffic-2.jpg",
+      "images/mods/saudi-arabia-streets-traffic-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7QBVK83h67CC937",
+    short: "Saudi Arabian street circuit with traffic, 5.5km long.",
+    description: "An impressive street circuit in Saudi Arabia with long straights and many turns. It is 5.5 kilometers long and offers exciting races in an urban environment with traffic elements. This track features 32 pit stops and supports traffic for a more dynamic experience.",
+    tags: [
+      "street",
+      "saudi arabia",
+      "traffic",
+      "race"
+    ],
+    featured: true
+  },
+  {
+    id: 344,
+    game: "ac",
+    title: "Lamborghini Aventador LP720-4 50th Anniversary 2014",
+    category: "cars",
+    version: "0.8",
+    size: "94 MB",
+    images: [
+      "images/mods/lamborghini-aventador-lp720-4-50th-anniversary-2014-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2qfrYagCWtm5l91",
+    short: "Lamborghini Aventador car mod",
+    description: "The Lamborghini Aventador LP720-4 50th Anniversary is a high-performance car with impressive features. It has a powerful engine that produces 729 bhp at 8,500 Rpm and 534 lb-ft of torque at 6,000 Rpm. The car weighs 3,362 lbs and has a top speed of 217 mph. It also has an automatic transmission and a power-to-weight ratio of 0.48 hp/kg. This mod is created by TGN Modding and is available for download.",
+    tags: [
+      "cars",
+      "fast",
+      "sport"
+    ],
+    featured: true
+  },
+  {
+    id: 345,
+    game: "ac",
+    title: "Volkswagen Golf R 7.5",
+    category: "cars",
+    version: "v1.0",
+    size: "149 MB",
+    images: [
+      "images/mods/volkswagen-golf-r-75-1.jpg",
+      "images/mods/volkswagen-golf-r-75-2.jpg",
+      "images/mods/volkswagen-golf-r-75-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NNAq03O7Q0Dv99j",
+    short: "High-performance Volkswagen Golf R 7.5 hatchback for racing.",
+    description: "The Volkswagen Golf R 7.5 is a high-performance hatchback. It represents the top tier of the Golf range, offering maximum power and equipment. This specific version refers to the mid-cycle refresh of the MK7 Golf.",
+    tags: [
+      "vw",
+      "golf",
+      "hatchback",
+      "performance",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 346,
+    game: "ac",
+    title: "Winter High Force",
+    category: "tracks",
+    version: "v1.0",
+    size: "158 MB",
+    images: [
+      "images/mods/winter-high-force-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bH2j9758Y1xAI7i",
+    short: "Winter High Force track mod for Assetto Corsa.",
+    description: "This track mod transforms the famous British rural road into a winter wonderland. Experience atmospheric overcast lighting, perfect for Custom Shaders Patch. It features high-quality snow textures and frosted plants. The road surface is also updated to enhance the winter feel.",
+    tags: [
+      "winter",
+      "track",
+      "snow",
+      "csp",
+      "atmospheric"
+    ],
+    featured: true
+  },
+  {
+    id: 347,
+    game: "ac",
+    title: "Dodge Charger SRT Hellcat RedEye Widebody RFTUNED",
+    category: "cars",
+    version: "v1",
+    size: "66 MB",
+    images: [
+      "images/mods/dodge-charger-srt-hellcat-redeye-widebody-rftuned-1.jpg",
+      "images/mods/dodge-charger-srt-hellcat-redeye-widebody-rftuned-2.jpg",
+      "images/mods/dodge-charger-srt-hellcat-redeye-widebody-rftuned-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ntO3E9jOeDC4E27",
+    short: "Experience the supercharged Dodge Charger Hellcat Redeye in Assetto Corsa.",
+    description: "A heavily upgraded version of the Hellcat was introduced as the Hellcat Redeye for 2021. Like the Challenger Redeye, it is equipped with a supercharged 6.2L V8. This powerful engine is rated at 797 hp (594 kW; 808 PS) and 707 lb⋅ft of torque. Experience the raw power and distinctive design of this iconic muscle car in Assetto Corsa.",
+    tags: [
+      "dodge",
+      "charger",
+      "hellcat",
+      "muscle car"
+    ],
+    featured: true
+  },
+  {
+    id: 348,
+    game: "ac",
+    title: "ESKUKO Drift Family Missile Pack",
+    category: "cars",
+    version: "1.0",
+    size: "397 MB",
+    images: [
+      "images/mods/eskuko-drift-family-missile-pack-1.jpg",
+      "images/mods/eskuko-drift-family-missile-pack-2.jpg",
+      "images/mods/eskuko-drift-family-missile-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eqRNT7z7sXVPIwn",
+    short: "Four drift cars for practice, learning, and daily fun.",
+    description: "This pack features four cars designed for learning, practicing, and daily drifting. It includes lightweight BMWs and iconic Nissan chassis rebuilt by Tuner MNR Cars. Each vehicle has drift-ready physics, updated visuals, and sufficient power for enjoyment.",
+    tags: [
+      "drift",
+      "cars",
+      "tuning",
+      "physics",
+      "nissan"
+    ],
+    featured: true
+  },
+  {
+    id: 349,
+    game: "ac",
+    title: "BMW M8 Competition RWD | Prvvy Spec",
+    category: "cars",
+    version: "1.0",
+    size: "127 MB",
+    images: [
+      "images/mods/bmw-m8-competition-rwd-prvvy-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DUly5Ys54sW7R5A",
+    short: "BMW M8 Competition RWD Prvvy Spec for Assetto Corsa.",
+    description: "This mod introduces the BMW M8 Competition RWD Prvvy Spec for Assetto Corsa. It is a rear-wheel-drive variant based on the high-end BMW M8 competition, offering a more challenging driving experience. The mod features enhanced handling, performance, and aesthetics due to its 'Prvvy Spec' tuning. It includes a powerful 4.4L V8 twin-turbo engine, delivering impressive horsepower and torque for high-speed racing.",
+    tags: [
+      "bmw",
+      "rwd",
+      "performance",
+      "spec"
+    ],
+    featured: true
+  },
+  {
+    id: 350,
+    game: "ac",
+    title: "McLaren-Honda MP4/4",
+    category: "cars",
+    version: "1.3",
+    size: "123 MB",
+    images: [
+      "images/mods/mclaren-honda-mp44-1.jpg",
+      "images/mods/mclaren-honda-mp44-2.jpg",
+      "images/mods/mclaren-honda-mp44-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZslzrGG9B0DZsA6",
+    short: "Iconic F1 car mod with realistic physics and detailed modeling.",
+    description: "The McLaren-Honda MP4/4 mod for Assetto Corsa brings one of the most iconic Formula 1 cars into the game. This mod faithfully recreates the sleek, turbocharged powerhouse driven by Ayrton Senna and Alain Prost. It features detailed car modeling, realistic physics, and accurate performance. Experience the thrill of driving a dominant F1 car.",
+    tags: [
+      "f1",
+      "car",
+      "racing",
+      "classic",
+      "sim"
+    ],
+    featured: true
+  },
+  {
+    id: 351,
+    game: "ac",
+    title: "Nissan GT-R Premium Edition T-Spec",
+    category: "cars",
+    version: "1.0",
+    size: "76 MB",
+    images: [
+      "images/mods/nissan-gt-r-premium-edition-t-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/k0g3fyW9Q77ZeTL",
+    short: "Nissan GT-R T-Spec with special paint and bronze wheels.",
+    description: "This mod adds the Nissan GT-R Premium Edition T-Spec to Assetto Corsa. Experience this modern Japanese supercar with its twin-turbocharged V6 engine. It features the exclusive T-Spec design with rare Millennium Jade paint and bronze wheels. The advanced all-wheel-drive physics are optimized for high-speed driving.",
+    tags: [
+      "nissan",
+      "gtr",
+      "t-spec",
+      "jdm",
+      "supercar"
+    ],
+    featured: true
+  },
+  {
+    id: 352,
+    game: "ac",
+    title: "BMW M4 Competition G82 | No Hesi Spec",
+    category: "cars",
+    version: "1.0",
+    size: "93 MB",
+    images: [
+      "images/mods/bmw-m4-competition-g82-no-hesi-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/W51YlYhahHSKz9z",
+    short: "Enhanced BMW M4 Competition",
+    description: "The BMW M4 Competition G82 | No Hesi Spec is an Assetto Corsa mod that provides users with an enhanced virtual version of the popular BMW model. This car mod is known for its impressive attributes, taking the performance characteristics of the real-world M4 Competition G82 and amplifying them for a more thrilling gaming experience. Some of the characteristics of this mod include its impressive power, which is due to a twin-turbocharged straight-six engine that delivers around 503 horsepower, and its impressive speed, with the ability to reach 0-60 mph in around four seconds. The mod also incorporates realistic handling and braking mechanisms to make the gaming experience as immersive as possible. This mod is a great addition to any Assetto Corsa game.",
+    tags: [
+      "cars",
+      "fast",
+      "sport"
+    ],
+    featured: true
+  },
+  {
+    id: 353,
+    game: "ac",
+    title: "Akina 2022 Yaseone Pass Route 33",
+    category: "tracks",
+    version: "1.1",
+    size: "372 MB",
+    images: [
+      "images/mods/akina-2022-yaseone-pass-route-33-1.jpg",
+      "images/mods/akina-2022-yaseone-pass-route-33-2.jpg",
+      "images/mods/akina-2022-yaseone-pass-route-33-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2S42o03Rcud8674",
+    short: "Mountain pass track mod",
+    description: "The Akina 2022 mod for Assetto Corsa is a terrain or track mod that offers an intricately detailed recreation of the famous Akina Mountain Pass, known in Japan as the Yaseone Pass - Route 33. This route is notorious in sports automobile culture and was prominently featured in the anime series \"Initial D\". The mod provides a realistic and immersive driving experience, allowing players to explore the challenging roads of the Akina Mountain Pass. With its precise details and authentic design, this mod is a must-have for fans of the series and racing enthusiasts alike. The mod is designed to work seamlessly with Assetto Corsa, providing a unique and exciting experience for players.",
+    tags: [
+      "track",
+      "cars",
+      "race"
+    ],
+    featured: true
+  },
+  {
+    id: 354,
+    game: "ac",
+    title: "Lexus RC-F Track Edition",
+    category: "cars",
+    version: "v1.0",
+    size: "158 MB",
+    images: [
+      "images/mods/lexus-rc-f-track-edition-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dsbaTQnlHu0uyHR",
+    short: "Lexus RC F Track Edition car",
+    description: "The Lexus RC-F Track Edition is a high-performance coupe with a powerful V8 engine. It features a special Karti spec tune, including a carbon fibre hood and bespoke aero touches. This car is designed for both track and highway cruising, with a high-grip rear-wheel-drive system. The Karti spec tune enhances the car's performance, making it a thrilling drive. Whether on the track or the highway, the Lexus RC-F Track Edition is a formidable vehicle.",
+    tags: [
+      "cars",
+      "fast",
+      "track"
+    ],
+    featured: true
+  },
+  {
+    id: 355,
+    game: "ac",
+    title: "Monaco",
+    category: "tracks",
+    version: "0.9",
+    size: "55 MB",
+    images: [
+      "images/mods/monaco-1.jpg",
+      "images/mods/monaco-2.jpg",
+      "images/mods/monaco-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/863b3UHD2N8k5sD",
+    short: "Monaco track for Assetto Corsa",
+    description: "The Monaco mod for Assetto Corsa is a track mod, representing one of the most iconic racing circuits in the world - the Circuit de Monaco. This thrilling circuit is known for hosting the Formula One Monaco Grand Prix, one of the most prestigious automobile races. The track is set in the lively streets of Monte Carlo and La Condamine in Monaco, which include tight corners, tunnels, and elevation changes, thus providing an intense and challenging racing experience. The Monaco mod is a highly detailed recreation of the real-world track, featuring all of the landmarks and scenery that make the Circuit de Monaco truly unique. A race on this track is a continuous test of drivers' skills and concentration.",
+    tags: [
+      "racing",
+      "track",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 356,
+    game: "ac",
+    title: "Bmw E60 535D Stage 2+",
+    category: "cars",
+    version: "1.0",
+    size: "187 MB",
+    images: [
+      "images/mods/bmw-e60-535d-stage-2-1.jpg",
+      "images/mods/bmw-e60-535d-stage-2-2.jpg",
+      "images/mods/bmw-e60-535d-stage-2-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HHmQ80ss67z92i1",
+    short: "BMW E60 535D Stage 2 mod",
+    description: "This mod features the BMW E60 535D Stage 2+ with a 3.5L Turbo Diesel engine, producing 469 BHP and 803 Nm of torque. The car has a rear-wheel drive drivetrain and can reach a top speed of over 250 km/h, accelerating from 0-100 km/h in just 4.7 seconds. The mod includes upgrades such as an improved clutch. The car's performance is enhanced with these modifications, making it a great addition to the game.",
+    tags: [
+      "cars",
+      "turbo",
+      "diesel"
+    ],
+    featured: true
+  },
+  {
+    id: 357,
+    game: "ac",
+    title: "Traffic Planner - Pacific Coast Highway (Born Again) PCH",
+    category: "tracks",
+    version: "1.0",
+    size: "43 KB",
+    images: [
+      "images/mods/traffic-planner-pacific-coast-highway-born-again-pch-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ewdnPH5RI5M1Wcm",
+    short: "Pacific Coast Highway track mod",
+    description: "The Traffic Planner - Pacific Coast Highway (Born Again) PCH mod is a comprehensive addition to the Assetto Corsa game. It features a full map of the Pacific Coast Highway, complete with an underground mansion. This mod was created by DMAN and is available for download. The PCH track is a popular choice among players, and this mod aims to enhance the overall gaming experience. With its detailed and realistic design, the Traffic Planner - Pacific Coast Highway mod is a great option for those looking to expand their Assetto Corsa gameplay.",
+    tags: [
+      "racing",
+      "cars",
+      "track"
+    ],
+    featured: true
+  },
+  {
+    id: 358,
+    game: "ac",
+    title: "FDR Traffic Night",
+    category: "tracks",
+    version: "1.0",
+    size: "721 MB",
+    images: [
+      "images/mods/fdr-traffic-night-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/q1EzGS9NDo3bq8o",
+    short: "FDR Drive at night, immersive urban driving challenge.",
+    description: "Experience the iconic FDR Drive in New York City at night with this Assetto Corsa mod. Navigate through realistic nighttime traffic and city lights for an immersive urban driving challenge. The mod features suitable weather and traffic settings to enhance the realism of your virtual drive. It's perfect for fans of city racing and nighttime track experiences.",
+    tags: [
+      "night",
+      "city",
+      "track",
+      "driving",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 359,
+    game: "ac",
+    title: "Volkswagen Polo 1.6TDI Stage 2",
+    category: "cars",
+    version: "0.9",
+    size: "306 MB",
+    images: [
+      "images/mods/volkswagen-polo-16tdi-stage-2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/v382z4ayB68868H",
+    short: "Realistic Volkswagen Polo 1.6 TDI Stage 2+ Plus mod.",
+    description: "This mod features the Volkswagen Polo 1.6 TDI Stage 2+ Plus. It is based on a real-world vehicle, ensuring an authentic driving experience. The mod offers a highly detailed model for enthusiasts.",
+    tags: [
+      "polo",
+      "vw",
+      "tdi",
+      "stage 2",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 360,
+    game: "ac",
+    title: "Circuit 24H Lemans",
+    category: "tracks",
+    version: "3.0",
+    size: "312 MB",
+    images: [
+      "images/mods/circuit-24h-lemans-1.jpg",
+      "images/mods/circuit-24h-lemans-2.jpg",
+      "images/mods/circuit-24h-lemans-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XjJ405tkZ2TDF0i",
+    short: "Racing track in France",
+    description: "Circuit 24H Lemans - Circuit de la Sarthe is a semi-permanent motor racing circuit near Le Mans, France. It is most famous for hosting the annual 24 Hours of Le Mans endurance sports car race, one of the most prestigious automobile races in the world. The event tests the abilities of drivers and cars over a 24-hour period. This circuit is a popular destination for racing fans and enthusiasts. The track's layout and design make it a challenging and exciting course for drivers.",
+    tags: [
+      "race",
+      "cars",
+      "track"
+    ],
+    featured: true
+  },
+  {
+    id: 361,
+    game: "ac",
+    title: "The Real Monaco",
+    category: "tracks",
+    version: "1.1",
+    size: "102 KB",
+    images: [
+      "images/mods/the-real-monaco-1.jpg",
+      "images/mods/the-real-monaco-2.jpg",
+      "images/mods/the-real-monaco-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4g4Q0wJRgGSP7xd",
+    short: "Realistic Monaco track mod",
+    description: "The Real Monaco map is an excellent mod for Assetto Corsa, featuring excellent streets, roads, and drawings. This mod aims to provide a realistic traffic simulation, which was the only thing lacking from a genuine Monaco experience. The mod attempts to convey a feeling of being in Monaco. The traffic simulation adds a new level of realism to the game. The mod is a great addition to Assetto Corsa, providing a more immersive experience.",
+    tags: [
+      "race",
+      "track",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 362,
+    game: "ac",
+    title: "RSS Formula Hybride 2024",
+    category: "cars",
+    version: "V1.0",
+    size: "238 MB",
+    images: [
+      "images/mods/rss-formula-hybride-2024-1.jpg",
+      "images/mods/rss-formula-hybride-2024-2.jpg",
+      "images/mods/rss-formula-hybride-2024-3.jpg"
+    ],
+    downloadUrl: "102.20 KB",
+    short: "Hybrid formula car mod",
+    description: "The RSS Formula Hybride 2024 is a new car mod for Assetto Corsa. It features a hybrid formula car with impressive performance and handling. This mod is designed for racing enthusiasts who want to experience the thrill of driving a high-tech hybrid car. The mod includes detailed models and realistic physics, making it a great addition to the game. With its advanced technology and sleek design, the RSS Formula Hybride 2024 is a must-try for any Assetto Corsa player.",
+    tags: [
+      "car",
+      "fast",
+      "race"
+    ],
+    featured: true
+  },
+  {
+    id: 363,
+    game: "ac",
+    title: "AC Georgia Track Mod",
+    category: "tracks",
+    version: "2.8",
+    size: "656 MB",
+    images: [
+      "images/mods/ac-georgia-track-mod-1.jpg",
+      "images/mods/ac-georgia-track-mod-2.jpg",
+      "images/mods/ac-georgia-track-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/l7qEluQ2hin09Tl",
+    short: "New track in Georgia added",
+    description: "The AC GEORGIA mod for Assetto Corsa is a track mod that adds a new location for players to race in, based on the geographical landscapes of Georgia. This mod offers a blend of sequences, from sharp curves to undulations, inclines, and declines, all designed for a challenging and exciting racing experience. The level of detail will depend on the mod creator, but most track mods aim to be as realistic as possible to give a true-to-life racing experience. The track will test your ability to maintain control and speed across a variety of track conditions and layouts. With its unique layout, the AC GEORGIA mod provides a new and exciting experience for Assetto Corsa players.",
+    tags: [
+      "race",
+      "track",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 364,
+    game: "ac",
+    title: "Exquisite - PP Filter",
+    category: "apps",
+    version: "5.2",
+    size: "10 KB",
+    images: [
+      "images/mods/exquisite-pp-filter-1.jpg",
+      "images/mods/exquisite-pp-filter-2.jpg",
+      "images/mods/exquisite-pp-filter-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YXMusci5J45Hbj8",
+    short: "Enhance Assetto Corsa graphics",
+    description: "Exquisite - PP Filter is a mod for Assetto Corsa that enhances the game's visual aspect. It deals with post-process filters to alter the game's graphics and presentation. This mod makes adjustments to color correction, tone mapping, and other visual elements. The goal is to provide a more immersive and realistic driving experience. The mod gives players a more aesthetically stunning experience.",
+    tags: [
+      "racing",
+      "mods",
+      "graphics"
+    ],
+    featured: true
+  },
+  {
+    id: 365,
+    game: "ac",
+    title: "Longford 1967",
+    category: "tracks",
+    version: "v1.0",
+    size: "200 MB",
+    images: [
+      "images/mods/longford-1967-1.jpg",
+      "images/mods/longford-1967-2.jpg",
+      "images/mods/longford-1967-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/s1Yh4hiF3Fff3Cj",
+    short: "Racing track from 1967",
+    description: "Longford 1967 is a track mod for Assetto Corsa, converted by Tiago Lima. The track features 30 pit boxes, 3D grass, and a physical mesh. Credits go to Flashcrow for the AI and cameras, and the creator woochoo for permitting the conversion. This mod aims to provide a realistic racing experience with its detailed track design. The inclusion of 3D grass and physical mesh enhances the overall graphics and gameplay.",
+    tags: [
+      "race",
+      "track",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 366,
+    game: "ac",
+    title: "Premier - Realistic PPFilter For Pure",
+    category: "apps",
+    version: "5.76",
+    size: "130 KB",
+    images: [
+      "images/mods/premier-realistic-ppfilter-for-pure-1.jpg",
+      "images/mods/premier-realistic-ppfilter-for-pure-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/o065YooBdT8mB0u",
+    short: "Realistic filter for Assetto",
+    description: "The Premier mod is a post-processing filter designed to enhance the realism of Assetto Corsa. It is currently only available for the PURE version of the game. As the mod is a constant work in progress, feedback from users is highly appreciated. The Premier mod aims to provide the most realistic look and feel possible in Assetto Corsa. It is an excellent choice for those seeking to elevate their gaming experience.",
+    tags: [
+      "real",
+      "filter",
+      "pure"
+    ],
+    featured: true
+  },
+  {
+    id: 367,
+    game: "ac",
+    title: "Baker Workshop Drift BMW E36",
+    category: "cars",
+    version: "v1.0",
+    size: "48 MB",
+    images: [
+      "images/mods/baker-workshop-drift-bmw-e36-1.jpg",
+      "images/mods/baker-workshop-drift-bmw-e36-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vFp5i9G3lV2Nd0v",
+    short: "Drift car with turbo setup",
+    description: "This BMW E36 is a street-style drift car with a turbo setup. It keeps the classic E36 look while adding a few useful visual options through the extras menu. The car features 442 bhp, 586 Nm of torque, and a weight of 1300 kg. Additional features include fog lights that can be enabled through the Extra A option. The car's performance and handling make it suitable for drifting.",
+    tags: [
+      "car",
+      "drift",
+      "turbo"
+    ],
+    featured: true
+  },
+  {
+    id: 368,
+    game: "ac",
+    title: "RealMonaco Track Mod",
+    category: "tracks",
+    version: "0.1.9",
+    size: "175 MB",
+    images: [
+      "images/mods/realmonaco-track-mod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iM57AknvG91F6t4",
+    short: "Monaco track for Assetto Corsa",
+    description: "The RealMonaco track mod for Assetto Corsa brings the iconic Monaco circuit to the game, featuring a highly detailed and accurate layout. The track is narrow with many elevation changes, tight corners, and a tunnel, making it one of the most demanding tracks in Formula One racing. This mod offers players a chance to experience the unique details, twists, and turns of the Monaco circuit. It enhances gameplay by adding better graphics, a new layout, and various weather conditions. The mod provides a realistic and challenging racing experience, allowing players to navigate through the streets of Monte Carlo.",
+    tags: [
+      "race",
+      "track",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 369,
+    game: "ac",
+    title: "Lights Patch v0.3.0",
+    category: "apps",
+    version: "0.3.0",
+    size: "135 MB",
+    images: [
+      "images/mods/lights-patch-v030-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yVdlzO2fSXxXs3h",
+    short: "Lights Patch updated to v0.3.0",
+    description: "The Lights Patch v0.3.0 is a modification for Assetto Corsa that aims to improve the game's lighting effects. The latest update, preview361full, addresses an issue with rainbow colors on glass materials by using an internal noise map that matches the one in version 0.2.11. Additionally, the patch fixes a problem with brake discs where the initial wear config value was not being loaded correctly. These changes should enhance the overall visual experience of the game. The patch is a result of the upgrade to VS2022, which occurred in preview46.",
+    tags: [
+      "fix",
+      "light",
+      "game"
+    ],
+    featured: true
+  },
+  {
+    id: 370,
+    game: "ac",
+    title: "Lamborghini Aventador SVJ Gintani F1",
+    category: "cars",
+    version: "1.0",
+    size: "255 MB",
+    images: [
+      "images/mods/lamborghini-aventador-svj-gintani-f1-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/13Tf3ETVVe62jJs",
+    short: "Lamborghini Aventador SVJ Gintani F1 mod",
+    description: "The Lamborghini Aventador SVJ Gintani F1 mod for Assetto Corsa is a modification that allows players to drive a detailed and realistically modeled version of the Lamborghini Aventador SVJ, enhanced with the Gintani F1 tuning package. The mod aims to reproduce the exact performance, handling, and sound of this high-performance car. It features high detail graphics, realistic physics, and the unmistakable roaring engine sound, which will provide an immersive driving experience for the players. This mod provides realistic car control, elevating the overall gaming experience. The mod is designed to be a realistic and immersive addition to the game.",
+    tags: [
+      "car",
+      "race",
+      "fast",
+      "sport",
+      "drive"
     ],
     featured: true
   }
