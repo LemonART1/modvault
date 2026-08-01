@@ -13,6 +13,9 @@ echo.
 
 echo [2/4] Обновление sitemap и SEO...
 call node tools/generate-seo-assets.js
+echo [SEO check] Validating that every mod remains crawlable...
+call node tools/check-seo.js
+if errorlevel 1 exit /b 1
 echo.
 
 echo [3/4] Сохранение изменений...
