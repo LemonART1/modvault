@@ -5,7 +5,7 @@ Stardew Valley, GTA V, ETS2, Cyberpunk 2077, Baldur's Gate 3).
 
 - **Live:** https://modvault.space
 - **Стек:** статический HTML/CSS/JS, бэкенд на Supabase (логин, рейтинги, статистика)
-- **Хостинг:** Netlify (автодеплой из ветки `main`)
+- **Хостинг:** Cloudflare Pages (автодеплой из ветки `main`)
 
 ## Как добавить или отредактировать моды (локально)
 
