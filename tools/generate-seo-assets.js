@@ -235,7 +235,7 @@ const pageMeta = {
   }
 };
 
-const gamePages = ["beamng.html", "assetto.html", "subnautica2.html", "stardew.html", "gta5.html", "ets2.html", "cyberpunk.html", "bg3.html"];
+const gamePages = ["beamng.html", "assetto.html", "subnautica2.html", "stardew.html", "gta5.html", "ets2.html", "cyberpunk.html", "bg3.html", "factorio.html", "re4.html", "starfield.html", "rdr2.html"];
 const dataCtx = {};
 vm.createContext(dataCtx);
 vm.runInContext(`${read("js/data/mods.js")}\nthis.GAMES = GAMES;`, dataCtx);

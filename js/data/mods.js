@@ -75,6 +75,42 @@ const GAMES = {
     "description": "Classes, spells, character presets, UI tweaks and party customization mods.",
     "intro": "Browse Baldur's Gate 3 mods for characters, spells, interface tweaks and party customization. This section focuses on additions that expand roleplay options while keeping the game easy to browse and filter.",
     "accent": "#c77dff"
+  },
+  "factorio": {
+    "name": "Factorio",
+    "shortName": "Factorio",
+    "page": "factorio",
+    "label": "Factory automation",
+    "description": "Blueprints, QoL mods, production chains, enemies and infinite factory expansion.",
+    "intro": "Browse Factorio mods for blueprints, quality-of-life improvements, production chains, enemies and factory expansion. Factorio's modding scene is deep — the right mods can dramatically change how you build, optimize and defend your factory.",
+    "accent": "#ff9a3c"
+  },
+  "re4": {
+    "name": "Resident Evil 4",
+    "shortName": "RE4",
+    "page": "re4",
+    "label": "Survival horror",
+    "description": "Character skins, weapon packs, visual overhauls and gameplay tweaks for the remake.",
+    "intro": "Browse Resident Evil 4 (Remake) mods for character skins, weapon packs, visual overhauls and gameplay tweaks. RE4's modding community brings new life to Leon's mission with fresh looks and mechanics.",
+    "accent": "#c1272d"
+  },
+  "starfield": {
+    "name": "Starfield",
+    "shortName": "Starfield",
+    "page": "starfield",
+    "label": "Space RPG",
+    "description": "Ship parts, UI overhauls, texture packs, gameplay balance and exploration mods.",
+    "intro": "Browse Starfield mods for ship parts, UI overhauls, texture packs, gameplay balance and exploration improvements. The Settled Systems get bigger with community-made additions that enhance space travel, combat and outpost building.",
+    "accent": "#3498db"
+  },
+  "rdr2": {
+    "name": "Red Dead Redemption 2",
+    "shortName": "RDR2",
+    "page": "rdr2",
+    "label": "Western epic",
+    "description": "Visual upgrades, gameplay enhancements, character swaps and open-world immersion mods.",
+    "intro": "Browse Red Dead Redemption 2 mods for visual upgrades, gameplay enhancements, character swaps and open-world immersion. RDR2's modding scene brings new life to the frontier with custom content and quality-of-life fixes.",
+    "accent": "#d4a843"
   }
 };
 
