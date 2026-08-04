@@ -76,14 +76,14 @@ const GAMES = {
     "intro": "Browse Red Dead Redemption 2 mods for visual upgrades, gameplay enhancements, character swaps and open-world immersion. RDR2's modding scene brings new life to the frontier with custom content and quality-of-life fixes.",
     "accent": "#9c2b2b"
   },
-  "factorio": {
-    "name": "Factorio",
-    "shortName": "Factorio",
-    "page": "factorio",
-    "label": "Factory automation",
-    "description": "Blueprints, QoL mods, production chains, enemies and infinite factory expansion.",
-    "intro": "Browse Factorio mods for blueprints, quality-of-life improvements, production chains, enemies and factory expansion. Factorio's modding scene is deep — the right mods can dramatically change how you build, optimize and defend your factory.",
-    "accent": "#ff9a3c"
+  "nierautomata": {
+    "name": "NieR: Automata",
+    "shortName": "NieR: Automata",
+    "page": "nierautomata",
+    "label": "Android action RPG",
+    "description": "Character outfits, UI overhauls, cheat menus and gameplay tweaks for the android RPG.",
+    "intro": "Browse NieR: Automata mods for character outfits, UI overhauls, cheat menus and gameplay tweaks. The game's modding community keeps 2B, 9S and A2 looking and playing fresh years after release.",
+    "accent": "#d4af37"
   },
   "re4": {
     "name": "Resident Evil 4",
@@ -10715,14 +10715,15 @@ const CATEGORIES = {
     "visuals": "Visuals",
     "weapons": "Weapons"
   },
-  "factorio": {
-    "content": "Content",
-    "overhaul": "Overhaul",
-    "tweaks": "Tweaks",
+  "nierautomata": {
+    "audio": "Audio",
+    "characters": "Characters",
+    "gameplay": "Gameplay",
+    "graphics": "Graphics",
+    "miscellaneous": "Miscellaneous",
+    "user-interface": "UI",
     "utilities": "Utilities",
-    "scenarios": "Scenarios",
-    "mod-packs": "Mod Packs",
-    "other": "Other"
+    "weapons": "Weapons"
   },
   "re4": {
     "audio": "Audio",

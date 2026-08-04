@@ -7,13 +7,6 @@ const NEWS_POSTS = [
     "summary": "SCS Software rebuilt the livestock trailer from the ground up for update 1.61, replacing the old belly axle variant with a lowered dual-wheel chassis and adding two chassis options, paintable bodies and a long list of accessories."
   },
   {
-    "date": "2026-06-26",
-    "title": "Factorio 2.1 arrives as an experimental release",
-    "tag": "Factorio",
-    "url": "content/news/factorio-2-1-arrives-as-an-experimental-release",
-    "summary": "Wube released Factorio 2.1 as experimental with a changelog too long to fit in a Reddit post, and the team plans to keep it experimental through the summer before marking it stable."
-  },
-  {
     "date": "2026-06-20",
     "title": "Baldur's Gate 3 Legendary Edition mod gets a fresh round of classes",
     "tag": "Baldur's Gate 3",
@@ -117,13 +110,6 @@ const NEWS_POSTS = [
     "tag": "Euro Truck Simulator 2",
     "url": "content/news/ets2-and-ats-1-60-add-an-expanded-rest-mechanic",
     "summary": "SCS Software previewed an expanded rest mechanic for update 1.60, making fatigue and route planning a more visible part of truck sim play."
-  },
-  {
-    "date": "2026-05-29",
-    "title": "Wube confirms 2.1 will be Factorio's last major update",
-    "tag": "Factorio",
-    "url": "content/news/wube-confirms-2-1-will-be-factorio-s-last-major-update",
-    "summary": "Friday Facts #440 laid out the 2.1 plan and stated the team envisions it as the last major update for Factorio, focused on quality of life, polish, fixes and modding improvements rather than new planets or research trees."
   },
   {
     "date": "2026-05-28",
