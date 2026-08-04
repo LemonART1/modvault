@@ -7879,6 +7879,2703 @@ const MODS = [
       "drive"
     ],
     featured: true
+  },
+  {
+    id: 371,
+    game: "gta5",
+    title: "Promotional Visuals [Enhanced/Legacy]",
+    category: "maps",
+    version: "1.0",
+    size: "51 MB",
+    images: [
+      "images/mods/promotional-visuals-enhancedlegacy-1.jpg",
+      "images/mods/promotional-visuals-enhancedlegacy-2.jpg",
+      "images/mods/promotional-visuals-enhancedlegacy-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m8H8g3OuT568Usu",
+    short: "A visual overhaul inspired by promotional Grand Theft Auto material.",
+    description: "This visual overhaul is inspired by the iconic aesthetic of pre-release promotional material and trailers for Grand Theft Auto V. It captures the distinct artistic direction found across different console generations including legacy Gen7 and modern Gen9 styles. The mod does not aim for a direct recreation of old builds but focuses on enhancing the game's overall atmospheric presentation. Players will notice a more cinematic look that feels consistent with official marketing assets.",
+    tags: [
+      "graphics",
+      "visual",
+      "overhaul",
+      "aesthetic"
+    ],
+    featured: true
+  },
+  {
+    id: 372,
+    game: "gta5",
+    title: "DLCForge",
+    category: "tools",
+    version: "1.0.0",
+    size: "258 KB",
+    images: [
+      "images/mods/dlcforge-1.jpg",
+      "images/mods/dlcforge-2.jpg",
+      "images/mods/dlcforge-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j3aKW5X2mL7Lbw7",
+    short: "Automated tool for generating clean and correct dlclist xml.",
+    description: "DLCForge automatically scans your GTA V installation to detect all original and modded content packs. It eliminates the need for manual editing of your dlclist.xml file by generating a clean and correctly ordered list. The tool supports Steam, Rockstar Games Launcher, and Epic Games versions seamlessly. It saves significant time for modders who frequently add or remove DLC packs.",
+    tags: [
+      "gta5",
+      "tools",
+      "modding",
+      "dlc",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 373,
+    game: "gta5",
+    title: "Omni-Man Voice Pack",
+    category: "scripts",
+    version: "V2",
+    size: "43 MB",
+    images: [
+      "images/mods/omni-man-voice-pack-1.jpg",
+      "images/mods/omni-man-voice-pack-2.jpg",
+      "images/mods/omni-man-voice-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CI7O66kdvNnJS6G",
+    short: "Add dynamic Omni-Man dialogue to your GTA V gameplay.",
+    description: "This mod adds a dynamic voice system for Omni-Man within Los Santos. It features over 150 unique audio files that trigger based on your current in-game actions. The dialogue reflects the ruthless and intimidating personality of the iconic character. You will experience a more immersive gameplay session while playing as this super-powered villain.",
+    tags: [
+      "voice pack",
+      "omni-man",
+      "gta 5",
+      "audio"
+    ],
+    featured: true
+  },
+  {
+    id: 374,
+    game: "gta5",
+    title: "Rockstar Editor+",
+    category: "tools",
+    version: "1.0.0",
+    size: "36 MB",
+    images: [
+      "images/mods/rockstar-editor-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6M22LNsTmh7sH6M",
+    short: "A powerful overhaul for the built-in Rockstar Editor tools.",
+    description: "This mod provides a comprehensive overhaul of the existing Rockstar Editor functionality. It removes hardcoded movement restrictions and implements a custom rendering pipeline for higher quality exports. The mod features a rewritten smooth blend system to ensure fluid camera transitions between markers. It is fully compatible with Legacy, Enhanced, and FiveM versions from a single installation.",
+    tags: [
+      "gta5",
+      "editor",
+      "rendering",
+      "camera"
+    ],
+    featured: true
+  },
+  {
+    id: 375,
+    game: "gta5",
+    title: "Boeing 777-300ERSF \"The Big Twin\" Paintjob",
+    category: "vehicles",
+    version: "1.0",
+    size: "13 MB",
+    images: [
+      "images/mods/boeing-777-300ersf-the-big-twin-paintjob-1.jpg",
+      "images/mods/boeing-777-300ersf-the-big-twin-paintjob-2.jpg",
+      "images/mods/boeing-777-300ersf-the-big-twin-paintjob-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kYemOtj7eKGygtc",
+    short: "A detailed livery for the Boeing 777 freighter aircraft.",
+    description: "This mod provides a highly detailed livery for the Boeing 777-300ERSF aircraft in GTA V. It captures the authentic design of the first passenger to freighter conversion known as The Big Twin. Please note that this download only contains the paintjob files and requires the original model mod to function correctly. Installation instructions are included to help you apply the livery to your aircraft model seamlessly.",
+    tags: [
+      "boeing",
+      "livery",
+      "aircraft",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 376,
+    game: "gta5",
+    title: "Improved Taxi Driver",
+    category: "scripts",
+    version: "1.0.0",
+    size: "31 KB",
+    images: [
+      "images/mods/improved-taxi-driver-1.jpg",
+      "images/mods/improved-taxi-driver-2.jpg",
+      "images/mods/improved-taxi-driver-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BipW3N9J7cOn4uC",
+    short: "Work as a taxi driver in any vehicle mod.",
+    description: "This mod allows you to work as a taxi driver using any vehicle including your own personal cars. It patches the original taxi controller scripts to remove strict vehicle model restrictions. The package also adds various GTA Online vehicles with official yellow taxi liveries to the Downtown Cab Co depot. You can easily customize the list of eligible vehicle models by editing the provided configuration file.",
+    tags: [
+      "taxi",
+      "scripts",
+      "gta5",
+      "jobs",
+      "vehicles"
+    ],
+    featured: true
+  },
+  {
+    id: 377,
+    game: "gta5",
+    title: "LSPD Outfit for MP Male and Female",
+    category: "player",
+    version: "1.0 Beta",
+    size: "2 MB",
+    images: [
+      "images/mods/lspd-outfit-for-mp-male-and-female-1.jpg",
+      "images/mods/lspd-outfit-for-mp-male-and-female-2.jpg",
+      "images/mods/lspd-outfit-for-mp-male-and-female-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/P0lJ6zIDD402enh",
+    short: "LSPD police department outfit for male and female characters.",
+    description: "This mod provides a Los Santos Police Department outfit for both male and female multiplayer characters. It is currently in a beta state and features custom models and textures. The design focuses on a lore-friendly aesthetic that fits the style of the game. Please note that this is an early release and minor issues may still be present.",
+    tags: [
+      "lspd",
+      "police",
+      "outfit",
+      "gta5",
+      "lorefriendly"
+    ],
+    featured: true
+  },
+  {
+    id: 378,
+    game: "gta5",
+    title: "Smoking Mod",
+    category: "scripts",
+    version: "1.0",
+    size: "48 KB",
+    images: [
+      "images/mods/smoking-mod-1.jpg",
+      "images/mods/smoking-mod-2.jpg",
+      "images/mods/smoking-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0T0WWvi7luI3FG2",
+    short: "Toggle a lit cigarette for your character anytime anywhere.",
+    description: "This mod allows your character to smoke a cigarette whenever you want. You can toggle the animation on and off using a simple hotkey. The lit cigarette remains visibly in your character hand while you walk around. It removes the limitations of the vanilla ambient smoking scenarios.",
+    tags: [
+      "smoking",
+      "animation",
+      "scripts",
+      "roleplay"
+    ],
+    featured: true
+  },
+  {
+    id: 379,
+    game: "gta5",
+    title: "Wheelchair 2000 [Add-On / FiveM Ready]",
+    category: "vehicles",
+    version: "1.0",
+    size: "3 MB",
+    images: [
+      "images/mods/wheelchair-2000-add-on-fivem-ready-1.jpg",
+      "images/mods/wheelchair-2000-add-on-fivem-ready-2.jpg",
+      "images/mods/wheelchair-2000-add-on-fivem-ready-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Uwx049t4UnM0yc6",
+    short: "A custom wheelchair mod featuring dual mounted machine guns.",
+    description: "This mod introduces a heavily armed wheelchair equipped with dual 50 caliber machine guns. It is designed to provide chaotic fun and unique traversal options within the game world. The included miniguns are permanently mounted and ready for immediate action upon spawning. Players can easily install this add-on for both single player and FiveM servers.",
+    tags: [
+      "gta5",
+      "vehicles",
+      "weaponized",
+      "fun",
+      "add-on"
+    ],
+    featured: true
+  },
+  {
+    id: 380,
+    game: "gta5",
+    title: "2014 Ram 2500 Cummins | Custom Lifted",
+    category: "vehicles",
+    version: "1.0",
+    size: "99 MB",
+    images: [
+      "images/mods/2014-ram-2500-cummins-custom-lifted-1.jpg",
+      "images/mods/2014-ram-2500-cummins-custom-lifted-2.jpg",
+      "images/mods/2014-ram-2500-cummins-custom-lifted-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0B89F5VA8U8EztX",
+    short: "A highly detailed custom lifted 2014 Ram truck mod.",
+    description: "This mod adds a highly detailed 2014 Ram 2500 Cummins to your game. It features custom modeled parts and authentic details inspired by a real-life build. The vehicle supports both single player and FiveM for versatile gameplay. Key functional elements include a working dashboard, breakable windows, and custom lighting configurations.",
+    tags: [
+      "ram",
+      "truck",
+      "vehicle",
+      "custom",
+      "lifted"
+    ],
+    featured: true
+  },
+  {
+    id: 381,
+    game: "gta5",
+    title: "Clean Dominator ASP [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "48 MB",
+    images: [
+      "images/mods/clean-dominator-asp-add-on-1.jpg",
+      "images/mods/clean-dominator-asp-add-on-2.jpg",
+      "images/mods/clean-dominator-asp-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1S9Sp3l8Fy77j52",
+    short: "A clean version of the Dominator ASP car mod.",
+    description: "This mod introduces a clean version of the Dominator ASP for GTA V. The creator removed the original splitter to provide a sleeker aesthetic for the vehicle. It represents the first project from this author using custom 3D modeling techniques. Players can enjoy this refreshed look as a standalone add-on installation. Please note that this is a debut mod so minor imperfections may exist.",
+    tags: [
+      "gta5",
+      "vehicles",
+      "cars",
+      "add-on",
+      "clean"
+    ],
+    featured: true
+  },
+  {
+    id: 382,
+    game: "gta5",
+    title: "Empire Economy System",
+    category: "scripts",
+    version: "1.0.0",
+    size: "106 KB",
+    images: [
+      "images/mods/empire-economy-system-1.jpg",
+      "images/mods/empire-economy-system-2.jpg",
+      "images/mods/empire-economy-system-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Uvs2Z6jYK5rh12U",
+    short: "Transform GTA V single player into a realistic financial simulation.",
+    description: "This script transforms GTA V single player into a comprehensive and realistic financial simulation. You can manage your personal wealth through credit systems, tax payments, and complex loan structures. Players must navigate financial risks including audits, potential imprisonment, and significant debt obligations. Every economic decision you make directly impacts your progression and long-term financial stability in the game.",
+    tags: [
+      "economy",
+      "realism",
+      "finance",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 383,
+    game: "gta5",
+    title: "Mark V SOC [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "36 MB",
+    images: [
+      "images/mods/mark-v-soc-add-on-1.jpg",
+      "images/mods/mark-v-soc-add-on-2.jpg",
+      "images/mods/mark-v-soc-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/swQ2718075LGGyd",
+    short: "Add the Mark V Special Operations Craft to GTA V.",
+    description: "This mod introduces the Mark V Special Operations Craft as a fully functional boat in the game. It features a spacious cabin that accommodates sixteen passengers along with two operational deck-mounted machine guns. You can toggle the rear dinghy as an optional extra and select from three distinct liveries for customization. Ensure you install the recommended limit adjuster tool to maintain game stability while using this heavy vessel.",
+    tags: [
+      "boat",
+      "military",
+      "vehicle",
+      "add-on"
+    ],
+    featured: true
+  },
+  {
+    id: 384,
+    game: "gta5",
+    title: "2026 Rolls Royce Spectre Renegade Design",
+    category: "vehicles",
+    version: "1.0",
+    size: "46 MB",
+    images: [
+      "images/mods/2026-rolls-royce-spectre-renegade-design-1.jpg",
+      "images/mods/2026-rolls-royce-spectre-renegade-design-2.jpg",
+      "images/mods/2026-rolls-royce-spectre-renegade-design-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Mq4ToDr4W5eAWR2",
+    short: "High quality Rolls Royce Spectre add-on for GTA V.",
+    description: "This mod brings the luxurious 2026 Rolls Royce Spectre Renegade Design to your game with high-quality interior and exterior modeling. It features a realistic scale, fully functional gauges, and working lights for an immersive driving experience. You can interact with the vehicle using openable doors, a functional hood, and breakable glass components. The mod includes custom extras like EU license plates and provides accurate player positioning for a smooth ride.",
+    tags: [
+      "luxury",
+      "car",
+      "rollsroyce",
+      "gta5",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 385,
+    game: "gta5",
+    title: "QuantV Realistic Preset [SP & FiveM]",
+    category: "other",
+    version: "1.0",
+    size: "19 MB",
+    images: [
+      "images/mods/quantv-realistic-preset-sp-fivem-1.jpg",
+      "images/mods/quantv-realistic-preset-sp-fivem-2.jpg",
+      "images/mods/quantv-realistic-preset-sp-fivem-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7E6B0NRzUIVRs3d",
+    short: "Enhance your game visuals with this realistic preset configuration.",
+    description: "This preset provides a high-quality visual enhancement for GTA V and FiveM players. It works by integrating custom shaders through the ReShade platform to improve lighting and color fidelity. You must install the core QuantV files and ReShade before applying this preset. Follow the included installation steps to place the files into your game or plugin directory properly.",
+    tags: [
+      "graphics",
+      "reshade",
+      "realism",
+      "visual",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 386,
+    game: "ac",
+    title: "Ferrari 12Cilindri Spider 2024",
+    category: "cars",
+    version: "1.0",
+    size: "29 MB",
+    images: [
+      "images/mods/ferrari-12cilindri-spider-2024-1.jpg",
+      "images/mods/ferrari-12cilindri-spider-2024-2.jpg",
+      "images/mods/ferrari-12cilindri-spider-2024-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3dKa08086yAE76w",
+    short: "A high performance Ferrari 12Cilindri Spider for Assetto Corsa.",
+    description: "This mod brings the 2024 Ferrari 12Cilindri Spider to Assetto Corsa as a custom vehicle addition. As this is a first-time conversion project, the model may contain minor imperfections and unresolved bugs. The vehicle features a detailed exterior and includes a template for custom paint jobs. Future updates are planned to address existing technical issues and improve the overall driving experience.",
+    tags: [
+      "ferrari",
+      "supercar",
+      "italian",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 387,
+    game: "gta5",
+    title: "Dismemberment Mod (Rockstar Editor Support) [Legacy & Enhanced]",
+    category: "scripts",
+    version: "Legacy & Enhanced",
+    size: "71 MB",
+    images: [
+      "images/mods/dismemberment-mod-rockstar-editor-support-legacy-enhanced-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/57VH1ksA5349DOO",
+    short: "Advanced dismemberment mod with full Rockstar Editor support included.",
+    description: "This mod introduces advanced dismemberment mechanics into the game with full Rockstar Editor compatibility. You can now perform multiple dismemberments per pedestrian instead of being limited to just one. The package includes both legacy and enhanced versions for players to choose from. It has been completely overhauled to ensure a stable and immersive experience during gameplay.",
+    tags: [
+      "gore",
+      "scripts",
+      "blood",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 388,
+    game: "gta5",
+    title: "Mercedes Benz Maybach GLS 600",
+    category: "vehicles",
+    version: "1.0",
+    size: "82 MB",
+    images: [
+      "images/mods/mercedes-benz-maybach-gls-600-1.jpg",
+      "images/mods/mercedes-benz-maybach-gls-600-2.jpg",
+      "images/mods/mercedes-benz-maybach-gls-600-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/113UvZfB9KgO9pd",
+    short: "Add the luxurious Mercedes Benz Maybach GLS to GTA.",
+    description: "This mod adds the luxurious Mercedes Benz Maybach GLS 600 to your game as a high-quality add-on vehicle. It features a detailed interior with a functional speedometer and working steering wheel animations. The vehicle includes paintable body and calipers along with breakable glass for realistic collision effects. Installation instructions are provided in the included text file to ensure proper placement within your mods folder.",
+    tags: [
+      "mercedes",
+      "luxury",
+      "vehicle",
+      "car",
+      "add-on"
+    ],
+    featured: true
+  },
+  {
+    id: 389,
+    game: "gta5",
+    title: "Homelander Voice Pack",
+    category: "scripts",
+    version: "1.0.0",
+    size: "12 MB",
+    images: [
+      "images/mods/homelander-voice-pack-1.jpg",
+      "images/mods/homelander-voice-pack-2.jpg",
+      "images/mods/homelander-voice-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8QSMP127Y3a0s7P",
+    short: "Add dynamic Homelander voice lines to your GTA V experience.",
+    description: "This mod brings Homelander to life in Los Santos with dynamic and context-sensitive voice lines. The audio triggers during various gameplay events including combat, taking damage, and vehicle crashes. You will hear reactive quotes instead of generic game sounds during your sessions. It is the perfect addition for players using a Homelander character model.",
+    tags: [
+      "homelander",
+      "voice",
+      "scripts",
+      "superhero"
+    ],
+    featured: true
+  },
+  {
+    id: 390,
+    game: "gta5",
+    title: "Harbin Z-21 China [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "23 MB",
+    images: [
+      "images/mods/harbin-z-21-china-add-on-1.jpg",
+      "images/mods/harbin-z-21-china-add-on-2.jpg",
+      "images/mods/harbin-z-21-china-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5j5K2SmPFC6AC8D",
+    short: "Add the powerful Chinese Z-21 attack helicopter to game.",
+    description: "This mod introduces the high-tech Chinese Z-21 attack helicopter to the skies of Los Santos. It features custom weapon loadouts, functional navigation lights, and a realistic flare system. Players should install the CWeaponInfoBlob Limit Adjuster to ensure the mod loads without any stability issues. This addon is fully compatible with both singleplayer and FiveM servers.",
+    tags: [
+      "helicopter",
+      "z-21",
+      "military",
+      "aircraft"
+    ],
+    featured: true
+  },
+  {
+    id: 391,
+    game: "gta5",
+    title: "Tracey Story Simulator",
+    category: "scripts",
+    version: "1.0.0",
+    size: "8 MB",
+    images: [
+      "images/mods/tracey-story-simulator-1.jpg",
+      "images/mods/tracey-story-simulator-2.jpg",
+      "images/mods/tracey-story-simulator-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/155Q3AsBzfgsL3Y",
+    short: "Experience a deep relationship story as Tracey De Santa.",
+    description: "This mod offers an expansive narrative experience centered on playing as Tracey De Santa. You can engage in dynamic relationship mechanics with Franklin through dates and interactive missions. Build trust and love to unlock special milestones and progress through a unique storyline. Experience a completely fresh perspective of the game world with custom events and new gameplay paths.",
+    tags: [
+      "story",
+      "roleplay",
+      "scripts",
+      "romance"
+    ],
+    featured: true
+  },
+  {
+    id: 392,
+    game: "gta5",
+    title: "2025 Ferrari F80 [Add-On | Tuning | Legacy | Enhanced]",
+    category: "vehicles",
+    version: "1.0",
+    size: "47 MB",
+    images: [
+      "images/mods/2025-ferrari-f80-add-on-tuning-legacy-enhanced-1.jpg",
+      "images/mods/2025-ferrari-f80-add-on-tuning-legacy-enhanced-2.jpg",
+      "images/mods/2025-ferrari-f80-add-on-tuning-legacy-enhanced-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2V3E22Bp0iyBK8l",
+    short: "A high quality 2025 Ferrari F80 for GTA V.",
+    description: "This mod brings the 2025 Ferrari F80 to GTA V with high quality textures and a detailed 3D model. It features functional dials, working lights, and a realistic automatic spoiler system. The vehicle supports both legacy and enhanced game versions for better compatibility. You will also find accurate dirt mapping and damageable parts for an immersive driving experience.",
+    tags: [
+      "ferrari",
+      "supercar",
+      "vehicle",
+      "addon"
+    ],
+    featured: true
+  },
+  {
+    id: 393,
+    game: "gta5",
+    title: "Modern Clothing Pack (MP Male)",
+    category: "player",
+    version: "1.0",
+    size: "77 MB",
+    images: [
+      "images/mods/modern-clothing-pack-mp-male-1.jpg",
+      "images/mods/modern-clothing-pack-mp-male-2.jpg",
+      "images/mods/modern-clothing-pack-mp-male-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/naV49xJb3l5deVz",
+    short: "A collection of modern streetwear for MP Male characters.",
+    description: "This mod adds a collection of modern streetwear items specifically designed for the MP Male character model. The pack features various high-quality assets including bomber jackets, pants, sneakers, and bucket hats. Each piece of clothing comes with multiple unique color variations to ensure style versatility. These assets are fully customizable and ready to be integrated into your game world.",
+    tags: [
+      "streetwear",
+      "clothing",
+      "mp male",
+      "fashion"
+    ],
+    featured: true
+  },
+  {
+    id: 394,
+    game: "gta5",
+    title: "Chengdu J-36 China 6th Gen Fighter",
+    category: "vehicles",
+    version: "1.1",
+    size: "18 MB",
+    images: [
+      "images/mods/chengdu-j-36-china-6th-gen-fighter-1.jpg",
+      "images/mods/chengdu-j-36-china-6th-gen-fighter-2.jpg",
+      "images/mods/chengdu-j-36-china-6th-gen-fighter-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WUwjBt2fr855O14",
+    short: "Fly the advanced J-36 fighter jet in GTA V.",
+    description: "This mod introduces the advanced J-36 6th generation fighter jet to the game world. It features a detailed dual seat cockpit and a specialized custom weapons loadout for combat scenarios. Players can toggle between different engine nozzle styles to reflect various design prototypes. Use the specified controls to operate the functional weapon bays during flight.",
+    tags: [
+      "fighter",
+      "jet",
+      "military",
+      "aircraft",
+      "j-36"
+    ],
+    featured: true
+  },
+  {
+    id: 395,
+    game: "gta5",
+    title: "Mercedes-Maybach S-Class",
+    category: "vehicles",
+    version: "1.0",
+    size: "48 MB",
+    images: [
+      "images/mods/mercedes-maybach-s-class-1.jpg",
+      "images/mods/mercedes-maybach-s-class-2.jpg",
+      "images/mods/mercedes-maybach-s-class-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Mpe1y4d5hus9eH1",
+    short: "Add the luxurious Mercedes-Maybach S-Class to your game world.",
+    description: "This mod adds the luxurious Mercedes-Maybach S-Class to your game as a standalone vehicle. It features a highly detailed interior with a functional speedometer and steering wheel. The exterior includes breakable glass, reflective mirrors, and fully operational lights. Players can customize the body paint and brake calipers to suit their personal style.",
+    tags: [
+      "mercedes",
+      "luxury",
+      "car",
+      "vehicle",
+      "maybach"
+    ],
+    featured: true
+  },
+  {
+    id: 396,
+    game: "gta5",
+    title: "Mil Mi-35M Hind [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "33 MB",
+    images: [
+      "images/mods/mil-mi-35m-hind-add-on-1.jpg",
+      "images/mods/mil-mi-35m-hind-add-on-2.jpg",
+      "images/mods/mil-mi-35m-hind-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qwp62rRp4Co861s",
+    short: "Detailed Mil Mi-35M attack helicopter for your game.",
+    description: "This mod adds the upgraded Mi-35M Hind attack helicopter to your game. The model includes detailed features like a functional cannon, barrage rockets, and working flares for defense. You can customize the appearance with two unique liveries and optional exhaust covers. The cabin supports a pilot and gunner plus six passengers for group transport.",
+    tags: [
+      "helicopter",
+      "military",
+      "aircraft"
+    ],
+    featured: true
+  },
+  {
+    id: 397,
+    game: "gta5",
+    title: "Vom Feuer SMG",
+    category: "weapons",
+    version: "1.0",
+    size: "47 MB",
+    images: [
+      "images/mods/vom-feuer-smg-1.jpg",
+      "images/mods/vom-feuer-smg-2.jpg",
+      "images/mods/vom-feuer-smg-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GH65TGb1Fi0iOw5",
+    short: "A high quality animated submachine gun for GTA V.",
+    description: "This mod introduces the Vom Feuer submachine gun featuring four distinct visual variants. The weapon comes fully animated with high-quality models and optimized textures to ensure smooth performance. Players can utilize a wide range of customization options and component attachments. This package is fully optimized for FiveM server integration and lore-friendly gameplay.",
+    tags: [
+      "smg",
+      "weapon",
+      "fivem",
+      "shooter",
+      "addon"
+    ],
+    featured: true
+  },
+  {
+    id: 398,
+    game: "gta5",
+    title: "NPC Fighting NPCs Chain",
+    category: "scripts",
+    version: "1.0",
+    size: "10 KB",
+    images: [
+      "images/mods/npc-fighting-npcs-chain-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1W3Bl4Y1hMGR819",
+    short: "Make NPCs fight each other and defend the player.",
+    description: "This mod enhances the game world by triggering nearby NPCs to defend you when you are attacked. It also forces random NPCs to engage in combat with each other to create more dynamic interactions. The script makes the environment feel more realistic or chaotic depending on your playstyle. Simply place the file into your scripts folder to activate the functionality. Ensure you have the compatible version of ScriptHookVDotNet installed to avoid issues.",
+    tags: [
+      "npc",
+      "combat",
+      "scripts",
+      "gta5",
+      "behavior"
+    ],
+    featured: true
+  },
+  {
+    id: 399,
+    game: "gta5",
+    title: "FIB Black Ops Contracts",
+    category: "scripts",
+    version: "1.0.0",
+    size: "65 KB",
+    images: [
+      "images/mods/fib-black-ops-contracts-1.jpg",
+      "images/mods/fib-black-ops-contracts-2.jpg",
+      "images/mods/fib-black-ops-contracts-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Vg3OnABW6Tyy6oM",
+    short: "Become an elite FIB operative and complete classified tactical missions.",
+    description: "This mod allows players to join an elite counter-terrorism division within the FIB. You can purchase a permanent badge to access a high-security operations center located inside the headquarters. From the operations board, you can select and execute various classified missions. This content adds a professional roleplay element to your criminal activities in Los Santos.",
+    tags: [
+      "gta5",
+      "fib",
+      "missions",
+      "roleplay",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 400,
+    game: "gta5",
+    title: "Madrazo Hits",
+    category: "scripts",
+    version: "1.0.0",
+    size: "23 KB",
+    images: [
+      "images/mods/madrazo-hits-1.jpg",
+      "images/mods/madrazo-hits-2.jpg",
+      "images/mods/madrazo-hits-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/219N284W9fh8DnQ",
+    short: "Brings GTA Online Madrazo Hits missions to single player.",
+    description: "This script brings the GTA Online Madrazo Hits missions directly into your single player experience. Once you log in, Martin Madrazo will contact you with specific targets to eliminate across the map. Use the provided photos to identify your mark and complete the objectives. You can earn additional cash bonuses by using specific randomly selected weapons for each kill.",
+    tags: [
+      "gta5",
+      "script",
+      "missions",
+      "madrazo"
+    ],
+    featured: true
+  },
+  {
+    id: 401,
+    game: "gta5",
+    title: "Übermacht Sentinel Stock [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "10 MB",
+    images: [
+      "images/mods/ubermacht-sentinel-stock-add-on-1.jpg",
+      "images/mods/ubermacht-sentinel-stock-add-on-2.jpg",
+      "images/mods/ubermacht-sentinel-stock-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/762n8XWpOp29CjD",
+    short: "A realistic stock version of the GTA V Sentinel.",
+    description: "This mod introduces a stock version of the Sentinel based on the modern 5 Series design. It features authentic details including functional turn signals and a rear center brake light. The vehicle is equipped with accurate stock-style wheels to complete the realistic factory appearance. You can easily install this model using the provided dlcpacks and configuration instructions.",
+    tags: [
+      "gta5",
+      "cars",
+      "vehicle",
+      "add-on",
+      "ubermacht"
+    ],
+    featured: true
+  },
+  {
+    id: 402,
+    game: "gta5",
+    title: "Ambient Hit Squads",
+    category: "scripts",
+    version: "2.1",
+    size: "11 KB",
+    images: [
+      "images/mods/ambient-hit-squads-1.jpg",
+      "images/mods/ambient-hit-squads-2.jpg",
+      "images/mods/ambient-hit-squads-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/gQW3TC1cojtrMst",
+    short: "Dynamic hit squads that challenge you during free roam.",
+    description: "This mod introduces dynamic hit squads that ambush players during free-roam gameplay. The system is designed to feel like an official mechanic that integrates perfectly with the main campaign. It automatically disables ambushes during missions and cutscenes to preserve your story progression. You will encounter high-stakes action that fills the downtime between missions with excitement.",
+    tags: [
+      "scripts",
+      "combat",
+      "ambush",
+      "enemies",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 403,
+    game: "gta5",
+    title: "Enhanced HUD V",
+    category: "scripts",
+    version: "1.0.1",
+    size: "1 MB",
+    images: [
+      "images/mods/enhanced-hud-v-1.jpg",
+      "images/mods/enhanced-hud-v-2.jpg",
+      "images/mods/enhanced-hud-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/C8hx6M80VVDHgX9",
+    short: "Modern customizable HUD mod with functional vehicle dashboard features.",
+    description: "This mod provides a modern and customizable HUD for Grand Theft Auto V. It features clean status meters and a functional vehicle dashboard with integrated turn signals. The design prioritizes player immersion by displaying essential information without cluttering the screen. Installation is simple and fully plug-and-play for all users.",
+    tags: [
+      "hud",
+      "scripts",
+      "ui",
+      "immersion",
+      "vehicles"
+    ],
+    featured: true
+  },
+  {
+    id: 404,
+    game: "gta5",
+    title: "MK 14 EBR from COD MW 2022",
+    category: "weapons",
+    version: "1.0",
+    size: "59 MB",
+    images: [
+      "images/mods/mk-14-ebr-from-cod-mw-2022-1.jpg",
+      "images/mods/mk-14-ebr-from-cod-mw-2022-2.jpg",
+      "images/mods/mk-14-ebr-from-cod-mw-2022-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4SH5uW2krZK1B3F",
+    short: "Add the MK 14 EBR weapon to GTA V today.",
+    description: "This mod adds the MK 14 Enhanced Battle Rifle from Call of Duty Modern Warfare 2022 into GTA V. It replaces the existing Marksman Rifle MK2 model with a highly detailed version. The weapon features custom animations and high resolution textures for an authentic look. You will need OpenIV to properly install this weapon mod into your game files.",
+    tags: [
+      "weapon",
+      "rifle",
+      "cod",
+      "tactical",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 405,
+    game: "gta5",
+    title: "PKP From COD MW 2023 [Animated]",
+    category: "weapons",
+    version: "1.0",
+    size: "124 MB",
+    images: [
+      "images/mods/pkp-from-cod-mw-2023-animated-1.jpg",
+      "images/mods/pkp-from-cod-mw-2023-animated-2.jpg",
+      "images/mods/pkp-from-cod-mw-2023-animated-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cb8FzBJUO4N9IPr",
+    short: "Add the powerful PKP machine gun to your inventory.",
+    description: "This mod adds the iconic Pulemyot 762 light machine gun to your arsenal. It features four unique weapon variations and high quality custom textures. The model includes full animations for realistic gameplay immersion. You will need OpenIV to properly install this weapon pack.",
+    tags: [
+      "weapon",
+      "pkp",
+      "cod",
+      "gta5",
+      "shooter"
+    ],
+    featured: true
+  },
+  {
+    id: 406,
+    game: "starfield",
+    title: "Seamless Planet Takeoffs SFSE (Beta)",
+    category: "gameplay",
+    version: "Beta",
+    size: "3 MB",
+    images: [
+      "images/mods/seamless-planet-takeoffs-sfse-beta-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1KfYuu0Ps256D90",
+    short: "Remove planet takeoff loading screens for a seamless experience.",
+    description: "This mod eliminates the immersion-breaking loading screen when launching your ship from a planet surface. It automatically spawns your ship directly above the landing site to provide a continuous transition into space. Because this mod is currently in beta, users should expect to encounter occasional bugs during flight. The developer is actively working to refine the transition smoothness based on planetary atmosphere and weather conditions.",
+    tags: [
+      "space",
+      "immersion",
+      "sfse",
+      "flight",
+      "seamless"
+    ],
+    featured: true
+  },
+  {
+    id: 407,
+    game: "starfield",
+    title: "Native Light LUT Overhaul",
+    category: "visuals",
+    version: "1.0",
+    size: "3 MB",
+    images: [
+      "images/mods/native-light-lut-overhaul-1.jpg",
+      "images/mods/native-light-lut-overhaul-2.jpg",
+      "images/mods/native-light-lut-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nJt0YO3bZ3fiIMh",
+    short: "Remove the gray veil with neutral color grading for Starfield.",
+    description: "Native Light is a comprehensive color grading overhaul that removes the washed-out gray veil from Starfield. It replaces generic filters with a neutral base that restores real blacks and honest whites to every environment. The mod includes an optional physics-based planetary system that dynamically colors skies based on atmospheric data. Additionally, it features a completely rebuilt suite of photo mode filters for improved creative capture. This is a lightweight, script-free solution that remains compatible with major weather mods.",
+    tags: [
+      "lighting",
+      "visuals",
+      "graphics",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 408,
+    game: "starfield",
+    title: "ELEGANT - Hair Collection",
+    category: "appearance",
+    version: "1.2",
+    size: "70 MB",
+    images: [
+      "images/mods/elegant-hair-collection-1.jpg",
+      "images/mods/elegant-hair-collection-2.jpg",
+      "images/mods/elegant-hair-collection-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3oMGKrW110D5qpA",
+    short: "Adds twenty one elegant new hairstyles for female characters.",
+    description: "This mod introduces 21 new elegant hairstyles specifically designed for female characters. The collection is fully compatible with most vanilla hats and does not alter original game configurations. You can safely install this expansion during an ongoing playthrough without fearing conflicts. Each style aims to bring a more refined aesthetic to your Starfield character creator.",
+    tags: [
+      "hair",
+      "female",
+      "cosmetic",
+      "appearance"
+    ],
+    featured: true
+  },
+  {
+    id: 409,
+    game: "starfield",
+    title: "New Atlantis Perimeter Gate",
+    category: "locations",
+    version: "1.0",
+    size: "3 MB",
+    images: [
+      "images/mods/new-atlantis-perimeter-gate-1.jpg",
+      "images/mods/new-atlantis-perimeter-gate-2.jpg",
+      "images/mods/new-atlantis-perimeter-gate-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bYz55Ce38C1zz5M",
+    short: "Drive vehicles directly from New Atlantis into the wilderness.",
+    description: "This mod adds a functional roadway connecting the New Atlantis spaceport directly to the Jemison wilderness. It allows you to drive your ground vehicles out of the city without needing to jump over buildings. You can find the new ramp located behind the warehouse building near your landing pad. The implementation is designed to be completely lore friendly and seamlessly integrated.",
+    tags: [
+      "new atlantis",
+      "vehicles",
+      "exploration"
+    ],
+    featured: true
+  },
+  {
+    id: 410,
+    game: "starfield",
+    title: "OSF UI - Web Interface Framework and Mod Settings Menu",
+    category: "user-interface",
+    version: "1.0.0",
+    size: "8 MB",
+    images: [
+      "images/mods/osf-ui-web-interface-framework-and-mod-settings-menu-1.jpg",
+      "images/mods/osf-ui-web-interface-framework-and-mod-settings-menu-2.jpg",
+      "images/mods/osf-ui-web-interface-framework-and-mod-settings-menu-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1jbv5ANiLz6g1zv",
+    short: "Modern web-based interface framework and unified mod settings menu.",
+    description: "OSF UI is a powerful SFSE framework that enables developers to render modern web interfaces directly within the game. It features a unified Mod Settings Menu and a comprehensive Keybind Manager accessible via a simple F10 hotkey. The system supports HTML, CSS, and JavaScript, allowing for complex mod interactions without needing console commands or INI edits. This tool provides a professional way to manage mod configurations and hotkeys in one centralized location.",
+    tags: [
+      "ui",
+      "framework",
+      "sfse",
+      "settings",
+      "modding"
+    ],
+    featured: true
+  },
+  {
+    id: 411,
+    game: "starfield",
+    title: "Pause Menu Lag Fix",
+    category: "utilities",
+    version: "1.0",
+    size: "157 KB",
+    images: [
+      "images/mods/pause-menu-lag-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qxQDh07cgG8uHQ9",
+    short: "Fixes game lag caused by pause menu VRAM spikes.",
+    description: "This mod resolves a critical issue where opening the pause menu causes VRAM usage to spike and permanently degrades frame rates. It prevents the game engine from incorrectly promoting texture detail levels while the menu is active. By redirecting these functions, the mod ensures the game performs zero unnecessary LOD updates during gameplay pauses. This fix effectively stabilizes your performance and prevents drivers from thrashing after unpausing.",
+    tags: [
+      "performance",
+      "starfield",
+      "bug fix",
+      "vram"
+    ],
+    featured: true
+  },
+  {
+    id: 412,
+    game: "starfield",
+    title: "OSF Animation - Native Scene Framework",
+    category: "animations",
+    version: "1.0.0",
+    size: "1 MB",
+    images: [
+      "images/mods/osf-animation-native-scene-framework-1.jpg",
+      "images/mods/osf-animation-native-scene-framework-2.jpg",
+      "images/mods/osf-animation-native-scene-framework-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/30zn6uYUv91Ntg0",
+    short: "Powerful native animation and scene framework for Starfield modding.",
+    description: "This framework introduces a native animation and scene engine for Starfield. It supports multi-actor synchronization, camera control, and JSON-authored scenes for advanced interactions. Players can use the built-in animation browser to trigger emotes or custom scenes directly in-game. Modders can easily build complex cinematic scenes without the need for intensive scripting.",
+    tags: [
+      "animations",
+      "framework",
+      "tools",
+      "scenes"
+    ],
+    featured: true
+  },
+  {
+    id: 413,
+    game: "starfield",
+    title: "Field.OS — Natural Hair Colours",
+    category: "appearance",
+    version: "1.1",
+    size: "398 MB",
+    images: [
+      "images/mods/fieldos-natural-hair-colours-1.jpg",
+      "images/mods/fieldos-natural-hair-colours-2.jpg",
+      "images/mods/fieldos-natural-hair-colours-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T0T2ZYC32X1b3sS",
+    short: "Add eighty realistic hair colours to your Starfield character.",
+    description: "This mod expands the Starfield character creator by adding 80 realistic hair colours to the game. It preserves all original vanilla shades and ensures that named NPCs retain their intended appearance. The mod also refreshes the NPC background population by introducing a wider variety of natural hair tones. A specialized browser tool is included for players to suggest and preview new custom colours for future updates.",
+    tags: [
+      "hair",
+      "realism",
+      "cosmetics",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 414,
+    game: "starfield",
+    title: "Disable Star Glow SFSE",
+    category: "visuals",
+    version: "1.0.0",
+    size: "2 MB",
+    images: [
+      "images/mods/disable-star-glow-sfse-1.jpg",
+      "images/mods/disable-star-glow-sfse-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xV1hJH5qMw04qzY",
+    short: "Remove bright star glows without affecting planet atmosphere visuals.",
+    description: "This plugin removes the bright blue glow surrounding stars in space. Unlike other methods that adjust global intensity settings, this mod avoids negatively impacting planet atmospheres. It utilizes SFSE to ensure a clean visual result without unintended side effects. Experience a more realistic view of space with clearer star textures.",
+    tags: [
+      "space",
+      "visuals",
+      "sfse",
+      "graphics"
+    ],
+    featured: true
+  },
+  {
+    id: 415,
+    game: "starfield",
+    title: "Living Eyes",
+    category: "appearance",
+    version: "1.0",
+    size: "61 MB",
+    images: [
+      "images/mods/living-eyes-1.jpg",
+      "images/mods/living-eyes-2.jpg",
+      "images/mods/living-eyes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DY1ryLTo5a0p0Ai",
+    short: "Adds 196 realistic eye colors and improved corneal reflections.",
+    description: "This mod enhances character eye realism by adding a proper corneal cap for light reflection and defining the limbal ring. It introduces 196 new, scientifically-informed eye colors that add structural detail without altering vanilla NPC assets. The mod uses loose textures and a small plugin to ensure no dependencies or script extenders are required. Players can customize their character's eyes with varied iris patterns including flecked, ringed, and marbled designs. Optional files are included to provide natural eye color variety for NPCs throughout the game world.",
+    tags: [
+      "eyes",
+      "realism",
+      "character",
+      "textures"
+    ],
+    featured: true
+  },
+  {
+    id: 416,
+    game: "starfield",
+    title: "Antares Renegade - Specialized Ship Modules",
+    category: "ships",
+    version: "1.0",
+    size: "15 MB",
+    images: [
+      "images/mods/antares-renegade-specialized-ship-modules-1.jpg",
+      "images/mods/antares-renegade-specialized-ship-modules-2.jpg",
+      "images/mods/antares-renegade-specialized-ship-modules-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/z7wmKutGq64Z1L8",
+    short: "High quality ship modules with new dynamic animation sets.",
+    description: "This collection adds several high-quality ship modules featuring unique dynamic animations. The set includes a glassless pilot module, velocity-sensitive wings, and various optimized engine components. All parts are designed to be load-order neutral and are easily accessible at the New Atlantis ship services technician. These modules offer new customization options for players looking to enhance their smuggling and combat vessels.",
+    tags: [
+      "ships",
+      "modules",
+      "space",
+      "starfield",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 417,
+    game: "starfield",
+    title: "Antares Renewal - Reforged Prototype Modules",
+    category: "ships",
+    version: "1.0",
+    size: "28 MB",
+    images: [
+      "images/mods/antares-renewal-reforged-prototype-modules-1.jpg",
+      "images/mods/antares-renewal-reforged-prototype-modules-2.jpg",
+      "images/mods/antares-renewal-reforged-prototype-modules-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cs8CKE0FQ1P0q27",
+    short: "A complete reconstruction featuring new modules for your ship.",
+    description: "Antares Renewal is a complete ground-up reconstruction of the original prototype release with updated models and improved implementation. This mod introduces a new under-mounted cockpit and a versatile hab unit available in three distinct variants. It includes both original prototype models and rebuilt components to ensure a high level of visual fidelity. This project is designed as a companion to the Antares Renegade release to streamline content and reduce redundancy.",
+    tags: [
+      "ship",
+      "modular",
+      "hab",
+      "cockpit",
+      "space"
+    ],
+    featured: true
+  },
+  {
+    id: 418,
+    game: "starfield",
+    title: "CJ's Store Improved",
+    category: "locations",
+    version: "1.0",
+    size: "38 KB",
+    images: [
+      "images/mods/cjs-store-improved-1.jpg",
+      "images/mods/cjs-store-improved-2.jpg",
+      "images/mods/cjs-store-improved-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E85jo6mSweCfLjD",
+    short: "Revamps CJ's Store in New Atlantis with better decor.",
+    description: "This mod transforms the neglected CJ's store in New Atlantis into a vibrant neighborhood convenience shop. It adds extensive interior decorations including fresh produce and pantry goods to make the space feel lived-in. Curtis now offers a significantly expanded vendor inventory featuring a wider variety of food and drinks. The shop also gains random shoppers and new idle markers to improve immersion within the city.",
+    tags: [
+      "new atlantis",
+      "convenience",
+      "shop"
+    ],
+    featured: true
+  },
+  {
+    id: 419,
+    game: "starfield",
+    title: "SplashField - Underwater Swimming Mod",
+    category: "gameplay",
+    version: "1.0",
+    size: "7 KB",
+    images: [
+      "images/mods/splashfield-underwater-swimming-mod-1.jpg",
+      "images/mods/splashfield-underwater-swimming-mod-2.jpg",
+      "images/mods/splashfield-underwater-swimming-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0E98dh7Qoq36x99",
+    short: "Enables underwater swimming and adds immersive water visual effects.",
+    description: "This mod enables the player to dive and swim underwater in various environments. It applies dynamic visual effects that change based on whether or not you are wearing a space helmet. The mod utilizes a scripted quest to monitor water depth and status during exploration. It provides a more immersive experience for players diving into flooded facilities.",
+    tags: [
+      "swimming",
+      "underwater",
+      "exploration"
+    ],
+    featured: true
+  },
+  {
+    id: 420,
+    game: "starfield",
+    title: "X-2357's Starcade OS",
+    category: "gameplay",
+    version: "1.3.0",
+    size: "13 MB",
+    images: [
+      "images/mods/x-2357s-starcade-os-1.jpg",
+      "images/mods/x-2357s-starcade-os-2.jpg",
+      "images/mods/x-2357s-starcade-os-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6WyB0TnWtCw89MX",
+    short: "Portable arcade system featuring twenty-six original games for Starfield.",
+    description: "Starcade OS introduces a functional portable arcade system featuring twenty-six unique, original offline games directly into your Starfield playthrough. Players can access the arcade via a reusable inventory pad or a configurable hotkey to enjoy a unified interface with persistent high scores and play counts. The mod is built upon the OSF framework and includes full source code for every game, ensuring complete transparency and moddability. This self-contained system offers various genres including puzzles, shooters, and casino games that do not rely on external ROMs or assets.",
+    tags: [
+      "arcade",
+      "minigame",
+      "retro",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 421,
+    game: "starfield",
+    title: "Cassilia's Mantis Undersuit",
+    category: "clothing",
+    version: "1.0",
+    size: "32 MB",
+    images: [
+      "images/mods/cassilias-mantis-undersuit-1.jpg",
+      "images/mods/cassilias-mantis-undersuit-2.jpg",
+      "images/mods/cassilias-mantis-undersuit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b4Q6xTU6MZb810a",
+    short: "Add the legendary Mantis tactical undersuit to your game.",
+    description: "This mod introduces the iconic Mantis tactical undersuit designed by the legendary Cassilia. You can discover this unique piece of gear hidden deep within the Mantis Lair. It features full upgrade support allowing you to boost it to a four-star legendary status at any standard workbench. The design combines high-end functionality with a sleek aesthetic perfectly suited for any seasoned space explorer.",
+    tags: [
+      "starfield",
+      "armor",
+      "clothing",
+      "mantis"
+    ],
+    featured: true
+  },
+  {
+    id: 422,
+    game: "starfield",
+    title: "Fly Closer",
+    category: "gameplay",
+    version: "1.0",
+    size: "401 bytes",
+    images: [
+      "images/mods/fly-closer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e8t6O4D7AlO5Tm3",
+    short: "Fly closer to planets without affecting cruise travel speed.",
+    description: "This mod allows players to fly significantly closer to planets and stars without impacting cruise travel speed. It adjusts specific orbital distance multipliers to ensure a closer view while maintaining the default travel pace. This approach avoids the speed reduction issues found in other similar mods by carefully balancing the orbit radius settings. The configuration provides an immersive experience that keeps transit times consistent with vanilla gameplay.",
+    tags: [
+      "starfield",
+      "space",
+      "flight",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 423,
+    game: "starfield",
+    title: "Slightly Better UC Security Office",
+    category: "locations",
+    version: "1.0",
+    size: "51 KB",
+    images: [
+      "images/mods/slightly-better-uc-security-office-1.jpg",
+      "images/mods/slightly-better-uc-security-office-2.jpg",
+      "images/mods/slightly-better-uc-security-office-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1s19Mw8a0b0z123",
+    short: "An immersive expansion for the New Atlantis security office.",
+    description: "This mod enhances the UC Security Office in New Atlantis by adding detailed interiors and expanded living areas. Players will find a new armory filled with lootable weapons and secure prison cells containing actual captives. The area is now populated with additional security guards and patrolling robots for improved immersion. Various clutter items and decorative objects have been placed throughout to bring the space to life.",
+    tags: [
+      "starfield",
+      "interior",
+      "newatlantis"
+    ],
+    featured: true
+  },
+  {
+    id: 424,
+    game: "starfield",
+    title: "Cruise Navigation Panel",
+    category: "user-interface",
+    version: "1.16.244",
+    size: "3 MB",
+    images: [
+      "images/mods/cruise-navigation-panel-1.jpg",
+      "images/mods/cruise-navigation-panel-2.jpg",
+      "images/mods/cruise-navigation-panel-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/13PbsfTy64yw21U",
+    short: "Navigation panel for easier planet and moon travel selection.",
+    description: "This mod adds a functional navigation panel to your ship HUD during cruise mode. It allows you to easily identify and select planets, moons, and stations in your current system. You can toggle autopilot for specific bodies and declutter your HUD markers for better visibility. The interface integrates seamlessly with the existing game design and supports custom controller or keyboard bindings.",
+    tags: [
+      "ui",
+      "space",
+      "navigation",
+      "hud",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 425,
+    game: "starfield",
+    title: "Slightly Better Laredo Firearms",
+    category: "locations",
+    version: "1.0",
+    size: "48 KB",
+    images: [
+      "images/mods/slightly-better-laredo-firearms-1.jpg",
+      "images/mods/slightly-better-laredo-firearms-2.jpg",
+      "images/mods/slightly-better-laredo-firearms-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/24mgs2L37BUDS91",
+    short: "Enhances the Laredo Firearms shop interior in Akila City.",
+    description: "This mod enhances the Laredo Firearms interior in Akila City to feel like a proper, secure gun store. It adds numerous weapon racks, display cases, and clutter throughout the main shop and storage area. A new NPC named Dusty D has been added to manage the shop and keep things clean. You can secure the counter area with a locked door to keep NPCs out of restricted zones.",
+    tags: [
+      "akila city",
+      "laredo",
+      "interior",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 426,
+    game: "starfield",
+    title: "Adherent - Religion Overhaul",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "15 KB",
+    images: [
+      "images/mods/adherent-religion-overhaul-1.jpg",
+      "images/mods/adherent-religion-overhaul-2.jpg",
+      "images/mods/adherent-religion-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XMCzP1w67V7cr3J",
+    short: "Adds immersive religious mechanics and faith-based gameplay systems.",
+    description: "This mod introduces deep religious mechanics and gameplay systems to your Starfield experience. You can engage in tenets based on your character background to earn unique buffs and avoid drawbacks. The mod also adds placeable totem items that allow you to interact with your chosen faith for additional bonuses. It is designed for seamless integration with vanilla gameplay while offering new depth to character development.",
+    tags: [
+      "religion",
+      "gameplay",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 427,
+    game: "starfield",
+    title: "Antares Armiger - Autonomous Systems Arsenal",
+    category: "weapons",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/antares-armiger-autonomous-systems-arsenal-1.jpg",
+      "images/mods/antares-armiger-autonomous-systems-arsenal-2.jpg",
+      "images/mods/antares-armiger-autonomous-systems-arsenal-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1F55PIIJ55vUq1M",
+    short: "Deploy robotic combat drones from your ship during battles.",
+    description: "This mod introduces deployable combat drones that can be launched directly from your ship during space battles. You can purchase a specialized micro-factory weapons hab to manufacture these robotic units using your ship inventory. The system features two unique drone types and integrates with the scavenger perk for salvaging valuable components. Be aware that these systems are considered contraband and will be treated as illegal throughout the Settled Systems.",
+    tags: [
+      "drones",
+      "space",
+      "combat",
+      "weapons",
+      "ships"
+    ],
+    featured: true
+  },
+  {
+    id: 428,
+    game: "starfield",
+    title: "Fortifications - a GRiNDTerra Outpost Expansion",
+    category: "crafting",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/fortifications-a-grindterra-outpost-expansion-1.jpg",
+      "images/mods/fortifications-a-grindterra-outpost-expansion-2.jpg",
+      "images/mods/fortifications-a-grindterra-outpost-expansion-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nQFFUNQCgUt15QK",
+    short: "Add new modular defensive structures to your Starfield outposts.",
+    description: "This mod introduces two new groups of defensible structures to the outpost builder menu. You can utilize dirt-filled military containers and modular walls to construct unique defensive positions. The system features a magnetic snapping feature for easy placement of bunkers and fortifications. It is designed to pair perfectly with the Mercenaries and Mayhem mod to enhance your outpost security.",
+    tags: [
+      "outpost",
+      "building",
+      "military",
+      "defense"
+    ],
+    featured: true
+  },
+  {
+    id: 429,
+    game: "starfield",
+    title: "Cuter Female Idle Animation",
+    category: "animations",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/cuter-female-idle-animation-1.jpg",
+      "images/mods/cuter-female-idle-animation-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3fPQ4ml0R53XgP7",
+    short: "Replaces the default female idle pose with cuter animations.",
+    description: "This mod replaces the default female idle animation with a more expressive and cuter pose. It only activates when the player has no weapons drawn, including fists. The animation is designed to complement existing posture mods for a more polished look. Please use a mod manager or manual installation to add these files to your data directory.",
+    tags: [
+      "animation",
+      "idle",
+      "female",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 430,
+    game: "starfield",
+    title: "Neon - Landing Marker Realignment",
+    category: "locations",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/neon-landing-marker-realignment-1.jpg",
+      "images/mods/neon-landing-marker-realignment-2.jpg",
+      "images/mods/neon-landing-marker-realignment-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Tn2Jl202lsF44ML",
+    short: "Rotates the Neon landing marker to prevent ship clipping.",
+    description: "This mod rotates the ship landing marker in Neon by 90, 180, or 270 degrees to prevent clipping issues. It ensures that larger or uniquely shaped player ships do not collide with the surrounding dome structures. The adjustment provides a cleaner arrival experience for pilots landing at the Neon spaceport. Please note that a new game or new game plus is required for the changes to take effect properly.",
+    tags: [
+      "starfield",
+      "neon",
+      "fix",
+      "ship",
+      "landing"
+    ],
+    featured: true
+  },
+  {
+    id: 431,
+    game: "starfield",
+    title: "StarUI Inventory - Free Lanes Compatibility Patch",
+    category: "user-interface",
+    version: "0.8",
+    size: "5 MB",
+    images: [
+      "images/mods/starui-inventory-free-lanes-compatibility-patch-1.jpg",
+      "images/mods/starui-inventory-free-lanes-compatibility-patch-2.jpg",
+      "images/mods/starui-inventory-free-lanes-compatibility-patch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h256f3Tvogcib2v",
+    short: "Restores StarUI Inventory functionality after the Free Lanes update.",
+    description: "This mod restores essential functionality to StarUI Inventory following the Free Lanes game update. It rebuilds and rebinds key UI elements for inventory, barter, and container menus to ensure compatibility with new Rank 4 items. The patch adds configuration options for legendary details, rarity colors, and widescreen offsets. Users should install this after the base StarUI Inventory mod to ensure proper file overwrites.",
+    tags: [
+      "ui",
+      "patch",
+      "inventory",
+      "starfield"
+    ],
+    featured: true
+  },
+  {
+    id: 432,
+    game: "starfield",
+    title: "Starfield Memory Fixes",
+    category: "utilities",
+    version: "1.0.0",
+    size: "31 KB",
+    images: [
+      "images/mods/starfield-memory-fixes-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/35G2UKJZ4aOLgl4",
+    short: "Optimize Starfield memory usage with this simple SFSE plugin.",
+    description: "This SFSE plugin monitors Starfield memory usage and system RAM in real time. It can trigger Windows memory management functions to trim the working set when resources run low. Users can customize the automatic trimming behavior through an included configuration file. Please note that this tool does not guarantee performance gains or crash prevention for all systems.",
+    tags: [
+      "starfield",
+      "sfse",
+      "memory",
+      "performance"
+    ],
+    featured: true
+  },
+  {
+    id: 433,
+    game: "starfield",
+    title: "Astral UI",
+    category: "user-interface",
+    version: "1.8.1",
+    size: "1 MB",
+    images: [
+      "images/mods/astral-ui-1.jpg",
+      "images/mods/astral-ui-2.jpg",
+      "images/mods/astral-ui-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4r687Xh7Om7jCJI",
+    short: "Feature-rich and fully customizable inventory UI overhaul for Starfield.",
+    description: "Astral UI is a comprehensive, from-scratch overhaul of the inventory, barter, and container menus. It introduces highly customizable subcategories, multi-column item sorting, and advanced quick-loot functionality to improve inventory management. Every column width, text scale, and color theme can be tailored via an extensive configuration file. The mod emphasizes performance and stability while ensuring a clutter-free, efficient user experience for all players.",
+    tags: [
+      "ui",
+      "inventory",
+      "overhaul",
+      "qol",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 434,
+    game: "starfield",
+    title: "Starfield High Priority Launcher",
+    category: "utilities",
+    version: "1.0",
+    size: "26 KB",
+    images: [
+      "images/mods/starfield-high-priority-launcher-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b6y56T84w0ckCS6",
+    short: "Automatically set your Starfield process priority to High status.",
+    description: "This SFSE plugin automatically sets your Starfield process priority to High upon launch. It runs silently in the background to ensure your system allocates better resources to the game. No manual configuration is required once the plugin is installed correctly. It helps maintain smoother performance during demanding gameplay sessions.",
+    tags: [
+      "performance",
+      "sfse",
+      "optimization"
+    ],
+    featured: true
+  },
+  {
+    id: 435,
+    game: "starfield",
+    title: "StarUI Workbench - Free Lanes Compatibility Patch",
+    category: "user-interface",
+    version: "0.4.2",
+    size: "1 MB",
+    images: [
+      "images/mods/starui-workbench-free-lanes-compatibility-patch-1.jpg",
+      "images/mods/starui-workbench-free-lanes-compatibility-patch-2.jpg",
+      "images/mods/starui-workbench-free-lanes-compatibility-patch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bZz2r1dReq7GO28",
+    short: "Restores StarUI Workbench functionality after the Free Lanes update.",
+    description: "This patch restores full functionality to StarUI Workbench following the official Free Lanes game update. It resolves critical issues with crafting menus and adds necessary support for Rank 4 weapon and armor modifications. Users must have the original StarUI Workbench installed and overwrite existing files with this patch to ensure proper operation. This mod continues to receive updates and fixes while the original author is away.",
+    tags: [
+      "starfield",
+      "patch",
+      "ui",
+      "crafting",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 436,
+    game: "re4",
+    title: "Grace Ashcroft Over Ada",
+    category: "characters",
+    version: "1.0",
+    size: "229 MB",
+    images: [
+      "images/mods/grace-ashcroft-over-ada-1.jpg",
+      "images/mods/grace-ashcroft-over-ada-2.jpg",
+      "images/mods/grace-ashcroft-over-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9Sm8a14IljUUQCv",
+    short: "Replace Ada Wong with Grace Ashcroft in three outfits.",
+    description: "This mod replaces the original character model of Ada Wong with Grace Ashcroft. The package includes three distinct outfits ranging from the default look to a classic RE2R inspired dress. High quality physics have been added to the hair and various clothing accessories for improved realism. This mod is fully compatible with most other body and texture replacement modifications.",
+    tags: [
+      "ada wong",
+      "grace",
+      "model",
+      "costumes",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 437,
+    game: "re4",
+    title: "Grace Ashcroft Over Ada",
+    category: "characters",
+    version: "1.0",
+    size: "70 MB",
+    images: [
+      "images/mods/grace-ashcroft-over-ada-1-2.jpg",
+      "images/mods/grace-ashcroft-over-ada-2-2.jpg",
+      "images/mods/grace-ashcroft-over-ada-3-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E5oUdT9cgKekTuj",
+    short: "Replace Ada Wong with Grace Ashcroft including hair physics.",
+    description: "This mod replaces the character model of Ada Wong with Grace Ashcroft. The head and hair have been integrated to ensure a seamless experience throughout most cutscenes. Hair physics are fully functional for a more realistic movement during gameplay. It is compatible with other clothing mods but may conflict with existing hair replacements.",
+    tags: [
+      "grace",
+      "ada",
+      "character",
+      "re4",
+      "replacement"
+    ],
+    featured: true
+  },
+  {
+    id: 438,
+    game: "re4",
+    title: "Ada Wong Voice Mod - The Definitive Edition",
+    category: "audio",
+    version: "2.0",
+    size: "26 MB",
+    images: [
+      "images/mods/ada-wong-voice-mod-the-definitive-edition-1.jpg",
+      "images/mods/ada-wong-voice-mod-the-definitive-edition-2.jpg",
+      "images/mods/ada-wong-voice-mod-the-definitive-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eETQnomZt027nvQ",
+    short: "Replaces Ada Wong dialogue for an authentic classic experience.",
+    description: "This mod replaces all of Ada Wong's English dialogue in both the main game and Separate Ways. It features fully integrated voice lines inspired by the classic Resident Evil 2 Reimagined performance. Players can easily manage the installation through the Fluffy Mod Manager. Optional subtitle support is also provided to match the new audio files.",
+    tags: [
+      "ada wong",
+      "voice mod",
+      "resident evil"
+    ],
+    featured: true
+  },
+  {
+    id: 439,
+    game: "re4",
+    title: "Easier Shooting Range",
+    category: "gameplay",
+    version: "1.0",
+    size: "293 KB",
+    images: [
+      "images/mods/easier-shooting-range-1.jpg",
+      "images/mods/easier-shooting-range-2.jpg",
+      "images/mods/easier-shooting-range-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/K4qULp6c094Go6J",
+    short: "Make the shooting range challenges much easier to complete.",
+    description: "This mod simplifies the shooting range challenges in Resident Evil 4. It doubles the score awarded for every target hit and removes the point penalties for shooting sailors. These changes make it trivial to obtain gold tokens for all challenges. Players having trouble should ensure their mod manager is fully updated and archives are refreshed.",
+    tags: [
+      "re4",
+      "shooting",
+      "gameplay",
+      "tokens",
+      "arcade"
+    ],
+    featured: true
+  },
+  {
+    id: 440,
+    game: "re4",
+    title: "Leon to Ada Voice Replacement",
+    category: "audio",
+    version: "1.0",
+    size: "23 MB",
+    images: [
+      "images/mods/leon-to-ada-voice-replacement-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5AVAHCvhsST0CQ4",
+    short: "Replace Leon's voice lines with Ada Wong's audio files.",
+    description: "This mod replaces all of Leon Kennedy's voice lines with those of Ada Wong for both the main story and the Separate Ways expansion. It utilizes RVC processing technology to ensure the delivery matches the original emotional flow and rhythm of the game lines. The mod is specifically designed for use alongside the Definitive Playable Ada character model modification. Please note that some minor audio artifacts may occur during extremely high or low pitch moments.",
+    tags: [
+      "audio",
+      "ada",
+      "voice",
+      "re4",
+      "replacement"
+    ],
+    featured: true
+  },
+  {
+    id: 441,
+    game: "re4",
+    title: "Infiltrator Modular Outfit",
+    category: "characters",
+    version: "1.0",
+    size: "140 MB",
+    images: [
+      "images/mods/infiltrator-modular-outfit-1.jpg",
+      "images/mods/infiltrator-modular-outfit-2.jpg",
+      "images/mods/infiltrator-modular-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9BfJj13y76OU2KZ",
+    short: "Modular tactical outfit for Ada Wong with custom physics.",
+    description: "This mod introduces a fully modular outfit for Ada Wong in the Resident Evil 4 remake. It features custom physics for the clothing and allows players to toggle various parts like the trench coat, bodysuit, and accessories. You can easily manage these components in-game using a dedicated script-generated user interface. Ensure that you have the required framework and DLC installed for the best performance.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 442,
+    game: "re4",
+    title: "Tactical Weapon Pack REQUIEM",
+    category: "weapons",
+    version: "2.4.2",
+    size: "1 GB",
+    images: [
+      "images/mods/tactical-weapon-pack-requiem-1.jpg",
+      "images/mods/tactical-weapon-pack-requiem-2.jpg",
+      "images/mods/tactical-weapon-pack-requiem-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GkmrFsF9aHP8y2x",
+    short: "High quality tactical weapon pack for Resident Evil 4.",
+    description: "This tactical weapon pack adds a variety of high-quality firearm models to Resident Evil 4. The latest update features improved transparent glass lens materials and new dot sight reticles for several weapons. You can also find the Freya Needle SMG and the RE3R Samurai Edge model included in this release. The mod is managed through Fluffy Mod Manager and allows users to choose their preferred weapon replacers.",
+    tags: [
+      "weapons",
+      "firearms",
+      "tactical",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 443,
+    game: "re4",
+    title: "General Animations Corrector",
+    category: "audio",
+    version: "1.8.3",
+    size: "167 MB",
+    images: [
+      "images/mods/general-animations-corrector-1.jpg",
+      "images/mods/general-animations-corrector-2.jpg",
+      "images/mods/general-animations-corrector-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3FbEbJvirZVV657",
+    short: "Adjusts game animations for female character model mod replacements.",
+    description: "This mod adjusts Resident Evil 4 animations to better support female character model replacements. It updates various player movements, melee attacks, and enemy interactions to fit different skeletons more accurately. While specifically designed for Ada-based skeletons, it provides fixes for diverse character mods and custom rigs. Please note that the Separate Ways DLC is required for these assets to function correctly. The package also includes specific addons for Mercenaries mode and Krauser encounters.",
+    tags: [
+      "re4",
+      "animations",
+      "character",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 444,
+    game: "re4",
+    title: "Complete Leon to Claire Voice Replacer",
+    category: "audio",
+    version: "1.0",
+    size: "202 MB",
+    images: [
+      "images/mods/complete-leon-to-claire-voice-replacer-1.jpg",
+      "images/mods/complete-leon-to-claire-voice-replacer-2.jpg",
+      "images/mods/complete-leon-to-claire-voice-replacer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7A9FtVU9Phhg6n3",
+    short: "Replaces Leon voice lines with Claire Redfield audio clips.",
+    description: "This mod replaces all of Leon's dialogue and sound effects with Claire Redfield's voice from the Resident Evil 2 Remake. It covers all story mode gameplay, cinematic cutscenes, and combat exertion sounds. The audio was created using custom machine learning tools for a cohesive experience. This project serves as a complete tribute to the iconic character.",
+    tags: [
+      "re4",
+      "voice",
+      "audio",
+      "claire",
+      "replacer"
+    ],
+    featured: true
+  },
+  {
+    id: 445,
+    game: "re4",
+    title: "Claire's Ponytail Hair for Ada",
+    category: "characters",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/claires-ponytail-hair-for-ada-1.jpg",
+      "images/mods/claires-ponytail-hair-for-ada-2.jpg",
+      "images/mods/claires-ponytail-hair-for-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A2L526zy4DZi74P",
+    short: "Replaces Ada's default hair with Claire's classic ponytail style.",
+    description: "This mod replaces Ada's default hairstyle with the iconic ponytail worn by Claire Redfield. It utilizes the original hair physics ported directly from Resident Evil 2 Remake for authentic movement. This project was a long-term work in progress that has finally been completed and polished for release.",
+    tags: [
+      "ada",
+      "claire",
+      "hair",
+      "re4",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 446,
+    game: "re4",
+    title: "Invincible",
+    category: "gameplay",
+    version: "1.0",
+    size: "288 KB",
+    images: [
+      "images/mods/invincible-1.jpg",
+      "images/mods/invincible-2.jpg",
+      "images/mods/invincible-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5U77jfZM3ARIN33",
+    short: "Become completely invincible to damage from standard enemy attacks.",
+    description: "This mod grants your character full invincibility against standard damage sources during gameplay. Please note that this effect will not protect you from scripted instant-kill attacks. You should remain cautious around enemies wielding chainsaws as they can still end your run. Enjoy a stress-free experience while exploring the dangerous environments of the game.",
+    tags: [
+      "invincible",
+      "god mode",
+      "cheats",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 447,
+    game: "re4",
+    title: "Extra Content Unlocker",
+    category: "utilities",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/extra-content-unlocker-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/i7Y90An8kIcnwqD",
+    short: "Unlock all Extra Content Shop items and rewards instantly.",
+    description: "This utility unlocks and allows you to purchase every item in the Extra Content Shop. It provides full access to weapons, costumes, accessories, models, and concept art. The mod acts as a direct substitute for the official in-game rewards unlock DLC. Please note that this script makes permanent changes to your system save file.",
+    tags: [
+      "re4",
+      "unlocker",
+      "rewards",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 448,
+    game: "re4",
+    title: "Bigger Ass for Ashley",
+    category: "characters",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/bigger-ass-for-ashley-1.jpg",
+      "images/mods/bigger-ass-for-ashley-2.jpg",
+      "images/mods/bigger-ass-for-ashley-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jX83c4zQMTTfa8P",
+    short: "Enhance Ashley with a fuller and more pronounced appearance.",
+    description: "This mod enhances Ashley Graham by providing a fuller and more pronounced appearance for her Jacketless and Romantic outfits. You can easily enable included jiggle physics through the Fluffy Mod Manager for a more dynamic look. The mod is simple to install and fully compatible with other character modification files. Please note that minor clipping may occur in specific cutscenes due to modified skirt geometry.",
+    tags: [
+      "ashley",
+      "re4",
+      "character",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 449,
+    game: "re4",
+    title: "Field Agent",
+    category: "characters",
+    version: "1.0",
+    size: "193 MB",
+    images: [
+      "images/mods/field-agent-1.jpg",
+      "images/mods/field-agent-2.jpg",
+      "images/mods/field-agent-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2m4K93tJ9zYhgz5",
+    short: "Modular outfit for Ada Wong with customizable clothing pieces.",
+    description: "This mod provides a highly modular outfit for Ada Wong in the Resident Evil 4 Remake. It requires the Separate Ways DLC and the RE Framework tool to function correctly. Players can toggle various clothing pieces like the jacket, jeans, and tank top in real time. Please ensure you disable conflicting physics mods to avoid visual glitches during gameplay.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 450,
+    game: "re4",
+    title: "Unlimited Ammo Exclusive Upgrades",
+    category: "weapons",
+    version: "1.0",
+    size: "173 KB",
+    images: [
+      "images/mods/unlimited-ammo-exclusive-upgrades-1.jpg",
+      "images/mods/unlimited-ammo-exclusive-upgrades-2.jpg",
+      "images/mods/unlimited-ammo-exclusive-upgrades-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/L9g2768SInEogtz",
+    short: "Unlock infinite ammo for all weapons in Resident Evil 4.",
+    description: "This mod adds an unlimited ammo exclusive upgrade to every weapon in the game. It functions identically to the default infinite ammo upgrades found on special weapons. The upgrade provides a limitless magazine without the need for manual reloading. It is designed for the main story campaign and is compatible with other expansion mods.",
+    tags: [
+      "unlimited ammo",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 451,
+    game: "re4",
+    title: "Parry Grabs",
+    category: "gameplay",
+    version: "1.0",
+    size: "8 KB",
+    images: [
+      "images/mods/parry-grabs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rIyXqkL1l24689M",
+    short: "Parry enemy grabs and rockets with this combat mod.",
+    description: "This mod expands your defensive capabilities by allowing you to parry enemy grabs and specific unparryable attacks. It provides a strategic advantage by giving players more control during intense combat encounters. As an added bonus, you gain the ability to parry incoming rockets similar to mechanics found in future titles. This makes survival significantly easier when facing difficult bosses and hordes.",
+    tags: [
+      "re4",
+      "parry",
+      "combat",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 452,
+    game: "re4",
+    title: "Tactical First-Person Mode",
+    category: "gameplay",
+    version: "0.95",
+    size: "21 MB",
+    images: [
+      "images/mods/tactical-first-person-mode-1.jpg",
+      "images/mods/tactical-first-person-mode-2.jpg",
+      "images/mods/tactical-first-person-mode-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WpqnXgXsumGj8H6",
+    short: "Tactical first-person camera mod with custom aiming and animations.",
+    description: "This mod introduces a fully functional first-person perspective to the game, allowing players to toggle between camera modes seamlessly. It features custom aim stances and iron sights for every weapon to enhance the tactical experience. Players can fine-tune camera offsets and field of view to suit their preferred playstyle. The mod also includes advanced animations to ensure smooth gameplay during intense combat encounters.",
+    tags: [
+      "first-person",
+      "fps",
+      "gameplay",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 453,
+    game: "re4",
+    title: "Eva Pack",
+    category: "characters",
+    version: "1.0",
+    size: "274 MB",
+    images: [
+      "images/mods/eva-pack-1.jpg",
+      "images/mods/eva-pack-2.jpg",
+      "images/mods/eva-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6r39GO7mYQ0DiLb",
+    short: "Play as Eva from Metal Gear Solid in RE4.",
+    description: "This modification allows players to replace Ada Wong with Eva from Metal Gear Solid Delta during the Separate Ways campaign. The package is divided into two separate mods to accommodate the game's specific outfit slot limitations. Users can choose between various classic looks including the suit, rider, and tatyana outfits. Installation is simple and fully compatible with Fluffy Mod Manager.",
+    tags: [
+      "eva",
+      "mgs",
+      "character",
+      "outfit",
+      "model"
+    ],
+    featured: true
+  },
+  {
+    id: 454,
+    game: "re4",
+    title: "RedShift",
+    category: "characters",
+    version: "1.0",
+    size: "190 MB",
+    images: [
+      "images/mods/redshift-1.jpg",
+      "images/mods/redshift-2.jpg",
+      "images/mods/redshift-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/46EfbKnMV49XOcn",
+    short: "Customizable modular outfit for Ada Wong in RE4 Remake.",
+    description: "This mod provides a highly customizable modular outfit for Ada Wong. It features adjustable clothing components including a jacket dress and various accessories. Users can easily toggle different parts of the outfit through a dedicated in-game interface menu. Proper installation requires both the RE Framework tool and the Separate Ways expansion.",
+    tags: [
+      "ada wong",
+      "re4",
+      "cosmetic",
+      "outfit",
+      "modular"
+    ],
+    featured: true
+  },
+  {
+    id: 455,
+    game: "re4",
+    title: "Bigger Ass for Ada",
+    category: "characters",
+    version: "1.0",
+    size: "8 MB",
+    images: [
+      "images/mods/bigger-ass-for-ada-1.jpg",
+      "images/mods/bigger-ass-for-ada-2.jpg",
+      "images/mods/bigger-ass-for-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xM2muGV1e837ZcD",
+    short: "A cosmetic enhancement for Ada's character model in RE4.",
+    description: "This mod enhances Ada Wong's character model by increasing the size of her glutes for a more pronounced silhouette. The adjustments are applied to both her classic outfit and her specialized spy gear. It offers a natural look that fits seamlessly with the original game aesthetics. Installation is managed through the Fluffy Mod Manager for quick and easy integration.",
+    tags: [
+      "ada wong",
+      "re4",
+      "character",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 456,
+    game: "re4",
+    title: "Guaranteed S Plus Plus Rank (Mercenaries)",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/guaranteed-s-plus-plus-rank-mercenaries-1.jpg",
+      "images/mods/guaranteed-s-plus-plus-rank-mercenaries-2.jpg",
+      "images/mods/guaranteed-s-plus-plus-rank-mercenaries-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LaVg9uupty5Rm4j",
+    short: "Easily achieve the S plus plus rank in Mercenaries.",
+    description: "This mod simplifies the Mercenaries mode by awarding you one million points for a single kill per stage. It is designed to help players unlock the RPD Costume without the need for extensive grinding. The high score achieved remains permanently saved to your profile even after the mod is removed. Please note that this is a cheat mod intended for those looking for an easy completion.",
+    tags: [
+      "re4",
+      "mercenaries",
+      "cheats",
+      "s-rank"
+    ],
+    featured: true
+  },
+  {
+    id: 457,
+    game: "re4",
+    title: "Optimized Graphics and FPS",
+    category: "visuals",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/optimized-graphics-and-fps-1.jpg",
+      "images/mods/optimized-graphics-and-fps-2.jpg",
+      "images/mods/optimized-graphics-and-fps-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5S96eEb4212I7QE",
+    short: "Optimized game settings for better visuals and stable FPS.",
+    description: "This mod provides optimized configuration settings to balance high visual fidelity with smooth frame rates. The settings were extensively tested to ensure a stable performance experience across various hardware configurations. It establishes a recommended resolution of 1920x1080 while offering flexibility for further user adjustments. The package is compatible with the Gold edition of the game on Steam.",
+    tags: [
+      "fps",
+      "graphics",
+      "optimization"
+    ],
+    featured: true
+  },
+  {
+    id: 458,
+    game: "re4",
+    title: "Tactical Leon Turtleneck V2 Jacket and Boot Fix",
+    category: "characters",
+    version: "2.0",
+    size: "198 MB",
+    images: [
+      "images/mods/tactical-leon-turtleneck-v2-jacket-and-boot-fix-1.jpg",
+      "images/mods/tactical-leon-turtleneck-v2-jacket-and-boot-fix-2.jpg",
+      "images/mods/tactical-leon-turtleneck-v2-jacket-and-boot-fix-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A0yA3dQ8Ryg3N1A",
+    short: "A tactical turtleneck suit featuring corrected boot placement details.",
+    description: "This mod introduces a tactical turtleneck paired with a new jacket for Leon. It includes a specific fix to correct the crooked boot placement found in the original version. The package serves as a standalone reworked outfit for your playthrough. You can easily manage this installation through Fluffy Mod Manager.",
+    tags: [
+      "leon",
+      "re4",
+      "outfit",
+      "jacket",
+      "tactical"
+    ],
+    featured: true
+  },
+  {
+    id: 459,
+    game: "re4",
+    title: "Luis Companion - Full Campaign",
+    category: "gameplay",
+    version: "1.1",
+    size: "1 MB",
+    images: [
+      "images/mods/luis-companion-full-campaign-1.jpg",
+      "images/mods/luis-companion-full-campaign-2.jpg",
+      "images/mods/luis-companion-full-campaign-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cVlP5Y927d13NM8",
+    short: "Experience the full Resident Evil 4 campaign with Luis.",
+    description: "This mod allows Luis to accompany Leon throughout almost the entirety of the main campaign. He acts as a permanent AI companion who fights enemies and provides ammunition. The mod preserves original gameplay while ensuring Luis remains present in areas where he is normally absent. An optional buffed add-on is available for increased combat effectiveness.",
+    tags: [
+      "companion",
+      "luis",
+      "gameplay",
+      "follower"
+    ],
+    featured: true
+  },
+  {
+    id: 460,
+    game: "re4",
+    title: "Zenless Zone Zero - Remielle Dan",
+    category: "characters",
+    version: "1.0",
+    size: "77 MB",
+    images: [
+      "images/mods/zenless-zone-zero-remielle-dan-1.jpg",
+      "images/mods/zenless-zone-zero-remielle-dan-2.jpg",
+      "images/mods/zenless-zone-zero-remielle-dan-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y7f9T99Rwkyl22H",
+    short: "Replace Leon with Remielle from Zenless Zone Zero game.",
+    description: "This mod replaces Leon with Remielle Dan from Zenless Zone Zero featuring full physics for hair and body. It includes two alternate outfits, custom facial animations, and wet material effects with gore support. Players can also equip her signature weapon Thaumiel and her iconic mask. Optional addons are provided to adjust wing size and skirt lengths for improved gameplay visibility.",
+    tags: [
+      "remielle",
+      "zzz",
+      "character",
+      "re4",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 461,
+    game: "re4",
+    title: "Ada Companion - Full Campaign",
+    category: "characters",
+    version: "1.0.1",
+    size: "44 MB",
+    images: [
+      "images/mods/ada-companion-full-campaign-1.jpg",
+      "images/mods/ada-companion-full-campaign-2.jpg",
+      "images/mods/ada-companion-full-campaign-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7N03ZKxT5lQFnmp",
+    short: "Experience Leon's full campaign with Ada as your companion.",
+    description: "This mod adds Ada Wong as a permanent AI companion throughout Leon's entire story in Resident Evil 4 Remake. It is a comprehensive overhaul that features her authentic character model, custom animations, and a unique Blacktail weapon system. Ada features personalized in-game dialogue and improved combat behavior to make her feel like a natural ally. The mod includes custom navigation and recovery logic to ensure she stays with Leon during scripted story sequences.",
+    tags: [
+      "ada wong",
+      "companion",
+      "resident evil"
+    ],
+    featured: true
+  },
+  {
+    id: 462,
+    game: "re4",
+    title: "Sentinel Nine USP Handgun Pack",
+    category: "weapons",
+    version: "1.0",
+    size: "58 MB",
+    images: [
+      "images/mods/sentinel-nine-usp-handgun-pack-1.jpg",
+      "images/mods/sentinel-nine-usp-handgun-pack-2.jpg",
+      "images/mods/sentinel-nine-usp-handgun-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/92rb708Nuc0r2c6",
+    short: "Custom USP handgun pack with attachments and animated models.",
+    description: "This mod introduces the high-quality Sentinel Nine Heckler and Koch USP handgun to the game. It features a custom laser module, holographic red dot sight, and an extended magazine. You can choose from three distinct versions including a standard model and a suppressed MK23 variant. Each weapon model is fully animated and inspired by iconic firearms from popular military shooters.",
+    tags: [
+      "usp",
+      "handgun",
+      "weapon",
+      "tactical",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 463,
+    game: "re4",
+    title: "Hsin over Leon",
+    category: "characters",
+    version: "1.0",
+    size: "39 MB",
+    images: [
+      "images/mods/hsin-over-leon-1.jpg",
+      "images/mods/hsin-over-leon-2.jpg",
+      "images/mods/hsin-over-leon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/sNTJ17rI2RZq6bg",
+    short: "Play as Hsin from Wuthering Waves in Resident Evil.",
+    description: "This mod replaces the main character Leon with Hsin from Wuthering Waves. The package includes high quality models and detailed textures derived from the original game assets. Special attention has been given to the fur details on the character model. Please ensure you have the necessary modding tools installed to properly apply this character replacement.",
+    tags: [
+      "re4",
+      "character",
+      "skin",
+      "mod",
+      "hsin"
+    ],
+    featured: true
+  },
+  {
+    id: 464,
+    game: "rdr2",
+    title: "Masked (Bounty and Honor)",
+    category: "scripts",
+    version: "1.0",
+    size: "10 KB",
+    images: [
+      "images/mods/masked-bounty-and-honor-1.jpg",
+      "images/mods/masked-bounty-and-honor-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/v8cPoXxmhnQ16wS",
+    short: "Commit crimes without gaining bounty or losing honor points.",
+    description: "This mod overhauls the mask system to prevent bounty increases and honor changes while you remain unidentified during crimes. It modifies the wanted user interface to display you as an unknown suspect to lawmen. You can use the included configuration file to customize bounty settings and honor behavior to your liking. An optional honor value display can also be toggled on screen for better tracking.",
+    tags: [
+      "rdr2",
+      "bounty",
+      "honor",
+      "crime",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 465,
+    game: "rdr2",
+    title: "Rededrunk's Factions",
+    category: "scripts",
+    version: "1.0",
+    size: "290 KB",
+    images: [
+      "images/mods/rededrunks-factions-1.jpg",
+      "images/mods/rededrunks-factions-2.jpg",
+      "images/mods/rededrunks-factions-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/31h6lG1G94h9qH7",
+    short: "Adds dynamic factions to the open world of RDR2.",
+    description: "This mod introduces dynamic factions to the open world that interact with each other and the player. Various groups like gangs and the army now roam the map, control territories, and engage in skirmishes. The system features a complex relationship model where different factions either ally or fight on sight. It provides a more living and reactive environment for the main game.",
+    tags: [
+      "factions",
+      "gameplay",
+      "scripts",
+      "openworld"
+    ],
+    featured: true
+  },
+  {
+    id: 466,
+    game: "rdr2",
+    title: "RDR2 Random World Encounters",
+    category: "scripts",
+    version: "1.0.0",
+    size: "197 KB",
+    images: [
+      "images/mods/rdr2-random-world-encounters-1.jpg",
+      "images/mods/rdr2-random-world-encounters-2.jpg",
+      "images/mods/rdr2-random-world-encounters-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rOzcaM764xes6wD",
+    short: "Add chaotic and spontaneous events to the game world.",
+    description: "This mod introduces a variety of spontaneous and chaotic ambient events to the Red Dead Redemption 2 game world. NPCs will engage in random fights, robberies, and wildlife attacks that keep the environment unpredictable. Players can customize event frequency and intensity through a configuration file to suit their playstyle. The mod also includes dynamic weather effects and supports interaction with the game's law system.",
+    tags: [
+      "rdr2",
+      "script",
+      "chaos",
+      "random",
+      "events"
+    ],
+    featured: true
+  },
+  {
+    id: 467,
+    game: "rdr2",
+    title: "Catalogue Improvements",
+    category: "player",
+    version: "1.0",
+    size: "397 MB",
+    images: [
+      "images/mods/catalogue-improvements-1.jpg",
+      "images/mods/catalogue-improvements-2.jpg",
+      "images/mods/catalogue-improvements-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/t1IpYU0b9CLaE53",
+    short: "Comprehensive overhaul for player character appearance and clothing customization.",
+    description: "This mod enhances the player customization experience by restoring beta assets and fixing clipping issues for numerous clothing items. It revamps John Marston's appearance to better reflect his original design while adding new outfits and accessories to the wardrobe. The package also includes restored animations, improved horse textures, and various bug fixes for weapons and gear. Players can now enjoy more realistic character interactions and a more polished overall aesthetic throughout the game world.",
+    tags: [
+      "clothing",
+      "john marston",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 468,
+    game: "rdr2",
+    title: "Renewal - Visual Overhaul",
+    category: "visuals",
+    version: "1.0",
+    size: "478 KB",
+    images: [
+      "images/mods/renewal-visual-overhaul-1.jpg",
+      "images/mods/renewal-visual-overhaul-2.jpg",
+      "images/mods/renewal-visual-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Hv23h75S55Ys78E",
+    short: "A comprehensive visual overhaul enhancing lighting and weather systems.",
+    description: "Renewal enhances the atmosphere of Red Dead Redemption 2 through improved lighting and realistic color grading. It rebalances weather cycles and sunrises to provide a more natural, immersive look for the world. The mod features optimized performance while significantly upgrading cloud textures, fog resolution, and nighttime darkness. This comprehensive overhaul strives to maintain Rockstar's original art style while modernizing the game's visuals.",
+    tags: [
+      "graphics",
+      "lighting",
+      "weather",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 469,
+    game: "rdr2",
+    title: "Gunslinger Improvements - A CI Addon",
+    category: "models-textures",
+    version: "1.0",
+    size: "256 MB",
+    images: [
+      "images/mods/gunslinger-improvements-a-ci-addon-1.jpg",
+      "images/mods/gunslinger-improvements-a-ci-addon-2.jpg",
+      "images/mods/gunslinger-improvements-a-ci-addon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/73QROx4ji4q45Gh",
+    short: "Comprehensive texture and model improvements for Arthur Morgan's appearance.",
+    description: "This mod enhances Arthur Morgan's character assets by restoring high-quality beta textures and refining various model details. It includes improvements for hair, beards, clothing, and equipment to ensure a more consistent and polished look. The mod is highly modular, allowing you to easily remove individual features if desired. It also reorganizes wardrobe menus and fixes several clipping issues found throughout the game.",
+    tags: [
+      "arthur",
+      "textures",
+      "models",
+      "overhaul",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 470,
+    game: "rdr2",
+    title: "A Dynamic World",
+    category: "gameplay",
+    version: "1.0",
+    size: "81 MB",
+    images: [
+      "images/mods/a-dynamic-world-1.jpg",
+      "images/mods/a-dynamic-world-2.jpg",
+      "images/mods/a-dynamic-world-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/z339ob1R6K0inAp",
+    short: "A comprehensive mod making the world feel truly dynamic.",
+    description: "This mod enhances the game world by making it feel more lively and interactive. It unlocks previously inaccessible interiors and integrates mission-exclusive events naturally into the open world. NPCs now browse shops more dynamically, and the environment changes based on the time of day and week. Additionally, this collection restores various pieces of cut content and finishes up incomplete locations across the map.",
+    tags: [
+      "rdr2",
+      "gameplay",
+      "immersion",
+      "openworld"
+    ],
+    featured: true
+  },
+  {
+    id: 471,
+    game: "rdr2",
+    title: "Dive - Crawl N' Gun",
+    category: "scripts",
+    version: "1.0",
+    size: "150 KB",
+    images: [
+      "images/mods/dive-crawl-n-gun-1.jpg",
+      "images/mods/dive-crawl-n-gun-2.jpg",
+      "images/mods/dive-crawl-n-gun-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KdHs5A108yz1HFv",
+    short: "Add prone, crawling, and tactical diving to your game.",
+    description: "This mod introduces a functional prone and crawling system that expands tactical movement. Players can perform diving maneuvers, shoot from prone or sitting positions, and utilize a new stealth mode. The mod includes unique animations for various weapons and allows for fluid movement transitions in multiple directions. It significantly enhances combat versatility by allowing full weapon control while maneuvering on the ground.",
+    tags: [
+      "combat",
+      "realism",
+      "scripts",
+      "stealth"
+    ],
+    featured: true
+  },
+  {
+    id: 472,
+    game: "rdr2",
+    title: "Immersive Dog",
+    category: "scripts",
+    version: "1.0",
+    size: "239 KB",
+    images: [
+      "images/mods/immersive-dog-1.jpg",
+      "images/mods/immersive-dog-2.jpg",
+      "images/mods/immersive-dog-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Raa814Nk3h275q6",
+    short: "Adopt a loyal dog with advanced hunting and retrieval AI.",
+    description: "This mod introduces a fully functional and persistent canine companion to your adventures. Your dog features breed-specific behaviors such as advanced hunting assistance and automatic hat retrieval. The intelligent AI adapts to your combat, camp, and exploration needs seamlessly. You can easily adopt a dog by interacting with stray animals found throughout the world.",
+    tags: [
+      "companion",
+      "dog",
+      "hunting",
+      "pets",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 473,
+    game: "rdr2",
+    title: "Season Manager - 12 Stage Dynamic Weather and Climate Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/season-manager-12-stage-dynamic-weather-and-climate-overhaul-1.jpg",
+      "images/mods/season-manager-12-stage-dynamic-weather-and-climate-overhaul-2.jpg",
+      "images/mods/season-manager-12-stage-dynamic-weather-and-climate-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/sB60AL3PL2Bi0s4",
+    short: "Dynamic 12-stage seasonal weather cycle and climate simulation overhaul.",
+    description: "Season Manager introduces a realistic 12-stage seasonal cycle that completely transforms the weather and climate systems. It functions as a comprehensive manager that automatically enables or disables compatible seasonal mods based on the current in-game date. The mod utilizes a complex physics-based simulation to calculate thermodynamic forces like solar gain, cooling, and regional weather patterns. Users enjoy a seamless transition between seasons with mathematically blended data for a smooth, immersive environment. It also includes an easy-to-use uninstaller script for safe and clean removal from your game files.",
+    tags: [
+      "realism",
+      "weather",
+      "immersion",
+      "climate"
+    ],
+    featured: true
+  },
+  {
+    id: 474,
+    game: "rdr2",
+    title: "Color Icons",
+    category: "user-interface",
+    version: "1.2",
+    size: "294 MB",
+    images: [
+      "images/mods/color-icons-1.jpg",
+      "images/mods/color-icons-2.jpg",
+      "images/mods/color-icons-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hwSb97koab9elzm",
+    short: "Replaces black and white UI icons with vibrant colors.",
+    description: "This mod replaces the original black and white interface icons with high-quality colorized versions. It preserves the authentic artistic style of the game while significantly improving clarity and visual appeal. Most textures have been upscaled from their original size to provide a cleaner look on modern displays. The mod updates the weapon wheel, inventory items, and general HUD elements for a more vibrant experience.",
+    tags: [
+      "ui",
+      "graphics",
+      "icons",
+      "rdr2",
+      "textures"
+    ],
+    featured: true
+  },
+  {
+    id: 475,
+    game: "rdr2",
+    title: "Thiccer Sadie",
+    category: "models-textures",
+    version: "1.0",
+    size: "5 MB",
+    images: [
+      "images/mods/thiccer-sadie-1.jpg",
+      "images/mods/thiccer-sadie-2.jpg",
+      "images/mods/thiccer-sadie-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tZfU7oK8h8wur8y",
+    short: "Enhances Sadie Adler's character model for a thicker look.",
+    description: "This mod enhances the visual appearance of Sadie Adler by adjusting her character model and textures. The current edit specifically modifies her outfits featured in Chapter 3 and Chapter 4. Please note that this modification requires the Lenny's Mod Loader to function correctly in the game. Future updates may include support for additional outfits depending on development progress.",
+    tags: [
+      "sadie adler",
+      "rdr2",
+      "textures",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 476,
+    game: "rdr2",
+    title: "Natural Light Reworked",
+    category: "visuals",
+    version: "WIP",
+    size: "1 MB",
+    images: [
+      "images/mods/natural-light-reworked-1.jpg",
+      "images/mods/natural-light-reworked-2.jpg",
+      "images/mods/natural-light-reworked-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y4bno1543tb2jc2",
+    short: "A visual overhaul providing natural lighting and realistic atmosphere.",
+    description: "This visual overhaul focuses on creating realistic lighting and a grounded atmosphere for the game. It removes artificial color grading to provide neutral white light and more immersive night cycles. The mod adjusts timecycle files to ensure convincing lighting without relying on unrealistic custom tints. Performance remains a priority while delivering a striking improvement to the overall presentation.",
+    tags: [
+      "lighting",
+      "graphics",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 477,
+    game: "rdr2",
+    title: "Taunts - Dynamic Voice Line System",
+    category: "scripts",
+    version: "1.5",
+    size: "191 KB",
+    images: [
+      "images/mods/taunts-dynamic-voice-line-system-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GWSJksjII81336a",
+    short: "Dynamic voice line system for Arthur and John Marston.",
+    description: "This mod introduces a comprehensive system for Arthur and John to deliver context-aware taunts to enemies. It utilizes over 2000 hand-picked audio lines, including previously unused or cut content from the game files. Players can trigger taunts manually during combat or while observing defeated opponents to react to various states like dying or fleeing. The mod also features an aggression system that can provoke enemies into charging the player during intense gunfights.",
+    tags: [
+      "rdr2",
+      "audio",
+      "dialogue",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 478,
+    game: "rdr2",
+    title: "F.I.R.E. - Complete Fire and Flames Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "86 KB",
+    images: [
+      "images/mods/fire-complete-fire-and-flames-overhaul-1.jpg",
+      "images/mods/fire-complete-fire-and-flames-overhaul-2.jpg",
+      "images/mods/fire-complete-fire-and-flames-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nD2W806Gs8IQ7SD",
+    short: "Enhance fire intensity and spread mechanics for realistic destruction.",
+    description: "This mod provides a comprehensive overhaul of fire mechanics by removing artificial limitations and increasing persistence. Flames now reach realistic heights and burn for significantly longer durations if fuel is available. The spread physics have been enhanced to make fire a dangerous and unpredictable force in the environment. It includes specific compatibility patches for users running other major gameplay overhauls.",
+    tags: [
+      "fire",
+      "realism",
+      "immersion",
+      "physics"
+    ],
+    featured: true
+  },
+  {
+    id: 479,
+    game: "rdr2",
+    title: "Ultimate Camping - Cooking - Gardening Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "284 KB",
+    images: [
+      "images/mods/ultimate-camping-cooking-gardening-overhaul-1.jpg",
+      "images/mods/ultimate-camping-cooking-gardening-overhaul-2.jpg",
+      "images/mods/ultimate-camping-cooking-gardening-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1kKwy8x6x4dkK4N",
+    short: "Complete camping, cooking, and gardening system for Red Dead.",
+    description: "This mod provides a comprehensive camping system that allows players to set up, customize, and save interactive campsites anywhere in the world. It introduces advanced mechanics like a cooking minigame with various recipes, a persistent chest for inventory management, and a fully functional gardening system. Players can also utilize a custom fast travel network and manage camp supplies to interact with different game objects. This overhaul offers deep integration with existing game systems to create a more immersive wilderness experience.",
+    tags: [
+      "camping",
+      "survival",
+      "cooking",
+      "gardening"
+    ],
+    featured: true
+  },
+  {
+    id: 480,
+    game: "rdr2",
+    title: "Lively Stores",
+    category: "scripts",
+    version: "1.0",
+    size: "106 KB",
+    images: [
+      "images/mods/lively-stores-1.jpg",
+      "images/mods/lively-stores-2.jpg",
+      "images/mods/lively-stores-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4eYJQ9kO7Wve073",
+    short: "Adds realistic ambient NPC behavior to local town stores.",
+    description: "This mod adds ambient NPC behavior to various shops across the game world. Non-player characters will now browse items in general stores, gunsmiths, and doctor offices. Shopkeepers can also be toggled to visit other locations during their free time. You can easily adjust the visit frequency and settings using the included configuration file.",
+    tags: [
+      "npc",
+      "immersion",
+      "shops",
+      "scripts",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 481,
+    game: "rdr2",
+    title: "Corrupt Law - Frame and Jail NPCs",
+    category: "scripts",
+    version: "2.0.0",
+    size: "150 KB",
+    images: [
+      "images/mods/corrupt-law-frame-and-jail-npcs-1.jpg",
+      "images/mods/corrupt-law-frame-and-jail-npcs-2.jpg",
+      "images/mods/corrupt-law-frame-and-jail-npcs-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YeqeGbn5cIgN9f4",
+    short: "Frame random NPCs and send them to the gallows.",
+    description: "This mod allows you to frame any NPC for a crime and turn them into the sheriff. You can bring victims to local jails across the map to collect your bounty. Once imprisoned, you can even trigger a public execution for your framed targets. The system works at multiple major towns provided you meet the story requirements.",
+    tags: [
+      "rdr2",
+      "gameplay",
+      "crime",
+      "sheriff",
+      "bounty"
+    ],
+    featured: true
+  },
+  {
+    id: 482,
+    game: "rdr2",
+    title: "Duels RDR2",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "179 KB",
+    images: [
+      "images/mods/duels-rdr2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h6754WXpboTSni9",
+    short: "Challenge any armed NPC to a cinematic gun duel.",
+    description: "This mod allows you to challenge NPCs to intense gun duels throughout the world. It features a cinematic camera system and realistic reactions from characters who may flee or fight back. You can fully customize your experience using the included configuration file for settings like Dead Eye and honor loss. It provides a thrilling way to test your quickdraw skills against any armed opponent.",
+    tags: [
+      "rdr2",
+      "duels",
+      "gameplay",
+      "western",
+      "gunfight"
+    ],
+    featured: true
+  },
+  {
+    id: 483,
+    game: "rdr2",
+    title: "Weapon Flourishes",
+    category: "scripts",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/weapon-flourishes-1.jpg",
+      "images/mods/weapon-flourishes-2.jpg",
+      "images/mods/weapon-flourishes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/UZ55JLcGsexmEYG",
+    short: "Perform custom weapon tricks and carry animations while idle.",
+    description: "This mod enables you to perform unique weapon tricks and custom carry animations in Red Dead Redemption 2. You can trigger these animations manually with a button press or set them to activate automatically during idle moments. The package includes multiple left and right-handed carry styles for rifles and pistols. Configuration files allow you to customize triggers and control how these animations behave during combat.",
+    tags: [
+      "rdr2",
+      "animation",
+      "weapons",
+      "script"
+    ],
+    featured: true
+  },
+  {
+    id: 484,
+    game: "rdr2",
+    title: "Season Manager - Dynamic Seasonal Wildlife",
+    category: "gameplay",
+    version: "1.0",
+    size: "765 KB",
+    images: [
+      "images/mods/season-manager-dynamic-seasonal-wildlife-1.jpg",
+      "images/mods/season-manager-dynamic-seasonal-wildlife-2.jpg",
+      "images/mods/season-manager-dynamic-seasonal-wildlife-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GCP745S7XllVT96",
+    short: "Overhauls animal behavior with a dynamic seasonal wildlife system.",
+    description: "This mod introduces a sophisticated twelve-stage seasonal cycle that completely overhauls animal behavior and ecological patterns. Populations fluctuate realistically between seasons and animals adapt their survival strategies to match harsh winter or abundant summer conditions. Advanced AI routines now govern everything from migration and energy conservation to predator boldness and prey skittishness. The mod also adjusts environmental physics like traction and pathfinding to create a truly immersive wildlife experience.",
+    tags: [
+      "wildlife",
+      "realism",
+      "immersion",
+      "animals"
+    ],
+    featured: true
+  },
+  {
+    id: 485,
+    game: "rdr2",
+    title: "Elite Companion - Penelope Braithwaite",
+    category: "audio",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/elite-companion-penelope-braithwaite-1.jpg",
+      "images/mods/elite-companion-penelope-braithwaite-2.jpg",
+      "images/mods/elite-companion-penelope-braithwaite-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hBe9CVs4pfBuI41",
+    short: "Summon Penelope Braithwaite as a powerful and deadly companion.",
+    description: "This mod adds Penelope Braithwaite as a highly capable and deadly combat companion for Arthur. Players can summon and dismiss her using a hotkey and issue commands through a custom menu. The mod features various configuration options including infinite ammo, cinematic kill cams, and specialized combat behaviors. It is recommended to despawn her before starting story missions to avoid potential interference.",
+    tags: [
+      "rdr2",
+      "companion",
+      "combat",
+      "npc",
+      "script"
+    ],
+    featured: true
+  },
+  {
+    id: 486,
+    game: "rdr2",
+    title: "Always Perfect Weight",
+    category: "scripts",
+    version: "1.0",
+    size: "740 KB",
+    images: [
+      "images/mods/always-perfect-weight-1.jpg",
+      "images/mods/always-perfect-weight-2.jpg",
+      "images/mods/always-perfect-weight-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/47P4tQEvBy8et15",
+    short: "Keep Arthur and John at perfect weight at all times.",
+    description: "This mod maintains Arthur and John at a perfect body weight throughout all chapters of the game. It removes the need for constant feeding to keep your character appearance in top shape. The installation requires LML and an ASI loader to function correctly in your directory. Most other character mods remain compatible unless they specifically alter weight mechanics or face models.",
+    tags: [
+      "rdr2",
+      "weight",
+      "script",
+      "arthur",
+      "john"
+    ],
+    featured: true
+  },
+  {
+    id: 487,
+    game: "rdr2",
+    title: "Head Bleed V2 - Hold My Beer Edition",
+    category: "scripts",
+    version: "V2",
+    size: "5 MB",
+    images: [
+      "images/mods/head-bleed-v2-hold-my-beer-edition-1.jpg",
+      "images/mods/head-bleed-v2-hold-my-beer-edition-2.jpg",
+      "images/mods/head-bleed-v2-hold-my-beer-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/82812pjuvqJlsN7",
+    short: "Enhance gore with realistic bleeding and cinematic kill cameras.",
+    description: "This script mod enhances Red Dead Redemption 2 by adding realistic post-mortem head bleeding and dynamic blood effects. It features precise wound placement, execution headshots, and cinematic projectile cameras for thrown weapons. The system is fully compatible with existing missions and other mods due to its script-based architecture. Players can customize bleeding times and visual effects through an integrated in-game menu.",
+    tags: [
+      "gore",
+      "realism",
+      "scripts",
+      "combat",
+      "rdr2"
+    ],
+    featured: true
   }
 ];
 
