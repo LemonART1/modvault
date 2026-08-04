@@ -1,18 +1,17 @@
 const fs = require("fs");
 const path = require("path");
+const vm = require("vm");
 
 const root = path.resolve(__dirname, "..");
 
-const games = {
-  beamng: { name: "BeamNG.drive", accent: "#e8ff00" },
-  ac: { name: "Assetto Corsa", accent: "#ff5014" },
-  subnautica2: { name: "Subnautica 2", accent: "#00d8ff" },
-  stardew: { name: "Stardew Valley", accent: "#7cff6b" },
-  gta5: { name: "GTA V", accent: "#56ff9d" },
-  ets2: { name: "Euro Truck Simulator 2", accent: "#ffb13b" },
-  cyberpunk: { name: "Cyberpunk 2077", accent: "#ffe600" },
-  bg3: { name: "Baldur's Gate 3", accent: "#c77dff" }
-};
+// Read the game list straight from js/data/mods.js instead of duplicating it
+// here. This used to be a hardcoded map of 8 games, which silently went stale
+// the moment new games were added - writing a post for one of them crashed the
+// generator with "Cannot read properties of undefined (reading 'name')".
+const gamesContext = {};
+vm.createContext(gamesContext);
+vm.runInContext(`${fs.readFileSync(path.join(root, "js", "data", "mods.js"), "utf8")}\nthis.GAMES = GAMES;`, gamesContext);
+const games = gamesContext.GAMES;
 
 const nav = `<a href="/" class="nav-link">Home</a><div class="nav-dropdown"><button class="nav-link nav-dropdown-toggle" type="button">Games</button><div class="nav-dropdown-menu"><a href="beamng" class="nav-dropdown-item"><span>BeamNG</span><span class="nav-dropdown-dot" style="--game-accent:#e8ff00"></span></a><a href="assetto" class="nav-dropdown-item"><span>Assetto</span><span class="nav-dropdown-dot" style="--game-accent:#ff5014"></span></a><a href="subnautica2" class="nav-dropdown-item"><span>Subnautica 2</span><span class="nav-dropdown-dot" style="--game-accent:#00d8ff"></span></a><a href="stardew" class="nav-dropdown-item"><span>Stardew</span><span class="nav-dropdown-dot" style="--game-accent:#7cff6b"></span></a><a href="gta5" class="nav-dropdown-item"><span>GTA V</span><span class="nav-dropdown-dot" style="--game-accent:#56ff9d"></span></a><a href="ets2" class="nav-dropdown-item"><span>ETS2</span><span class="nav-dropdown-dot" style="--game-accent:#ffb13b"></span></a><a href="cyberpunk" class="nav-dropdown-item"><span>Cyberpunk</span><span class="nav-dropdown-dot" style="--game-accent:#ffe600"></span></a><a href="bg3" class="nav-dropdown-item"><span>BG3</span><span class="nav-dropdown-dot" style="--game-accent:#c77dff"></span></a></div></div><a href="news" class="nav-link">News</a><a href="guides" class="nav-link">Guides</a><a href="about" class="nav-link">About</a><a href="contact" class="nav-link">Contact</a><a href="account" class="nav-link">Login</a>`;
 const footer = `<footer class="site-footer"><div class="container footer-inner"><a href="/" class="footer-logo">MOD<span>VAULT</span></a><div class="footer-copy">CURATED MODS FOR POPULAR GAMES</div><div class="footer-links"><a href="news">News</a><a href="guides">Guides</a><a href="about">About</a><a href="contact">Contact</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="copyright">Copyright</a></div></div></footer>`;
@@ -92,6 +91,9 @@ function newsPost(gameKey, date, title, summary, sourceLabel, sourceUrl, angle) 
 }
 
 const NEWS_POSTS = [
+  newsPost("ets2", "2026-07-19", "Euro Truck Simulator 2's 1.61 update reworks the livestock trailer", "SCS Software rebuilt the livestock trailer from the ground up for update 1.61, replacing the old belly axle variant with a lowered dual-wheel chassis and adding two chassis options, paintable bodies and a long list of accessories.", "SCS Software Blog", "https://blog.scssoft.com/2026/07/ets2-161-update-livestock-trailer-rework.html", "Freight Market variants and AI traffic models were reworked around the new owned trailer, so trailer skins, accessory packs and traffic mods built against the old model are the first things to re-check after 1.61."),
+  newsPost("factorio", "2026-06-26", "Factorio 2.1 arrives as an experimental release", "Wube released Factorio 2.1 as experimental with a changelog too long to fit in a Reddit post, and the team plans to keep it experimental through the summer before marking it stable.", "Factorio (Friday Facts #444)", "https://www.factorio.com/blog/post/fff-444", "Wube warned directly that mods players rely on may not be updated yet, and that once a save or blueprint is opened in 2.1 it cannot be downgraded back to 2.0, so a backup matters more than usual here."),
+  newsPost("factorio", "2026-05-29", "Wube confirms 2.1 will be Factorio's last major update", "Friday Facts #440 laid out the 2.1 plan and stated the team envisions it as the last major update for Factorio, focused on quality of life, polish, fixes and modding improvements rather than new planets or research trees.", "Factorio (Friday Facts #440)", "https://www.factorio.com/blog/post/fff-440", "After 2.1 the studio moves to long-term support and modding features instead of new gameplay content, which is the point where community mods become the main source of new things to build and explore."),
   newsPost("gta5", "2026-05-26", "RageMP shutdown makes GTA V multiplayer modding news again", "The reported shutdown of RageMP pushed GTA V multiplayer modding back into the spotlight and reminded players how fragile unofficial multiplayer ecosystems can be.", "PC Gamer", "https://www.pcgamer.com/games/action/gta-roleplaying-is-taking-a-huge-hit-as-a-popular-server-mod-is-shutting-down-under-suspicious-circumstances-leaving-fivem-as-take-twos-only-authorized-modding-platform/", "RageMP has been discussed as a major GTA V roleplay and multiplayer platform, so shutdown news is highly relevant for anyone who follows GTA V servers, scripts and mod tools."),
   newsPost("ets2", "2026-05-30", "ETS2 and ATS 1.60 add an expanded rest mechanic", "SCS Software previewed an expanded rest mechanic for update 1.60, making fatigue and route planning a more visible part of truck sim play.", "SCS Software / Steam", "https://store.steampowered.com/news/group/4036972/view/535954474507613616", "The rest mechanic is gameplay-facing, so it matters for players using economy mods, realism mods, route planning tools and long-haul profiles."),
   newsPost("ets2", "2026-05-28", "SCS previews improved material systems for update 1.60", "The 1.60 update preview includes improved material systems, which can affect how trucks, trailers, interiors and map objects look under new lighting.", "SCS Software Blog", "https://blog.scssoft.com/2026/05/160-update-improved-material-system.html", "Material changes are visual, but they still matter for modders because custom assets often need to match the current rendering style."),

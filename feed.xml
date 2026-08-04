@@ -6,6 +6,22 @@
   <description>Real modding news and practical guides for popular PC games, from ModVault.</description>
   <language>en</language>
   <item>
+    <title>Euro Truck Simulator 2's 1.61 update reworks the livestock trailer</title>
+    <link>https://modvault.space/content/news/euro-truck-simulator-2-s-1-61-update-reworks-the-livestock-trailer</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/euro-truck-simulator-2-s-1-61-update-reworks-the-livestock-trailer</guid>
+    <description>SCS Software rebuilt the livestock trailer from the ground up for update 1.61, replacing the old belly axle variant with a lowered dual-wheel chassis and adding two chassis options, paintable bodies and a long list of accessories.</description>
+    <category>Euro Truck Simulator 2</category>
+    <pubDate>Sun, 19 Jul 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Factorio 2.1 arrives as an experimental release</title>
+    <link>https://modvault.space/content/news/factorio-2-1-arrives-as-an-experimental-release</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/factorio-2-1-arrives-as-an-experimental-release</guid>
+    <description>Wube released Factorio 2.1 as experimental with a changelog too long to fit in a Reddit post, and the team plans to keep it experimental through the summer before marking it stable.</description>
+    <category>Factorio</category>
+    <pubDate>Fri, 26 Jun 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>Baldur's Gate 3 Legendary Edition mod gets a fresh round of classes</title>
     <link>https://modvault.space/content/news/baldur-s-gate-3-legendary-edition-mod-gets-a-fresh-round-of-classes</link>
     <guid isPermaLink="true">https://modvault.space/content/news/baldur-s-gate-3-legendary-edition-mod-gets-a-fresh-round-of-classes</guid>
@@ -124,6 +140,14 @@
     <description>SCS Software previewed an expanded rest mechanic for update 1.60, making fatigue and route planning a more visible part of truck sim play.</description>
     <category>Euro Truck Simulator 2</category>
     <pubDate>Sat, 30 May 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Wube confirms 2.1 will be Factorio's last major update</title>
+    <link>https://modvault.space/content/news/wube-confirms-2-1-will-be-factorio-s-last-major-update</link>
+    <guid isPermaLink="true">https://modvault.space/content/news/wube-confirms-2-1-will-be-factorio-s-last-major-update</guid>
+    <description>Friday Facts #440 laid out the 2.1 plan and stated the team envisions it as the last major update for Factorio, focused on quality of life, polish, fixes and modding improvements rather than new planets or research trees.</description>
+    <category>Factorio</category>
+    <pubDate>Fri, 29 May 2026 12:00:00 GMT</pubDate>
   </item>
   <item>
     <title>SCS previews improved material systems for update 1.60</title>
