@@ -8016,6 +8016,62 @@ const CATEGORIES = {
     "utilities": "Utilities",
     "visuals": "Visuals",
     "weapons": "Weapons"
+  },
+  "factorio": {
+    "content": "Content",
+    "overhaul": "Overhaul",
+    "tweaks": "Tweaks",
+    "utilities": "Utilities",
+    "scenarios": "Scenarios",
+    "mod-packs": "Mod Packs",
+    "other": "Other"
+  },
+  "re4": {
+    "audio": "Audio",
+    "characters": "Characters",
+    "gameplay": "Gameplay",
+    "miscellaneous": "Miscellaneous",
+    "monsters": "Monsters",
+    "user-interface": "UI",
+    "utilities": "Utilities",
+    "visuals": "Visuals",
+    "weapons": "Weapons"
+  },
+  "starfield": {
+    "animations": "Animations",
+    "appearance": "Appearance",
+    "armor": "Armor",
+    "audio": "Audio",
+    "characters": "Characters",
+    "clothing": "Clothing",
+    "companions": "Companions",
+    "crafting": "Crafting",
+    "environment": "Environment",
+    "gameplay": "Gameplay",
+    "items": "Items",
+    "locations": "Locations",
+    "miscellaneous": "Miscellaneous",
+    "modders-resources": "Modders Resources",
+    "ships": "Ships",
+    "user-interface": "User Interface",
+    "utilities": "Utilities",
+    "visuals": "Visuals",
+    "weapons": "Weapons"
+  },
+  "rdr2": {
+    "audio": "Audio",
+    "gameplay": "Gameplay",
+    "maps": "Maps",
+    "miscellaneous": "Miscellaneous",
+    "models-textures": "Models and Textures",
+    "player": "Player",
+    "scripts": "Scripts",
+    "tools": "Tools",
+    "transport": "Transport",
+    "user-interface": "User Interface",
+    "utilities": "Utilities",
+    "visuals": "Visuals",
+    "weapons": "Weapons"
   }
 };
 
