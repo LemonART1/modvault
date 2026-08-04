@@ -4245,7 +4245,7 @@ const MODS = [
   {
     id: 208,
     game: "gta5",
-    title: "2024 BMW X6M Competition [Add-On | Tuning | Legacy | Enhanced]",
+    title: "2024 BMW X6M Competition",
     category: "vehicles",
     version: "1.0",
     size: "68 MB",
@@ -4291,7 +4291,7 @@ const MODS = [
   {
     id: 210,
     game: "gta5",
-    title: "2027 Audi RS5 Sportback (B10) [Add-On | Animated Lights | Tuning]",
+    title: "2027 Audi RS5 Sportback (B10)",
     category: "vehicles",
     version: "1.0",
     size: "134 MB",
@@ -4315,7 +4315,7 @@ const MODS = [
   {
     id: 211,
     game: "gta5",
-    title: "2020 Toyota Kijang Innova (AN140) [Add-On]",
+    title: "2020 Toyota Kijang Innova (AN140)",
     category: "vehicles",
     version: "1.0",
     size: "86 MB",
@@ -4591,7 +4591,7 @@ const MODS = [
   {
     id: 223,
     game: "gta5",
-    title: "Audi A6 C6 3.0 TDI Quattro 2006 [Add-On | Extras]",
+    title: "Audi A6 C6 3.0 TDI Quattro 2006",
     category: "vehicles",
     version: "1.0",
     size: "23 MB",
@@ -8068,7 +8068,7 @@ const MODS = [
   {
     id: 379,
     game: "gta5",
-    title: "Wheelchair 2000 [Add-On / FiveM Ready]",
+    title: "Wheelchair 2000",
     category: "vehicles",
     version: "1.0",
     size: "3 MB",
@@ -8116,7 +8116,7 @@ const MODS = [
   {
     id: 381,
     game: "gta5",
-    title: "Clean Dominator ASP [Add-On]",
+    title: "Clean Dominator ASP",
     category: "vehicles",
     version: "1.0",
     size: "48 MB",
@@ -8163,7 +8163,7 @@ const MODS = [
   {
     id: 383,
     game: "gta5",
-    title: "Mark V SOC [Add-On]",
+    title: "Mark V SOC",
     category: "vehicles",
     version: "1.0",
     size: "36 MB",
@@ -8258,7 +8258,7 @@ const MODS = [
   {
     id: 387,
     game: "gta5",
-    title: "Dismemberment Mod (Rockstar Editor Support) [Legacy & Enhanced]",
+    title: "Dismemberment Mod (Rockstar Editor Support)",
     category: "scripts",
     version: "Legacy & Enhanced",
     size: "71 MB",
@@ -8326,7 +8326,7 @@ const MODS = [
   {
     id: 390,
     game: "gta5",
-    title: "Harbin Z-21 China [Add-On]",
+    title: "Harbin Z-21 China",
     category: "vehicles",
     version: "1.0",
     size: "23 MB",
@@ -8372,7 +8372,7 @@ const MODS = [
   {
     id: 392,
     game: "gta5",
-    title: "2025 Ferrari F80 [Add-On | Tuning | Legacy | Enhanced]",
+    title: "2025 Ferrari F80",
     category: "vehicles",
     version: "1.0",
     size: "47 MB",
@@ -8466,7 +8466,7 @@ const MODS = [
   {
     id: 396,
     game: "gta5",
-    title: "Mil Mi-35M Hind [Add-On]",
+    title: "Mil Mi-35M Hind",
     category: "vehicles",
     version: "1.0",
     size: "33 MB",
@@ -8581,7 +8581,7 @@ const MODS = [
   {
     id: 401,
     game: "gta5",
-    title: "Übermacht Sentinel Stock [Add-On]",
+    title: "Übermacht Sentinel Stock",
     category: "vehicles",
     version: "1.0",
     size: "10 MB",
