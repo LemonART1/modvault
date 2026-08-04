@@ -10577,6 +10577,256 @@ const MODS = [
       "rdr2"
     ],
     featured: true
+  },
+  {
+    id: 488,
+    game: "nierautomata",
+    title: "HD Texture Pack",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "532 MB",
+    images: [
+      "images/mods/hd-texture-pack-1.jpg",
+      "images/mods/hd-texture-pack-2.jpg",
+      "images/mods/hd-texture-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/nfp953422E05KPy",
+    short: "High quality 4K texture overhaul for NieR Automata characters.",
+    description: "This mod enhances the visual quality of NieR: Automata by replacing low resolution assets with high quality 4K textures. The pack features hand-drawn diffuse textures for both 2B and A2 to ensure a consistent look. It requires the FAR mod to enable texture injection into the game. Please follow the included installation steps carefully to apply the new textures correctly.",
+    tags: [
+      "textures",
+      "4k",
+      "overhaul",
+      "graphics",
+      "hd"
+    ],
+    featured: true
+  },
+  {
+    id: 489,
+    game: "nierautomata",
+    title: "The Definitive NieR: Automata Experience Mod List and Guide",
+    category: "utilities",
+    version: "1.0",
+    size: "176 bytes",
+    images: [
+      "images/mods/the-definitive-nier-automata-experience-mod-list-and-guide-1.jpg",
+      "images/mods/the-definitive-nier-automata-experience-mod-list-and-guide-2.jpg",
+      "images/mods/the-definitive-nier-automata-experience-mod-list-and-guide-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/t1L5RGya9cDvtHS",
+    short: "The complete guide for a modded NieR: Automata experience.",
+    description: "This comprehensive guide provides detailed instructions to transform NieR: Automata into its true definitive version. It includes curated mods for texture overhauls, high-quality audio, gameplay improvements, and bug fixes. The guide also covers essential input tweaks for keyboard, mouse, and controller users. This reference hub ensures you achieve the most visually stunning and stable experience possible.",
+    tags: [
+      "guide",
+      "overhaul",
+      "textures",
+      "stability"
+    ],
+    featured: true
+  },
+  {
+    id: 490,
+    game: "nierautomata",
+    title: "NieR: Automata Input Overhaul Mod (NAIOM)",
+    category: "utilities",
+    version: "1.4.0",
+    size: "1 MB",
+    images: [
+      "images/mods/nier-automata-input-overhaul-mod-naiom-1.jpg",
+      "images/mods/nier-automata-input-overhaul-mod-naiom-2.jpg",
+      "images/mods/nier-automata-input-overhaul-mod-naiom-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Fu49eQxO11026zQ",
+    short: "Fixes mouse and keyboard input issues for better control.",
+    description: "This mod resolves common keyboard and mouse input issues in NieR: Automata by providing raw mouse input and removing acceleration. It adds a customizable crosshair for aiming and enables full rebinding of all controls to any key or mouse button. The package includes a user-friendly GUI for sensitivity adjustments and custom cursor support. It is fully compatible with other major community fixes like SpecialK.",
+    tags: [
+      "input",
+      "mouse",
+      "keyboard",
+      "fix",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 491,
+    game: "nierautomata",
+    title: "Wolf's Limit Break - File Size Limit Patch",
+    category: "utilities",
+    version: "1.0",
+    size: "7 MB",
+    images: [
+      "images/mods/wolfs-limit-break-file-size-limit-patch-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Fsxzq9x6gTU9Oa1",
+    short: "Fixes loading errors caused by exceeding game file limits.",
+    description: "This patch modifies the game executable to increase internal file size and VRAM limits. It resolves the common loading error message that appears when too many large mods are installed simultaneously. The tool allows players to use high-resolution textures without crashing the game during startup. Please ensure you back up your original executable before applying this patch to your installation directory.",
+    tags: [
+      "patch",
+      "limits",
+      "stability",
+      "textures"
+    ],
+    featured: true
+  },
+  {
+    id: 492,
+    game: "nierautomata",
+    title: "Clean Reshade Preset",
+    category: "visuals-and-graphics",
+    version: "1.0",
+    size: "47 MB",
+    images: [
+      "images/mods/clean-reshade-preset-1.jpg",
+      "images/mods/clean-reshade-preset-2.jpg",
+      "images/mods/clean-reshade-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VHSz72lGGeXVQiH",
+    short: "A crisp Reshade preset for a clean visual experience.",
+    description: "This Reshade preset enhances the visual clarity of the game by creating a crisp and clean image. It maintains the original aesthetic while sharpening the overall picture quality. You can easily adjust brightness, vibrancy, and sharpness levels through the integrated menu. The installation is straightforward and allows for seamless switching between different versions.",
+    tags: [
+      "reshade",
+      "visuals",
+      "graphics",
+      "preset"
+    ],
+    featured: true
+  },
+  {
+    id: 493,
+    game: "nierautomata",
+    title: "Automata-LodMod",
+    category: "utilities",
+    version: "0.77.5",
+    size: "125 KB",
+    images: [
+      "images/mods/automata-lodmod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Nzb6mB054c83qoZ",
+    short: "Comprehensive graphics improvement wrapper for NieR Automata.",
+    description: "This wrapper DLL provides comprehensive graphical improvements and bug fixes for NieR Automata. It effectively addresses common issues like ambient occlusion flickering and poor level of detail transitions. Users can customize shadow resolutions, disable manual culling, and enhance distant terrain quality through an easy configuration file. The mod also adds support for higher quality H264 cutscenes and includes options to skip intro screens for faster loading.",
+    tags: [
+      "graphics",
+      "lod",
+      "performance",
+      "fix",
+      "patch"
+    ],
+    featured: true
+  },
+  {
+    id: 494,
+    game: "nierautomata",
+    title: "2B - Shinobi Outfit",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "17 MB",
+    images: [
+      "images/mods/2b-shinobi-outfit-1.jpg",
+      "images/mods/2b-shinobi-outfit-2.jpg",
+      "images/mods/2b-shinobi-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3NPZtnZ446aqpUH",
+    short: "A custom Shinobi outfit replacement for the 2B character.",
+    description: "This mod replaces the default 2B dress with a detailed Shinobi outfit design. The costume utilizes custom bone structures to provide unique physics and movement capabilities. Multiple creators collaborated on the modeling, texturing, and implementation of complex jiggle bone collisions. This release serves as an early example of the new custom bone potential for NieR Automata modifications.",
+    tags: [
+      "2b",
+      "shinobi",
+      "outfit",
+      "model",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 495,
+    game: "nierautomata",
+    title: "Bande Desinee",
+    category: "visuals-and-graphics",
+    version: "1.0b",
+    size: "2 MB",
+    images: [
+      "images/mods/bande-desinee-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/FEcsXf0L9m1EmCl",
+    short: "Remove color banding artifacts with this shader replacement mod.",
+    description: "This mod effectively eliminates unsightly color banding artifacts during gameplay. It utilizes the 3DMigoto tool to apply dithering to the rendering pipeline. The added noise smoothens color transitions for a cleaner image on 8-bit displays. This shader replacement solution ensures a more visually consistent experience throughout the game.",
+    tags: [
+      "graphics",
+      "shader",
+      "banding",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 496,
+    game: "nierautomata",
+    title: "NieR Fantasy ReShade",
+    category: "visuals-and-graphics",
+    version: "1.0",
+    size: "14 MB",
+    images: [
+      "images/mods/nier-fantasy-reshade-1.jpg",
+      "images/mods/nier-fantasy-reshade-2.jpg",
+      "images/mods/nier-fantasy-reshade-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hm7Cmy499wZSO8n",
+    short: "A fantasy style ReShade preset for NieR Automata visuals.",
+    description: "This mod provides a custom ReShade preset designed to give the game a unique fantasy aesthetic. It enhances the visual depth and color vibrancy of NieR Automata to create a more immersive experience. The package includes customizable depth of field and ambient occlusion settings for fine-tuning. Installation is simple and fully compatible with the FAR mod.",
+    tags: [
+      "reshade",
+      "graphics",
+      "fantasy",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 497,
+    game: "nierautomata",
+    title: "2B Hook",
+    category: "utilities",
+    version: "1.1.0.0",
+    size: "305 KB",
+    images: [
+      "images/mods/2b-hook-1.jpg",
+      "images/mods/2b-hook-2.jpg",
+      "images/mods/2b-hook-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h7n4ax127yIi1co",
+    short: "A comprehensive mod menu for customizing NieR: Automata gameplay.",
+    description: "2B Hook is an extensive mod menu that provides a wide variety of gameplay tweaks and developer tools for NieR: Automata. Players can utilize features such as god mode, level manipulation, entity spawning, and camera FOV adjustments to customize their experience. The mod also includes advanced debugging options like skeleton ESP, wireframe rendering, and a console for monitoring game data. It requires an external DLL injector or a compatible loader to function correctly within the game environment. This tool offers deep control over game mechanics and entity behavior for advanced users.",
+    tags: [
+      "mod menu",
+      "cheats",
+      "tools",
+      "debugging"
+    ],
+    featured: true
+  },
+  {
+    id: 498,
+    game: "nierautomata",
+    title: "2B Breast Physics Mod",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "11 MB",
+    images: [
+      "images/mods/2b-breast-physics-mod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H10tMVS2zX7QuqI",
+    short: "Adds physics movement to 2B character model in game.",
+    description: "This mod adds realistic breast physics to the character model of 2B. Please note that this version is considered outdated for current gameplay standards. It is recommended to use alternative mods for more polished physics effects. You can install the mod by placing the provided folder into the game data directory.",
+    tags: [
+      "2b",
+      "physics",
+      "models",
+      "nier",
+      "automata"
+    ],
+    featured: true
   }
 ];
 
@@ -10716,13 +10966,13 @@ const CATEGORIES = {
     "weapons": "Weapons"
   },
   "nierautomata": {
-    "audio": "Audio",
     "characters": "Characters",
     "gameplay": "Gameplay",
-    "graphics": "Graphics",
     "miscellaneous": "Miscellaneous",
-    "user-interface": "UI",
+    "models-and-textures": "Models and Textures",
+    "user-interface": "User Interface",
     "utilities": "Utilities",
+    "visuals-and-graphics": "Visuals and Graphics",
     "weapons": "Weapons"
   },
   "re4": {
