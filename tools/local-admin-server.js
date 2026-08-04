@@ -371,6 +371,85 @@ async function handleGta5(req, res) {
   send(res, 200, { ok: true, name, description, images, game: "gta5" });
 }
 
+// Factorio mod descriptions are Markdown, and popular mods often open with a
+// row of shields.io badge images and donate links. Strip all of that down to
+// plain prose so Gemini gets clean input instead of markup noise.
+function stripMarkdown(text) {
+  return String(text || "")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")          // images (incl. badges)
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")       // links -> their text
+    .replace(/```[\s\S]*?```/g, "")                // fenced code
+    .replace(/`([^`]*)`/g, "$1")                   // inline code
+    .replace(/^\s{0,3}#{1,6}\s*/gm, "")            // headings
+    .replace(/^\s*>\s?/gm, "")                     // blockquotes
+    .replace(/^\s*[-*+]\s+/gm, "- ")               // list bullets
+    .replace(/(\*\*|__)(.*?)\1/g, "$2")            // bold
+    .replace(/(\*|_)(.*?)\1/g, "$2")               // italic
+    .replace(/^\s*([-*_]\s*){3,}$/gm, "")          // horizontal rules
+    .replace(/\|/g, " ")                           // table pipes
+    .replace(/\r/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+// The Factorio mod portal has a fully open JSON API (no auth, no Cloudflare
+// challenge), so this is the simplest importer of the lot: everything comes
+// from one /full call and the assets CDN serves images to the server directly.
+async function handleFactorio(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  // Accept a portal URL (/mod/Name) or a bare mod name.
+  const match = url.match(/mods\.factorio\.com\/mod\/([^/?#\s]+)/i);
+  const slug = match ? match[1] : (/^[\w.-]+$/.test(url) ? url : "");
+  if (!slug) throw new Error("Invalid Factorio URL. Expected: mods.factorio.com/mod/{name}");
+
+  const api = await fetch(`https://mods.factorio.com/api/mods/${encodeURIComponent(slug)}/full`, {
+    headers: { "User-Agent": "ModVault-LocalAdmin/1.0", Accept: "application/json" },
+    signal: AbortSignal.timeout(20000)
+  });
+  if (!api.ok) throw new Error(`Factorio API ${api.status}: mod "${slug}" not found.`);
+  const mod = await api.json();
+
+  // Portal categories map almost 1:1 onto ours; the bookkeeping ones fall back
+  // to "other" (which every game in CATEGORIES has).
+  const known = ["content", "overhaul", "tweaks", "utilities", "scenarios", "mod-packs"];
+  const category = known.includes(mod.category) ? mod.category : "other";
+
+  const latest = Array.isArray(mod.releases) && mod.releases.length
+    ? mod.releases[mod.releases.length - 1]
+    : null;
+
+  // Gallery images when present; many mods only have the square thumbnail, so
+  // fall back to it rather than leaving the admin with nothing to save.
+  const abs = (u) => (String(u || "").startsWith("http") ? u : `https://assets-mod.factorio.com${u}`);
+  const imageUrls = (mod.images || []).map(img => abs(img.url)).filter(Boolean);
+  if (!imageUrls.length && mod.thumbnail) imageUrls.push(abs(mod.thumbnail));
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, { headers: { "User-Agent": "ModVault-LocalAdmin/1.0" }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) return null;
+      const ct = r.headers.get("content-type") || "";
+      if (!ct.startsWith("image/")) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+
+  send(res, 200, {
+    ok: true,
+    name: mod.title || slug,
+    summary: mod.summary || "",
+    description: stripMarkdown(mod.description),
+    version: latest?.version || "1.0",
+    category,
+    images,
+    game: "factorio"
+  });
+}
+
 // modsfire's legacy "size" field is a plain number of bytes. (The docs example
 // showing "size": 1760 for a tiny placeholder file made KB look plausible at
 // first, but checking real uploads - a 51026071 that's a sane 48.7MB car mod
@@ -567,6 +646,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/gta5") {
       await handleGta5(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/factorio") {
+      await handleFactorio(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/modsfire-recent") {

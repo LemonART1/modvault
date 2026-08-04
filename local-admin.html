@@ -94,6 +94,18 @@
 
     <div class="panel card">
       <div class="field">
+        <label for="factorioUrl">Factorio Mod Portal URL</label>
+        <input id="factorioUrl" placeholder="https://mods.factorio.com/mod/Krastorio2">
+      </div>
+      <div class="actions">
+        <button id="factorioBtn" type="button">Import from Factorio</button>
+        <span class="hint">Открытое API: название, описание, версия, категория и картинки. Ключ не нужен.</span>
+      </div>
+      <div class="status" id="factorioStatus">Вставь URL мода Factorio и нажми Import.</div>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
         <label for="rawText">AI raw text</label>
         <textarea id="rawText" placeholder="Вставь сюда грязное описание мода. ИИ заполнит title, game, category, version, short, description и tags."></textarea>
       </div>
@@ -508,6 +520,54 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function importFactorio() {
+      const url = $("factorioUrl").value.trim();
+      if (!url) { setStatus($("factorioStatus"), "Вставь URL мода Factorio.", "bad"); return; }
+      $("factorioBtn").disabled = true;
+      setStatus($("factorioStatus"), "Загружаю данные с Factorio Mod Portal...");
+      try {
+        const response = await fetch("/api/factorio", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        $("rawText").value = [data.name, data.summary, data.description].filter(Boolean).join("\n\n");
+        if (data.version) $("version").value = data.version;
+        // The portal reports a real category, so preselect it instead of leaving
+        // it to Gemini (which only sees the description text).
+        if (data.game && state.games[data.game]) {
+          $("game").value = data.game;
+          updateCategories(data.category);
+        }
+
+        if (data.images && data.images.length) {
+          try {
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
+          } catch (_) { /* images optional */ }
+        }
+
+        setStatus($("factorioStatus"), `Загружено: ${data.name}. Запускаю AI...`, "ok");
+        await runAi();
+        // Re-apply the portal's own category and version after runAi(): Gemini
+        // only sees the description text, so it downgrades the real release
+        // version to "not specified" and can pick a different category. The
+        // portal values are authoritative, so they win.
+        if (data.category) {
+          const select = $("category");
+          if ([...select.options].some(o => o.value === data.category)) select.value = data.category;
+        }
+        if (data.version) $("version").value = data.version;
+      } catch (error) {
+        setStatus($("factorioStatus"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("factorioBtn").disabled = false;
+      }
+    }
+
     // Lists the account's recent modsfire uploads so the right file can be
     // picked by name (matches the "upload the whole batch first, then work
     // through the admin one mod at a time" workflow - a single "latest
@@ -556,6 +616,7 @@ ${$("rawText").value.trim()}`;
     $("aiBtn").addEventListener("click", runAi);
     $("nexusBtn").addEventListener("click", importNexus);
     $("gta5Btn").addEventListener("click", importGta5);
+    $("factorioBtn").addEventListener("click", importFactorio);
     $("modsfireBtn").addEventListener("click", loadModsfireList);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.
@@ -619,8 +680,9 @@ ${$("rawText").value.trim()}`;
     });
 
     // Auto-import when opened by the bookmarklet (data lives in the URL hash).
+    // Anchored to #/& so it doesn't also swallow the #autoimport= hash below.
     async function maybeHashImport() {
-      const m = location.hash.match(/import=([^&]+)/);
+      const m = location.hash.match(/(?:^|[#&])import=([^&]+)/);
       if (!m) return;
       let payload;
       try { payload = JSON.parse(decodeURIComponent(escape(atob(m[1])))); }
@@ -667,10 +729,30 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    // Generic one-click entry point for sources the server can scrape on its
+    // own (Factorio, GTA5-Mods): the userscript just passes {source, url} and
+    // the matching importer runs automatically, no pasting or extra clicks.
+    async function maybeAutoImport() {
+      const m = location.hash.match(/(?:^|[#&])autoimport=([^&]+)/);
+      if (!m) return;
+      let payload;
+      try { payload = JSON.parse(decodeURIComponent(escape(atob(m[1])))); }
+      catch (e) { return; }
+      history.replaceState(null, "", location.pathname);
+      if (!payload.url) return;
+      if (payload.source === "factorio") {
+        $("factorioUrl").value = payload.url;
+        await importFactorio();
+      } else if (payload.source === "gta5") {
+        $("gta5Url").value = payload.url;
+        await importGta5();
+      }
+    }
+
     $("apiKey").value = localStorage.getItem("modvault-local-gemini-key") || "";
     $("groqApiKey").value = localStorage.getItem("modvault-local-groq-key") || "";
     $("nexusApiKey").value = localStorage.getItem("modvault-local-nexus-key") || "";
-    loadData().then(maybeHashImport).then(maybeStashImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
+    loadData().then(maybeHashImport).then(maybeStashImport).then(maybeAutoImport).catch(error => setStatus($("dbStatus"), error.message, "bad"));
   </script>
 </body>
 </html>
