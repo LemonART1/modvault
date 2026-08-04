@@ -67,14 +67,14 @@ const GAMES = {
     "intro": "Explore Cyberpunk 2077 mods for visuals, vehicles, UI, gameplay tuning and Night City immersion. These additions can sharpen the atmosphere, improve usability and make another playthrough feel fresh.",
     "accent": "#ffe600"
   },
-  "bg3": {
-    "name": "Baldur's Gate 3",
-    "shortName": "BG3",
-    "page": "bg3",
-    "label": "Fantasy RPG",
-    "description": "Classes, spells, character presets, UI tweaks and party customization mods.",
-    "intro": "Browse Baldur's Gate 3 mods for characters, spells, interface tweaks and party customization. This section focuses on additions that expand roleplay options while keeping the game easy to browse and filter.",
-    "accent": "#c77dff"
+  "rdr2": {
+    "name": "Red Dead Redemption 2",
+    "shortName": "RDR2",
+    "page": "rdr2",
+    "label": "Western epic",
+    "description": "Visual upgrades, gameplay enhancements, character swaps and open-world immersion mods.",
+    "intro": "Browse Red Dead Redemption 2 mods for visual upgrades, gameplay enhancements, character swaps and open-world immersion. RDR2's modding scene brings new life to the frontier with custom content and quality-of-life fixes.",
+    "accent": "#9c2b2b"
   },
   "factorio": {
     "name": "Factorio",
@@ -103,14 +103,14 @@ const GAMES = {
     "intro": "Browse Starfield mods for ship parts, UI overhauls, texture packs, gameplay balance and exploration improvements. The Settled Systems get bigger with community-made additions that enhance space travel, combat and outpost building.",
     "accent": "#3498db"
   },
-  "rdr2": {
-    "name": "Red Dead Redemption 2",
-    "shortName": "RDR2",
-    "page": "rdr2",
-    "label": "Western epic",
-    "description": "Visual upgrades, gameplay enhancements, character swaps and open-world immersion mods.",
-    "intro": "Browse Red Dead Redemption 2 mods for visual upgrades, gameplay enhancements, character swaps and open-world immersion. RDR2's modding scene brings new life to the frontier with custom content and quality-of-life fixes.",
-    "accent": "#d4a843"
+  "bg3": {
+    "name": "Baldur's Gate 3",
+    "shortName": "BG3",
+    "page": "bg3",
+    "label": "Fantasy RPG",
+    "description": "Classes, spells, character presets, UI tweaks and party customization mods.",
+    "intro": "Browse Baldur's Gate 3 mods for characters, spells, interface tweaks and party customization. This section focuses on additions that expand roleplay options while keeping the game easy to browse and filter.",
+    "accent": "#c77dff"
   }
 };
 
@@ -8233,9 +8233,9 @@ const MODS = [
   },
   {
     id: 386,
-    game: "ac",
+    game: "gta5",
     title: "Ferrari 12Cilindri Spider 2024",
-    category: "cars",
+    category: "vehicles",
     version: "1.0",
     size: "29 MB",
     images: [
@@ -8244,13 +8244,14 @@ const MODS = [
       "images/mods/ferrari-12cilindri-spider-2024-3.jpg"
     ],
     downloadUrl: "https://modsfire.com/3dKa08086yAE76w",
-    short: "A high performance Ferrari 12Cilindri Spider for Assetto Corsa.",
-    description: "This mod brings the 2024 Ferrari 12Cilindri Spider to Assetto Corsa as a custom vehicle addition. As this is a first-time conversion project, the model may contain minor imperfections and unresolved bugs. The vehicle features a detailed exterior and includes a template for custom paint jobs. Future updates are planned to address existing technical issues and improve the overall driving experience.",
+    short: "A high performance Ferrari 12Cilindri Spider for GTA V.",
+    description: "This mod brings the 2024 Ferrari 12Cilindri Spider to GTA V as a custom vehicle addition. As this is a first-time conversion project, the model may contain minor imperfections and unresolved bugs. The vehicle features a detailed exterior and includes a template for custom paint jobs. Future updates are planned to address existing technical issues and improve the overall driving experience.",
     tags: [
       "ferrari",
       "supercar",
       "italian",
-      "sports car"
+      "gta5",
+      "vehicle"
     ],
     featured: true
   },

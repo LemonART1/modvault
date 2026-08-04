@@ -97,7 +97,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://modvault.space/bg3</loc>
+    <loc>https://modvault.space/rdr2</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +121,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://modvault.space/rdr2</loc>
+    <loc>https://modvault.space/bg3</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -452,12 +452,6 @@
   </url>
   <url>
     <loc>https://modvault.space/mods/ac/38-bmw-m4-f82-coupe</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://modvault.space/mods/ac/386-ferrari-12cilindri-spider-2024</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1790,6 +1784,12 @@
   </url>
   <url>
     <loc>https://modvault.space/mods/gta5/385-quantv-realistic-preset-sp-fivem</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://modvault.space/mods/gta5/386-ferrari-12cilindri-spider-2024</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
