@@ -10827,6 +10827,686 @@ const MODS = [
       "automata"
     ],
     featured: true
+  },
+  {
+    id: 499,
+    game: "subnautica2",
+    title: "Extra Biomod Slots",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "2 KB",
+    images: [
+      "images/mods/extra-biomod-slots-1.jpg",
+      "images/mods/extra-biomod-slots-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Amp5NUD75UJ5jnq",
+    short: "Increase your available passive biomod slots in Subnautica 2.",
+    description: "This mod expands the passive biomod slots available within the Biolab. It defaults to two active slots but remains fully configurable for the player. Users can modify the config file to set a custom limit between one and six slots. Proper installation requires the UE4SS framework to be active in your game directory.",
+    tags: [
+      "biomod",
+      "slots",
+      "gameplay",
+      "upgrade",
+      "biolab"
+    ],
+    featured: true
+  },
+  {
+    id: 500,
+    game: "subnautica2",
+    title: "Quick Stack to Nearby Containers",
+    category: "gameplay",
+    version: "5.0.0",
+    size: "75 KB",
+    images: [
+      "images/mods/quick-stack-to-nearby-containers-1.jpg",
+      "images/mods/quick-stack-to-nearby-containers-2.jpg",
+      "images/mods/quick-stack-to-nearby-containers-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4XbaQ568o500yqI",
+    short: "Efficiently sort your inventory into nearby containers with ease.",
+    description: "This mod provides intelligent inventory management by allowing you to quickly stack items into nearby containers with a single key press. It features advanced functionality such as smart locker labeling, automatic restocking of supplies, and overflow handling for unmatched items. The system includes a visual transfer summary and full support for multiplayer environments. You can easily configure settings in-game or via text files to customize your sorting preferences.",
+    tags: [
+      "inventory",
+      "sorting",
+      "storage",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 501,
+    game: "subnautica2",
+    title: "Fin Faster",
+    category: "items",
+    version: "EA 1.1",
+    size: "2 KB",
+    images: [
+      "images/mods/fin-faster-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/173ATOw7E34802M",
+    short: "Increases speed bonuses for fins and the wakemaker item.",
+    description: "This mod increases the speed bonuses provided by tier one and two fins. It also improves the efficiency of the wakemaker item to help you travel faster. The changes are balanced to provide a noticeable boost without breaking the game loop. Installation is simple and involves placing the files into your mods folder.",
+    tags: [
+      "fins",
+      "movement",
+      "speed",
+      "buff",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 502,
+    game: "subnautica2",
+    title: "Wakemaker Speed Boost",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "2 KB",
+    images: [
+      "images/mods/wakemaker-speed-boost-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OxEOYAyVT41n7Tp",
+    short: "Increase your Wakemaker speed boost with this configurable mod.",
+    description: "This configurable UE4SS Lua mod allows you to increase the speed boost of the Wakemaker. It comes with a default speed value of 1500.0 for faster travel. You can easily adjust the boost strength by editing the provided Lua file. Please ensure you have UE4SS installed correctly to use this mod.",
+    tags: [
+      "wakemaker",
+      "speed",
+      "subnautica2",
+      "lua"
+    ],
+    featured: true
+  },
+  {
+    id: 503,
+    game: "subnautica2",
+    title: "Scanner Assist",
+    category: "ui",
+    version: "2.0",
+    size: "185 KB",
+    images: [
+      "images/mods/scanner-assist-1.jpg",
+      "images/mods/scanner-assist-2.jpg",
+      "images/mods/scanner-assist-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CAZR69XLRz41wQl",
+    short: "Display scanner station resources directly on your game HUD.",
+    description: "Scanner Assist projects your Scanner Station resources directly onto your HUD for easier navigation. It features live tracking icons that update every frame to show exactly where materials are located. You can toggle between different display modes or adjust settings to manage how many markers appear on your screen. This mod works as an overlay, ensuring it does not interfere with your inventory or save files.",
+    tags: [
+      "scanner",
+      "resources",
+      "hud",
+      "navigation"
+    ],
+    featured: true
+  },
+  {
+    id: 504,
+    game: "subnautica2",
+    title: "Persistent Loot",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "7 KB",
+    images: [
+      "images/mods/persistent-loot-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iQfHamA75sC5iAq",
+    short: "Keep all your items after dying in Subnautica 2.",
+    description: "This mod modifies the death mechanic to ensure you keep all your items upon respawning. You will no longer need to perform corpse runs to retrieve your dropped gear after dying. Only the item drop mechanic is changed while all other survival systems remain strictly vanilla. It is fully compatible with existing save files and all available game modes.",
+    tags: [
+      "survival",
+      "inventory",
+      "quality of life"
+    ],
+    featured: true
+  },
+  {
+    id: 505,
+    game: "subnautica2",
+    title: "No Intro",
+    category: "miscellaneous",
+    version: "1.1",
+    size: "26 KB",
+    images: [
+      "images/mods/no-intro-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7dj499H3w1US9vW",
+    short: "Skip all startup logos and warning screens automatically today.",
+    description: "This mod allows you to skip startup logos and warning screens when launching the game. It further improves your experience by automatically bypassing the press continue screen. The installation requires placing the provided files into your game mods folder. It is designed to be fully compatible with most other existing game modifications.",
+    tags: [
+      "skip",
+      "intro",
+      "utility",
+      "fast",
+      "loading"
+    ],
+    featured: true
+  },
+  {
+    id: 506,
+    game: "subnautica2",
+    title: "Better Haul Chassis",
+    category: "vehicles",
+    version: "1.0.0",
+    size: "1 KB",
+    images: [
+      "images/mods/better-haul-chassis-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4p5VRiJL8hFm18c",
+    short: "Upgrades the Tadpole vehicle with increased speed and storage.",
+    description: "The Tadpole Haul Chassis receives a significant upgrade to improve its sluggish performance. This mod boosts the vehicle speed and handling to match the Scout Ray for better exploration. It also increases the cargo capacity from thirty to one hundred slots. The script requires the UE4SS framework to function correctly in your game.",
+    tags: [
+      "haul",
+      "vehicle",
+      "storage",
+      "speed",
+      "patch"
+    ],
+    featured: true
+  },
+  {
+    id: 507,
+    game: "subnautica2",
+    title: "Scanner Speed Mod",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "8 KB",
+    images: [
+      "images/mods/scanner-speed-mod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3azLTd4Y30pxz03",
+    short: "Adjust your scanner speed and enable instant scanning easily.",
+    description: "This mod provides fully configurable scanner speed settings for your scanning tool. You can adjust the scan speed multiplier from 1x up to 10x using a convenient in-game menu. It also includes an optional instant scan feature for completing scans in a fraction of a second. The performance-optimized code ensures there is no stuttering or lag during gameplay.",
+    tags: [
+      "scanner",
+      "gameplay",
+      "quality",
+      "speed"
+    ],
+    featured: true
+  },
+  {
+    id: 508,
+    game: "subnautica2",
+    title: "Extra Tadpole Modules",
+    category: "items",
+    version: "1.0.0",
+    size: "4 KB",
+    images: [
+      "images/mods/extra-tadpole-modules-1.jpg",
+      "images/mods/extra-tadpole-modules-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/aVquB9qJYfV3veU",
+    short: "Increase the upgrade module capacity for the Tadpole vehicle.",
+    description: "This mod allows players to increase the number of upgrade module slots on the Tadpole vehicle. You can customize your slot count between four and twelve to better suit your exploration needs. Using the optional SN2ModSettings menu provides a convenient in-game slider for real-time adjustments. The mod requires the UE4SS loader to function correctly within the game environment.",
+    tags: [
+      "subnautica",
+      "tadpole",
+      "upgrade",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 509,
+    game: "subnautica2",
+    title: "Scout Ray Speed Boost",
+    category: "vehicles",
+    version: "1.0.0",
+    size: "2 KB",
+    images: [
+      "images/mods/scout-ray-speed-boost-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VqN7q010Z1Tl6iN",
+    short: "Customizable speed boost for the Scout Ray vehicle chassis.",
+    description: "This lightweight mod allows you to increase the speed boost of the Scout Ray chassis. You can easily customize the boost value by editing a simple line in the included Lua script. It is designed to work with UE4SS and does not require replacing any game assets. The modification provides a faster movement experience during your underwater explorations.",
+    tags: [
+      "scout ray",
+      "vehicles",
+      "speed",
+      "lua",
+      "ue4ss"
+    ],
+    featured: true
+  },
+  {
+    id: 510,
+    game: "subnautica2",
+    title: "Passive Creatures",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "15 KB",
+    images: [
+      "images/mods/passive-creatures-1.jpg",
+      "images/mods/passive-creatures-2.jpg",
+      "images/mods/passive-creatures-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8u97CZ4A3R1hpBY",
+    short: "Makes hostile sea creatures ignore the player and vehicles.",
+    description: "This mod prevents hostile creatures from targeting you and your vehicles in Subnautica 2. It uses a custom script to unregister perception components, effectively making you invisible to predators. You can easily toggle these safety features on or off using a simple keyboard shortcut. Optional support for a settings menu is available if you install the SN2ModSettings framework.",
+    tags: [
+      "peaceful",
+      "gameplay",
+      "survival",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 511,
+    game: "subnautica2",
+    title: "Processor Rush",
+    category: "gameplay",
+    version: "1.0",
+    size: "25 KB",
+    images: [
+      "images/mods/processor-rush-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Sr34orUJLZvdH46",
+    short: "Reduce crafting processor recipe times with multiple custom options.",
+    description: "This mod allows you to significantly reduce the processing time for various crafting recipes. It includes both PAK and UE4SS versions to suit different installation preferences. You can choose from multiple speed presets or fully customize individual recipe times. The UE4SS version provides a convenient in-game menu for real-time adjustments.",
+    tags: [
+      "crafting",
+      "speed",
+      "utility",
+      "recipe"
+    ],
+    featured: true
+  },
+  {
+    id: 512,
+    game: "subnautica2",
+    title: "Third Person Camera",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "1 KB",
+    images: [
+      "images/mods/third-person-camera-1.jpg",
+      "images/mods/third-person-camera-2.jpg",
+      "images/mods/third-person-camera-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y1lAQ9kW5Pu1Wbl",
+    short: "Toggle third person camera view using the X key.",
+    description: "This mod enables a functional third person camera perspective for Subnautica 2. Players can easily toggle the camera mode by pressing the X key on their keyboard. Installation requires the UE4SS framework to be set up correctly in your game directory. Simply extract the mod files into the specified UE4SS folder to activate the feature.",
+    tags: [
+      "camera",
+      "third person",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 513,
+    game: "subnautica2",
+    title: "Elusive Leviathan Spawner",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/elusive-leviathan-spawner-1.jpg",
+      "images/mods/elusive-leviathan-spawner-2.jpg",
+      "images/mods/elusive-leviathan-spawner-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j939M5c2LXbJR5n",
+    short: "Spawn the elusive leviathan creature in your game world.",
+    description: "This mod allows players to spawn the elusive leviathan creature directly into their game world. You can easily trigger the spawn by pressing the F9 key during your session. If you need to clean up the area or remove the entity, simply press F8 to vanish it. The creature will automatically disappear in a magical cloud if you get too close to it.",
+    tags: [
+      "leviathan",
+      "spawner",
+      "creature"
+    ],
+    featured: true
+  },
+  {
+    id: 514,
+    game: "subnautica2",
+    title: "Metal Farm Tweak",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/metal-farm-tweak-1.jpg",
+      "images/mods/metal-farm-tweak-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4krp93aNHnSP5vB",
+    short: "Customize resource production times for all Metal Farm structures.",
+    description: "This mod allows you to customize the production time for each resource generated by Metal Farms. You can adjust the duration for every individual material using easy sliders in the settings menu. The mod requires UE4SS and SN2-ModSettings to function correctly within your game. Reverting to vanilla production times is simple, as the mod remembers your custom values for future use.",
+    tags: [
+      "subnautica 2",
+      "gameplay",
+      "crafting"
+    ],
+    featured: true
+  },
+  {
+    id: 515,
+    game: "nierautomata",
+    title: "Home Menu Texture Compression Fix",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "432 KB",
+    images: [
+      "images/mods/home-menu-texture-compression-fix-1.jpg",
+      "images/mods/home-menu-texture-compression-fix-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/wlj3338fRF3Ket2",
+    short: "Fixes home menu texture banding for better visual quality.",
+    description: "This mod addresses the severe color banding issues found in the main menu textures. It utilizes improved compression methods to restore visual fidelity to the screen. You can install these files by placing them into your designated texture injection folder. Future updates will focus on fixing additional particles to complete the restoration.",
+    tags: [
+      "textures",
+      "graphics",
+      "visual",
+      "menu",
+      "fix"
+    ],
+    featured: true
+  },
+  {
+    id: 516,
+    game: "nierautomata",
+    title: "DualShock 4 Controller Button Prompts",
+    category: "user-interface",
+    version: "1.0",
+    size: "56 KB",
+    images: [
+      "images/mods/dualshock-4-controller-button-prompts-1.jpg",
+      "images/mods/dualshock-4-controller-button-prompts-2.jpg",
+      "images/mods/dualshock-4-controller-button-prompts-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/z3xvT9zCO07z9Bd",
+    short: "Replace default button prompts with PlayStation 4 controller icons.",
+    description: "This mod replaces default button prompts with PlayStation 4 controller icons. It is designed to work with the July 2021 Steam patch version of the game. Installation requires either Special K or the WAX modding tool to function correctly. Follow the included instructions to ensure the textures are properly injected during gameplay.",
+    tags: [
+      "ps4",
+      "ui",
+      "controller",
+      "icons",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 517,
+    game: "nierautomata",
+    title: "2B Butterfly Retexture",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "35 MB",
+    images: [
+      "images/mods/2b-butterfly-retexture-1.jpg",
+      "images/mods/2b-butterfly-retexture-2.jpg",
+      "images/mods/2b-butterfly-retexture-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hEfu7T6zM1vypnr",
+    short: "High resolution 2B texture pack with custom butterfly decorations.",
+    description: "This mod provides high-resolution 2K and 4K textures for the 2B character model. It adds intricate details and new butterfly-themed decorations to her default outfit. Please ensure that conflicting texture packs are removed before installation to prevent potential loading issues. This release is intended for users who requested these specific aesthetic upgrades.",
+    tags: [
+      "2b",
+      "retexture",
+      "nier",
+      "high res"
+    ],
+    featured: true
+  },
+  {
+    id: 518,
+    game: "nierautomata",
+    title: "Kimono Outfits - Essentials",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "90 MB",
+    images: [
+      "images/mods/kimono-outfits-essentials-1.jpg",
+      "images/mods/kimono-outfits-essentials-2.jpg",
+      "images/mods/kimono-outfits-essentials-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bb1afTyxdmvfuaX",
+    short: "Adds collectible kimono outfits via a new in-game shop.",
+    description: "This mod introduces unique kimono and white outfits into the game. Players can acquire these new items by visiting a custom NPC shop located in the amusement park. The modification utilizes custom outfit slots and bone physics for a seamless experience. It requires the nier-mod-loader and NASA plugins to function correctly.",
+    tags: [
+      "kimono",
+      "outfits",
+      "custom",
+      "shop",
+      "costumes"
+    ],
+    featured: true
+  },
+  {
+    id: 519,
+    game: "nierautomata",
+    title: "Grid Vignette and Bunker Grain Removal",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "376 KB",
+    images: [
+      "images/mods/grid-vignette-and-bunker-grain-removal-1.jpg",
+      "images/mods/grid-vignette-and-bunker-grain-removal-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1x209VljRCq25Je",
+    short: "Remove grid overlays and bunker grain from your game.",
+    description: "This mod removes the intrusive grid overlay effect added in the latest game update. It also eliminates the unwanted grain texture visible during sequences within the Bunker. The package is now fully updated to ensure complete compatibility across all game areas. Simply extract the files into the main directory to apply these visual enhancements.",
+    tags: [
+      "graphics",
+      "visual",
+      "clean",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 520,
+    game: "nierautomata",
+    title: "Reincarnation A2 Outfit (WAX support)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "15 MB",
+    images: [
+      "images/mods/reincarnation-a2-outfit-wax-support-1.jpg",
+      "images/mods/reincarnation-a2-outfit-wax-support-2.jpg",
+      "images/mods/reincarnation-a2-outfit-wax-support-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/46s8RBH651654rc",
+    short: "Equip A2 with her official NieR Reincarnation outfit model.",
+    description: "This mod brings the official NieR Reincarnation outfit for A2 into the game. It features detailed hair and face models sourced directly from the mobile title. The front cloth includes functional self-destruction support for added realism. The package now includes full WAX support and fixes for short hair compatibility.",
+    tags: [
+      "a2",
+      "nier",
+      "outfit",
+      "skin",
+      "models"
+    ],
+    featured: true
+  },
+  {
+    id: 521,
+    game: "nierautomata",
+    title: "Alternate 2B (Reincarnation Costume)",
+    category: "models-and-textures",
+    version: "2024 Update",
+    size: "23 MB",
+    images: [
+      "images/mods/alternate-2b-reincarnation-costume-1.jpg",
+      "images/mods/alternate-2b-reincarnation-costume-2.jpg",
+      "images/mods/alternate-2b-reincarnation-costume-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1S3rw88US8S65o2",
+    short: "Replace 2B default outfit with the Reincarnation costume version.",
+    description: "This mod replaces the default 2B outfit with her iconic costume from NieR Reincarnation. It features custom physics and full support for the self-destruct animation. The 2024 update introduces high quality 4K textures for improved visual fidelity. Installation is simple and involves placing the model files directly into your game directory.",
+    tags: [
+      "2b",
+      "costume",
+      "nier",
+      "model",
+      "textures"
+    ],
+    featured: true
+  },
+  {
+    id: 522,
+    game: "nierautomata",
+    title: "2B White Dress",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "1 MB",
+    images: [
+      "images/mods/2b-white-dress-1.jpg",
+      "images/mods/2b-white-dress-2.jpg",
+      "images/mods/2b-white-dress-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/X070lEvRzQKE3Ur",
+    short: "A clean white texture for 2B's standard dress.",
+    description: "This mod provides a custom white color texture for 2B's iconic dress. It was created to offer an alternative visual style for players who enjoy taking screenshots. Please note that this texture modification does not transform the character into 2P. You will need the FAR mod installed to ensure this texture applies correctly in-game.",
+    tags: [
+      "2b",
+      "texture",
+      "white",
+      "dress",
+      "cosmetics"
+    ],
+    featured: true
+  },
+  {
+    id: 523,
+    game: "nierautomata",
+    title: "2B Bunny Girl",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "14 MB",
+    images: [
+      "images/mods/2b-bunny-girl-1.jpg",
+      "images/mods/2b-bunny-girl-2.jpg",
+      "images/mods/2b-bunny-girl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3F1xjLS9JJxYmzN",
+    short: "A custom bunny girl outfit replacement for 2B character.",
+    description: "This mod replaces the default 2B outfit with a custom bunny girl costume. You can choose between two versions including the original boots or the default design. The package was created using Nier2Blender2Nier tools for seamless integration. Please follow the included installation instructions to ensure the textures load correctly in your game data folder.",
+    tags: [
+      "2b",
+      "bunny",
+      "outfit",
+      "costume",
+      "model"
+    ],
+    featured: true
+  },
+  {
+    id: 524,
+    game: "nierautomata",
+    title: "Bunker in Color",
+    category: "models-and-textures",
+    version: "1.1",
+    size: "8 KB",
+    images: [
+      "images/mods/bunker-in-color-1.jpg",
+      "images/mods/bunker-in-color-2.jpg",
+      "images/mods/bunker-in-color-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/220RZ4Fl0Ie8DmG",
+    short: "Remove the black and white filter from the bunker.",
+    description: "This mod removes the black and white filter applied to the bunker area. It restores full color to the environment for a more vibrant look. The update provides a less saturated version with cooler hues to better suit the space atmosphere. You can easily install these files by placing them in the specified texture injection folder.",
+    tags: [
+      "bunker",
+      "textures",
+      "visuals",
+      "color"
+    ],
+    featured: true
+  },
+  {
+    id: 525,
+    game: "nierautomata",
+    title: "Reincarnation 2B Outfit (WAX support)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "16 MB",
+    images: [
+      "images/mods/reincarnation-2b-outfit-wax-support-1.jpg",
+      "images/mods/reincarnation-2b-outfit-wax-support-2.jpg",
+      "images/mods/reincarnation-2b-outfit-wax-support-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/lwjFYC8Wj39Jsz9",
+    short: "Upgrade 2B with her official NieR Reincarnation outfit mod.",
+    description: "This mod brings the official NieR Reincarnation outfit for 2B into the game with high-quality textures. It features custom 4K upscaled body textures and detailed roughness maps for a refined look. The package includes full self-destruction support and remains compatible with existing DLC armor pieces. WAX support is included to ensure seamless integration for all players.",
+    tags: [
+      "2b",
+      "nier",
+      "outfit",
+      "texture",
+      "models"
+    ],
+    featured: true
+  },
+  {
+    id: 526,
+    game: "nierautomata",
+    title: "Inventory Limit Increase to 999",
+    category: "gameplay",
+    version: "1.0",
+    size: "67 KB",
+    images: [
+      "images/mods/inventory-limit-increase-to-999-1.jpg",
+      "images/mods/inventory-limit-increase-to-999-2.jpg",
+      "images/mods/inventory-limit-increase-to-999-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6n0Sz1l20Ue0W19",
+    short: "Increase your item inventory capacity up to 999 slots.",
+    description: "This modification increases the maximum inventory capacity for all items to 999 units. It applies to all resources, consumables, and loot collected throughout the game. The limit is set to 999 to ensure optimal performance without causing game crashes. Installation is simple and involves copying the provided data folder into your main game directory.",
+    tags: [
+      "inventory",
+      "storage",
+      "gameplay",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 527,
+    game: "nierautomata",
+    title: "Android Leg Enhancements -Thicc Mod-",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "13 MB",
+    images: [
+      "images/mods/android-leg-enhancements-thicc-mod-1.jpg",
+      "images/mods/android-leg-enhancements-thicc-mod-2.jpg",
+      "images/mods/android-leg-enhancements-thicc-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jv2xJiJpvbmr11r",
+    short: "Improved leg models and proportions for NieR Automata characters.",
+    description: "This mod enhances the leg models for 2B, 9S, and A2 with higher polygon counts. It provides modified character body files while maintaining original vanilla textures. The installation requires basic file placement within the game directory and optional FAR usage. Please note that this mod is provided as-is without future updates or custom requests.",
+    tags: [
+      "nier",
+      "models",
+      "characters",
+      "2b",
+      "9s"
+    ],
+    featured: true
+  },
+  {
+    id: 528,
+    game: "nierautomata",
+    title: "Kaine's Revealing Outfit for 9S",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "24 MB",
+    images: [
+      "images/mods/kaines-revealing-outfit-for-9s-1.jpg",
+      "images/mods/kaines-revealing-outfit-for-9s-2.jpg",
+      "images/mods/kaines-revealing-outfit-for-9s-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ww9n0PFI322jLfI",
+    short: "Replaces the 9S character model with Kaine's revealing outfit.",
+    description: "This mod replaces the default 9S character model with a revealing outfit based on Kaine from Nier Replicant. It includes a body swap to give the character a feminine appearance. The mod is intended for meme purposes and serves as an experimental character model replacement. Please note that there may be visual bugs or clipping issues due to the nature of the custom mesh. Future updates are planned to refine the model and address reported feedback.",
+    tags: [
+      "9s",
+      "kaine",
+      "cosmetic",
+      "model",
+      "femboy"
+    ],
+    featured: true
   }
 ];
 
