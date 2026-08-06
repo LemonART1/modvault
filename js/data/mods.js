@@ -11507,6 +11507,486 @@ const MODS = [
       "femboy"
     ],
     featured: true
+  },
+  {
+    id: 529,
+    game: "rdr2",
+    title: "Season Manager: Dynamic Herbalism",
+    category: "gameplay",
+    version: "1.0",
+    size: "22 KB",
+    images: [
+      "images/mods/season-manager-dynamic-herbalism-1.jpg",
+      "images/mods/season-manager-dynamic-herbalism-2.jpg",
+      "images/mods/season-manager-dynamic-herbalism-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CXxM8ehxEe1KiU0",
+    short: "Adds realistic seasonal growth cycles to wild plant foraging.",
+    description: "This add-on overhauls the harvesting system by introducing a realistic twelve stage seasonal growth cycle for plants. You will encounter varied yields based on the current season with dormant phases during winter months. Certain hardy species remain available throughout the entire year for consistent foraging. The mod is fully compatible with existing trinkets and ensures quest safety for specific game missions.",
+    tags: [
+      "realism",
+      "plants",
+      "gathering",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 530,
+    game: "rdr2",
+    title: "No Camp Restrictions - Use Weapons in Camp and More (Legacy)",
+    category: "scripts",
+    version: "1.0.0",
+    size: "97 KB",
+    images: [
+      "images/mods/no-camp-restrictions-use-weapons-in-camp-and-more-legacy-1.jpg",
+      "images/mods/no-camp-restrictions-use-weapons-in-camp-and-more-legacy-2.jpg",
+      "images/mods/no-camp-restrictions-use-weapons-in-camp-and-more-legacy-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qyVblU6HpBj3lwT",
+    short: "Remove camp restrictions to use weapons and run freely.",
+    description: "This mod removes restrictive mechanics that prevent player movement and combat within the camp. You can now freely use weapons and sprint through camp areas without triggering restricted zone warnings. It also disables the disruptive enemy alert messages to facilitate seamless gunfights. Please note that this legacy script is no longer receiving official updates.",
+    tags: [
+      "rdr2",
+      "scripts",
+      "combat",
+      "camp",
+      "patch"
+    ],
+    featured: true
+  },
+  {
+    id: 531,
+    game: "rdr2",
+    title: "Mary-Beth Gaskill - Thick",
+    category: "player",
+    version: "1.0",
+    size: "4 MB",
+    images: [
+      "images/mods/mary-beth-gaskill-thick-1.jpg",
+      "images/mods/mary-beth-gaskill-thick-2.jpg",
+      "images/mods/mary-beth-gaskill-thick-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/S663u68b1jC24d8",
+    short: "A custom thicker appearance for Mary-Beth Gaskill mod.",
+    description: "This modification updates the appearance of Mary-Beth Gaskill to feature a thicker, custom character model. The creator developed this look based on community requests and initial experiments with game file editing. It provides a unique aesthetic alternative to the vanilla character model for your playthroughs. Please ensure you have Lenny's Mod Loader and the Online Content Unlocker installed to use these files.",
+    tags: [
+      "mary-beth",
+      "rdr2",
+      "model",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 532,
+    game: "rdr2",
+    title: "Dispatch",
+    category: "scripts",
+    version: "1.0",
+    size: "25 MB",
+    images: [
+      "images/mods/dispatch-1.jpg",
+      "images/mods/dispatch-2.jpg",
+      "images/mods/dispatch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9FQS21D2q0hDipX",
+    short: "A massive overhaul of law enforcement and dispatch systems.",
+    description: "This mod completely overhauls the law enforcement and dispatch response systems throughout the world. It introduces region-specific combat styles, improved AI behaviors for lawmen, and distinct tactical responses from bounty hunters. Criminal investigations are refined with updated bounty mechanics and realistic reactions from both law enforcement and gang factions. The mod also integrates new NPC types, improved interaction dialogue based on player honor, and enhanced environmental perception settings.",
+    tags: [
+      "realism",
+      "law",
+      "combat",
+      "overhaul",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 533,
+    game: "rdr2",
+    title: "Better Looking Mary Linton",
+    category: "models-textures",
+    version: "1.0",
+    size: "2 MB",
+    images: [
+      "images/mods/better-looking-mary-linton-1.jpg",
+      "images/mods/better-looking-mary-linton-2.jpg",
+      "images/mods/better-looking-mary-linton-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MsPuch6rVxrWiwx",
+    short: "A visual improvement for the character Mary Linton's appearance.",
+    description: "This mod enhances the appearance of Mary Linton by refining her character textures. The result is a cleaner and more polished look for the character throughout the game. You simply need to drag the provided files into your LML stream folder to apply the changes. Ensure you have the Lenny's Mod Loader installed before attempting to use this modification.",
+    tags: [
+      "rdr2",
+      "character",
+      "texture",
+      "makeup"
+    ],
+    featured: true
+  },
+  {
+    id: 534,
+    game: "rdr2",
+    title: "Cherry Blossoms in Saint Denis",
+    category: "visuals",
+    version: "1.0",
+    size: "136 KB",
+    images: [
+      "images/mods/cherry-blossoms-in-saint-denis-1.jpg",
+      "images/mods/cherry-blossoms-in-saint-denis-2.jpg",
+      "images/mods/cherry-blossoms-in-saint-denis-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b5X5zjy1X3qhkM0",
+    short: "Add beautiful cherry blossoms to Saint Denis city streets.",
+    description: "This mod replaces the standard tree textures in Saint Denis with vibrant cherry blossoms. The change creates a scenic and serene atmosphere throughout the city streets. It is fully compatible with existing weather mods for better lighting. Players can enjoy a fresh visual aesthetic while roaming the urban environment.",
+    tags: [
+      "rdr2",
+      "visual",
+      "nature",
+      "trees",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 535,
+    game: "rdr2",
+    title: "Better LITE-Audio Fix",
+    category: "audio",
+    version: "1.0.0",
+    size: "25 KB",
+    images: [
+      "images/mods/better-lite-audio-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cXr67w5j2hzawkb",
+    short: "Fixes online audio issues and improves compatibility for roles.",
+    description: "This modification resolves audio issues present in the original mod to allow seamless online audio usage. It ensures compatibility with catalogue improvements and supports additional roles like Bounty Hunting and Moonshiner. You can now experience weapon audio without losing environmental sounds or dialogue lines. Please set this mod to a higher priority than Catalogue Improvements for optimal functionality.",
+    tags: [
+      "audio",
+      "fix",
+      "rdr2",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 536,
+    game: "rdr2",
+    title: "Thompson M1928",
+    category: "weapons",
+    version: "1.0",
+    size: "61 MB",
+    images: [
+      "images/mods/thompson-m1928-1.jpg",
+      "images/mods/thompson-m1928-2.jpg",
+      "images/mods/thompson-m1928-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uKr0Tp2Q78G4B1R",
+    short: "Replaces the bolt action rifle with a Thompson SMG.",
+    description: "This mod replaces the standard bolt action rifle with the iconic Thompson M1928 submachine gun. The weapon features a high level of detail capturing the aesthetic of the 1920s prohibition era. Please note that custom engravings and carvings are not currently supported for this model. For the best performance and stability, users should utilize the Vulkan graphics API as DX12 is not supported.",
+    tags: [
+      "thompson",
+      "smg",
+      "rdr2",
+      "weapon",
+      "historical"
+    ],
+    featured: true
+  },
+  {
+    id: 537,
+    game: "rdr2",
+    title: "Arthur Free Roam Unlocker",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "83 KB",
+    images: [
+      "images/mods/arthur-free-roam-unlocker-1.jpg",
+      "images/mods/arthur-free-roam-unlocker-2.jpg",
+      "images/mods/arthur-free-roam-unlocker-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TR2peqC3OjQv216",
+    short: "Unlock all regions and cure Arthur for free roaming.",
+    description: "This mod removes movement restrictions for Arthur Morgan across the map. It automatically cures his tuberculosis and disables the New Austin sniper system. Players can now explore previously locked regions without dealing with constant wanted zones. The modification works as a standalone file by placing it directly into the game folder.",
+    tags: [
+      "arthur",
+      "free roam",
+      "open world",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 538,
+    game: "rdr2",
+    title: "Female Companions",
+    category: "audio",
+    version: "0.1.1",
+    size: "25 KB",
+    images: [
+      "images/mods/female-companions-1.jpg",
+      "images/mods/female-companions-2.jpg",
+      "images/mods/female-companions-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1Et5qLdi9YmMO9F",
+    short: "Recruit female characters as your permanent loyal game companions.",
+    description: "This mod allows you to recruit various female characters from Red Dead Redemption 2 as permanent companions. Your chosen companion will accompany you on your travels, ride on your horse, and assist you during combat encounters. You can easily switch between different characters using the in-game selection menu. It is designed to work seamlessly with existing camp characters and offers deep interactions for your journey.",
+    tags: [
+      "rdr2",
+      "companion",
+      "npc",
+      "sadie adler"
+    ],
+    featured: true
+  },
+  {
+    id: 539,
+    game: "rdr2",
+    title: "VAXIS's PBW - Physics Based Water",
+    category: "visuals",
+    version: "2.0",
+    size: "21 KB",
+    images: [
+      "images/mods/vaxiss-pbw-physics-based-water-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8S8I0mi2seN57Pb",
+    short: "A comprehensive water physics overhaul for Red Dead Redemption.",
+    description: "This mod provides a comprehensive overhaul of water physics to make rivers and lakes feel dynamic and heavy. It significantly improves how the environment reacts to movement from horses, boats, and characters. The update features increased wave travel, improved foam behavior, and enhanced water surface geometry. Please note that these high-fidelity physics settings may cause a minor decrease in your overall frame rate.",
+    tags: [
+      "rdr2",
+      "water",
+      "physics",
+      "visuals",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 540,
+    game: "rdr2",
+    title: "No Weapons Forbidden Zones",
+    category: "scripts",
+    version: "1.0.0",
+    size: "6 KB",
+    images: [
+      "images/mods/no-weapons-forbidden-zones-1.jpg",
+      "images/mods/no-weapons-forbidden-zones-2.jpg",
+      "images/mods/no-weapons-forbidden-zones-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4EfMju4D3lO9d64",
+    short: "Remove restricted weapon zones from your RDR2 game map.",
+    description: "This mod removes the restricted white zones from your map where weapon usage is normally disabled. It specifically enables the use of firearms in locations like Rhodes and Caliga Hall during chapter three. The script is compatible with standard ScriptHook loaders for seamless integration into your game files. You can enjoy combat encounters in previously restricted areas without any game breaking issues.",
+    tags: [
+      "rdr2",
+      "gameplay",
+      "weapons",
+      "scripts",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 541,
+    game: "rdr2",
+    title: "Dynamic Hair Color",
+    category: "player",
+    version: "1.0",
+    size: "267 KB",
+    images: [
+      "images/mods/dynamic-hair-color-1.jpg",
+      "images/mods/dynamic-hair-color-2.jpg",
+      "images/mods/dynamic-hair-color-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/98q3C0qlYLR451S",
+    short: "Customize your character hair color without complex file edits.",
+    description: "This mod enables seamless hair color customization without requiring file patches or replacements. You can adjust color values in real time through the provided configuration file or a trainer. It is compatible with both main character models while leaving eyebrow colors untouched. Simple installation via ScriptHookRDR2 allows for quick setup and immediate testing of various palette options.",
+    tags: [
+      "hair",
+      "rdr2",
+      "custom",
+      "player",
+      "style"
+    ],
+    featured: true
+  },
+  {
+    id: 542,
+    game: "rdr2",
+    title: "Faster Horse",
+    category: "gameplay",
+    version: "1.0",
+    size: "26 KB",
+    images: [
+      "images/mods/faster-horse-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ogyFT2syEIA2TBM",
+    short: "Faster horse speeds and dynamics",
+    description: "The Faster Horse mod increases the speed of horses in the game, making them faster and more enjoyable to ride. The speed boost scales dynamically with the horse's base speed stats and bonding level, keeping each horse unique. The mod also features adaptive sprint dynamics, dynamic stamina recovery, and instant speed toggle with three modes. It is designed to have zero performance impact and is compatible with other mods that do not conflict with horse core physics or movement blends. The mod is easy to install and comes with a range of features that enhance the gaming experience.",
+    tags: [
+      "horses",
+      "speed",
+      "ride"
+    ],
+    featured: true
+  },
+  {
+    id: 543,
+    game: "rdr2",
+    title: "Restored Weapon Pickup Animations and Looting",
+    category: "scripts",
+    version: "1.0.0",
+    size: "141 KB",
+    images: [
+      "images/mods/restored-weapon-pickup-animations-and-looting-1.jpg",
+      "images/mods/restored-weapon-pickup-animations-and-looting-2.jpg",
+      "images/mods/restored-weapon-pickup-animations-and-looting-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1Wpu949cG1e25G0",
+    short: "Restores cut weapon pickup animations and looting gameplay mechanics.",
+    description: "This mod restores various unused pickup animations for weapons and items throughout the game. Players now play a specific animation when looting long guns, melee weapons, and dynamite from the ground. You can also independently loot ammo from dropped weapons without deleting the firearm itself. These immersive changes bring a more realistic feel to the looting process in the wild west.",
+    tags: [
+      "realism",
+      "looting",
+      "animations",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 544,
+    game: "rdr2",
+    title: "Weapon Behavior Enhancements",
+    category: "scripts",
+    version: "1.0",
+    size: "113 KB",
+    images: [
+      "images/mods/weapon-behavior-enhancements-1.jpg",
+      "images/mods/weapon-behavior-enhancements-2.jpg",
+      "images/mods/weapon-behavior-enhancements-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HZTmhYM3l5402D7",
+    short: "An immersive scripted overhaul for improved weapon and combat mechanics.",
+    description: "This mod introduces a scripted overhaul that adds 3D physics-based shell casings and restored long arm combat animations to the game. It refines weapon behaviors like cocking states and magazine drops to provide a more immersive experience. The implementation ensures consistent performance by utilizing a dynamic cleanup system for ejected casings. Players can now enjoy fluid dual-wielding combinations between long arms and short arms during combat.",
+    tags: [
+      "weapons",
+      "physics",
+      "realism",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 545,
+    game: "rdr2",
+    title: "VAXIS's Wildlife Overhaul Mod",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "13 KB",
+    images: [
+      "images/mods/vaxiss-wildlife-overhaul-mod-1.jpg",
+      "images/mods/vaxiss-wildlife-overhaul-mod-2.jpg",
+      "images/mods/vaxiss-wildlife-overhaul-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/wUTwNC8E8KpRyrQ",
+    short: "Overhauls animal spawning and behavior for a living ecosystem.",
+    description: "This mod enhances the wildlife ecosystem by introducing cohesive herd behaviors and increased animal density. Grazing animals now travel in tight clusters while scavengers display more realistic and aggressive feeding habits. Spawning logic has been updated to ensure the world feels alive with frequent animal encounters. These changes create a more immersive hunting and exploration experience across all biomes.",
+    tags: [
+      "wildlife",
+      "realism",
+      "immersion",
+      "animals"
+    ],
+    featured: true
+  },
+  {
+    id: 546,
+    game: "rdr2",
+    title: "ZUDRANGMA Thai Language Mod",
+    category: "miscellaneous",
+    version: "7.X",
+    size: "90 MB",
+    images: [
+      "images/mods/zudrangma-thai-language-mod-1.jpg",
+      "images/mods/zudrangma-thai-language-mod-2.jpg",
+      "images/mods/zudrangma-thai-language-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/931L19I3p8ods8U",
+    short: "Complete Thai language translation patch for Red Dead Redemption 2.",
+    description: "This comprehensive mod adds Thai language support to Red Dead Redemption 2. It includes translations for all main quests, side missions, documents, and Arthur's journal entries. The project continues to expand with ongoing translations for NPC dialogue and random camp conversations. Players must use Lenny's Mod Loader to ensure proper installation and compatibility.",
+    tags: [
+      "thai",
+      "translation",
+      "language",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 547,
+    game: "rdr2",
+    title: "Weapon Smoke Particle Fix",
+    category: "gameplay",
+    version: "1.0",
+    size: "10 KB",
+    images: [
+      "images/mods/weapon-smoke-particle-fix-1.jpg",
+      "images/mods/weapon-smoke-particle-fix-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Sa8bs23fZT1P5b5",
+    short: "Fixes weapon smoke particles",
+    description: "This mod fixes the issue with smoke particles produced by two-handed weapons in Red Dead Redemption 2. The smoke particles would appear sped up when fired in deadeye, making it look distracting. This mod tweaks the smoke particles to make them look less distracting. It is a small fix that can be easily installed by placing it into your lml folder. The result is a more realistic and immersive gaming experience.",
+    tags: [
+      "smoke",
+      "fix",
+      "guns"
+    ],
+    featured: true
+  },
+  {
+    id: 548,
+    game: "rdr2",
+    title: "High Stakes Poker - Custom Stakes",
+    category: "gameplay",
+    version: "1.0",
+    size: "123 KB",
+    images: [
+      "images/mods/high-stakes-poker-custom-stakes-1.jpg",
+      "images/mods/high-stakes-poker-custom-stakes-2.jpg",
+      "images/mods/high-stakes-poker-custom-stakes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ywNjTIj2wf67Awu",
+    short: "Customize your poker buy-in stakes at every game location.",
+    description: "This mod enhances the poker experience by allowing players to customize buy-in stakes at various locations. It patches the internal game logic to ensure all participating NPCs follow your defined stake amounts. An included configuration file makes it easy to adjust betting limits for different towns across the map. The system remains fully integrated with vanilla mechanics and requires sufficient cash to join high-stakes tables.",
+    tags: [
+      "poker",
+      "gambling",
+      "rdr2",
+      "economy",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 549,
+    game: "rdr2",
+    title: "Clear Dead Eye",
+    category: "visuals",
+    version: "1.0",
+    size: "101 KB",
+    images: [
+      "images/mods/clear-dead-eye-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZJWD8ExMNOY48x8",
+    short: "Remove the Dead Eye visual filter for clearer gameplay.",
+    description: "This mod removes the distracting visual filter applied during Dead Eye mode in Red Dead Redemption 2. You can still utilize the slowdown and targeting mechanics without the heavy screen tint or grain effects. The package offers two installation options providing either a smooth fade or an instant removal. Please ensure you only install one of the provided versions to avoid file conflicts. This modification is intended for Story Mode gameplay and should not be used in Red Dead Online.",
+    tags: [
+      "dead eye",
+      "visuals",
+      "rdr2",
+      "clean"
+    ],
+    featured: true
   }
 ];
 
