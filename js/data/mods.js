@@ -3111,7 +3111,6 @@ const MODS = [
   {
     id: 156,
     game: "cyberpunk",
-    mature: true,
     title: "Summer Laces Bikini - Archive XL",
     category: "armour-clothing",
     version: "1.0",
@@ -3130,7 +3129,8 @@ const MODS = [
       "femv",
       "apparel"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 157,
@@ -9659,7 +9659,6 @@ const MODS = [
   {
     id: 448,
     game: "re4",
-    mature: true,
     title: "Bigger Ass for Ashley",
     category: "characters",
     version: "1.0",
@@ -9678,7 +9677,8 @@ const MODS = [
       "character",
       "cosmetic"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 449,
@@ -9818,7 +9818,6 @@ const MODS = [
   {
     id: 455,
     game: "re4",
-    mature: true,
     title: "Bigger Ass for Ada",
     category: "characters",
     version: "1.0",
@@ -9837,7 +9836,8 @@ const MODS = [
       "character",
       "cosmetic"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 456,
@@ -10284,7 +10284,6 @@ const MODS = [
   {
     id: 475,
     game: "rdr2",
-    mature: true,
     title: "Thiccer Sadie",
     category: "models-textures",
     version: "1.0",
@@ -10303,7 +10302,8 @@ const MODS = [
       "textures",
       "character"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 476,
@@ -10813,7 +10813,6 @@ const MODS = [
   {
     id: 498,
     game: "nierautomata",
-    mature: true,
     title: "2B Breast Physics Mod",
     category: "models-and-textures",
     version: "1.0",
@@ -10831,7 +10830,8 @@ const MODS = [
       "nier",
       "automata"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 499,
@@ -11468,7 +11468,6 @@ const MODS = [
   {
     id: 527,
     game: "nierautomata",
-    mature: true,
     title: "Android Leg Enhancements -Thicc Mod-",
     category: "models-and-textures",
     version: "1.0",
@@ -11488,12 +11487,12 @@ const MODS = [
       "2b",
       "9s"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 528,
     game: "nierautomata",
-    mature: true,
     title: "Kaine's Revealing Outfit for 9S",
     category: "models-and-textures",
     version: "1.0",
@@ -11513,7 +11512,8 @@ const MODS = [
       "model",
       "femboy"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 529,
@@ -12668,7 +12668,6 @@ const MODS = [
   {
     id: 579,
     game: "nierautomata",
-    mature: true,
     title: "2B - Nun Outfit",
     category: "models-and-textures",
     version: "1.0",
@@ -12687,7 +12686,8 @@ const MODS = [
       "outfit",
       "experimental"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 580,
@@ -12734,7 +12734,6 @@ const MODS = [
   {
     id: 582,
     game: "nierautomata",
-    mature: true,
     title: "2B or THICC2B",
     category: "models-and-textures",
     version: "1.0",
@@ -12754,7 +12753,8 @@ const MODS = [
       "skin",
       "character"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 583,
@@ -12851,7 +12851,6 @@ const MODS = [
   {
     id: 587,
     game: "nierautomata",
-    mature: true,
     title: "2B Officer Outfit",
     category: "models-and-textures",
     version: "1.0",
@@ -12871,12 +12870,12 @@ const MODS = [
       "costume",
       "nier"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 588,
     game: "nierautomata",
-    mature: true,
     title: "Latex Skirt for 2B",
     category: "models-and-textures",
     version: "1.0",
@@ -12896,7 +12895,8 @@ const MODS = [
       "latex",
       "cosmetic"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 589,
@@ -12970,7 +12970,6 @@ const MODS = [
   {
     id: 592,
     game: "nierautomata",
-    mature: true,
     title: "YoRHa Underwear",
     category: "models-and-textures",
     version: "1.0",
@@ -12990,12 +12989,12 @@ const MODS = [
       "outfit",
       "underwear"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 593,
     game: "nierautomata",
-    mature: true,
     title: "2B with stocking",
     category: "models-and-textures",
     version: "1.0",
@@ -13015,7 +13014,8 @@ const MODS = [
       "texture",
       "model"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 594,
@@ -13044,7 +13044,6 @@ const MODS = [
   {
     id: 595,
     game: "nierautomata",
-    mature: true,
     title: "Skirtless 2B",
     category: "models-and-textures",
     version: "1.0",
@@ -13062,7 +13061,8 @@ const MODS = [
       "skin",
       "nier"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 596,
@@ -13138,7 +13138,6 @@ const MODS = [
   {
     id: 599,
     game: "nierautomata",
-    mature: true,
     title: "2B BLACKED Sports Bra and Thong",
     category: "models-and-textures",
     version: "1.0",
@@ -13158,7 +13157,8 @@ const MODS = [
       "model",
       "outfit"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 600,
@@ -13851,7 +13851,6 @@ const MODS = [
   {
     id: 630,
     game: "re4",
-    mature: true,
     title: "Ada Summer Swimsuit",
     category: "characters",
     version: "1.0",
@@ -13870,12 +13869,12 @@ const MODS = [
       "character",
       "outfit"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 631,
     game: "re4",
-    mature: true,
     title: "Chun Li Cow Microbikini over Ada Wong",
     category: "characters",
     version: "1.1",
@@ -13894,7 +13893,8 @@ const MODS = [
       "skin",
       "resident evil"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 632,
@@ -13945,7 +13945,6 @@ const MODS = [
   {
     id: 634,
     game: "re4",
-    mature: true,
     title: "AW - Cow Bikini",
     category: "audio",
     version: "1.0",
@@ -13963,7 +13962,8 @@ const MODS = [
       "bikini",
       "outfit"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 635,
@@ -14015,7 +14015,6 @@ const MODS = [
   {
     id: 637,
     game: "re4",
-    mature: true,
     title: "Ada - Agent of Seduction",
     category: "characters",
     version: "1.0",
@@ -14033,7 +14032,8 @@ const MODS = [
       "character",
       "overhaul"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 638,
@@ -14129,7 +14129,6 @@ const MODS = [
   {
     id: 642,
     game: "re4",
-    mature: true,
     title: "Ada - Ocean Maid",
     category: "characters",
     version: "1.0",
@@ -14148,7 +14147,8 @@ const MODS = [
       "outfit",
       "costume"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 643,
@@ -14366,6 +14366,1163 @@ const MODS = [
       "raven",
       "stellarblade",
       "character"
+    ],
+    featured: true
+  },
+  {
+    id: 653,
+    game: "starfield",
+    title: "KZ United Colonies Depository",
+    category: "clothing",
+    version: "1.0",
+    size: "388 MB",
+    images: [
+      "images/mods/kz-united-colonies-depository-1.jpg",
+      "images/mods/kz-united-colonies-depository-2.jpg",
+      "images/mods/kz-united-colonies-depository-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DxDgGOyIq4bK8uc",
+    short: "Add new UC themed spacesuits and outfits to Starfield.",
+    description: "This mod introduces a large variety of United Colonies themed spacesuits and outfits into the game. You can purchase these items from Wen Tseng in the UC Distribution center. Additional skins for your gear are available to craft at any Spacesuit Workbench. The collection includes tactical gear, field uniforms, and unique helmets for your character.",
+    tags: [
+      "uc",
+      "clothing",
+      "spacesuits",
+      "faction",
+      "armor"
+    ],
+    featured: true
+  },
+  {
+    id: 654,
+    game: "starfield",
+    title: "StarUI HUD - Free Lanes Compatibility Patch",
+    category: "user-interface",
+    version: "0.5",
+    size: "2.3 MB",
+    images: [
+      "images/mods/starui-hud-free-lanes-compatibility-patch-1.jpg",
+      "images/mods/starui-hud-free-lanes-compatibility-patch-2.jpg",
+      "images/mods/starui-hud-free-lanes-compatibility-patch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/gJAi6s4QtrNg0ru",
+    short: "Restores StarUI HUD compatibility after the Free Lanes update.",
+    description: "This patch restores full StarUI HUD functionality following the Free Lanes game update. It rebinds essential interface elements to support the new Rank 4 weapons and armor system. Users must install the original StarUI HUD mod first and overwrite the files as instructed. The patch ensures consistent performance and UI compatibility for your current Starfield installation.",
+    tags: [
+      "starfield",
+      "starui",
+      "hud",
+      "patch",
+      "ui"
+    ],
+    featured: true
+  },
+  {
+    id: 655,
+    game: "starfield",
+    title: "KZ Venatorial Frontiers Armory",
+    category: "armor",
+    version: "1.0",
+    size: "567 MB",
+    images: [
+      "images/mods/kz-venatorial-frontiers-armory-1.jpg",
+      "images/mods/kz-venatorial-frontiers-armory-2.jpg",
+      "images/mods/kz-venatorial-frontiers-armory-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y5Hnal462q1sI58",
+    short: "Add new themed spacesuits and outfits to Starfield gear.",
+    description: "This mod introduces various Freestar, Ranger, and Bounty Hunter themed spacesuits and outfits to your game. Players can purchase these items from Emerson Shepherd in Akila City or craft custom skins at a spacesuit workbench. The collection includes diverse gear such as helmets, boostpacks, and specialized clothing for your character. It provides a more authentic frontier aesthetic for explorers traversing the settled systems.",
+    tags: [
+      "armor",
+      "space",
+      "outfits",
+      "starfield"
+    ],
+    featured: true
+  },
+  {
+    id: 656,
+    game: "starfield",
+    title: "StarUI Ship Builder - Free Lanes Compatibility Patch",
+    category: "user-interface",
+    version: "0.8",
+    size: "3.1 MB",
+    images: [
+      "images/mods/starui-ship-builder-free-lanes-compatibility-patch-1.jpg",
+      "images/mods/starui-ship-builder-free-lanes-compatibility-patch-2.jpg",
+      "images/mods/starui-ship-builder-free-lanes-compatibility-patch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fDEq74GUa99B3qM",
+    short: "Compatibility patch for StarUI Ship Builder after game updates.",
+    description: "This mod provides essential compatibility updates for the StarUI Ship Builder interface after the Free Lanes game update. It resolves various issues including menu loading hangs and variant selection bugs. Users should install this patch after the base StarUI Ship Builder mod to ensure correct file overwriting. This release improves overall performance and stability for ship building tasks.",
+    tags: [
+      "starfield",
+      "ship builder",
+      "ui",
+      "patch",
+      "fix"
+    ],
+    featured: true
+  },
+  {
+    id: 657,
+    game: "starfield",
+    title: "True Seamless Grav Jumps SFSE",
+    category: "gameplay",
+    version: "1.0",
+    size: "3.4 MB",
+    images: [
+      "images/mods/true-seamless-grav-jumps-sfse-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y7CTTS4tJHFCzb5",
+    short: "Remove loading screens and white flashes during grav jumps.",
+    description: "This mod removes loading screens and white flashes during grav jumps. Your ship remains visible throughout the entire jump sequence for better immersion. It is recommended to disable autosave on travel to prevent potential stuttering during transitions. The mod is compatible with most grav jump visual effects and travel-related mods.",
+    tags: [
+      "starfield",
+      "immersion",
+      "gameplay",
+      "space"
+    ],
+    featured: true
+  },
+  {
+    id: 658,
+    game: "starfield",
+    title: "StarUI Outpost - Free Lanes Compatibility Patch",
+    category: "user-interface",
+    version: "0.6",
+    size: "1.3 MB",
+    images: [
+      "images/mods/starui-outpost-free-lanes-compatibility-patch-1.jpg",
+      "images/mods/starui-outpost-free-lanes-compatibility-patch-2.jpg",
+      "images/mods/starui-outpost-free-lanes-compatibility-patch-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2807BNc5rFwn00m",
+    short: "Essential compatibility patch for StarUI Outpost and Free Lanes.",
+    description: "This patch updates StarUI Outpost to ensure full compatibility with the official Free Lanes game update. It adds essential support for the new Precise Placement Mode to keep your interface running smoothly. The mod includes various bug fixes and improvements to maintain functionality in the absence of the original author. Users must install the base StarUI Outpost mod before applying these files to their game directory.",
+    tags: [
+      "starfield",
+      "patch",
+      "starui",
+      "interface",
+      "fix"
+    ],
+    featured: true
+  },
+  {
+    id: 659,
+    game: "starfield",
+    title: "Roleplayers' Alternate Start",
+    category: "gameplay",
+    version: "1.0",
+    size: "136 MB",
+    images: [
+      "images/mods/roleplayers-alternate-start-1.jpg",
+      "images/mods/roleplayers-alternate-start-2.jpg",
+      "images/mods/roleplayers-alternate-start-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tSiNL4CPQ3t2GtL",
+    short: "Fully dynamic alternate start framework for roleplayers and explorers.",
+    description: "This mod provides a fully dynamic framework for alternate beginnings, allowing players to bypass the standard mining introduction. It offers multiple paths into the main quest, unique starting scenarios, and customizable character gear. The mod is designed with high compatibility in mind, ensuring it works seamlessly with most existing mod-added content. It includes features for both new playthroughs and New Game Plus, such as ship and home selection options.",
+    tags: [
+      "roleplay",
+      "start",
+      "quest",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 660,
+    game: "starfield",
+    title: "NeonExpansion",
+    category: "locations",
+    version: "1.0",
+    size: "128 MB",
+    images: [
+      "images/mods/neonexpansion-1.jpg",
+      "images/mods/neonexpansion-2.jpg",
+      "images/mods/neonexpansion-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6Hll93a0oQXoMlV",
+    short: "Massively expands Neon City with new shops and homes.",
+    description: "This mod significantly expands Neon City to better match original concept art. It adds thirty-six uniquely decorated shops and nine new player residences throughout the district. All new areas feature seamless transitions without loading screens for an immersive experience. The project maintains full compatibility with main story and side quests within the city.",
+    tags: [
+      "neon",
+      "starfield",
+      "city",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 661,
+    game: "starfield",
+    title: "Taliohs Hair Collection",
+    category: "appearance",
+    version: "1.0",
+    size: "86.0 MB",
+    images: [
+      "images/mods/taliohs-hair-collection-1.jpg",
+      "images/mods/taliohs-hair-collection-2.jpg",
+      "images/mods/taliohs-hair-collection-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Og4SWMH6PXl6m5h",
+    short: "A collection of new fuller hairstyles for your character.",
+    description: "This mod adds a collection of longer and fuller hairstyles to Starfield. These new options are standalone and do not replace any existing vanilla hair assets. They utilize standard game textures so they remain compatible with third party texture improvement mods. You can install these via your preferred mod manager or by manually placing files in the data folder.",
+    tags: [
+      "hair",
+      "cosmetics",
+      "character",
+      "style"
+    ],
+    featured: true
+  },
+  {
+    id: 662,
+    game: "starfield",
+    title: "Gagarin - New Dawn",
+    category: "locations",
+    version: "1.0",
+    size: "2.7 MB",
+    images: [
+      "images/mods/gagarin-new-dawn-1.jpg",
+      "images/mods/gagarin-new-dawn-2.jpg",
+      "images/mods/gagarin-new-dawn-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OwJq015vZR326O2",
+    short: "Revitalizes Gagarin Landing with realistic infrastructure and improved detail.",
+    description: "This mod revitalizes Gagarin Landing by adding functional infrastructure and realistic environmental storytelling to the settlement. It introduces a new control tower, corporate housing, and expanded spaceport activity to make the city feel lived-in. The design utilizes vanilla assets and remains performance-friendly while ensuring zero conflicts with existing quests. New NPCs have been placed throughout the area to enhance immersion and bring the landing pads to life.",
+    tags: [
+      "starfield",
+      "gagarin",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 663,
+    game: "starfield",
+    title: "Real Sandy Deserts - Biome Visual Transformation",
+    category: "environment",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/real-sandy-deserts-biome-visual-transformation-1.jpg",
+      "images/mods/real-sandy-deserts-biome-visual-transformation-2.jpg",
+      "images/mods/real-sandy-deserts-biome-visual-transformation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9vsZO2Q146ftL73",
+    short: "Transform sandy biomes into vast, endless dune desert landscapes.",
+    description: "This mod transforms sandy biomes by removing procedural rocks and gas vents to create vast, endless dune landscapes. It retextures terrain across thirty-five planets and moons to ensure a consistent and immersive aesthetic. While mining minerals becomes more difficult, resource harvesting at outposts and quest progression remain fully functional. The modification focuses on visual changes and does not alter worldspaces, weather, or cell data.",
+    tags: [
+      "starfield",
+      "deserts",
+      "dunes",
+      "environment"
+    ],
+    featured: true
+  },
+  {
+    id: 664,
+    game: "starfield",
+    title: "Vibrant Volcanic Landscapes",
+    category: "visuals",
+    version: "1.1",
+    size: "5 KB",
+    images: [
+      "images/mods/vibrant-volcanic-landscapes-1.jpg",
+      "images/mods/vibrant-volcanic-landscapes-2.jpg",
+      "images/mods/vibrant-volcanic-landscapes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3vdOI3p3lA0G51U",
+    short: "Colorful visual overhaul for volcanic biomes and planetary surfaces.",
+    description: "This mod provides a complete visual overhaul for specific volcanic biomes in the game. It replaces dull terrain textures with vibrant colors and adds striking turquoise water to volcanic lakes. An optional file is included to adjust planetary characteristics for a better outpost experience. The mod is purely aesthetic and remains compatible with most existing gameplay systems.",
+    tags: [
+      "visuals",
+      "planets",
+      "biomes",
+      "retexture"
+    ],
+    featured: true
+  },
+  {
+    id: 665,
+    game: "starfield",
+    title: "Planet Diving Suit (Tachy)",
+    category: "armor",
+    version: "1.0",
+    size: "86 MB",
+    images: [
+      "images/mods/planet-diving-suit-tachy-1.jpg",
+      "images/mods/planet-diving-suit-tachy-2.jpg",
+      "images/mods/planet-diving-suit-tachy-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Vt1AtwfH3hdgs90",
+    short: "A standalone Tachy suit port featuring apparel and spacesuits.",
+    description: "This mod adds a standalone port of Tachy's suit from Stellar Blade to your game. It provides both apparel and spacesuit versions with multiple color and visor customization options. You can craft these items at an Industrial Workbench or acquire them via console commands. Please note that custom body morphs are not included so some clipping may occur on certain character types.",
+    tags: [
+      "tachy",
+      "stellar blade",
+      "armor",
+      "sci-fi"
+    ],
+    featured: true
+  },
+  {
+    id: 666,
+    game: "starfield",
+    title: "The Lodge Awakened",
+    category: "environment",
+    version: "1.0",
+    size: "193 KB",
+    images: [
+      "images/mods/the-lodge-awakened-1.jpg",
+      "images/mods/the-lodge-awakened-2.jpg",
+      "images/mods/the-lodge-awakened-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Zd77DDBuOWb8HkA",
+    short: "Brings the Constellation headquarters to life with new NPCs.",
+    description: "This mod transforms the Lodge into a bustling command center filled with NPCs. You will find researchers and security staff actively working throughout the building. The environment is updated with new materials to make the headquarters feel lived-in and functional. It serves as a fully playable foundation for future immersive overhauls.",
+    tags: [
+      "starfield",
+      "lodge",
+      "immersion",
+      "npc"
+    ],
+    featured: true
+  },
+  {
+    id: 667,
+    game: "starfield",
+    title: "UC Vanguard - Expanded Presence",
+    category: "characters",
+    version: "1.0",
+    size: "4.9 MB",
+    images: [
+      "images/mods/uc-vanguard-expanded-presence-1.jpg",
+      "images/mods/uc-vanguard-expanded-presence-2.jpg",
+      "images/mods/uc-vanguard-expanded-presence-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6l74NJe557U1vh1",
+    short: "Adds immersive UC Vanguard NPCs across various game locations.",
+    description: "This mod enhances the game world by adding ambient UC Vanguard NPCs to various key locations across the Settled Systems. It improves immersion by making the faction feel like a living, active presence rather than an absent force. The mod includes new captains, officers, and environmental clutter at major hubs like New Atlantis and Cydonia. Each character uses vanilla assets to ensure stability and seamless integration with existing save files.",
+    tags: [
+      "vanguard",
+      "lore",
+      "immersion",
+      "npcs"
+    ],
+    featured: true
+  },
+  {
+    id: 668,
+    game: "starfield",
+    title: "Hatch-22 - Simple Ship Doors",
+    category: "gameplay",
+    version: "1.4.0",
+    size: "305 KB",
+    images: [
+      "images/mods/hatch-22-simple-ship-doors-1.jpg",
+      "images/mods/hatch-22-simple-ship-doors-2.jpg",
+      "images/mods/hatch-22-simple-ship-doors-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TPDrt0SKuYtHn5b",
+    short: "Easily control ship interior door and ladder placement markers.",
+    description: "Hatch-22 provides a lightweight way to control door and ladder placement within your ships. The mod introduces placeable markers that influence the game's existing algorithm instead of replacing it entirely. You can choose from various hatch types, including sliding, folding, and pressure doors to suit your build. It is designed to be easy to maintain while offering more interior customization options.",
+    tags: [
+      "shipbuilder",
+      "doors",
+      "interiors"
+    ],
+    featured: true
+  },
+  {
+    id: 669,
+    game: "starfield",
+    title: "Configurable Spacesuit Auto-Hide",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/configurable-spacesuit-auto-hide-1.jpg",
+      "images/mods/configurable-spacesuit-auto-hide-2.jpg",
+      "images/mods/configurable-spacesuit-auto-hide-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y0LjGQ8jUeDOnEJ",
+    short: "Customizable visibility settings for player and companion space suits.",
+    description: "This mod provides detailed configuration options for the automatic hiding of spacesuits in Starfield. Players can customize visibility rules for settlements, spaceships, combat scenarios, and planetary exploration. You can adjust these settings directly through the new dedicated gameplay options menu. It also includes support for syncing helmet behavior and companion appearance settings to the player's preferences.",
+    tags: [
+      "gameplay",
+      "suits",
+      "immersion",
+      "settings"
+    ],
+    featured: true
+  },
+  {
+    id: 670,
+    game: "starfield",
+    title: "Dark Universe - Retrograde",
+    category: "locations",
+    version: "1.0",
+    size: "19.8 MB",
+    images: [
+      "images/mods/dark-universe-retrograde-1.jpg",
+      "images/mods/dark-universe-retrograde-2.jpg",
+      "images/mods/dark-universe-retrograde-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0g43z4HZgl57XjM",
+    short: "Explore 150 procedurally generated space station dungeons and missions.",
+    description: "This mod introduces 150 procedurally generated space station dungeons to the settled systems. Players can explore abandoned outposts through repeatable bounty missions and random encounters. The modular tile-based architecture ensures that each interior layout remains unique and challenging. You will face diverse enemy commanders and crews as you loot these dangerous derelict facilities.",
+    tags: [
+      "dungeons",
+      "space",
+      "bounty",
+      "missions"
+    ],
+    featured: true
+  },
+  {
+    id: 671,
+    game: "starfield",
+    title: "True Space",
+    category: "visuals",
+    version: "1.0",
+    size: "14 KB",
+    images: [
+      "images/mods/true-space-1.jpg",
+      "images/mods/true-space-2.jpg",
+      "images/mods/true-space-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6ghD6TOq98p22wq",
+    short: "Transform space into a grounded and realistic celestial environment.",
+    description: "True Space enhances the game visuals to achieve a more grounded and realistic celestial appearance. The mod replaces vanilla skyboxes and light settings to eliminate the cartoonish blue tones found in deep space. It features balanced sun flares and high-quality textures inspired by real NASA photography. This modification creates a professional space-sim atmosphere for all your interstellar exploration journeys.",
+    tags: [
+      "space",
+      "visuals",
+      "overhaul",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 672,
+    game: "starfield",
+    title: "Real Frozen Mountains - Biome Visual Transformation",
+    category: "visuals",
+    version: "2.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/real-frozen-mountains-biome-visual-transformation-1.jpg",
+      "images/mods/real-frozen-mountains-biome-visual-transformation-2.jpg",
+      "images/mods/real-frozen-mountains-biome-visual-transformation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E28rDEstbqP1J9s",
+    short: "A massive visual overhaul for Frozen Mountain biomes.",
+    description: "This mod performs a complete visual and weather overhaul of the Frozen Mountains biome. It transforms standard mountain terrain into towering, frigid landscapes with steep snowy slopes. New custom weather patterns create a sense of scale with dynamic fog layers. These changes provide stunning views for explorers and improve the scenery on dozens of planets.",
+    tags: [
+      "biomes",
+      "visual",
+      "mountains",
+      "weather"
+    ],
+    featured: true
+  },
+  {
+    id: 673,
+    game: "starfield",
+    title: "Taliohs Hair Booster Pack",
+    category: "appearance",
+    version: "1.0",
+    size: "94.3 MB",
+    images: [
+      "images/mods/taliohs-hair-booster-pack-1.jpg",
+      "images/mods/taliohs-hair-booster-pack-2.jpg",
+      "images/mods/taliohs-hair-booster-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NQ4Z1PPMpTUp59W",
+    short: "A collection of new hairstyles for your space adventures.",
+    description: "This mod adds a collection of new hairstyles to increase variety for your characters. The pack uses existing vanilla textures ensuring full compatibility with other hair modifications. You can easily install these files using your preferred mod manager or by placing them into your data folder. Future updates will introduce additional styles to the collection.",
+    tags: [
+      "hair",
+      "character",
+      "starfield",
+      "cosmetics"
+    ],
+    featured: true
+  },
+  {
+    id: 674,
+    game: "starfield",
+    title: "Hopetown - New Dawn",
+    category: "locations",
+    version: "1.0",
+    size: "6.1 MB",
+    images: [
+      "images/mods/hopetown-new-dawn-1.jpg",
+      "images/mods/hopetown-new-dawn-2.jpg",
+      "images/mods/hopetown-new-dawn-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9j4sL4sMKB11Ps8",
+    short: "An immersive overhaul adding life to Hopetown's industrial city.",
+    description: "This mod transforms Hopetown into a bustling and atmospheric industrial hub. It introduces custom buildings, residential towers, and a lively cemetery area to enhance the setting. The population is significantly increased with diverse NPCs, updated outfits, and ambient behavior markers. This project remains script-free and fully compatible with existing save files.",
+    tags: [
+      "hopetown",
+      "immersion",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 675,
+    game: "starfield",
+    title: "Va'ruun Technical Institute Ship Habs",
+    category: "ships",
+    version: "1.0",
+    size: "17.9 MB",
+    images: [
+      "images/mods/varuun-technical-institute-ship-habs-1.jpg",
+      "images/mods/varuun-technical-institute-ship-habs-2.jpg",
+      "images/mods/varuun-technical-institute-ship-habs-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OYgRxQ6N65202nn",
+    short: "Expand your Starfield fleet with unique Va'ruun themed habs.",
+    description: "This mod introduces a comprehensive collection of Va'ruun themed ship habs designed to enhance long-term space exploration. Players can visit the new Va'ruun Shipyard to purchase these unique structural parts and prebuilt ships. The mod includes a wide variety of functional rooms such as armories, morgues, hydroponics, and brig modules. It also features extensive compatibility patches for popular ship building and functionality mods.",
+    tags: [
+      "ship",
+      "habs",
+      "varuun",
+      "space",
+      "modular"
+    ],
+    featured: true
+  },
+  {
+    id: 676,
+    game: "starfield",
+    title: "Davefield - Loot Container UI",
+    category: "user-interface",
+    version: "v1.3",
+    size: "439 KB",
+    images: [
+      "images/mods/davefield-loot-container-ui-1.jpg",
+      "images/mods/davefield-loot-container-ui-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/sC032ds4TtKCoZD",
+    short: "Loot Container UI improved",
+    description: "This mod improves the loot box and corpse UI in Starfield, adding icons for quick visual checks and a credit symbol for valuable items. It covers both ship and ground loot, and includes optional files for different versions. The mod is designed to be a simple change to the vanilla UI and can be safely removed mid-playthrough, but may cause a load shift. It is incompatible with other mods that change the hudrolloveractivation or shiphudquickcontainer files.",
+    tags: [
+      "loot",
+      "ui",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 677,
+    game: "starfield",
+    title: "Icy Moon - Porrima IV-d Biome Overhaul",
+    category: "environment",
+    version: "1.0",
+    size: "23 KB",
+    images: [
+      "images/mods/icy-moon-porrima-iv-d-biome-overhaul-1.jpg",
+      "images/mods/icy-moon-porrima-iv-d-biome-overhaul-2.jpg",
+      "images/mods/icy-moon-porrima-iv-d-biome-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/btH0I6t28CPBqyK",
+    short: "Transform the Porrima IV-d swamp into a scenic ice sheet.",
+    description: "This mod transforms the swamp biome of Porrima IV-d into a vast, visually stunning ice sheet. The terrain textures are updated to feature solid ice while the water is now safe for swimming. This aesthetic change creates a more scenic environment for players looking to establish a cold-climate outpost. The modification functions as a skin pack and does not alter core gameplay mechanics like flora or fauna.",
+    tags: [
+      "starfield",
+      "biome",
+      "ice",
+      "overhaul",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 678,
+    game: "starfield",
+    title: "Disk Cache Enabler for SFSE",
+    category: "utilities",
+    version: "Current",
+    size: "5 KB",
+    images: [
+      "images/mods/disk-cache-enabler-for-sfse-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/o5bkaoL11sp1WHo",
+    short: "Optimize disk caching to reduce performance lag and spikes.",
+    description: "This mod optimizes disk cache usage to reduce performance spikes and improve overall stability. It is particularly effective for users running the game on traditional hard drives. The plugin requires the Starfield Script Extender to function correctly. Ensure you remove any conflicting ASI versions before installation to avoid crashes.",
+    tags: [
+      "performance",
+      "optimization",
+      "sfse"
+    ],
+    featured: true
+  },
+  {
+    id: 679,
+    game: "stardew",
+    title: "Elle's Cat Replacements",
+    category: "pets",
+    version: "1.1.0",
+    size: "682 KB",
+    images: [
+      "images/mods/elles-cat-replacements-1.jpg",
+      "images/mods/elles-cat-replacements-2.jpg",
+      "images/mods/elles-cat-replacements-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WZdLvkDk3QEAOji",
+    short: "Add fifty-one unique cat skins to your farm pets.",
+    description: "This mod provides 51 unique retexture options to customize your in-game cat. Players can configure different skins and optional collars for each of the three vanilla cat types. The package also includes updated menu icons that reflect your chosen appearance. Optional files are provided for users of the Adopt 'n Skin mod to expand your pet variety.",
+    tags: [
+      "cats",
+      "pets",
+      "retexture",
+      "cosmetic",
+      "animals"
+    ],
+    featured: true
+  },
+  {
+    id: 680,
+    game: "stardew",
+    title: "Date Night Redux",
+    category: "gameplay-mechanics",
+    version: "2.3.0",
+    size: "260 KB",
+    images: [
+      "images/mods/date-night-redux-1.jpg",
+      "images/mods/date-night-redux-2.jpg",
+      "images/mods/date-night-redux-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KEboX6s3BTR628J",
+    short: "Enjoy romantic dates with your spouse after getting married.",
+    description: "Date Night Redux brings post-marriage dates back to Stardew Valley 1.6.4 and beyond. This mod allows your spouse to ask you out on various romantic outings including saloon visits, picnics, and beach trips. It features a fully rewritten codebase with i18n support for easier translations and improved compatibility. The mod fixes several bugs from the original version and removes the dependency on Event Repeater.",
+    tags: [
+      "marriage",
+      "romance",
+      "events",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 681,
+    game: "stardew",
+    title: "Fishing Made Easy Suite",
+    category: "gameplay-mechanics",
+    version: "7.0.0",
+    size: "259 KB",
+    images: [
+      "images/mods/fishing-made-easy-suite-1.jpg",
+      "images/mods/fishing-made-easy-suite-2.jpg",
+      "images/mods/fishing-made-easy-suite-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OfQe90E2W910328",
+    short: "Customize fishing difficulty, spawn rates, and game mechanics easily.",
+    description: "This comprehensive suite allows you to fully customize your fishing experience in Stardew Valley. You can adjust fishing difficulty, modify fish spawn rates, remove trash from waters, and enable legendary fish to be caught multiple times. It includes extensive configuration for bait machines, tackle, and shop prices to streamline your gameplay. The mod is fully compatible with popular expansion mods and offers deep control over every aspect of fishing.",
+    tags: [
+      "fishing",
+      "gameplay",
+      "overhaul",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 682,
+    game: "stardew",
+    title: "Trinket Tinker",
+    category: "modding-tools",
+    version: "1.6.9+",
+    size: "159 KB",
+    images: [
+      "images/mods/trinket-tinker-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/d272jh00KGGkmUZ",
+    short: "A powerful framework for creating custom trinkets and companions.",
+    description: "Trinket Tinker is a comprehensive framework that allows modders to create custom trinkets and companions. It enables advanced features like animated movement patterns and dynamic event-based abilities through Content Patcher. The framework includes a skin system and support for custom effects triggered by external C# mods. Developers can utilize its built-in inventory system and extensive net field synchronization for multiplayer compatibility.",
+    tags: [
+      "framework",
+      "modding",
+      "trinkets",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 683,
+    game: "stardew",
+    title: "Skip Intro",
+    category: "gameplay-mechanics",
+    version: "1.0.0",
+    size: "91 KB",
+    images: [
+      "images/mods/skip-intro-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/N4obK7gLR3hB328",
+    short: "Instantly skip intro logos for a faster game launch.",
+    description: "This mod allows you to automatically bypass all introductory logos when launching the game. You can configure the settings to jump directly to the load or co-op screen instead of the title screen. It significantly reduces startup times compared to vanilla methods and works perfectly in both single-player and multiplayer. Installation is simple through SMAPI and it remains compatible with all major platforms.",
+    tags: [
+      "skip",
+      "intro",
+      "smapi",
+      "utility",
+      "faster"
+    ],
+    featured: true
+  },
+  {
+    id: 684,
+    game: "stardew",
+    title: "The Love of Cooking",
+    category: "gameplay-mechanics",
+    version: "2.0",
+    size: "384 KB",
+    images: [
+      "images/mods/the-love-of-cooking-1.jpg",
+      "images/mods/the-love-of-cooking-2.jpg",
+      "images/mods/the-love-of-cooking-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/454kk9L694w7rr8",
+    short: "Expand your culinary skills with new recipes and mechanics.",
+    description: "This mod expands the cooking system by introducing a new skill, unique recipes, and an upgraded menu. You can progress through cooking milestones, use various seasonings, and unlock powerful buffs for your character. It includes optional features like tool upgrades, configurable healing mechanics, and interactive kitchen locations throughout the town. Enjoy a deeper culinary experience with added depth to ingredient management and crafting.",
+    tags: [
+      "cooking",
+      "farming",
+      "gameplay",
+      "recipes"
+    ],
+    featured: true
+  },
+  {
+    id: 685,
+    game: "stardew",
+    title: "Lurking in the Dark - NPC Sen (East Scarp)",
+    category: "new-characters",
+    version: "1.0",
+    size: "6.8 MB",
+    images: [
+      "images/mods/lurking-in-the-dark-npc-sen-east-scarp-1.jpg",
+      "images/mods/lurking-in-the-dark-npc-sen-east-scarp-2.jpg",
+      "images/mods/lurking-in-the-dark-npc-sen-east-scarp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y0u6AmGKzQ0t2jH",
+    short: "Add a friendly shadow person NPC to East Scarp.",
+    description: "This mod introduces Sen, a curious shadow person NPC who leaves the deep mines to explore human life in East Scarp. Players can befriend him through a fully fleshed out storyline featuring nine unique events and randomized daily schedules. Once the narrative is completed, Sen becomes a romance or roommate candidate with custom dialogue options. The mod includes extensive configuration settings for portraits, shadow mechanics, and family life.",
+    tags: [
+      "npc",
+      "east scarp",
+      "new character"
+    ],
+    featured: true
+  },
+  {
+    id: 686,
+    game: "stardew",
+    title: "Eidee Easy Fishing",
+    category: "gameplay-mechanics",
+    version: "1.4.0",
+    size: "41 KB",
+    images: [
+      "images/mods/eidee-easy-fishing-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/k21u5k6CC89S3gM",
+    short: "Fully customize fishing to simplify or automate your experience.",
+    description: "Eidee Easy Fishing allows players to fully customize their fishing experience in Stardew Valley. You can automate the casting process, simplify or completely skip the fishing minigame, and guarantee higher quality catches. The mod also provides features to automatically collect treasure and improve your chances of catching rare fish. Every setting is adjustable to ensure you only use the fishing enhancements that you prefer.",
+    tags: [
+      "fishing",
+      "gameplay",
+      "automation"
+    ],
+    featured: true
+  },
+  {
+    id: 687,
+    game: "stardew",
+    title: "Esca's Modding Plugins (EMP)",
+    category: "modding-tools",
+    version: "1.0.0",
+    size: "55 KB",
+    images: [
+      "images/mods/escas-modding-plugins-emp-1.jpg",
+      "images/mods/escas-modding-plugins-emp-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YFBGGP8xtHK9377",
+    short: "A powerful framework providing essential tools for custom modding.",
+    description: "This framework provides essential tools and features for other Stardew Valley mods to utilize. It enables developers to customize map properties, trigger actions, and game state queries easily. Players can also toggle quality of life improvements such as placing beds anywhere or passing out safely. The mod requires SMAPI and is compatible with Generic Mod Config Menu for easy settings management.",
+    tags: [
+      "framework",
+      "utilities",
+      "modding",
+      "smapi"
+    ],
+    featured: true
+  },
+  {
+    id: 688,
+    game: "stardew",
+    title: "Creative Differences - NPC Rodney (East Scarp)",
+    category: "new-characters",
+    version: "1.0.0",
+    size: "14.9 MB",
+    images: [
+      "images/mods/creative-differences-npc-rodney-east-scarp-1.jpg",
+      "images/mods/creative-differences-npc-rodney-east-scarp-2.jpg",
+      "images/mods/creative-differences-npc-rodney-east-scarp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vh4ZV54W0kXs10r",
+    short: "Adds an engaging new writer NPC to East Scarp.",
+    description: "This mod introduces Rodney O'Brien, a friendly yet judgmental writer who resides in the East Scarp area. Players can experience his deep backstory through seventeen unique heart events and a variety of custom dialogue. He interacts with many valley residents and even reacts to events from other popular mods. As a datable NPC, Rodney offers a fresh narrative experience for those looking to expand their social circle.",
+    tags: [
+      "npc",
+      "storyline",
+      "east scarp"
+    ],
+    featured: true
+  },
+  {
+    id: 689,
+    game: "stardew",
+    title: "Elle's Cuter Horses",
+    category: "pets",
+    version: "1.0.0",
+    size: "1.5 MB",
+    images: [
+      "images/mods/elles-cuter-horses-1.jpg",
+      "images/mods/elles-cuter-horses-2.jpg",
+      "images/mods/elles-cuter-horses-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8eQVSKl5H3a1r95",
+    short: "Customize your horse with 79 unique skins and accessories.",
+    description: "This mod introduces 79 unique skin variations for your in-game horse. Players can customize their steed with various breeds and distinct coat patterns. It includes options for saddles, saddle pads, and matching bridles to complete the look. You can also apply a prismatic hair overlay for a vibrant effect. All customization is managed through a simple configuration file.",
+    tags: [
+      "horses",
+      "pets",
+      "skins",
+      "custom",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 690,
+    game: "stardew",
+    title: "Always Raining in the Valley",
+    category: "new-characters",
+    version: "2.0",
+    size: "12.2 MB",
+    images: [
+      "images/mods/always-raining-in-the-valley-1.jpg",
+      "images/mods/always-raining-in-the-valley-2.jpg",
+      "images/mods/always-raining-in-the-valley-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vE839tm10p1W98U",
+    short: "Adds three new characters with deep stories and events.",
+    description: "This mod introduces the Cooper family to the game featuring Sterling, Mia, and Henry as new characters. It adds extensive dialogue, heart events, and seasonal outfits for these unique NPCs. Players can develop relationships with the characters through various story-driven interactions and dates. The expansion is fully compatible with popular mods like Stardew Valley Expanded.",
+    tags: [
+      "npcs",
+      "expansion",
+      "dialogue",
+      "story",
+      "social"
+    ],
+    featured: true
+  },
+  {
+    id: 691,
+    game: "stardew",
+    title: "They Deserve It Too - Portraits for Vendors",
+    category: "portraits",
+    version: "1.10.3",
+    size: "688 KB",
+    images: [
+      "images/mods/they-deserve-it-too-portraits-for-vendors-1.jpg",
+      "images/mods/they-deserve-it-too-portraits-for-vendors-2.jpg",
+      "images/mods/they-deserve-it-too-portraits-for-vendors-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3zv0HrFtdUiFi4v",
+    short: "Adds detailed custom portraits for all Stardew Valley vendors.",
+    description: "This mod adds custom portraits to every vendor in Stardew Valley that previously lacked one. It features over sixteen unique character designs and provides new shop greetings for many merchants. The package includes full support for several popular expansion mods and maintains compatibility with appearance-changing addons. You can easily configure settings and manage portrait visibility through the included menu interface.",
+    tags: [
+      "portraits",
+      "npcs",
+      "vendors",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 692,
+    game: "stardew",
+    title: "Yet Another Fishing Mod",
+    category: "gameplay-mechanics",
+    version: "1.0.1",
+    size: "42 KB",
+    images: [
+      "images/mods/yet-another-fishing-mod-1.jpg",
+      "images/mods/yet-another-fishing-mod-2.jpg",
+      "images/mods/yet-another-fishing-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YFTUHGQ06Oj2b4g",
+    short: "Highly customizable mod to adjust all fishing mechanics easily.",
+    description: "This comprehensive mod offers extensive customization options for the fishing experience in Stardew Valley. Players can adjust fishing difficulty, automate minigames, or manage bait and tackle settings with ease. It includes support for infinite bait, instant treasure catches, and configurable fish quality. The mod requires SMAPI and is highly recommended to be used with Generic Mod Configuration Menu for the best user experience.",
+    tags: [
+      "fishing",
+      "gameplay",
+      "smapi",
+      "convenience"
+    ],
+    featured: true
+  },
+  {
+    id: 693,
+    game: "stardew",
+    title: "Better Junimos",
+    category: "gameplay-mechanics",
+    version: "1.5+",
+    size: "128 KB",
+    images: [
+      "images/mods/better-junimos-1.jpg",
+      "images/mods/better-junimos-2.jpg",
+      "images/mods/better-junimos-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3FxWgn9G39LYAWJ",
+    short: "Improve Junimo huts with automated planting, fertilizing, and more.",
+    description: "This mod enhances Junimo huts by allowing your forest helpers to automatically plant, fertilize, and water your crops. You can customize their range, speed, and working hours to optimize your farm efficiency. The mod includes optional features like paying Junimos for their labor and enabling them to work during winter or rain. It provides a highly configurable experience to suit your specific farming needs.",
+    tags: [
+      "farming",
+      "junimo",
+      "automation"
+    ],
+    featured: true
+  },
+  {
+    id: 694,
+    game: "stardew",
+    title: "Stardew Valley Expanded Korean Translation",
+    category: "dialogue",
+    version: "1.15.11",
+    size: "4.9 MB",
+    images: [
+      "images/mods/stardew-valley-expanded-korean-translation-1.jpg",
+      "images/mods/stardew-valley-expanded-korean-translation-2.jpg",
+      "images/mods/stardew-valley-expanded-korean-translation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bYnU32fFw0IM166",
+    short: "A complete Korean language translation for Stardew Valley Expanded.",
+    description: "This mod provides a comprehensive Korean language translation for the Stardew Valley Expanded expansion. It ensures that 99.9 percent of the mod content is fully translated for Korean players. Users must install the original expansion mod first before applying this translation file. Please ensure your current game version matches the specified release version for full compatibility.",
+    tags: [
+      "korean",
+      "translation",
+      "expansion"
+    ],
+    featured: true
+  },
+  {
+    id: 695,
+    game: "stardew",
+    title: "Elle's Cuter Dogs",
+    category: "pets",
+    version: "1.0.0",
+    size: "4.0 MB",
+    images: [
+      "images/mods/elles-cuter-dogs-1.jpg",
+      "images/mods/elles-cuter-dogs-2.jpg",
+      "images/mods/elles-cuter-dogs-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/plD6rkEcG4wt6hz",
+    short: "Add hundreds of new dog breeds to your farm.",
+    description: "This mod introduces 366 unique dog breeds and skins to your game. It utilizes the latest 1.6 game features to add these as new pets rather than replacing existing sprites. Players can customize their experience through a configuration file to select specific breeds. Each breed includes a matching head icon and full support for the new pet hat feature.",
+    tags: [
+      "pets",
+      "dogs",
+      "animals",
+      "cosmetics",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 696,
+    game: "stardew",
+    title: "Nora The Herpetologist - Custom NPC for East Scarp",
+    category: "new-characters",
+    version: "2.0.0",
+    size: "5.8 MB",
+    images: [
+      "images/mods/nora-the-herpetologist-custom-npc-for-east-scarp-1.jpg",
+      "images/mods/nora-the-herpetologist-custom-npc-for-east-scarp-2.jpg",
+      "images/mods/nora-the-herpetologist-custom-npc-for-east-scarp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KOM4LMS0cM1WVDr",
+    short: "Adds an enthusiastic, talkative, and dateable NPC to East Scarp.",
+    description: "This mod introduces Nora, an enthusiastic and talkative herpetologist, as a new custom NPC for the East Scarp expansion. Nora comes with a deep storyline, numerous heart events, and her two loyal reptilian pets. You can befriend her to learn fun facts about reptiles or pursue a romantic relationship after completing her main questline. The mod is fully compatible with several popular expansion mods and features extensive dialogue options.",
+    tags: [
+      "npc",
+      "romance",
+      "east scarp",
+      "characters"
+    ],
+    featured: true
+  },
+  {
+    id: 697,
+    game: "stardew",
+    title: "Mail Services Mod",
+    category: "gameplay-mechanics",
+    version: "1.6.2",
+    size: "44 KB",
+    images: [
+      "images/mods/mail-services-mod-1.jpg",
+      "images/mods/mail-services-mod-2.jpg",
+      "images/mods/mail-services-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ggPaUBzsv6U0549",
+    short: "Access game services and interactions directly through your mailbox.",
+    description: "This mod allows players to access various game services directly through their mailbox. You can send tools for upgrades, complete delivery quests, recover lost items, and send gifts to villagers without leaving your farm. The mod is highly configurable, allowing you to adjust fees, friendship mechanics, and service availability. It provides a convenient way to manage daily tasks and interactions while staying home.",
+    tags: [
+      "convenience",
+      "mailbox",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 698,
+    game: "stardew",
+    title: "Animated Furniture and Stuff",
+    category: "furniture",
+    version: "1.0",
+    size: "333 KB",
+    images: [
+      "images/mods/animated-furniture-and-stuff-1.jpg",
+      "images/mods/animated-furniture-and-stuff-2.jpg",
+      "images/mods/animated-furniture-and-stuff-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0WnCSmElpYUI86d",
+    short: "Add beautiful custom animations to your favorite furniture items.",
+    description: "This mod brings life to your farmhouse by adding custom animations to a wide variety of furniture and decorative items. Users can easily customize which specific items to animate or disable through a simple configuration file. The mod includes support for many museum rewards, paintings, and rare endgame trophy items. It requires Content Patcher and SpaceCore to function correctly within your game.",
+    tags: [
+      "furniture",
+      "animation",
+      "decor",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 699,
+    game: "stardew",
+    title: "Ridgeside Village Chinese Translation",
+    category: "modding-tools",
+    version: "1.0",
+    size: "801 KB",
+    images: [
+      "images/mods/ridgeside-village-chinese-translation-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jCgYaoPyHHPl06t",
+    short: "Complete Chinese translation patch for the Ridgeside Village mod.",
+    description: "This mod provides a comprehensive Chinese language translation for the Ridgeside Village expansion. It includes translated text for dialogue and items to ensure a seamless experience for local players. Installation requires placing the files directly into the base mod directory as specified in the instructions. It is designed to work with the latest versions of the original expansion content.",
+    tags: [
+      "chinese",
+      "translation",
+      "language"
+    ],
+    featured: true
+  },
+  {
+    id: 700,
+    game: "stardew",
+    title: "Downtown Zuzu",
+    category: "locations",
+    version: "1.6.9",
+    size: "112 MB",
+    images: [
+      "images/mods/downtown-zuzu-1.jpg",
+      "images/mods/downtown-zuzu-2.jpg",
+      "images/mods/downtown-zuzu-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Jnh99S5AJ9XcX1a",
+    short: "Explore the bustling urban streets of Zuzu City today.",
+    description: "This mod expands the game by adding the bustling urban environment of Zuzu City. Players can explore new districts, meet unique characters, and engage in various city-based quests. The mod includes fresh festivals, shopping areas, and even travel options like international flights. It seamlessly integrates with other major expansion mods to provide a massive world to discover.",
+    tags: [
+      "expansion",
+      "city",
+      "maps",
+      "quests"
+    ],
+    featured: true
+  },
+  {
+    id: 701,
+    game: "stardew",
+    title: "More New Fish",
+    category: "fishing",
+    version: "5.0",
+    size: "703 KB",
+    images: [
+      "images/mods/more-new-fish-1.jpg",
+      "images/mods/more-new-fish-2.jpg",
+      "images/mods/more-new-fish-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/084yVrNtC4i1M1d",
+    short: "Adds over 140 new fish and quests to Stardew.",
+    description: "This mod expands your collection by adding 140 new fish to catch throughout the game world. It includes fresh quest lines for players in years two through four along with new craftable elixirs. You will also find a monthly magazine that provides helpful tips on where to locate these new species. The mod updates NPC gift preferences and balances spawn rates to keep your fishing experience engaging.",
+    tags: [
+      "fishing",
+      "gameplay",
+      "expansion",
+      "items"
+    ],
+    featured: true
+  },
+  {
+    id: 702,
+    game: "stardew",
+    title: "Elle's Dog Replacements",
+    category: "pets",
+    version: "1.1.1",
+    size: "1.6 MB",
+    images: [
+      "images/mods/elles-dog-replacements-1.jpg",
+      "images/mods/elles-dog-replacements-2.jpg",
+      "images/mods/elles-dog-replacements-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eSsK7cLiBmRIClP",
+    short: "Replace your Stardew Valley dog with 101 unique skins.",
+    description: "This mod provides 101 unique retexture options for your in-game dog. You can configure different skins for each of the three vanilla dog textures and choose from 20 different collar colors. The mod also includes optional support for the Adopt 'n Skin mod to allow more pet variety. Installation requires SMAPI and Content Patcher to function correctly.",
+    tags: [
+      "dogs",
+      "pets",
+      "retexture",
+      "customization"
+    ],
+    featured: true
+  },
+  {
+    id: 703,
+    game: "stardew",
+    title: "PPJA - Fruits and Veggies",
+    category: "crops",
+    version: "1.0",
+    size: "534 KB",
+    images: [
+      "images/mods/ppja-fruits-and-veggies-1.jpg",
+      "images/mods/ppja-fruits-and-veggies-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mFF0MOT07Lw9yHb",
+    short: "Add new fruit and vegetable crops to your farm.",
+    description: "This mod brings Mizu's custom crop sprites into your game using the JsonAssets framework. It includes a variety of new vegetables and herbs for players to cultivate on their farm. Please note that this project is now deprecated and no longer receives active maintenance. Users are encouraged to switch to the newer Cornucopia mods for continued support.",
+    tags: [
+      "crops",
+      "farming",
+      "harvest",
+      "vegetables"
     ],
     featured: true
   }
