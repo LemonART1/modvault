@@ -13949,7 +13949,7 @@ const MODS = [
   },
   {
     id: 635,
-    game: "gta5",
+    game: "re4",
     title: "Diamond Weapon Villagers",
     category: "weapons",
     version: "1.0",
