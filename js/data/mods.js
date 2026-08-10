@@ -11987,6 +11987,2367 @@ const MODS = [
       "clean"
     ],
     featured: true
+  },
+  {
+    id: 550,
+    game: "bg3",
+    title: "Lighting Template Fixes",
+    category: "visuals",
+    version: "1.0.0",
+    size: "7 KB",
+    images: [
+      "images/mods/lighting-template-fixes-1.jpg",
+      "images/mods/lighting-template-fixes-2.jpg",
+      "images/mods/lighting-template-fixes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pu074Ea6m1vN6f4",
+    short: "Fixes lighting issues and shadow rendering bugs in game.",
+    description: "This mod addresses common lighting errors encountered throughout the game world. It specifically resolves distance calculation issues that cause shadowed areas to appear incorrectly illuminated. The patch also improves cutscene lighting by adjusting exposure and bloom thresholds for better visual fidelity. Players will also notice corrected foliage shadows around camp locations for increased immersion.",
+    tags: [
+      "lighting",
+      "graphics",
+      "immersion",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 551,
+    game: "bg3",
+    title: "Origin Astarion - Docks Scene Edit",
+    category: "quests",
+    version: "1.0",
+    size: "2.5 MB",
+    images: [
+      "images/mods/origin-astarion-docks-scene-edit-1.jpg",
+      "images/mods/origin-astarion-docks-scene-edit-2.jpg",
+      "images/mods/origin-astarion-docks-scene-edit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kygen962Vzyq8TK",
+    short: "Edit the docks scene for Origin Astarion playthroughs now.",
+    description: "This mod modifies the endgame docks scene for Origin Astarion playthroughs. It allows Astarion to stay with Karlach instead of being forced to flee the sunlight. Players can now accompany Karlach to Avernus or support her during her final moments. The mod includes dialogue options for both Spawn and Ascendant Astarion paths.",
+    tags: [
+      "astarion",
+      "karlach",
+      "docks",
+      "endgame",
+      "story"
+    ],
+    featured: true
+  },
+  {
+    id: 552,
+    game: "bg3",
+    title: "Transmog Enhanced Revamped",
+    category: "equipment",
+    version: "1.0.0",
+    size: "128 KB",
+    images: [
+      "images/mods/transmog-enhanced-revamped-1.jpg",
+      "images/mods/transmog-enhanced-revamped-2.jpg",
+      "images/mods/transmog-enhanced-revamped-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/PT1e6mP04SKE540",
+    short: "A stable transmog system for changing your equipment appearance.",
+    description: "This mod serves as a stable successor to Transmog Enhanced by resolving critical crashes and equipment bugs. It allows you to change the appearance of equippable items while preserving stats and enchantments. The mod is fully save-compatible and works with existing characters mid-game. It requires the BG3 Script Extender to function correctly in your playthrough.",
+    tags: [
+      "transmog",
+      "armor",
+      "weapons",
+      "vanity"
+    ],
+    featured: true
+  },
+  {
+    id: 553,
+    game: "bg3",
+    title: "Leiser's Accursed Class",
+    category: "classes",
+    version: "1.0",
+    size: "3.8 MB",
+    images: [
+      "images/mods/leisers-accursed-class-1.jpg",
+      "images/mods/leisers-accursed-class-2.jpg",
+      "images/mods/leisers-accursed-class-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e4zj7fZjyn8Q6Ph",
+    short: "Add the powerful Accursed class with unique cursed subclasses.",
+    description: "Harness dark magicks with this new Accursed class, a unique half-caster that utilizes curses to debuff enemies. Choose from diverse cursed origins like combustion, armament, or vampirism to dictate your gameplay style and capabilities. Manage your specific ailments carefully to balance potent abilities against the drawbacks of your dark power. This mod brings a rich homebrew experience to your playthrough with custom spells and progression trees.",
+    tags: [
+      "class",
+      "homebrew",
+      "magic",
+      "spells",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 554,
+    game: "bg3",
+    title: "Circle of Witchcraft - A Druid subclass",
+    category: "classes",
+    version: "1.0",
+    size: "2.7 MB",
+    images: [
+      "images/mods/circle-of-witchcraft-a-druid-subclass-1.jpg",
+      "images/mods/circle-of-witchcraft-a-druid-subclass-2.jpg",
+      "images/mods/circle-of-witchcraft-a-druid-subclass-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dn43d743m49DdEf",
+    short: "A new Druid subclass focused on poison and hexes.",
+    description: "This mod introduces the Circle of Witchcraft as a new Druid subclass focused on poison damage and unique debuffs. Players gain the Wild Hexcraft ability, which applies randomized status effects to enemies in combat. The subclass includes custom spell variants, visual effects, and the ability to summon a supportive coven. It also features unique mechanics like transforming defeated enemies into hogs to aid your party.",
+    tags: [
+      "druid",
+      "subclass",
+      "magic",
+      "poison",
+      "homebrew"
+    ],
+    featured: true
+  },
+  {
+    id: 555,
+    game: "bg3",
+    title: "Mayrina and Brothers Edits",
+    category: "character-customisation",
+    version: "1.0.0",
+    size: "63 KB",
+    images: [
+      "images/mods/mayrina-and-brothers-edits-1.jpg",
+      "images/mods/mayrina-and-brothers-edits-2.jpg",
+      "images/mods/mayrina-and-brothers-edits-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ODRp645j98MTbJJ",
+    short: "Refreshed appearances for Mayrina and her two brothers Johl.",
+    description: "This mod provides updated appearances for Mayrina and her brothers Johl and Demir. Each character receives new clothing and equipment tailored to their specific roles within the game. The portraits for all three characters have been modified to match their refreshed looks perfectly. These edits are fully compatible with current game patches for a smooth experience.",
+    tags: [
+      "character",
+      "makeover",
+      "bg3",
+      "faces"
+    ],
+    featured: true
+  },
+  {
+    id: 556,
+    game: "bg3",
+    title: "Better Dialogue Controls",
+    category: "user-interface",
+    version: "1.0",
+    size: "10 KB",
+    images: [
+      "images/mods/better-dialogue-controls-1.jpg",
+      "images/mods/better-dialogue-controls-2.jpg",
+      "images/mods/better-dialogue-controls-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e6mM0zy881Ix9L3",
+    short: "Navigate game dialogues and dice rolls using custom controls.",
+    description: "This mod allows players to navigate dialogue options and dice rolls using keyboard or controller inputs. It provides full support for custom rebindable keys and gamepad configurations to improve interaction. You can easily manage settings through the integrated mod configuration menu. The mod is fully compatible with existing save files and other modifications.",
+    tags: [
+      "ui",
+      "controls",
+      "gamepad",
+      "keyboard"
+    ],
+    featured: true
+  },
+  {
+    id: 557,
+    game: "bg3",
+    title: "Drunken Humming",
+    category: "audio",
+    version: "1.0",
+    size: "459 KB",
+    images: [
+      "images/mods/drunken-humming-1.jpg",
+      "images/mods/drunken-humming-2.jpg",
+      "images/mods/drunken-humming-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I41w8SgV9IiQ2FS",
+    short: "Characters drunkenly hum the main theme when intoxicated.",
+    description: "This mod unlocks hidden audio files allowing your character and companions to drunkenly hum the main theme song. The content is triggered whenever your character is under the influence of alcohol. It is fully compatible with existing save files and does not override any core game data. It is a fun flavor addition that utilizes unused assets found within the game files.",
+    tags: [
+      "audio",
+      "funny",
+      "immersion",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 558,
+    game: "bg3",
+    title: "Lunomi Heads",
+    category: "character-customisation",
+    version: "1.0",
+    size: "130 MB",
+    images: [
+      "images/mods/lunomi-heads-1.jpg",
+      "images/mods/lunomi-heads-2.jpg",
+      "images/mods/lunomi-heads-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Yc7Z7Su071P85yt",
+    short: "Five custom head presets for elf, drow, and tieflings.",
+    description: "This mod introduces five unique BT1 head options for elf, drow, and tiefling characters. The pack is fully compatible with both UTAV and EotB standards for seamless integration. You can easily install these heads using the Baldur's Gate 3 Mod Manager. Please ensure you only activate one file at a time to avoid potential conflicts.",
+    tags: [
+      "heads",
+      "elf",
+      "drow",
+      "tiefling",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 559,
+    game: "bg3",
+    title: "Cat Familiars Plus Plus",
+    category: "companions",
+    version: "1.0.0",
+    size: "333 KB",
+    images: [
+      "images/mods/cat-familiars-plus-plus-1.jpg",
+      "images/mods/cat-familiars-plus-plus-2.jpg",
+      "images/mods/cat-familiars-plus-plus-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vBp6a6awx4KkC4w",
+    short: "Customize your cat familiar with new appearances and names.",
+    description: "This mod allows you to customize the appearance and name of your cat familiar in Baldur's Gate 3. You can choose from eleven different coat patterns or use console commands to set a unique name for your summon. The familiar also receives mechanical balance changes including stealth proficiency and improved feline behavior at camp. It provides a more personal and functional companion experience for necromancers and mages.",
+    tags: [
+      "cat",
+      "familiar",
+      "pets",
+      "magic",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 560,
+    game: "bg3",
+    title: "Marksman - A Gunslinger class",
+    category: "classes",
+    version: "1.0",
+    size: "92.3 MB",
+    images: [
+      "images/mods/marksman-a-gunslinger-class-1.jpg",
+      "images/mods/marksman-a-gunslinger-class-2.jpg",
+      "images/mods/marksman-a-gunslinger-class-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SVz3V428i1fKT3L",
+    short: "A specialized gunslinger class featuring unique firearms and subclasses.",
+    description: "This mod introduces the Marksman as a brand new homebrew class specialized in ranged firearm combat. Players can utilize unique mechanics like Endeavour charges and crafting to customize their playstyle with over fifty firearm combinations. The class features four distinct subclasses that allow for versatile tactical approaches on the battlefield. It includes high quality handcrafted visual effects, custom icons, and unique weapon models.",
+    tags: [
+      "gunslinger",
+      "firearms",
+      "class",
+      "dnd"
+    ],
+    featured: true
+  },
+  {
+    id: 561,
+    game: "bg3",
+    title: "Platonic Halsin - No Confession or Shy Halsin Versions",
+    category: "gameplay",
+    version: "x.1.0",
+    size: "664 KB",
+    images: [
+      "images/mods/platonic-halsin-no-confession-or-shy-halsin-versions-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/53ILaqg198jwzR0",
+    short: "Keep Halsin's relationship status platonic or require active flirting.",
+    description: "This mod provides two distinct options to manage Halsin's romantic advances in your playthrough. You can choose a strictly platonic version to prevent any unwanted confessions or a shy version that requires active flirting to progress. Both versions ensure Halsin respects your boundaries and offer a more controlled experience. It is an ideal choice for players who prefer to keep their relationship with Halsin purely friendly.",
+    tags: [
+      "halsin",
+      "romance",
+      "dialogue",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 562,
+    game: "bg3",
+    title: "The Necrobroker Patron - Warlock Subclass",
+    category: "classes",
+    version: "1.0",
+    size: "1.1 MB",
+    images: [
+      "images/mods/the-necrobroker-patron-warlock-subclass-1.jpg",
+      "images/mods/the-necrobroker-patron-warlock-subclass-2.jpg",
+      "images/mods/the-necrobroker-patron-warlock-subclass-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/a5Ep86JEoEh4J70",
+    short: "A powerful necromancy focused Warlock subclass for Baldur's Gate 3.",
+    description: "This mod introduces the Necrobroker as a playable Warlock subclass for Baldur's Gate 3. Players forge a pact with the calculating Valkrana, gaining unique necromancy and divination abilities to manipulate souls. It includes custom features like the Skeletal Scout familiar and the powerful Invoke Intel Hoard ability. This subclass focuses on extracting secrets and dispelling protective illusions from your enemies.",
+    tags: [
+      "warlock",
+      "subclass",
+      "necromancy",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 563,
+    game: "bg3",
+    title: "Lunomi's Heads - Part 2",
+    category: "character-customisation",
+    version: "1.0",
+    size: "147 MB",
+    images: [
+      "images/mods/lunomis-heads-part-2-1.jpg",
+      "images/mods/lunomis-heads-part-2-2.jpg",
+      "images/mods/lunomis-heads-part-2-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BFdH657oNSzgR6Z",
+    short: "Four high quality custom heads for various character races.",
+    description: "This mod introduces four distinct custom heads for elf, human, githyanki, and tiefling character types. These heads are fully compatible with existing appearance frameworks and standard character creation tools. You can easily install this package using the standard in-game mod manager or by placing the files in your mod directory. The assets have been optimized for a seamless look within the game engine.",
+    tags: [
+      "heads",
+      "character",
+      "custom",
+      "bg3",
+      "beauty"
+    ],
+    featured: true
+  },
+  {
+    id: 564,
+    game: "bg3",
+    title: "Ember's Wardrobe",
+    category: "clothing",
+    version: "1.2",
+    size: "92.0 MB",
+    images: [
+      "images/mods/embers-wardrobe-1.jpg",
+      "images/mods/embers-wardrobe-2.jpg",
+      "images/mods/embers-wardrobe-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8c3Ek0Vc4QI897H",
+    short: "Adds twenty bard-themed outfits to your camp chest inventory.",
+    description: "This mod introduces twenty bard-themed outfits designed for tall player character races. Players can find these items inside a special container located within the camp chest. The collection includes a custom voiced area of effect spell variant for Vicious Mockery. These outfits are compatible with most other game modifications and support diverse character body types.",
+    tags: [
+      "bard",
+      "clothing",
+      "vanity",
+      "outfits",
+      "rpg"
+    ],
+    featured: true
+  },
+  {
+    id: 565,
+    game: "bg3",
+    title: "Book of Sorcerers - 5e Sorcerer Subclasses",
+    category: "classes",
+    version: "1.0",
+    size: "6.6 MB",
+    images: [
+      "images/mods/book-of-sorcerers-5e-sorcerer-subclasses-1.jpg",
+      "images/mods/book-of-sorcerers-5e-sorcerer-subclasses-2.jpg",
+      "images/mods/book-of-sorcerers-5e-sorcerer-subclasses-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y5VHArFv3hIoYBT",
+    short: "Adds four unique 5e sorcerer subclasses to your game.",
+    description: "This mod expands your character options by adding four iconic sorcerer subclasses to the game. You can now play as an Aberrant Mind, Clockwork Soul, Divine Soul, or Lunar Sorcery sorcerer. Each subclass includes unique features and tailored spell lists to ensure they function well within the game mechanics. The mod also includes custom level 14 progression to make reaching level 20 more rewarding.",
+    tags: [
+      "sorcerer",
+      "classes",
+      "5e",
+      "magic",
+      "balance"
+    ],
+    featured: true
+  },
+  {
+    id: 566,
+    game: "bg3",
+    title: "Arcane Recovery - Spell Balance Intent and Flavor",
+    category: "spells",
+    version: "1.0",
+    size: "103 KB",
+    images: [
+      "images/mods/arcane-recovery-spell-balance-intent-and-flavor-1.jpg",
+      "images/mods/arcane-recovery-spell-balance-intent-and-flavor-2.jpg",
+      "images/mods/arcane-recovery-spell-balance-intent-and-flavor-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m2CEWc623oCY8Qk",
+    short: "Refined spell mechanics and balance adjustments for Baldur's Gate 3.",
+    description: "This mod provides comprehensive adjustments to various spells to restore their original balance and flavor. It updates spell mechanics to better align with 5e functionality while addressing specific gameplay inconsistencies found in the base game. Players will experience improved utility for spells like Dimension Door and Globe of Invulnerability. These changes refine combat interactions and ensure a more authentic magical experience for spellcasters.",
+    tags: [
+      "spells",
+      "balance",
+      "gameplay",
+      "5e",
+      "magic"
+    ],
+    featured: true
+  },
+  {
+    id: 567,
+    game: "bg3",
+    title: "Epilogue Letter Bug Fixes - Aylin Isobel and Kagha",
+    category: "miscellaneous",
+    version: "1.0.0",
+    size: "10 KB",
+    images: [
+      "images/mods/epilogue-letter-bug-fixes-aylin-isobel-and-kagha-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QYGET2tC8OzR79N",
+    short: "Fixes missing epilogue letters for Aylin, Isobel and Kagha.",
+    description: "This mod resolves issues where epilogue letters from Aylin, Isobel, and Kagha fail to send correctly. It removes broken script conditions to ensure these characters reliably mail their messages during the epilogue party. The fix is lightweight and functions seamlessly when installed before the final event. It is fully compatible with other letter-related mods and can be safely added mid-playthrough.",
+    tags: [
+      "bugfix",
+      "epilogue",
+      "letters",
+      "bg3",
+      "quest"
+    ],
+    featured: true
+  },
+  {
+    id: 568,
+    game: "bg3",
+    title: "Ex-Sharran Swimming Lessons for Shadowheart",
+    category: "quests",
+    version: "1.0",
+    size: "456 KB",
+    images: [
+      "images/mods/ex-sharran-swimming-lessons-for-shadowheart-1.jpg",
+      "images/mods/ex-sharran-swimming-lessons-for-shadowheart-2.jpg",
+      "images/mods/ex-sharran-swimming-lessons-for-shadowheart-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m4zMQ6K9h996gd5",
+    short: "Restores the Shadowheart swimming scene for Dark Justiciar path.",
+    description: "This mod restores the missing swimming scene for Dark Justiciar Shadowheart after she turns away from Shar in Act 3. It specifically triggers the event if she saves her parents and maintains a romantic relationship with the player. The scene functions across various camp locations provided that specific approval thresholds are met. This restoration addresses content that was seemingly locked or cut from the vanilla experience.",
+    tags: [
+      "shadowheart",
+      "bg3",
+      "romance",
+      "quest",
+      "camp"
+    ],
+    featured: true
+  },
+  {
+    id: 569,
+    game: "bg3",
+    title: "Faerun Fashionistas Mega Pose Patch",
+    category: "photo-mode",
+    version: "1.0",
+    size: "2.4 MB",
+    images: [
+      "images/mods/faerun-fashionistas-mega-pose-patch-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p8H03AE3rvHktsN",
+    short: "Compatibility patch for Faerun Fashionistas mega pose pack collections.",
+    description: "This compatibility patch allows users to combine multiple Faerun Fashionistas pose packs seamlessly. It integrates various individual pose and expression mods into a unified library for easier management in photo mode. The patch ensures that all installed pose collections work together without requiring excessive load order adjustments. It is specifically designed to support both the standard and NSFW versions of the Mega Pose Pack.",
+    tags: [
+      "poses",
+      "photo mode",
+      "patches",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 570,
+    game: "bg3",
+    title: "Extremely Literal Mirror Scene Line For All Races",
+    category: "accessories",
+    version: "1.0.0",
+    size: "34 KB",
+    images: [
+      "images/mods/extremely-literal-mirror-scene-line-for-all-races-1.jpg",
+      "images/mods/extremely-literal-mirror-scene-line-for-all-races-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5SF2K6TrH58L48s",
+    short: "Unlock the Astarion mirror scene dialogue for all races.",
+    description: "This mod enables the specific Githyanki dialogue line for all player races during the Astarion mirror scene. You can now describe him as an elven vampire spawn with a medium build regardless of your character type. The modification also unlocks additional dialogue choices to compliment, insult, or gaslight Astarion during this interaction. Please note that this mod overwrites the specific mirror dialogue file and may conflict with other similar mods.",
+    tags: [
+      "astarion",
+      "dialogue",
+      "roleplay",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 571,
+    game: "bg3",
+    title: "Tusk Evolved",
+    category: "companions",
+    version: "1.0.3.0",
+    size: "11.8 MB",
+    images: [
+      "images/mods/tusk-evolved-1.jpg",
+      "images/mods/tusk-evolved-2.jpg",
+      "images/mods/tusk-evolved-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Xs3N1cOqB4A7MLX",
+    short: "Recruit and evolve the Emerald Grove boar into battle.",
+    description: "Recruit the boar from the Emerald Grove to join your camp and accompany you on your adventures. This mod features a deep progression system that allows Tusk to scale and evolve into a powerful armored Hellsboar. Players can unlock unique abilities, passives, and special interactions tied to Halsin and other companion quests. It provides a balanced experience that fits seamlessly into your journey through the game.",
+    tags: [
+      "boar",
+      "companion",
+      "summons",
+      "quest"
+    ],
+    featured: true
+  },
+  {
+    id: 572,
+    game: "bg3",
+    title: "Duke Belynne Stelmane Edits - Former Hope of the Gate",
+    category: "character-customisation",
+    version: "1.0.0",
+    size: "9 KB",
+    images: [
+      "images/mods/duke-belynne-stelmane-edits-former-hope-of-the-gate-1.jpg",
+      "images/mods/duke-belynne-stelmane-edits-former-hope-of-the-gate-2.jpg",
+      "images/mods/duke-belynne-stelmane-edits-former-hope-of-the-gate-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/v60W1JuggB0Ro5W",
+    short: "Refined visual appearance for Duke Belynne Stelmane in flashbacks.",
+    description: "This mod provides a refined visual redesign for Belynne Stelmane during her flashback sequences. It utilizes high quality assets from the Knights and Dames Collection to give her a more noble appearance. The clothing set has been adjusted to fit her role as a former Duke and secret leader. You can now experience these narrative moments with a more immersive character aesthetic.",
+    tags: [
+      "bg3",
+      "stelmane",
+      "redesign",
+      "noble",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 573,
+    game: "bg3",
+    title: "Way of Steel - An Armoured Monk",
+    category: "classes",
+    version: "1.0.0",
+    size: "2 MB",
+    images: [
+      "images/mods/way-of-steel-an-armoured-monk-1.jpg",
+      "images/mods/way-of-steel-an-armoured-monk-2.jpg",
+      "images/mods/way-of-steel-an-armoured-monk-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/29CX2cJiek10b8l",
+    short: "A defensive monk subclass allowing heavy armor and combat.",
+    description: "The Way of Steel is a unique Monk subclass that allows you to wear heavy armor. This build focuses on defense by absorbing melee blows and countering with powerful strikes. You can knock enemies prone to set up attacks for yourself and your allies. It includes custom features for every milestone up to level seventeen.",
+    tags: [
+      "monk",
+      "combat",
+      "dnd",
+      "armor",
+      "subclass"
+    ],
+    featured: true
+  },
+  {
+    id: 574,
+    game: "bg3",
+    title: "Condition Fixer",
+    category: "utilities",
+    version: "1.0",
+    size: "4 KB",
+    images: [
+      "images/mods/condition-fixer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/57a4PV407Ag64MV",
+    short: "Fixes syntax errors in modded game conditions and data.",
+    description: "This utility resolves syntax errors caused by trailing semicolons introduced in game updates. It scans and removes problematic characters from conditions to ensure compatibility between older mods and the current game version. The tool helps prevent mod conflicts while providing a robust solution for developers to handle conditional logic safely. It requires the Script Extender to function correctly within your load order.",
+    tags: [
+      "utility",
+      "bugfix",
+      "bg3",
+      "scripting"
+    ],
+    featured: true
+  },
+  {
+    id: 575,
+    game: "bg3",
+    title: "Faerun Fashionistas Mega Pose Pack",
+    category: "photo-mode",
+    version: "1.0",
+    size: "6 MB",
+    images: [
+      "images/mods/faerun-fashionistas-mega-pose-pack-1.jpg",
+      "images/mods/faerun-fashionistas-mega-pose-pack-2.jpg",
+      "images/mods/faerun-fashionistas-mega-pose-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4K7FJvU17J3B6c2",
+    short: "Add over 2000 new character poses for photo mode.",
+    description: "This massive collection adds over 2000 unique poses to the game photo mode. It combines dozens of individual community pose packs into one comprehensive library for easy access. Users can create expressive character scenes using solo, couple, and group animations. It is fully compatible with the universal pose patcher and requires the QSAT tool for navigation.",
+    tags: [
+      "poses",
+      "photo",
+      "fashion",
+      "animation"
+    ],
+    featured: true
+  },
+  {
+    id: 576,
+    game: "bg3",
+    title: "Origin Gods SE - MCM",
+    category: "gameplay",
+    version: "Not specified",
+    size: "11 KB",
+    images: [
+      "images/mods/origin-gods-se-mcm-1.jpg",
+      "images/mods/origin-gods-se-mcm-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EZEE9C2spSIKoQH",
+    short: "Change companion deities easily",
+    description: "This mod allows players to dynamically set the gods of companions, origin characters, and even players using the script extender and MCM menu. It features automatic changes to Lae'zel's deity if she abandons Vlaakith. The mod provides full control over deities, companion presets, and story integration. It is safe to use, has universal compatibility, and can be installed or uninstalled at any point during the playthrough.",
+    tags: [
+      "gods",
+      "deity",
+      "mods"
+    ],
+    featured: true
+  },
+  {
+    id: 577,
+    game: "bg3",
+    title: "Half-Tiefling Subrace",
+    category: "races",
+    version: "1.0",
+    size: "160 KB",
+    images: [
+      "images/mods/half-tiefling-subrace-1.jpg",
+      "images/mods/half-tiefling-subrace-2.jpg",
+      "images/mods/half-tiefling-subrace-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/RsmlMvKcu85iTFY",
+    short: "Adds unique half-tiefling subraces to your character creation menu.",
+    description: "This mod introduces new half-tiefling subraces by combining existing tiefling and half-elf traits. Players gain unique racial tags and access to combined abilities, spells, and fire resistance. The package includes custom body textures and compatibility patches for various cosmetic horn mods. It is fully compatible with character customization tools and popular virtual tav systems.",
+    tags: [
+      "races",
+      "fantasy",
+      "rpg",
+      "baldur",
+      "dnd"
+    ],
+    featured: true
+  },
+  {
+    id: 578,
+    game: "bg3",
+    title: "Hope Once More - Hope as an Endgame Ally",
+    category: "companions",
+    version: "Patch 8 - Hotfix 35",
+    size: "662 KB",
+    images: [
+      "images/mods/hope-once-more-hope-as-an-endgame-ally-1.jpg",
+      "images/mods/hope-once-more-hope-as-an-endgame-ally-2.jpg",
+      "images/mods/hope-once-more-hope-as-an-endgame-ally-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QGE1nlOrY3M25mp",
+    short: "Recruit Hope as an endgame ally for your party.",
+    description: "This mod allows you to recruit Hope as an official ally for the Gather Your Allies quest in the endgame. After defeating Raphael, you can talk to Hope to ensure she appears to support your party at the High Hall. She provides a unique Death Ward buff called Hope Once More to all party members during the final battle. The mod includes custom dialogue and visual effects to integrate her into the endgame sequence seamlessly.",
+    tags: [
+      "hope",
+      "allies",
+      "endgame",
+      "companions"
+    ],
+    featured: true
+  },
+  {
+    id: 579,
+    game: "nierautomata",
+    title: "2B - Nun Outfit",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "8.8 MB",
+    images: [
+      "images/mods/2b-nun-outfit-1.jpg",
+      "images/mods/2b-nun-outfit-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MiqW7d6d9w6JMJl",
+    short: "Experimental nun costume for 2B with known physics issues.",
+    description: "This mod replaces the default 2B dress with a custom nun outfit based on Houtengeki fanart. It serves as an experimental proof of concept due to complex technical issues with bone physics and heavy clipping. The creators have noted that current game engine limitations make a perfect implementation of these custom physics difficult. Users should be aware that the mod is considered incomplete and is not recommended for serious gameplay.",
+    tags: [
+      "2b",
+      "nier",
+      "costume",
+      "outfit",
+      "experimental"
+    ],
+    featured: true
+  },
+  {
+    id: 580,
+    game: "nierautomata",
+    title: "Siyan's Nier Automata Cheat Table",
+    category: "utilities",
+    version: "1.0",
+    size: "5 KB",
+    images: [
+      "images/mods/siyans-nier-automata-cheat-table-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/V65H37zkp5DgBEm",
+    short: "Customize gameplay mechanics with this versatile Cheat Engine table.",
+    description: "This collection allows players to modify various gameplay mechanics that may cause frustration during exploration or combat. Users can easily enable or disable specific tweaks through a user friendly interface within Cheat Engine. The table includes detailed explanations for each script to ensure you understand how every modification affects the game state. It serves as a versatile tool for those who want to customize their experience without editing core game files.",
+    tags: [
+      "nier",
+      "cheats",
+      "tools",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 581,
+    game: "nierautomata",
+    title: "Wolf's Automata eXtensions (WAX)",
+    category: "utilities",
+    version: "Early Access",
+    size: "1.9 MB",
+    images: [
+      "images/mods/wolfs-automata-extensions-wax-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E032DI73103t6k4",
+    short: "Powerful engine extension framework for advanced modding and customization.",
+    description: "Wolf's Automata eXtensions modifies internal game systems to provide expanded capabilities for content creators. The mod includes several quality of life improvements such as accessory management and physics fixes for players. It serves as a comprehensive framework that enables developers to add custom items, shops, and entity behaviors. Users can also access a command console to perform advanced debugging and configuration tasks.",
+    tags: [
+      "modding",
+      "engine",
+      "utilities",
+      "framework"
+    ],
+    featured: true
+  },
+  {
+    id: 582,
+    game: "nierautomata",
+    title: "2B or THICC2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "26.0 MB",
+    images: [
+      "images/mods/2b-or-thicc2b-1.jpg",
+      "images/mods/2b-or-thicc2b-2.jpg",
+      "images/mods/2b-or-thicc2b-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mxiP37FkHK58Jy9",
+    short: "A voluptuous fanart inspired character model for 2B.",
+    description: "This mod introduces a new voluptuous fanart version of the character 2B into the game. It serves as a direct successor to the previous Somewhat RealisTHICC 2B modification. Players should ensure they have Wolf's Limit Break installed before attempting to use these files. You can install the model manually by placing the files into the data pl folder.",
+    tags: [
+      "2b",
+      "nier",
+      "model",
+      "skin",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 583,
+    game: "nierautomata",
+    title: "Fast Loading Screen",
+    category: "utilities",
+    version: "1.0",
+    size: "7 KB",
+    images: [
+      "images/mods/fast-loading-screen-1.jpg",
+      "images/mods/fast-loading-screen-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xw1MY066ojMQGLN",
+    short: "Reduce your game loading times by removing static text.",
+    description: "This mod decreases game loading times by removing unnecessary loading screen text. It provides noticeable performance improvements both with and without the FAR mod installed. Users can choose between two different versions for optimal loading speed. Simply copy the included data folder into your main game directory to install.",
+    tags: [
+      "fast",
+      "loading",
+      "speed",
+      "optimization"
+    ],
+    featured: true
+  },
+  {
+    id: 584,
+    game: "nierautomata",
+    title: "2B's Kimono",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "14.7 MB",
+    images: [
+      "images/mods/2bs-kimono-1.jpg",
+      "images/mods/2bs-kimono-2.jpg",
+      "images/mods/2bs-kimono-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7HoEEruNW9e6Zl6",
+    short: "Brings the 2B Switch Kimono outfit to PC players.",
+    description: "This mod brings the exclusive Nintendo Switch Kimono outfit for 2B to the PC version of the game. The sleeves have been shortened to ensure the model looks stylish without requiring complex physics weights. Installation is straightforward and involves moving files into your main game directory. The mod is compatible with existing DLC outfits and can be easily removed by deleting the specific files.",
+    tags: [
+      "2b",
+      "kimono",
+      "outfit",
+      "switch",
+      "port"
+    ],
+    featured: true
+  },
+  {
+    id: 585,
+    game: "nierautomata",
+    title: "Almost Complete Savegame",
+    category: "utilities",
+    version: "1.0",
+    size: "21 KB",
+    images: [
+      "images/mods/almost-complete-savegame-1.jpg",
+      "images/mods/almost-complete-savegame-2.jpg",
+      "images/mods/almost-complete-savegame-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Sl9n4r1Rs283rza",
+    short: "A complete save file with all endings and items.",
+    description: "This savegame file provides players with all twenty-six endings and fully upgraded equipment. Every character reaches the maximum level of ninety-nine with all weapons and pods unlocked. You will have access to all cosmetic items and completed trophies for a comprehensive experience. It is recommended to create a backup of your existing save files before installation.",
+    tags: [
+      "savegame",
+      "complete",
+      "100percent"
+    ],
+    featured: true
+  },
+  {
+    id: 586,
+    game: "nierautomata",
+    title: "2Maid",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "19.7 MB",
+    images: [
+      "images/mods/2maid-1.jpg",
+      "images/mods/2maid-2.jpg",
+      "images/mods/2maid-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/29yoVCOr5N63ksH",
+    short: "Replaces the default 2B dress with a maid outfit.",
+    description: "This mod replaces the standard dress of 2B with a detailed french maid outfit. It includes different versions to accommodate varying physics preferences and minimize clipping. Users should ensure they have the necessary game files and proper directory structure set up for the textures to appear correctly. The installation involves replacing specific data files within the game directory.",
+    tags: [
+      "2b",
+      "maid",
+      "outfit",
+      "skin",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 587,
+    game: "nierautomata",
+    title: "2B Officer Outfit",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "9.2 MB",
+    images: [
+      "images/mods/2b-officer-outfit-1.jpg",
+      "images/mods/2b-officer-outfit-2.jpg",
+      "images/mods/2b-officer-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ng9xnDn4BfYkX4S",
+    short: "A custom officer uniform outfit for the character 2B.",
+    description: "This mod replaces the default dress of 2B with a custom officer uniform inspired by fan artwork. The design includes detailed textures and custom rigging for an authentic appearance in game. Please note that the self-destruct feature does not affect the outfit visuals. Minor clipping may occur around the shoulders during certain animations.",
+    tags: [
+      "2b",
+      "outfit",
+      "skin",
+      "costume",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 588,
+    game: "nierautomata",
+    title: "Latex Skirt for 2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "18.4 MB",
+    images: [
+      "images/mods/latex-skirt-for-2b-1.jpg",
+      "images/mods/latex-skirt-for-2b-2.jpg",
+      "images/mods/latex-skirt-for-2b-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/IN0VgYzIn33c9i0",
+    short: "Adds a shiny reflective latex skirt for 2B character.",
+    description: "This mod adds a custom semi-transparent latex skirt for 2B. The design features a reflective and shiny finish with a detailed mesh pattern. It is recommended to use at least a 1080p resolution to fully appreciate the high-quality textures. Please follow the included instructions to ensure the texture replacement works correctly with your other installed mods.",
+    tags: [
+      "2b",
+      "nier",
+      "skirt",
+      "latex",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 589,
+    game: "nierautomata",
+    title: "Automata Gadget",
+    category: "utilities",
+    version: "1.0",
+    size: "2.4 MB",
+    images: [
+      "images/mods/automata-gadget-1.jpg",
+      "images/mods/automata-gadget-2.jpg",
+      "images/mods/automata-gadget-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bk95u4QLn9Aivr6",
+    short: "A comprehensive multi-purpose utility tool for NieR Automata gameplay.",
+    description: "This multi-purpose tool provides various cheats and utility functions for NieR: Automata. Players can easily adjust character stats, warp across the map, and clip through solid objects. It also includes features to manage your inventory and weapon upgrades without requiring materials. The tool automatically detects your game process and applies chosen settings in real time.",
+    tags: [
+      "cheats",
+      "utility",
+      "gameplay",
+      "tools"
+    ],
+    featured: true
+  },
+  {
+    id: 590,
+    game: "nierautomata",
+    title: "2B Magical Girl Outfit",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "11.4 MB",
+    images: [
+      "images/mods/2b-magical-girl-outfit-1.jpg",
+      "images/mods/2b-magical-girl-outfit-2.jpg",
+      "images/mods/2b-magical-girl-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6DRBVRYb7jTGhcK",
+    short: "Replaces the default 2B dress with magical girl attire.",
+    description: "This mod replaces the default 2B dress with a custom magical girl outfit inspired by fan art. It features physics for the skirt and accessories along with semi-transparent textures. The outfit is available in both black and white color variants with optional wingless versions. Note that some minor clipping may occur during standard character animations.",
+    tags: [
+      "nier",
+      "2b",
+      "outfit",
+      "cosmetic",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 591,
+    game: "nierautomata",
+    title: "2B Light Armor (Operator Outfit)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "13.0 MB",
+    images: [
+      "images/mods/2b-light-armor-operator-outfit-1.jpg",
+      "images/mods/2b-light-armor-operator-outfit-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/a5zR6xShj9wX3mm",
+    short: "Replace 2B heavy armor with a sleek operator outfit.",
+    description: "This mod replaces the original heavy armor outfit with a lighter operator style design for 2B. Players can easily apply this look by equipping either heavy armor A or B within the game. The installation process requires moving a single file into your data directory. It offers a fresh aesthetic change for players looking to customize their character appearance.",
+    tags: [
+      "2b",
+      "outfit",
+      "skin",
+      "models"
+    ],
+    featured: true
+  },
+  {
+    id: 592,
+    game: "nierautomata",
+    title: "YoRHa Underwear",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "23.3 MB",
+    images: [
+      "images/mods/yorha-underwear-1.jpg",
+      "images/mods/yorha-underwear-2.jpg",
+      "images/mods/yorha-underwear-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Se6ugU1j0Z0ljfE",
+    short: "Replaces the default 2B outfit with stylish YoRHa underwear.",
+    description: "This mod replaces the default 2B outfit with custom YoRHa themed underwear. It includes a custom mesh replacement but may exhibit minor clipping issues during gameplay. Please note that this mod is incompatible with other modifications affecting the default character textures. Users may require the Limit Break tool to resolve potential white screen errors upon loading the game.",
+    tags: [
+      "2b",
+      "costume",
+      "nier",
+      "outfit",
+      "underwear"
+    ],
+    featured: true
+  },
+  {
+    id: 593,
+    game: "nierautomata",
+    title: "2B with stocking",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "20.2 MB",
+    images: [
+      "images/mods/2b-with-stocking-1.jpg",
+      "images/mods/2b-with-stocking-2.jpg",
+      "images/mods/2b-with-stocking-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/F3Oz95i2G667T8Y",
+    short: "A custom outfit modification for the character 2B.",
+    description: "This mod provides a custom outfit modification for 2B to suit personal aesthetic preferences. The update includes improved undergarments and updated stocking textures for the default model. It also introduces physics adjustments for the chest area to enhance character movement. Please note that some minor graphical inconsistencies may be present until future updates are released.",
+    tags: [
+      "2b",
+      "nier",
+      "outfit",
+      "texture",
+      "model"
+    ],
+    featured: true
+  },
+  {
+    id: 594,
+    game: "nierautomata",
+    title: "Reborn Warden (10H)",
+    category: "characters",
+    version: "1.0",
+    size: "37.5 MB",
+    images: [
+      "images/mods/reborn-warden-10h-1.jpg",
+      "images/mods/reborn-warden-10h-2.jpg",
+      "images/mods/reborn-warden-10h-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hXEx0a7103I2y0v",
+    short: "Replaces 2B with 10H from NieR Reincarnation character model.",
+    description: "This mod replaces the character 2B with the 10H model from NieR Reincarnation. It features support for self-destruct mechanics and includes the Type-127 sword for your inventory. The installation requires manual placement of files into the game data folders. Please ensure you follow the included naming conventions to enable the DLC outfits properly.",
+    tags: [
+      "10h",
+      "nier",
+      "character",
+      "model",
+      "2b"
+    ],
+    featured: true
+  },
+  {
+    id: 595,
+    game: "nierautomata",
+    title: "Skirtless 2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "8.0 MB",
+    images: [
+      "images/mods/skirtless-2b-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T7NIPg5a776a8iH",
+    short: "Play as 2B in her leotard without self-destructing now.",
+    description: "This mod allows you to play as 2B in her leotard form without needing to self-destruct. It replaces the default player model files to maintain the aesthetic throughout your entire playthrough. Installation is straightforward by placing the provided files into the game data folder. You may need to rename the files if you do not own the official downloadable content.",
+    tags: [
+      "2b",
+      "leotard",
+      "model",
+      "skin",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 596,
+    game: "nierautomata",
+    title: "Cyberpunk Thermal Katanas",
+    category: "weapons",
+    version: "1.0",
+    size: "565 KB",
+    images: [
+      "images/mods/cyberpunk-thermal-katanas-1.jpg",
+      "images/mods/cyberpunk-thermal-katanas-2.jpg",
+      "images/mods/cyberpunk-thermal-katanas-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2KdABkCi5e5QPXu",
+    short: "Replaces Virtuous Contract and Treaty with thermal katanas.",
+    description: "This modification replaces the Virtuous Contract and Virtuous Treaty blades with high-tech thermal katanas. The mod includes custom textures and unique holo effects for an authentic cyberpunk aesthetic. Installation requires manual file placement within the game directory and supporting tools for full visual functionality. Ensure you have the necessary injectors installed to see the glowing weapon effects properly.",
+    tags: [
+      "katana",
+      "cyberpunk",
+      "weapon",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 597,
+    game: "nierautomata",
+    title: "Wolf's Gravestone",
+    category: "weapons",
+    version: "1.0",
+    size: "1.8 MB",
+    images: [
+      "images/mods/wolfs-gravestone-1.jpg",
+      "images/mods/wolfs-gravestone-2.jpg",
+      "images/mods/wolfs-gravestone-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Zpu8sZamz76wwKH",
+    short: "Add the Wolf's Gravestone claymore to NieR Automata.",
+    description: "This mod adds the iconic Wolf's Gravestone claymore from Genshin Impact into the game. It includes custom-made roughness and normal maps to ensure the weapon integrates perfectly with the game lighting. The weapon replaces the default Iron Will sword model. It is a standalone model import designed to provide a more detailed look than the original assets.",
+    tags: [
+      "weapon",
+      "sword",
+      "genshin",
+      "claymore",
+      "model"
+    ],
+    featured: true
+  },
+  {
+    id: 598,
+    game: "nierautomata",
+    title: "Zero's Blade - Weapon Replacement",
+    category: "weapons",
+    version: "1.0",
+    size: "3.2 MB",
+    images: [
+      "images/mods/zeros-blade-weapon-replacement-1.jpg",
+      "images/mods/zeros-blade-weapon-replacement-2.jpg",
+      "images/mods/zeros-blade-weapon-replacement-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iu47MNhteAX6roL",
+    short: "Replaces the Beastbane sword with Zero's iconic weapon model.",
+    description: "This mod replaces the in-game Beastbane weapon with Zero's iconic blade from Drakengard 3. It serves as the first custom model port ever created for the game. You can acquire the sword by purchasing the Beastbane model from the Resistance Camp trader. The installation process is straightforward and requires the FAR mod to function correctly.",
+    tags: [
+      "nier",
+      "zero",
+      "sword",
+      "weapon",
+      "drakengard"
+    ],
+    featured: true
+  },
+  {
+    id: 599,
+    game: "nierautomata",
+    title: "2B BLACKED Sports Bra and Thong",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "23.0 MB",
+    images: [
+      "images/mods/2b-blacked-sports-bra-and-thong-1.jpg",
+      "images/mods/2b-blacked-sports-bra-and-thong-2.jpg",
+      "images/mods/2b-blacked-sports-bra-and-thong-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2yDaAZGPXUk1c21",
+    short: "Replaces 2B's outfit with stylish blacked themed lingerie set.",
+    description: "This mod replaces 2B's default dress and leotard with blacked themed lingerie. The sports bra features a destruction mechanic that activates when using the self-destruct function. There are two variations included that feature different placements of a spade tattoo on the character model. Players can easily install the mod by copying the provided data files into the designated game folder.",
+    tags: [
+      "2b",
+      "lingerie",
+      "skin",
+      "model",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 600,
+    game: "nierautomata",
+    title: "NVO (NieR Visual Overhaul)",
+    category: "visuals-and-graphics",
+    version: "2.0",
+    size: "38.2 MB",
+    images: [
+      "images/mods/nvo-nier-visual-overhaul-1.jpg",
+      "images/mods/nvo-nier-visual-overhaul-2.jpg",
+      "images/mods/nvo-nier-visual-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/JcgV84ha5SM294p",
+    short: "Improve NieR Automata visuals with this custom reshade preset.",
+    description: "This reshade preset removes the flat purplish tint to create more natural color levels. It enhances overall visual clarity by adjusting sharpening and contrast settings for a vibrant experience. The package includes various cinematic effects while allowing players to customize color intensity. Please note that this mod may cause a significant performance impact on mid-range hardware.",
+    tags: [
+      "reshade",
+      "graphics",
+      "visuals",
+      "color"
+    ],
+    featured: true
+  },
+  {
+    id: 601,
+    game: "nierautomata",
+    title: "V2 Cyberpunk Outfit for A2",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "19.7 MB",
+    images: [
+      "images/mods/v2-cyberpunk-outfit-for-a2-1.jpg",
+      "images/mods/v2-cyberpunk-outfit-for-a2-2.jpg",
+      "images/mods/v2-cyberpunk-outfit-for-a2-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YUx76kLiTy0BM6u",
+    short: "A custom Cyberpunk 2077 themed outfit for character A2.",
+    description: "This mod replaces the default character outfit for A2 with a custom Cyberpunk 2077 themed design. Users can manually install the files into the game data directory to apply the visual change. Please ensure you rename the files if you do not own the official game DLC. This modification is incompatible with other mods that alter A2's primary model or textures.",
+    tags: [
+      "a2",
+      "cyberpunk",
+      "outfit",
+      "skin",
+      "replacement"
+    ],
+    featured: true
+  },
+  {
+    id: 602,
+    game: "nierautomata",
+    title: "Abstract Savior (with weapon)",
+    category: "characters",
+    version: "1.0",
+    size: "28.0 MB",
+    images: [
+      "images/mods/abstract-savior-with-weapon-1.jpg",
+      "images/mods/abstract-savior-with-weapon-2.jpg",
+      "images/mods/abstract-savior-with-weapon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/74ifSv3gntDxz4U",
+    short: "Replaces playable characters with 10H from NieR Reincarnation.",
+    description: "This mod replaces 2B and 9S with the 10H Abstract Savior character model from NieR Reincarnation. It features support for self-destruct animations and includes the character weapon. The model is imported from the original mobile game assets for a high-quality look. Please note that using the model with 9S can occasionally cause minor visual bugs.",
+    tags: [
+      "10h",
+      "nier",
+      "character",
+      "model",
+      "replacer"
+    ],
+    featured: true
+  },
+  {
+    id: 603,
+    game: "nierautomata",
+    title: "Sailor 2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "13.7 MB",
+    images: [
+      "images/mods/sailor-2b-1.jpg",
+      "images/mods/sailor-2b-2.jpg",
+      "images/mods/sailor-2b-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TP6cZSI3YzBb30s",
+    short: "A custom sailor outfit designed specifically for 2B character.",
+    description: "This mod adds a custom sailor-themed outfit for 2B inspired by classic anime designs. The project was refined using custom bone tools to ensure the model functions correctly within the game engine. While there are a few minor visual imperfections, the outfit remains fully wearable and polished for general use. Please respect the creator's wishes by not redistributing or modifying the content without permission.",
+    tags: [
+      "2b",
+      "sailor",
+      "outfit",
+      "costume",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 604,
+    game: "nierautomata",
+    title: "2B-A2 in Black Pearl Suit (Stellar Blade)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "68.5 MB",
+    images: [
+      "images/mods/2b-a2-in-black-pearl-suit-stellar-blade-1.jpg",
+      "images/mods/2b-a2-in-black-pearl-suit-stellar-blade-2.jpg",
+      "images/mods/2b-a2-in-black-pearl-suit-stellar-blade-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8H47b3pxWlD7g4H",
+    short: "Replace 2B and A2 outfits with Stellar Blade gear.",
+    description: "This mod replaces the default outfits for 2B and A2 with the Black Pearl Suit from Stellar Blade. You can trigger a special version of the costume by using the self-destruct ability in-game. Please ensure you have the necessary file structures created in your NieR Automata data directory. If you experience game crashes, consider installing the Limit Break mod to improve stability.",
+    tags: [
+      "2b",
+      "a2",
+      "costume",
+      "nier",
+      "stellarblade"
+    ],
+    featured: true
+  },
+  {
+    id: 605,
+    game: "nierautomata",
+    title: "Alex's NierAutomata Reshade Preset",
+    category: "visuals-and-graphics",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/alexs-nierautomata-reshade-preset-1.jpg",
+      "images/mods/alexs-nierautomata-reshade-preset-2.jpg",
+      "images/mods/alexs-nierautomata-reshade-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HWpk877i46BT24O",
+    short: "A vibrant Reshade preset for enhanced visuals and lighting.",
+    description: "This vibrant Reshade preset enhances NieR Automata by sharpening details on objects and characters. It includes adjusted lighting and light sources to provide a unique atmosphere throughout the world. Players can choose between High and Ultra presets based on their hardware performance. The mod also features optional motion blur and borders for high-quality screenshot capabilities.",
+    tags: [
+      "reshade",
+      "graphics",
+      "visuals",
+      "lighting"
+    ],
+    featured: true
+  },
+  {
+    id: 606,
+    game: "nierautomata",
+    title: "Free Roam - Complete Map Collision Rework",
+    category: "gameplay",
+    version: "1.0",
+    size: "284 MB",
+    images: [
+      "images/mods/free-roam-complete-map-collision-rework-1.jpg",
+      "images/mods/free-roam-complete-map-collision-rework-2.jpg",
+      "images/mods/free-roam-complete-map-collision-rework-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZJj7u2GtmjFJiIl",
+    short: "Remove invisible walls to explore the game world freely.",
+    description: "This mod modifies the world collision meshes to remove invisible walls throughout the game. You can now explore rooftops and walk through windows in major zones like the City Ruins. Note that venturing too far out of bounds may cause the game engine to unload map assets. The increased complexity of these collisions may result in performance drops in certain areas.",
+    tags: [
+      "exploration",
+      "collision",
+      "open",
+      "world"
+    ],
+    featured: true
+  },
+  {
+    id: 607,
+    game: "nierautomata",
+    title: "MC's Weapons Pack Vol. I",
+    category: "weapons",
+    version: "1.0",
+    size: "13.5 MB",
+    images: [
+      "images/mods/mcs-weapons-pack-vol-i-1.jpg",
+      "images/mods/mcs-weapons-pack-vol-i-2.jpg",
+      "images/mods/mcs-weapons-pack-vol-i-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/B12VWGLf1eH1n34",
+    short: "A collection of eight iconic weapon replacements for NieR.",
+    description: "This modpack features eight high-quality weapon replacements imported from iconic titles like Bloodborne and Devil May Cry V. Each weapon includes custom menu icons that require the FAR mod to function correctly. The pack is organized into separate folders so you can selectively install your favorite designs. All models and textures have been carefully adapted to fit perfectly within the game world.",
+    tags: [
+      "weapons",
+      "models",
+      "swords",
+      "gear",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 608,
+    game: "stardew",
+    title: "Dynamic Game Assets",
+    category: "modding-tools",
+    version: "1.0",
+    size: "328 KB",
+    images: [
+      "images/mods/dynamic-game-assets-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OHp0OyGc6b54715",
+    short: "A powerful framework for adding custom content packs easily.",
+    description: "Dynamic Game Assets allows players to load custom content packs into their game easily. It provides a robust framework for adding crops, furniture, recipes, and equipment items. This mod is designed to act as a modern, optimized alternative to older content-loading tools. It supports multiplayer functionality and offers better compatibility for complex custom assets.",
+    tags: [
+      "framework",
+      "modding",
+      "crops",
+      "items"
+    ],
+    featured: true
+  },
+  {
+    id: 609,
+    game: "stardew",
+    title: "Integrated Minecarts - A Minecart Expansion",
+    category: "gameplay-mechanics",
+    version: "4.6.0",
+    size: "116 KB",
+    images: [
+      "images/mods/integrated-minecarts-a-minecart-expansion-1.jpg",
+      "images/mods/integrated-minecarts-a-minecart-expansion-2.jpg",
+      "images/mods/integrated-minecarts-a-minecart-expansion-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1m3hhulbZKzthtd",
+    short: "Unifies all minecart locations into one configurable travel menu.",
+    description: "This mod unifies all vanilla and modded minecart locations into a single, fully configurable paginated menu. It adds several new minecart stops across the world for improved traversal and integrates support for numerous popular content expansions. Players can customize destination ordering, page limits, and numbering directly through an intuitive configuration menu. The mod is designed for high compatibility with various farm maps and other community-created location mods.",
+    tags: [
+      "minecarts",
+      "gameplay",
+      "travel",
+      "expansion"
+    ],
+    featured: true
+  },
+  {
+    id: 610,
+    game: "stardew",
+    title: "Seasonal Outfits for Ridgeside Village",
+    category: "clothing",
+    version: "1.0.0",
+    size: "3.1 MB",
+    images: [
+      "images/mods/seasonal-outfits-for-ridgeside-village-1.jpg",
+      "images/mods/seasonal-outfits-for-ridgeside-village-2.jpg",
+      "images/mods/seasonal-outfits-for-ridgeside-village-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uWeGGa5I9977WLc",
+    short: "Adds unique seasonal outfits for all Ridgeside Village characters.",
+    description: "This mod provides unique seasonal outfits for all forty-seven characters in the Ridgeside Village expansion. Villagers now wear custom clothing based on the current season, weather conditions, and special festival events. It includes detailed Spirit Eve costumes and specific flower-themed attire for the Flower Dance. The mod features extensive configuration options to ensure full compatibility with other character portrait and outfit mods.",
+    tags: [
+      "rsv",
+      "outfits",
+      "clothing",
+      "seasonal",
+      "npcs"
+    ],
+    featured: true
+  },
+  {
+    id: 611,
+    game: "stardew",
+    title: "Mobile Phone",
+    category: "gameplay-mechanics",
+    version: "1.0",
+    size: "568 KB",
+    images: [
+      "images/mods/mobile-phone-1.jpg",
+      "images/mods/mobile-phone-2.jpg",
+      "images/mods/mobile-phone-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4G3IpYeKW30y25w",
+    short: "Interact with villagers using a customizable in-game mobile phone.",
+    description: "This mod adds a fully functional smartphone to your game interface. You can call villagers to chat, replay past events, or manage farm tasks remotely. The interface is highly customizable with various skins, backgrounds, and ringtones. It also supports numerous third-party app integrations to expand its utility further.",
+    tags: [
+      "smartphone",
+      "communication",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 612,
+    game: "stardew",
+    title: "Show Birthdays",
+    category: "ui",
+    version: "1.2.3",
+    size: "19 KB",
+    images: [
+      "images/mods/show-birthdays-1.jpg",
+      "images/mods/show-birthdays-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1162YlZQ456H55h",
+    short: "Display multiple NPC birthdays and cycle sprites on calendar.",
+    description: "This mod enhances the in-game calendar by allowing it to display multiple NPC birthdays on a single day. The hover text lists all relevant characters and the calendar interface cycles through their individual sprites automatically. You can customize the cycling behavior and icon visibility through the configuration menu or GMCM. This tool resolves issues where festivals and birthdays overlap on the same date.",
+    tags: [
+      "stardew",
+      "ui",
+      "calendar",
+      "npc",
+      "birthdays"
+    ],
+    featured: true
+  },
+  {
+    id: 613,
+    game: "stardew",
+    title: "Vibrant Pastoral Redrawn",
+    category: "visuals-graphics",
+    version: "1.0",
+    size: "7.9 MB",
+    images: [
+      "images/mods/vibrant-pastoral-redrawn-1.jpg",
+      "images/mods/vibrant-pastoral-redrawn-2.jpg",
+      "images/mods/vibrant-pastoral-redrawn-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7j8EU1BbULENj07",
+    short: "Complete visual overhaul with redrawn assets and custom palettes.",
+    description: "This mod provides a complete visual overhaul by recoloring and redrawing vanilla game assets. It features vibrant color palettes for both indoor and outdoor tilesheets, including mine levels and seasonal decorations. Players can customize their experience with optional terrain features like green fall colors and various flower replacements. The mod also includes reworked visual localization and broad compatibility with other popular community expansions.",
+    tags: [
+      "recolor",
+      "graphics",
+      "visuals",
+      "aesthetics"
+    ],
+    featured: true
+  },
+  {
+    id: 614,
+    game: "stardew",
+    title: "Stardew Valley - THAI",
+    category: "ui",
+    version: "1.0",
+    size: "6.0 MB",
+    images: [
+      "images/mods/stardew-valley-thai-1.jpg",
+      "images/mods/stardew-valley-thai-2.jpg",
+      "images/mods/stardew-valley-thai-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1zI15Krt1JLZSsA",
+    short: "Complete Thai language translation mod for Stardew Valley players.",
+    description: "This mod provides a complete Thai language translation for the Stardew Valley game interface. It includes support for customized UI color themes to improve your reading experience. You must install SMAPI and the required dependencies to enable the language selection menu properly. Please follow the included instructions to activate the translation within the game settings after installation.",
+    tags: [
+      "thai",
+      "language",
+      "translation",
+      "ui"
+    ],
+    featured: true
+  },
+  {
+    id: 615,
+    game: "stardew",
+    title: "Sword and Sorcery - A Fantasy Expansion for East Scarp",
+    category: "expansions",
+    version: "2.0",
+    size: "68.4 MB",
+    images: [
+      "images/mods/sword-and-sorcery-a-fantasy-expansion-for-east-scarp-1.jpg",
+      "images/mods/sword-and-sorcery-a-fantasy-expansion-for-east-scarp-2.jpg",
+      "images/mods/sword-and-sorcery-a-fantasy-expansion-for-east-scarp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rt7C4P9pa8YKikx",
+    short: "An immersive fantasy expansion for East Scarp and beyond.",
+    description: "This massive expansion introduces high-fantasy elements, new NPCs, and deep gameplay mechanics to East Scarp. Players can embark on a grand adventure featuring a complex story, unique character events, and challenging dungeon exploration. The mod adds diverse skills, custom items, and new locations inspired by classic tabletop RPGs. It is fully compatible with major content packs like Stardew Valley Expanded.",
+    tags: [
+      "fantasy",
+      "expansion",
+      "story",
+      "npcs",
+      "rpg"
+    ],
+    featured: true
+  },
+  {
+    id: 616,
+    game: "stardew",
+    title: "Elle's New Horses",
+    category: "pets",
+    version: "1.1.5",
+    size: "423 KB",
+    images: [
+      "images/mods/elles-new-horses-1.jpg",
+      "images/mods/elles-new-horses-2.jpg",
+      "images/mods/elles-new-horses-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9P4Xd2J79mWtZjt",
+    short: "Add thirty-one unique horse textures to your Stardew farm.",
+    description: "This mod provides thirty-one unique horse replacements for your farm. Players can customize their experience using the included config file to change horse textures. The mod also features optional saddle overlays with twenty distinct color choices. It fully supports both Content Patcher and Adopt 'n Skin for easy installation.",
+    tags: [
+      "horses",
+      "pets",
+      "skins",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 617,
+    game: "stardew",
+    title: "Loved Labels",
+    category: "gameplay-mechanics",
+    version: "2.0",
+    size: "5 KB",
+    images: [
+      "images/mods/loved-labels-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dvZCxw9aS1CfGcQ",
+    short: "Displays hover tooltips for pet and animal interaction status.",
+    description: "This mod adds a customizable tooltip that appears when you hover your mouse over farm animals or pets. It clearly indicates whether or not you have interacted with the animal for the current day. You can easily modify the displayed text labels by editing the mod configuration file. This utility makes managing your daily farm animal care much more efficient.",
+    tags: [
+      "stardew",
+      "animals",
+      "pets",
+      "farming",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 618,
+    game: "stardew",
+    title: "Range Display",
+    category: "gameplay-mechanics",
+    version: "2.0",
+    size: "23 KB",
+    images: [
+      "images/mods/range-display-1.jpg",
+      "images/mods/range-display-2.jpg",
+      "images/mods/range-display-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7y7p0cj7nC0A6x5",
+    short: "Visualizes coverage ranges for your farm's essential building equipment.",
+    description: "This mod provides a visual overlay showing the effective range of your farm infrastructure. You can easily identify the reach of sprinklers, scarecrows, bee houses, and junimo huts. The utility supports hovering over placed items or viewing ranges while holding new items to place. It is fully configurable and compatible with several other popular farming mods.",
+    tags: [
+      "farming",
+      "ui",
+      "utility",
+      "sprinklers"
+    ],
+    featured: true
+  },
+  {
+    id: 619,
+    game: "stardew",
+    title: "Wildflower Grass Field",
+    category: "visuals-graphics",
+    version: "1.0.0",
+    size: "114 KB",
+    images: [
+      "images/mods/wildflower-grass-field-1.jpg",
+      "images/mods/wildflower-grass-field-2.jpg",
+      "images/mods/wildflower-grass-field-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jfwZ2IxiE7F1QoI",
+    short: "Add fifty-two natural flower and grass variations for seasons.",
+    description: "This mod introduces 52 unique grass and flower variations designed for all four in-game seasons. Each season features thirteen distinct grass types to ensure your fields look lush and natural. You can easily customize the spawn rates or remove specific styles by managing individual image files in the folders. It maintains full compatibility with popular map expansions and landscape recolor mods for a seamless experience.",
+    tags: [
+      "grass",
+      "flowers",
+      "nature",
+      "textures",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 620,
+    game: "stardew",
+    title: "Cornucopia - More Crops",
+    category: "crops",
+    version: "1.6",
+    size: "884 KB",
+    images: [
+      "images/mods/cornucopia-more-crops-1.jpg",
+      "images/mods/cornucopia-more-crops-2.jpg",
+      "images/mods/cornucopia-more-crops-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1PLG432e7h023PO",
+    short: "Adds numerous vanilla-style crops and trees to the game.",
+    description: "Cornucopia adds a massive variety of vanilla-style crops, trees, and berry bushes to your farm. The mod is highly configurable, allowing you to toggle specific content packs to suit your personal playstyle. It features beautifully updated artwork and is fully compatible with existing save files. Players can enjoy over 90 new crops and 35 tree species alongside unique artisan goods.",
+    tags: [
+      "crops",
+      "farming",
+      "plants",
+      "expansion"
+    ],
+    featured: true
+  },
+  {
+    id: 621,
+    game: "stardew",
+    title: "Custom Music",
+    category: "audio",
+    version: "1.1",
+    size: "168 KB",
+    images: [
+      "images/mods/custom-music-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5O2BiH4O3jqg3nf",
+    short: "Replace standard game music with your own custom tracks.",
+    description: "This mod allows you to replace the standard game music with your own custom audio tracks. It supports both ogg and wav file formats for greater flexibility. You can configure individual songs to loop or play as ambient sounds using a simple json file. The system also includes an optional conversion feature to optimize loading times for your custom content packs.",
+    tags: [
+      "audio",
+      "music",
+      "custom",
+      "smapi"
+    ],
+    featured: true
+  },
+  {
+    id: 622,
+    game: "stardew",
+    title: "Rustic Country Town Interiors",
+    category: "interiors",
+    version: "1.0.0",
+    size: "2.0 MB",
+    images: [
+      "images/mods/rustic-country-town-interiors-1.jpg",
+      "images/mods/rustic-country-town-interiors-2.jpg",
+      "images/mods/rustic-country-town-interiors-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/c1LrwapnjnC96HZ",
+    short: "Rustic country redesigns for all Stardew Valley town interiors.",
+    description: "This mod provides a complete visual overhaul for town buildings and interior spaces throughout Stardew Valley. It features seasonal decor changes that update the atmosphere for all four seasons including custom foliage and festive items. Players can customize their experience with configuration options for beam colors and specific building structures. The mod is fully compatible with popular expansion packs like Stardew Valley Expanded and Karmylla's Immersive Maps.",
+    tags: [
+      "interiors",
+      "rustic",
+      "stardew",
+      "retexture"
+    ],
+    featured: true
+  },
+  {
+    id: 623,
+    game: "stardew",
+    title: "DaisyNiko's Earthy Interiors",
+    category: "interiors",
+    version: "1.0.0",
+    size: "1.2 MB",
+    images: [
+      "images/mods/daisynikos-earthy-interiors-1.jpg",
+      "images/mods/daisynikos-earthy-interiors-2.jpg",
+      "images/mods/daisynikos-earthy-interiors-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/771DfHkYw0t41Fi",
+    short: "A warm earth-toned recolour of all town house interiors.",
+    description: "This mod provides a warm earth-toned recolour of town and house interiors for a more natural look. It removes purple shadows from buildings and updates the bathhouse to appear clean and modern. You can easily customize the appearance of furniture, wallpaper, and flooring using the provided configuration file. The mod is fully compatible with most other interior map editing mods.",
+    tags: [
+      "recolour",
+      "interior",
+      "earthy",
+      "aesthetic"
+    ],
+    featured: true
+  },
+  {
+    id: 624,
+    game: "stardew",
+    title: "Custom Bush",
+    category: "gameplay-mechanics",
+    version: "1.0.0",
+    size: "93 KB",
+    images: [
+      "images/mods/custom-bush-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rgn6inWdMy7dhS8",
+    short: "Add custom bush types that function like tea saplings.",
+    description: "This framework enables the addition of custom bushes that function exactly like tea saplings. It is fully compatible with existing saves and can be safely installed or uninstalled at any time. Custom bushes will revert to tea bushes if the mod is removed from the game. You can easily create your own content packs using Content Patcher.",
+    tags: [
+      "framework",
+      "content",
+      "bushes",
+      "crops"
+    ],
+    featured: true
+  },
+  {
+    id: 625,
+    game: "stardew",
+    title: "Elle's Town Animals",
+    category: "livestock-animals",
+    version: "1.4.2",
+    size: "1.3 MB",
+    images: [
+      "images/mods/elles-town-animals-1.jpg",
+      "images/mods/elles-town-animals-2.jpg",
+      "images/mods/elles-town-animals-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e6y097S257ebe30",
+    short: "A comprehensive visual overhaul for Stardew Valley's town animals.",
+    description: "This mod provides extensive cosmetic replacements for nearly every creature and NPC animal in Stardew Valley. It includes hundreds of customization options for butterflies, town birds, local wildlife, and various unique event critters. Users can easily toggle or randomize appearances for these animals through a configurable settings file. The mod also adds support for numerous new creatures introduced in the 1.5 update.",
+    tags: [
+      "animals",
+      "cosmetics",
+      "stardew",
+      "sprites"
+    ],
+    featured: true
+  },
+  {
+    id: 626,
+    game: "stardew",
+    title: "Gwen's Medieval Craftables",
+    category: "crafting",
+    version: "1.6",
+    size: "12.1 MB",
+    images: [
+      "images/mods/gwens-medieval-craftables-1.jpg",
+      "images/mods/gwens-medieval-craftables-2.jpg",
+      "images/mods/gwens-medieval-craftables-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7rQjok15S6o11uJ",
+    short: "Medieval themed retexture for all game craftable items.",
+    description: "This mod provides a complete retexture for various craftable items in the game. The assets feature a charming medieval aesthetic designed to fit a classic fantasy theme. It includes broad compatibility with popular map recolor mods to ensure visual consistency. Players can easily configure the settings to customize the appearance of specific items. The package is fully updated to support all items added in recent game versions.",
+    tags: [
+      "crafting",
+      "medieval",
+      "retexture"
+    ],
+    featured: true
+  },
+  {
+    id: 627,
+    game: "stardew",
+    title: "Elle's Cuter Cats",
+    category: "pets",
+    version: "1.6",
+    size: "1.4 MB",
+    images: [
+      "images/mods/elles-cuter-cats-1.jpg",
+      "images/mods/elles-cuter-cats-2.jpg",
+      "images/mods/elles-cuter-cats-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kJQa3WQcw93iM6I",
+    short: "Add 158 unique cat breeds to your game today.",
+    description: "This mod adds 158 unique cat breeds and color patterns to your game. It utilizes the new 1.6 game features to add new pets without replacing existing vanilla sprites. Players can customize their selection through a configuration file to choose exactly which breeds appear. Every cat includes a custom head icon and supports pet hats for extra personalization.",
+    tags: [
+      "cats",
+      "pets",
+      "animals",
+      "cosmetics",
+      "stardew"
+    ],
+    featured: true
+  },
+  {
+    id: 628,
+    game: "re4",
+    title: "Money (Pesetas) Multiplier",
+    category: "gameplay",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/money-pesetas-multiplier-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/aA7Mz9349u7Km5P",
+    short: "Multiply all pesetas collected by your preferred custom amount.",
+    description: "This script allows you to multiply the amount of money earned from picking up items or selling goods. You can adjust the multiplier value between one and twenty using the in-game REFramework menu. It is perfect for offsetting high upgrade costs or balancing your economy during a playthrough. The installation is simple and compatible with standard mod managers.",
+    tags: [
+      "money",
+      "economy",
+      "multiplier",
+      "cheat"
+    ],
+    featured: true
+  },
+  {
+    id: 629,
+    game: "re4",
+    title: "Ultimate Trainer for Resident Evil 4",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/ultimate-trainer-for-resident-evil-4-1.jpg",
+      "images/mods/ultimate-trainer-for-resident-evil-4-2.jpg",
+      "images/mods/ultimate-trainer-for-resident-evil-4-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/f2uJI38vp0a8yY2",
+    short: "A powerful cheat trainer for Resident Evil 4 Remake.",
+    description: "This comprehensive trainer script provides essential gameplay cheats for Resident Evil 4 Remake. It utilizes the REFramework plugin to offer players infinite health and throwable items during combat. You can easily toggle these powerful features through a convenient in-game menu. It is perfect for casual play or testing game mechanics in real time.",
+    tags: [
+      "cheats",
+      "trainer",
+      "gameplay",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 630,
+    game: "re4",
+    title: "Ada Summer Swimsuit",
+    category: "characters",
+    version: "1.0",
+    size: "49.4 MB",
+    images: [
+      "images/mods/ada-summer-swimsuit-1.jpg",
+      "images/mods/ada-summer-swimsuit-2.jpg",
+      "images/mods/ada-summer-swimsuit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LXSDOmjSQA27h8F",
+    short: "Adds a stylish summer swimsuit outfit for Ada Wong.",
+    description: "This mod adds a summer swimsuit outfit for Ada Wong in Resident Evil 4. It provides a lightweight and stylish look for her character model during gameplay. Players can easily toggle this outfit using a compatible mod manager. Please ensure you have the latest version of Fluffy Mod Manager installed to use this mod.",
+    tags: [
+      "ada wong",
+      "swimsuit",
+      "character",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 631,
+    game: "re4",
+    title: "Chun Li Cow Microbikini over Ada Wong",
+    category: "characters",
+    version: "1.1",
+    size: "132 MB",
+    images: [
+      "images/mods/chun-li-cow-microbikini-over-ada-wong-1.jpg",
+      "images/mods/chun-li-cow-microbikini-over-ada-wong-2.jpg",
+      "images/mods/chun-li-cow-microbikini-over-ada-wong-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fz5BHI5iu4d3Guo",
+    short: "Replaces Ada Wong model with Chun Li microbikini skin.",
+    description: "This mod replaces the character model of Ada Wong with Chun Li wearing a cow microbikini. The character model remains functional throughout the entire campaign despite some minor visual bugs. Players wishing to use this skin in Leon's campaign must use the Razor trainer to set up the NPC. Credits go to ItsB00Mods for the base mod and Wiwilz for the head assets.",
+    tags: [
+      "chun li",
+      "ada wong",
+      "skin",
+      "resident evil"
+    ],
+    featured: true
+  },
+  {
+    id: 632,
+    game: "re4",
+    title: "New Salazar",
+    category: "characters",
+    version: "1.0",
+    size: "25.1 MB",
+    images: [
+      "images/mods/new-salazar-1.jpg",
+      "images/mods/new-salazar-2.jpg",
+      "images/mods/new-salazar-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/d4u2jm8WV2it86F",
+    short: "A fresh visual redesign for the character Ramon Salazar.",
+    description: "This mod provides a visual overhaul for the Salazar character model. It adjusts the facial features to reflect a more classic aesthetic. The creator noted some minor clipping issues with the eye animations during intense scenes. This remains a work in progress by a non-professional modeler.",
+    tags: [
+      "salazar",
+      "re4",
+      "character",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 633,
+    game: "re4",
+    title: "Unlimited Ammo Exclusive Upgrades For All Weapons (Separate Ways)",
+    category: "weapons",
+    version: "1.0",
+    size: "181 KB",
+    images: [
+      "images/mods/unlimited-ammo-exclusive-upgrades-for-all-weapons-separate-ways-1.jpg",
+      "images/mods/unlimited-ammo-exclusive-upgrades-for-all-weapons-separate-ways-2.jpg",
+      "images/mods/unlimited-ammo-exclusive-upgrades-for-all-weapons-separate-ways-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J2lLyXB9Lg9L7We",
+    short: "Get unlimited ammo upgrades for all Separate Ways weapons.",
+    description: "This mod enables an unlimited ammo exclusive upgrade for all weapons in the Separate Ways campaign. The upgrade mimics the functionality of the Chicago Sweeper by providing an infinite magazine without the need to reload. Please note that the rocket launcher and knives are excluded from these changes. We highly recommend starting a new save file to prevent potential conflicts with existing weapon upgrades.",
+    tags: [
+      "re4",
+      "ammo",
+      "upgrades",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 634,
+    game: "re4",
+    title: "AW - Cow Bikini",
+    category: "audio",
+    version: "1.0",
+    size: "59.7 MB",
+    images: [
+      "images/mods/aw-cow-bikini-1.jpg",
+      "images/mods/aw-cow-bikini-2.jpg",
+      "images/mods/aw-cow-bikini-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5639WxG2b7oNg8S",
+    short: "A cow print bikini outfit for Ada Wong character.",
+    description: "This mod adds a stylish cow print bikini outfit for Ada Wong in Resident Evil 4. The package includes optional files for body shape adjustments and hiding holster weapons. Players can also choose to remove the headband for a cleaner look. Ensure you have the base mod installed before applying any of the optional patches.",
+    tags: [
+      "ada wong",
+      "bikini",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 635,
+    game: "gta5",
+    title: "Diamond Weapon Villagers",
+    category: "weapons",
+    version: "1.0",
+    size: "2.5 MB",
+    images: [
+      "images/mods/diamond-weapon-villagers-1.jpg",
+      "images/mods/diamond-weapon-villagers-2.jpg",
+      "images/mods/diamond-weapon-villagers-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CXOp73ONx9PBn2Z",
+    short: "Replaces game melee weapons with iconic Minecraft diamond gear.",
+    description: "This modification replaces the standard melee weapon models with diamond weapons inspired by Minecraft. The custom textures are applied specifically to the weapons held by villagers within the game world. It provides a unique visual crossover for players who enjoy sandbox aesthetic changes. This simple asset swap enhances the game experience with familiar cube-based tools.",
+    tags: [
+      "minecraft",
+      "weapons",
+      "melee",
+      "villager"
+    ],
+    featured: true
+  },
+  {
+    id: 636,
+    game: "re4",
+    title: "Honkai Star Rail - Cipher",
+    category: "characters",
+    version: "1.0",
+    size: "45.4 MB",
+    images: [
+      "images/mods/honkai-star-rail-cipher-1.jpg",
+      "images/mods/honkai-star-rail-cipher-2.jpg",
+      "images/mods/honkai-star-rail-cipher-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OUPoN4KXGR0lUre",
+    short: "Replace Leon or Luis with Cipher from Honkai Rail.",
+    description: "This mod replaces the Leon or Luis character models with Cipher from Honkai Star Rail. It includes custom physics for the hair and body along with working facial animations. An optional addon is included to remove emissive textures in favor of wet material effects. You should use this alongside the General Animations Corrector for the best results.",
+    tags: [
+      "re4",
+      "cipher",
+      "character",
+      "model",
+      "hoyoverse"
+    ],
+    featured: true
+  },
+  {
+    id: 637,
+    game: "re4",
+    title: "Ada - Agent of Seduction",
+    category: "characters",
+    version: "1.0",
+    size: "15.4 MB",
+    images: [
+      "images/mods/ada-agent-of-seduction-1.jpg",
+      "images/mods/ada-agent-of-seduction-2.jpg",
+      "images/mods/ada-agent-of-seduction-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4po1weZvkz7n2c7",
+    short: "A refined and stylized aesthetic overhaul for Ada Wong.",
+    description: "This mod refines Ada Wong's character model to achieve a more natural and athletic femme fatale appearance. It features subtle adjustments to her body curves and boot height for a balanced look. The package also includes a custom title screen for the Separate Ways expansion. Optional files are provided to ensure compatibility with popular hair and makeup mods.",
+    tags: [
+      "ada wong",
+      "character",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 638,
+    game: "re4",
+    title: "Leon's Hatchet For RE4 Remake",
+    category: "weapons",
+    version: "1.0",
+    size: "68.7 MB",
+    images: [
+      "images/mods/leons-hatchet-for-re4-remake-1.jpg",
+      "images/mods/leons-hatchet-for-re4-remake-2.jpg",
+      "images/mods/leons-hatchet-for-re4-remake-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Wo6Z7izky45E8o9",
+    short: "Add Leon's hatchet to your Resident Evil 4 arsenal.",
+    description: "This mod brings the iconic hatchet from the Requiem project into the Resident Evil 4 Remake. It offers custom replacement options for the Combat Knife, Primal Knife, and Fighting Knife. You must use the Fluffy Mod Manager to install this modification correctly. This high-quality model adds a fresh aesthetic to your melee arsenal.",
+    tags: [
+      "re4",
+      "weapon",
+      "knife",
+      "hatchet"
+    ],
+    featured: true
+  },
+  {
+    id: 639,
+    game: "re4",
+    title: "Infinite Health",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "1.0 MB",
+    images: [
+      "images/mods/infinite-health-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BPHtFr6Wu0Ty12A",
+    short: "Grants infinite health to the player character during combat.",
+    description: "This mod provides your character with a permanent state of invulnerability. You will no longer take any damage from enemy attacks or environmental hazards during your playthrough. It is designed for players who want to enjoy the story without worrying about their health status. Simply install the files to activate this effect instantly in your save game.",
+    tags: [
+      "cheat",
+      "invincibility",
+      "gameplay",
+      "health"
+    ],
+    featured: true
+  },
+  {
+    id: 640,
+    game: "re4",
+    title: "Requiem (RE9)",
+    category: "weapons",
+    version: "1.0",
+    size: "93.7 MB",
+    images: [
+      "images/mods/requiem-re9-1.jpg",
+      "images/mods/requiem-re9-2.jpg",
+      "images/mods/requiem-re9-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uZb63sDD552NCzK",
+    short: "Replaces the Handcannon with the Requiem weapon from RE9.",
+    description: "This mod replaces the standard Handcannon with the Requiem weapon model from Resident Evil 9. It includes both Apocalypse and Film Noir cosmetic skins for the firearm. Players can also choose to install an optional custom gunshot sound effect. You must use the Fluffy Mod Manager to install these files correctly.",
+    tags: [
+      "re4",
+      "handcannon",
+      "weapon",
+      "skin",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 641,
+    game: "re4",
+    title: "Wavering Heart Extreme",
+    category: "gameplay",
+    version: "1.0",
+    size: "26.2 MB",
+    images: [
+      "images/mods/wavering-heart-extreme-1.jpg",
+      "images/mods/wavering-heart-extreme-2.jpg",
+      "images/mods/wavering-heart-extreme-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/119yZyi2qY0A68q",
+    short: "An intense gameplay overhaul for the Separate Ways campaign.",
+    description: "This mod provides an extreme gameplay overhaul for the Separate Ways campaign in Resident Evil 4. It increases enemy counts and modifies their placement to create a more intense combat experience. The mod also rebalances weapon statistics and adjusts dynamic difficulty specifically for the Expert mode. It is recommended to complete the standard version of the game before attempting this challenging edition.",
+    tags: [
+      "re4",
+      "overhaul",
+      "gameplay",
+      "difficulty"
+    ],
+    featured: true
+  },
+  {
+    id: 642,
+    game: "re4",
+    title: "Ada - Ocean Maid",
+    category: "characters",
+    version: "1.0",
+    size: "58.6 MB",
+    images: [
+      "images/mods/ada-ocean-maid-1.jpg",
+      "images/mods/ada-ocean-maid-2.jpg",
+      "images/mods/ada-ocean-maid-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/PBa40n6h8dh7q1Y",
+    short: "An elegant ocean maid outfit costume for Ada Wong.",
+    description: "This mod introduces a high-quality ocean maid outfit specifically designed for the character Ada Wong. The package includes the main outfit files along with an optional patch for enhanced physical attributes. Users can also select an alternative style variant to further customize the look. Please ensure a clean installation if you encounter any compatibility issues with existing files.",
+    tags: [
+      "ada wong",
+      "re4",
+      "outfit",
+      "costume"
+    ],
+    featured: true
+  },
+  {
+    id: 643,
+    game: "re4",
+    title: "100 Percent Save File for Resident Evil 4 Remake",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "20.7 MB",
+    images: [
+      "images/mods/100-percent-save-file-for-resident-evil-4-remake-1.jpg",
+      "images/mods/100-percent-save-file-for-resident-evil-4-remake-2.jpg",
+      "images/mods/100-percent-save-file-for-resident-evil-4-remake-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LNN5GXy86LS2QHK",
+    short: "Unlock all weapons and content with this completionist save.",
+    description: "This comprehensive save file provides 100 percent completion for both the main Resident Evil 4 Remake campaign and the Separate Ways DLC. It includes various save states ranging from New Game Plus to fully maxed out weapon configurations. Players can utilize these files to unlock all accessories, special costumes, and high-tier equipment instantly. Detailed instructions are provided to help users resign the save files to match their unique Steam ID. Always remember to create a backup of your original save files before proceeding with the installation.",
+    tags: [
+      "savegame",
+      "unlocker",
+      "100percent"
+    ],
+    featured: true
+  },
+  {
+    id: 644,
+    game: "re4",
+    title: "Citlali Voice Pack for Leon",
+    category: "audio",
+    version: "1.0",
+    size: "74.8 MB",
+    images: [
+      "images/mods/citlali-voice-pack-for-leon-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kJ1UJxdjVeF9QG2",
+    short: "A complete voice replacement mod featuring Citlali for Leon.",
+    description: "This mod replaces all of Leon's spoken lines with a new voice based on a TTS model. It includes over 600 unique audio clips covering the main campaign dialogue. The package features optimized sound quality to ensure a smoother auditory experience throughout your playthrough. Please note that some lines may sound slightly artificial due to the nature of synthesized voice technology.",
+    tags: [
+      "re4",
+      "voice",
+      "audio",
+      "tts",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 645,
+    game: "re4",
+    title: "Smart Flashlight",
+    category: "gameplay",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/smart-flashlight-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2QwTa6I7Z4AFfJG",
+    short: "Toggle your flashlight automatically or manually during gameplay sessions.",
+    description: "This mod introduces an intelligent system for your flashlight that toggles automatically based on ambient lighting conditions. You can still maintain full control by activating or deactivating the light manually whenever you choose. If you toggle the flashlight manually, it will ignore automatic settings until you switch it off again. This provides a seamless experience for navigating dark areas without constantly accessing your menu.",
+    tags: [
+      "flashlight",
+      "gameplay",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 646,
+    game: "re4",
+    title: "Barret M82A1 with Custom Sound",
+    category: "weapons",
+    version: "1.0",
+    size: "62.0 MB",
+    images: [
+      "images/mods/barret-m82a1-with-custom-sound-1.jpg",
+      "images/mods/barret-m82a1-with-custom-sound-2.jpg",
+      "images/mods/barret-m82a1-with-custom-sound-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E36F7PGKzzNgrxn",
+    short: "Add the powerful Barret M82A1 rifle to your arsenal.",
+    description: "This modification introduces the iconic Barret M82A1 sniper rifle into the game. It features custom firing audio to enhance the weapon experience. The model is designed to replace the existing Sting Ray rifle in your inventory. Installation is performed easily via the Fluffy Mod Manager tool.",
+    tags: [
+      "barret",
+      "rifle",
+      "sniper",
+      "weapons",
+      "firearm"
+    ],
+    featured: true
+  },
+  {
+    id: 647,
+    game: "re4",
+    title: "More Powerful Weapons",
+    category: "weapons",
+    version: "Final Version",
+    size: "155 KB",
+    images: [
+      "images/mods/more-powerful-weapons-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/AAHVibJsT4oL6U1",
+    short: "Rebalanced weapons and unlocked upgrades for Resident Evil 4.",
+    description: "This mod enhances the core weapon arsenal by adjusting stats and functionality for various firearms in the main campaign. It unlocks all weapon upgrades from the start and modifies performance metrics like power, accuracy, and ammo capacity. Rifles now feature regular sights instead of iron sights for improved aiming capabilities. These changes create a more balanced and impactful combat experience throughout your playthrough.",
+    tags: [
+      "re4",
+      "weapons",
+      "balancing",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 648,
+    game: "re4",
+    title: "Modsgamer77 All In One Trainer",
+    category: "utilities",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/modsgamer77-all-in-one-trainer-1.jpg",
+      "images/mods/modsgamer77-all-in-one-trainer-2.jpg",
+      "images/mods/modsgamer77-all-in-one-trainer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Q18oi6Ox55zlm85",
+    short: "A comprehensive and user-friendly cheat trainer for Resident Evil.",
+    description: "This lightweight REFramework Lua trainer provides essential gameplay cheats through a clean and accessible menu. Players can easily toggle features like infinite health and ammo to customize their survival experience. The trainer offers a master switch for quick activation and ensures high performance during gameplay. It is designed for stability and works seamlessly within the existing script generated UI.",
+    tags: [
+      "trainer",
+      "cheats",
+      "gameplay",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 649,
+    game: "re4",
+    title: "Ada's Souvenir Charms",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "3.3 MB",
+    images: [
+      "images/mods/adas-souvenir-charms-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5F78dy74V0d7L4n",
+    short: "Replaces your in-game charms with special Ada souvenir items.",
+    description: "This mod replaces standard game charms with unique souvenirs inspired by Ada. It includes optional files to buff charm stats and improve drop rates for higher rarity items. Users playing the Separate Ways expansion should use the provided core add-on for full compatibility. All supported in-game languages feature full translations for these new items.",
+    tags: [
+      "ada",
+      "charms",
+      "items",
+      "souvenirs",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 650,
+    game: "re4",
+    title: "Ada Long Hair",
+    category: "characters",
+    version: "1.0",
+    size: "23.3 MB",
+    images: [
+      "images/mods/ada-long-hair-1.jpg",
+      "images/mods/ada-long-hair-2.jpg",
+      "images/mods/ada-long-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bHBD038ZFYQA79N",
+    short: "A beautiful long hair style for Ada Wong model.",
+    description: "This modification replaces the default hairstyle for Ada Wong with a beautiful and flowing long hair style. It is designed to enhance her appearance during gameplay and cutscenes within Resident Evil 4. You are required to use Fluffy Manager 5000 to manage and apply these files correctly. If the mod fails to load, please follow the re-read archives procedure in your manager.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "hairstyle"
+    ],
+    featured: true
+  },
+  {
+    id: 651,
+    game: "re4",
+    title: "Quick Save Anywhere",
+    category: "gameplay",
+    version: "0.0.7",
+    size: "1 KB",
+    images: [
+      "images/mods/quick-save-anywhere-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HtTLIZT66T9q891",
+    short: "Save your game anywhere with a custom hotkey shortcut.",
+    description: "This mod enables the ability to quick save your game progress at any location by pressing a simple hotkey. It functions by overwriting the existing autosave slot regardless of your current position. The latest version includes full support for both the main campaign and the Separate Ways expansion. Installation is straightforward and requires the REFramework tool to be active. You can easily customize the assigned trigger key by editing the included script file.",
+    tags: [
+      "re4",
+      "save",
+      "utility",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 652,
+    game: "re4",
+    title: "Becoming Raven - Stellar Blade Adaptation",
+    category: "characters",
+    version: "1.0",
+    size: "84.4 MB",
+    images: [
+      "images/mods/becoming-raven-stellar-blade-adaptation-1.jpg",
+      "images/mods/becoming-raven-stellar-blade-adaptation-2.jpg",
+      "images/mods/becoming-raven-stellar-blade-adaptation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7C6b0OLmV3E3B3I",
+    short: "Play as Raven in Resident Evil 4 Remake campaign.",
+    description: "This mod replaces the models for Leon and Ada with Raven from Stellar Blade for the full campaign. It includes custom hair variants and physics for hair and suit components. The mod is designed for use with Fluffy Mod Manager for easy installation across both main story and Separate Ways modes. While some cinematic clipping may occur, it offers a complete character overhaul for your playthrough.",
+    tags: [
+      "raven",
+      "stellarblade",
+      "character"
+    ],
+    featured: true
   }
 ];
 
