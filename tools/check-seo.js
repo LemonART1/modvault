@@ -50,7 +50,8 @@ for (const mod of MODS.filter(item => String(item.title ?? "").trim())) {
   const html = read(pagePath);
   const expectedTitle = `${esc(mod.title)} - Download ${esc(game.name)} Mod - ModVault`;
   if (!html.includes(`<title>${expectedTitle}</title>`)) problems.push(`Wrong or missing title: ${pagePath}`);
-  if (!html.includes('<meta name="robots" content="index, follow">')) problems.push(`Missing index, follow robots meta: ${pagePath}`);
+  const expectedRobots = mod.mature ? "noindex, follow" : "index, follow";
+  if (!html.includes(`<meta name="robots" content="${expectedRobots}">`)) problems.push(`Missing ${expectedRobots} robots meta: ${pagePath}`);
   if (!html.includes(`<link rel="canonical" href="${cleanUrl}">`)) problems.push(`Wrong or missing canonical URL: ${pagePath}`);
   if (!html.includes(`<h1 class="modal-title">${esc(mod.title)}</h1>`)) problems.push(`Missing static H1: ${pagePath}`);
   if (!html.includes(`<p class="modal-desc-text">${esc(mod.description)}</p>`)) problems.push(`Missing static mod description: ${pagePath}`);
@@ -75,8 +76,13 @@ for (const [gameKey, game] of Object.entries(GAMES)) {
 }
 
 const sitemap = read("sitemap.xml");
-for (const { pagePath, cleanUrl } of modPages) {
-  if (!sitemap.includes(`<loc>${cleanUrl}</loc>`)) problems.push(`Missing sitemap URL: ${pagePath}`);
+for (const { mod, pagePath, cleanUrl } of modPages) {
+  const inSitemap = sitemap.includes(`<loc>${cleanUrl}</loc>`);
+  if (mod.mature) {
+    if (inSitemap) problems.push(`Mature mod should not be in sitemap: ${pagePath}`);
+  } else if (!inSitemap) {
+    problems.push(`Missing sitemap URL: ${pagePath}`);
+  }
 }
 
 const robots = read("robots.txt");

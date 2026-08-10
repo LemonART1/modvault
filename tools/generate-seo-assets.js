@@ -13,6 +13,10 @@ function write(file, text) {
   fs.writeFileSync(path.join(root, file), text, "utf8");
 }
 
+function slugify(value) {
+  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
 function esc(str) {
   return String(str ?? "")
     .replace(/&/g, "&amp;")
@@ -235,10 +239,10 @@ const pageMeta = {
   }
 };
 
-const gamePages = ["beamng.html", "assetto.html", "subnautica2.html", "stardew.html", "gta5.html", "ets2.html", "cyberpunk.html", "bg3.html", "factorio.html", "re4.html", "starfield.html", "rdr2.html"];
 const dataCtx = {};
 vm.createContext(dataCtx);
-vm.runInContext(`${read("js/data/mods.js")}\nthis.GAMES = GAMES;`, dataCtx);
+vm.runInContext(`${read("js/data/mods.js")}\nthis.GAMES = GAMES; this.MODS = MODS;`, dataCtx);
+const gamePages = Object.values(dataCtx.GAMES).map(game => `${game.page}.html`);
 for (const game of Object.values(dataCtx.GAMES)) {
   pageMeta[`${game.page}.html`] = {
     title: `${game.name} Mods - ModVault`,
@@ -273,12 +277,19 @@ Allow: /
 Sitemap: ${SITE_URL}/sitemap.xml
 `);
 
+// Mature mods are noindex - keep them out of the sitemap too.
+const maturePagePaths = new Set(
+  dataCtx.MODS.filter(mod => mod.mature)
+    .map(mod => `mods/${mod.game}/${slugify(`${mod.id}-${mod.title}`)}.html`)
+);
+
 const urls = [
   ...Object.keys(pageMeta),
   ...listHtmlFiles("mods"),
   ...listHtmlFiles("content/news"),
   ...listHtmlFiles("content/guides")
-].filter((value, index, arr) => arr.indexOf(value) === index);
+].filter((value, index, arr) => arr.indexOf(value) === index)
+  .filter(value => !maturePagePaths.has(value));
 
 const today = new Date().toISOString().slice(0, 10);
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>

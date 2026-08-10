@@ -27,13 +27,15 @@ function absUrl(url) {
   return `https://modvault.space/${String(url || "").replace(/^\/+/, "")}`;
 }
 
-function metaTags({ title, description, image, url, type = "website" }) {
+function metaTags({ title, description, image, url, type = "website", mature = false }) {
   const safeTitle = esc(title);
   const safeDescription = esc(description);
   const safeImage = esc(absUrl(image || "images/og-default.svg"));
   const safeUrl = esc(absUrl(url));
   return `  <meta name="keywords" content="game mods, PC mods, mod downloads, ${safeTitle}">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="${mature ? "noindex, follow" : "index, follow"}">${mature ? `
+  <meta name="rating" content="RTA-5042-1996-1400-1577-RTA">
+  <meta name="rating" content="adult">` : ""}
   <link rel="canonical" href="${safeUrl}">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="shortcut icon" href="favicon.ico">
@@ -255,7 +257,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(mod.short)}">
-${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article" })}
+${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article", mature: !!mod.mature })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
   <link rel="stylesheet" href="css/shared.css?v=27">

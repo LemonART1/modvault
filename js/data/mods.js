@@ -3111,6 +3111,7 @@ const MODS = [
   {
     id: 156,
     game: "cyberpunk",
+    mature: true,
     title: "Summer Laces Bikini - Archive XL",
     category: "armour-clothing",
     version: "1.0",
@@ -9658,6 +9659,7 @@ const MODS = [
   {
     id: 448,
     game: "re4",
+    mature: true,
     title: "Bigger Ass for Ashley",
     category: "characters",
     version: "1.0",
@@ -9816,6 +9818,7 @@ const MODS = [
   {
     id: 455,
     game: "re4",
+    mature: true,
     title: "Bigger Ass for Ada",
     category: "characters",
     version: "1.0",
@@ -10281,6 +10284,7 @@ const MODS = [
   {
     id: 475,
     game: "rdr2",
+    mature: true,
     title: "Thiccer Sadie",
     category: "models-textures",
     version: "1.0",
@@ -10809,6 +10813,7 @@ const MODS = [
   {
     id: 498,
     game: "nierautomata",
+    mature: true,
     title: "2B Breast Physics Mod",
     category: "models-and-textures",
     version: "1.0",
@@ -11463,6 +11468,7 @@ const MODS = [
   {
     id: 527,
     game: "nierautomata",
+    mature: true,
     title: "Android Leg Enhancements -Thicc Mod-",
     category: "models-and-textures",
     version: "1.0",
@@ -11487,6 +11493,7 @@ const MODS = [
   {
     id: 528,
     game: "nierautomata",
+    mature: true,
     title: "Kaine's Revealing Outfit for 9S",
     category: "models-and-textures",
     version: "1.0",
@@ -12661,6 +12668,7 @@ const MODS = [
   {
     id: 579,
     game: "nierautomata",
+    mature: true,
     title: "2B - Nun Outfit",
     category: "models-and-textures",
     version: "1.0",
@@ -12726,6 +12734,7 @@ const MODS = [
   {
     id: 582,
     game: "nierautomata",
+    mature: true,
     title: "2B or THICC2B",
     category: "models-and-textures",
     version: "1.0",
@@ -12842,6 +12851,7 @@ const MODS = [
   {
     id: 587,
     game: "nierautomata",
+    mature: true,
     title: "2B Officer Outfit",
     category: "models-and-textures",
     version: "1.0",
@@ -12866,6 +12876,7 @@ const MODS = [
   {
     id: 588,
     game: "nierautomata",
+    mature: true,
     title: "Latex Skirt for 2B",
     category: "models-and-textures",
     version: "1.0",
@@ -12959,6 +12970,7 @@ const MODS = [
   {
     id: 592,
     game: "nierautomata",
+    mature: true,
     title: "YoRHa Underwear",
     category: "models-and-textures",
     version: "1.0",
@@ -12983,6 +12995,7 @@ const MODS = [
   {
     id: 593,
     game: "nierautomata",
+    mature: true,
     title: "2B with stocking",
     category: "models-and-textures",
     version: "1.0",
@@ -13031,6 +13044,7 @@ const MODS = [
   {
     id: 595,
     game: "nierautomata",
+    mature: true,
     title: "Skirtless 2B",
     category: "models-and-textures",
     version: "1.0",
@@ -13124,6 +13138,7 @@ const MODS = [
   {
     id: 599,
     game: "nierautomata",
+    mature: true,
     title: "2B BLACKED Sports Bra and Thong",
     category: "models-and-textures",
     version: "1.0",
@@ -13836,6 +13851,7 @@ const MODS = [
   {
     id: 630,
     game: "re4",
+    mature: true,
     title: "Ada Summer Swimsuit",
     category: "characters",
     version: "1.0",
@@ -13859,6 +13875,7 @@ const MODS = [
   {
     id: 631,
     game: "re4",
+    mature: true,
     title: "Chun Li Cow Microbikini over Ada Wong",
     category: "characters",
     version: "1.1",
@@ -13928,6 +13945,7 @@ const MODS = [
   {
     id: 634,
     game: "re4",
+    mature: true,
     title: "AW - Cow Bikini",
     category: "audio",
     version: "1.0",
@@ -13997,6 +14015,7 @@ const MODS = [
   {
     id: 637,
     game: "re4",
+    mature: true,
     title: "Ada - Agent of Seduction",
     category: "characters",
     version: "1.0",
@@ -14110,6 +14129,7 @@ const MODS = [
   {
     id: 642,
     game: "re4",
+    mature: true,
     title: "Ada - Ocean Maid",
     category: "characters",
     version: "1.0",
