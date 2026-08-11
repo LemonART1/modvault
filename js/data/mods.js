@@ -15525,6 +15525,1004 @@ const MODS = [
       "vegetables"
     ],
     featured: true
+  },
+  {
+    id: 704,
+    game: "ets2",
+    title: "2023 BMW M4 Widebody",
+    category: "cars-bus",
+    version: "1.0",
+    size: "263 MB",
+    images: [
+      "images/mods/2023-bmw-m4-widebody-1.jpg",
+      "images/mods/2023-bmw-m4-widebody-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/261793Au2W4n48l",
+    short: "A high-quality 2023 BMW M4 with improved driving physics.",
+    description: "This mod adds a high-quality 2023 BMW M4 Widebody to the game with improved physics.  - Features high-quality exterior and interior designs. - Includes two interior color options: white-blue and black-orange. - Equipped with a functional HQ digital dashboard and gauge. - Supports openable front windows and accurate working wipers. - Available for purchase at the game's mod truck dealers.",
+    tags: [
+      "bmw",
+      "m4",
+      "car",
+      "widebody",
+      "sportscar"
+    ],
+    featured: true
+  },
+  {
+    id: 705,
+    game: "ets2",
+    title: "Mercedes Benz New Actros 2019",
+    category: "trucks",
+    version: "v2.4",
+    size: "376 MB",
+    images: [
+      "images/mods/mercedes-benz-new-actros-2019-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/owz9oV5RiWjLGbm",
+    short: "High quality Mercedes Actros 2019 truck for your game.",
+    description: "This mod adds the Mercedes Benz New Actros 2019 truck to your game.  - Includes five unique cabin variants and fifteen chassis options. - Features seven engine and six gearbox variants for customization. - Comes with six interior options including LHD and RHD. - Compatible with the latest Euro Truck Simulator 2 versions. - Includes forty original colors plus various special edition skins.",
+    tags: [
+      "mercedes",
+      "actros",
+      "truck",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 706,
+    game: "ets2",
+    title: "BMW M5 Competition 2023",
+    category: "cars-bus",
+    version: "1.3",
+    size: "124 MB",
+    images: [
+      "images/mods/bmw-m5-competition-2023-1.jpg",
+      "images/mods/bmw-m5-competition-2023-2.jpg",
+      "images/mods/bmw-m5-competition-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z359U16956A2DBy",
+    short: "High quality BMW M5 Competition for Euro Truck Simulator.",
+    description: "This mod adds a high-quality BMW M5 Competition 2023 to Euro Truck Simulator 2.  - Features high-quality exterior and interior designs - Includes three interior color options - Equipped with a functional HQ digital dashboard - Features an authentic V6 engine sound - Realistic driving physics with openable front windows",
+    tags: [
+      "bmw",
+      "m5",
+      "sedan",
+      "car",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 707,
+    game: "ets2",
+    title: "Scania 164G 480 PDT Logistics + Trailer",
+    category: "trucks",
+    version: "v5.0",
+    size: "641 MB",
+    images: [
+      "images/mods/scania-164g-480-pdt-logistics-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/j08JhbI1LZU0AD5",
+    short: "High quality Scania 164G truck with a custom trailer.",
+    description: "This mod adds a custom Scania 164G 480 truck and matching trailer to the game.  - Features a Topline cabin with a 6x2 taglift chassis. - Includes a DC-16 engine paired with custom sound effects. - Offers an exclusive interior design and a detailed custom salon. - Provides various customization parts like lightboxes, bumpers, and side skirts. - Comes with a standalone Chereau trailer available at truck dealers.",
+    tags: [
+      "scania",
+      "truck",
+      "trailer",
+      "logistics",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 708,
+    game: "ets2",
+    title: "Seven Rivers Map",
+    category: "maps",
+    version: "1.0",
+    size: "23.1 MB",
+    images: [
+      "images/mods/seven-rivers-map-1.jpg",
+      "images/mods/seven-rivers-map-2.jpg",
+      "images/mods/seven-rivers-map-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7RZvtK3nrJKBqcq",
+    short: "Explore new roads in Kazakhstan and Kyrgyzstan regions today.",
+    description: "This mod adds the Seven Rivers region to the map.  - Adds three cities and KAZ06 highway in Kazakhstan. - Includes one city and EM-11 highway in Kyrgyzstan. - Requires all official map DLCs to function correctly. - Compatible with ETS2 version 1.60. - Unsupported compatibility with ProMods; incompatible with Beyond map.",
+    tags: [
+      "kazakhstan",
+      "map",
+      "ets2",
+      "roads"
+    ],
+    featured: true
+  },
+  {
+    id: 709,
+    game: "ets2",
+    title: "Porsche Taycan Turbo S Mansory 2025",
+    category: "cars-bus",
+    version: "1.1",
+    size: "231 MB",
+    images: [
+      "images/mods/porsche-taycan-turbo-s-mansory-2025-1.jpg",
+      "images/mods/porsche-taycan-turbo-s-mansory-2025-2.jpg",
+      "images/mods/porsche-taycan-turbo-s-mansory-2025-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/cvgVbJ2kxJ12Je9",
+    short: "High quality Porsche Taycan Mansory model for ETS 2.",
+    description: "This mod introduces the 2025 Porsche Taycan Turbo S Mansory to the game.  - Features high-quality exterior and interior designs. - Includes four different color options for the interior. - Provides a detailed dashboard with functional digital gauges. - Optimized for the 1.60x game version with improved physics. - Offers openable front windows and accurate wiper animations.",
+    tags: [
+      "porsche",
+      "taycan",
+      "luxury",
+      "sports",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 710,
+    game: "ets2",
+    title: "Scania R520 Danny vd Heuvel",
+    category: "trucks",
+    version: "11.0",
+    size: "453 MB",
+    images: [
+      "images/mods/scania-r520-danny-vd-heuvel-1.jpg",
+      "images/mods/scania-r520-danny-vd-heuvel-2.jpg",
+      "images/mods/scania-r520-danny-vd-heuvel-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/X5DzD9g1bETV6kY",
+    short: "Detailed Scania R520 truck with custom parts and trailer.",
+    description: "This mod brings a detailed Scania R520 truck to your game.  - Features a 6x2 taglift chassis and normal cabin. - Includes a custom DC16 V8 openpipe engine sound. - Comes with an exclusive interior and custom salon. - Equipped with Opticruise GRS 905R transmission and custom parts. - Includes a matching Pacton trailer and purchase via dealer.",
+    tags: [
+      "scania",
+      "truck",
+      "ets2",
+      "v8",
+      "trailer"
+    ],
+    featured: true
+  },
+  {
+    id: 711,
+    game: "ets2",
+    title: "Tesla Model Y 2022",
+    category: "cars-bus",
+    version: "1.5",
+    size: "161 MB",
+    images: [
+      "images/mods/tesla-model-y-2022-1.jpg",
+      "images/mods/tesla-model-y-2022-2.jpg",
+      "images/mods/tesla-model-y-2022-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1ZER94Am9f54Q4K",
+    short: "A high-performance electric SUV for Euro Truck Simulator 2.",
+    description: "This mod provides a fully rebuilt Tesla Model Y for your driving pleasure.  - Updated specifically for game version 1.60.x compatibility - Features improved physics and engine performance - Includes a functional license plate - Reaches a maximum top speed of 292 KmH - Originally created by Gaza",
+    tags: [
+      "tesla",
+      "electric",
+      "suv",
+      "car",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 712,
+    game: "ets2",
+    title: "2025 Mercedes-Benz GLE 450 Coupe",
+    category: "cars-bus",
+    version: "1.1",
+    size: "229 MB",
+    images: [
+      "images/mods/2025-mercedes-benz-gle-450-coupe-1.jpg",
+      "images/mods/2025-mercedes-benz-gle-450-coupe-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vXt8SGoCE9Wm7r9",
+    short: "Drive the 2025 Mercedes-Benz GLE 450 in your game.",
+    description: "This mod adds the 2025 Mercedes-Benz GLE 450 Coupe to your game.  - Features high-quality exterior and interior designs with three color options. - Includes functional interior lights, working wipers, and openable front windows. - Equipped with an HQ digital dashboard, GPS, and custom V8 engine sounds. - Improved physics and driveability with a top speed of 300 km/h. - Available for purchase at the truck dealer under the mod dealer section.",
+    tags: [
+      "mercedes",
+      "gle450",
+      "car",
+      "luxury",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 713,
+    game: "ets2",
+    title: "Mercedes Benz E55 AMG W211",
+    category: "cars-bus",
+    version: "1.7",
+    size: "185 MB",
+    images: [
+      "images/mods/mercedes-benz-e55-amg-w211-1.jpg",
+      "images/mods/mercedes-benz-e55-amg-w211-2.jpg",
+      "images/mods/mercedes-benz-e55-amg-w211-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b15bB9hFg7W49lh",
+    short: "A high-performance Mercedes E55 AMG rebuilt for your game.",
+    description: "This mod adds a completely rebuilt Mercedes Benz E55 AMG W211 to your game.  - Completely rebuilt model from the ground up. - Features custom interior lighting and functional license plates. - Includes improved physics engine for realistic driving. - Capable of reaching a top speed of 256 km/h. - Compatible with game version 1.60.x.",
+    tags: [
+      "mercedes",
+      "e55",
+      "amg",
+      "w211",
+      "sedan"
+    ],
+    featured: true
+  },
+  {
+    id: 714,
+    game: "ets2",
+    title: "BMW 3-Series E30 Touring",
+    category: "cars-bus",
+    version: "2.5",
+    size: "132 MB",
+    images: [
+      "images/mods/bmw-3-series-e30-touring-1.jpg",
+      "images/mods/bmw-3-series-e30-touring-2.jpg",
+      "images/mods/bmw-3-series-e30-touring-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ceY9BtX0Mu9siu5",
+    short: "Drive the classic BMW E30 Touring in your game.",
+    description: "This mod adds the classic BMW 3-Series E30 Touring wagon to Euro Truck Simulator 2.  - Features a complete model rebuild with updated interior materials. - Includes functional interior lighting and fixed rear light assets. - Performance tuned with improved physics and engine capabilities. - Supports a maximum speed of 210 KmH. - Fully compatible with the 1.60.x game version.",
+    tags: [
+      "bmw",
+      "e30",
+      "touring",
+      "car",
+      "wagon"
+    ],
+    featured: true
+  },
+  {
+    id: 715,
+    game: "ets2",
+    title: "Audi RS6 C8 2023",
+    category: "cars-bus",
+    version: "1.6",
+    size: "214 MB",
+    images: [
+      "images/mods/audi-rs6-c8-2023-1.jpg",
+      "images/mods/audi-rs6-c8-2023-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y3rQI4j9am4a4S6",
+    short: "High quality 2023 Audi RS6 car for truck simulator.",
+    description: "This mod adds a high-quality 2023 Audi RS6 C8 to your game.  - Features a detailed high-quality exterior and interior model. - Includes a functional digital dashboard and working interior night lighting. - Improved engine physics for excellent driveability. - Added openable front windows and accurate working wipers. - Available for purchase at the Access Mod Dealer.",
+    tags: [
+      "audi",
+      "rs6",
+      "car",
+      "sportscar",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 716,
+    game: "ets2",
+    title: "BMW Z4 M40i 2019",
+    category: "cars-bus",
+    version: "1.9",
+    size: "36.0 MB",
+    images: [
+      "images/mods/bmw-z4-m40i-2019-1.jpg",
+      "images/mods/bmw-z4-m40i-2019-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4wdT4g597R990sa",
+    short: "High performance BMW Z4 M40i for Euro Truck Simulator.",
+    description: "This mod adds a high-quality BMW Z4 M40i to your game.  - Features improved engine physics and a top speed of 300 km/h. - Includes a new digital speedometer and updated interior lighting. - Offers multiple interior color options and a custom license plate. - Enhances overall material quality and vehicle textures.",
+    tags: [
+      "bmw",
+      "z4",
+      "sports car",
+      "luxury",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 717,
+    game: "ets2",
+    title: "Range Rover Venuum 2024",
+    category: "cars-bus",
+    version: "1.6",
+    size: "96.7 MB",
+    images: [
+      "images/mods/range-rover-venuum-2024-1.jpg",
+      "images/mods/range-rover-venuum-2024-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/i9PmpnUvwWx55G4",
+    short: "High quality 2024 Range Rover Venuum for your game.",
+    description: "This mod adds a high-quality 2024 Range Rover Venuum to your game.  - Features high-quality exterior and interior with HQ dashboard. - Includes functional rear camera accessible by pressing O. - Offers four different color options for the interior. - Equipped with a custom V6 engine sound and physics. - Supports openable front windows and working wipers.",
+    tags: [
+      "range rover",
+      "luxury",
+      "car",
+      "suv",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 718,
+    game: "ets2",
+    title: "Audi RS5 Coupe",
+    category: "cars-bus",
+    version: "1.6",
+    size: "148 MB",
+    images: [
+      "images/mods/audi-rs5-coupe-1.jpg",
+      "images/mods/audi-rs5-coupe-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kYQl65f28l5N33m",
+    short: "High performance Audi RS5 Coupe for your truck simulator.",
+    description: "This mod adds the Audi RS5 Coupe to your game.  - Features improved engine physics with a 266 km/h top speed - Includes updated interior materials and additional lighting options - Adds a customizable dashboard and new license plates - Compatible with version 1.60.x of the game",
+    tags: [
+      "audi",
+      "coupe",
+      "car",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 719,
+    game: "ets2",
+    title: "Audi RSQ8 2023",
+    category: "cars-bus",
+    version: "1.3",
+    size: "154 MB",
+    images: [
+      "images/mods/audi-rsq8-2023-1.jpg",
+      "images/mods/audi-rsq8-2023-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mt656X3QqErl44B",
+    short: "A high-quality 2023 Audi RSQ8 for your truck simulator.",
+    description: "This mod adds a high-quality 2023 Audi RSQ8 to your game.  - Features a detailed exterior and interior with HQ dashboard. - Includes functional reverse camera, lights, and openable windows. - Improved engine physics and a custom engine sound. - Multiple exterior accessories including bumpers and bicycle rack. - Available for purchase at the Access Mod Dealer.",
+    tags: [
+      "audi",
+      "rsq8",
+      "luxury",
+      "car",
+      "suv"
+    ],
+    featured: true
+  },
+  {
+    id: 720,
+    game: "ets2",
+    title: "Audi R8 V10 Spyder 2021",
+    category: "cars-bus",
+    version: "1.6",
+    size: "135 MB",
+    images: [
+      "images/mods/audi-r8-v10-spyder-2021-1.jpg",
+      "images/mods/audi-r8-v10-spyder-2021-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9WR25y06OxDT0gY",
+    short: "Drive the high performance 2021 Audi R8 V10 Spyder.",
+    description: "This mod adds the high-performance 2021 Audi R8 V10 Spyder to the game with realistic features.  - Includes three distinct color options for the vehicle interior. - Features custom engine sounds and improved driving physics. - High-quality dashboard with functional digital speedometer and RPM gauge. - Includes working front windows, wipers, and interior custom lighting. - Available for purchase at the in-game truck dealer.",
+    tags: [
+      "audi",
+      "r8",
+      "spyder",
+      "sports car",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 721,
+    game: "ets2",
+    title: "Volkswagen Golf 6 2012",
+    category: "cars-bus",
+    version: "2.0",
+    size: "136 MB",
+    images: [
+      "images/mods/volkswagen-golf-6-2012-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/t0Z0FkFk3c0aslR",
+    short: "A high quality 2012 Volkswagen Golf 6 for ETS2.",
+    description: "This mod adds a fully rebuilt 2012 Volkswagen Golf 6 to your game.  - Completely rebuilt model from the ground up - Features fully functional interior lighting - Includes a custom license plate - Improved engine performance and physics - Achieves a maximum speed of 244 km/h",
+    tags: [
+      "vw",
+      "golf",
+      "car",
+      "volkswagen"
+    ],
+    featured: true
+  },
+  {
+    id: 722,
+    game: "ets2",
+    title: "Scania R580",
+    category: "trucks",
+    version: "v1.0",
+    size: "748 MB",
+    images: [
+      "images/mods/scania-r580-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Y2DzQEqHxed5A7Y",
+    short: "Detailed Scania R580 truck with extensive customization and tuning options.",
+    description: "This mod adds a highly detailed Scania R580 truck to the game with extensive customization options.  - Features a Topline cab and 6x2 Midlift chassis configuration. - Includes a DC16 102 580 Euro 6 V8 engine with a 12 speed retarder. - Fully 2k AO baked textures and a 4K resolution lightmask. - Comes with a custom interior, salon, wheels, and various tuning parts. - Includes an open pipe sound for an authentic driving experience.",
+    tags: [
+      "scania",
+      "truck",
+      "ets2",
+      "v8",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 723,
+    game: "ets2",
+    title: "Koenigsegg Jesko 2024",
+    category: "cars-bus",
+    version: "1.2",
+    size: "132 MB",
+    images: [
+      "images/mods/koenigsegg-jesko-2024-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OnuGtFC3M1Qr2x1",
+    short: "High performance Koenigsegg Jesko for Euro Truck Simulator 2.",
+    description: "This mod adds the high-performance Koenigsegg Jesko 2024 to your game.  - Features high-quality exterior and interior designs. - Includes five different interior color customization options. - Equipped with a functional HQ digital dashboard. - Features realistic engine physics and V8 sound. - Supports opening front windows and working wipers.",
+    tags: [
+      "koenigsegg",
+      "jesko",
+      "supercar"
+    ],
+    featured: true
+  },
+  {
+    id: 724,
+    game: "ets2",
+    title: "Cadillac Escalade ESV",
+    category: "cars-bus",
+    version: "1.1",
+    size: "28.4 MB",
+    images: [
+      "images/mods/cadillac-escalade-esv-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pOXxvfzy004I315",
+    short: "High quality Cadillac Escalade ESV for Euro Truck Simulator.",
+    description: "This mod adds a high-quality Cadillac Escalade ESV to the game.  - Compatible with game version 1.60.x and newer. - Features high-quality exterior and interior with two color options. - Includes functional reverse camera and white interior lighting. - Equipped with an HQ digital speed dashboard UI. - Fully animated windows and accurate working wipers.",
+    tags: [
+      "cadillac",
+      "suv",
+      "car",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 725,
+    game: "ets2",
+    title: "Rolls Royce Phantom 2023",
+    category: "cars-bus",
+    version: "1.1",
+    size: "88.1 MB",
+    images: [
+      "images/mods/rolls-royce-phantom-2023-1.jpg",
+      "images/mods/rolls-royce-phantom-2023-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/47qYb7q8ob3K0g8",
+    short: "High quality Rolls Royce Phantom for Euro Truck Simulator.",
+    description: "This mod adds a high-quality Rolls Royce Phantom 2023 to Euro Truck Simulator 2.  - Features a detailed high-quality exterior and interior model. - Includes a custom engine, V8 sound, and improved vehicle physics. - Dashboard features functional digital speed display in KMH. - Supports openable front windows and accurate wiper animations. - Interior lighting effects available for nighttime driving.",
+    tags: [
+      "rolls royce",
+      "luxury",
+      "car",
+      "ets2",
+      "phantom"
+    ],
+    featured: true
+  },
+  {
+    id: 726,
+    game: "ets2",
+    title: "Volkswagen Transporter T5",
+    category: "cars-bus",
+    version: "1.2",
+    size: "85.7 MB",
+    images: [
+      "images/mods/volkswagen-transporter-t5-1.jpg",
+      "images/mods/volkswagen-transporter-t5-2.jpg",
+      "images/mods/volkswagen-transporter-t5-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KFSWMBgutlkxhiu",
+    short: "High quality Volkswagen Transporter T5 van for ETS2.",
+    description: "This mod adds a high-quality Volkswagen Transporter T5 to your fleet.  - Features original TDI engine sounds and improved physics. - Includes a black interior option and a DHL livery. - Dashboard features functional high-quality digital speed and RPM gauges. - Front windows can be opened and wipers are fully functional. - Available for purchase at the Access Mod dealer.",
+    tags: [
+      "volkswagen",
+      "transporter",
+      "van",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 727,
+    game: "ets2",
+    title: "Lamborghini Revuelto 2025",
+    category: "cars-bus",
+    version: "1.3",
+    size: "22.5 MB",
+    images: [
+      "images/mods/lamborghini-revuelto-2025-1.jpg",
+      "images/mods/lamborghini-revuelto-2025-2.jpg",
+      "images/mods/lamborghini-revuelto-2025-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/106q4P0Lc29hT91",
+    short: "High quality Lamborghini Revuelto 2025 car for your game.",
+    description: "This mod adds a high-quality Lamborghini Revuelto to your game.  - Features high-quality exterior and interior designs. - Includes a functional HQ digital dashboard display. - Comes with custom V8 engine sounds and performance. - Supports openable front windows and working wipers. - Available for purchase at the truck dealer shop.",
+    tags: [
+      "lamborghini",
+      "revuelto",
+      "supercar"
+    ],
+    featured: true
+  },
+  {
+    id: 728,
+    game: "ets2",
+    title: "Lexus RX 500h F Sport Performance",
+    category: "cars-bus",
+    version: "1.7",
+    size: "211 MB",
+    images: [
+      "images/mods/lexus-rx-500h-f-sport-performance-1.jpg",
+      "images/mods/lexus-rx-500h-f-sport-performance-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7MNu9Knj7Q64D56",
+    short: "High quality Lexus RX 500h SUV for Euro Truck Simulator.",
+    description: "This mod adds the Lexus RX 500h F Sport Performance to your game.  - Features high-quality exterior and interior designs. - Includes a functional UI dashboard with digital gauges. - Offers two distinct interior color customization options. - Features accurate wipers and openable front windows. - Improved engine physics with a top speed of 280 km/h.",
+    tags: [
+      "lexus",
+      "suv",
+      "luxury",
+      "cars",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 729,
+    game: "ets2",
+    title: "Mercedes-Benz EQS 580 2022",
+    category: "cars-bus",
+    version: "2.5",
+    size: "190 MB",
+    images: [
+      "images/mods/mercedes-benz-eqs-580-2022-1.jpg",
+      "images/mods/mercedes-benz-eqs-580-2022-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/46S0zvXKh8B22z0",
+    short: "Drive the luxurious electric Mercedes-Benz EQS 580 in-game.",
+    description: "This mod adds the luxurious 2022 Mercedes-Benz EQS 580 to your game.  - Features a high-speed electric engine capable of 300 km/h. - Includes improved dashboard, interior lighting, and customizable color options. - Adds functional license plates and upgraded vehicle physics. - Compatible with Euro Truck Simulator 2 version 1.60.x.",
+    tags: [
+      "mercedes",
+      "ev",
+      "luxury",
+      "car",
+      "electric"
+    ],
+    featured: true
+  },
+  {
+    id: 730,
+    game: "ets2",
+    title: "Aston Martin DB12 2023",
+    category: "cars-bus",
+    version: "1.6",
+    size: "22.8 MB",
+    images: [
+      "images/mods/aston-martin-db12-2023-1.jpg",
+      "images/mods/aston-martin-db12-2023-2.jpg",
+      "images/mods/aston-martin-db12-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7YVj3tu37wVU6K7",
+    short: "Drive the high performance Aston Martin DB12 in ETS2.",
+    description: "This mod adds the luxurious Aston Martin DB12 to Euro Truck Simulator 2.  - Features high-quality exterior and interior designs with accurate textures. - Includes a functional dashboard UI with digital speedometer display. - Supports working windshield wipers and openable front windows. - Equipped with realistic engine sounds and improved driving physics. - Requires purchase from the in-game Mod Dealer.",
+    tags: [
+      "aston",
+      "martin",
+      "db12",
+      "sportscar",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 731,
+    game: "ets2",
+    title: "Lexus LX 570 Super Sport 2021",
+    category: "cars-bus",
+    version: "3.0",
+    size: "46.2 MB",
+    images: [
+      "images/mods/lexus-lx-570-super-sport-2021-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2F7rmjQm9r52X0Q",
+    short: "High performance 2021 Lexus LX 570 for your fleet.",
+    description: "This mod adds the 2021 Lexus LX 570 Super Sport to Euro Truck Simulator 2.  - Features improved physics and engine performance for the vehicle. - Capable of reaching a maximum speed of 294 km/h. - Updated to version 1.60x for better game compatibility. - Original creation and model work credited to Gaza.",
+    tags: [
+      "lexus",
+      "luxury",
+      "suv",
+      "sport",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 732,
+    game: "ets2",
+    title: "Ferrari 812 Competizione 2022",
+    category: "cars-bus",
+    version: "1.3",
+    size: "88.8 MB",
+    images: [
+      "images/mods/ferrari-812-competizione-2022-1.jpg",
+      "images/mods/ferrari-812-competizione-2022-2.jpg",
+      "images/mods/ferrari-812-competizione-2022-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0ZZgQCc4RB1L2u1",
+    short: "Add the powerful Ferrari 812 Competizione to your game.",
+    description: "This mod introduces the high-performance Ferrari 812 Competizione to Euro Truck Simulator 2.  - Features high-quality exterior and detailed interior models - Includes functional digital dashboard and working interior lighting - Improved engine physics and V8 sound simulation - Front windows can be opened and wipers function accurately - Available for purchase at mod dealers in-game",
+    tags: [
+      "ferrari",
+      "supercar",
+      "sportscar",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 733,
+    game: "ets2",
+    title: "Ferrari Roma Spider 2021",
+    category: "cars-bus",
+    version: "3.0",
+    size: "47.7 MB",
+    images: [
+      "images/mods/ferrari-roma-spider-2021-1.jpg",
+      "images/mods/ferrari-roma-spider-2021-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/446dzU4779zQskM",
+    short: "The Ferrari Roma Spider 2021 for Euro Truck Simulator.",
+    description: "This mod adds the high-performance 2021 Ferrari Roma Spider to the game.  - Updated for full compatibility with Euro Truck Simulator 1.60x - Features improved physics and an engine capable of 320 km/h - Includes fixed interior materials and additional cabin lighting - Dashboard has been improved and a licence plate added",
+    tags: [
+      "ferrari",
+      "roma",
+      "spider",
+      "car",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 734,
+    game: "ets2",
+    title: "Google Pixel 10 and Samsung S25 Interior Add-on",
+    category: "interiors",
+    version: "1.0",
+    size: "5.9 MB",
+    images: [
+      "images/mods/google-pixel-10-and-samsung-s25-interior-add-on-1.jpg",
+      "images/mods/google-pixel-10-and-samsung-s25-interior-add-on-2.jpg",
+      "images/mods/google-pixel-10-and-samsung-s25-interior-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/76Q4Ap1G7PO4Y7U",
+    short: "Modern smartphone interior accessories for all truck cabin interiors.",
+    description: "This mod adds modern smartphone interior accessories to your trucks.  - Includes Google Pixel 10 and Samsung S25 models. - Compatible with all truck models in the game. - Supports game versions 1.58 through 1.60. - Adds realistic mobile device props to the cabin.",
+    tags: [
+      "interior",
+      "props",
+      "mobile",
+      "phone",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 735,
+    game: "ets2",
+    title: "Ferrari SF90xx Stradale 2024",
+    category: "cars-bus",
+    version: "1.5",
+    size: "25.2 MB",
+    images: [
+      "images/mods/ferrari-sf90xx-stradale-2024-1.jpg",
+      "images/mods/ferrari-sf90xx-stradale-2024-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8u0Qofy9nr9M2J3",
+    short: "High quality Ferrari SF90xx Stradale for Euro Truck Simulator.",
+    description: "This mod adds the high-performance Ferrari SF90xx Stradale 2024 to your game.  - Features high-quality exterior and interior model designs. - Includes functional digital dashboard gauges and GPS screens. - Offers custom interior lighting and paintable wheel rims. - Improved engine physics and authentic custom engine sounds. - Supports openable front windows and accurate working wipers.",
+    tags: [
+      "ferrari",
+      "sports car",
+      "luxury",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 736,
+    game: "ets2",
+    title: "Bugatti Chiron 2021",
+    category: "cars-bus",
+    version: "2.8",
+    size: "26.7 MB",
+    images: [
+      "images/mods/bugatti-chiron-2021-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/U0Ec41M354DiWLi",
+    short: "High quality 2021 Bugatti Chiron for your truck fleet.",
+    description: "This mod adds a high-quality Bugatti Chiron 2021 to Euro Truck Simulator 2.  - Rebuilt interior with improved material quality and added colors - Includes new digital speed UI and front glass GPS - Features custom licence plate and improved engine physics - Functional interior lights and repaired wiper animations - Compatible with game versions 1.58x and 1.60x",
+    tags: [
+      "bugatti",
+      "sports car",
+      "luxury",
+      "fast car"
+    ],
+    featured: true
+  },
+  {
+    id: 737,
+    game: "ets2",
+    title: "DAF XF 105 Mussche Transport and Trailer",
+    category: "trucks",
+    version: "v5.0",
+    size: "656 MB",
+    images: [
+      "images/mods/daf-xf-105-mussche-transport-and-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/l9Sf94q8a8b37y9",
+    short: "Custom DAF XF 105 truck with matching Schmitz trailer.",
+    description: "This mod adds the custom Mussche Transport DAF XF 105.  - Features a Super Space Cab with 4x2 chassis. - Includes PACCAR MX 375 Euro 4 engine and interior. - Equipped with ZF AS Tronic 12 speed transmission. - Comes with a custom Schmitz trailer and tuning parts.",
+    tags: [
+      "daf",
+      "truck",
+      "trailer",
+      "mussche",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 738,
+    game: "ets2",
+    title: "Hyundai Santa Fe 2014",
+    category: "cars-bus",
+    version: "1.6",
+    size: "61.2 MB",
+    images: [
+      "images/mods/hyundai-santa-fe-2014-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8azO1sn4GqTtLPI",
+    short: "A completely rebuilt 2014 Hyundai Santa Fe for ETS2.",
+    description: "This mod provides a fully rebuilt 2014 Hyundai Santa Fe for Euro Truck Simulator 2.  - Completely rebuilt model from the ground up - Added functional interior lighting and a license plate - Features improved physics and engine performance - Reaches a maximum speed of 222 km/h - Optimized for game version 1.60.x",
+    tags: [
+      "hyundai",
+      "suv",
+      "car",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 739,
+    game: "ets2",
+    title: "BMW 135i M 2023",
+    category: "cars-bus",
+    version: "1.3",
+    size: "53.9 MB",
+    images: [
+      "images/mods/bmw-135i-m-2023-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0fWmZm1HU7Ng8O4",
+    short: "High quality BMW 135i M for Euro Truck Simulator.",
+    description: "This mod adds a high-quality BMW 135i M 2023 vehicle to your game.  - Features high-quality exterior and interior designs - Includes five different interior color customization options - Equipped with a functional HQ digital dashboard display - Updated with custom horn and realistic V6 engine sounds - Includes openable windows and accurate wiper animations",
+    tags: [
+      "bmw",
+      "car",
+      "vehicle",
+      "luxury",
+      "135i"
+    ],
+    featured: true
+  },
+  {
+    id: 740,
+    game: "ets2",
+    title: "Kenworth W900 Ponce",
+    category: "trucks",
+    version: "v1.0",
+    size: "230 MB",
+    images: [
+      "images/mods/kenworth-w900-ponce-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Kz2Tl546X30j8ax",
+    short: "High quality independent Kenworth W900 truck for your game.",
+    description: "This mod introduces the detailed Kenworth W900 Ponce truck model.  - Features a high-quality 3D exterior and detailed interior. - Includes custom 3D tires, rims, and realistic mirror reflections. - Comes with dedicated sounds, wheels, and interior assets. - Adjusted positions for exhaust smoke and license plates. - Standalone truck model adapted for the game.",
+    tags: [
+      "kenworth",
+      "w900",
+      "truck",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 741,
+    game: "ets2",
+    title: "Mercedes-Benz S500 W220",
+    category: "cars-bus",
+    version: "1.8",
+    size: "63.8 MB",
+    images: [
+      "images/mods/mercedes-benz-s500-w220-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CQ89TZ2Z6I2TFa6",
+    short: "A completely rebuilt Mercedes-Benz S500 sedan for your game.",
+    description: "This mod provides a fully rebuilt Mercedes-Benz S500 W220 for Euro Truck Simulator 2.  - Completely rebuilt vehicle model from the ground up. - Includes functional custom interior lighting features. - Added support for customizable license plates. - Enhanced engine performance and realistic driving physics. - Reaches a maximum top speed of 280 KmH.",
+    tags: [
+      "mercedes",
+      "sedan",
+      "luxury",
+      "car",
+      "w220"
+    ],
+    featured: true
+  },
+  {
+    id: 742,
+    game: "ets2",
+    title: "Porsche 911 GT3 RS 2023",
+    category: "cars-bus",
+    version: "1.3",
+    size: "28.8 MB",
+    images: [
+      "images/mods/porsche-911-gt3-rs-2023-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5X8D1n4m3bmW0k7",
+    short: "High performance Porsche 911 GT3 RS for Euro Truck Simulator.",
+    description: "This mod adds the high-performance Porsche 911 GT3 RS to your game.  - Features high-quality exterior and interior designs - Includes a functional HQ digital dashboard display - Improved physics and engine performance for better driveability - Supports openable front windows and accurate wiper animations - Available for purchase via the game's mod dealer",
+    tags: [
+      "porsche",
+      "sports car",
+      "vehicle",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 743,
+    game: "ets2",
+    title: "2025 Porsche 911 Carrera GTS",
+    category: "cars-bus",
+    version: "1.6",
+    size: "105 MB",
+    images: [
+      "images/mods/2025-porsche-911-carrera-gts-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/x1ww8tCt7T7jZs8",
+    short: "Drive the 2025 Porsche 911 Carrera GTS in game.",
+    description: "Experience the 2025 Porsche 911 Carrera GTS in Euro Truck Simulator 2.  - Features high-quality exterior and interior designs. - Includes a functional HQ dashboard with digital gauges. - Provides improved engine physics and handling. - Equipped with openable windows and working wipers. - Reach a top speed of 330 KMH.",
+    tags: [
+      "porsche",
+      "sports car",
+      "luxury",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 744,
+    game: "ets2",
+    title: "Hyundai I20 2021",
+    category: "cars-bus",
+    version: "1.5",
+    size: "39.8 MB",
+    images: [
+      "images/mods/hyundai-i20-2021-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2Kr01Lb8703uo8f",
+    short: "A high quality 2021 Hyundai I20 for your garage.",
+    description: "This mod adds a high-quality 2021 Hyundai I20 to your game.  - Features a detailed high-quality exterior and interior design - Includes a functional HQ digital dashboard for speed and RPM - Improved engine, transmission, and driving physics for better handling - Added custom engine sound and corrected mirror positions - Accessible via the in-game mod dealer",
+    tags: [
+      "hyundai",
+      "i20",
+      "car",
+      "vehicle",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 745,
+    game: "ets2",
+    title: "BMW M3 G80 Touring 2023",
+    category: "cars-bus",
+    version: "3.3",
+    size: "48.1 MB",
+    images: [
+      "images/mods/bmw-m3-g80-touring-2023-1.jpg",
+      "images/mods/bmw-m3-g80-touring-2023-2.jpg",
+      "images/mods/bmw-m3-g80-touring-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/321n732ozQVN32U",
+    short: "High performance BMW M3 G80 Touring for ETS 2.",
+    description: "This mod adds the 2023 BMW M3 G80 Touring to the game with improved performance.  - Compatible with ETS 2 version 1.60.x - Includes custom interior lighting and added licence plates - Features updated physics and engine performance - Achieves a maximum speed of 300 km/h - Fixed various interior material issues",
+    tags: [
+      "bmw",
+      "m3",
+      "touring",
+      "cars",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 746,
+    game: "ets2",
+    title: "Skoda Superb 2023",
+    category: "cars-bus",
+    version: "1.3",
+    size: "151 MB",
+    images: [
+      "images/mods/skoda-superb-2023-1.jpg",
+      "images/mods/skoda-superb-2023-2.jpg",
+      "images/mods/skoda-superb-2023-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xO00mQzDwBVOo2x",
+    short: "High quality Skoda Superb 2023 model for Euro Truck Simulator.",
+    description: "This mod adds a high-quality Skoda Superb 2023 to Euro Truck Simulator 2.  - Features a completely rebuilt exterior and interior model - Includes interior lighting and functional digital dashboard gauges - Offers improved engine physics with a 260 kmh top speed - Features working wipers and openable front windows - Available for purchase at the game's mod truck dealer",
+    tags: [
+      "skoda",
+      "superb",
+      "car",
+      "ets2",
+      "sedan"
+    ],
+    featured: true
+  },
+  {
+    id: 747,
+    game: "ets2",
+    title: "Skoda Octavia 2022",
+    category: "cars-bus",
+    version: "3.4",
+    size: "40.9 MB",
+    images: [
+      "images/mods/skoda-octavia-2022-1.jpg",
+      "images/mods/skoda-octavia-2022-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/68UzS608VEH07CS",
+    short: "A high quality rebuilt Skoda Octavia for your game.",
+    description: "This mod provides a fully rebuilt Skoda Octavia 2022 for Euro Truck Simulator 2.  - Completely rebuilt model from the ground up - Features custom interior lighting and license plates - Includes improved physics and engine performance - Reaches a maximum top speed of 223 km/h - Compatible with game version 1.60.x",
+    tags: [
+      "skoda",
+      "octavia",
+      "car",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
   }
 ];
 
