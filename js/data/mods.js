@@ -16523,6 +16523,277 @@ const MODS = [
       "vehicle"
     ],
     featured: true
+  },
+  {
+    id: 748,
+    game: "stardew",
+    title: "Hugs and Kisses",
+    category: "gameplay-mechanics",
+    version: "1.0.0",
+    size: "40 KB",
+    images: [
+      "images/mods/hugs-and-kisses-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Si8pCJ68ntA6yZ0",
+    short: "Interact with villagers through custom hugging and kissing animations.",
+    description: "This mod adds interactive hugging and kissing options for villagers.  - Enables unlimited daily interactions with friends and romantic partners. - Allows custom heart level requirements for kissing and hugging. - Supports custom sound effects using imported wav files. - Requires SMAPI and Harmony for proper game integration. - Configurable settings allow for custom NPC pose adjustments.",
+    tags: [
+      "social",
+      "romance",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 749,
+    game: "stardew",
+    title: "Animated Food and Drinks",
+    category: "visuals-graphics",
+    version: "3.5.0",
+    size: "166 KB",
+    images: [
+      "images/mods/animated-food-and-drinks-1.jpg",
+      "images/mods/animated-food-and-drinks-2.jpg",
+      "images/mods/animated-food-and-drinks-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6w9e1j0ccvRsjHg",
+    short: "Adds immersive custom animations to seventy food and drinks.",
+    description: "This mod adds immersive custom animations for over 70 food and drink items in the game.  - Adds unique animation sequences for numerous food and beverage consumables. - Requires SMAPI, Content Patcher, and SpaceCore to function correctly. - Includes a configuration file to enable or disable specific item animations. - Allows users to adjust animation speed settings within the content file. - Supports compatibility with recipes introduced by the Animal Husbandry mod.",
+    tags: [
+      "visuals",
+      "animation",
+      "food",
+      "immersive"
+    ],
+    featured: true
+  },
+  {
+    id: 750,
+    game: "stardew",
+    title: "Hot Spring Farm Cave",
+    category: "maps",
+    version: "1.0.0",
+    size: "401 KB",
+    images: [
+      "images/mods/hot-spring-farm-cave-1.jpg",
+      "images/mods/hot-spring-farm-cave-2.jpg",
+      "images/mods/hot-spring-farm-cave-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/l2p5BokC0zi7CrY",
+    short: "Transform your farm cave into a cozy underground sanctuary.",
+    description: "Transform your farm cave into a lush, cozy underground sanctuary.  - Features a relaxing hot spring with decorative waterfalls. - Includes fertile patches specifically designed for planting crops. - Custom installation required for compatible farm map mods. - Original artwork credits include DevilBro, Mana, and Saambell. - All mod donation proceeds support the International Red Cross.",
+    tags: [
+      "farm",
+      "cave",
+      "crops",
+      "maps",
+      "cozy"
+    ],
+    featured: true
+  },
+  {
+    id: 751,
+    game: "stardew",
+    title: "Animal Husbandry Mod",
+    category: "gameplay-mechanics",
+    version: "2.8.1",
+    size: "167 KB",
+    images: [
+      "images/mods/animal-husbandry-mod-1.jpg",
+      "images/mods/animal-husbandry-mod-2.jpg",
+      "images/mods/animal-husbandry-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/IjU9lb67uHg3Umw",
+    short: "Improve livestock management with new tools, breeding, and contests.",
+    description: "This mod enhances animal husbandry by introducing tools for managing livestock, breeding, and special events.  - Adds tools for harvesting meat, artificial insemination, and feeding animals treats. - Features a customizable animal contest event held twice a year. - Includes new cooking recipes and a dedicated TV channel for animal tips. - Highly configurable with options to disable specific features or enable a non-lethal soft mode. - Compatible with custom animals and supports modder-created content packs for balancing.",
+    tags: [
+      "animals",
+      "farming",
+      "gameplay",
+      "livestock"
+    ],
+    featured: true
+  },
+  {
+    id: 752,
+    game: "stardew",
+    title: "Entoarox Framework",
+    category: "modding-tools",
+    version: "1.0",
+    size: "233 KB",
+    images: [
+      "images/mods/entoarox-framework-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/c70v85E3r0Gc0ja",
+    short: "Utility framework for Stardew Valley mod developers and creators.",
+    description: "This framework provides essential utility methods for Stardew Valley modders.  - Offers extension methods to simplify complex modding code. - Requires SMAPI to function correctly within the game. - Supports Linux, Mac, and Windows operating systems. - Compatible with single-player and multiplayer game modes. - Note that this mod is deprecated for version 1.6.",
+    tags: [
+      "modding",
+      "tools",
+      "library",
+      "deprecated"
+    ],
+    featured: true
+  },
+  {
+    id: 753,
+    game: "stardew",
+    title: "Cornucopia - More Flowers",
+    category: "crops",
+    version: "1.6",
+    size: "604 KB",
+    images: [
+      "images/mods/cornucopia-more-flowers-1.jpg",
+      "images/mods/cornucopia-more-flowers-2.jpg",
+      "images/mods/cornucopia-more-flowers-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/41w8gYK78mgm0tq",
+    short: "Expand your farm with 40+ new flowers and trees.",
+    description: "Adds a vast collection of new flowers and bushes to Stardew Valley.  - Includes over 40 flower crops and 5 unique flower trees. - Features configurable flower bushes that grow and bloom seasonally. - Fully compatible with Content Patcher and supports multiple languages. - Provides modular settings for giant crops and color variations. - No mandatory requirements, though Generic Mod Config Menu is recommended.",
+    tags: [
+      "farming",
+      "flowers",
+      "crops",
+      "plants",
+      "modular"
+    ],
+    featured: true
+  },
+  {
+    id: 754,
+    game: "stardew",
+    title: "Event Limiter",
+    category: "gameplay-mechanics",
+    version: "1.3.2",
+    size: "18 KB",
+    images: [
+      "images/mods/event-limiter-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mj7zpFQJ4lwf591",
+    short: "Limit daily game events to increase your story immersion.",
+    description: "Customize how many cutscene events occur to improve daily immersion.  - Limits events per day and in a row per location. - Supports custom exclusions for specific event IDs via config. - Includes integration for Generic Mod Config Menu and SMAPI. - Features a toggle keybind to pause limiting during gameplay. - Requires SMAPI 4.0 or higher for full functionality.",
+    tags: [
+      "gameplay",
+      "immersion",
+      "smapi",
+      "events"
+    ],
+    featured: true
+  },
+  {
+    id: 755,
+    game: "stardew",
+    title: "Dialogue Display Framework Continued (DDFC)",
+    category: "modding-tools",
+    version: "1.6.0",
+    size: "38 KB",
+    images: [
+      "images/mods/dialogue-display-framework-continued-ddfc-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/r62S298DHc9NCmr",
+    short: "Framework for customizing Stardew Valley dialogue box display elements.",
+    description: "This framework allows creators to customize dialogue boxes with images and text.  - Supports game version 1.6 with updated codebase and features. - Enables multiple creators to modify dialogue display via patches. - Requires SMAPI and Harmony to function as a resource. - Includes optional compatibility patches for various dialogue mods. - Provides an API for complex mods requiring custom changes.",
+    tags: [
+      "modding",
+      "dialogue",
+      "framework",
+      "smapi"
+    ],
+    featured: true
+  },
+  {
+    id: 756,
+    game: "stardew",
+    title: "Stardew Foliage Redone - Foliage Only",
+    category: "visuals-graphics",
+    version: "1.0.0",
+    size: "2.4 MB",
+    images: [
+      "images/mods/stardew-foliage-redone-foliage-only-1.jpg",
+      "images/mods/stardew-foliage-redone-foliage-only-2.jpg",
+      "images/mods/stardew-foliage-redone-foliage-only-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/K14tV1ALawUFWRJ",
+    short: "Redesigned natural foliage for all Stardew Valley seasonal maps.",
+    description: "This mod provides a complete visual overhaul for trees, bushes, and grasses to create a more natural aesthetic.  - Replaces all trees, bushes, and grasses with high-quality models. - Includes randomized grass patches with eleven variations per season. - Provides a configuration file to toggle specific foliage elements. - Compatible with vanilla textures and various map recolor mods. - Adds three-dimensional shading to trees for improved depth.",
+    tags: [
+      "foliage",
+      "graphics",
+      "textures",
+      "nature"
+    ],
+    featured: true
+  },
+  {
+    id: 757,
+    game: "stardew",
+    title: "Animated Slime Eggs and Loot",
+    category: "visuals-graphics",
+    version: "2.1.0",
+    size: "73 KB",
+    images: [
+      "images/mods/animated-slime-eggs-and-loot-1.jpg",
+      "images/mods/animated-slime-eggs-and-loot-2.jpg",
+      "images/mods/animated-slime-eggs-and-loot-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5UHEU5c874Nxb4H",
+    short: "Adds fluid, customizable animations to various Stardew Valley items.",
+    description: "This mod adds fluid, customizable animations to various game items.  - Animates slime eggs, treasure chests, slime, and more. - Requires SMAPI, Content Patcher, and SpaceCore to function. - Individual animations can be toggled on or off via config. - Animation speeds are adjustable through the content JSON file. - Certain items offer multiple variant options within the configuration.",
+    tags: [
+      "animation",
+      "visuals",
+      "slime",
+      "loot"
+    ],
+    featured: true
+  },
+  {
+    id: 758,
+    game: "stardew",
+    title: "Cornucopia - Artisan Machines",
+    category: "crafting",
+    version: "1.6",
+    size: "182 KB",
+    images: [
+      "images/mods/cornucopia-artisan-machines-1.jpg",
+      "images/mods/cornucopia-artisan-machines-2.jpg",
+      "images/mods/cornucopia-artisan-machines-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/D1WDECcm1HTVW5l",
+    short: "New artisan machines and goods for your Stardew farm.",
+    description: "Adds a variety of artisan machines and goods to expand your profitable farm production.  - Includes 10 new artisan machines and over 80 custom goods. - Features 4 unique special orders and charming new game events. - Safely compatible with existing save files for easy installation. - Supports popular mods like Automate, Lookup Anything, and Junimatic. - Balanced for both vanilla and modded crop rosters.",
+    tags: [
+      "crafting",
+      "machines",
+      "artisan",
+      "crops",
+      "farm"
+    ],
+    featured: true
+  },
+  {
+    id: 759,
+    game: "stardew",
+    title: "Seasonal Path and Flooring",
+    category: "visuals-graphics",
+    version: "1.0.0",
+    size: "225 KB",
+    images: [
+      "images/mods/seasonal-path-and-flooring-1.jpg",
+      "images/mods/seasonal-path-and-flooring-2.jpg",
+      "images/mods/seasonal-path-and-flooring-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/G50Idz2l22b7i23",
+    short: "New seasonal path and flooring designs for your farm.",
+    description: "Customize your farm grounds with new seasonal path and flooring designs.  - Includes refreshed designs and colors for all paths and floors. - Features matching thumbnails to identify items in the menu. - Added toggle option to replace the gravel path with a pool. - Decorative petals and leaves only appear on path corners. - Requires Content Patcher to function correctly in the game.",
+    tags: [
+      "farm",
+      "visuals",
+      "paths",
+      "flooring",
+      "seasonal"
+    ],
+    featured: true
   }
 ];
 
