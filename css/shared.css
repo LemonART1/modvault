@@ -818,6 +818,13 @@ body::after {
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
+.modal-desc-text + .modal-desc-text { margin-top: 14px; }
+.modal-desc-list {
+  color: var(--text2); font-size: 15px; line-height: 1.7;
+  margin-top: 14px; padding-left: 22px;
+}
+.modal-desc-list li { margin-bottom: 8px; overflow-wrap: break-word; }
+.modal-desc-list li::marker { color: var(--game-accent, var(--accent)); }
 
 /* ---- MOD DETAIL PAGE ---- */
 .mod-detail-hero {

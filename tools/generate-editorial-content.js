@@ -79,6 +79,8 @@ function makePost({ gameKey, kind, date = "", title, summary, sourceLabel = "", 
 }
 
 function newsPost(gameKey, date, title, summary, sourceLabel, sourceUrl, angle) {
+  const game = games[gameKey];
+  const catalogLink = `<a href="${esc(game.page)}">${esc(game.name)} mod catalog</a>`;
   return makePost({
     gameKey,
     kind: "news",
@@ -88,18 +90,16 @@ function newsPost(gameKey, date, title, summary, sourceLabel, sourceUrl, angle) 
     sourceLabel,
     sourceUrl,
     sections: [
-      ["What happened", `${angle} This is a real news item worth tracking because it can change what players search for, what mod pages need to explain and which categories become more important for the next few weeks.`],
+      ["What happened", `${esc(angle)} This is a real news item worth tracking because it can change what players search for, what mod pages need to explain and which categories become more important for the next few weeks.`],
       ["Why mod users should care", `A news page should not only repeat a headline. For mod users, the useful part is understanding whether the event affects loaders, multiplayer tools, save files, version compatibility, maps, vehicles, scripts, UI mods or the way people discover content. If a game update or community event changes the modding environment, players need a slower and clearer install routine.`],
       ["What to check before downloading", `Before adding new files, check the date of the mod, required game build, dependency list, comments from other users and whether the mod touches core systems. For vehicles and visual mods, screenshots are usually enough for a first scan. For scripts, maps, UI changes and gameplay tools, version notes matter much more.`],
-      ["ModVault angle", `For ModVault, this kind of news is useful because it gives search engines and visitors context around the mod catalog. The goal is to connect a trending game event with practical next steps: what to download, what to avoid, and how to keep a working setup stable while the community reacts.`]
+      ["ModVault angle", `For ModVault, this kind of news is useful because it gives search engines and visitors context around the ${catalogLink}. The goal is to connect a trending game event with practical next steps: what to download, what to avoid, and how to keep a working setup stable while the community reacts.`]
     ]
   });
 }
 
 const NEWS_POSTS = [
   newsPost("ets2", "2026-07-19", "Euro Truck Simulator 2's 1.61 update reworks the livestock trailer", "SCS Software rebuilt the livestock trailer from the ground up for update 1.61, replacing the old belly axle variant with a lowered dual-wheel chassis and adding two chassis options, paintable bodies and a long list of accessories.", "SCS Software Blog", "https://blog.scssoft.com/2026/07/ets2-161-update-livestock-trailer-rework.html", "Freight Market variants and AI traffic models were reworked around the new owned trailer, so trailer skins, accessory packs and traffic mods built against the old model are the first things to re-check after 1.61."),
-  newsPost("factorio", "2026-06-26", "Factorio 2.1 arrives as an experimental release", "Wube released Factorio 2.1 as experimental with a changelog too long to fit in a Reddit post, and the team plans to keep it experimental through the summer before marking it stable.", "Factorio (Friday Facts #444)", "https://www.factorio.com/blog/post/fff-444", "Wube warned directly that mods players rely on may not be updated yet, and that once a save or blueprint is opened in 2.1 it cannot be downgraded back to 2.0, so a backup matters more than usual here."),
-  newsPost("factorio", "2026-05-29", "Wube confirms 2.1 will be Factorio's last major update", "Friday Facts #440 laid out the 2.1 plan and stated the team envisions it as the last major update for Factorio, focused on quality of life, polish, fixes and modding improvements rather than new planets or research trees.", "Factorio (Friday Facts #440)", "https://www.factorio.com/blog/post/fff-440", "After 2.1 the studio moves to long-term support and modding features instead of new gameplay content, which is the point where community mods become the main source of new things to build and explore."),
   newsPost("gta5", "2026-05-26", "RageMP shutdown makes GTA V multiplayer modding news again", "The reported shutdown of RageMP pushed GTA V multiplayer modding back into the spotlight and reminded players how fragile unofficial multiplayer ecosystems can be.", "PC Gamer", "https://www.pcgamer.com/games/action/gta-roleplaying-is-taking-a-huge-hit-as-a-popular-server-mod-is-shutting-down-under-suspicious-circumstances-leaving-fivem-as-take-twos-only-authorized-modding-platform/", "RageMP has been discussed as a major GTA V roleplay and multiplayer platform, so shutdown news is highly relevant for anyone who follows GTA V servers, scripts and mod tools."),
   newsPost("ets2", "2026-05-30", "ETS2 and ATS 1.60 add an expanded rest mechanic", "SCS Software previewed an expanded rest mechanic for update 1.60, making fatigue and route planning a more visible part of truck sim play.", "SCS Software / Steam", "https://store.steampowered.com/news/group/4036972/view/535954474507613616", "The rest mechanic is gameplay-facing, so it matters for players using economy mods, realism mods, route planning tools and long-haul profiles."),
   newsPost("ets2", "2026-05-28", "SCS previews improved material systems for update 1.60", "The 1.60 update preview includes improved material systems, which can affect how trucks, trailers, interiors and map objects look under new lighting.", "SCS Software Blog", "https://blog.scssoft.com/2026/05/160-update-improved-material-system.html", "Material changes are visual, but they still matter for modders because custom assets often need to match the current rendering style."),
@@ -162,13 +162,15 @@ const NEWS_POSTS = [
 ].sort((a, b) => String(b.date).localeCompare(String(a.date)));
 
 function guidePost(gameKey, title, summary, focus) {
+  const game = games[gameKey];
+  const catalogLink = `<a href="${esc(game.page)}">${esc(game.name)} mod catalog</a>`;
   return makePost({
     gameKey,
     kind: "guide",
     title,
     summary,
     sections: [
-      ["Before you download", `${focus} Start by reading the title, file size, screenshots, tags and description. A useful mod page should make it clear what the file changes and whether any loader, DLC, framework or specific game version is required.`],
+      ["Before you download", `${esc(focus)} Start by browsing the ${catalogLink} for the title, file size, screenshots, tags and description. A useful mod page should make it clear what the file changes and whether any loader, DLC, framework or specific game version is required.`],
       ["Install carefully", `Do not copy files into random folders without checking archive structure. Many install problems come from double-packed zip files, wrong folder levels, old configs or missing dependencies. If a game has a dedicated mods folder, use it. If a mod replaces original files, back up the originals first.`],
       ["Test the mod", `Launch the game after each important install and test the exact thing the mod changes. For vehicles, spawn the car and check textures, dashboard, sound and lights. For maps, load the area and move around. For UI tools, open the menu they change. This catches problems early.`],
       ["Keep it organized", `Store downloaded archives by game and date. When a mod breaks after an update, this makes it much easier to remove or replace only the affected file instead of rebuilding the whole install.`]
@@ -319,7 +321,7 @@ ${metaTags({ title: `${post.title} - ModVault`, description: post.summary, url: 
 <header class="site-header"><div class="container header-inner"><a href="/" class="logo">MOD<span>VAULT</span></a><nav class="header-nav">${activeNav}</nav>
   <button class="nav-menu-toggle" id="nav-menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><svg class="icon-menu" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="icon-close" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   </div></header>
-<main class="page content-page"><div class="container"><article class="content-hero"><span class="content-kicker">${kicker}</span><h1 class="content-title">${esc(post.title)}</h1><p class="content-lede">${esc(post.summary)}</p></article><section class="content-grid">${post.sections.map(([heading, body]) => `<div class="content-panel"><h2>${esc(heading)}</h2><p>${esc(body)}</p></div>`).join("")}${source}</section></div></main>
+<main class="page content-page"><div class="container"><article class="content-hero"><span class="content-kicker">${kicker}</span><h1 class="content-title">${esc(post.title)}</h1><p class="content-lede">${esc(post.summary)}</p></article><section class="content-grid">${post.sections.map(([heading, body]) => `<div class="content-panel"><h2>${esc(heading)}</h2><p>${body}</p></div>`).join("")}${source}</section></div></main>
 ${footer}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase-client.js?v=17"></script>

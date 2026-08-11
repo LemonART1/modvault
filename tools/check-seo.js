@@ -54,7 +54,13 @@ for (const mod of MODS.filter(item => String(item.title ?? "").trim())) {
   if (!html.includes(`<meta name="robots" content="${expectedRobots}">`)) problems.push(`Missing ${expectedRobots} robots meta: ${pagePath}`);
   if (!html.includes(`<link rel="canonical" href="${cleanUrl}">`)) problems.push(`Wrong or missing canonical URL: ${pagePath}`);
   if (!html.includes(`<h1 class="modal-title">${esc(mod.title)}</h1>`)) problems.push(`Missing static H1: ${pagePath}`);
-  if (!html.includes(`<p class="modal-desc-text">${esc(mod.description)}</p>`)) problems.push(`Missing static mod description: ${pagePath}`);
+  // Descriptions can be a plain paragraph or an intro + "- " bullet list
+  // (see descriptionHtml() in generate-mod-pages.js) - check every
+  // non-empty line shows up somewhere rather than matching one exact tag.
+  const descLines = String(mod.description ?? "").split(/\r?\n/).map(line => line.trim().replace(/^-\s+/, "")).filter(Boolean);
+  if (!descLines.length || descLines.some(line => !html.includes(esc(line)))) {
+    problems.push(`Missing static mod description: ${pagePath}`);
+  }
   if (!html.includes('application/ld+json')) problems.push(`Missing structured data: ${pagePath}`);
 }
 

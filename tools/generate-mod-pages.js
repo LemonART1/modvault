@@ -23,6 +23,26 @@ function esc(str) {
     .replace(/"/g, "&quot;");
 }
 
+// Renders a mod description as an intro paragraph plus a bullet list for
+// any "- " lines, so AI-written feature lists show as an actual <ul>
+// instead of a wall of text with literal dashes. Descriptions without
+// "- " lines (the older single-paragraph style) still render as a plain
+// <p>, unchanged.
+function descriptionHtml(description) {
+  const lines = String(description ?? "").split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  const intro = [];
+  const bullets = [];
+  for (const line of lines) {
+    if (/^-\s+/.test(line)) bullets.push(line.replace(/^-\s+/, ""));
+    else intro.push(line);
+  }
+  const introHtml = intro.map(p => `<p class="modal-desc-text">${esc(p)}</p>`).join("\n");
+  const bulletsHtml = bullets.length
+    ? `<ul class="modal-desc-list">${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>`
+    : "";
+  return introHtml + bulletsHtml;
+}
+
 function absUrl(url) {
   return `https://modvault.space/${String(url || "").replace(/^\/+/, "")}`;
 }
@@ -208,7 +228,7 @@ function staticModContent(mod, game) {
     <div class="container">
       <article class="modal-desc-section">
         <h2>About this mod</h2>
-        <p class="modal-desc-text">${esc(mod.description)}</p>
+        ${descriptionHtml(mod.description)}
       </article>
       ${relatedModsSection(mod)}
     </div>

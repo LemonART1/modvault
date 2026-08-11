@@ -66,7 +66,7 @@ function initModDetail(modId) {
       <div class="container">
         <div class="modal-desc-section">
           <h2>About this mod</h2>
-          <p class="modal-desc-text">${esc(mod.description)}</p>
+          ${descriptionHtml(mod.description)}
         </div>
         ${relatedModsSection(mod)}
       </div>
@@ -271,4 +271,21 @@ function esc(str) {
     .replace(/&/g,"&amp;").replace(/</g,"&lt;")
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;")
     .replace(/'/g,"&#39;");
+}
+
+// Mirrors tools/generate-mod-pages.js's descriptionHtml() so the static
+// SEO snapshot and this client-side render produce the same markup.
+function descriptionHtml(description) {
+  const lines = String(description ?? "").split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  const intro = [];
+  const bullets = [];
+  for (const line of lines) {
+    if (/^-\s+/.test(line)) bullets.push(line.replace(/^-\s+/, ""));
+    else intro.push(line);
+  }
+  const introHtml = intro.map(p => `<p class="modal-desc-text">${esc(p)}</p>`).join("");
+  const bulletsHtml = bullets.length
+    ? `<ul class="modal-desc-list">${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>`
+    : "";
+  return introHtml + bulletsHtml;
 }
