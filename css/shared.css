@@ -354,6 +354,7 @@ body::after {
   text-transform: uppercase;
   color: var(--text3);
 }
+.editorial-card-meta time { color: var(--text2); }
 .editorial-card h2 {
   font-family: var(--font-d);
   font-size: 30px;
@@ -706,10 +707,14 @@ body::after {
 
 .modal-body { padding: 40px 48px; }
 .modal-breadcrumb {
-  display: flex; align-items: center; gap: 10px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   font-family: var(--font-m); font-size: 11px; color: var(--text3);
   letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px;
 }
+/* Reserve room for the absolutely-positioned .mod-detail-views badge in
+   the top-right corner so a long breadcrumb wraps instead of running
+   under it. */
+.mod-detail-copy .modal-breadcrumb { padding-right: 90px; }
 .modal-breadcrumb .bc-back {
   color: var(--game-accent, var(--accent)); cursor: pointer;
   transition: opacity var(--transition);
