@@ -16794,6 +16794,563 @@ const MODS = [
       "seasonal"
     ],
     featured: true
+  },
+  {
+    id: 760,
+    game: "bg3",
+    title: "Be My Bhaalentine - Romance partner can be abducted",
+    category: "gameplay",
+    version: "1.0",
+    size: "3.9 MB",
+    images: [
+      "images/mods/be-my-bhaalentine-romance-partner-can-be-abducted-1.jpg",
+      "images/mods/be-my-bhaalentine-romance-partner-can-be-abducted-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/F2m1dIczacn2EPd",
+    short: "Romance partners are now eligible for Orin's kidnapping plot.",
+    description: "This mod allows your romanced companions to become kidnapping victims of Orin.  - Enables Orin to kidnap companions even if they are currently romanced. - Limits kidnapping candidates to Lae'zel, Gale, Halsin, or Minthara. - Ensures Yenna is taken only if no valid companion is available. - Overrides the Act3_GEN_OrinsAbduction script, creating potential conflicts with similar mods. - Requires game version Patch 7 or higher for proper functionality.",
+    tags: [
+      "bg3",
+      "romancing",
+      "kidnapping",
+      "orin",
+      "quest"
+    ],
+    featured: true
+  },
+  {
+    id: 761,
+    game: "bg3",
+    title: "Commander Voss Redone",
+    category: "accessories",
+    version: "1.0",
+    size: "166 KB",
+    images: [
+      "images/mods/commander-voss-redone-1.jpg",
+      "images/mods/commander-voss-redone-2.jpg",
+      "images/mods/commander-voss-redone-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1YXRjFVZtS8RIMe",
+    short: "Visual overhaul for Commander Voss and his Githyanki soldiers.",
+    description: "This mod enhances the appearance and equipment of Commander Voss and his Githyanki followers.  - Features a more brutal and intimidating visual design for Commander Voss. - Equips Commander Voss with new armor and restores his Astral Great Sword. - Updates the appearances of all Githyanki accompanying Voss during key encounters. - Includes custom narrative tags and updated portraits for all affected NPCs.",
+    tags: [
+      "commander",
+      "voss",
+      "githyanki",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 762,
+    game: "bg3",
+    title: "The Goblin Leaders Redone - Servants of Her Will",
+    category: "accessories",
+    version: "1.0",
+    size: "42 KB",
+    images: [
+      "images/mods/the-goblin-leaders-redone-servants-of-her-will-1.jpg",
+      "images/mods/the-goblin-leaders-redone-servants-of-her-will-2.jpg",
+      "images/mods/the-goblin-leaders-redone-servants-of-her-will-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7ttGC31k3MlG1G2",
+    short: "Visual overhaul for the goblin leaders Dror and Gut.",
+    description: "This mod enhances the visual appearance of Dror Ragzlin and Priestess Gut to reflect their devotion to the Absolute.  - Both leaders now wear new absolutist themed attire. - Updated character portraits are provided for both NPCs. - Requires Patch 7 or higher to function correctly. - Created using the Official Toolkit and Moonglasses addon.",
+    tags: [
+      "goblins",
+      "characters",
+      "visual",
+      "portraits"
+    ],
+    featured: true
+  },
+  {
+    id: 763,
+    game: "bg3",
+    title: "Metallic Body Tattoo Colours",
+    category: "character-customisation",
+    version: "1.0.0",
+    size: "2.4 MB",
+    images: [
+      "images/mods/metallic-body-tattoo-colours-1.jpg",
+      "images/mods/metallic-body-tattoo-colours-2.jpg",
+      "images/mods/metallic-body-tattoo-colours-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XH015p2YA86ai65",
+    short: "Adds metallic colors to body tattoos in character creation.",
+    description: "This mod introduces metallic body tattoo colors for character customization.  - Utilizes the Draconic Scales slot for tattoo application. - Includes both vanilla draconic and face tattoo color options. - Requires KAVT and either KaiLimeUI or Rogue Tattoo. - Metallic effects apply to both face and body tattoos. - Select colors labeled with B to avoid coloring scales.",
+    tags: [
+      "tattoos",
+      "cosmetic",
+      "metallic",
+      "bg3",
+      "colors"
+    ],
+    featured: true
+  },
+  {
+    id: 764,
+    game: "bg3",
+    title: "Chiz's 5e Spells Adjustments",
+    category: "gameplay",
+    version: "1.0",
+    size: "10 KB",
+    images: [
+      "images/mods/chizs-5e-spells-adjustments-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LWsGAo76pkOv5l6",
+    short: "Balanced adjustments for 5e Spells in Baldur's Gate 3.",
+    description: "This mod provides tailored balance adjustments for 5e Spells to align better with Baldur's Gate 3 design.  - Removes concentration requirements from most summons to match base-game design. - Normalizes spell durations to align with Larian's long rest and turn logic. - Standardizes targeting ranges for many spells to a 18-meter maximum. - Fixes numerous bugs, outdated data, and conflicts present in previous adjustment mods. - Requires the 5e Spells mod to function correctly.",
+    tags: [
+      "balance",
+      "spells",
+      "dnd",
+      "overhaul",
+      "fix"
+    ],
+    featured: true
+  },
+  {
+    id: 765,
+    game: "bg3",
+    title: "I Surrender",
+    category: "gameplay",
+    version: "1.0",
+    size: "218 KB",
+    images: [
+      "images/mods/i-surrender-1.jpg",
+      "images/mods/i-surrender-2.jpg",
+      "images/mods/i-surrender-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/UPyO3nXcb62qU2G",
+    short: "Surrender to hostile opponents by paying a negotiated bribe.",
+    description: "This mod introduces a surrender mechanic to resolve hostilities peacefully.  - Adds a new spell to all party members for surrendering. - Negotiate bribe costs using persuasion skill checks to lower prices. - Bribe amounts scale dynamically based on your current character level. - Combat ends immediately once a bribe payment is accepted. - Safe to install or remove at any point in gameplay.",
+    tags: [
+      "bg3",
+      "gameplay",
+      "combat",
+      "bribe",
+      "mechanics"
+    ],
+    featured: true
+  },
+  {
+    id: 766,
+    game: "bg3",
+    title: "Check Out Of The Elfsong - Act 3 Camp Swapper",
+    category: "gameplay",
+    version: "Patch 8 - Hotfix 35",
+    size: "1.6 MB",
+    images: [
+      "images/mods/check-out-of-the-elfsong-act-3-camp-swapper-1.jpg",
+      "images/mods/check-out-of-the-elfsong-act-3-camp-swapper-2.jpg",
+      "images/mods/check-out-of-the-elfsong-act-3-camp-swapper-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1JXOJ4p03Dcja3s",
+    short: "Easily swap between the Elfsong and docks camp locations.",
+    description: "This mod allows players to freely check in and out of the Elfsong camp in Act 3.  - Adds dialogue options to check out of the Elfsong room and return to the docks camp. - Includes a scripted fix for camp followers failing to transfer between camp locations. - Enables re-renting the Elfsong room at any time by speaking to Alan Alyth. - Provides unique dialogue options to critique the room and staff during checkout. - Compatible with most small level edits and music replacement mods.",
+    tags: [
+      "camp",
+      "act3",
+      "qol",
+      "dialogue"
+    ],
+    featured: true
+  },
+  {
+    id: 767,
+    game: "bg3",
+    title: "Gunner Feat - Immersive Firearms Series",
+    category: "accessories",
+    version: "1.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/gunner-feat-immersive-firearms-series-1.jpg",
+      "images/mods/gunner-feat-immersive-firearms-series-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Q971rXKeeJV8mu7",
+    short: "Adds a new Gunner feat for firearm class mods.",
+    description: "This mod adds a new Gunner feat specifically designed for Immersive Firearms and Marksman class mods.  - Grants proficiency with all firearm weapons. - Powerful Shots apply a penalty to target rolls upon a failed save. - Increases Dexterity score by +1 up to a maximum of 20. - Maneuver save DC scales based on proficiency and ability modifiers. - Intended for use with specific firearm and class modifications.",
+    tags: [
+      "feat",
+      "firearms",
+      "bg3",
+      "combat",
+      "dnd"
+    ],
+    featured: true
+  },
+  {
+    id: 768,
+    game: "bg3",
+    title: "Creature Photo Mode Fix",
+    category: "photo-mode",
+    version: "1.0.0",
+    size: "247 KB",
+    images: [
+      "images/mods/creature-photo-mode-fix-1.jpg",
+      "images/mods/creature-photo-mode-fix-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EsiG3B7s6xIf25F",
+    short: "Fixes creatures failing to enter photo mode during gameplay.",
+    description: "This mod resolves an issue where specific creatures fail to enter photo mode correctly during gameplay.  - Fixes creatures continuing idle animations while in photo mode. - Supports Cloaker, Spectator, Elder Brain, Mimic, Dragon Skeletal, Brewer, and Surgeon. - Requires animation mods to enable posing for transformed states. - Compatible with most configurations due to minimal code changes.",
+    tags: [
+      "bg3",
+      "photo mode",
+      "bug fix",
+      "creatures"
+    ],
+    featured: true
+  },
+  {
+    id: 769,
+    game: "bg3",
+    title: "Shadowheart Shapeshift Haircolor Fix",
+    category: "miscellaneous",
+    version: "Patch 8 - Hotfix 34",
+    size: "1 KB",
+    images: [
+      "images/mods/shadowheart-shapeshift-haircolor-fix-1.jpg",
+      "images/mods/shadowheart-shapeshift-haircolor-fix-2.jpg",
+      "images/mods/shadowheart-shapeshift-haircolor-fix-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/skwyGyCJ6AV4IbP",
+    short: "Fixes Shadowheart's hair color bugs during her shapeshifted forms.",
+    description: "This script fix prevents Shadowheart's hair color from overriding her appearance while shapeshifted.  - Fixes the issue where white hair persists during Disguise Self - Utilizes an OSI script to ensure proper shapeshifting visuals - Compatible with existing game scripts and resources - Safe to install or remove at any point mid-playthrough - Does not require starting a new game to function",
+    tags: [
+      "shadowheart",
+      "fix",
+      "visual",
+      "bugfix",
+      "patch8"
+    ],
+    featured: true
+  },
+  {
+    id: 770,
+    game: "bg3",
+    title: "Distinctive Arrows of Slaying",
+    category: "visuals",
+    version: "1.2",
+    size: "3.2 MB",
+    images: [
+      "images/mods/distinctive-arrows-of-slaying-1.jpg",
+      "images/mods/distinctive-arrows-of-slaying-2.jpg",
+      "images/mods/distinctive-arrows-of-slaying-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/wk3fIffWWey86vx",
+    short: "Provides unique, identifiable icons for all Arrows of Slaying.",
+    description: "This mod provides unique, handmade icons for all Arrows of Slaying to make them easily distinguishable at a glance.  - Adds distinct visual icons to all standard and rare Arrows of Slaying. - Icons are visible in inventory, hotbar, controller UI, and tooltips. - No gameplay stats or mechanics of the arrows are altered. - Requires no additional mods or frameworks to function properly. - Safe to install or remove at any point in a playthrough.",
+    tags: [
+      "arrows",
+      "icons",
+      "inventory",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 771,
+    game: "bg3",
+    title: "Starfall Clothing",
+    category: "clothing",
+    version: "1.0",
+    size: "10.8 MB",
+    images: [
+      "images/mods/starfall-clothing-1.jpg",
+      "images/mods/starfall-clothing-2.jpg",
+      "images/mods/starfall-clothing-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/a2vWf5r9aE6429k",
+    short: "Adds two custom camp outfits for BT2 HED bodies.",
+    description: "This mod introduces two custom camp outfit variants for the BT2 HED body type.  - Includes two distinct camp outfit variants for BT2 HED characters. - Headwear items are equipped using the underwear slot for constant visibility. - All included clothing items are fully compatible with the game dye system. - Gear can be retrieved directly from the tutorial chest at the start. - Footwear is integrated into the outfit, requiring other shoes be unequipped.",
+    tags: [
+      "clothing",
+      "camp",
+      "bg3",
+      "outfits",
+      "fantasy"
+    ],
+    featured: true
+  },
+  {
+    id: 772,
+    game: "bg3",
+    title: "Luminous Coiffure - Glowing Hairstyles",
+    category: "character-customisation",
+    version: "1.0",
+    size: "6.4 MB",
+    images: [
+      "images/mods/luminous-coiffure-glowing-hairstyles-1.jpg",
+      "images/mods/luminous-coiffure-glowing-hairstyles-2.jpg",
+      "images/mods/luminous-coiffure-glowing-hairstyles-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/PV5djE9D1YhK35n",
+    short: "Add beautiful glowing and iridescent hairstyles to character creator.",
+    description: "This mod introduces glowing, vibrant hairstyles to the character creator.  - Adds both static and dynamic shifting glow effects to hair. - Glow colors are adjustable independently via the horn color menu. - Intensity can be modified by changing saturation and color brightness. - Fully compatible for use as a dependency for other mods.",
+    tags: [
+      "hair",
+      "glow",
+      "custom",
+      "cosmetic",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 773,
+    game: "bg3",
+    title: "Garb of the Ghustil",
+    category: "clothing",
+    version: "1.0",
+    size: "90.8 MB",
+    images: [
+      "images/mods/garb-of-the-ghustil-1.jpg",
+      "images/mods/garb-of-the-ghustil-2.jpg",
+      "images/mods/garb-of-the-ghustil-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3ofqNE98O1JGXsU",
+    short: "Githyanki themed outfit and character overhaul for Baldur's Gate.",
+    description: "This mod adds a Githyanki-themed outfit and updates the appearance of Ghustil Stornugoss.  - Includes a robe, gloves, and shoes for all races and bodies. - Replaces the default human robe worn by Ghustil Stornugoss. - Items obtainable via loot, tutorial chest, or script command. - Note that some minor mesh clipping issues are currently present.",
+    tags: [
+      "githyanki",
+      "clothing",
+      "armor",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 774,
+    game: "bg3",
+    title: "Amanestra The Cursed Blade",
+    category: "weapons",
+    version: "1.0",
+    size: "18.4 MB",
+    images: [
+      "images/mods/amanestra-the-cursed-blade-1.jpg",
+      "images/mods/amanestra-the-cursed-blade-2.jpg",
+      "images/mods/amanestra-the-cursed-blade-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/691xZ1xK6PElv83",
+    short: "A powerful cursed longsword featuring unique mechanics and progression.",
+    description: "This mod introduces a unique, powerful longsword with its own complex mechanics and cursed abilities.  - Features a unique Fiendish Anger resource system that triggers demonic possession. - Includes custom weapon actions, passives, and scaling elemental damage upgrades. - Weapon stats scale with player level and can be infused with gems. - Available across all three game acts or via tutorial chest. - Includes several optional addons for size adjustments and mechanical tweaks.",
+    tags: [
+      "weapon",
+      "cursed",
+      "sword",
+      "combat",
+      "equipment"
+    ],
+    featured: true
+  },
+  {
+    id: 775,
+    game: "bg3",
+    title: "Feline Fiendish - Cambion Eye Replacer",
+    category: "visuals",
+    version: "04/12/15",
+    size: "6.7 MB",
+    images: [
+      "images/mods/feline-fiendish-cambion-eye-replacer-1.jpg",
+      "images/mods/feline-fiendish-cambion-eye-replacer-2.jpg",
+      "images/mods/feline-fiendish-cambion-eye-replacer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Av6I4qX41QKWOG3",
+    short: "Gives cambion eyes a sinister glowing feline appearance instead.",
+    description: "This mod replaces standard cambion eye textures with glowing cat-shaped variants for a more sinister look.  - Replaces vanilla cambion eye textures with new feline designs - Includes an optional version that also updates tiefling eyes - Requires game version Patch 7 or newer to function - Overrides specific NPC heads including Mizora and Mirkon - Compatible with Raphael outfit mods and most visual mods",
+    tags: [
+      "eyes",
+      "cambion",
+      "tiefling",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 776,
+    game: "bg3",
+    title: "More Options for Barcus Windmill Dialogue",
+    category: "accessories",
+    version: "Patch 8 - Hotfix 35",
+    size: "87 KB",
+    images: [
+      "images/mods/more-options-for-barcus-windmill-dialogue-1.jpg",
+      "images/mods/more-options-for-barcus-windmill-dialogue-2.jpg",
+      "images/mods/more-options-for-barcus-windmill-dialogue-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6eIhD0K57vx4Ro3",
+    short: "Expands dialogue choices for Barcus Wroot after windmill rescue.",
+    description: "This mod expands the conversation choices available when interacting with Barcus Wroot after rescuing him from the windmill.  - Adds four unique dialogue paths to the post-rescue scene. - Includes race-specific dialogue options for deep gnome player characters. - Implements optional approval changes for the Jason Altea companion. - Safe to install and uninstall at any point during gameplay. - Conflicts with other mods editing the same dialogue files.",
+    tags: [
+      "barcus",
+      "dialogue",
+      "roleplay",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 777,
+    game: "bg3",
+    title: "Spell Smith Class",
+    category: "classes",
+    version: "1.0",
+    size: "19.0 MB",
+    images: [
+      "images/mods/spell-smith-class-1.jpg",
+      "images/mods/spell-smith-class-2.jpg",
+      "images/mods/spell-smith-class-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BUQQK9a4kOjydFn",
+    short: "A unique spellcasting class using elemental rune combination mechanics.",
+    description: "The Spell Smith introduces a unique spellcasting class focused on combining elemental runes to trigger powerful battlefield domains.  - Gain Intelligence-based spells that require combining fire, water, earth, and lightning runes. - Access twenty unique domain effects including healing, stunning, and area control mechanics. - Features a full level one to twenty progression path with custom passives and feats. - Includes a balanced version for players seeking a less powerful experience during gameplay. - Requires strategic planning as base elements and domains have exclusive active status constraints.",
+    tags: [
+      "classes",
+      "magic",
+      "spells",
+      "combat",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 778,
+    game: "bg3",
+    title: "CHAR's Barbie Head",
+    category: "character-customisation",
+    version: "1.0",
+    size: "26.1 MB",
+    images: [
+      "images/mods/chars-barbie-head-1.jpg",
+      "images/mods/chars-barbie-head-2.jpg",
+      "images/mods/chars-barbie-head-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6NwiA304gBjQb80",
+    short: "Standalone custom Barbie head for various Baldur's Gate races.",
+    description: "This mod introduces a standalone custom head option for multiple races.  - Supports Elves, Half Elves, Drows, Humans, and Tiefling characters. - Includes specific patches for UTAV, KAVT, EOTB, and CCO. - Features vampire variants with improved eyelash rendering for expressions. - Known issues include minor eye closure and occasional lash clipping. - Requires the main file and compatible optional patch files.",
+    tags: [
+      "character",
+      "head",
+      "cosmetic",
+      "beauty"
+    ],
+    featured: true
+  },
+  {
+    id: 779,
+    game: "bg3",
+    title: "ToggleFX - MCM",
+    category: "user-interface",
+    version: "1.0.0",
+    size: "27 KB",
+    images: [
+      "images/mods/togglefx-mcm-1.jpg",
+      "images/mods/togglefx-mcm-2.jpg",
+      "images/mods/togglefx-mcm-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jjvdt72D4Z7H930",
+    short: "Easily manage and customize spell effects via the MCM menu.",
+    description: "Customize or disable visual and sound effects for spells and statuses.  - Provides granular control over individual spell and status effects. - Includes combat-specific settings to restore effects during active encounters. - Supports presets to save, export, and share custom configurations. - Requires Script Extender and BG3 Mod Configuration Menu to function. - Fully compatible with existing mods that add spells or passives.",
+    tags: [
+      "bg3",
+      "vfx",
+      "audio",
+      "spells",
+      "mcm"
+    ],
+    featured: true
+  },
+  {
+    id: 780,
+    game: "bg3",
+    title: "Labeled Container Creator",
+    category: "accessories",
+    version: "1.0",
+    size: "17 KB",
+    images: [
+      "images/mods/labeled-container-creator-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/s7uFngvrOzHIL7H",
+    short: "Create custom named containers to organize your inventory better.",
+    description: "This mod allows you to create custom-labeled containers for your inventory.  - Spawn various container types directly through the Mod Configuration Menu. - Assign personalized names and descriptions to any spawned storage item. - Your custom labels and descriptions remain persistent across game saves. - Requires Mod Configuration Menu 1.38 and BG3 Script Extender. - Containers lose their custom labels if the mod is uninstalled.",
+    tags: [
+      "items",
+      "inventory",
+      "organization"
+    ],
+    featured: true
+  },
+  {
+    id: 781,
+    game: "bg3",
+    title: "Little Secrets with Quil",
+    category: "accessories",
+    version: "1.0",
+    size: "26 KB",
+    images: [
+      "images/mods/little-secrets-with-quil-1.jpg",
+      "images/mods/little-secrets-with-quil-2.jpg",
+      "images/mods/little-secrets-with-quil-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ZNLr87IVIC288aJ",
+    short: "New dialogue choices for Dark Urge campfire heart confessions.",
+    description: "This mod expands Dark Urge dialogue options during the Quil campfire encounter.  - Adds confessions of feelings for NPCs like Alfira and Dammon. - Removes the specific dismissal line about feelings in the clouds. - Requires meeting the NPCs before the Quil camp event triggers. - Safe to install or uninstall at any point during playthroughs. - Conflicts with mods editing the camp bard backup story file.",
+    tags: [
+      "bg3",
+      "dark urge",
+      "dialogue",
+      "romance",
+      "story"
+    ],
+    featured: true
+  },
+  {
+    id: 782,
+    game: "bg3",
+    title: "Z'rell Ogre Execution Restored",
+    category: "gameplay",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/zrell-ogre-execution-restored-1.jpg",
+      "images/mods/zrell-ogre-execution-restored-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1Cfa2B24MnGq8hX",
+    short: "Restores the missing ogre execution scene in Moonrise Towers.",
+    description: "This mod restores the missing ogre execution scene in Moonrise Towers.  - The ogre reliably spawns in the Z'rell briefing cutscene. - Restores the original dialogue lines and the execution animation. - Grants the Know Thy Clientele inspiration point for Charlatans. - Requires Script Extender v26 or higher to function correctly. - Safe to install or uninstall during an ongoing playthrough.",
+    tags: [
+      "bg3",
+      "script",
+      "fix",
+      "cutscene",
+      "lore"
+    ],
+    featured: true
+  },
+  {
+    id: 783,
+    game: "bg3",
+    title: "Ezuneo's Draconic Tails",
+    category: "character-customisation",
+    version: "1.0",
+    size: "38.2 MB",
+    images: [
+      "images/mods/ezuneos-draconic-tails-1.jpg",
+      "images/mods/ezuneos-draconic-tails-2.jpg",
+      "images/mods/ezuneos-draconic-tails-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/21jB4BpU0E6OBnk",
+    short: "Adds ten customizable draconic style tails to character creation.",
+    description: "This mod introduces ten unique draconic-style tail options for character creation.  - Includes ten tail variations compatible with all races and body types. - Tails feature tintable scales using character horn and skin color palettes. - Requires a separate mod to remove default tiefling tails for compatibility. - Optional patch available to remove the default metallic tail sheen. - Dragonborn support is included though skin color syncing is limited.",
+    tags: [
+      "tails",
+      "dragon",
+      "cosmetic",
+      "custom",
+      "fantasy"
+    ],
+    featured: true
   }
 ];
 
