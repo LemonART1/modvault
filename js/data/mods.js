@@ -18043,6 +18043,714 @@ const MODS = [
       "gta5"
     ],
     featured: true
+  },
+  {
+    id: 814,
+    game: "cyberpunk",
+    title: "No Spillover out of combat",
+    category: "gameplay",
+    version: "1.0.0",
+    size: "0 KB",
+    images: [
+      "images/mods/no-spillover-out-of-combat-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/a16FIM38uGHv2M2",
+    short: "Prevents Spillover perk from activating while player is stealthing.",
+    description: "This mod restricts the Spillover perk activation to combat scenarios only.  - Disables Spillover perk and Tier 5 Raven Microcyber effects outside of combat. - Prevents accidental enemy tracing while the player is currently in stealth. - Stops quickhacks from spreading unexpectedly when the player is not engaged. - Ensures controlled stealth gameplay by removing unwanted perk trigger conditions.",
+    tags: [
+      "gameplay",
+      "stealth",
+      "perks",
+      "quickhacks"
+    ],
+    featured: true
+  },
+  {
+    id: 815,
+    game: "cyberpunk",
+    title: "Thorton Merrimac Necromancer",
+    category: "vehicles",
+    version: "1.1.3",
+    size: "13.4 MB",
+    images: [
+      "images/mods/thorton-merrimac-necromancer-1.jpg",
+      "images/mods/thorton-merrimac-necromancer-2.jpg",
+      "images/mods/thorton-merrimac-necromancer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/x9p2pW3SQA36Q3q",
+    short: "A custom widebody Thorton luxury vehicle for Night City.",
+    description: "This mod adds a luxurious, widebody custom Thorton Merrimac to Night City.  - Features a unique widebody kit, chopped roof, and armored glass. - Includes three distinct vehicle variants for players to drive. - Compatible with Virtual Car Dealer, Taxi mod, and AMM. - Requires Phantom Liberty and updated core game mods. - The trunk remains locked and crystal coat is disabled.",
+    tags: [
+      "thorton",
+      "vehicle",
+      "luxury",
+      "car",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 816,
+    game: "cyberpunk",
+    title: "Clothing Filters for Virtual Atelier",
+    category: "atelier-shop",
+    version: "2.0.0",
+    size: "7 KB",
+    images: [
+      "images/mods/clothing-filters-for-virtual-atelier-1.jpg",
+      "images/mods/clothing-filters-for-virtual-atelier-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ueqZdIB5fg15W62",
+    short: "Add helpful clothing category filters to Virtual Atelier stores.",
+    description: "This mod enhances your shopping experience by adding categorized clothing filters to Virtual Atelier stores.  - Adds seven distinct filters for browsing clothing items efficiently. - Requires Cyber Engine Tweaks version 1.5.0 or higher installed. - Allows browsing by outfit, head, face, torso, and legs. - Installation requires extracting files into the main game folder. - May have potential compatibility conflicts with other filter mods.",
+    tags: [
+      "clothing",
+      "filter",
+      "shopping",
+      "ui",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 817,
+    game: "cyberpunk",
+    title: "Contacts Redux",
+    category: "user-interface",
+    version: "1.0",
+    size: "126 KB",
+    images: [
+      "images/mods/contacts-redux-1.jpg",
+      "images/mods/contacts-redux-2.jpg",
+      "images/mods/contacts-redux-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/w1UgeuFRm22K84j",
+    short: "Upgrade your phone interface with improved avatars and sorting.",
+    description: "Contacts Redux transforms the phone interface with dynamic features.  - Adds visible contact avatars for quick identity recognition. - Features live status indicators for online and busy contacts. - Includes smart sorting to prioritize your most active connections. - Fully localized in all nineteen supported in-game languages. - Compatible with most mods that change contact avatar images.",
+    tags: [
+      "ui",
+      "phone",
+      "contacts",
+      "overhaul",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 818,
+    game: "cyberpunk",
+    title: "infrab's Classic Socks",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "6.8 MB",
+    images: [
+      "images/mods/infrabs-classic-socks-1.jpg",
+      "images/mods/infrabs-classic-socks-2.jpg",
+      "images/mods/infrabs-classic-socks-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/X3NsZ1Qc27gnb1A",
+    short: "Hand-modeled thigh-high and over-the-calf socks in 20 colors.",
+    description: "These hand-modeled socks offer customizable leg wear for multiple body types.  - Includes over-the-calf and thigh-high variants in 20 distinct colors. - Compatible with Vanilla, VTK HD, and Hyst body mods. - Features detailed skin bulge for a realistic appearance. - Requires ArchiveXL for proper installation and in-game functionality. - Optional support for Equipment-EX to use alternate item slots.",
+    tags: [
+      "socks",
+      "clothing",
+      "cyberpunk",
+      "cosmetics"
+    ],
+    featured: true
+  },
+  {
+    id: 819,
+    game: "cyberpunk",
+    title: "Kriostech Sportswear Modular",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "52.3 MB",
+    images: [
+      "images/mods/kriostech-sportswear-modular-1.jpg",
+      "images/mods/kriostech-sportswear-modular-2.jpg",
+      "images/mods/kriostech-sportswear-modular-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EhkdIr7O38DIqct",
+    short: "Modular sportswear clothing set for female V in Cyberpunk.",
+    description: "This modular sportswear set includes various tops, bottoms, and accessories for Female V.  - Features modular items with integrated brand logos and information. - Includes stat bonuses for gameplay and customization for photo mode. - Supports Garment Support for layering with other clothing items. - Offers optional toggles to hide decals and adjust accessory sizes. - Requires Archive XL and Small Body Tag for full functionality.",
+    tags: [
+      "clothing",
+      "modular",
+      "female v"
+    ],
+    featured: true
+  },
+  {
+    id: 820,
+    game: "cyberpunk",
+    title: "Beautiful IRIS III - CCXL Realistic Eyes Texture",
+    category: "appearance",
+    version: "1.0",
+    size: "82.8 MB",
+    images: [
+      "images/mods/beautiful-iris-iii-ccxl-realistic-eyes-texture-1.jpg",
+      "images/mods/beautiful-iris-iii-ccxl-realistic-eyes-texture-2.jpg",
+      "images/mods/beautiful-iris-iii-ccxl-realistic-eyes-texture-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7mcll8wzsCf37z7",
+    short: "High quality realistic iris texture options for your character.",
+    description: "This mod adds 80 high-quality iris textures for both V models.  - Adds 80 unique iris textures including natural and glow variants. - Compatible with CCXL and heterochromia for dual eye colors. - Custom normal maps provide improved depth and light interaction. - Requires ArchiveXL and TweakXL to function correctly. - Includes an optional icon replacer for easier menu sorting.",
+    tags: [
+      "eyes",
+      "v",
+      "cosmetic",
+      "textures",
+      "ccxl"
+    ],
+    featured: true
+  },
+  {
+    id: 821,
+    game: "cyberpunk",
+    title: "Streetwear Pt5",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "37.9 MB",
+    images: [
+      "images/mods/streetwear-pt5-1.jpg",
+      "images/mods/streetwear-pt5-2.jpg",
+      "images/mods/streetwear-pt5-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3b3UPd90Y5J40l8",
+    short: "A new streetwear clothing collection for both masculine and feminine.",
+    description: "This mod adds a new collection of custom streetwear clothing for both masculine and feminine V.  - Includes various tops, pants, shoes, and gloves in different color variants. - Requires ArchiveXL, TweakXL, RED4ext, redscript, Cyber Engine Tweaks, Codeware, and Equipment-EX. - Items can be spawned in-game using the provided console commands. - Designed primarily for photo mode usage within the game. - Assets derived from AION2 with custom refits for specific body types.",
+    tags: [
+      "clothing",
+      "streetwear",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 822,
+    game: "cyberpunk",
+    mature: true,
+    title: "Tottes x Luker - Onyx Lingerie",
+    category: "armour-clothing",
+    version: "FEM V",
+    size: "414 MB",
+    images: [
+      "images/mods/tottes-x-luker-onyx-lingerie-1.jpg",
+      "images/mods/tottes-x-luker-onyx-lingerie-2.jpg",
+      "images/mods/tottes-x-luker-onyx-lingerie-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/23R6vus0AbKWPCM",
+    short: "Lingerie mod with many colors",
+    description: "This mod adds a new set of lingerie outfits for female characters in Cyberpunk 2077.  - The mod includes 27 top colors, 24 bra colors, 18 garter belt colors, 18 thong colors, 6 stockings colors, and 7 high heels colors. - It is compatible with Vanilla, RB, EBB, EBBRB, EBBP, EBBPRB, ANGEL, SMALL, and SOLO BODY 2.0. - The mod can be installed via Vortex or by extracting the archive and xl files to the mod directory.",
+    tags: [
+      "clothing",
+      "female",
+      "lingerie"
+    ],
+    featured: true
+  },
+  {
+    id: 823,
+    game: "cyberpunk",
+    title: "Night City Allies - New Characters Addon",
+    category: "characters",
+    version: "3.5",
+    size: "13 KB",
+    images: [
+      "images/mods/night-city-allies-new-characters-addon-1.jpg",
+      "images/mods/night-city-allies-new-characters-addon-2.jpg",
+      "images/mods/night-city-allies-new-characters-addon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T0nUaJsQ9Hfet0b",
+    short: "Adds thirteen new recruitable allies for your companion system.",
+    description: "This addon expands your companion roster with thirteen iconic characters.  - Adds 13 new characters including 8ug8ear and Mr. Hands. - Requires the Night City Allies core system to function. - Multiple characters feature various outfits selectable via the UI. - Known compatibility issues with mods using call backup systems. - Compatible with the existing DrayStation companion framework.",
+    tags: [
+      "cyberpunk",
+      "characters",
+      "companions"
+    ],
+    featured: true
+  },
+  {
+    id: 824,
+    game: "cyberpunk",
+    title: "Honda CRX Mugen (1984)",
+    category: "vehicles",
+    version: "1.0",
+    size: "53.3 MB",
+    images: [
+      "images/mods/honda-crx-mugen-1984-1.jpg",
+      "images/mods/honda-crx-mugen-1984-2.jpg",
+      "images/mods/honda-crx-mugen-1984-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qdbO9FRwE1o8ZyJ",
+    short: "Highly customizable 1984 Honda CRX Mugen for Cyberpunk 2077.",
+    description: "This mod adds a highly customizable 1984 Honda CRX Mugen.  - Features extensive color customization using the CrystalCoat system. - Includes numerous tuning parts like spoilers, wheels, and interior mods. - Adds functional dashboard elements, fog lights, and custom handling physics. - Includes plugins for Nova Traffic and Virtual Car Dealer integration. - Known incompatibility with the Enhanced Vehicle System mod.",
+    tags: [
+      "honda",
+      "crx",
+      "car",
+      "vehicle",
+      "mugen"
+    ],
+    featured: true
+  },
+  {
+    id: 825,
+    game: "cyberpunk",
+    title: "Sable - Male V Preset",
+    category: "appearance-change-unlocker",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/sable-male-v-preset-1.jpg",
+      "images/mods/sable-male-v-preset-2.jpg",
+      "images/mods/sable-male-v-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TxbZt9sTjWnqa3I",
+    short: "Custom male V preset for Appearance Change Unlocker mod.",
+    description: "A custom male V character preset for Cyberpunk 2077.  - Designed as a unique preset for male V. - Fully compatible with the Appearance Change Unlocker mod. - Preset file must be placed in the specified plugin directory. - Requires Cyber Engine Tweaks to function correctly.",
+    tags: [
+      "male v",
+      "preset",
+      "cyberpunk",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 826,
+    game: "cyberpunk",
+    title: "Nola Dreamer's Bad Habits Outfit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "30.1 MB",
+    images: [
+      "images/mods/nola-dreamers-bad-habits-outfit-1.jpg",
+      "images/mods/nola-dreamers-bad-habits-outfit-2.jpg",
+      "images/mods/nola-dreamers-bad-habits-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pc2bp5lXF5TWm1H",
+    short: "Custom outfit set for Female V with many body options.",
+    description: "This mod adds a custom stylish outfit set for Female V.  - Includes 14 different body refit options for various shapes. - Requires ArchiveXL, TweakXL, RED4ext, redscript, and Cyber Engine Tweaks. - Features tops, skirts, and shorts in multiple color patterns. - Items can be spawned via console or virtual boutique.",
+    tags: [
+      "cyberpunk",
+      "outfit",
+      "clothing",
+      "female v"
+    ],
+    featured: true
+  },
+  {
+    id: 827,
+    game: "cyberpunk",
+    title: "Rosa's Clothes - Core",
+    category: "utilities",
+    version: "1.0",
+    size: "17.8 MB",
+    images: [
+      "images/mods/rosas-clothes-core-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8I654H3B49m8VqV",
+    short: "Required dependency package for all Rosa's clothing mods collection.",
+    description: "This mod provides essential material and microblend dependencies for all Rosa's clothing mods.  - Acts as a required dependency for multiple clothing mods - Reduces total file size for individual clothing packs - Simplifies updates and prevents previous crashing issues - Uses materials sourced directly from the base game - Contains textures and patterns for personal private use",
+    tags: [
+      "dependency",
+      "clothing",
+      "resources",
+      "patch"
+    ],
+    featured: true
+  },
+  {
+    id: 828,
+    game: "cyberpunk",
+    mature: true,
+    title: "Lace Up Mini Dress - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "85.6 MB",
+    images: [
+      "images/mods/lace-up-mini-dress-archive-xl-1.jpg",
+      "images/mods/lace-up-mini-dress-archive-xl-2.jpg",
+      "images/mods/lace-up-mini-dress-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ng7QOn770KNOWK4",
+    short: "A stylish lace up mini dress for Female V.",
+    description: "This mod adds a stylish lace up mini dress for Female V.  - Available in ten different color variations for your character. - Requires Archive XL for the item to function correctly. - Compatible with Vanilla, PUSH UP, Enhanced Big Breasts, and Angel bodies. - Includes support for the More Realistic Butt body modification. - Simple installation by extracting files into your game folder.",
+    tags: [
+      "cyberpunk",
+      "clothing",
+      "female",
+      "dress",
+      "mini"
+    ],
+    featured: true
+  },
+  {
+    id: 829,
+    game: "cyberpunk",
+    title: "Unique Eyes to CCXL",
+    category: "appearance-change-unlocker",
+    version: "1.0",
+    size: "203 KB",
+    images: [
+      "images/mods/unique-eyes-to-ccxl-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yD9xJUWR9qN82TN",
+    short: "Adds eye texture mods as new character creator options.",
+    description: "This mod migrates existing Unique Eyes texture mods into new character creator options using CCXL.  - Adds 39 unique eye options to character creator without replacing vanilla assets. - Requires ArchiveXL and TweakXL to function correctly in-game. - Compatible with custom sculpted heads, eyelashes, and CCXL heterochromia. - Supports masculine and feminine player V characters. - Requires a separate eye texture mod to display visuals correctly.",
+    tags: [
+      "eyes",
+      "appearance",
+      "character",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 830,
+    game: "cyberpunk",
+    title: "Masuryans's Atelier Store 2",
+    category: "atelier-shop",
+    version: "1.0",
+    size: "4.3 MB",
+    images: [
+      "images/mods/masuryanss-atelier-store-2-1.jpg",
+      "images/mods/masuryanss-atelier-store-2-2.jpg",
+      "images/mods/masuryanss-atelier-store-2-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2or6Y28pqof105J",
+    short: "A virtual clothing store located in the EBM Petrochem Stadium.",
+    description: "This mod adds a new virtual atelier clothing store to Cyberpunk 2077.  - Includes a storefront located at the EBM Petrochem Stadium. - Compatible with mod managers for simple and quick installation. - Features appearances by Tommy if the Talent Academy gig is completed. - Vendor appearance cycles automatically during gameplay sessions. - Requires manual file deletion from the mod and scripts folders for removal.",
+    tags: [
+      "clothing",
+      "atelier",
+      "store",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 831,
+    game: "cyberpunk",
+    title: "Stash and Vendors QoL",
+    category: "user-interface",
+    version: "1.0.0",
+    size: "3 KB",
+    images: [
+      "images/mods/stash-and-vendors-qol-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1uvRm0b513wM0Zd",
+    short: "Easily manage your stash and vendor item inventory stacks.",
+    description: "Improve inventory management efficiency with stack and multi-select features.  - Move item stacks quickly using shift plus click. - Select multiple item stacks using ctrl plus click. - Features full support for controller trigger inputs. - Requires redscript, red4ext, Codeware, Input Loader, and Mod Settings. - Works seamlessly for both player stash and vendor menus.",
+    tags: [
+      "inventory",
+      "qol",
+      "interface",
+      "stash",
+      "menu"
+    ],
+    featured: true
+  },
+  {
+    id: 832,
+    game: "cyberpunk",
+    title: "A-Girls Valby Outfit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "36.6 MB",
+    images: [
+      "images/mods/a-girls-valby-outfit-1.jpg",
+      "images/mods/a-girls-valby-outfit-2.jpg",
+      "images/mods/a-girls-valby-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/lGRL65J1SP4w43a",
+    short: "Stylish seven piece outfit set for Female V characters.",
+    description: "This mod adds a stylish multi-piece outfit for FemV characters.  - Includes 7 modular clothing items in multiple color variants. - Compatible with all Hyst body mods and Small body types. - Requires Archive XL to function correctly in-game. - Items can be spawned using provided console command codes.",
+    tags: [
+      "femv",
+      "clothing",
+      "outfit",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 833,
+    game: "cyberpunk",
+    title: "Hidden Gems Enemies",
+    category: "gameplay",
+    version: "1.0",
+    size: "131 KB",
+    images: [
+      "images/mods/hidden-gems-enemies-1.jpg",
+      "images/mods/hidden-gems-enemies-2.jpg",
+      "images/mods/hidden-gems-enemies-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0aMhiHw8Ns0nJK4",
+    short: "Adds hostile combat encounters to Night City Hidden Gems.",
+    description: "This mod adds lore-friendly hostile combat encounters to Hidden Gems.  - Adds dynamic enemy NPCs to various Hidden Gem locations. - Enemy types are chosen based on specific narrative shards. - Includes patrols, ambushes, and escalating combat situations. - Highly compatible with most existing Night City mods.",
+    tags: [
+      "combat",
+      "enemies",
+      "immersion",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 834,
+    game: "cyberpunk",
+    title: "North Oak Nails Winter 2026 Collection",
+    category: "atelier-shop",
+    version: "1.0",
+    size: "4.3 MB",
+    images: [
+      "images/mods/north-oak-nails-winter-2026-collection-1.jpg",
+      "images/mods/north-oak-nails-winter-2026-collection-2.jpg",
+      "images/mods/north-oak-nails-winter-2026-collection-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/i6hG90vFX4OgkJ3",
+    short: "Thirty festive nail designs for your female V character.",
+    description: "This mod adds thirty festive nail designs for female V.  - Includes deep jewel tones, frosty pastels, and festive patterns. - Requires North Oak Nails, ArchiveXL, and Equipment-EX to function. - Compatible with all female V body types for manicures. - Requires specific body mods like VTK 3.0 or Solo 2.0 for pedicures. - Optional support for Cute Nails Morph and Microblend Resource.",
+    tags: [
+      "nails",
+      "v",
+      "cosmetics",
+      "atelier",
+      "winter"
+    ],
+    featured: true
+  },
+  {
+    id: 835,
+    game: "cyberpunk",
+    title: "Teeth Pack - CCXL",
+    category: "appearance-change-unlocker",
+    version: "2.31+",
+    size: "10.2 MB",
+    images: [
+      "images/mods/teeth-pack-ccxl-1.jpg",
+      "images/mods/teeth-pack-ccxl-2.jpg",
+      "images/mods/teeth-pack-ccxl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/68xHFniPDJC60ra",
+    short: "Adds eight unique teeth options for all character types.",
+    description: "This mod adds eight unique teeth options to the character creator for both V genders.  - Includes eight new teeth models for Male and Female V. - Requires ArchiveXL and RED4ext to function correctly. - Not compatible with Morphtarget and AnimRig Additions mods. - Features meshes converted from Female V to Male V.",
+    tags: [
+      "teeth",
+      "makeup",
+      "character",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 836,
+    game: "cyberpunk",
+    title: "Ultra Crop Outfit",
+    category: "armour-clothing",
+    version: "2.3",
+    size: "56.3 MB",
+    images: [
+      "images/mods/ultra-crop-outfit-1.jpg",
+      "images/mods/ultra-crop-outfit-2.jpg",
+      "images/mods/ultra-crop-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9wp2WQpi9G1VPP2",
+    short: "Stylish customizable clothing set for female V in Cyberpunk.",
+    description: "This mod provides a stylish outfit collection for female V.  - Includes a crossed top, separate sweater, skirts, and belts. - Crafted from wool, net, and black leather textures. - Available in nine unique color variations for customization. - Supports multiple body types including Angel, EBB, and Vanilla. - Obtainable via Tony's Adult Store or manual console codes.",
+    tags: [
+      "clothing",
+      "female",
+      "v",
+      "cyberpunk",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 837,
+    game: "cyberpunk",
+    title: "Consumable Animations",
+    category: "animations",
+    version: "1.0",
+    size: "2.9 MB",
+    images: [
+      "images/mods/consumable-animations-1.jpg",
+      "images/mods/consumable-animations-2.jpg",
+      "images/mods/consumable-animations-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5Gp8nVTLjIB7HV1",
+    short: "Play immersive animations when consuming food or drink items.",
+    description: "Consume any item to trigger a brief, immersive character animation.  - Over 80 visually held items match the specific item consumed. - Includes 9 unique body animations for base game and expansion items. - Fully configurable cooldowns and settings via the Mod Settings menu. - Compatible with Idle Anywhere, Custom Quickslots, and vendor mods. - Not compatible with Dark Future as this feature is already included.",
+    tags: [
+      "immersion",
+      "animation",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 838,
+    game: "cyberpunk",
+    title: "Urban Sprinter Outfit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "28.7 MB",
+    images: [
+      "images/mods/urban-sprinter-outfit-1.jpg",
+      "images/mods/urban-sprinter-outfit-2.jpg",
+      "images/mods/urban-sprinter-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/zF895kszPJ50xu7",
+    short: "Stylish urban sprinter outfit set for Female V characters.",
+    description: "This mod adds a stylish urban sprinter outfit designed for Female V.  - Includes five clothing items such as hoodie and shoes. - Available in a variety of different color options. - Fully compatible with various Hyst body types and sizes. - Requires Archive XL for proper installation and functionality.",
+    tags: [
+      "clothing",
+      "fem v",
+      "outfit",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 839,
+    game: "cyberpunk",
+    title: "Kriostech Virtual Atelier",
+    category: "atelier-shop",
+    version: "1.0",
+    size: "65 KB",
+    images: [
+      "images/mods/kriostech-virtual-atelier-1.jpg",
+      "images/mods/kriostech-virtual-atelier-2.jpg",
+      "images/mods/kriostech-virtual-atelier-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hLj0rt7UQ90hT8Z",
+    short: "An online store for premium Kriostech clothing and gear.",
+    description: "This mod adds a dedicated online store for Kriostech clothing and gear.  - Requires Virtual Atelier to function correctly within the game. - Access the store via any in-game computer terminal. - Supports Kriostech Military and Sportswear modular outfit collections. - Enables remote item purchasing if Virtual Atelier Delivery is installed. - Stats will display properly once items are added to inventory.",
+    tags: [
+      "clothing",
+      "atelier",
+      "store",
+      "cyberware"
+    ],
+    featured: true
+  },
+  {
+    id: 840,
+    game: "cyberpunk",
+    title: "Photoreal Eyes CCXL",
+    category: "appearance",
+    version: "1.0",
+    size: "43.0 MB",
+    images: [
+      "images/mods/photoreal-eyes-ccxl-1.jpg",
+      "images/mods/photoreal-eyes-ccxl-2.jpg",
+      "images/mods/photoreal-eyes-ccxl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4SW1I1398KWGc0m",
+    short: "Adds thirty-two realistic eye colors to character creator options.",
+    description: "This mod adds 32 highly detailed eye colors to the character creator.  - Includes 32 realistic iris designs based on actual photography. - Offers variable texture resolutions from 512p up to 2048p. - Requires ArchiveXL and TweakXL to function correctly in-game. - Fully compatible with Heterochromia Eyes and Unique Eyes Core. - Changes apply to both male and female character models.",
+    tags: [
+      "eyes",
+      "cosmetic",
+      "realism",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 841,
+    game: "cyberpunk",
+    title: "Miyavi Hair Collection - CCXL",
+    category: "appearance",
+    version: "1.0",
+    size: "24.7 MB",
+    images: [
+      "images/mods/miyavi-hair-collection-ccxl-1.jpg",
+      "images/mods/miyavi-hair-collection-ccxl-2.jpg",
+      "images/mods/miyavi-hair-collection-ccxl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3Ek01a2z4z1K8tG",
+    short: "A collection of custom Miyavi-based hairstyles for player characters.",
+    description: "This mod adds a collection of Miyavi-based hairstyles to Cyberpunk 2077.  - Includes 32 total hair variants for both male and female characters. - Features four core styles including ponytail, wavy, bun, and twist-up. - Provides four cap options ranging from full coverage to shaved. - Includes new braided base options with integrated hoop accessories. - Compatible with Appearance Change Unlocker for custom accessory color editing.",
+    tags: [
+      "hair",
+      "cosmetics",
+      "cyberpunk",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 842,
+    game: "cyberpunk",
+    title: "Military Armor-Plated Pants and Pouches",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "19.7 MB",
+    images: [
+      "images/mods/military-armor-plated-pants-and-pouches-1.jpg",
+      "images/mods/military-armor-plated-pants-and-pouches-2.jpg",
+      "images/mods/military-armor-plated-pants-and-pouches-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OE8sdd3846A4Vv1",
+    short: "Custom military pants and pouches for V with stat bonuses.",
+    description: "These custom military-styled pants and pouches for V feature functional stat bonuses and varied aesthetics.  - Includes multiple color variants for both pants and pouches for masc and fem V. - Features optional belt toggle to customize the overall appearance. - Pants include garment support, allowing them to interact with other clothing items. - Upscaled normal maps provide high-quality textures for the detailed equipment. - Items are balanced with specific sell prices for use at drop points.",
+    tags: [
+      "clothing",
+      "pants",
+      "military",
+      "cyberpunk",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 843,
+    game: "cyberpunk",
+    title: "Say Hi Choom",
+    category: "gameplay",
+    version: "2.31",
+    size: "23.7 MB",
+    images: [
+      "images/mods/say-hi-choom-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yUdNY994m706989",
+    short: "Enables immersive greeting interactions between V and key NPCs.",
+    description: "This mod enables immersive greetings between V and various NPCs.  - Adds randomized greeting voice lines and hand wave animations. - Includes context-aware greetings using character names for specific NPCs. - Supports all game languages with manually synced lipsync animations. - Compatible with most voice mods and common dialogue expansions. - Replaces default scene files to implement new interaction behaviors.",
+    tags: [
+      "immersion",
+      "gameplay",
+      "dialogue",
+      "npc"
+    ],
+    featured: true
+  },
+  {
+    id: 844,
+    game: "cyberpunk",
+    title: "FPP Speedometer",
+    category: "user-interface",
+    version: "1.0",
+    size: "4 KB",
+    images: [
+      "images/mods/fpp-speedometer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T1sVY6YZVICs974",
+    short: "Enable digital speedometer visibility in first person driving view.",
+    description: "This mod enables the digital speedometer on the HUD while driving in first-person perspective.  - Displays speedometer automatically when entering the driver seat. - Shows speed in either MPH or KPH per game settings. - Features an optional keybind to toggle the HUD manually. - Requires Redscript for full functionality. - Compatible with game version 2.3 and most UI mods.",
+    tags: [
+      "hud",
+      "driving",
+      "ui",
+      "fpp",
+      "immersion"
+    ],
+    featured: true
   }
 ];
 
