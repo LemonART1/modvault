@@ -17351,6 +17351,698 @@ const MODS = [
       "fantasy"
     ],
     featured: true
+  },
+  {
+    id: 784,
+    game: "bg3",
+    title: "Adytum Nzx",
+    category: "resources",
+    version: "1.0.0",
+    size: "506 MB",
+    images: [
+      "images/mods/adytum-nzx-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2gnI0Bp0qhmmSJc",
+    short: "Essential library for managing game virtual texture assets.",
+    description: "This mod provides a virtual textures library for mod dependencies.  - Prevents engine hard cap issues for virtual textures. - Requires Script Extender to process textures correctly. - Centralized management tool for developer mod updates. - Save game safe for mid-playthrough installation or removal. - Compatible with mod managers like BG3MM and Vortex.",
+    tags: [
+      "textures",
+      "library",
+      "resources",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 785,
+    game: "bg3",
+    title: "Tidegowns of Coralspire",
+    category: "clothing",
+    version: "1.0",
+    size: "35.1 MB",
+    images: [
+      "images/mods/tidegowns-of-coralspire-1.jpg",
+      "images/mods/tidegowns-of-coralspire-2.jpg",
+      "images/mods/tidegowns-of-coralspire-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NUDTGBm4Q2j4OBz",
+    short: "Add elegant mermaid themed clothing to your character inventory.",
+    description: "This mod adds a modular, mermaid-themed dress set for your player character.  - Includes two distinct tops and two skirts for bodytype 1. - Items are dyeable and feature realistic in-game physics. - Requires the Tutorial Chest Summoning mod to acquire items. - Compatible with Transmog mods for stat customization. - Do not uninstall mid-playthrough to avoid save corruption.",
+    tags: [
+      "mermaid",
+      "clothes",
+      "vanity",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 786,
+    game: "bg3",
+    title: "Shadowheart's Nightly Hairdo",
+    category: "character-customisation",
+    version: "1.0.0",
+    size: "35 KB",
+    images: [
+      "images/mods/shadowhearts-nightly-hairdo-1.jpg",
+      "images/mods/shadowhearts-nightly-hairdo-2.jpg",
+      "images/mods/shadowhearts-nightly-hairdo-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EYi8y3g9G003Z33",
+    short: "Dynamically switch Shadowheart hairstyles during her long rest periods.",
+    description: "This mod dynamically updates Shadowheart's hairstyle during long rests.  - Automatically switches between night and day hairstyles via MCM. - Requires Script Extender and Mod Configuration Menu installed. - Fully compatible with vanilla and modded hairstyle catalogues. - Supports hair color, highlight, and greying adjustments. - Works seamlessly in Photo Mode and is save-safe.",
+    tags: [
+      "shadowheart",
+      "hair",
+      "cosmetic",
+      "mcm",
+      "bg3"
+    ],
+    featured: true
+  },
+  {
+    id: 787,
+    game: "bg3",
+    title: "Wyll's New Look",
+    category: "character-customisation",
+    version: "1.0",
+    size: "3.0 MB",
+    images: [
+      "images/mods/wylls-new-look-1.jpg",
+      "images/mods/wylls-new-look-2.jpg",
+      "images/mods/wylls-new-look-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KeB0ZhkI85u8J3w",
+    short: "A comprehensive visual redesign for the companion Wyll.",
+    description: "This mod provides a complete visual overhaul for the companion Wyll, transforming him into a mercenary monster hunter.  - Includes custom armor, boots, and unique camp clothing sets. - Features new facial hair, a distinct scar, and altered hairstyles. - Provides separate aesthetic variants for both human and devil forms. - Requires a new game save for the custom equipment to function correctly. - Includes custom item names and descriptions for all added gear.",
+    tags: [
+      "wyll",
+      "redesign",
+      "overhaul",
+      "companion"
+    ],
+    featured: true
+  },
+  {
+    id: 788,
+    game: "bg3",
+    title: "Heads of the Hells (BT1 and BT3)",
+    category: "character-customisation",
+    version: "1.0.0",
+    size: "38.2 MB",
+    images: [
+      "images/mods/heads-of-the-hells-bt1-and-bt3-1.jpg",
+      "images/mods/heads-of-the-hells-bt1-and-bt3-2.jpg",
+      "images/mods/heads-of-the-hells-bt1-and-bt3-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ycr8c5q094kbVPT",
+    short: "Eight new custom tiefling head options for your characters.",
+    description: "This mod introduces eight new tiefling head options for your characters.  - Adds four unique tiefling heads for BT1 body type. - Adds four unique tiefling heads for BT3 body type. - Requires standard modding setup for Baldur's Gate 3. - Increase LOD settings to high if head floating occurs.",
+    tags: [
+      "tiefling",
+      "heads",
+      "custom",
+      "rpg",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 789,
+    game: "bg3",
+    title: "TEDDYPACK",
+    category: "clothing",
+    version: "1.0",
+    size: "10.4 MB",
+    images: [
+      "images/mods/teddypack-1.jpg",
+      "images/mods/teddypack-2.jpg",
+      "images/mods/teddypack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ez5wf7y5SpqPxA6",
+    short: "Wear cute plushie backpacks on all your character models.",
+    description: "Add wearable plushie backpacks to your characters for companionship.  - Includes two backpack styles in both large and small sizes. - Available for all body types in the underwear slot. - Can be obtained from tutorial chest or specific act vendors. - Compatible with both armor and camp clothing outfits. - Note that mesh weight stretching may occur in some poses.",
+    tags: [
+      "plushie",
+      "backpack",
+      "cosmetic",
+      "clothing"
+    ],
+    featured: true
+  },
+  {
+    id: 790,
+    game: "bg3",
+    title: "Creche Y'llek's New Look",
+    category: "visuals",
+    version: "1.0",
+    size: "916 KB",
+    images: [
+      "images/mods/creche-ylleks-new-look-1.jpg",
+      "images/mods/creche-ylleks-new-look-2.jpg",
+      "images/mods/creche-ylleks-new-look-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/c8X93gG66x9LJmi",
+    short: "Complete visual overhaul for Githyanki NPCs in Crèche Y'llek.",
+    description: "This mod provides a comprehensive visual redesign for all Githyanki NPCs located within Crèche Y'llek.  - Redesigns over 50 NPCs including Vlaakith and local wolves. - Features a more corpse-like aesthetic for the Lich Queen. - Updates specific NPC names to match their new appearances. - Tested to be safe for mid-playthrough installation and removal. - Hologram effect on Vlaakith does not apply to armor.",
+    tags: [
+      "githyanki",
+      "overhaul",
+      "visuals",
+      "npc",
+      "lore"
+    ],
+    featured: true
+  },
+  {
+    id: 791,
+    game: "bg3",
+    title: "Persana's Armoury- Deep Sea Equipment",
+    category: "equipment",
+    version: "1.0",
+    size: "64.2 MB",
+    images: [
+      "images/mods/persanas-armoury-deep-sea-equipment-1.jpg",
+      "images/mods/persanas-armoury-deep-sea-equipment-2.jpg",
+      "images/mods/persanas-armoury-deep-sea-equipment-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dvGsU2LIob679U9",
+    short: "Deep sea themed equipment collection for all human bodies.",
+    description: "This collection adds deep sea themed equipment for all human body types.  - Includes various outfits, cloaks, headwear, gloves, and boots. - Items feature no stats to remain compatible with transmog mods. - Contains specialized shields and a trident with unique variations. - All equipment is conveniently located inside the tutorial chest.",
+    tags: [
+      "armour",
+      "fantasy",
+      "ocean",
+      "equipment",
+      "gear"
+    ],
+    featured: true
+  },
+  {
+    id: 792,
+    game: "bg3",
+    title: "Interrupted Music Performance Fixer",
+    category: "gameplay",
+    version: "1.0",
+    size: "1.5 MB",
+    images: [
+      "images/mods/interrupted-music-performance-fixer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/amP2Bt57TkX792X",
+    short: "Fixes unintentional interruptions of player music performances in-game.",
+    description: "This mod prevents external status effects from cancelling musical performances.  - Overrides vanilla music statuses so they persist when other statuses are applied. - Resolves issues where ambient modded status ticks interrupt instrument playing. - Safe to install or remove during an active campaign on PC. - Works as a standalone fix and requires no other music mods. - Recommended to be placed last in the mod load order.",
+    tags: [
+      "bg3",
+      "music",
+      "bard",
+      "gameplay",
+      "bugfix"
+    ],
+    featured: true
+  },
+  {
+    id: 793,
+    game: "bg3",
+    title: "Mizora's New Look",
+    category: "character-customisation",
+    version: "3.0",
+    size: "56 KB",
+    images: [
+      "images/mods/mizoras-new-look-1.jpg",
+      "images/mods/mizoras-new-look-2.jpg",
+      "images/mods/mizoras-new-look-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/g21u1ld104AJQJa",
+    short: "Complete visual overhaul for the character Mizora in game.",
+    description: "This mod provides Mizora with a stylish makeover and new outfit options.  - Features a new outfit, jewelry, headpiece, hair, and eye colors. - Includes a custom icon and makeup for a polished appearance. - Optional support for human form via external mod integration. - Safe to install and uninstall during an active playthrough. - Compatible with official tools and latest game patch updates.",
+    tags: [
+      "mizora",
+      "makeover",
+      "cosmetics"
+    ],
+    featured: true
+  },
+  {
+    id: 794,
+    game: "gta5",
+    title: "2026 Lamborghini Fenomeno [Add-On]",
+    category: "vehicles",
+    version: "1.0",
+    size: "21.9 MB",
+    images: [
+      "images/mods/2026-lamborghini-fenomeno-add-on-1.jpg",
+      "images/mods/2026-lamborghini-fenomeno-add-on-2.jpg",
+      "images/mods/2026-lamborghini-fenomeno-add-on-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Xd26FM8MV32YBOJ",
+    short: "Add the 2026 Lamborghini Fenomeno to your vehicle collection.",
+    description: "This mod introduces the 2026 Lamborghini Fenomeno as an add-on vehicle for GTA V.  - Features a high quality detailed exterior and interior model. - Includes fully functional light systems and working dashboard dials. - All body parts and interior surfaces feature adjusted vertex AO. - Equipped with breakable glass panes and destructible light fixtures. - Optimized 3D model originally sourced from CSR2 by ZD3D.",
+    tags: [
+      "lamborghini",
+      "supercar",
+      "vehicles",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 795,
+    game: "gta5",
+    title: "Lamborghini Aventador Pack",
+    category: "vehicles",
+    version: "1.0",
+    size: "88.7 MB",
+    images: [
+      "images/mods/lamborghini-aventador-pack-1.jpg",
+      "images/mods/lamborghini-aventador-pack-2.jpg",
+      "images/mods/lamborghini-aventador-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ktim49c47AP4z9K",
+    short: "Lamborghini Aventador car pack",
+    description: "This mod adds two new Lamborghini Aventador cars to the game.  - Two cars in one download: SVR Lamborghini Aventador Auto Veloce and Lamborghini Aventador LP780-4 Ultimae - Detailed interior with working speedometer and customizable paint jobs - Breakable glass and reflective mirrors for a realistic experience",
+    tags: [
+      "cars",
+      "pack",
+      "lamborghini"
+    ],
+    featured: true
+  },
+  {
+    id: 796,
+    game: "gta5",
+    title: "CBR1000RR-R motoGP Lean Angle",
+    category: "vehicles",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/cbr1000rr-r-motogp-lean-angle-1.jpg",
+      "images/mods/cbr1000rr-r-motogp-lean-angle-2.jpg",
+      "images/mods/cbr1000rr-r-motogp-lean-angle-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/w080WkJQ6MM2397",
+    short: "Enables extreme lean angles for sport motorcycles in game.",
+    description: "This mod adjusts the physics of sport motorbikes to allow extreme lean angles similar to MotoGP riders.  - Increases maximum lean angle for full-fairing sport motorbikes. - Inspired by professional MotoGP motorcycle handling physics. - Compatible with the CBR1000RR-R model by Twatchai. - Designed to work alongside engine sound mods by KCMIR0.",
+    tags: [
+      "physics",
+      "motorbike",
+      "racing",
+      "handling"
+    ],
+    featured: true
+  },
+  {
+    id: 797,
+    game: "gta5",
+    title: "Andre's Map Editor",
+    category: "tools",
+    version: "1.0.0",
+    size: "567 KB",
+    images: [
+      "images/mods/andres-map-editor-1.jpg",
+      "images/mods/andres-map-editor-2.jpg",
+      "images/mods/andres-map-editor-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QsTcyk3SwT6QvLX",
+    short: "Create custom maps with this updated GTA 5 tool.",
+    description: "Create and edit custom maps easily within GTA 5.  - Updated to support ScriptHookDotNet 3 and LemonUI. - Includes objects, vehicles, and peds up to DLC 1.73. - Features category sorting and DLC-based object filtering. - Supports multi-object selection and adding items to favorites. - Maintains all original features from the classic Map Editor.",
+    tags: [
+      "mapping",
+      "editor",
+      "scripts",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 798,
+    game: "gta5",
+    title: "ENIOLLA DRESS for MP Female",
+    category: "player",
+    version: "1.0",
+    size: "6.2 MB",
+    images: [
+      "images/mods/eniolla-dress-for-mp-female-1.jpg",
+      "images/mods/eniolla-dress-for-mp-female-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ea3hMTisseBV34e",
+    short: "Custom dress mod for female characters in GTA V.",
+    description: "A custom-designed dress mod for multiplayer female characters in GTA V.  - Original mesh and textures created by the mod author. - Fully compatible with both Kinky Body and Vanilla Body types. - Includes installation instructions for both Single Player and FiveM. - Requires mpClothes addon for correct Single Player implementation.",
+    tags: [
+      "clothing",
+      "dress",
+      "female",
+      "gta5",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 799,
+    game: "gta5",
+    title: "Nikek's ENB for NaturalVisionRemastered",
+    category: "other",
+    version: "0.492",
+    size: "83.9 MB",
+    images: [
+      "images/mods/nikeks-enb-for-naturalvisionremastered-1.jpg",
+      "images/mods/nikeks-enb-for-naturalvisionremastered-2.jpg",
+      "images/mods/nikeks-enb-for-naturalvisionremastered-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WTLhWd8E0co9D4u",
+    short: "Ultra realistic graphics preset for your GTA V game.",
+    description: "This ENB preset delivers ultra-realistic and vibrant visuals for GTA V.  - Optimized for ultra graphics settings and NaturalVisionRemastered - Requires ScriptHook5 to be installed in the game folder - Compatible with ENBseries version 0.492 - Simple drag and drop installation process - Enhances color saturation and lighting realism",
+    tags: [
+      "enb",
+      "graphics",
+      "visual",
+      "realistic",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 800,
+    game: "gta5",
+    title: "DriveV & RDE Compatibility Patch",
+    category: "scripts",
+    version: "1.0",
+    size: "312 KB",
+    images: [
+      "images/mods/drivev-rde-compatibility-patch-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5QIn3858kYvWZNu",
+    short: "Fixes compatibility issues between DriveV and RDE game mods.",
+    description: "This configuration file resolves stability and content conflicts between the DriveV and RDE mods.  - Merges conflicting DLC_PATCH and update.rpf files. - Prioritizes DriveV data for handling and deformation. - Retains RDE spawn rates and vehicle flags. - Ensures consistent vehicle damage and dirt visuals.",
+    tags: [
+      "gta5",
+      "patch",
+      "vehicles",
+      "compatibility"
+    ],
+    featured: true
+  },
+  {
+    id: 801,
+    game: "gta5",
+    title: "NPC Wanted Stars",
+    category: "scripts",
+    version: "1.0",
+    size: "17 KB",
+    images: [
+      "images/mods/npc-wanted-stars-1.jpg",
+      "images/mods/npc-wanted-stars-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/M037U5ElX53Hcgn",
+    short: "NPCs receive wanted stars for committing crimes like players.",
+    description: "This script enables police to track and pursue non-player characters for criminal actions.  - NPCs now gain wanted stars for shooting or fighting. - Police will respond to NPCs that attack the player. - Wanted levels decrease when NPCs stop fighting and run. - Multiple pedestrians can receive stars simultaneously for crimes. - Installation requires placing the file into the scripts folder.",
+    tags: [
+      "scripts",
+      "gta5",
+      "police",
+      "npc",
+      "wanted"
+    ],
+    featured: true
+  },
+  {
+    id: 802,
+    game: "gta5",
+    title: "SpeederTruck",
+    category: "vehicles",
+    version: "1.0",
+    size: "2.5 MB",
+    images: [
+      "images/mods/speedertruck-1.jpg",
+      "images/mods/speedertruck-2.jpg",
+      "images/mods/speedertruck-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0qz6kZSxj87LY1t",
+    short: "Add the unique SpeederTruck vehicle to your GTA 5.",
+    description: "This custom vehicle mod introduces the unique SpeederTruck to the game.  - Requires ScriptHook and ScriptHook V.NET for functionality. - Uses OpenIV for installation of addon files. - Includes a dedicated folder for all model files. - Users must manually update the dlclist.xml file.",
+    tags: [
+      "gta5",
+      "truck",
+      "vehicle",
+      "addon",
+      "transport"
+    ],
+    featured: true
+  },
+  {
+    id: 803,
+    game: "gta5",
+    title: "BetterChaseRemade [Enhanced / Legacy]",
+    category: "scripts",
+    version: "3.3.3-B",
+    size: "866 KB",
+    images: [
+      "images/mods/betterchaseremade-enhanced-legacy-1.jpg",
+      "images/mods/betterchaseremade-enhanced-legacy-2.jpg",
+      "images/mods/betterchaseremade-enhanced-legacy-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yc6Q00QKx1ESx3t",
+    short: "Advanced and configurable police pursuit system for GTA V.",
+    description: "An advanced and fully configurable police pursuit system for GTA V.  - Features a highly modular and expandable police chase AI. - Supports both Legacy and Enhanced editions of the game. - Requires Script Hook V .NET for proper operation. - Dedicated files are provided for each specific game edition. - Compatible with modern script framework standards for GTA V.",
+    tags: [
+      "police",
+      "pursuit",
+      "scripts",
+      "gta5",
+      "chase"
+    ],
+    featured: true
+  },
+  {
+    id: 804,
+    game: "gta5",
+    title: "Colt 1911",
+    category: "weapons",
+    version: "1.0",
+    size: "70.9 MB",
+    images: [
+      "images/mods/colt-1911-1.jpg",
+      "images/mods/colt-1911-2.jpg",
+      "images/mods/colt-1911-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/846IweKjHX67NiP",
+    short: "Replaces the standard combat pistol with a Colt 1911.",
+    description: "This mod replaces the standard Combat Pistol with a high-quality Colt 1911 model.  - Replaces the in-game Combat Pistol model - Designed by John Moses Browning with .45 ACP detail - Requires file replacement in dlcpacks folder - Installation path provided for weapons.rpf archives",
+    tags: [
+      "pistol",
+      "weapon",
+      "colt",
+      "handgun"
+    ],
+    featured: true
+  },
+  {
+    id: 805,
+    game: "gta5",
+    title: "Karina Top For MP Female",
+    category: "player",
+    version: "1.0",
+    size: "21.8 MB",
+    images: [
+      "images/mods/karina-top-for-mp-female-1.jpg",
+      "images/mods/karina-top-for-mp-female-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Wx4bjw0A5wRESVQ",
+    short: "A custom stylish clothing top for female multiplayer characters.",
+    description: "This mod adds a custom designed top for MP female characters in GTA V.  - Includes 22 unique textures for the clothing item. - Fully compatible with both Kinky and Vanilla body types. - Original mesh and textures created by the mod author. - Requires mpClothes addon to function correctly in-game.",
+    tags: [
+      "clothing",
+      "female",
+      "top",
+      "gta5",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 806,
+    game: "gta5",
+    title: "Milk Jeans for MP Female",
+    category: "player",
+    version: "1.0",
+    size: "13.0 MB",
+    images: [
+      "images/mods/milk-jeans-for-mp-female-1.jpg",
+      "images/mods/milk-jeans-for-mp-female-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m8GKDwain9rFi4u",
+    short: "Custom high quality denim jeans for MP Female characters.",
+    description: "This mod introduces high-quality custom denim jeans for MP Female characters in GTA V.  - Includes all 3 levels of detail for performance - Features 26 unique color swatches for variety - Provides enhanced textures for a realistic look - Requires the mpclothes DLC pack to function correctly - Professionally converted and edited by STRUT",
+    tags: [
+      "jeans",
+      "clothing",
+      "female",
+      "gta5",
+      "apparel"
+    ],
+    featured: true
+  },
+  {
+    id: 807,
+    game: "gta5",
+    title: "Fast & Furious 1 Lore Friendly car pack",
+    category: "vehicles",
+    version: "1.1",
+    size: "22 KB",
+    images: [
+      "images/mods/fast-furious-1-lore-friendly-car-pack-1.jpg",
+      "images/mods/fast-furious-1-lore-friendly-car-pack-2.jpg",
+      "images/mods/fast-furious-1-lore-friendly-car-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ogzO14Ux4Wwi026",
+    short: "Lore friendly car pack featuring Fast and Furious vehicles.",
+    description: "This pack recreates iconic vehicles from the first Fast and Furious film using vanilla GTA V car models.  - Features lore-friendly recreations of iconic movie vehicles. - Optimized for the Menyoo trainer platform. - Requires external vehicle mods for optimal visual results. - Includes a fix for a previously included text file error.",
+    tags: [
+      "cars",
+      "movie",
+      "gta5",
+      "lore",
+      "vehicles"
+    ],
+    featured: true
+  },
+  {
+    id: 808,
+    game: "gta5",
+    title: "Nikas Territorial Defense of Ukraine",
+    category: "other",
+    version: "1.0",
+    size: "437 MB",
+    images: [
+      "images/mods/nikas-territorial-defense-of-ukraine-1.jpg",
+      "images/mods/nikas-territorial-defense-of-ukraine-2.jpg",
+      "images/mods/nikas-territorial-defense-of-ukraine-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ijn7JNNBMmGaQfg",
+    short: "Adds Ukrainian territorial defense uniforms and equipment to GTA.",
+    description: "This mod adds Ukrainian Territorial Defense forces to the game.  - Adds new tactical uniforms for player and NPCs. - Includes specialized military equipment textures and models. - Compatible with both Singleplayer and FiveM servers. - Features historically inspired insignias and camouflage patterns.",
+    tags: [
+      "ukraine",
+      "military",
+      "uniform",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 809,
+    game: "gta5",
+    title: "AddonWeapons Builder",
+    category: "tools",
+    version: "1.0.0",
+    size: "16.2 MB",
+    images: [
+      "images/mods/addonweapons-builder-1.jpg",
+      "images/mods/addonweapons-builder-2.jpg",
+      "images/mods/addonweapons-builder-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EKyXW6F5j1itF8g",
+    short: "Convert replaceable weapons into custom add-on weapon files easily.",
+    description: "This program simplifies the process of converting standard weapons into custom add-on versions.  - Automatically generates required folders and XML configuration files. - Packages converted weapon assets into functional dlc.rpf archives. - Handles automatic installation by editing your dlclist.xml file. - Detects your game installation and mods folder automatically. - Currently supports legacy RPF format for all conversions.",
+    tags: [
+      "weapons",
+      "modding",
+      "tools",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 810,
+    game: "gta5",
+    title: "Glory - Procedural First Person Camera",
+    category: "scripts",
+    version: "1.0.0",
+    size: "66 KB",
+    images: [
+      "images/mods/glory-procedural-first-person-camera-1.jpg",
+      "images/mods/glory-procedural-first-person-camera-2.jpg",
+      "images/mods/glory-procedural-first-person-camera-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TWX5d2H5DI3Hut8",
+    short: "Procedural first person camera overhaul with realistic movement simulation.",
+    description: "Glory is a lightweight script that adds procedural camera movement and inertia to create a natural first-person experience.  - Simulates breathing, weapon handling, and vehicle inertia. - Adds specific gear shifting animations for vehicles. - Includes G-force blackout effects for aircraft and helicopters. - Features improved free aim mechanics and auto exposure. - Includes a dedicated camera mode for motorcycles.",
+    tags: [
+      "camera",
+      "script",
+      "immersion",
+      "firstperson"
+    ],
+    featured: true
+  },
+  {
+    id: 811,
+    game: "gta5",
+    title: "Bodyguards — Squads, Convoys & Helicopter Extraction",
+    category: "scripts",
+    version: "1.0",
+    size: "42 KB",
+    images: [
+      "images/mods/bodyguards-squads-convoys-helicopter-extraction-1.jpg",
+      "images/mods/bodyguards-squads-convoys-helicopter-extraction-2.jpg",
+      "images/mods/bodyguards-squads-convoys-helicopter-extraction-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3v7yaK96F0iLs1O",
+    short: "Hire elite private security for your Los Santos character.",
+    description: "Experience elite protection services with a comprehensive private security mod.  - Deploy armed squads, motorcades, and snipers via a menu. - Guards actively fight and re-form formations between intense combat. - Utilize a scripted helicopter for emergency extraction from situations. - Protect your character like a billionaire or cartel boss.",
+    tags: [
+      "security",
+      "guards",
+      "convoys",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 812,
+    game: "gta5",
+    title: "QuantV Realistic ReShade Preset",
+    category: "other",
+    version: "1.0",
+    size: "12 KB",
+    images: [
+      "images/mods/quantv-realistic-reshade-preset-1.jpg",
+      "images/mods/quantv-realistic-reshade-preset-2.jpg",
+      "images/mods/quantv-realistic-reshade-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NAvbZcLVK82Q8jt",
+    short: "A realistic and cinematic ReShade preset for QuantV users.",
+    description: "This ReShade preset provides a clean and cinematic visual enhancement for the QuantV graphics modification.  - Built from scratch for optimized performance - Improves overall sharpness and contrast balance - Features natural lighting and color grading - Designed specifically for compatibility with QuantV",
+    tags: [
+      "reshade",
+      "graphics",
+      "quantv",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 813,
+    game: "gta5",
+    title: "Purple Brand Jeans for MP Male",
+    category: "player",
+    version: "1.0",
+    size: "96.0 MB",
+    images: [
+      "images/mods/purple-brand-jeans-for-mp-male-1.jpg",
+      "images/mods/purple-brand-jeans-for-mp-male-2.jpg",
+      "images/mods/purple-brand-jeans-for-mp-male-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1QSctNe0oAS27RO",
+    short: "Custom purple brand skinny jeans for MP male characters.",
+    description: "Adds a stylish pair of purple brand skinny jeans for your multiplayer male character.  - Includes sixteen unique texture variations for the jeans. - Requires OpenIV for the installation process. - Designed specifically for the MP male character model. - Follow the provided file path to install files correctly.",
+    tags: [
+      "clothing",
+      "jeans",
+      "fashion",
+      "male",
+      "gta5"
+    ],
+    featured: true
   }
 ];
 
