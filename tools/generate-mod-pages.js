@@ -28,11 +28,30 @@ function esc(str) {
 // instead of a wall of text with literal dashes. Descriptions without
 // "- " lines (the older single-paragraph style) still render as a plain
 // <p>, unchanged.
+//
+// The AI doesn't always emit real newlines between bullets even when
+// asked to - it sometimes writes them inline as "sentence.  - Bullet one.
+// - Bullet two." on a single line. Detect that pattern (2+ ". - Capital"
+// transitions - a real mid-sentence dash like "Patch 8 - Hotfix 36" never
+// follows a period) and split it into the same line format real newlines
+// would have produced.
+function descriptionLines(description) {
+  const raw = String(description ?? "").trim();
+  let lines = raw.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  if (lines.length <= 1) {
+    const bulletTransitions = raw.match(/\.\s+-\s+[A-Z0-9]/g) || [];
+    if (bulletTransitions.length >= 2) {
+      const parts = raw.split(/\s-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
+      if (parts.length > 1) lines = [parts[0], ...parts.slice(1).map(part => `- ${part}`)];
+    }
+  }
+  return lines;
+}
+
 function descriptionHtml(description) {
-  const lines = String(description ?? "").split(/\r?\n/).map(line => line.trim()).filter(Boolean);
   const intro = [];
   const bullets = [];
-  for (const line of lines) {
+  for (const line of descriptionLines(description)) {
     if (/^-\s+/.test(line)) bullets.push(line.replace(/^-\s+/, ""));
     else intro.push(line);
   }

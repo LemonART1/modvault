@@ -23,6 +23,22 @@ function esc(value) {
     .replace(/"/g, "&quot;");
 }
 
+// Mirrors tools/generate-mod-pages.js's descriptionLines() so this check
+// looks for the same fragments the renderer actually produces, including
+// the inline "sentence.  - Bullet." fallback split.
+function descriptionLines(description) {
+  const raw = String(description ?? "").trim();
+  let lines = raw.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  if (lines.length <= 1) {
+    const bulletTransitions = raw.match(/\.\s+-\s+[A-Z0-9]/g) || [];
+    if (bulletTransitions.length >= 2) {
+      const parts = raw.split(/\s-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
+      if (parts.length > 1) lines = [parts[0], ...parts.slice(1).map(part => `- ${part}`)];
+    }
+  }
+  return lines;
+}
+
 const dataContext = {};
 vm.createContext(dataContext);
 vm.runInContext(`${read("js/data/mods.js")}\nthis.GAMES = GAMES; this.MODS = MODS;`, dataContext);
@@ -57,7 +73,7 @@ for (const mod of MODS.filter(item => String(item.title ?? "").trim())) {
   // Descriptions can be a plain paragraph or an intro + "- " bullet list
   // (see descriptionHtml() in generate-mod-pages.js) - check every
   // non-empty line shows up somewhere rather than matching one exact tag.
-  const descLines = String(mod.description ?? "").split(/\r?\n/).map(line => line.trim().replace(/^-\s+/, "")).filter(Boolean);
+  const descLines = descriptionLines(mod.description).map(line => line.replace(/^-\s+/, "")).filter(Boolean);
   if (!descLines.length || descLines.some(line => !html.includes(esc(line)))) {
     problems.push(`Missing static mod description: ${pagePath}`);
   }

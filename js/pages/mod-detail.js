@@ -273,13 +273,27 @@ function esc(str) {
     .replace(/'/g,"&#39;");
 }
 
-// Mirrors tools/generate-mod-pages.js's descriptionHtml() so the static
-// SEO snapshot and this client-side render produce the same markup.
+// Mirrors tools/generate-mod-pages.js's descriptionHtml()/descriptionLines()
+// so the static SEO snapshot and this client-side render produce the same
+// markup, including the fallback for inline "sentence.  - Bullet." text
+// the AI sometimes writes instead of real newlines between bullets.
+function descriptionLines(description) {
+  const raw = String(description ?? "").trim();
+  let lines = raw.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  if (lines.length <= 1) {
+    const bulletTransitions = raw.match(/\.\s+-\s+[A-Z0-9]/g) || [];
+    if (bulletTransitions.length >= 2) {
+      const parts = raw.split(/\s-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
+      if (parts.length > 1) lines = [parts[0], ...parts.slice(1).map(part => `- ${part}`)];
+    }
+  }
+  return lines;
+}
+
 function descriptionHtml(description) {
-  const lines = String(description ?? "").split(/\r?\n/).map(line => line.trim()).filter(Boolean);
   const intro = [];
   const bullets = [];
-  for (const line of lines) {
+  for (const line of descriptionLines(description)) {
     if (/^-\s+/.test(line)) bullets.push(line.replace(/^-\s+/, ""));
     else intro.push(line);
   }
