@@ -19141,7 +19141,185 @@ const MODS = [
       "modular"
     ],
     featured: true
-  }
+  },
+  {
+    id: 862,
+    game: "beamng",
+    title: "LC 2017-2025",
+    category: "cars",
+    version: "1.1",
+    size: "206 MB",
+    images: [
+      "images/mods/lc-2017-2025-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4l624PEfcu23L9k",
+    short: "A high quality, feature-rich modern sports car for BeamNG.",
+    description: "- Built upon a revised jbeam structure derived from the ETK K series.\n- Includes 7 unique configurations with custom handling and performance tuning.\n- Offers full customization for interior colors, body paint, and standard wheels.\n- Features 4 distinct body kits and 6 custom wheel sets usable across the game.\n- Adheres to all modern BeamNG physical and visual standards.",
+    tags: [
+      "sports car",
+      "modern",
+      "custom",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 863,
+    game: "beamng",
+    title: "NLR “HI Hater’s” ZX 6R",
+    category: "motorcycles",
+    version: "0.39",
+    size: "240 MB",
+    images: [
+      "images/mods/nlr-hi-haters-zx-6r-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1RvKNGNG7NcE0AQ",
+    short: "High performance ZX-6R motorcycle featuring detailed stunt and launch controls.",
+    description: "This free edition focuses specifically on the ZX-6R, offering a taste of the larger NLR motorcycle collection without the advanced turbo customization found in the early access version. You get a solid handling machine that feels distinct from the rest of the pack thanks to custom frame and bodywork tuning.\n\n- Use the J key to arm the two-step launch limiter.\n- Manage your nitrous levels using the P key and the N2O Purge Gauge app.\n- Perform stunts easily with dedicated keys for wheelies, stoppies, and standing poses.\n- Avoid installing this alongside the early access version to prevent vehicle folder conflicts.\n- Remap all controls conveniently through the standard game settings menu.",
+    tags: [
+      "motorcycle",
+      "bike",
+      "stunt",
+      "racing",
+      "nlr"
+    ],
+    featured: true
+  },
+  {
+    id: 864,
+    game: "beamng",
+    title: "Alfa Romeo Giulia 2015-2026",
+    category: "cars",
+    version: "1.0",
+    size: "205 MB",
+    images: [
+      "images/mods/alfa-romeo-giulia-2015-2026-1.jpg",
+      "images/mods/alfa-romeo-giulia-2015-2026-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ek199T95VOBB6R5",
+    short: "High quality Alfa Romeo Giulia with ten unique configurations.",
+    description: "Experience precision Italian engineering with this highly detailed mod that utilizes a custom Jbeam based on the ETK 800 and Bastion parts. You will find that the handling and performance are tuned to match real-world specs, including precise weight distribution and accurate torque curves.\n\n- Features ten distinct configurations ranging from standard to performance models.\n- Includes functional gauge sweeps and randomized serial numbers for GTAm variants.\n- Fully updated with correctly configured headlights and reflective police liveries.\n- Offers a wide selection of authentic interior trims and paint options.",
+    tags: [
+      "alfa romeo",
+      "sedan",
+      "italian",
+      "car",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 865,
+    game: "beamng",
+    title: "Daewon LN Commercial Buses",
+    category: "buses",
+    version: "1.4",
+    size: "214 MB",
+    images: [
+      "images/mods/daewon-ln-commercial-buses-1.jpg",
+      "images/mods/daewon-ln-commercial-buses-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vHpN34QMdhr987x",
+    short: "High-quality Daewon commercial bus pack with twenty-seven unique configurations.",
+    description: "This pack features a set of scratch-built Daewon commercial buses that include twenty-seven unique configurations, custom wheels, and highly detailed interiors. You will need to install the Urbanmaid Core Resource Package for these buses to function correctly in your game.\n\n- Digital dashboards for models 01–05 now display fuel consumption, tire pressure, and transmission temperatures.\n- Improved JBeam physics now feature reduced front suspension load and more realistic pneumatic door operation.\n- Exterior detailing includes new halogen lighting effects, adjustable brightness settings, and swing-door variants.\n- The interaction system has been standardized using an integrated JSON file for all body parts and emergency exits.\n- Several bugs were addressed, including the LN120 label placement and turn signal issues on older 1994–1997 models.",
+    tags: [
+      "bus",
+      "commercial",
+      "daewon",
+      "vehicles"
+    ],
+    featured: true
+  },
+  {
+    id: 866,
+    game: "beamng",
+    title: "Saab 9-3 Remaster",
+    category: "cars",
+    version: "2.2",
+    size: "1.00 GB",
+    images: [
+      "images/mods/saab-9-3-remaster-1.jpg",
+      "images/mods/saab-9-3-remaster-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hpCVQk3o3Qcv816",
+    short: "A high-quality remaster of the iconic Swedish Saab sedan.",
+    description: "This comprehensive remaster breathes new life into the Saab 9-3, offering a much-needed upgrade over older versions that were showing their age. While the file size is a bit hefty, the sheer variety of options makes it a great choice for those who love Swedish engineering.\n\n- Features 68 unique configurations for varied driving experiences.\n- Includes wagon, sedan, and convertible body styles.\n- Choose between multiple pre-facelift and facelift aesthetic versions.\n- Provides 6 distinct interior setups for cabin customization.\n- Powered by a choice of 9 different engine types.",
+    tags: [
+      "saab",
+      "sedan",
+      "wagon",
+      "remaster",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 867,
+    game: "beamng",
+    title: "Nissan Silvia S13",
+    category: "cars",
+    version: "1.1",
+    size: "919 MB",
+    images: [
+      "images/mods/nissan-silvia-s13-1.jpg",
+      "images/mods/nissan-silvia-s13-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3tubJI6UjSW6w5z",
+    short: "High quality Nissan Silvia with multiple engines and tuning.",
+    description: "This Silvia S13 brings a highly detailed experience to the game, featuring high-quality models both inside and out. It comes with a variety of technical improvements and custom touches that make it stand out on the track.\n\n- Includes both LS1 and CA18 engine options.\n- Features eight distinct vehicle configurations to choose from.\n- Boasts fully animated interior components like pedals and shifters.\n- Utilizes PBR materials and baked lighting for realistic visuals.\n- Offers extensive tuning options, custom skins, and functional mirrors.",
+    tags: [
+      "nissan",
+      "silvia",
+      "s13",
+      "jdm",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 868,
+    game: "beamng",
+    title: "Ferrari J50",
+    category: "cars",
+    version: "1.0",
+    size: "84.5 MB",
+    images: [
+      "images/mods/ferrari-j50-1.jpg",
+      "images/mods/ferrari-j50-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Tp4QgaQZ2vgd7Qq",
+    short: "Experience the iconic Ferrari J50 with ten custom configurations.",
+    description: "Drive this highly detailed Ferrari J50 that captures the essence of the real-world supercar with impressive attention to detail. It handles with realistic specifications to ensure your time on the track feels authentic.\n\n- Includes ten unique driving configurations for varied track performance.\n- Features a high-quality interior and exterior model for visual realism.\n- Equipped with fully functional opening parts and integrated lighting systems.\n- Offers multiple distinct trim levels and appearance variants to choose.",
+    tags: [
+      "ferrari",
+      "supercar",
+      "sportscar",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 869,
+    game: "beamng",
+    title: "Mercedes-Benz AMG W213",
+    category: "cars",
+    version: "1.0",
+    size: "249 MB",
+    images: [
+      "images/mods/mercedes-benz-amg-w213-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/gt72NVb9n7XTzN1",
+    short: "High fidelity Mercedes AMG W213 with extensive tuning options.",
+    description: "Experience authentic German luxury performance with this incredibly detailed Mercedes-Benz AMG W213. It captures the essence of the real vehicle through a combination of precision modeling and realistic physics that shine both on the track and during casual cruises.\n\n- Features a high-quality PBR-textured exterior alongside a fully functional, animated premium interior.\n- Includes a sophisticated JBeam structure designed for realistic deformation and authentic crash physics.\n- Offers a wide variety of factory-style paint, interior trims, and multiple AMG wheel designs to choose from.\n- Boasts a working digital instrument cluster and fully animated interior controls including pedals and gear selectors.\n- Provides deep customization options across engine, suspension, and exhaust components to suit any driving style.",
+    tags: [
+      "mercedes",
+      "amg",
+      "sedan",
+      "luxury",
+      "german"
+    ],
+    featured: true
+  },
 ];
 
 const CATEGORIES = {
