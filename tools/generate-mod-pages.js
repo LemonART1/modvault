@@ -11,96 +11,6 @@ vm.runInContext(`${dataCode}\nthis.GAMES = GAMES; this.MODS = MODS;`, context);
 
 const { GAMES, MODS } = context;
 
-// Per-game installation guides — unique content injected into every mod page.
-// This raises the information value of each page and helps Google see them
-// as real, useful content rather than thin template duplicates.
-const INSTALL_GUIDES = {
-  beamng: [
-    "Download the mod file (usually a .zip archive).",
-    "Move the file into your BeamNG.drive <code>mods</code> folder: <code>Documents/BeamNG.drive/mods/</code>",
-    "Launch the game and open the Mods Manager from the main menu.",
-    "Find the mod in the list and activate it.",
-    "Start a scenario or free roam to use the new content."
-  ],
-  ac: [
-    "Download the mod archive.",
-    "Extract the contents into your Assetto Corsa <code>content</code> folder: <code>steamapps/common/assettocorsa/content/</code>",
-    "Cars go to <code>content/cars/</code>, tracks to <code>content/tracks/</code>, apps to <code>content/apps/</code>.",
-    "Launch the game — new cars appear in the car selection, tracks in the track list.",
-    "For apps, enable them from the in-game app bar."
-  ],
-  subnautica2: [
-    "Download the mod file.",
-    "Make sure UE4SS is installed in your game binaries folder.",
-    "Extract the mod to <code>Subnautica 2/Win64/ue4ss/Mods/</code> (or <code>WinGDK/Mods/</code> for Game Pass).",
-    "Some mods use the <code>~mods</code> Paks folder instead — check the mod description.",
-    "Launch the game and verify the mod loads (check <code>UE4SS.log</code> if issues occur)."
-  ],
-  stardew: [
-    "Download the mod.",
-    "Install SMAPI (Stardew Modding API) if you haven't already.",
-    "Extract the mod into your <code>Stardew Valley/Mods/</code> folder.",
-    "Launch the game through SMAPI (not the default Steam shortcut).",
-    "Check the SMAPI console for compatibility warnings on startup."
-  ],
-  gta5: [
-    "Download the mod archive.",
-    "For add-on vehicles: use OpenIV to place files in <code>dlcpacks</code> and update <code>dlclist.xml</code>.",
-    "For scripts: copy <code>.asi</code> and <code>.dll</code> files to your main GTA V folder.",
-    "Some mods require Script Hook V or FiveM — check requirements before installing.",
-    "Always back up your game files before installing mods."
-  ],
-  ets2: [
-    "Download the mod file (usually <code>.scs</code> or <code>.zip</code>).",
-    "Place it in your <code>Euro Truck Simulator 2/mod/</code> folder.",
-    "Launch the game and open the Mod Manager from the profile screen.",
-    "Activate the mod by double-clicking it and confirming.",
-    "Some map mods require DLC — check the mod description for compatibility."
-  ],
-  cyberpunk: [
-    "Download the mod archive.",
-    "For REDmods: extract to <code>Cyberpunk 2077/mods/</code> or install via the in-game REDlauncher.",
-    "For archive mods: place files in <code>archive/pc/mod/</code> (create the folder if it doesn't exist).",
-    "Some mods require Cyber Engine Tweaks or RED4ext — install those first.",
-    "Launch the game and check for conflicts in the mod list."
-  ],
-  rdr2: [
-    "Download the mod archive.",
-    "Install Lenny's Mod Loader if the mod requires it.",
-    "Extract mod files to the appropriate folders in your RDR2 directory.",
-    "Some mods use ScriptHookRDR2 — place <code>.asi</code> files in the main game folder.",
-    "Always verify game file integrity after removing mods."
-  ],
-  nierautomata: [
-    "Download the mod file.",
-    "Many mods require the NieR: Automata Mod Helper or Special K.",
-    "Extract files to your <code>NieRAutomata/</code> game folder following the mod's structure.",
-    "For texture/model mods, use the mod manager if provided.",
-    "Launch the game and verify the changes appear in the main menu or in-game."
-  ],
-  re4: [
-    "Download the mod archive.",
-    "Install Fluffy Mod Manager if you haven't already.",
-    "Place the mod folder in <code>Fluffy Mod Manager/Games/RE4R/Mods/</code>.",
-    "Launch Fluffy Mod Manager, select the mod, and click <strong>Launch Game</strong>.",
-    "Some mods require specific load order — arrange them in the manager if needed."
-  ],
-  starfield: [
-    "Download the mod file.",
-    "For standard mods: place files in <code>Starfield/Data/</code> (create <code>Data</code> if missing).",
-    "Add the mod filename to your <code>StarfieldCustom.ini</code> under <code>[Archive]</code> or use a mod manager.",
-    "Some mods require Starfield Script Extender (SFSE) — install that first.",
-    "For Xbox/Game Pass versions, mod support is limited — check compatibility."
-  ],
-  bg3: [
-    "Download the mod archive.",
-    "Use BG3 Mod Manager for easiest installation.",
-    "Place <code>.pak</code> files in <code>Baldurs Gate 3/Mods/</code> and import them in the manager.",
-    "Some mods require Norbyte's Script Extender — install that first if needed.",
-    "Launch the game through the mod manager to ensure proper load order."
-  ]
-};
-
 function slugify(str) {
   return String(str).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
@@ -131,7 +41,7 @@ function descriptionLines(description) {
   if (lines.length <= 1) {
     const bulletTransitions = raw.match(/\.\s+-\s+[A-Z0-9]/g) || [];
     if (bulletTransitions.length >= 2) {
-      const parts = raw.split(/\s+-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
+      const parts = raw.split(/\s-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
       if (parts.length > 1) lines = [parts[0], ...parts.slice(1).map(part => `- ${part}`)];
     }
   }
@@ -303,22 +213,6 @@ function relatedModsSection(mod) {
   </section>`;
 }
 
-// Renders a game-specific "How to install" section with real, useful steps.
-// The content is identical for every mod of the same game, but the *presence*
-// of a substantive install guide raises the information value of the page
-// and differentiates it from thin template clones.
-function installGuideSection(gameKey) {
-  const steps = INSTALL_GUIDES[gameKey];
-  if (!steps || !steps.length) return "";
-  const listItems = steps.map(step => `<li>${step}</li>`).join("");
-  return `<article class="install-guide-section">
-    <h2>How to install this ${esc(GAMES[gameKey]?.shortName || "mod")}</h2>
-    <ol class="install-guide-steps">
-      ${listItems}
-    </ol>
-  </article>`;
-}
-
 function staticModContent(mod, game) {
   const images = getImages(mod);
   return `<main class="page" id="mod-detail">
@@ -355,7 +249,6 @@ function staticModContent(mod, game) {
         <h2>About this mod</h2>
         ${descriptionHtml(mod.description)}
       </article>
-      ${installGuideSection(mod.game)}
       ${relatedModsSection(mod)}
     </div>
   </section>
@@ -406,7 +299,7 @@ for (const mod of MODS.filter(mod => String(mod.title ?? "").trim())) {
 ${metaTags({ title, description: `${mod.short} Download ${mod.title} for ${game.name} on ModVault.`, image, url: pagePath.replace(/\.html$/, ""), type: "article", mature: !!mod.mature })}
 ${softwareAppSchema(mod, game, pagePath, image, ratingAggregates)}
 ${breadcrumbSchema(mod, game, pagePath)}
-  <link rel="stylesheet" href="css/shared.css?v=28">
+  <link rel="stylesheet" href="css/shared.css?v=27">
   <link rel="stylesheet" href="css/effects.css?v=6">
 </head>
 <body style="--game-accent:${esc(game.accent)}">
