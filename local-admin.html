@@ -258,6 +258,9 @@
       $("category").innerHTML = Object.entries(cats)
         .map(([key, label]) => `<option value="${key}">${label}</option>`)
         .join("");
+      // Guard against callers passing "key (Label)" or other junk straight
+      // through (e.g. the AI echoing the prompt's "key (Label)" format).
+      if (preferred) preferred = String(preferred).replace(/\(.*?\)/g, "").split(/[,\n]/)[0].trim();
       let resolved = "";
       if (preferred) {
         if (cats[preferred]) {
@@ -407,7 +410,10 @@ ${$("rawText").value.trim()}`;
         const markers = ["TITLE", "GAME", "CATEGORY", "VERSION", "DESCRIPTION", "SHORT", "TAGS"];
         const title = readMarker(data.text, "TITLE", markers);
         const game = readMarker(data.text, "GAME", markers).toLowerCase();
-        const category = readMarker(data.text, "CATEGORY", markers).toLowerCase();
+        // The prompt shows categories as "key (Label)" so the AI sometimes echoes
+        // both back (e.g. "cars (Cars)") instead of just the key - strip any
+        // parenthetical/trailing junk before matching against the category list.
+        const category = readMarker(data.text, "CATEGORY", markers).toLowerCase().replace(/\(.*?\)/g, "").split(/[,\n]/)[0].trim();
         if (title) $("title").value = title;
         if (state.games[game]) {
           $("game").value = game;
