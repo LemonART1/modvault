@@ -1,5 +1,12 @@
 const NEWS_POSTS = [
   {
+    "date": "2026-07-26",
+    "title": "Realistic Ballistics overhauls how bullets behave in Red Dead Redemption 2",
+    "tag": "Red Dead Redemption 2",
+    "url": "content/news/realistic-ballistics-overhauls-how-bullets-behave-in-red-dead-redemption-2",
+    "summary": "A new mod rewrites RDR2's projectile system from scratch, adding a detailed ballistic simulation with two install options: a full weapon expansion with catalogue integration, or a lighter core version covering vanilla-supported firearms."
+  },
+  {
     "date": "2026-07-19",
     "title": "Euro Truck Simulator 2's 1.61 update reworks the livestock trailer",
     "tag": "Euro Truck Simulator 2",
@@ -294,6 +301,13 @@ const NEWS_POSTS = [
     "summary": "The Night City Reborn collection added a large batch of new content in its April 2026 update, continuing to be one of Cyberpunk 2077's most followed mod projects."
   },
   {
+    "date": "2026-04-07",
+    "title": "Starfield's Free Lanes update adds cruise mode and the paid Terran Armada DLC",
+    "tag": "Starfield",
+    "url": "content/news/starfield-s-free-lanes-update-adds-cruise-mode-and-the-paid-terran-armada-dlc",
+    "summary": "Update 1.16.236, nicknamed Free Lanes, added a cruise mode for traveling between planets and points of interest, X-Tech crafting for Rank 4 legendary weapon and armor effects, and a buildable ship optimization terminal, alongside the separately sold Terran Armada story DLC."
+  },
+  {
     "date": "2026-03-25",
     "title": "Ad Astra brings a sci-fi expansion to Stardew Valley",
     "tag": "Stardew Valley",
@@ -355,6 +369,20 @@ const NEWS_POSTS = [
     "tag": "Stardew Valley",
     "url": "content/news/stardew-valley-s-10th-anniversary-livestream-teases-update-1-7",
     "summary": "ConcernedApe used the Stardew Valley 10th anniversary livestream to confirm new romance options and a future 1.7 update, without a release date yet."
+  },
+  {
+    "date": "2026-02-22",
+    "title": "Resident Evil 4 Remake mod unlocks all extra content instantly",
+    "tag": "Resident Evil 4",
+    "url": "content/news/resident-evil-4-remake-mod-unlocks-all-extra-content-instantly",
+    "summary": "A new mod from creator WuhanBiohazard unlocks every weapon, costume, accessory, model and concept art piece in the Extra Content Shop immediately, skipping the usual grind for in-game currency."
+  },
+  {
+    "date": "2026-02-20",
+    "title": "NieR: Automata passes 10 million sales as Square Enix teases 'to be continued'",
+    "tag": "NieR: Automata",
+    "url": "content/news/nier-automata-passes-10-million-sales-as-square-enix-teases-to-be-continued",
+    "summary": "Square Enix marked NieR: Automata's ninth anniversary with a livestream confirming the game has sold over 10 million copies worldwide, closing with a cryptic \"NieR: Automata to be continued\" teaser and no details on what form a continuation might take."
   },
   {
     "date": "2026-02-10",
