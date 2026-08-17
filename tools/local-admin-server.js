@@ -66,11 +66,19 @@ function slugify(value) {
     .replace(/^-|-$/g, "") || "mod";
 }
 
+// Real newlines matter now: descriptions can be an intro paragraph plus
+// "- " bullet lines (see descriptionHtml() in generate-mod-pages.js), and
+// every mod gets re-serialized through here whenever the admin saves any
+// mod. Collapsing \n to a space (the old behavior) silently flattened that
+// formatting back to a wall of text on the *next* save after someone fixed
+// it by hand. Escape newlines as the two-character "\n" instead so they
+// survive as a real escape sequence inside the JS string literal.
 function escapeString(value) {
   return String(value ?? "")
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
-    .replace(/\r?\n/g, " ");
+    .replace(/\r\n/g, "\n")
+    .replace(/\n/g, "\\n");
 }
 
 function serializeObject(name, value) {

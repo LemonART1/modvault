@@ -30,8 +30,8 @@ function descriptionLines(description) {
   const raw = String(description ?? "").trim();
   let lines = raw.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
   if (lines.length <= 1) {
-    const bulletTransitions = raw.match(/\.\s+-\s+[A-Z0-9]/g) || [];
-    if (bulletTransitions.length >= 2) {
+    const bulletTransitions = raw.match(/\s-\s+[A-Z0-9]/g) || [];
+    if (bulletTransitions.length >= 3) {
       const parts = raw.split(/\s-\s+(?=[A-Z0-9])/).map(part => part.trim()).filter(Boolean);
       if (parts.length > 1) lines = [parts[0], ...parts.slice(1).map(part => `- ${part}`)];
     }

@@ -18764,7 +18764,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/65mR6qf40Z5V1E0",
     short: "High performance BMW M4 variants for your racing needs.",
-    description: "Three BMW M4 trim variants - Competition, CS and CSL - with engine outputs ranging from 473 to 543 horsepower.  - Fully functional digital Carplay interface built in. - Updated compatibility fix for game version 0.39.",
+    description: "Three BMW M4 trim variants (Competition, CS and CSL) with engine outputs ranging from 473 to 543 horsepower.\n\n- Fully functional digital Carplay interface built in.\n- Updated compatibility fix for game version 0.39.",
     tags: [
       "bmw",
       "m4",
@@ -18810,7 +18810,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/001C1C84eLgh4t5",
     short: "High quality Toyota Altezza and Lexus IS300 car mod.",
-    description: "31 configurations of the JDM classic, covering custom wheels and skins, with high-quality PBR materials and baked lighting.\n\n- Fully functional interior triggers, mirrors and navigation systems.\n- Both left-hand and right-hand drive dashboard options.\n- Openable parts and realistic light activation.",
+    description: "31 configurations of the JDM classic, covering custom wheels and skins, with high-quality PBR materials and baked lighting.  - Fully functional interior triggers, mirrors and navigation systems. - Both left-hand and right-hand drive dashboard options. - Openable parts and realistic light activation.",
     tags: [
       "toyota",
       "lexus",
@@ -18834,7 +18834,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/9Z4AXWcPSdZwn6Q",
     short: "Explore a detailed country cottage with seasonal map variations.",
-    description: "A country cottage map with matching summer and winter versions. Winter adds an accessible house with lights that turn on at night (toggle and adjust the snowfall from the menu) and a frozen river with a few nice touches, while summer just gets a fix for the orange textures.\n\n- Redid all the grass and fixed the streetlight lighting, adding it to the open house too.\n- Removed the lake's water.\n- Fixed a spot where dry asphalt met icy patches.",
+    description: "A country cottage map with matching summer and winter versions. Winter adds an accessible house with lights that turn on at night (toggle and adjust the snowfall from the menu) and a frozen river with a few nice touches, while summer just gets a fix for the orange textures.  - Redid all the grass and fixed the streetlight lighting, adding it to the open house too. - Removed the lake's water. - Fixed a spot where dry asphalt met icy patches.",
     tags: [
       "map",
       "summer",
@@ -18858,7 +18858,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/kiZo9L1ahrFQ2Aw",
     short: "Experience the famous Japanese mountain pass for drift racing.",
-    description: "The famous Japanese touge mountain pass, rebuilt with updated vegetation and realistic PBR ground materials.\n\n- Two-way traffic support and active time trials.\n- Improved guardrail collision, fixing the previous sticking issue.\n- Dynamic lighting with realistic night shadows.\n- Optimized specifically for game version 0.39.",
+    description: "The famous Japanese touge mountain pass, rebuilt with updated vegetation and realistic PBR ground materials.  - Two-way traffic support and active time trials. - Improved guardrail collision, fixing the previous sticking issue. - Dynamic lighting with realistic night shadows. - Optimized specifically for game version 0.39.",
     tags: [
       "touge",
       "drift",
@@ -18881,13 +18881,35 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/HNly545lX58s3lc",
     short: "An updated mountain Touge track with AI traffic support.",
-    description: "A complete overhaul of the Sadamine Pass touge course, with updated high-quality vegetation and PBR materials throughout.\n\n- Improved guardrail collision physics, eliminating the old vehicle-stickiness issue.\n- Fully functional two-way AI traffic support and a time trial mode.\n- Dynamic lighting and night shadows.\n- Custom Night Control UI app for managing environmental lighting.",
+    description: "A complete overhaul of the Sadamine Pass touge course, with updated high-quality vegetation and PBR materials throughout.  - Improved guardrail collision physics, eliminating the old vehicle-stickiness issue. - Fully functional two-way AI traffic support and a time trial mode. - Dynamic lighting and night shadows. - Custom Night Control UI app for managing environmental lighting.",
     tags: [
       "touge",
       "drift",
       "racing",
       "mountain",
       "track"
+    ],
+    featured: true
+  },
+  {
+    id: 851,
+    game: "beamng",
+    title: "Toyota FJ Cruiser 2022",
+    category: "cars",
+    version: "0.39",
+    size: "248 MB",
+    images: [
+      "images/mods/toyota-fj-cruiser-2022-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/t0VChfBjndw3M54",
+    short: "Detailed Toyota FJ Cruiser with seventeen unique vehicle configurations.",
+    description: "This 2022 Toyota FJ Cruiser mod features seventeen distinct configurations ranging from stock builds to a specialized police version. You get top-tier exterior and interior models enhanced by PBR materials for realistic lighting reflection.  - Fully animated dashboard, pedals, gearshift, and parking brake - Detailed engine bay and under-the-hood components - Functional mirrors and lights for immersive driving - Custom wheels included with specific skins - Opening doors and hoods for added interactivity",
+    tags: [
+      "toyota",
+      "suv",
+      "offroad",
+      "4x4",
+      "fjcruiser"
     ],
     featured: true
   }
