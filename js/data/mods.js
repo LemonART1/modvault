@@ -18764,13 +18764,130 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/65mR6qf40Z5V1E0",
     short: "High performance BMW M4 variants for your racing needs.",
-    description: "Three BMW M4 trim variants - Competition, CS and CSL - with engine outputs ranging from 473 to 543 horsepower.\n\n- Fully functional digital Carplay interface built in.\n- Updated compatibility fix for game version 0.39.",
+    description: "Three BMW M4 trim variants - Competition, CS and CSL - with engine outputs ranging from 473 to 543 horsepower.  - Fully functional digital Carplay interface built in. - Updated compatibility fix for game version 0.39.",
     tags: [
       "bmw",
       "m4",
       "sportscar",
       "german",
       "sedan"
+    ],
+    featured: true
+  },
+  {
+    id: 846,
+    game: "beamng",
+    title: "Mercedes-Benz W124 1980-1990s Pack",
+    category: "cars",
+    version: "2.1",
+    size: "667 MB",
+    images: [
+      "images/mods/mercedes-benz-w124-1980-1990s-pack-1.jpg",
+      "images/mods/mercedes-benz-w124-1980-1990s-pack-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/67wQ5g0wGjrG67E",
+    short: "Classic Mercedes W124 pack with twenty four unique configurations.",
+    description: "24 vehicle configurations of the classic W124 series, including a taxi variant with a working taximeter.  - Functional gauges and dashboard indicators. - Two engine models and two trim options, plus snow textures. - Custom engine sounds for both the 200D and 300D. - Fully updated for BeamNG.drive version 0.39.",
+    tags: [
+      "mercedes",
+      "w124",
+      "classic",
+      "sedan",
+      "german"
+    ],
+    featured: true
+  },
+  {
+    id: 847,
+    game: "beamng",
+    title: "Toyota Altezza/Lexus IS300",
+    category: "cars",
+    version: "1.7",
+    size: "169 MB",
+    images: [
+      "images/mods/toyota-altezzalexus-is300-1.jpg",
+      "images/mods/toyota-altezzalexus-is300-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/001C1C84eLgh4t5",
+    short: "High quality Toyota Altezza and Lexus IS300 car mod.",
+    description: "31 configurations of the JDM classic, covering custom wheels and skins, with high-quality PBR materials and baked lighting.\n\n- Fully functional interior triggers, mirrors and navigation systems.\n- Both left-hand and right-hand drive dashboard options.\n- Openable parts and realistic light activation.",
+    tags: [
+      "toyota",
+      "lexus",
+      "sedan",
+      "drifting",
+      "jdm"
+    ],
+    featured: true
+  },
+  {
+    id: 848,
+    game: "beamng",
+    title: "Country Cottage (Summer + Winter)",
+    category: "maps",
+    version: "1.1",
+    size: "1.13 GB",
+    images: [
+      "images/mods/country-cottage-summer-winter-1.jpg",
+      "images/mods/country-cottage-summer-winter-2.jpg",
+      "images/mods/country-cottage-summer-winter-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9Z4AXWcPSdZwn6Q",
+    short: "Explore a detailed country cottage with seasonal map variations.",
+    description: "A country cottage map with matching summer and winter versions. Winter adds an accessible house with lights that turn on at night (toggle and adjust the snowfall from the menu) and a frozen river with a few nice touches, while summer just gets a fix for the orange textures.\n\n- Redid all the grass and fixed the streetlight lighting, adding it to the open house too.\n- Removed the lake's water.\n- Fixed a spot where dry asphalt met icy patches.",
+    tags: [
+      "map",
+      "summer",
+      "winter",
+      "scenery",
+      "cottage"
+    ],
+    featured: true
+  },
+  {
+    id: 849,
+    game: "beamng",
+    title: "Happogahara 2023 - Touge",
+    category: "maps",
+    version: "v1.1",
+    size: "142 MB",
+    images: [
+      "images/mods/happogahara-2023-touge-1.jpg",
+      "images/mods/happogahara-2023-touge-2.jpg",
+      "images/mods/happogahara-2023-touge-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kiZo9L1ahrFQ2Aw",
+    short: "Experience the famous Japanese mountain pass for drift racing.",
+    description: "The famous Japanese touge mountain pass, rebuilt with updated vegetation and realistic PBR ground materials.\n\n- Two-way traffic support and active time trials.\n- Improved guardrail collision, fixing the previous sticking issue.\n- Dynamic lighting with realistic night shadows.\n- Optimized specifically for game version 0.39.",
+    tags: [
+      "touge",
+      "drift",
+      "japan",
+      "mountain"
+    ],
+    featured: true
+  },
+  {
+    id: 850,
+    game: "beamng",
+    title: "Sadamine Pass - Touge",
+    category: "maps",
+    version: "1.4",
+    size: "141 MB",
+    images: [
+      "images/mods/sadamine-pass-touge-1.jpg",
+      "images/mods/sadamine-pass-touge-2.jpg",
+      "images/mods/sadamine-pass-touge-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HNly545lX58s3lc",
+    short: "An updated mountain Touge track with AI traffic support.",
+    description: "A complete overhaul of the Sadamine Pass touge course, with updated high-quality vegetation and PBR materials throughout.\n\n- Improved guardrail collision physics, eliminating the old vehicle-stickiness issue.\n- Fully functional two-way AI traffic support and a time trial mode.\n- Dynamic lighting and night shadows.\n- Custom Night Control UI app for managing environmental lighting.",
+    tags: [
+      "touge",
+      "drift",
+      "racing",
+      "mountain",
+      "track"
     ],
     featured: true
   }
