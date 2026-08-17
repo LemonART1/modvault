@@ -794,6 +794,9 @@ ${$("rawText").value.trim()}`;
       } else if (payload.source === "gta5") {
         $("gta5Url").value = payload.url;
         await importGta5();
+      } else if (payload.source === "modhub") {
+        $("modhubUrl").value = payload.url;
+        await importModHub();
       }
     }
 
