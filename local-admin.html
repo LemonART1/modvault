@@ -106,6 +106,18 @@
 
     <div class="panel card">
       <div class="field">
+        <label for="modhubUrl">ModHub.us URL</label>
+        <input id="modhubUrl" placeholder="https://www.modhub.us/beamng-drive-mods/mercedes-benz-c63-w204-10-fix-039x">
+      </div>
+      <div class="actions">
+        <button id="modhubBtn" type="button">Import from ModHub</button>
+        <span class="hint">Без Cloudflare-обхода: название, описание, картинки и ссылка на скачивание (modsfire) с размером файла — всё сразу.</span>
+      </div>
+      <div class="status" id="modhubStatus">Вставь URL мода ModHub.us и нажми Import.</div>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
         <label for="rawText">AI raw text</label>
         <textarea id="rawText" placeholder="Вставь сюда грязное описание мода. ИИ заполнит title, game, category, version, short, description и tags."></textarea>
       </div>
@@ -520,6 +532,41 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function importModHub() {
+      const url = $("modhubUrl").value.trim();
+      if (!url) { setStatus($("modhubStatus"), "Вставь URL мода ModHub.us.", "bad"); return; }
+      $("modhubBtn").disabled = true;
+      setStatus($("modhubStatus"), "Загружаю данные с ModHub.us...");
+      try {
+        const response = await fetch("/api/modhub", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        $("rawText").value = [data.name, data.description].filter(Boolean).join("\n\n");
+        if (data.game && state.games[data.game]) { $("game").value = data.game; updateCategories(); }
+        if (data.downloadUrl) $("downloadUrl").value = data.downloadUrl;
+        if (data.size) $("size").value = data.size;
+
+        if (data.images && data.images.length) {
+          try {
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
+          } catch (_) { /* images optional */ }
+        }
+
+        setStatus($("modhubStatus"), `Загружено: ${data.name}${data.downloadUrl ? " (ссылка на скачивание найдена)" : ""}. Запускаю AI...`, "ok");
+        await runAi();
+      } catch (error) {
+        setStatus($("modhubStatus"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("modhubBtn").disabled = false;
+      }
+    }
+
     async function importFactorio() {
       const url = $("factorioUrl").value.trim();
       if (!url) { setStatus($("factorioStatus"), "Вставь URL мода Factorio.", "bad"); return; }
@@ -617,6 +664,7 @@ ${$("rawText").value.trim()}`;
     $("nexusBtn").addEventListener("click", importNexus);
     $("gta5Btn").addEventListener("click", importGta5);
     $("factorioBtn").addEventListener("click", importFactorio);
+    $("modhubBtn").addEventListener("click", importModHub);
     $("modsfireBtn").addEventListener("click", loadModsfireList);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.

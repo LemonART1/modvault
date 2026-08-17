@@ -371,6 +371,102 @@ async function handleGta5(req, res) {
   send(res, 200, { ok: true, name, description, images, game: "gta5" });
 }
 
+// ModHub.us (Laravel app) serves plain HTML with no Cloudflare challenge, so
+// the server can scrape it directly like GTA5-Mods - no userscript, no image
+// CDN workaround needed (images live on modhub.us itself). Its "download"
+// button is a CSRF-protected POST (session cookie + _token + upload_id) that
+// 302s to the mod's real modsfire.com link, which is exactly the format the
+// rest of the catalog already uses for downloadUrl - so unlike GTA5-Mods/
+// Factorio, this importer can resolve and prefill downloadUrl + size too.
+async function handleModHub(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  const match = url.match(/modhub\.us\/([a-z0-9-]+-mods)\/([a-z0-9-]+)/i);
+  if (!match) throw new Error("Invalid ModHub URL. Expected: modhub.us/{game}-mods/{slug}");
+  const slug = match[2];
+  const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+  const pageRes = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" }, signal: AbortSignal.timeout(20000) });
+  if (!pageRes.ok) throw new Error(`ModHub page returned ${pageRes.status}.`);
+  const html = await pageRes.text();
+  // ModHub sets both an XSRF-TOKEN cookie and a session cookie; the download
+  // form needs the session one. headers.get("set-cookie") only ever returns
+  // the first Set-Cookie header (they can't be comma-joined - dates inside
+  // them contain commas), so all of them have to be read via getSetCookie().
+  const setCookies = typeof pageRes.headers.getSetCookie === "function" ? pageRes.headers.getSetCookie() : [pageRes.headers.get("set-cookie") || ""];
+  const cookie = setCookies.map(c => c.split(";")[0]).filter(Boolean).join("; ");
+
+  const name = decodeEntities((html.match(/<h1[^>]*>([^<]*)<\/h1>/i) || [])[1] || "").trim();
+  if (!name) throw new Error("Could not read the mod title from the page.");
+
+  const descBlock = (html.match(/<div class="content">([\s\S]*?)<\/div>\s*<\/div>/i) || [])[1] || "";
+  const description = decodeEntities(descBlock.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")).replace(/\n{3,}/g, "\n\n").trim();
+
+  const seen = new Set();
+  const imageUrls = [];
+  for (const m of html.matchAll(/src="(\/uploads\/images\/photos\/[^"]+?_[a-zA-Z0-9]{10,}\.\w+)"/g)) {
+    if (seen.has(m[1])) continue;
+    seen.add(m[1]);
+    imageUrls.push(`https://www.modhub.us${m[1]}`);
+  }
+
+  // Resolve the real download link (and its file size) via the CSRF-protected
+  // download form - the page's own hidden fields plus the session cookie from
+  // the page fetch above are all it needs.
+  let downloadUrl = "";
+  let size = "";
+  const token = (html.match(/name="_token" value="([^"]*)"/) || [])[1];
+  const uploadId = (html.match(/name="upload_id" value="([^"]*)"/) || [])[1];
+  if (token && uploadId && cookie) {
+    try {
+      const dlRes = await fetch("https://www.modhub.us/mod/download", {
+        method: "POST",
+        headers: {
+          "User-Agent": UA,
+          "Content-Type": "application/x-www-form-urlencoded",
+          Cookie: cookie,
+          Referer: url
+        },
+        body: `_token=${encodeURIComponent(token)}&upload_id=${encodeURIComponent(uploadId)}`,
+        signal: AbortSignal.timeout(20000)
+      });
+      // The redirect chain itself is the useful part - it lands on the mod's
+      // real modsfire.com link regardless of whether *our* follow-up request
+      // for that landing page succeeds (modsfire 403s some automated fetches
+      // to it, same as modland's image CDN does, but the URL is still valid
+      // for a human to click).
+      if (/^https:\/\/modsfire\.com\//i.test(dlRes.url)) {
+        downloadUrl = dlRes.url;
+        // A fresh plain GET (no leftover POST body/Content-Type/Referer from
+        // the redirect chain) reads the size fine; re-fetching via the
+        // already-redirected response object gets modsfire's own bot check
+        // 403.
+        try {
+          const mirrorRes = await fetch(downloadUrl, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
+          if (mirrorRes.ok) {
+            const mirrorHtml = await mirrorRes.text();
+            size = (mirrorHtml.match(/([\d.]+\s?(?:KB|MB|GB))/i) || [])[1] || "";
+          }
+        } catch (_) { /* size is a bonus - user can still fill it in by hand */ }
+      }
+    } catch (_) { /* download link is optional - user can still fill it in by hand */ }
+  }
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, { headers: { "User-Agent": UA, Referer: url }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) return null;
+      const ct = r.headers.get("content-type") || "";
+      if (!ct.startsWith("image/")) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+
+  send(res, 200, { ok: true, name, description, images, downloadUrl, size, game: "beamng" });
+}
+
 // Factorio mod descriptions are Markdown, and popular mods often open with a
 // row of shields.io badge images and donate links. Strip all of that down to
 // plain prose so Gemini gets clean input instead of markup noise.
@@ -650,6 +746,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/factorio") {
       await handleFactorio(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/modhub") {
+      await handleModHub(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/modsfire-recent") {

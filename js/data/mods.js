@@ -18230,7 +18230,6 @@ const MODS = [
   {
     id: 822,
     game: "cyberpunk",
-    mature: true,
     title: "Tottes x Luker - Onyx Lingerie",
     category: "armour-clothing",
     version: "FEM V",
@@ -18248,7 +18247,8 @@ const MODS = [
       "female",
       "lingerie"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 823,
@@ -18366,7 +18366,6 @@ const MODS = [
   {
     id: 828,
     game: "cyberpunk",
-    mature: true,
     title: "Lace Up Mini Dress - Archive XL",
     category: "armour-clothing",
     version: "1.0",
@@ -18386,7 +18385,8 @@ const MODS = [
       "dress",
       "mini"
     ],
-    featured: true
+    featured: true,
+    mature: true
   },
   {
     id: 829,
@@ -18749,6 +18749,28 @@ const MODS = [
       "ui",
       "fpp",
       "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 845,
+    game: "beamng",
+    title: "BMW M4 G82/G83 with Carplay",
+    category: "cars",
+    version: "v1.7",
+    size: "329 MB",
+    images: [
+      "images/mods/bmw-m4-g82g83-with-carplay-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/65mR6qf40Z5V1E0",
+    short: "High performance BMW M4 variants for your racing needs.",
+    description: "Three BMW M4 trim variants - Competition, CS and CSL - with engine outputs ranging from 473 to 543 horsepower.\n\n- Fully functional digital Carplay interface built in.\n- Updated compatibility fix for game version 0.39.",
+    tags: [
+      "bmw",
+      "m4",
+      "sportscar",
+      "german",
+      "sedan"
     ],
     featured: true
   }
