@@ -18917,7 +18917,7 @@ const MODS = [
     id: 852,
     game: "beamng",
     title: "Nissan Skyline R34",
-    category: "boats",
+    category: "cars",
     version: "2.0",
     size: "369 MB",
     images: [
@@ -18941,7 +18941,7 @@ const MODS = [
     id: 853,
     game: "beamng",
     title: "BMW 4 Series F32",
-    category: "boats",
+    category: "cars",
     version: "1.5",
     size: "502 MB",
     images: [
