@@ -18980,6 +18980,167 @@ const MODS = [
       "luxury"
     ],
     featured: true
+  },
+  {
+    id: 855,
+    game: "beamng",
+    title: "Ford Mustang S550 Shelby Kit",
+    category: "cars",
+    version: "1.0",
+    size: "162 MB",
+    images: [
+      "images/mods/ford-mustang-s550-shelby-kit-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p8B8bL1Vm1WX8kn",
+    short: "High-quality Ford Mustang Shelby with realistic physics and features.",
+    description: "This Mustang build focuses on authentic driving dynamics, incorporating real-world weight, engine characteristics, and aerodynamic profiles to mirror the actual vehicle. You will find a fully animated interior packed with high-quality materials and multiple seating configurations to choose from.\n\n- Original openable components and realistic baked headlights.\n- New navigation system paired with authentic engine audio.\n- PBR materials and lighting for superior visual fidelity.\n- Adjustable headlight projection and high-quality tire textures.\n- Precise physics modeling including varied engine and gearbox specs.",
+    tags: [
+      "ford",
+      "mustang",
+      "shelby",
+      "sports car",
+      "pbr"
+    ],
+    featured: true
+  },
+  {
+    id: 856,
+    game: "beamng",
+    title: "Mercedes-Benz GT (X290)",
+    category: "cars",
+    version: "2.0",
+    size: "325 MB",
+    images: [
+      "images/mods/mercedes-benz-gt-x290-1.jpg",
+      "images/mods/mercedes-benz-gt-x290-2.jpg",
+      "images/mods/mercedes-benz-gt-x290-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yPC0175DcyMn75H",
+    short: "High quality Mercedes GT with 17 configurations and tuning options.",
+    description: "You get a high-quality rendition of the X290 with a fully realized engine bay and detailed cabin. This mod focuses on immersion through authentic PBR textures and custom audio samples recorded specifically for this vehicle.\n\n- Features 17 distinct configurations for various driving styles.\n- Fully functional dashboard gauges and moving pedals.\n- Includes openable doors, hood, and trunk.\n- Comes with dedicated wheels and a suite of tuning parts.\n- Lighting systems are completely operational for day or night driving.",
+    tags: [
+      "mercedes",
+      "luxury",
+      "german",
+      "sedan",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 857,
+    game: "beamng",
+    title: "Toyota Chaser MkII",
+    category: "cars",
+    version: "1.5",
+    size: "949 MB",
+    images: [
+      "images/mods/toyota-chaser-mkii-1.jpg",
+      "images/mods/toyota-chaser-mkii-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3QeB24vjqklzL96",
+    short: "Highly detailed Toyota Chaser with extensive customization and tuning.",
+    description: "This mod brings the Toyota Chaser MkII to BeamNG.drive with a massive amount of depth and customization options. You get access to both facelift and pre-facelift versions, supported by a wide variety of engines to suit different driving styles.\n\n- 63 unique configurations including various trim levels\n- Nine distinct engine choices for performance tuning\n- High-quality PBR materials for realistic exterior and interior visuals\n- Fully functional lighting, mirrors, and opening vehicle parts\n- Extensive tuning catalog with custom wheels and skins",
+    tags: [
+      "toyota",
+      "chaser",
+      "jdm",
+      "drift",
+      "sedan"
+    ],
+    featured: true
+  },
+  {
+    id: 858,
+    game: "beamng",
+    title: "BMW M3 (F80)",
+    category: "cars",
+    version: "1.0",
+    size: "320 MB",
+    images: [
+      "images/mods/bmw-m3-f80-1.jpg",
+      "images/mods/bmw-m3-f80-2.jpg",
+      "images/mods/bmw-m3-f80-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ks89Tt5nT6wwfg0",
+    short: "Highly detailed BMW M3 F80 with extensive tuning options.",
+    description: "You get a beautifully crafted BMW M3 (F80) that feels right at home in BeamNG with its full Jbeam structure and realistic physics. It distinguishes itself from other sedan mods through deep customization options that let you swap between base, CS, and Competition trims.\n\n- Includes a fully functional interior with animated pedals and an interactive dashboard.\n- Features realistic adaptive lighting, working mirrors, and fully openable doors.\n- Offers extensive mechanical tuning options inspired by MHD and Xhp software.\n- Comes with eight distinct factory and performance-oriented configurations.\n- Utilizes high-quality PBR textures for both the exterior body and engine bay.",
+    tags: [
+      "bmw",
+      "m3",
+      "sedan",
+      "german",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 859,
+    game: "beamng",
+    title: "BMW M3 (E92/E93)",
+    category: "cars",
+    version: "1.2",
+    size: "159 MB",
+    images: [
+      "images/mods/bmw-m3-e92e93-1.jpg",
+      "images/mods/bmw-m3-e92e93-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qmEVCUk62Gx39D9",
+    short: "Detailed BMW M3 models with 47 unique vehicle configurations.",
+    description: "This high-fidelity BMW M3 package captures the E92 and E93 models with exceptional attention to detail, ranging from the fully modeled engine bay to the custom PBR materials throughout. You get a remarkably immersive driving experience thanks to the functional dashboard, animated controls, and realistic lighting systems.\n\n- Features 47 distinct configurations for varied driving styles.\n- Includes fully operational mirrors and openable doors or hoods.\n- Offers deep customization options including swappable wheels and skins.\n- Interior aesthetics are fully adjustable with changeable color schemes.\n- Built from the ground up with custom engine audio.",
+    tags: [
+      "bmw",
+      "m3",
+      "cars",
+      "german",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 860,
+    game: "beamng",
+    title: "Mazda CX-5 2026",
+    category: "cars",
+    version: "1.0",
+    size: "35.1 MB",
+    images: [
+      "images/mods/mazda-cx-5-2026-1.jpg",
+      "images/mods/mazda-cx-5-2026-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/bmbKo2VgLNpYKgP",
+    short: "High quality 2026 Mazda CX-5 with fully functional features.",
+    description: "This detailed model brings the 2026 Mazda CX-5 to the game with impressive attention to physics and aesthetics. You can fully interact with the vehicle as all four doors, the hood, and the trunk are completely openable.\n\n- High-quality PBR materials used throughout the exterior and interior\n- Functional dashboard with accurate markings and detailed leather textures\n- V-Ray baked lighting for headlights, turn signals, and brake lights\n- Realistic engine bay and underbody modeling for authentic damage simulation\n- Fully compatible with all native game features and mechanics",
+    tags: [
+      "mazda",
+      "suv",
+      "realistic",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 861,
+    game: "beamng",
+    title: "MTL Fire Truck",
+    category: "trucks",
+    version: "1.16",
+    size: "37.9 MB",
+    images: [
+      "images/mods/mtl-fire-truck-1.jpg",
+      "images/mods/mtl-fire-truck-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9QaTINGQbPted9G",
+    short: "Powerful modular fire truck with realistic engine and transmission options.",
+    description: "This heavy-duty fire truck brings serious utility to your emergency service fleets with highly modular components and authentic performance specs. You get two distinct lore-friendly liveries for East and West Coast agencies, alongside a massive 8.5L Detroit Diesel engine.\n\n- Customize power outputs from 320 to 680 hp using four different turbocharger setups.\n- Choose between five professional-grade automatic transmissions including Allison, Voith, and ZF models.\n- Strip down the vehicle by removing the ladder, hoses, roof lights, or HVAC unit.\n- Tune the theoretical water tank weight via the configuration menu slider.\n- Create your own custom department designs using the provided UV map.",
+    tags: [
+      "truck",
+      "fire",
+      "emergency",
+      "vehicle",
+      "modular"
+    ],
+    featured: true
   }
 ];
 
