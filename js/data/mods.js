@@ -14660,7 +14660,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Vt1AtwfH3hdgs90",
     short: "A standalone Tachy suit port featuring apparel and spacesuits.",
-    description: "This mod adds a standalone port of Tachy's suit from Stellar Blade to your game. It provides both apparel and spacesuit versions with multiple color and visor customization options. You can craft these items at an Industrial Workbench or acquire them via console commands. Please note that custom body morphs are not included so some clipping may occur on certain character types.",
+    description: "A standalone port of Tachy's suit from Stellar Blade, available as both civilian apparel and a full spacesuit with several color and visor options. Craft it at an Industrial Workbench, or spawn it directly via console commands. It doesn't include custom body morphs, so expect some clipping on certain character builds.",
     tags: [
       "tachy",
       "stellar blade",
@@ -14683,7 +14683,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Zd77DDBuOWb8HkA",
     short: "Brings the Constellation headquarters to life with new NPCs.",
-    description: "This mod transforms the Lodge into a bustling command center filled with NPCs. You will find researchers and security staff actively working throughout the building. The environment is updated with new materials to make the headquarters feel lived-in and functional. It serves as a fully playable foundation for future immersive overhauls.",
+    description: "Constellation's headquarters stops feeling empty - researchers and security staff now work throughout the building instead of standing around. New materials make the space look lived-in rather than a museum display, and the whole thing is built as a stable foundation other immersion overhauls can build on.",
     tags: [
       "starfield",
       "lodge",
@@ -14706,7 +14706,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/6l74NJe557U1vh1",
     short: "Adds immersive UC Vanguard NPCs across various game locations.",
-    description: "This mod enhances the game world by adding ambient UC Vanguard NPCs to various key locations across the Settled Systems. It improves immersion by making the faction feel like a living, active presence rather than an absent force. The mod includes new captains, officers, and environmental clutter at major hubs like New Atlantis and Cydonia. Each character uses vanilla assets to ensure stability and seamless integration with existing save files.",
+    description: "Ambient UC Vanguard troops now show up across key Settled Systems locations like New Atlantis and Cydonia - new captains, officers and environmental clutter that make the faction feel like an active presence instead of lore you only read about. Everything is built from vanilla assets, so it stays stable and drops cleanly into existing saves.",
     tags: [
       "vanguard",
       "lore",
@@ -14729,7 +14729,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/TPDrt0SKuYtHn5b",
     short: "Easily control ship interior door and ladder placement markers.",
-    description: "Hatch-22 provides a lightweight way to control door and ladder placement within your ships. The mod introduces placeable markers that influence the game's existing algorithm instead of replacing it entirely. You can choose from various hatch types, including sliding, folding, and pressure doors to suit your build. It is designed to be easy to maintain while offering more interior customization options.",
+    description: "Hatch-22 hands you direct control over ship door and ladder placement through placeable markers that work alongside the game's existing algorithm rather than replacing it outright. Pick from sliding, folding or pressure doors depending on the build, all while keeping the mod itself lightweight to maintain.",
     tags: [
       "shipbuilder",
       "doors",
@@ -14751,7 +14751,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/y0LjGQ8jUeDOnEJ",
     short: "Customizable visibility settings for player and companion space suits.",
-    description: "This mod provides detailed configuration options for the automatic hiding of spacesuits in Starfield. Players can customize visibility rules for settlements, spaceships, combat scenarios, and planetary exploration. You can adjust these settings directly through the new dedicated gameplay options menu. It also includes support for syncing helmet behavior and companion appearance settings to the player's preferences.",
+    description: "A dedicated options menu lets you tune exactly when spacesuits auto-hide - in settlements, aboard ships, mid-combat, or out exploring a planet's surface. Helmet visibility and companion appearance sync to the same settings, so the whole crew follows your preference instead of just the player character.",
     tags: [
       "gameplay",
       "suits",
@@ -14774,7 +14774,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0g43z4HZgl57XjM",
     short: "Explore 150 procedurally generated space station dungeons and missions.",
-    description: "This mod introduces 150 procedurally generated space station dungeons to the settled systems. Players can explore abandoned outposts through repeatable bounty missions and random encounters. The modular tile-based architecture ensures that each interior layout remains unique and challenging. You will face diverse enemy commanders and crews as you loot these dangerous derelict facilities.",
+    description: "150 procedurally generated station dungeons scattered across the Settled Systems, each built from modular tiles so no two derelicts play out the same. Repeatable bounty missions and random encounters send you after diverse enemy commanders and crews guarding the loot inside.",
     tags: [
       "dungeons",
       "space",
@@ -14797,7 +14797,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/6ghD6TOq98p22wq",
     short: "Transform space into a grounded and realistic celestial environment.",
-    description: "True Space enhances the game visuals to achieve a more grounded and realistic celestial appearance. The mod replaces vanilla skyboxes and light settings to eliminate the cartoonish blue tones found in deep space. It features balanced sun flares and high-quality textures inspired by real NASA photography. This modification creates a professional space-sim atmosphere for all your interstellar exploration journeys.",
+    description: "Deep space stops looking like a cartoon - True Space swaps the vanilla skyboxes and lighting for balanced sun flares and high-quality textures modeled on real NASA photography, aiming for the grounded look of a proper space sim rather than Starfield's stock blue tint.",
     tags: [
       "space",
       "visuals",
@@ -14820,7 +14820,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/E28rDEstbqP1J9s",
     short: "A massive visual overhaul for Frozen Mountain biomes.",
-    description: "This mod performs a complete visual and weather overhaul of the Frozen Mountains biome. It transforms standard mountain terrain into towering, frigid landscapes with steep snowy slopes. New custom weather patterns create a sense of scale with dynamic fog layers. These changes provide stunning views for explorers and improve the scenery on dozens of planets.",
+    description: "A full visual and weather pass on the Frozen Mountains biome: steep, towering snow slopes replace the standard terrain, and new weather patterns layer in dynamic fog for a genuine sense of scale. Dozens of planets sharing this biome get sharper scenery as a result.",
     tags: [
       "biomes",
       "visual",
@@ -14843,7 +14843,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/NQ4Z1PPMpTUp59W",
     short: "A collection of new hairstyles for your space adventures.",
-    description: "This mod adds a collection of new hairstyles to increase variety for your characters. The pack uses existing vanilla textures ensuring full compatibility with other hair modifications. You can easily install these files using your preferred mod manager or by placing them into your data folder. Future updates will introduce additional styles to the collection.",
+    description: "More hairstyle variety built entirely on vanilla textures, so it plays nicely with other hair mods out of the box. Drop it in with your mod manager or straight into the data folder - more styles are planned for future updates.",
     tags: [
       "hair",
       "character",
@@ -14866,7 +14866,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/9j4sL4sMKB11Ps8",
     short: "An immersive overhaul adding life to Hopetown's industrial city.",
-    description: "This mod transforms Hopetown into a bustling and atmospheric industrial hub. It introduces custom buildings, residential towers, and a lively cemetery area to enhance the setting. The population is significantly increased with diverse NPCs, updated outfits, and ambient behavior markers. This project remains script-free and fully compatible with existing save files.",
+    description: "Hopetown gets the crowded, industrial feel it was missing: new buildings, residential towers, and a lived-in cemetery area, plus a much bigger population of NPCs with updated outfits and ambient behavior. No scripts involved, so it stays fully compatible with existing saves.",
     tags: [
       "hopetown",
       "immersion",
@@ -14888,7 +14888,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/OYgRxQ6N65202nn",
     short: "Expand your Starfield fleet with unique Va'ruun themed habs.",
-    description: "This mod introduces a comprehensive collection of Va'ruun themed ship habs designed to enhance long-term space exploration. Players can visit the new Va'ruun Shipyard to purchase these unique structural parts and prebuilt ships. The mod includes a wide variety of functional rooms such as armories, morgues, hydroponics, and brig modules. It also features extensive compatibility patches for popular ship building and functionality mods.",
+    description: "A themed collection of Va'ruun ship habs sold at the new Va'ruun Shipyard, covering everything from armories and morgues to hydroponics and brig modules for long-haul builds. Extensive patches are included for the popular ship-building and functionality mods people already run.",
     tags: [
       "ship",
       "habs",
@@ -14911,7 +14911,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/sC032ds4TtKCoZD",
     short: "Loot Container UI improved",
-    description: "This mod improves the loot box and corpse UI in Starfield, adding icons for quick visual checks and a credit symbol for valuable items. It covers both ship and ground loot, and includes optional files for different versions. The mod is designed to be a simple change to the vanilla UI and can be safely removed mid-playthrough, but may cause a load shift. It is incompatible with other mods that change the hudrolloveractivation or shiphudquickcontainer files.",
+    description: "Cleans up the loot box and corpse UI with quick-glance icons and a credit symbol on valuable items, across both ship and ground loot. It's a small, safe-to-remove change to the vanilla interface - though pulling it mid-playthrough may cause a brief load shift - and it isn't compatible with other mods touching the hudrolloveractivation or shiphudquickcontainer files.",
     tags: [
       "loot",
       "ui",
@@ -14933,7 +14933,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/btH0I6t28CPBqyK",
     short: "Transform the Porrima IV-d swamp into a scenic ice sheet.",
-    description: "This mod transforms the swamp biome of Porrima IV-d into a vast, visually stunning ice sheet. The terrain textures are updated to feature solid ice while the water is now safe for swimming. This aesthetic change creates a more scenic environment for players looking to establish a cold-climate outpost. The modification functions as a skin pack and does not alter core gameplay mechanics like flora or fauna.",
+    description: "Porrima IV-d's swamp biome becomes a genuinely scenic ice sheet - solid ice terrain, swimmable water, the works - built purely as a skin pack so flora, fauna and other gameplay systems stay untouched.",
     tags: [
       "starfield",
       "biome",
@@ -14955,7 +14955,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/o5bkaoL11sp1WHo",
     short: "Optimize disk caching to reduce performance lag and spikes.",
-    description: "This mod optimizes disk cache usage to reduce performance spikes and improve overall stability. It is particularly effective for users running the game on traditional hard drives. The plugin requires the Starfield Script Extender to function correctly. Ensure you remove any conflicting ASI versions before installation to avoid crashes.",
+    description: "Reduces performance spikes by optimizing disk cache usage, especially noticeable if you're still running the game off a traditional hard drive. It's an SFSE plugin, so make sure you have that installed, and remove any conflicting ASI versions first to avoid crashes.",
     tags: [
       "performance",
       "optimization",
@@ -14977,7 +14977,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/WZdLvkDk3QEAOji",
     short: "Add fifty-one unique cat skins to your farm pets.",
-    description: "This mod provides 51 unique retexture options to customize your in-game cat. Players can configure different skins and optional collars for each of the three vanilla cat types. The package also includes updated menu icons that reflect your chosen appearance. Optional files are provided for users of the Adopt 'n Skin mod to expand your pet variety.",
+    description: "51 retexture options across the three vanilla cat types, each with optional collars and matching menu icons so the UI reflects whatever look you picked. Adopt 'n Skin users get extra variety through an optional file.",
     tags: [
       "cats",
       "pets",
@@ -15001,7 +15001,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/KEboX6s3BTR628J",
     short: "Enjoy romantic dates with your spouse after getting married.",
-    description: "Date Night Redux brings post-marriage dates back to Stardew Valley 1.6.4 and beyond. This mod allows your spouse to ask you out on various romantic outings including saloon visits, picnics, and beach trips. It features a fully rewritten codebase with i18n support for easier translations and improved compatibility. The mod fixes several bugs from the original version and removes the dependency on Event Repeater.",
+    description: "Brings post-marriage dates back for 1.6.4 and beyond - your spouse can ask you out to the saloon, a picnic, or the beach, same as older versions offered. The codebase has been fully rewritten with i18n support for translators, several old bugs are fixed, and it no longer depends on Event Repeater.",
     tags: [
       "marriage",
       "romance",
@@ -15024,7 +15024,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/OfQe90E2W910328",
     short: "Customize fishing difficulty, spawn rates, and game mechanics easily.",
-    description: "This comprehensive suite allows you to fully customize your fishing experience in Stardew Valley. You can adjust fishing difficulty, modify fish spawn rates, remove trash from waters, and enable legendary fish to be caught multiple times. It includes extensive configuration for bait machines, tackle, and shop prices to streamline your gameplay. The mod is fully compatible with popular expansion mods and offers deep control over every aspect of fishing.",
+    description: "Full control over Stardew's fishing loop: adjust difficulty, tweak fish spawn rates, strip trash out of the water, or let legendary fish be caught more than once. Bait, tackle and shop prices all get their own config options, and it plays nicely with the popular expansion mods.",
     tags: [
       "fishing",
       "gameplay",
@@ -15045,7 +15045,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/d272jh00KGGkmUZ",
     short: "A powerful framework for creating custom trinkets and companions.",
-    description: "Trinket Tinker is a comprehensive framework that allows modders to create custom trinkets and companions. It enables advanced features like animated movement patterns and dynamic event-based abilities through Content Patcher. The framework includes a skin system and support for custom effects triggered by external C# mods. Developers can utilize its built-in inventory system and extensive net field synchronization for multiplayer compatibility.",
+    description: "A framework for modders building custom trinkets and companions - animated movement patterns, dynamic event-based abilities through Content Patcher, a built-in skin system, and support for effects triggered by external C# mods. Its inventory system and net field synchronization are built with multiplayer in mind.",
     tags: [
       "framework",
       "modding",
@@ -15066,7 +15066,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/N4obK7gLR3hB328",
     short: "Instantly skip intro logos for a faster game launch.",
-    description: "This mod allows you to automatically bypass all introductory logos when launching the game. You can configure the settings to jump directly to the load or co-op screen instead of the title screen. It significantly reduces startup times compared to vanilla methods and works perfectly in both single-player and multiplayer. Installation is simple through SMAPI and it remains compatible with all major platforms.",
+    description: "Skips every intro logo automatically, and can jump straight to the load or co-op screen instead of stopping at the title screen. Startup is noticeably faster than the vanilla routine, works the same in single-player and co-op, and installs through SMAPI on any platform.",
     tags: [
       "skip",
       "intro",
@@ -15090,7 +15090,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/454kk9L694w7rr8",
     short: "Expand your culinary skills with new recipes and mechanics.",
-    description: "This mod expands the cooking system by introducing a new skill, unique recipes, and an upgraded menu. You can progress through cooking milestones, use various seasonings, and unlock powerful buffs for your character. It includes optional features like tool upgrades, configurable healing mechanics, and interactive kitchen locations throughout the town. Enjoy a deeper culinary experience with added depth to ingredient management and crafting.",
+    description: "A full cooking skill sits alongside farming and fishing now - new recipes, an upgraded menu, seasonings, and buffs worth chasing. Optional extras cover tool upgrades, configurable healing from food, and interactive kitchen spots scattered around town for anyone who wants deeper ingredient management.",
     tags: [
       "cooking",
       "farming",
@@ -15113,7 +15113,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/y0u6AmGKzQ0t2jH",
     short: "Add a friendly shadow person NPC to East Scarp.",
-    description: "This mod introduces Sen, a curious shadow person NPC who leaves the deep mines to explore human life in East Scarp. Players can befriend him through a fully fleshed out storyline featuring nine unique events and randomized daily schedules. Once the narrative is completed, Sen becomes a romance or roommate candidate with custom dialogue options. The mod includes extensive configuration settings for portraits, shadow mechanics, and family life.",
+    description: "Sen, a shadow person who's left the deep mines to see what human life is like, arrives in East Scarp with nine unique events and a randomized daily schedule. Finish his storyline and he's available as a romance or roommate option, with plenty of settings to tune his portraits, shadow mechanics and family life.",
     tags: [
       "npc",
       "east scarp",
@@ -15133,7 +15133,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/k21u5k6CC89S3gM",
     short: "Fully customize fishing to simplify or automate your experience.",
-    description: "Eidee Easy Fishing allows players to fully customize their fishing experience in Stardew Valley. You can automate the casting process, simplify or completely skip the fishing minigame, and guarantee higher quality catches. The mod also provides features to automatically collect treasure and improve your chances of catching rare fish. Every setting is adjustable to ensure you only use the fishing enhancements that you prefer.",
+    description: "Lets you automate casting, simplify or fully skip the fishing minigame, guarantee higher-quality catches, and auto-collect treasure - or catch rarer fish more reliably. Every piece is toggleable, so you only turn on the parts of fishing you actually want changed.",
     tags: [
       "fishing",
       "gameplay",
@@ -15154,7 +15154,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/YFBGGP8xtHK9377",
     short: "A powerful framework providing essential tools for custom modding.",
-    description: "This framework provides essential tools and features for other Stardew Valley mods to utilize. It enables developers to customize map properties, trigger actions, and game state queries easily. Players can also toggle quality of life improvements such as placing beds anywhere or passing out safely. The mod requires SMAPI and is compatible with Generic Mod Config Menu for easy settings management.",
+    description: "A utility framework other Stardew mods can build on - custom map properties, trigger actions, and game-state queries for developers, plus a few direct player-facing perks like placing beds anywhere or passing out safely. Needs SMAPI, and pairs well with Generic Mod Config Menu.",
     tags: [
       "framework",
       "utilities",
@@ -15177,7 +15177,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/vh4ZV54W0kXs10r",
     short: "Adds an engaging new writer NPC to East Scarp.",
-    description: "This mod introduces Rodney O'Brien, a friendly yet judgmental writer who resides in the East Scarp area. Players can experience his deep backstory through seventeen unique heart events and a variety of custom dialogue. He interacts with many valley residents and even reacts to events from other popular mods. As a datable NPC, Rodney offers a fresh narrative experience for those looking to expand their social circle.",
+    description: "Rodney O'Brien, a judgmental but ultimately friendly writer, moves into East Scarp with seventeen heart events and a deep well of custom dialogue. He reacts to plenty of other popular mods' content too, and as a datable NPC he adds a genuinely different social option to the valley.",
     tags: [
       "npc",
       "storyline",
@@ -15199,7 +15199,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/8eQVSKl5H3a1r95",
     short: "Customize your horse with 79 unique skins and accessories.",
-    description: "This mod introduces 79 unique skin variations for your in-game horse. Players can customize their steed with various breeds and distinct coat patterns. It includes options for saddles, saddle pads, and matching bridles to complete the look. You can also apply a prismatic hair overlay for a vibrant effect. All customization is managed through a simple configuration file.",
+    description: "79 horse skin variations spanning different breeds and coat patterns, plus matching saddles, saddle pads and bridles - and a prismatic hair overlay if you want something louder. All handled through a simple config file.",
     tags: [
       "horses",
       "pets",
@@ -15223,7 +15223,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/vE839tm10p1W98U",
     short: "Adds three new characters with deep stories and events.",
-    description: "This mod introduces the Cooper family to the game featuring Sterling, Mia, and Henry as new characters. It adds extensive dialogue, heart events, and seasonal outfits for these unique NPCs. Players can develop relationships with the characters through various story-driven interactions and dates. The expansion is fully compatible with popular mods like Stardew Valley Expanded.",
+    description: "Introduces the Cooper family - Sterling, Mia and Henry - with full dialogue, heart events and seasonal outfits of their own. Relationships develop through story-driven interactions and dates, and the whole thing plays well alongside Stardew Valley Expanded.",
     tags: [
       "npcs",
       "expansion",
@@ -15247,7 +15247,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3zv0HrFtdUiFi4v",
     short: "Adds detailed custom portraits for all Stardew Valley vendors.",
-    description: "This mod adds custom portraits to every vendor in Stardew Valley that previously lacked one. It features over sixteen unique character designs and provides new shop greetings for many merchants. The package includes full support for several popular expansion mods and maintains compatibility with appearance-changing addons. You can easily configure settings and manage portrait visibility through the included menu interface.",
+    description: "Every vendor who never got a proper portrait finally has one - over sixteen new designs plus fresh shop greetings for many of them. Popular expansion mods are supported directly, it stays compatible with other appearance mods, and a menu interface lets you configure exactly which portraits show up.",
     tags: [
       "portraits",
       "npcs",
@@ -15270,7 +15270,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/YFTUHGQ06Oj2b4g",
     short: "Highly customizable mod to adjust all fishing mechanics easily.",
-    description: "This comprehensive mod offers extensive customization options for the fishing experience in Stardew Valley. Players can adjust fishing difficulty, automate minigames, or manage bait and tackle settings with ease. It includes support for infinite bait, instant treasure catches, and configurable fish quality. The mod requires SMAPI and is highly recommended to be used with Generic Mod Configuration Menu for the best user experience.",
+    description: "Another take on customizable fishing: adjust difficulty, automate the minigame, or manage bait and tackle to taste, with infinite bait, instant treasure, and configurable fish quality among the options. Needs SMAPI, and Generic Mod Config Menu is strongly recommended for tuning it.",
     tags: [
       "fishing",
       "gameplay",
@@ -15293,7 +15293,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3FxWgn9G39LYAWJ",
     short: "Improve Junimo huts with automated planting, fertilizing, and more.",
-    description: "This mod enhances Junimo huts by allowing your forest helpers to automatically plant, fertilize, and water your crops. You can customize their range, speed, and working hours to optimize your farm efficiency. The mod includes optional features like paying Junimos for their labor and enabling them to work during winter or rain. It provides a highly configurable experience to suit your specific farming needs.",
+    description: "Junimo hut helpers now plant, fertilize and water crops on their own, with range, speed and working hours all yours to configure. Optional extras let you pay them for their labor or keep them working through winter and rain.",
     tags: [
       "farming",
       "junimo",
@@ -15315,7 +15315,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/bYnU32fFw0IM166",
     short: "A complete Korean language translation for Stardew Valley Expanded.",
-    description: "This mod provides a comprehensive Korean language translation for the Stardew Valley Expanded expansion. It ensures that 99.9 percent of the mod content is fully translated for Korean players. Users must install the original expansion mod first before applying this translation file. Please ensure your current game version matches the specified release version for full compatibility.",
+    description: "A near-complete Korean translation for Stardew Valley Expanded, covering 99.9% of the mod's content. Install the original expansion first, and make sure your game version lines up with the release this translation targets.",
     tags: [
       "korean",
       "translation",
@@ -15337,7 +15337,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/plD6rkEcG4wt6hz",
     short: "Add hundreds of new dog breeds to your farm.",
-    description: "This mod introduces 366 unique dog breeds and skins to your game. It utilizes the latest 1.6 game features to add these as new pets rather than replacing existing sprites. Players can customize their experience through a configuration file to select specific breeds. Each breed includes a matching head icon and full support for the new pet hat feature.",
+    description: "366 dog breeds and skins built as new pets rather than sprite replacements, using the 1.6 pet system. A config file lets you narrow things down to specific breeds, and every one comes with a matching head icon and full support for the pet hat feature.",
     tags: [
       "pets",
       "dogs",
@@ -15361,7 +15361,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/KOM4LMS0cM1WVDr",
     short: "Adds an enthusiastic, talkative, and dateable NPC to East Scarp.",
-    description: "This mod introduces Nora, an enthusiastic and talkative herpetologist, as a new custom NPC for the East Scarp expansion. Nora comes with a deep storyline, numerous heart events, and her two loyal reptilian pets. You can befriend her to learn fun facts about reptiles or pursue a romantic relationship after completing her main questline. The mod is fully compatible with several popular expansion mods and features extensive dialogue options.",
+    description: "Nora - enthusiastic, talkative, and rarely without one of her two reptile companions - joins East Scarp with a deep storyline and plenty of heart events. Befriend her for reptile trivia or pursue something more once her questline wraps up; she's compatible with several popular expansion mods and comes with extensive dialogue.",
     tags: [
       "npc",
       "romance",
@@ -15384,7 +15384,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ggPaUBzsv6U0549",
     short: "Access game services and interactions directly through your mailbox.",
-    description: "This mod allows players to access various game services directly through their mailbox. You can send tools for upgrades, complete delivery quests, recover lost items, and send gifts to villagers without leaving your farm. The mod is highly configurable, allowing you to adjust fees, friendship mechanics, and service availability. It provides a convenient way to manage daily tasks and interactions while staying home.",
+    description: "Handles daily errands straight from your mailbox: send tools out for upgrades, complete delivery quests, recover lost items, or gift villagers without ever leaving the farm. Fees, friendship effects and which services are even available are all configurable.",
     tags: [
       "convenience",
       "mailbox",
@@ -15406,7 +15406,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0WnCSmElpYUI86d",
     short: "Add beautiful custom animations to your favorite furniture items.",
-    description: "This mod brings life to your farmhouse by adding custom animations to a wide variety of furniture and decorative items. Users can easily customize which specific items to animate or disable through a simple configuration file. The mod includes support for many museum rewards, paintings, and rare endgame trophy items. It requires Content Patcher and SpaceCore to function correctly within your game.",
+    description: "Furniture and decor around the farmhouse gain real animation - museum rewards, paintings, and rare endgame trophies included. A config file lets you pick exactly which items animate, and it needs both Content Patcher and SpaceCore to run.",
     tags: [
       "furniture",
       "animation",
@@ -15427,7 +15427,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/jCgYaoPyHHPl06t",
     short: "Complete Chinese translation patch for the Ridgeside Village mod.",
-    description: "This mod provides a comprehensive Chinese language translation for the Ridgeside Village expansion. It includes translated text for dialogue and items to ensure a seamless experience for local players. Installation requires placing the files directly into the base mod directory as specified in the instructions. It is designed to work with the latest versions of the original expansion content.",
+    description: "A full Chinese translation for the Ridgeside Village expansion, covering dialogue and items alike. Drop the files straight into the base mod's directory, and keep it matched to the expansion's latest version.",
     tags: [
       "chinese",
       "translation",
@@ -15449,7 +15449,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Jnh99S5AJ9XcX1a",
     short: "Explore the bustling urban streets of Zuzu City today.",
-    description: "This mod expands the game by adding the bustling urban environment of Zuzu City. Players can explore new districts, meet unique characters, and engage in various city-based quests. The mod includes fresh festivals, shopping areas, and even travel options like international flights. It seamlessly integrates with other major expansion mods to provide a massive world to discover.",
+    description: "Zuzu City opens up as a genuinely urban addition - new districts, characters, and city-based quests, plus festivals, shopping streets, and even international flights as a travel option. It's built to slot in alongside the other major expansion mods rather than compete with them.",
     tags: [
       "expansion",
       "city",
@@ -15472,7 +15472,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/084yVrNtC4i1M1d",
     short: "Adds over 140 new fish and quests to Stardew.",
-    description: "This mod expands your collection by adding 140 new fish to catch throughout the game world. It includes fresh quest lines for players in years two through four along with new craftable elixirs. You will also find a monthly magazine that provides helpful tips on where to locate these new species. The mod updates NPC gift preferences and balances spawn rates to keep your fishing experience engaging.",
+    description: "140 new fish to chase down, with fresh quest lines running from year two through four and new craftable elixirs alongside them. A monthly in-game magazine points you toward where to find the new species, and NPC gift preferences and spawn rates have been rebalanced to match.",
     tags: [
       "fishing",
       "gameplay",
@@ -15495,7 +15495,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/eSsK7cLiBmRIClP",
     short: "Replace your Stardew Valley dog with 101 unique skins.",
-    description: "This mod provides 101 unique retexture options for your in-game dog. You can configure different skins for each of the three vanilla dog textures and choose from 20 different collar colors. The mod also includes optional support for the Adopt 'n Skin mod to allow more pet variety. Installation requires SMAPI and Content Patcher to function correctly.",
+    description: "101 retexture options across the three vanilla dog textures, each with a choice of 20 collar colors. Optional support for Adopt 'n Skin adds even more variety; needs SMAPI and Content Patcher to run.",
     tags: [
       "dogs",
       "pets",
@@ -15517,7 +15517,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/mFF0MOT07Lw9yHb",
     short: "Add new fruit and vegetable crops to your farm.",
-    description: "This mod brings Mizu's custom crop sprites into your game using the JsonAssets framework. It includes a variety of new vegetables and herbs for players to cultivate on their farm. Please note that this project is now deprecated and no longer receives active maintenance. Users are encouraged to switch to the newer Cornucopia mods for continued support.",
+    description: "Mizu's custom crop sprites, built on the JsonAssets framework, add a batch of new vegetables and herbs to grow. Worth knowing before installing: this project is deprecated and no longer maintained - the newer Cornucopia mods are the recommended successor.",
     tags: [
       "crops",
       "farming",
@@ -15539,7 +15539,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/261793Au2W4n48l",
     short: "A high-quality 2023 BMW M4 with improved driving physics.",
-    description: "This mod adds a high-quality 2023 BMW M4 Widebody to the game with improved physics.  - Features high-quality exterior and interior designs. - Includes two interior color options: white-blue and black-orange. - Equipped with a functional HQ digital dashboard and gauge. - Supports openable front windows and accurate working wipers. - Available for purchase at the game's mod truck dealers.",
+    description: "A widebody 2023 BMW M4 with a detailed interior and exterior, two cabin color options (white-blue and black-orange), a working digital dashboard, openable front windows and animated wipers. Find it at the mod truck dealers.",
     tags: [
       "bmw",
       "m4",
@@ -15561,7 +15561,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/owz9oV5RiWjLGbm",
     short: "High quality Mercedes Actros 2019 truck for your game.",
-    description: "This mod adds the Mercedes Benz New Actros 2019 truck to your game.  - Includes five unique cabin variants and fifteen chassis options. - Features seven engine and six gearbox variants for customization. - Comes with six interior options including LHD and RHD. - Compatible with the latest Euro Truck Simulator 2 versions. - Includes forty original colors plus various special edition skins.",
+    description: "Five cabin variants, fifteen chassis options, seven engines and six gearboxes give this Actros 2019 a genuinely deep build tree, on top of six interior choices in both LHD and RHD. Forty original paint colors plus special-edition skins round it out, and it's kept current with the latest ETS2 builds.",
     tags: [
       "mercedes",
       "actros",
@@ -15585,7 +15585,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Z359U16956A2DBy",
     short: "High quality BMW M5 Competition for Euro Truck Simulator.",
-    description: "This mod adds a high-quality BMW M5 Competition 2023 to Euro Truck Simulator 2.  - Features high-quality exterior and interior designs - Includes three interior color options - Equipped with a functional HQ digital dashboard - Features an authentic V6 engine sound - Realistic driving physics with openable front windows",
+    description: "The M5 Competition arrives with three interior color options, a working digital dashboard, and an authentic V6 soundtrack layered over realistic physics - openable front windows included.",
     tags: [
       "bmw",
       "m5",
@@ -15607,7 +15607,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/j08JhbI1LZU0AD5",
     short: "High quality Scania 164G truck with a custom trailer.",
-    description: "This mod adds a custom Scania 164G 480 truck and matching trailer to the game.  - Features a Topline cabin with a 6x2 taglift chassis. - Includes a DC-16 engine paired with custom sound effects. - Offers an exclusive interior design and a detailed custom salon. - Provides various customization parts like lightboxes, bumpers, and side skirts. - Comes with a standalone Chereau trailer available at truck dealers.",
+    description: "A Topline-cabbed Scania 164G on a 6x2 taglift chassis, paired with a DC-16 engine and custom sound. The detailed custom interior and salon come with plenty of visual customization - lightboxes, bumpers, side skirts - and a standalone Chereau trailer is sold separately at the dealers.",
     tags: [
       "scania",
       "truck",
@@ -15631,7 +15631,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/7RZvtK3nrJKBqcq",
     short: "Explore new roads in Kazakhstan and Kyrgyzstan regions today.",
-    description: "This mod adds the Seven Rivers region to the map.  - Adds three cities and KAZ06 highway in Kazakhstan. - Includes one city and EM-11 highway in Kyrgyzstan. - Requires all official map DLCs to function correctly. - Compatible with ETS2 version 1.60. - Unsupported compatibility with ProMods; incompatible with Beyond map.",
+    description: "Extends the map into Kazakhstan and Kyrgyzstan: three cities and the KAZ06 highway on the Kazakh side, one city and the EM-11 highway on the Kyrgyz side. Needs every official map DLC to work, targets ETS2 1.60, and while ProMods compatibility is untested, it's confirmed incompatible with the Beyond map.",
     tags: [
       "kazakhstan",
       "map",
@@ -15654,7 +15654,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/cvgVbJ2kxJ12Je9",
     short: "High quality Porsche Taycan Mansory model for ETS 2.",
-    description: "This mod introduces the 2025 Porsche Taycan Turbo S Mansory to the game.  - Features high-quality exterior and interior designs. - Includes four different color options for the interior. - Provides a detailed dashboard with functional digital gauges. - Optimized for the 1.60x game version with improved physics. - Offers openable front windows and accurate wiper animations.",
+    description: "Mansory's take on the 2025 Taycan Turbo S, with four interior color options, a detailed digital dashboard, openable windows and animated wipers - tuned for 1.60x physics.",
     tags: [
       "porsche",
       "taycan",
@@ -15678,7 +15678,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/X5DzD9g1bETV6kY",
     short: "Detailed Scania R520 truck with custom parts and trailer.",
-    description: "This mod brings a detailed Scania R520 truck to your game.  - Features a 6x2 taglift chassis and normal cabin. - Includes a custom DC16 V8 openpipe engine sound. - Comes with an exclusive interior and custom salon. - Equipped with Opticruise GRS 905R transmission and custom parts. - Includes a matching Pacton trailer and purchase via dealer.",
+    description: "A 6x2 taglift Scania R520 with a normal cabin, a custom DC16 V8 open-pipe sound, and an exclusive custom interior and salon. Opticruise GRS 905R transmission and custom parts round out the build, and it comes with a matching Pacton trailer available at the dealer.",
     tags: [
       "scania",
       "truck",
@@ -15702,7 +15702,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1ZER94Am9f54Q4K",
     short: "A high-performance electric SUV for Euro Truck Simulator 2.",
-    description: "This mod provides a fully rebuilt Tesla Model Y for your driving pleasure.  - Updated specifically for game version 1.60.x compatibility - Features improved physics and engine performance - Includes a functional license plate - Reaches a maximum top speed of 292 KmH - Originally created by Gaza",
+    description: "Gaza's rebuilt Tesla Model Y, updated for 1.60.x, with improved physics, a functional license plate, and a genuine top speed of 292 km/h.",
     tags: [
       "tesla",
       "electric",
@@ -15725,7 +15725,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/vXt8SGoCE9Wm7r9",
     short: "Drive the 2025 Mercedes-Benz GLE 450 in your game.",
-    description: "This mod adds the 2025 Mercedes-Benz GLE 450 Coupe to your game.  - Features high-quality exterior and interior designs with three color options. - Includes functional interior lights, working wipers, and openable front windows. - Equipped with an HQ digital dashboard, GPS, and custom V8 engine sounds. - Improved physics and driveability with a top speed of 300 km/h. - Available for purchase at the truck dealer under the mod dealer section.",
+    description: "Three interior colors, working interior lights and wipers, openable front windows, an HQ digital dashboard with GPS, and a custom V8 soundtrack - all tuned for a 300 km/h top speed. Buy it through the mod dealer section.",
     tags: [
       "mercedes",
       "gle450",
@@ -15749,7 +15749,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/b15bB9hFg7W49lh",
     short: "A high-performance Mercedes E55 AMG rebuilt for your game.",
-    description: "This mod adds a completely rebuilt Mercedes Benz E55 AMG W211 to your game.  - Completely rebuilt model from the ground up. - Features custom interior lighting and functional license plates. - Includes improved physics engine for realistic driving. - Capable of reaching a top speed of 256 km/h. - Compatible with game version 1.60.x.",
+    description: "Rebuilt from the ground up, this E55 AMG adds custom interior lighting, functional license plates, and an improved physics engine good for 256 km/h - built for 1.60.x.",
     tags: [
       "mercedes",
       "e55",
@@ -15773,7 +15773,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ceY9BtX0Mu9siu5",
     short: "Drive the classic BMW E30 Touring in your game.",
-    description: "This mod adds the classic BMW 3-Series E30 Touring wagon to Euro Truck Simulator 2.  - Features a complete model rebuild with updated interior materials. - Includes functional interior lighting and fixed rear light assets. - Performance tuned with improved physics and engine capabilities. - Supports a maximum speed of 210 KmH. - Fully compatible with the 1.60.x game version.",
+    description: "The classic E30 Touring wagon, rebuilt with updated interior materials and fixed rear light assets, tuned for 210 km/h and full 1.60.x compatibility.",
     tags: [
       "bmw",
       "e30",
@@ -15796,7 +15796,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Y3rQI4j9am4a4S6",
     short: "High quality 2023 Audi RS6 car for truck simulator.",
-    description: "This mod adds a high-quality 2023 Audi RS6 C8 to your game.  - Features a detailed high-quality exterior and interior model. - Includes a functional digital dashboard and working interior night lighting. - Improved engine physics for excellent driveability. - Added openable front windows and accurate working wipers. - Available for purchase at the Access Mod Dealer.",
+    description: "A detailed RS6 C8 with a functional digital dashboard, working interior night lighting, openable front windows and accurate wipers, on top of improved engine physics. Available at the Access Mod Dealer.",
     tags: [
       "audi",
       "rs6",
@@ -15819,7 +15819,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/4wdT4g597R990sa",
     short: "High performance BMW Z4 M40i for Euro Truck Simulator.",
-    description: "This mod adds a high-quality BMW Z4 M40i to your game.  - Features improved engine physics and a top speed of 300 km/h. - Includes a new digital speedometer and updated interior lighting. - Offers multiple interior color options and a custom license plate. - Enhances overall material quality and vehicle textures.",
+    description: "The Z4 M40i tops out at 300 km/h with improved engine physics, plus a new digital speedometer, updated interior lighting, several interior colors, a custom plate, and generally sharper vehicle textures.",
     tags: [
       "bmw",
       "z4",
@@ -15842,7 +15842,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/i9PmpnUvwWx55G4",
     short: "High quality 2024 Range Rover Venuum for your game.",
-    description: "This mod adds a high-quality 2024 Range Rover Venuum to your game.  - Features high-quality exterior and interior with HQ dashboard. - Includes functional rear camera accessible by pressing O. - Offers four different color options for the interior. - Equipped with a custom V6 engine sound and physics. - Supports openable front windows and working wipers.",
+    description: "An HQ dashboard, four interior color choices, a custom V6 soundtrack and physics, openable front windows and working wipers - plus a rear camera you can pull up by pressing O.",
     tags: [
       "range rover",
       "luxury",
@@ -15865,7 +15865,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/kYQl65f28l5N33m",
     short: "High performance Audi RS5 Coupe for your truck simulator.",
-    description: "This mod adds the Audi RS5 Coupe to your game.  - Features improved engine physics with a 266 km/h top speed - Includes updated interior materials and additional lighting options - Adds a customizable dashboard and new license plates - Compatible with version 1.60.x of the game",
+    description: "Improved engine physics push this RS5 Coupe to 266 km/h, alongside updated interior materials, extra lighting, a customizable dashboard and new plates - built for 1.60.x.",
     tags: [
       "audi",
       "coupe",
@@ -15888,7 +15888,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/mt656X3QqErl44B",
     short: "A high-quality 2023 Audi RSQ8 for your truck simulator.",
-    description: "This mod adds a high-quality 2023 Audi RSQ8 to your game.  - Features a detailed exterior and interior with HQ dashboard. - Includes functional reverse camera, lights, and openable windows. - Improved engine physics and a custom engine sound. - Multiple exterior accessories including bumpers and bicycle rack. - Available for purchase at the Access Mod Dealer.",
+    description: "A detailed RSQ8 with a working reverse camera, lights and openable windows, custom engine sound and physics, plus exterior extras like bumpers and a bike rack. Sold at the Access Mod Dealer.",
     tags: [
       "audi",
       "rsq8",
@@ -15911,7 +15911,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/9WR25y06OxDT0gY",
     short: "Drive the high performance 2021 Audi R8 V10 Spyder.",
-    description: "This mod adds the high-performance 2021 Audi R8 V10 Spyder to the game with realistic features.  - Includes three distinct color options for the vehicle interior. - Features custom engine sounds and improved driving physics. - High-quality dashboard with functional digital speedometer and RPM gauge. - Includes working front windows, wipers, and interior custom lighting. - Available for purchase at the in-game truck dealer.",
+    description: "Three interior colors, custom engine sound, improved physics, a digital speedometer and RPM gauge, working front windows and wipers - the R8 V10 Spyder is fully kitted out and sold at the in-game truck dealer.",
     tags: [
       "audi",
       "r8",
@@ -15933,7 +15933,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/t0Z0FkFk3c0aslR",
     short: "A high quality 2012 Volkswagen Golf 6 for ETS2.",
-    description: "This mod adds a fully rebuilt 2012 Volkswagen Golf 6 to your game.  - Completely rebuilt model from the ground up - Features fully functional interior lighting - Includes a custom license plate - Improved engine performance and physics - Achieves a maximum speed of 244 km/h",
+    description: "Rebuilt from scratch, this Golf 6 gets working interior lighting, a custom plate, improved engine performance, and a top speed of 244 km/h.",
     tags: [
       "vw",
       "golf",
@@ -15954,7 +15954,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Y2DzQEqHxed5A7Y",
     short: "Detailed Scania R580 truck with extensive customization and tuning options.",
-    description: "This mod adds a highly detailed Scania R580 truck to the game with extensive customization options.  - Features a Topline cab and 6x2 Midlift chassis configuration. - Includes a DC16 102 580 Euro 6 V8 engine with a 12 speed retarder. - Fully 2k AO baked textures and a 4K resolution lightmask. - Comes with a custom interior, salon, wheels, and various tuning parts. - Includes an open pipe sound for an authentic driving experience.",
+    description: "A Topline cab on a 6x2 Midlift chassis, running the DC16 102 580 Euro 6 V8 with a 12-speed retarder. 2K AO-baked textures and a 4K lightmask sit alongside a custom interior, salon, wheels and tuning parts, finished off with an open-pipe sound.",
     tags: [
       "scania",
       "truck",
@@ -15976,7 +15976,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/OnuGtFC3M1Qr2x1",
     short: "High performance Koenigsegg Jesko for Euro Truck Simulator 2.",
-    description: "This mod adds the high-performance Koenigsegg Jesko 2024 to your game.  - Features high-quality exterior and interior designs. - Includes five different interior color customization options. - Equipped with a functional HQ digital dashboard. - Features realistic engine physics and V8 sound. - Supports opening front windows and working wipers.",
+    description: "Five interior color options, a functional HQ digital dashboard, realistic V8-sound physics, openable windows and working wipers for the Jesko 2024.",
     tags: [
       "koenigsegg",
       "jesko",
@@ -15996,7 +15996,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/pOXxvfzy004I315",
     short: "High quality Cadillac Escalade ESV for Euro Truck Simulator.",
-    description: "This mod adds a high-quality Cadillac Escalade ESV to the game.  - Compatible with game version 1.60.x and newer. - Features high-quality exterior and interior with two color options. - Includes functional reverse camera and white interior lighting. - Equipped with an HQ digital speed dashboard UI. - Fully animated windows and accurate working wipers.",
+    description: "Two exterior/interior color combinations, a working reverse camera, white interior lighting, an HQ digital speed dashboard, fully animated windows and accurate wipers - compatible with 1.60.x and newer.",
     tags: [
       "cadillac",
       "suv",
@@ -16019,7 +16019,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/47qYb7q8ob3K0g8",
     short: "High quality Rolls Royce Phantom for Euro Truck Simulator.",
-    description: "This mod adds a high-quality Rolls Royce Phantom 2023 to Euro Truck Simulator 2.  - Features a detailed high-quality exterior and interior model. - Includes a custom engine, V8 sound, and improved vehicle physics. - Dashboard features functional digital speed display in KMH. - Supports openable front windows and accurate wiper animations. - Interior lighting effects available for nighttime driving.",
+    description: "A detailed Phantom 2023 with a custom V8 sound and improved physics, a digital speed display, openable front windows, animated wipers and interior lighting for night driving.",
     tags: [
       "rolls royce",
       "luxury",
@@ -16043,7 +16043,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/KFSWMBgutlkxhiu",
     short: "High quality Volkswagen Transporter T5 van for ETS2.",
-    description: "This mod adds a high-quality Volkswagen Transporter T5 to your fleet.  - Features original TDI engine sounds and improved physics. - Includes a black interior option and a DHL livery. - Dashboard features functional high-quality digital speed and RPM gauges. - Front windows can be opened and wipers are fully functional. - Available for purchase at the Access Mod dealer.",
+    description: "Original TDI engine sound and improved physics headline this Transporter T5, alongside a black interior option, a DHL livery, a digital speed/RPM dashboard, working windows and wipers. Available at the Access Mod dealer.",
     tags: [
       "volkswagen",
       "transporter",
@@ -16066,7 +16066,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/106q4P0Lc29hT91",
     short: "High quality Lamborghini Revuelto 2025 car for your game.",
-    description: "This mod adds a high-quality Lamborghini Revuelto to your game.  - Features high-quality exterior and interior designs. - Includes a functional HQ digital dashboard display. - Comes with custom V8 engine sounds and performance. - Supports openable front windows and working wipers. - Available for purchase at the truck dealer shop.",
+    description: "An HQ digital dashboard, custom V8 sound and performance, openable front windows and working wipers for the Revuelto - sold at the truck dealer shop.",
     tags: [
       "lamborghini",
       "revuelto",
@@ -16087,7 +16087,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/7MNu9Knj7Q64D56",
     short: "High quality Lexus RX 500h SUV for Euro Truck Simulator.",
-    description: "This mod adds the Lexus RX 500h F Sport Performance to your game.  - Features high-quality exterior and interior designs. - Includes a functional UI dashboard with digital gauges. - Offers two distinct interior color customization options. - Features accurate wipers and openable front windows. - Improved engine physics with a top speed of 280 km/h.",
+    description: "Two interior color options, a functional digital gauge dashboard, accurate wipers and openable windows, plus improved physics good for 280 km/h.",
     tags: [
       "lexus",
       "suv",
@@ -16110,7 +16110,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/46S0zvXKh8B22z0",
     short: "Drive the luxurious electric Mercedes-Benz EQS 580 in-game.",
-    description: "This mod adds the luxurious 2022 Mercedes-Benz EQS 580 to your game.  - Features a high-speed electric engine capable of 300 km/h. - Includes improved dashboard, interior lighting, and customizable color options. - Adds functional license plates and upgraded vehicle physics. - Compatible with Euro Truck Simulator 2 version 1.60.x.",
+    description: "An electric build capable of 300 km/h, with an improved dashboard, interior lighting, customizable colors, functional plates and upgraded physics - built for 1.60.x.",
     tags: [
       "mercedes",
       "ev",
@@ -16134,7 +16134,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/7YVj3tu37wVU6K7",
     short: "Drive the high performance Aston Martin DB12 in ETS2.",
-    description: "This mod adds the luxurious Aston Martin DB12 to Euro Truck Simulator 2.  - Features high-quality exterior and interior designs with accurate textures. - Includes a functional dashboard UI with digital speedometer display. - Supports working windshield wipers and openable front windows. - Equipped with realistic engine sounds and improved driving physics. - Requires purchase from the in-game Mod Dealer.",
+    description: "Accurate exterior/interior textures, a digital speedometer dashboard, working wipers and openable front windows, realistic engine sound and improved physics - buy it from the in-game Mod Dealer.",
     tags: [
       "aston",
       "martin",
@@ -16156,7 +16156,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/2F7rmjQm9r52X0Q",
     short: "High performance 2021 Lexus LX 570 for your fleet.",
-    description: "This mod adds the 2021 Lexus LX 570 Super Sport to Euro Truck Simulator 2.  - Features improved physics and engine performance for the vehicle. - Capable of reaching a maximum speed of 294 km/h. - Updated to version 1.60x for better game compatibility. - Original creation and model work credited to Gaza.",
+    description: "Gaza's build of the LX 570 Super Sport, updated for 1.60x, with improved physics and a top speed of 294 km/h.",
     tags: [
       "lexus",
       "luxury",
@@ -16180,7 +16180,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0ZZgQCc4RB1L2u1",
     short: "Add the powerful Ferrari 812 Competizione to your game.",
-    description: "This mod introduces the high-performance Ferrari 812 Competizione to Euro Truck Simulator 2.  - Features high-quality exterior and detailed interior models - Includes functional digital dashboard and working interior lighting - Improved engine physics and V8 sound simulation - Front windows can be opened and wipers function accurately - Available for purchase at mod dealers in-game",
+    description: "Detailed exterior and interior modeling, a functional digital dashboard, working interior lighting, V8 sound simulation and improved physics - openable front windows included. Sold at in-game mod dealers.",
     tags: [
       "ferrari",
       "supercar",
@@ -16202,7 +16202,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/446dzU4779zQskM",
     short: "The Ferrari Roma Spider 2021 for Euro Truck Simulator.",
-    description: "This mod adds the high-performance 2021 Ferrari Roma Spider to the game.  - Updated for full compatibility with Euro Truck Simulator 1.60x - Features improved physics and an engine capable of 320 km/h - Includes fixed interior materials and additional cabin lighting - Dashboard has been improved and a licence plate added",
+    description: "Updated for full 1.60x compatibility, this Roma Spider hits 320 km/h on improved physics, with fixed interior materials, extra cabin lighting, a reworked dashboard and a license plate.",
     tags: [
       "ferrari",
       "roma",
@@ -16226,7 +16226,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/76Q4Ap1G7PO4Y7U",
     short: "Modern smartphone interior accessories for all truck cabin interiors.",
-    description: "This mod adds modern smartphone interior accessories to your trucks.  - Includes Google Pixel 10 and Samsung S25 models. - Compatible with all truck models in the game. - Supports game versions 1.58 through 1.60. - Adds realistic mobile device props to the cabin.",
+    description: "Drops Google Pixel 10 and Samsung S25 phone props into any truck's cabin, compatible across the board and tested on versions 1.58 through 1.60.",
     tags: [
       "interior",
       "props",
@@ -16249,7 +16249,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/8u0Qofy9nr9M2J3",
     short: "High quality Ferrari SF90xx Stradale for Euro Truck Simulator.",
-    description: "This mod adds the high-performance Ferrari SF90xx Stradale 2024 to your game.  - Features high-quality exterior and interior model designs. - Includes functional digital dashboard gauges and GPS screens. - Offers custom interior lighting and paintable wheel rims. - Improved engine physics and authentic custom engine sounds. - Supports openable front windows and accurate working wipers.",
+    description: "Digital dashboard gauges and GPS screens, custom interior lighting, paintable wheel rims, improved physics with an authentic engine sound, openable front windows and accurate wipers - all on the high-quality SF90xx Stradale model.",
     tags: [
       "ferrari",
       "sports car",
@@ -16270,7 +16270,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/U0Ec41M354DiWLi",
     short: "High quality 2021 Bugatti Chiron for your truck fleet.",
-    description: "This mod adds a high-quality Bugatti Chiron 2021 to Euro Truck Simulator 2.  - Rebuilt interior with improved material quality and added colors - Includes new digital speed UI and front glass GPS - Features custom licence plate and improved engine physics - Functional interior lights and repaired wiper animations - Compatible with game versions 1.58x and 1.60x",
+    description: "A rebuilt interior with better materials and more color options, a new digital speed UI, front-glass GPS, a custom license plate, improved physics, working interior lights and repaired wiper animations - compatible with both 1.58x and 1.60x.",
     tags: [
       "bugatti",
       "sports car",
@@ -16291,7 +16291,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/l9Sf94q8a8b37y9",
     short: "Custom DAF XF 105 truck with matching Schmitz trailer.",
-    description: "This mod adds the custom Mussche Transport DAF XF 105.  - Features a Super Space Cab with 4x2 chassis. - Includes PACCAR MX 375 Euro 4 engine and interior. - Equipped with ZF AS Tronic 12 speed transmission. - Comes with a custom Schmitz trailer and tuning parts.",
+    description: "A Super Space Cab on a 4x2 chassis, running a PACCAR MX 375 Euro 4 engine through a ZF AS Tronic 12-speed gearbox. Comes with a matching custom Schmitz trailer and its own tuning parts.",
     tags: [
       "daf",
       "truck",
@@ -16313,7 +16313,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/8azO1sn4GqTtLPI",
     short: "A completely rebuilt 2014 Hyundai Santa Fe for ETS2.",
-    description: "This mod provides a fully rebuilt 2014 Hyundai Santa Fe for Euro Truck Simulator 2.  - Completely rebuilt model from the ground up - Added functional interior lighting and a license plate - Features improved physics and engine performance - Reaches a maximum speed of 222 km/h - Optimized for game version 1.60.x",
+    description: "Fully rebuilt from the ground up, with working interior lighting, a license plate, improved physics and a top speed of 222 km/h, optimized for 1.60.x.",
     tags: [
       "hyundai",
       "suv",
@@ -16335,7 +16335,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0fWmZm1HU7Ng8O4",
     short: "High quality BMW 135i M for Euro Truck Simulator.",
-    description: "This mod adds a high-quality BMW 135i M 2023 vehicle to your game.  - Features high-quality exterior and interior designs - Includes five different interior color customization options - Equipped with a functional HQ digital dashboard display - Updated with custom horn and realistic V6 engine sounds - Includes openable windows and accurate wiper animations",
+    description: "Five interior color options, a functional HQ digital dashboard, a custom horn, realistic V6 sound, openable windows and accurate wiper animations.",
     tags: [
       "bmw",
       "car",
@@ -16357,7 +16357,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Kz2Tl546X30j8ax",
     short: "High quality independent Kenworth W900 truck for your game.",
-    description: "This mod introduces the detailed Kenworth W900 Ponce truck model.  - Features a high-quality 3D exterior and detailed interior. - Includes custom 3D tires, rims, and realistic mirror reflections. - Comes with dedicated sounds, wheels, and interior assets. - Adjusted positions for exhaust smoke and license plates. - Standalone truck model adapted for the game.",
+    description: "A standalone Kenworth W900 with custom 3D tires, rims and realistic mirror reflections, its own sounds and interior assets, and adjusted exhaust smoke and license plate positions.",
     tags: [
       "kenworth",
       "w900",
@@ -16379,7 +16379,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/CQ89TZ2Z6I2TFa6",
     short: "A completely rebuilt Mercedes-Benz S500 sedan for your game.",
-    description: "This mod provides a fully rebuilt Mercedes-Benz S500 W220 for Euro Truck Simulator 2.  - Completely rebuilt vehicle model from the ground up. - Includes functional custom interior lighting features. - Added support for customizable license plates. - Enhanced engine performance and realistic driving physics. - Reaches a maximum top speed of 280 KmH.",
+    description: "Rebuilt from scratch, this S500 W220 adds custom interior lighting, customizable plates, better engine performance and physics, and a top speed of 280 km/h.",
     tags: [
       "mercedes",
       "sedan",
@@ -16401,7 +16401,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/5X8D1n4m3bmW0k7",
     short: "High performance Porsche 911 GT3 RS for Euro Truck Simulator.",
-    description: "This mod adds the high-performance Porsche 911 GT3 RS to your game.  - Features high-quality exterior and interior designs - Includes a functional HQ digital dashboard display - Improved physics and engine performance for better driveability - Supports openable front windows and accurate wiper animations - Available for purchase via the game's mod dealer",
+    description: "A functional HQ digital dashboard, improved physics and engine performance, openable front windows and accurate wipers for the GT3 RS - available through the mod dealer.",
     tags: [
       "porsche",
       "sports car",
@@ -16422,7 +16422,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/x1ww8tCt7T7jZs8",
     short: "Drive the 2025 Porsche 911 Carrera GTS in game.",
-    description: "Experience the 2025 Porsche 911 Carrera GTS in Euro Truck Simulator 2.  - Features high-quality exterior and interior designs. - Includes a functional HQ dashboard with digital gauges. - Provides improved engine physics and handling. - Equipped with openable windows and working wipers. - Reach a top speed of 330 KMH.",
+    description: "An HQ dashboard with digital gauges, improved physics and handling, openable windows and working wipers, and a genuine top speed of 330 km/h.",
     tags: [
       "porsche",
       "sports car",
@@ -16443,7 +16443,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/2Kr01Lb8703uo8f",
     short: "A high quality 2021 Hyundai I20 for your garage.",
-    description: "This mod adds a high-quality 2021 Hyundai I20 to your game.  - Features a detailed high-quality exterior and interior design - Includes a functional HQ digital dashboard for speed and RPM - Improved engine, transmission, and driving physics for better handling - Added custom engine sound and corrected mirror positions - Accessible via the in-game mod dealer",
+    description: "A detailed I20 with a functional HQ digital dashboard for speed and RPM, improved engine, transmission and driving physics, custom engine sound and corrected mirror positions - sold through the mod dealer.",
     tags: [
       "hyundai",
       "i20",
@@ -16467,7 +16467,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/321n732ozQVN32U",
     short: "High performance BMW M3 G80 Touring for ETS 2.",
-    description: "This mod adds the 2023 BMW M3 G80 Touring to the game with improved performance.  - Compatible with ETS 2 version 1.60.x - Includes custom interior lighting and added licence plates - Features updated physics and engine performance - Achieves a maximum speed of 300 km/h - Fixed various interior material issues",
+    description: "Custom interior lighting, added license plates, updated physics and engine performance push this M3 G80 Touring to 300 km/h, with several interior material issues fixed along the way. Compatible with ETS2 1.60.x.",
     tags: [
       "bmw",
       "m3",
@@ -16491,7 +16491,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/xO00mQzDwBVOo2x",
     short: "High quality Skoda Superb 2023 model for Euro Truck Simulator.",
-    description: "This mod adds a high-quality Skoda Superb 2023 to Euro Truck Simulator 2.  - Features a completely rebuilt exterior and interior model - Includes interior lighting and functional digital dashboard gauges - Offers improved engine physics with a 260 kmh top speed - Features working wipers and openable front windows - Available for purchase at the game's mod truck dealer",
+    description: "A completely rebuilt Superb 2023 with interior lighting, a functional digital dashboard, working wipers and openable front windows, improved physics for a 260 km/h top speed - sold at the mod truck dealer.",
     tags: [
       "skoda",
       "superb",
@@ -16514,7 +16514,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/68UzS608VEH07CS",
     short: "A high quality rebuilt Skoda Octavia for your game.",
-    description: "This mod provides a fully rebuilt Skoda Octavia 2022 for Euro Truck Simulator 2.  - Completely rebuilt model from the ground up - Features custom interior lighting and license plates - Includes improved physics and engine performance - Reaches a maximum top speed of 223 km/h - Compatible with game version 1.60.x",
+    description: "Rebuilt from the ground up, this Octavia 2022 gets custom interior lighting, a license plate, improved physics and a top speed of 223 km/h - compatible with 1.60.x.",
     tags: [
       "skoda",
       "octavia",
@@ -16536,7 +16536,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Si8pCJ68ntA6yZ0",
     short: "Interact with villagers through custom hugging and kissing animations.",
-    description: "This mod adds interactive hugging and kissing options for villagers.  - Enables unlimited daily interactions with friends and romantic partners. - Allows custom heart level requirements for kissing and hugging. - Supports custom sound effects using imported wav files. - Requires SMAPI and Harmony for proper game integration. - Configurable settings allow for custom NPC pose adjustments.",
+    description: "Unlimited daily hugs and kisses with friends and romantic partners, with configurable heart-level requirements for each and support for custom sound effects via imported wav files. Needs SMAPI and Harmony, and lets you adjust NPC poses through its settings.",
     tags: [
       "social",
       "romance",
@@ -16558,7 +16558,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/6w9e1j0ccvRsjHg",
     short: "Adds immersive custom animations to seventy food and drinks.",
-    description: "This mod adds immersive custom animations for over 70 food and drink items in the game.  - Adds unique animation sequences for numerous food and beverage consumables. - Requires SMAPI, Content Patcher, and SpaceCore to function correctly. - Includes a configuration file to enable or disable specific item animations. - Allows users to adjust animation speed settings within the content file. - Supports compatibility with recipes introduced by the Animal Husbandry mod.",
+    description: "Over 70 food and drink items get their own animation sequences. A config file toggles individual items on or off and lets you adjust animation speed, and it's built to work alongside the recipes the Animal Husbandry mod adds. Requires SMAPI, Content Patcher and SpaceCore.",
     tags: [
       "visuals",
       "animation",
@@ -16581,7 +16581,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/l2p5BokC0zi7CrY",
     short: "Transform your farm cave into a cozy underground sanctuary.",
-    description: "Transform your farm cave into a lush, cozy underground sanctuary.  - Features a relaxing hot spring with decorative waterfalls. - Includes fertile patches specifically designed for planting crops. - Custom installation required for compatible farm map mods. - Original artwork credits include DevilBro, Mana, and Saambell. - All mod donation proceeds support the International Red Cross.",
+    description: "Turns the farm cave into a cozy underground retreat with a hot spring, decorative waterfalls, and patches suited for planting crops. Needs a compatible farm map mod to install; artwork credits go to DevilBro, Mana and Saambell, and donation proceeds go to the International Red Cross.",
     tags: [
       "farm",
       "cave",
@@ -16605,7 +16605,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/IjU9lb67uHg3Umw",
     short: "Improve livestock management with new tools, breeding, and contests.",
-    description: "This mod enhances animal husbandry by introducing tools for managing livestock, breeding, and special events.  - Adds tools for harvesting meat, artificial insemination, and feeding animals treats. - Features a customizable animal contest event held twice a year. - Includes new cooking recipes and a dedicated TV channel for animal tips. - Highly configurable with options to disable specific features or enable a non-lethal soft mode. - Compatible with custom animals and supports modder-created content packs for balancing.",
+    description: "Adds real livestock management: harvest meat, artificially inseminate animals, feed them treats, and enter them in a configurable twice-yearly contest. New cooking recipes and a dedicated TV channel come along for the ride, and a non-lethal soft mode plus per-feature toggles keep it adjustable to taste - it also supports custom animals and modder-made content packs.",
     tags: [
       "animals",
       "farming",
@@ -16626,7 +16626,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/c70v85E3r0Gc0ja",
     short: "Utility framework for Stardew Valley mod developers and creators.",
-    description: "This framework provides essential utility methods for Stardew Valley modders.  - Offers extension methods to simplify complex modding code. - Requires SMAPI to function correctly within the game. - Supports Linux, Mac, and Windows operating systems. - Compatible with single-player and multiplayer game modes. - Note that this mod is deprecated for version 1.6.",
+    description: "A set of extension methods that other Stardew mods lean on to simplify their own code. Runs on Windows, Mac and Linux, works in single-player and multiplayer, and needs SMAPI - worth noting it's deprecated as of 1.6.",
     tags: [
       "modding",
       "tools",
@@ -16649,7 +16649,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/41w8gYK78mgm0tq",
     short: "Expand your farm with 40+ new flowers and trees.",
-    description: "Adds a vast collection of new flowers and bushes to Stardew Valley.  - Includes over 40 flower crops and 5 unique flower trees. - Features configurable flower bushes that grow and bloom seasonally. - Fully compatible with Content Patcher and supports multiple languages. - Provides modular settings for giant crops and color variations. - No mandatory requirements, though Generic Mod Config Menu is recommended.",
+    description: "Over 40 new flower crops and 5 flower trees, plus configurable flower bushes that actually grow and bloom by season. Content Patcher compatible with multi-language support, modular settings for giant crops and color variants, and no hard requirements beyond Generic Mod Config Menu being a nice-to-have.",
     tags: [
       "farming",
       "flowers",
@@ -16671,7 +16671,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/mj7zpFQJ4lwf591",
     short: "Limit daily game events to increase your story immersion.",
-    description: "Customize how many cutscene events occur to improve daily immersion.  - Limits events per day and in a row per location. - Supports custom exclusions for specific event IDs via config. - Includes integration for Generic Mod Config Menu and SMAPI. - Features a toggle keybind to pause limiting during gameplay. - Requires SMAPI 4.0 or higher for full functionality.",
+    description: "Caps how many cutscene events fire per day and per location, with config-driven exclusions for specific event IDs and a keybind to pause the limiter on the fly. Needs Generic Mod Config Menu and SMAPI 4.0+.",
     tags: [
       "gameplay",
       "immersion",
@@ -16692,7 +16692,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/r62S298DHc9NCmr",
     short: "Framework for customizing Stardew Valley dialogue box display elements.",
-    description: "This framework allows creators to customize dialogue boxes with images and text.  - Supports game version 1.6 with updated codebase and features. - Enables multiple creators to modify dialogue display via patches. - Requires SMAPI and Harmony to function as a resource. - Includes optional compatibility patches for various dialogue mods. - Provides an API for complex mods requiring custom changes.",
+    description: "A patch-friendly framework for customizing dialogue boxes with images and extra text, rebuilt for 1.6. Multiple creators can layer their own patches on top, it exposes an API for more complex mods, and needs SMAPI and Harmony to run.",
     tags: [
       "modding",
       "dialogue",
@@ -16715,7 +16715,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/K14tV1ALawUFWRJ",
     short: "Redesigned natural foliage for all Stardew Valley seasonal maps.",
-    description: "This mod provides a complete visual overhaul for trees, bushes, and grasses to create a more natural aesthetic.  - Replaces all trees, bushes, and grasses with high-quality models. - Includes randomized grass patches with eleven variations per season. - Provides a configuration file to toggle specific foliage elements. - Compatible with vanilla textures and various map recolor mods. - Adds three-dimensional shading to trees for improved depth.",
+    description: "Every tree, bush and patch of grass gets a higher-quality model, with eleven randomized grass variations per season and three-dimensional tree shading for real depth. A config file toggles specific elements, and it stays compatible with vanilla textures and most map recolors.",
     tags: [
       "foliage",
       "graphics",
@@ -16738,7 +16738,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/5UHEU5c874Nxb4H",
     short: "Adds fluid, customizable animations to various Stardew Valley items.",
-    description: "This mod adds fluid, customizable animations to various game items.  - Animates slime eggs, treasure chests, slime, and more. - Requires SMAPI, Content Patcher, and SpaceCore to function. - Individual animations can be toggled on or off via config. - Animation speeds are adjustable through the content JSON file. - Certain items offer multiple variant options within the configuration.",
+    description: "Slime eggs, treasure chests, slime and more all get fluid animations, individually toggleable and speed-adjustable through the content JSON, with multiple variants available for some items. Needs SMAPI, Content Patcher and SpaceCore.",
     tags: [
       "animation",
       "visuals",
@@ -16761,7 +16761,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/D1WDECcm1HTVW5l",
     short: "New artisan machines and goods for your Stardew farm.",
-    description: "Adds a variety of artisan machines and goods to expand your profitable farm production.  - Includes 10 new artisan machines and over 80 custom goods. - Features 4 unique special orders and charming new game events. - Safely compatible with existing save files for easy installation. - Supports popular mods like Automate, Lookup Anything, and Junimatic. - Balanced for both vanilla and modded crop rosters.",
+    description: "10 new artisan machines and over 80 custom goods to process through them, plus 4 special orders and a few new events. Save-safe to add mid-game, and built to work with Automate, Lookup Anything and Junimatic - balanced for both vanilla and modded crop lists.",
     tags: [
       "crafting",
       "machines",
@@ -16785,7 +16785,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/G50Idz2l22b7i23",
     short: "New seasonal path and flooring designs for your farm.",
-    description: "Customize your farm grounds with new seasonal path and flooring designs.  - Includes refreshed designs and colors for all paths and floors. - Features matching thumbnails to identify items in the menu. - Added toggle option to replace the gravel path with a pool. - Decorative petals and leaves only appear on path corners. - Requires Content Patcher to function correctly in the game.",
+    description: "Refreshed colors and designs across every path and flooring item, with matching menu thumbnails, an option to swap the gravel path for a pool, and decorative petals/leaves that only show up at path corners. Needs Content Patcher.",
     tags: [
       "farm",
       "visuals",
@@ -16808,7 +16808,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/F2m1dIczacn2EPd",
     short: "Romance partners are now eligible for Orin's kidnapping plot.",
-    description: "This mod allows your romanced companions to become kidnapping victims of Orin.  - Enables Orin to kidnap companions even if they are currently romanced. - Limits kidnapping candidates to Lae'zel, Gale, Halsin, or Minthara. - Ensures Yenna is taken only if no valid companion is available. - Overrides the Act3_GEN_OrinsAbduction script, creating potential conflicts with similar mods. - Requires game version Patch 7 or higher for proper functionality.",
+    description: "Romanced companions are no longer exempt from Orin's kidnapping plot - she can now take Lae'zel, Gale, Halsin or Minthara even mid-romance, falling back to Yenna only if none of them qualify. It overrides the Act3_GEN_OrinsAbduction script directly, so expect conflicts with similar mods, and it needs Patch 7 or later.",
     tags: [
       "bg3",
       "romancing",
@@ -16832,7 +16832,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1YXRjFVZtS8RIMe",
     short: "Visual overhaul for Commander Voss and his Githyanki soldiers.",
-    description: "This mod enhances the appearance and equipment of Commander Voss and his Githyanki followers.  - Features a more brutal and intimidating visual design for Commander Voss. - Equips Commander Voss with new armor and restores his Astral Great Sword. - Updates the appearances of all Githyanki accompanying Voss during key encounters. - Includes custom narrative tags and updated portraits for all affected NPCs.",
+    description: "A meaner, more intimidating look for Commander Voss and the Githyanki soldiers around him - new armor, his Astral Great Sword restored, and updated appearances for every Githyanki NPC in his key encounters, complete with custom narrative tags and portraits.",
     tags: [
       "commander",
       "voss",
@@ -16855,7 +16855,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/7ttGC31k3MlG1G2",
     short: "Visual overhaul for the goblin leaders Dror and Gut.",
-    description: "This mod enhances the visual appearance of Dror Ragzlin and Priestess Gut to reflect their devotion to the Absolute.  - Both leaders now wear new absolutist themed attire. - Updated character portraits are provided for both NPCs. - Requires Patch 7 or higher to function correctly. - Created using the Official Toolkit and Moonglasses addon.",
+    description: "Dror Ragzlin and Priestess Gut both get new absolutist-themed outfits and updated portraits, reflecting their devotion to the Absolute. Built with the Official Toolkit and Moonglasses addon; needs Patch 7 or later.",
     tags: [
       "goblins",
       "characters",
@@ -16878,7 +16878,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/XH015p2YA86ai65",
     short: "Adds metallic colors to body tattoos in character creation.",
-    description: "This mod introduces metallic body tattoo colors for character customization.  - Utilizes the Draconic Scales slot for tattoo application. - Includes both vanilla draconic and face tattoo color options. - Requires KAVT and either KaiLimeUI or Rogue Tattoo. - Metallic effects apply to both face and body tattoos. - Select colors labeled with B to avoid coloring scales.",
+    description: "Adds metallic finishes to both face and draconic body tattoos, using the Draconic Scales slot for application. Needs KAVT plus either KaiLimeUI or Rogue Tattoo - pick colors marked with a B if you want the metallic effect on tattoos without also coloring your scales.",
     tags: [
       "tattoos",
       "cosmetic",
@@ -16900,7 +16900,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/LWsGAo76pkOv5l6",
     short: "Balanced adjustments for 5e Spells in Baldur's Gate 3.",
-    description: "This mod provides tailored balance adjustments for 5e Spells to align better with Baldur's Gate 3 design.  - Removes concentration requirements from most summons to match base-game design. - Normalizes spell durations to align with Larian's long rest and turn logic. - Standardizes targeting ranges for many spells to a 18-meter maximum. - Fixes numerous bugs, outdated data, and conflicts present in previous adjustment mods. - Requires the 5e Spells mod to function correctly.",
+    description: "Rebalances 5e Spells to sit better alongside Baldur's Gate 3's own design: concentration requirements drop from most summons, spell durations line up with Larian's rest/turn logic, and targeting ranges get standardized to an 18-meter maximum. A number of bugs and stale data left over from earlier adjustment mods are also fixed. Requires the 5e Spells mod.",
     tags: [
       "balance",
       "spells",
@@ -16924,7 +16924,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/UPyO3nXcb62qU2G",
     short: "Surrender to hostile opponents by paying a negotiated bribe.",
-    description: "This mod introduces a surrender mechanic to resolve hostilities peacefully.  - Adds a new spell to all party members for surrendering. - Negotiate bribe costs using persuasion skill checks to lower prices. - Bribe amounts scale dynamically based on your current character level. - Combat ends immediately once a bribe payment is accepted. - Safe to install or remove at any point in gameplay.",
+    description: "Every party member gets a new spell to surrender out of a fight peacefully - negotiate the bribe down with a persuasion check, with the price scaling to your current level. Pay up and combat ends immediately; safe to add or remove whenever.",
     tags: [
       "bg3",
       "gameplay",
@@ -16948,7 +16948,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1JXOJ4p03Dcja3s",
     short: "Easily swap between the Elfsong and docks camp locations.",
-    description: "This mod allows players to freely check in and out of the Elfsong camp in Act 3.  - Adds dialogue options to check out of the Elfsong room and return to the docks camp. - Includes a scripted fix for camp followers failing to transfer between camp locations. - Enables re-renting the Elfsong room at any time by speaking to Alan Alyth. - Provides unique dialogue options to critique the room and staff during checkout. - Compatible with most small level edits and music replacement mods.",
+    description: "Lets you actually check out of your Elfsong room in Act 3 and head back to the docks camp, with dialogue for both leaving and re-renting the room later through Alan Alyth - plus some pointed dialogue options if you want to complain about the service on the way out. A scripted fix also stops camp followers getting stuck between locations. Plays fine with most small level edits and music replacers.",
     tags: [
       "camp",
       "act3",
@@ -16970,7 +16970,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Q971rXKeeJV8mu7",
     short: "Adds a new Gunner feat for firearm class mods.",
-    description: "This mod adds a new Gunner feat specifically designed for Immersive Firearms and Marksman class mods.  - Grants proficiency with all firearm weapons. - Powerful Shots apply a penalty to target rolls upon a failed save. - Increases Dexterity score by +1 up to a maximum of 20. - Maneuver save DC scales based on proficiency and ability modifiers. - Intended for use with specific firearm and class modifications.",
+    description: "A new Gunner feat built specifically for the Immersive Firearms and Marksman class mods: proficiency with every firearm, a Powerful Shots effect that penalizes target rolls on a failed save, +1 Dexterity up to the usual cap of 20, and a Maneuver save DC that scales with your proficiency and modifiers. Only useful if you're already running the firearm/class mods it's meant for.",
     tags: [
       "feat",
       "firearms",
@@ -16993,7 +16993,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/EsiG3B7s6xIf25F",
     short: "Fixes creatures failing to enter photo mode during gameplay.",
-    description: "This mod resolves an issue where specific creatures fail to enter photo mode correctly during gameplay.  - Fixes creatures continuing idle animations while in photo mode. - Supports Cloaker, Spectator, Elder Brain, Mimic, Dragon Skeletal, Brewer, and Surgeon. - Requires animation mods to enable posing for transformed states. - Compatible with most configurations due to minimal code changes.",
+    description: "Fixes several creatures - Cloaker, Spectator, Elder Brain, Mimic, Dragon Skeletal, Brewer and Surgeon - that used to keep idling instead of posing properly in photo mode. Needs animation mods installed to actually pose the transformed states, but the fix itself is minimal enough to stay compatible with most setups.",
     tags: [
       "bg3",
       "photo mode",
@@ -17016,7 +17016,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/skwyGyCJ6AV4IbP",
     short: "Fixes Shadowheart's hair color bugs during her shapeshifted forms.",
-    description: "This script fix prevents Shadowheart's hair color from overriding her appearance while shapeshifted.  - Fixes the issue where white hair persists during Disguise Self - Utilizes an OSI script to ensure proper shapeshifting visuals - Compatible with existing game scripts and resources - Safe to install or remove at any point mid-playthrough - Does not require starting a new game to function",
+    description: "Stops Shadowheart's hair reverting to white whenever she shapeshifts or uses Disguise Self, via a targeted OSI script fix. Doesn't need a new save, plays fine with existing scripts, and can be added or removed at any point.",
     tags: [
       "shadowheart",
       "fix",
@@ -17040,7 +17040,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/wk3fIffWWey86vx",
     short: "Provides unique, identifiable icons for all Arrows of Slaying.",
-    description: "This mod provides unique, handmade icons for all Arrows of Slaying to make them easily distinguishable at a glance.  - Adds distinct visual icons to all standard and rare Arrows of Slaying. - Icons are visible in inventory, hotbar, controller UI, and tooltips. - No gameplay stats or mechanics of the arrows are altered. - Requires no additional mods or frameworks to function properly. - Safe to install or remove at any point in a playthrough.",
+    description: "Every standard and rare Arrow of Slaying gets its own handmade icon, visible across inventory, hotbar, controller UI and tooltips - purely visual, no stats or mechanics touched, and no other mods or frameworks required.",
     tags: [
       "arrows",
       "icons",
@@ -17063,7 +17063,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/a2vWf5r9aE6429k",
     short: "Adds two custom camp outfits for BT2 HED bodies.",
-    description: "This mod introduces two custom camp outfit variants for the BT2 HED body type.  - Includes two distinct camp outfit variants for BT2 HED characters. - Headwear items are equipped using the underwear slot for constant visibility. - All included clothing items are fully compatible with the game dye system. - Gear can be retrieved directly from the tutorial chest at the start. - Footwear is integrated into the outfit, requiring other shoes be unequipped.",
+    description: "Two camp outfit variants built specifically for the BT2 HED body type, dyeable through the game's normal system, obtainable from the tutorial chest at the start of a run. Note the headwear uses the underwear slot to stay visible at all times, and the footwear is baked into the outfit, so other shoes have to come off.",
     tags: [
       "clothing",
       "camp",
@@ -17087,7 +17087,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/PV5djE9D1YhK35n",
     short: "Add beautiful glowing and iridescent hairstyles to character creator.",
-    description: "This mod introduces glowing, vibrant hairstyles to the character creator.  - Adds both static and dynamic shifting glow effects to hair. - Glow colors are adjustable independently via the horn color menu. - Intensity can be modified by changing saturation and color brightness. - Fully compatible for use as a dependency for other mods.",
+    description: "Hairstyles in the character creator can now glow - static or dynamically shifting - with color and intensity adjusted independently through the horn color menu and saturation/brightness sliders. Built to double as a dependency for other mods too.",
     tags: [
       "hair",
       "glow",
@@ -17111,7 +17111,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3ofqNE98O1JGXsU",
     short: "Githyanki themed outfit and character overhaul for Baldur's Gate.",
-    description: "This mod adds a Githyanki-themed outfit and updates the appearance of Ghustil Stornugoss.  - Includes a robe, gloves, and shoes for all races and bodies. - Replaces the default human robe worn by Ghustil Stornugoss. - Items obtainable via loot, tutorial chest, or script command. - Note that some minor mesh clipping issues are currently present.",
+    description: "A Githyanki-themed robe, gloves and shoes set for every race and body, replacing Ghustil Stornugoss's default human robe on the NPC himself. Pick it up through loot, the tutorial chest, or a script command - a few minor mesh clipping issues are still present.",
     tags: [
       "githyanki",
       "clothing",
@@ -17134,7 +17134,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/691xZ1xK6PElv83",
     short: "A powerful cursed longsword featuring unique mechanics and progression.",
-    description: "This mod introduces a unique, powerful longsword with its own complex mechanics and cursed abilities.  - Features a unique Fiendish Anger resource system that triggers demonic possession. - Includes custom weapon actions, passives, and scaling elemental damage upgrades. - Weapon stats scale with player level and can be infused with gems. - Available across all three game acts or via tutorial chest. - Includes several optional addons for size adjustments and mechanical tweaks.",
+    description: "A unique longsword built around its own Fiendish Anger mechanic, which triggers demonic possession the more you lean into it - custom weapon actions, passives, and elemental damage upgrades that scale with player level and can be infused with gems. Available across all three acts or through the tutorial chest, with several optional addons for size and mechanical tweaks.",
     tags: [
       "weapon",
       "cursed",
@@ -17158,7 +17158,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Av6I4qX41QKWOG3",
     short: "Gives cambion eyes a sinister glowing feline appearance instead.",
-    description: "This mod replaces standard cambion eye textures with glowing cat-shaped variants for a more sinister look.  - Replaces vanilla cambion eye textures with new feline designs - Includes an optional version that also updates tiefling eyes - Requires game version Patch 7 or newer to function - Overrides specific NPC heads including Mizora and Mirkon - Compatible with Raphael outfit mods and most visual mods",
+    description: "Replaces cambion eye textures with a glowing, cat-shaped alternative for a more sinister look, with an optional version that extends the same treatment to tieflings. Overrides specific NPC heads including Mizora and Mirkon, needs Patch 7 or later, and plays nicely with Raphael outfit mods and most other visual mods.",
     tags: [
       "eyes",
       "cambion",
@@ -17181,7 +17181,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/6eIhD0K57vx4Ro3",
     short: "Expands dialogue choices for Barcus Wroot after windmill rescue.",
-    description: "This mod expands the conversation choices available when interacting with Barcus Wroot after rescuing him from the windmill.  - Adds four unique dialogue paths to the post-rescue scene. - Includes race-specific dialogue options for deep gnome player characters. - Implements optional approval changes for the Jason Altea companion. - Safe to install and uninstall at any point during gameplay. - Conflicts with other mods editing the same dialogue files.",
+    description: "Four new dialogue paths open up after rescuing Barcus Wroot from the windmill, including race-specific lines for deep gnome characters and optional approval changes for Jason Altea. Safe to add or remove anytime, though it will conflict with other mods editing the same dialogue file.",
     tags: [
       "barcus",
       "dialogue",
@@ -17204,7 +17204,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/BUQQK9a4kOjydFn",
     short: "A unique spellcasting class using elemental rune combination mechanics.",
-    description: "The Spell Smith introduces a unique spellcasting class focused on combining elemental runes to trigger powerful battlefield domains.  - Gain Intelligence-based spells that require combining fire, water, earth, and lightning runes. - Access twenty unique domain effects including healing, stunning, and area control mechanics. - Features a full level one to twenty progression path with custom passives and feats. - Includes a balanced version for players seeking a less powerful experience during gameplay. - Requires strategic planning as base elements and domains have exclusive active status constraints.",
+    description: "A full Intelligence-based caster built around combining fire, water, earth and lightning runes to trigger one of twenty domain effects - healing, stuns, area control and more. Comes with a complete level 1-20 progression, its own passives and feats, a toned-down balanced version for anyone who wants it, and enough exclusive-status constraints between elements/domains to make build planning matter.",
     tags: [
       "classes",
       "magic",
@@ -17228,7 +17228,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/6NwiA304gBjQb80",
     short: "Standalone custom Barbie head for various Baldur's Gate races.",
-    description: "This mod introduces a standalone custom head option for multiple races.  - Supports Elves, Half Elves, Drows, Humans, and Tiefling characters. - Includes specific patches for UTAV, KAVT, EOTB, and CCO. - Features vampire variants with improved eyelash rendering for expressions. - Known issues include minor eye closure and occasional lash clipping. - Requires the main file and compatible optional patch files.",
+    description: "A standalone custom head for Elves, Half-Elves, Drow, Humans and Tieflings, with dedicated patches for UTAV, KAVT, EOTB and CCO. Vampire variants get improved eyelash rendering for expressions, though minor eye-closure and lash clipping issues do still show up occasionally. Needs the main file plus whichever optional patch matches your setup.",
     tags: [
       "character",
       "head",
@@ -17251,7 +17251,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/jjvdt72D4Z7H930",
     short: "Easily manage and customize spell effects via the MCM menu.",
-    description: "Customize or disable visual and sound effects for spells and statuses.  - Provides granular control over individual spell and status effects. - Includes combat-specific settings to restore effects during active encounters. - Supports presets to save, export, and share custom configurations. - Requires Script Extender and BG3 Mod Configuration Menu to function. - Fully compatible with existing mods that add spells or passives.",
+    description: "Granular on/off control over individual spell and status effects, including settings to force effects back on mid-combat, plus presets you can save, export and share. Needs Script Extender and the BG3 Mod Configuration Menu, and stays compatible with mods that add their own spells or passives.",
     tags: [
       "bg3",
       "vfx",
@@ -17273,7 +17273,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/s7uFngvrOzHIL7H",
     short: "Create custom named containers to organize your inventory better.",
-    description: "This mod allows you to create custom-labeled containers for your inventory.  - Spawn various container types directly through the Mod Configuration Menu. - Assign personalized names and descriptions to any spawned storage item. - Your custom labels and descriptions remain persistent across game saves. - Requires Mod Configuration Menu 1.38 and BG3 Script Extender. - Containers lose their custom labels if the mod is uninstalled.",
+    description: "Spawn custom storage containers straight from the Mod Configuration Menu and give each one its own name and description - labels persist across saves as long as the mod stays installed. Requires Mod Configuration Menu 1.38 and BG3 Script Extender; uninstalling strips the custom labels back off.",
     tags: [
       "items",
       "inventory",
@@ -17295,7 +17295,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ZNLr87IVIC288aJ",
     short: "New dialogue choices for Dark Urge campfire heart confessions.",
-    description: "This mod expands Dark Urge dialogue options during the Quil campfire encounter.  - Adds confessions of feelings for NPCs like Alfira and Dammon. - Removes the specific dismissal line about feelings in the clouds. - Requires meeting the NPCs before the Quil camp event triggers. - Safe to install or uninstall at any point during playthroughs. - Conflicts with mods editing the camp bard backup story file.",
+    description: "Adds Dark Urge confession options during the Quil campfire scene - feelings for Alfira, Dammon and others - while removing the old dismissive \"feelings in the clouds\" line. You'll need to have met the relevant NPCs before the scene triggers; conflicts with mods that edit the camp bard backup story file.",
     tags: [
       "bg3",
       "dark urge",
@@ -17318,7 +17318,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1Cfa2B24MnGq8hX",
     short: "Restores the missing ogre execution scene in Moonrise Towers.",
-    description: "This mod restores the missing ogre execution scene in Moonrise Towers.  - The ogre reliably spawns in the Z'rell briefing cutscene. - Restores the original dialogue lines and the execution animation. - Grants the Know Thy Clientele inspiration point for Charlatans. - Requires Script Extender v26 or higher to function correctly. - Safe to install or uninstall during an ongoing playthrough.",
+    description: "Fixes the Z'rell briefing cutscene so the ogre reliably shows up for its execution, restoring the original dialogue and animation - and the Know Thy Clientele inspiration point for Charlatans along with it. Needs Script Extender v26 or later; safe to add or remove mid-playthrough.",
     tags: [
       "bg3",
       "script",
@@ -17342,7 +17342,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/21jB4BpU0E6OBnk",
     short: "Adds ten customizable draconic style tails to character creation.",
-    description: "This mod introduces ten unique draconic-style tail options for character creation.  - Includes ten tail variations compatible with all races and body types. - Tails feature tintable scales using character horn and skin color palettes. - Requires a separate mod to remove default tiefling tails for compatibility. - Optional patch available to remove the default metallic tail sheen. - Dragonborn support is included though skin color syncing is limited.",
+    description: "Ten draconic tail styles for character creation, compatible with every race and body, with scales tintable through your horn and skin color palette. A separate mod is needed to remove default tiefling tails for full compatibility, an optional patch strips the default metallic sheen, and Dragonborn support works though skin-color syncing is limited.",
     tags: [
       "tails",
       "dragon",
@@ -17364,7 +17364,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/2gnI0Bp0qhmmSJc",
     short: "Essential library for managing game virtual texture assets.",
-    description: "This mod provides a virtual textures library for mod dependencies.  - Prevents engine hard cap issues for virtual textures. - Requires Script Extender to process textures correctly. - Centralized management tool for developer mod updates. - Save game safe for mid-playthrough installation or removal. - Compatible with mod managers like BG3MM and Vortex.",
+    description: "A shared virtual-textures library that other mods depend on to avoid hitting the engine's hard texture cap. Needs Script Extender, works fine mid-playthrough, and plays nicely with mod managers like BG3MM and Vortex.",
     tags: [
       "textures",
       "library",
@@ -17387,7 +17387,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/NUDTGBm4Q2j4OBz",
     short: "Add elegant mermaid themed clothing to your character inventory.",
-    description: "This mod adds a modular, mermaid-themed dress set for your player character.  - Includes two distinct tops and two skirts for bodytype 1. - Items are dyeable and feature realistic in-game physics. - Requires the Tutorial Chest Summoning mod to acquire items. - Compatible with Transmog mods for stat customization. - Do not uninstall mid-playthrough to avoid save corruption.",
+    description: "A modular mermaid-themed dress set - two tops, two skirts, body type 1 only - dyeable, with real in-game physics on the fabric. Needs the Tutorial Chest Summoning mod to actually get your hands on it, works with Transmog for stat swaps, but shouldn't be uninstalled mid-playthrough.",
     tags: [
       "mermaid",
       "clothes",
@@ -17410,7 +17410,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/EYi8y3g9G003Z33",
     short: "Dynamically switch Shadowheart hairstyles during her long rest periods.",
-    description: "This mod dynamically updates Shadowheart's hairstyle during long rests.  - Automatically switches between night and day hairstyles via MCM. - Requires Script Extender and Mod Configuration Menu installed. - Fully compatible with vanilla and modded hairstyle catalogues. - Supports hair color, highlight, and greying adjustments. - Works seamlessly in Photo Mode and is save-safe.",
+    description: "Shadowheart automatically switches to a different hairstyle during long rests, toggled through the MCM. Needs Script Extender and Mod Configuration Menu, supports hair color/highlight/greying changes, and works cleanly in Photo Mode.",
     tags: [
       "shadowheart",
       "hair",
@@ -17434,7 +17434,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/KeB0ZhkI85u8J3w",
     short: "A comprehensive visual redesign for the companion Wyll.",
-    description: "This mod provides a complete visual overhaul for the companion Wyll, transforming him into a mercenary monster hunter.  - Includes custom armor, boots, and unique camp clothing sets. - Features new facial hair, a distinct scar, and altered hairstyles. - Provides separate aesthetic variants for both human and devil forms. - Requires a new game save for the custom equipment to function correctly. - Includes custom item names and descriptions for all added gear.",
+    description: "A full redesign that leans Wyll into more of a mercenary monster-hunter look - new armor, boots and camp clothes, a new scar, facial hair and hairstyles, with separate variants for his human and devil forms. Needs a fresh save for the new gear to work properly, and every item ships with its own custom name and description.",
     tags: [
       "wyll",
       "redesign",
@@ -17457,7 +17457,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ycr8c5q094kbVPT",
     short: "Eight new custom tiefling head options for your characters.",
-    description: "This mod introduces eight new tiefling head options for your characters.  - Adds four unique tiefling heads for BT1 body type. - Adds four unique tiefling heads for BT3 body type. - Requires standard modding setup for Baldur's Gate 3. - Increase LOD settings to high if head floating occurs.",
+    description: "Eight new tiefling heads - four for the BT1 body type, four for BT3. Standard modding setup applies; bump LOD to high if a head starts floating.",
     tags: [
       "tiefling",
       "heads",
@@ -17481,7 +17481,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Ez5wf7y5SpqPxA6",
     short: "Wear cute plushie backpacks on all your character models.",
-    description: "Add wearable plushie backpacks to your characters for companionship.  - Includes two backpack styles in both large and small sizes. - Available for all body types in the underwear slot. - Can be obtained from tutorial chest or specific act vendors. - Compatible with both armor and camp clothing outfits. - Note that mesh weight stretching may occur in some poses.",
+    description: "Wearable plushie backpacks in two styles and two sizes, for every body type, worn in the underwear slot so they stack with armor or camp clothes. Pick them up from the tutorial chest or specific act vendors - some poses do stretch the mesh a bit.",
     tags: [
       "plushie",
       "backpack",
@@ -17504,7 +17504,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/c8X93gG66x9LJmi",
     short: "Complete visual overhaul for Githyanki NPCs in Crèche Y'llek.",
-    description: "This mod provides a comprehensive visual redesign for all Githyanki NPCs located within Crèche Y'llek.  - Redesigns over 50 NPCs including Vlaakith and local wolves. - Features a more corpse-like aesthetic for the Lich Queen. - Updates specific NPC names to match their new appearances. - Tested to be safe for mid-playthrough installation and removal. - Hologram effect on Vlaakith does not apply to armor.",
+    description: "Every Githyanki NPC in Crèche Y'llek - more than 50 of them, Vlaakith and the wolves included - gets a visual redesign, with the Lich Queen leaning noticeably more corpse-like and a few NPC names updated to match. Safe to add or remove mid-playthrough; the hologram effect on Vlaakith doesn't extend to her armor.",
     tags: [
       "githyanki",
       "overhaul",
@@ -17528,7 +17528,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/dvGsU2LIob679U9",
     short: "Deep sea themed equipment collection for all human bodies.",
-    description: "This collection adds deep sea themed equipment for all human body types.  - Includes various outfits, cloaks, headwear, gloves, and boots. - Items feature no stats to remain compatible with transmog mods. - Contains specialized shields and a trident with unique variations. - All equipment is conveniently located inside the tutorial chest.",
+    description: "A deep-sea themed gear set for every human body - outfits, cloaks, headwear, gloves, boots, plus a couple of shields and a trident with their own variants. Everything's stat-free so it plays nicely with transmog, and it's all sitting in the tutorial chest.",
     tags: [
       "armour",
       "fantasy",
@@ -17550,7 +17550,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/amP2Bt57TkX792X",
     short: "Fixes unintentional interruptions of player music performances in-game.",
-    description: "This mod prevents external status effects from cancelling musical performances.  - Overrides vanilla music statuses so they persist when other statuses are applied. - Resolves issues where ambient modded status ticks interrupt instrument playing. - Safe to install or remove during an active campaign on PC. - Works as a standalone fix and requires no other music mods. - Recommended to be placed last in the mod load order.",
+    description: "Stops other status effects from cutting off your bard performances mid-song by making the vanilla music statuses persist through whatever else gets applied - useful if ambient modded statuses were interrupting your playing. Standalone fix, no other music mods required; best placed last in your load order.",
     tags: [
       "bg3",
       "music",
@@ -17574,7 +17574,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/g21u1ld104AJQJa",
     short: "Complete visual overhaul for the character Mizora in game.",
-    description: "This mod provides Mizora with a stylish makeover and new outfit options.  - Features a new outfit, jewelry, headpiece, hair, and eye colors. - Includes a custom icon and makeup for a polished appearance. - Optional support for human form via external mod integration. - Safe to install and uninstall during an active playthrough. - Compatible with official tools and latest game patch updates.",
+    description: "A full makeover for Mizora - new outfit, jewelry, headpiece, hair and eye colors, plus a custom icon and matching makeup. Human-form support needs an external mod, and it's safe to add or remove mid-playthrough.",
     tags: [
       "mizora",
       "makeover",
@@ -17596,7 +17596,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Xd26FM8MV32YBOJ",
     short: "Add the 2026 Lamborghini Fenomeno to your vehicle collection.",
-    description: "This mod introduces the 2026 Lamborghini Fenomeno as an add-on vehicle for GTA V.  - Features a high quality detailed exterior and interior model. - Includes fully functional light systems and working dashboard dials. - All body parts and interior surfaces feature adjusted vertex AO. - Equipped with breakable glass panes and destructible light fixtures. - Optimized 3D model originally sourced from CSR2 by ZD3D.",
+    description: "A detailed add-on Fenomeno with fully functional lights and a working dashboard, adjusted vertex AO across every body panel and interior surface, plus breakable glass and destructible light fixtures. The 3D model is sourced from CSR2 by ZD3D.",
     tags: [
       "lamborghini",
       "supercar",
@@ -17619,7 +17619,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ktim49c47AP4z9K",
     short: "Lamborghini Aventador car pack",
-    description: "This mod adds two new Lamborghini Aventador cars to the game.  - Two cars in one download: SVR Lamborghini Aventador Auto Veloce and Lamborghini Aventador LP780-4 Ultimae - Detailed interior with working speedometer and customizable paint jobs - Breakable glass and reflective mirrors for a realistic experience",
+    description: "Two Aventadors in one download - the SVR Auto Veloce and the LP780-4 Ultimae - each with a detailed interior, working speedometer, customizable paint, breakable glass and reflective mirrors.",
     tags: [
       "cars",
       "pack",
@@ -17641,7 +17641,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/w080WkJQ6MM2397",
     short: "Enables extreme lean angles for sport motorcycles in game.",
-    description: "This mod adjusts the physics of sport motorbikes to allow extreme lean angles similar to MotoGP riders.  - Increases maximum lean angle for full-fairing sport motorbikes. - Inspired by professional MotoGP motorcycle handling physics. - Compatible with the CBR1000RR-R model by Twatchai. - Designed to work alongside engine sound mods by KCMIR0.",
+    description: "Pushes full-fairing sport motorbikes to MotoGP-style lean angles, inspired by real professional handling physics. Built around Twatchai's CBR1000RR-R model and meant to pair with KCMIR0's engine sound mods.",
     tags: [
       "physics",
       "motorbike",
@@ -17664,7 +17664,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/QsTcyk3SwT6QvLX",
     short: "Create custom maps with this updated GTA 5 tool.",
-    description: "Create and edit custom maps easily within GTA 5.  - Updated to support ScriptHookDotNet 3 and LemonUI. - Includes objects, vehicles, and peds up to DLC 1.73. - Features category sorting and DLC-based object filtering. - Supports multi-object selection and adding items to favorites. - Maintains all original features from the classic Map Editor.",
+    description: "An updated take on the classic Map Editor, rebuilt on ScriptHookDotNet 3 and LemonUI with objects, vehicles and peds current through DLC 1.73. Category sorting, DLC-based filtering, multi-object selection and favorites are all new on top of everything the original tool could already do.",
     tags: [
       "mapping",
       "editor",
@@ -17686,7 +17686,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ea3hMTisseBV34e",
     short: "Custom dress mod for female characters in GTA V.",
-    description: "A custom-designed dress mod for multiplayer female characters in GTA V.  - Original mesh and textures created by the mod author. - Fully compatible with both Kinky Body and Vanilla Body types. - Includes installation instructions for both Single Player and FiveM. - Requires mpClothes addon for correct Single Player implementation.",
+    description: "An original dress design for MP female characters, compatible with both Kinky Body and Vanilla Body, with install steps covering both Single Player (via the mpClothes addon) and FiveM.",
     tags: [
       "clothing",
       "dress",
@@ -17710,7 +17710,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/WTLhWd8E0co9D4u",
     short: "Ultra realistic graphics preset for your GTA V game.",
-    description: "This ENB preset delivers ultra-realistic and vibrant visuals for GTA V.  - Optimized for ultra graphics settings and NaturalVisionRemastered - Requires ScriptHook5 to be installed in the game folder - Compatible with ENBseries version 0.492 - Simple drag and drop installation process - Enhances color saturation and lighting realism",
+    description: "An ENB preset tuned for ultra settings and NaturalVisionRemastered, pushing color saturation and lighting realism further. Needs ScriptHook5 and ENBseries 0.492 - installation is just drag and drop.",
     tags: [
       "enb",
       "graphics",
@@ -17732,7 +17732,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/5QIn3858kYvWZNu",
     short: "Fixes compatibility issues between DriveV and RDE game mods.",
-    description: "This configuration file resolves stability and content conflicts between the DriveV and RDE mods.  - Merges conflicting DLC_PATCH and update.rpf files. - Prioritizes DriveV data for handling and deformation. - Retains RDE spawn rates and vehicle flags. - Ensures consistent vehicle damage and dirt visuals.",
+    description: "Merges the conflicting DLC_PATCH and update.rpf files between DriveV and RDE, keeping DriveV's handling and deformation while preserving RDE's spawn rates and vehicle flags - so damage and dirt visuals stay consistent across both.",
     tags: [
       "gta5",
       "patch",
@@ -17754,7 +17754,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/M037U5ElX53Hcgn",
     short: "NPCs receive wanted stars for committing crimes like players.",
-    description: "This script enables police to track and pursue non-player characters for criminal actions.  - NPCs now gain wanted stars for shooting or fighting. - Police will respond to NPCs that attack the player. - Wanted levels decrease when NPCs stop fighting and run. - Multiple pedestrians can receive stars simultaneously for crimes. - Installation requires placing the file into the scripts folder.",
+    description: "Pedestrians now earn wanted stars for shooting or fighting, and the police actually respond - multiple NPCs can be wanted at once, and their stars drop off once they stop fighting and flee. Drop the file into your scripts folder to install.",
     tags: [
       "scripts",
       "gta5",
@@ -17778,7 +17778,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0qz6kZSxj87LY1t",
     short: "Add the unique SpeederTruck vehicle to your GTA 5.",
-    description: "This custom vehicle mod introduces the unique SpeederTruck to the game.  - Requires ScriptHook and ScriptHook V.NET for functionality. - Uses OpenIV for installation of addon files. - Includes a dedicated folder for all model files. - Users must manually update the dlclist.xml file.",
+    description: "Adds the standalone SpeederTruck vehicle via OpenIV, with its own dedicated model folder. Needs ScriptHook and ScriptHook V.NET, and you'll have to update dlclist.xml by hand.",
     tags: [
       "gta5",
       "truck",
@@ -17802,7 +17802,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/yc6Q00QKx1ESx3t",
     short: "Advanced and configurable police pursuit system for GTA V.",
-    description: "An advanced and fully configurable police pursuit system for GTA V.  - Features a highly modular and expandable police chase AI. - Supports both Legacy and Enhanced editions of the game. - Requires Script Hook V .NET for proper operation. - Dedicated files are provided for each specific game edition. - Compatible with modern script framework standards for GTA V.",
+    description: "A modular, expandable police chase AI system with separate builds for the Legacy and Enhanced editions of the game. Needs Script Hook V .NET and follows current script framework standards.",
     tags: [
       "police",
       "pursuit",
@@ -17826,7 +17826,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/846IweKjHX67NiP",
     short: "Replaces the standard combat pistol with a Colt 1911.",
-    description: "This mod replaces the standard Combat Pistol with a high-quality Colt 1911 model.  - Replaces the in-game Combat Pistol model - Designed by John Moses Browning with .45 ACP detail - Requires file replacement in dlcpacks folder - Installation path provided for weapons.rpf archives",
+    description: "Replaces the Combat Pistol model with a detailed Colt 1911 - John Moses Browning's .45 ACP design - via a straightforward dlcpacks/weapons.rpf file swap.",
     tags: [
       "pistol",
       "weapon",
@@ -17848,7 +17848,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/Wx4bjw0A5wRESVQ",
     short: "A custom stylish clothing top for female multiplayer characters.",
-    description: "This mod adds a custom designed top for MP female characters in GTA V.  - Includes 22 unique textures for the clothing item. - Fully compatible with both Kinky and Vanilla body types. - Original mesh and textures created by the mod author. - Requires mpClothes addon to function correctly in-game.",
+    description: "An original top design for MP female characters with 22 unique textures, compatible with both Kinky and Vanilla bodies. Needs the mpClothes addon to work.",
     tags: [
       "clothing",
       "female",
@@ -17871,7 +17871,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/m8GKDwain9rFi4u",
     short: "Custom high quality denim jeans for MP Female characters.",
-    description: "This mod introduces high-quality custom denim jeans for MP Female characters in GTA V.  - Includes all 3 levels of detail for performance - Features 26 unique color swatches for variety - Provides enhanced textures for a realistic look - Requires the mpclothes DLC pack to function correctly - Professionally converted and edited by STRUT",
+    description: "High-quality denim jeans for MP female characters, professionally converted and edited by STRUT, with all three LODs for performance and 26 color swatches to pick from. Needs the mpClothes DLC pack.",
     tags: [
       "jeans",
       "clothing",
@@ -17895,7 +17895,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ogzO14Ux4Wwi026",
     short: "Lore friendly car pack featuring Fast and Furious vehicles.",
-    description: "This pack recreates iconic vehicles from the first Fast and Furious film using vanilla GTA V car models.  - Features lore-friendly recreations of iconic movie vehicles. - Optimized for the Menyoo trainer platform. - Requires external vehicle mods for optimal visual results. - Includes a fix for a previously included text file error.",
+    description: "Recreates the first Fast and Furious film's iconic cars using vanilla GTA V models, so they stay lore-friendly rather than pulling in outside vehicle mods. Built for the Menyoo trainer, with a fix already applied for a text file error from an earlier release.",
     tags: [
       "cars",
       "movie",
@@ -17919,7 +17919,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ijn7JNNBMmGaQfg",
     short: "Adds Ukrainian territorial defense uniforms and equipment to GTA.",
-    description: "This mod adds Ukrainian Territorial Defense forces to the game.  - Adds new tactical uniforms for player and NPCs. - Includes specialized military equipment textures and models. - Compatible with both Singleplayer and FiveM servers. - Features historically inspired insignias and camouflage patterns.",
+    description: "Adds Ukrainian Territorial Defense uniforms and gear for both player and NPCs, with historically inspired insignia and camo patterns. Works in both Singleplayer and on FiveM servers.",
     tags: [
       "ukraine",
       "military",
@@ -17942,7 +17942,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/EKyXW6F5j1itF8g",
     short: "Convert replaceable weapons into custom add-on weapon files easily.",
-    description: "This program simplifies the process of converting standard weapons into custom add-on versions.  - Automatically generates required folders and XML configuration files. - Packages converted weapon assets into functional dlc.rpf archives. - Handles automatic installation by editing your dlclist.xml file. - Detects your game installation and mods folder automatically. - Currently supports legacy RPF format for all conversions.",
+    description: "Automates converting replaceable weapons into proper add-on versions - generates the folders and XML configs, packages everything into a working dlc.rpf, and edits dlclist.xml for you after detecting your install and mods folder. Currently limited to the legacy RPF format.",
     tags: [
       "weapons",
       "modding",
@@ -17965,7 +17965,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/TWX5d2H5DI3Hut8",
     short: "Procedural first person camera overhaul with realistic movement simulation.",
-    description: "Glory is a lightweight script that adds procedural camera movement and inertia to create a natural first-person experience.  - Simulates breathing, weapon handling, and vehicle inertia. - Adds specific gear shifting animations for vehicles. - Includes G-force blackout effects for aircraft and helicopters. - Features improved free aim mechanics and auto exposure. - Includes a dedicated camera mode for motorcycles.",
+    description: "A lightweight script that layers procedural inertia onto the first-person view - breathing, weapon handling, vehicle inertia, gear-shift animations, G-force blackout in aircraft and helicopters, improved free aim and auto exposure, plus a dedicated mode for motorcycles.",
     tags: [
       "camera",
       "script",
@@ -17988,7 +17988,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3v7yaK96F0iLs1O",
     short: "Hire elite private security for your Los Santos character.",
-    description: "Experience elite protection services with a comprehensive private security mod.  - Deploy armed squads, motorcades, and snipers via a menu. - Guards actively fight and re-form formations between intense combat. - Utilize a scripted helicopter for emergency extraction from situations. - Protect your character like a billionaire or cartel boss.",
+    description: "Hire armed squads, motorcades and snipers through a menu, watch them actually fight and reform after combat, and call in a scripted helicopter for emergency extraction - basically private security built for playing like a cartel boss or a billionaire who takes threats seriously.",
     tags: [
       "security",
       "guards",
@@ -18011,7 +18011,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/NAvbZcLVK82Q8jt",
     short: "A realistic and cinematic ReShade preset for QuantV users.",
-    description: "This ReShade preset provides a clean and cinematic visual enhancement for the QuantV graphics modification.  - Built from scratch for optimized performance - Improves overall sharpness and contrast balance - Features natural lighting and color grading - Designed specifically for compatibility with QuantV",
+    description: "A cinematic ReShade preset built from scratch specifically for QuantV, sharpening contrast and lighting for a more natural, film-like look.",
     tags: [
       "reshade",
       "graphics",
@@ -18034,7 +18034,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1QSctNe0oAS27RO",
     short: "Custom purple brand skinny jeans for MP male characters.",
-    description: "Adds a stylish pair of purple brand skinny jeans for your multiplayer male character.  - Includes sixteen unique texture variations for the jeans. - Requires OpenIV for the installation process. - Designed specifically for the MP male character model. - Follow the provided file path to install files correctly.",
+    description: "Sixteen texture variations of a purple-branded skinny jean for the MP male model, installed via OpenIV along the provided file path.",
     tags: [
       "clothing",
       "jeans",
@@ -18056,7 +18056,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/a16FIM38uGHv2M2",
     short: "Prevents Spillover perk from activating while player is stealthing.",
-    description: "This mod restricts the Spillover perk activation to combat scenarios only.  - Disables Spillover perk and Tier 5 Raven Microcyber effects outside of combat. - Prevents accidental enemy tracing while the player is currently in stealth. - Stops quickhacks from spreading unexpectedly when the player is not engaged. - Ensures controlled stealth gameplay by removing unwanted perk trigger conditions.",
+    description: "Locks the Spillover perk and Tier 5 Raven Microcyber effects to actual combat, so quickhacks stop spreading and enemies stop tracing you while you're just trying to stay stealthy between fights.",
     tags: [
       "gameplay",
       "stealth",
@@ -18079,7 +18079,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/x9p2pW3SQA36Q3q",
     short: "A custom widebody Thorton luxury vehicle for Night City.",
-    description: "This mod adds a luxurious, widebody custom Thorton Merrimac to Night City.  - Features a unique widebody kit, chopped roof, and armored glass. - Includes three distinct vehicle variants for players to drive. - Compatible with Virtual Car Dealer, Taxi mod, and AMM. - Requires Phantom Liberty and updated core game mods. - The trunk remains locked and crystal coat is disabled.",
+    description: "A widebody Thorton Merrimac with a chopped roof and armored glass, offered in three variants. Compatible with Virtual Car Dealer, the Taxi mod and AMM, needs Phantom Liberty and up-to-date core mods - the trunk stays locked and crystal coat is disabled.",
     tags: [
       "thorton",
       "vehicle",
@@ -18102,7 +18102,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/ueqZdIB5fg15W62",
     short: "Add helpful clothing category filters to Virtual Atelier stores.",
-    description: "This mod enhances your shopping experience by adding categorized clothing filters to Virtual Atelier stores.  - Adds seven distinct filters for browsing clothing items efficiently. - Requires Cyber Engine Tweaks version 1.5.0 or higher installed. - Allows browsing by outfit, head, face, torso, and legs. - Installation requires extracting files into the main game folder. - May have potential compatibility conflicts with other filter mods.",
+    description: "Adds seven browsing filters - outfit, head, face, torso, legs and more - to Virtual Atelier stores. Needs Cyber Engine Tweaks 1.5.0+; may conflict with other filter mods.",
     tags: [
       "clothing",
       "filter",
@@ -18126,7 +18126,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/w1UgeuFRm22K84j",
     short: "Upgrade your phone interface with improved avatars and sorting.",
-    description: "Contacts Redux transforms the phone interface with dynamic features.  - Adds visible contact avatars for quick identity recognition. - Features live status indicators for online and busy contacts. - Includes smart sorting to prioritize your most active connections. - Fully localized in all nineteen supported in-game languages. - Compatible with most mods that change contact avatar images.",
+    description: "Gives the phone's contacts list visible avatars, live online/busy status, and smart sorting that surfaces your most active connections first. Fully localized across all nineteen supported languages, and compatible with most mods that change contact avatar images.",
     tags: [
       "ui",
       "phone",
@@ -18150,7 +18150,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/X3NsZ1Qc27gnb1A",
     short: "Hand-modeled thigh-high and over-the-calf socks in 20 colors.",
-    description: "These hand-modeled socks offer customizable leg wear for multiple body types.  - Includes over-the-calf and thigh-high variants in 20 distinct colors. - Compatible with Vanilla, VTK HD, and Hyst body mods. - Features detailed skin bulge for a realistic appearance. - Requires ArchiveXL for proper installation and in-game functionality. - Optional support for Equipment-EX to use alternate item slots.",
+    description: "Hand-modeled thigh-high and over-the-calf socks in 20 colors, with realistic skin bulge modeled in. Works with Vanilla, VTK HD and Hyst bodies, needs ArchiveXL, and optionally supports Equipment-EX for alternate item slots.",
     tags: [
       "socks",
       "clothing",
@@ -18173,7 +18173,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/EhkdIr7O38DIqct",
     short: "Modular sportswear clothing set for female V in Cyberpunk.",
-    description: "This modular sportswear set includes various tops, bottoms, and accessories for Female V.  - Features modular items with integrated brand logos and information. - Includes stat bonuses for gameplay and customization for photo mode. - Supports Garment Support for layering with other clothing items. - Offers optional toggles to hide decals and adjust accessory sizes. - Requires Archive XL and Small Body Tag for full functionality.",
+    description: "A modular sportswear set for Female V with branded logos baked into the items, stat bonuses alongside photo-mode-friendly customization, and Garment Support for layering. Decal visibility and accessory sizes are both toggleable; needs Archive XL and Small Body Tag.",
     tags: [
       "clothing",
       "modular",
@@ -18195,7 +18195,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/7mcll8wzsCf37z7",
     short: "High quality realistic iris texture options for your character.",
-    description: "This mod adds 80 high-quality iris textures for both V models.  - Adds 80 unique iris textures including natural and glow variants. - Compatible with CCXL and heterochromia for dual eye colors. - Custom normal maps provide improved depth and light interaction. - Requires ArchiveXL and TweakXL to function correctly. - Includes an optional icon replacer for easier menu sorting.",
+    description: "80 iris textures - natural tones and glowing variants alike - with custom normal maps for better depth and light interaction. Works with CCXL and heterochromia for mismatched eye colors, needs ArchiveXL and TweakXL, and includes an optional icon replacer for easier sorting.",
     tags: [
       "eyes",
       "v",
@@ -18219,7 +18219,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3b3UPd90Y5J40l8",
     short: "A new streetwear clothing collection for both masculine and feminine.",
-    description: "This mod adds a new collection of custom streetwear clothing for both masculine and feminine V.  - Includes various tops, pants, shoes, and gloves in different color variants. - Requires ArchiveXL, TweakXL, RED4ext, redscript, Cyber Engine Tweaks, Codeware, and Equipment-EX. - Items can be spawned in-game using the provided console commands. - Designed primarily for photo mode usage within the game. - Assets derived from AION2 with custom refits for specific body types.",
+    description: "A new streetwear collection - tops, pants, shoes, gloves - in multiple colors for both masculine and feminine V, built primarily for photo mode and spawnable via console commands. Assets are refit from AION2 for specific body types. Needs ArchiveXL, TweakXL, RED4ext, redscript, Cyber Engine Tweaks, Codeware and Equipment-EX.",
     tags: [
       "clothing",
       "streetwear",
@@ -18264,7 +18264,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/T0nUaJsQ9Hfet0b",
     short: "Adds thirteen new recruitable allies for your companion system.",
-    description: "This addon expands your companion roster with thirteen iconic characters.  - Adds 13 new characters including 8ug8ear and Mr. Hands. - Requires the Night City Allies core system to function. - Multiple characters feature various outfits selectable via the UI. - Known compatibility issues with mods using call backup systems. - Compatible with the existing DrayStation companion framework.",
+    description: "Adds thirteen recruitable characters - 8ug8ear and Mr. Hands among them - to the companion roster, several with selectable outfits through the UI. Needs the Night City Allies core system, works with the DrayStation companion framework, but has known conflicts with mods that use call-backup systems.",
     tags: [
       "cyberpunk",
       "characters",
@@ -18286,7 +18286,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/qdbO9FRwE1o8ZyJ",
     short: "Highly customizable 1984 Honda CRX Mugen for Cyberpunk 2077.",
-    description: "This mod adds a highly customizable 1984 Honda CRX Mugen.  - Features extensive color customization using the CrystalCoat system. - Includes numerous tuning parts like spoilers, wheels, and interior mods. - Adds functional dashboard elements, fog lights, and custom handling physics. - Includes plugins for Nova Traffic and Virtual Car Dealer integration. - Known incompatibility with the Enhanced Vehicle System mod.",
+    description: "A highly customizable '84 CRX Mugen with full CrystalCoat color options, tuning parts like spoilers and wheels, functional dashboard elements and fog lights, and custom handling physics. Plugs into Nova Traffic and Virtual Car Dealer, though it's known to conflict with the Enhanced Vehicle System mod.",
     tags: [
       "honda",
       "crx",
@@ -18310,7 +18310,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/TxbZt9sTjWnqa3I",
     short: "Custom male V preset for Appearance Change Unlocker mod.",
-    description: "A custom male V character preset for Cyberpunk 2077.  - Designed as a unique preset for male V. - Fully compatible with the Appearance Change Unlocker mod. - Preset file must be placed in the specified plugin directory. - Requires Cyber Engine Tweaks to function correctly.",
+    description: "A custom male V preset built for use with the Appearance Change Unlocker mod - drop the preset file into the plugin directory, and make sure Cyber Engine Tweaks is installed.",
     tags: [
       "male v",
       "preset",
@@ -18333,7 +18333,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/pc2bp5lXF5TWm1H",
     short: "Custom outfit set for Female V with many body options.",
-    description: "This mod adds a custom stylish outfit set for Female V.  - Includes 14 different body refit options for various shapes. - Requires ArchiveXL, TweakXL, RED4ext, redscript, and Cyber Engine Tweaks. - Features tops, skirts, and shorts in multiple color patterns. - Items can be spawned via console or virtual boutique.",
+    description: "A stylish outfit for Female V with 14 body refit options across different shapes, tops/skirts/shorts in multiple color patterns, spawnable via console or the virtual boutique. Needs ArchiveXL, TweakXL, RED4ext, redscript and Cyber Engine Tweaks.",
     tags: [
       "cyberpunk",
       "outfit",
@@ -18354,7 +18354,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/8I654H3B49m8VqV",
     short: "Required dependency package for all Rosa's clothing mods collection.",
-    description: "This mod provides essential material and microblend dependencies for all Rosa's clothing mods.  - Acts as a required dependency for multiple clothing mods - Reduces total file size for individual clothing packs - Simplifies updates and prevents previous crashing issues - Uses materials sourced directly from the base game - Contains textures and patterns for personal private use",
+    description: "A required dependency package sharing materials and microblends across all of Rosa's clothing mods - keeps individual packs smaller, simplifies updates, and fixes crashes some earlier releases had. Sourced from base-game materials; textures and patterns are for personal use only.",
     tags: [
       "dependency",
       "clothing",
@@ -18400,7 +18400,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/yD9xJUWR9qN82TN",
     short: "Adds eye texture mods as new character creator options.",
-    description: "This mod migrates existing Unique Eyes texture mods into new character creator options using CCXL.  - Adds 39 unique eye options to character creator without replacing vanilla assets. - Requires ArchiveXL and TweakXL to function correctly in-game. - Compatible with custom sculpted heads, eyelashes, and CCXL heterochromia. - Supports masculine and feminine player V characters. - Requires a separate eye texture mod to display visuals correctly.",
+    description: "Migrates the classic Unique Eyes texture mods into proper character-creator options via CCXL - 39 eye choices added without touching vanilla assets. Works with custom sculpted heads, eyelashes and CCXL heterochromia for both masculine and feminine V, but still needs a separate eye texture mod installed to actually display anything. Requires ArchiveXL and TweakXL.",
     tags: [
       "eyes",
       "appearance",
@@ -18423,7 +18423,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/2or6Y28pqof105J",
     short: "A virtual clothing store located in the EBM Petrochem Stadium.",
-    description: "This mod adds a new virtual atelier clothing store to Cyberpunk 2077.  - Includes a storefront located at the EBM Petrochem Stadium. - Compatible with mod managers for simple and quick installation. - Features appearances by Tommy if the Talent Academy gig is completed. - Vendor appearance cycles automatically during gameplay sessions. - Requires manual file deletion from the mod and scripts folders for removal.",
+    description: "A new virtual clothing storefront at the EBM Petrochem Stadium, with Tommy showing up once you've completed the Talent Academy gig. Vendor appearance cycles automatically; removal needs manual file deletion from the mod and scripts folders.",
     tags: [
       "clothing",
       "atelier",
@@ -18444,7 +18444,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/1uvRm0b513wM0Zd",
     short: "Easily manage your stash and vendor item inventory stacks.",
-    description: "Improve inventory management efficiency with stack and multi-select features.  - Move item stacks quickly using shift plus click. - Select multiple item stacks using ctrl plus click. - Features full support for controller trigger inputs. - Requires redscript, red4ext, Codeware, Input Loader, and Mod Settings. - Works seamlessly for both player stash and vendor menus.",
+    description: "Shift+click moves whole item stacks, Ctrl+click multi-selects them, and controller trigger inputs are fully supported - across both your stash and vendor menus alike. Needs redscript, red4ext, Codeware, Input Loader and Mod Settings.",
     tags: [
       "inventory",
       "qol",
@@ -18468,7 +18468,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/lGRL65J1SP4w43a",
     short: "Stylish seven piece outfit set for Female V characters.",
-    description: "This mod adds a stylish multi-piece outfit for FemV characters.  - Includes 7 modular clothing items in multiple color variants. - Compatible with all Hyst body mods and Small body types. - Requires Archive XL to function correctly in-game. - Items can be spawned using provided console command codes.",
+    description: "Seven modular clothing pieces in multiple color variants for Female V, compatible with all Hyst bodies and Small body types, spawnable via console codes. Needs Archive XL.",
     tags: [
       "femv",
       "clothing",
@@ -18491,7 +18491,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/0aMhiHw8Ns0nJK4",
     short: "Adds hostile combat encounters to Night City Hidden Gems.",
-    description: "This mod adds lore-friendly hostile combat encounters to Hidden Gems.  - Adds dynamic enemy NPCs to various Hidden Gem locations. - Enemy types are chosen based on specific narrative shards. - Includes patrols, ambushes, and escalating combat situations. - Highly compatible with most existing Night City mods.",
+    description: "Puts lore-friendly hostile NPCs into Hidden Gems locations, with enemy types chosen to match the specific narrative shard - patrols, ambushes and escalating fights included. Plays well with most other Night City mods.",
     tags: [
       "combat",
       "enemies",
@@ -18514,7 +18514,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/i6hG90vFX4OgkJ3",
     short: "Thirty festive nail designs for your female V character.",
-    description: "This mod adds thirty festive nail designs for female V.  - Includes deep jewel tones, frosty pastels, and festive patterns. - Requires North Oak Nails, ArchiveXL, and Equipment-EX to function. - Compatible with all female V body types for manicures. - Requires specific body mods like VTK 3.0 or Solo 2.0 for pedicures. - Optional support for Cute Nails Morph and Microblend Resource.",
+    description: "Thirty festive nail designs spanning deep jewel tones and frosty pastels, for every female V body type. Needs North Oak Nails, ArchiveXL and Equipment-EX for manicures, plus VTK 3.0 or Solo 2.0 for pedicures specifically, with optional support for Cute Nails Morph and Microblend Resource.",
     tags: [
       "nails",
       "v",
@@ -18538,7 +18538,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/68xHFniPDJC60ra",
     short: "Adds eight unique teeth options for all character types.",
-    description: "This mod adds eight unique teeth options to the character creator for both V genders.  - Includes eight new teeth models for Male and Female V. - Requires ArchiveXL and RED4ext to function correctly. - Not compatible with Morphtarget and AnimRig Additions mods. - Features meshes converted from Female V to Male V.",
+    description: "Eight new teeth models for both V genders, with the female set converted over to work on male V too. Needs ArchiveXL and RED4ext; not compatible with Morphtarget or AnimRig Additions.",
     tags: [
       "teeth",
       "makeup",
@@ -18561,7 +18561,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/9wp2WQpi9G1VPP2",
     short: "Stylish customizable clothing set for female V in Cyberpunk.",
-    description: "This mod provides a stylish outfit collection for female V.  - Includes a crossed top, separate sweater, skirts, and belts. - Crafted from wool, net, and black leather textures. - Available in nine unique color variations for customization. - Supports multiple body types including Angel, EBB, and Vanilla. - Obtainable via Tony's Adult Store or manual console codes.",
+    description: "A crossed top, separate sweater, skirts and belts in wool, net and black leather textures, in nine color variants, for Female V across Angel, EBB and Vanilla bodies. Pick it up from Tony's Adult Store or spawn it via console code.",
     tags: [
       "clothing",
       "female",
@@ -18585,7 +18585,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/5Gp8nVTLjIB7HV1",
     short: "Play immersive animations when consuming food or drink items.",
-    description: "Consume any item to trigger a brief, immersive character animation.  - Over 80 visually held items match the specific item consumed. - Includes 9 unique body animations for base game and expansion items. - Fully configurable cooldowns and settings via the Mod Settings menu. - Compatible with Idle Anywhere, Custom Quickslots, and vendor mods. - Not compatible with Dark Future as this feature is already included.",
+    description: "Eating or drinking now plays a short, item-matched animation - over 80 held items line up with what you're actually consuming, across 9 unique body animations spanning base game and expansion content. Cooldowns and settings are configurable through Mod Settings; compatible with Idle Anywhere, Custom Quickslots and vendor mods, but redundant if you're running Dark Future, which already includes this.",
     tags: [
       "immersion",
       "animation",
@@ -18607,7 +18607,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/zF895kszPJ50xu7",
     short: "Stylish urban sprinter outfit set for Female V characters.",
-    description: "This mod adds a stylish urban sprinter outfit designed for Female V.  - Includes five clothing items such as hoodie and shoes. - Available in a variety of different color options. - Fully compatible with various Hyst body types and sizes. - Requires Archive XL for proper installation and functionality.",
+    description: "A five-piece outfit - hoodie and shoes included - for Female V in multiple color options, compatible with various Hyst body sizes. Needs Archive XL.",
     tags: [
       "clothing",
       "fem v",
@@ -18630,7 +18630,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/hLj0rt7UQ90hT8Z",
     short: "An online store for premium Kriostech clothing and gear.",
-    description: "This mod adds a dedicated online store for Kriostech clothing and gear.  - Requires Virtual Atelier to function correctly within the game. - Access the store via any in-game computer terminal. - Supports Kriostech Military and Sportswear modular outfit collections. - Enables remote item purchasing if Virtual Atelier Delivery is installed. - Stats will display properly once items are added to inventory.",
+    description: "A dedicated online store for Kriostech's Military and Sportswear collections, accessible from any in-game computer terminal, with remote purchasing if Virtual Atelier Delivery is also installed. Needs Virtual Atelier; item stats only display correctly once they're actually in your inventory.",
     tags: [
       "clothing",
       "atelier",
@@ -18653,7 +18653,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/4SW1I1398KWGc0m",
     short: "Adds thirty-two realistic eye colors to character creator options.",
-    description: "This mod adds 32 highly detailed eye colors to the character creator.  - Includes 32 realistic iris designs based on actual photography. - Offers variable texture resolutions from 512p up to 2048p. - Requires ArchiveXL and TweakXL to function correctly in-game. - Fully compatible with Heterochromia Eyes and Unique Eyes Core. - Changes apply to both male and female character models.",
+    description: "32 iris designs modeled on real photography, with texture resolution options from 512p up to 2048p. Works with Heterochromia Eyes and Unique Eyes Core, applies to both character models, and needs ArchiveXL and TweakXL.",
     tags: [
       "eyes",
       "cosmetic",
@@ -18676,7 +18676,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/3Ek01a2z4z1K8tG",
     short: "A collection of custom Miyavi-based hairstyles for player characters.",
-    description: "This mod adds a collection of Miyavi-based hairstyles to Cyberpunk 2077.  - Includes 32 total hair variants for both male and female characters. - Features four core styles including ponytail, wavy, bun, and twist-up. - Provides four cap options ranging from full coverage to shaved. - Includes new braided base options with integrated hoop accessories. - Compatible with Appearance Change Unlocker for custom accessory color editing.",
+    description: "32 Miyavi-inspired hair variants across four core styles - ponytail, wavy, bun, twist-up - each with four cap coverage options and new braided bases with hoop accessories. Compatible with Appearance Change Unlocker for custom accessory colors, and works for both V models.",
     tags: [
       "hair",
       "cosmetics",
@@ -18699,7 +18699,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/OE8sdd3846A4Vv1",
     short: "Custom military pants and pouches for V with stat bonuses.",
-    description: "These custom military-styled pants and pouches for V feature functional stat bonuses and varied aesthetics.  - Includes multiple color variants for both pants and pouches for masc and fem V. - Features optional belt toggle to customize the overall appearance. - Pants include garment support, allowing them to interact with other clothing items. - Upscaled normal maps provide high-quality textures for the detailed equipment. - Items are balanced with specific sell prices for use at drop points.",
+    description: "Military-styled pants and pouches with real stat bonuses, multiple color variants for both masc and fem V, an optional belt toggle, Garment Support for layering, and upscaled normal maps for sharper textures. Priced to balance out at drop points.",
     tags: [
       "clothing",
       "pants",
@@ -18721,7 +18721,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/yUdNY994m706989",
     short: "Enables immersive greeting interactions between V and key NPCs.",
-    description: "This mod enables immersive greetings between V and various NPCs.  - Adds randomized greeting voice lines and hand wave animations. - Includes context-aware greetings using character names for specific NPCs. - Supports all game languages with manually synced lipsync animations. - Compatible with most voice mods and common dialogue expansions. - Replaces default scene files to implement new interaction behaviors.",
+    description: "V now greets key NPCs with randomized voice lines and hand-wave animations, using character names where it makes sense, synced lipsync across every supported language. Replaces default scene files to add the behavior; compatible with most voice mods and dialogue expansions.",
     tags: [
       "immersion",
       "gameplay",
@@ -18742,7 +18742,7 @@ const MODS = [
     ],
     downloadUrl: "https://modsfire.com/T1sVY6YZVICs974",
     short: "Enable digital speedometer visibility in first person driving view.",
-    description: "This mod enables the digital speedometer on the HUD while driving in first-person perspective.  - Displays speedometer automatically when entering the driver seat. - Shows speed in either MPH or KPH per game settings. - Features an optional keybind to toggle the HUD manually. - Requires Redscript for full functionality. - Compatible with game version 2.3 and most UI mods.",
+    description: "Puts a digital speedometer on the HUD automatically whenever you're driving in first person, in either MPH or KPH depending on your settings, with a keybind to toggle it manually. Needs Redscript; compatible with version 2.3 and most UI mods.",
     tags: [
       "hud",
       "driving",
