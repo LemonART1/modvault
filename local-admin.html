@@ -244,13 +244,36 @@
       setStatus($("dbStatus"), `Loaded ${data.modCount} mods. Next ID: ${data.nextId}`, "ok");
     }
 
+    // Rebuilding the <select> via innerHTML always leaves the browser showing
+    // the first <option> until something explicitly sets .value - for beamng
+    // that's "boats", alphabetically first in CATEGORIES. If `preferred` came
+    // from the AI and doesn't match a key exactly (wrong case, "car" instead
+    // of "cars", the human label instead of the key...), it used to fail
+    // silently and leave a random car mod filed under Boats. Now it tries a
+    // normalized/label match first, and falls back to "other" (a real
+    // "unsure" state) instead of whatever key happens to sort first.
     function updateCategories(preferred) {
       const game = $("game").value;
       const cats = state.categories[game] || {};
       $("category").innerHTML = Object.entries(cats)
         .map(([key, label]) => `<option value="${key}">${label}</option>`)
         .join("");
-      if (preferred && cats[preferred]) $("category").value = preferred;
+      let resolved = "";
+      if (preferred) {
+        if (cats[preferred]) {
+          resolved = preferred;
+        } else {
+          const normalized = slugCategoryName(preferred);
+          if (cats[normalized]) {
+            resolved = normalized;
+          } else {
+            const byLabel = Object.entries(cats).find(([, label]) => label.toLowerCase() === preferred.toLowerCase());
+            if (byLabel) resolved = byLabel[0];
+          }
+        }
+      }
+      if (!resolved) resolved = cats.other ? "other" : (cats.miscellaneous ? "miscellaneous" : "");
+      if (resolved) $("category").value = resolved;
     }
 
     function fileToImage(file) {
@@ -319,6 +342,7 @@ ${categories}
 Rules:
 - [GAME] must be one game key.
 - [CATEGORY] must be one category key for that game, and it must match what the mod actually is. Pick the most specific matching category (e.g. a race track/circuit/layout is "tracks" or "maps", a vehicle is "cars"/"vehicles"/"trucks", a character skin is "skins"/"appearance"). Only use a generic category like apps, tools, utilities, other or miscellaneous when no specific category fits at all.
+- [VERSION] is the MOD's own release/update number (e.g. "2.1", "v1.7"), never the game version or game-build number it says the mod is compatible with/updated for/works on (e.g. "0.39.x", "1.60", a patch number) - those two are unrelated numbers and mixing them up is wrong even if the mod's own version isn't stated anywhere in the raw text, in which case use "1.0".
 - [SHORT] must be 6 to 10 words.
 - [DESCRIPTION]: write it like a knowledgeable player describing this specific mod to a friend, not like filling out a form. Pull concrete, specific details straight from the raw text - exact numbers, named features, specific mechanics, requirements, compatibility notes, known issues, what makes THIS mod different from similar ones on the same game. Skip generic filler like "this mod adds/brings/introduces X to the game" as an opening - vary how you start and how you phrase things from mod to mod, the way a person naturally would, not a template.
   Match structure to what the raw text actually supports, don't force one shape every time:

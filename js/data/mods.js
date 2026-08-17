@@ -18912,6 +18912,74 @@ const MODS = [
       "fjcruiser"
     ],
     featured: true
+  },
+  {
+    id: 852,
+    game: "beamng",
+    title: "Nissan Skyline R34",
+    category: "boats",
+    version: "2.0",
+    size: "369 MB",
+    images: [
+      "images/mods/nissan-skyline-r34-1.jpg",
+      "images/mods/nissan-skyline-r34-2.jpg",
+      "images/mods/nissan-skyline-r34-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/grQ8kf5yC5fh65y",
+    short: "Detailed Nissan Skyline R34 with extensive customization and bodykits.",
+    description: "This R34 build is specifically optimized for the latest 0.39 game version, ensuring full compatibility with current physics and lighting systems. You get a solid variety of customization options right out of the gate without needing extra add-ons.\n\n- Six distinct liveries are included for immediate visual variety.\n- Nine unique bodykit configurations allow for deep aesthetic tuning.\n- Authentic sound profiles and custom tire physics provide better handling.\n- The interior is fully interactive, letting you toggle various cabin features.\n- Fully baked lighting provides a polished look during night drives.",
+    tags: [
+      "nissan",
+      "skyline",
+      "r34",
+      "jdm",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 853,
+    game: "beamng",
+    title: "BMW 4 Series F32",
+    category: "boats",
+    version: "1.5",
+    size: "502 MB",
+    images: [
+      "images/mods/bmw-4-series-f32-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3gaYxi3s9qQ8R26",
+    short: "Highly detailed BMW 4 Series with deep customization options.",
+    description: "This high-fidelity F32 conversion packs an impressive amount of visual and mechanical depth for BeamNG.drive, featuring a fully custom JBEAM that feels distinct from standard vehicle dynamics. You get a massive variety of build paths ranging from factory-spec diesel cruisers to V8-swapped track builds, all supported by authentic xHP transmission tuning.\n\n- Forty-five unique configurations with distinct performance profiles for N47, N57, N20, B48, N55, and B58 engines.\n- Fully functional interior dashboard electronics covering low fuel, temperature, and door-ajar status lights.\n- Extensive aesthetic customization including six headlight styles, carbon or chrome trim options, and customizable ambient RGB cabin lighting.\n- Realistic modular exterior parts like M-Sport bumpers, various trunk spoiler options, and swappable side skirts.",
+    tags: [
+      "bmw",
+      "f32",
+      "car",
+      "german",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 854,
+    game: "beamng",
+    title: "BMW 5-Series G90 M5",
+    category: "cars",
+    version: "1.0",
+    size: "478 MB",
+    images: [
+      "images/mods/bmw-5-series-g90-m5-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/k4y7rVsOgN3gpcd",
+    short: "Highly detailed BMW M5 sedan and wagon with tuning.",
+    description: "This G90 M5 project feels incredibly complete, offering both sedan and wagon body styles to play with. The level of detail inside is top-tier, featuring a fully functional dashboard, working multimedia system, and even a functional rear-view camera. You are getting a true-to-life experience thanks to the custom engine sounds and realistic hybrid performance dynamics.\n\n- Forty-eight distinct configurations available for extensive variety.\n- Fully custom Jbeam construction ensures authentic handling physics.\n- High-quality PBR materials used throughout the exterior and interior.\n- Authentic BMW alert sounds and refined S63B44Tx engine audio.\n- Fully animated cabin components including pedals and turn signals.",
+    tags: [
+      "bmw",
+      "m5",
+      "sedan",
+      "drift",
+      "luxury"
+    ],
+    featured: true
   }
 ];
 
