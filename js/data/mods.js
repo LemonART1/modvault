@@ -19342,6 +19342,693 @@ const MODS = [
       "cars"
     ],
     featured: true
+  },
+  {
+    id: 871,
+    game: "beamng",
+    title: "Coral Pink Sand Dunes",
+    category: "maps",
+    version: "1.3.4",
+    size: "278 MB",
+    images: [
+      "images/mods/coral-pink-sand-dunes-1.jpg",
+      "images/mods/coral-pink-sand-dunes-2.jpg",
+      "images/mods/coral-pink-sand-dunes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WU1vDMflZ5CiWU6",
+    short: "Explore southern Utah dunes on this massive detailed map.",
+    description: "This map brings a 2-square-kilometer stretch of southern Utah's Coral Pink Sand Dunes to life with varied terrain. It offers a mix of steep rocky hills and vegetated areas for varied off-road challenges.\n\n- A closed-circuit race track modeled after Texplex courses sits centrally.\n- Explore an 11-kilometer route that traverses the entire dune area.\n- Navigate a maze-like network of mountain trails designed for length.\n- Every route and trail is numbered for easy navigation display tracking.\n- The 1.3.4 update resolves previous missing texture issues and adds skybox elements.",
+    tags: [
+      "offroad",
+      "dunes",
+      "racing",
+      "map",
+      "desert"
+    ],
+    featured: true
+  },
+  {
+    id: 872,
+    game: "beamng",
+    title: "SIXT Island",
+    category: "maps",
+    version: "1.052",
+    size: "1.10 GB",
+    images: [
+      "images/mods/sixt-island-1.jpg",
+      "images/mods/sixt-island-2.jpg",
+      "images/mods/sixt-island-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xJ82cCW492c9pve",
+    short: "Explore diverse biomes and race tracks on this island.",
+    description: "This map offers a massive, diverse island experience featuring a South Beach Miami-style urban center complete with intricate nighttime lighting. You can test your driving skills across a wide range of terrain types, from dense jungles and arid deserts to steep mountain ranges.\n\n- Features a dedicated SIXT entertainment center with a race track, drift circle, and figure-eight layout.\n- Includes specialized driving areas like a challenging off-road course, mega-ramp jumps, and a parkour zone.\n- Provides versatile mountain driving with both winding asphalt roads and rugged dirt trails.\n- Built with high-quality PBR terrain and textures for a modern look.\n- Fully compatible with AI traffic and includes a festive winter variant.",
+    tags: [
+      "island",
+      "map",
+      "racing",
+      "offroad",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 873,
+    game: "beamng",
+    title: "RLS Automation Test Track Overhaul",
+    category: "maps",
+    version: "0.4.5.01",
+    size: "615 MB",
+    images: [
+      "images/mods/rls-automation-test-track-overhaul-1.jpg",
+      "images/mods/rls-automation-test-track-overhaul-2.jpg",
+      "images/mods/rls-automation-test-track-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/194QgEJa3tp0nM9",
+    short: "Major expansion adding new zones and career mode support.",
+    description: "This project significantly enhances the original map by integrating new districts, roads, and functional facilities designed specifically for compatibility with the RLS Career Overhaul mod. You will find fresh opportunities for gameplay through added infrastructure and specialized delivery missions.\n\n- Features two new river bridges and a large logistics zone south of the airfield.\n- Includes a commercial district, a new gas station, and a functional sawmill.\n- Offers 17 Fast Response Event missions spanning 6 unique mission types.\n- Adds 11 player garages, a dedicated tuning shop, and 4 themed vehicle dealerships.\n- Integrates specific delivery tasks for gold, gemstones, and jewelry using the armored MD-Series.",
+    tags: [
+      "map",
+      "career",
+      "overhaul",
+      "transport"
+    ],
+    featured: true
+  },
+  {
+    id: 874,
+    game: "beamng",
+    title: "Carbonworks F4",
+    category: "cars",
+    version: "1.3.2",
+    size: "101 MB",
+    images: [
+      "images/mods/carbonworks-f4-1.jpg",
+      "images/mods/carbonworks-f4-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2DNJ54O4y7Vyo43",
+    short: "Detailed single-seater race car with adjustable aerodynamics and turbos.",
+    description: "Experience authentic Formula 4 racing with this meticulously crafted single-seater, designed to bridge the gap between karting and professional open-wheel series. The car weighs only 580 kg and features a custom-built Jbeam structure that ensures fully realistic collision physics for every mechanical component.\n\n- Includes two powerful turbo engine options: a 1.2L I3 and a 2.5L I5.\n- Features fully adjustable aerodynamics alongside a turbo lag limiter.\n- Provides on-the-fly brake bias adjustments for precise handling during races.\n- Comes with 10 high-detail liveries and accessible UV maps for creators.\n- Employs a bespoke chassis design that prevents wheels and parts from clipping.",
+    tags: [
+      "formula4",
+      "racecar",
+      "openwheel",
+      "turbo"
+    ],
+    featured: true
+  },
+  {
+    id: 875,
+    game: "beamng",
+    title: "BMW M4 G82 Rework",
+    category: "cars",
+    version: "1.0",
+    size: "459 MB",
+    images: [
+      "images/mods/bmw-m4-g82-rework-1.jpg",
+      "images/mods/bmw-m4-g82-rework-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Cw9M9fQ5H9eBfQp",
+    short: "High quality BMW M4 rework featuring extensive customization options.",
+    description: "This comprehensive rework of the M4 G82 delivers a highly detailed driving experience with a wide array of visual and mechanical enhancements. You get complete control over the aesthetic and performance through a massive selection of parts.\n\n- Features 15 unique configurations to suit different driving styles.\n- Includes a fully animated interior with functional navigation and gauges.\n- Comes equipped with the full Asco body kit and Bravoil decals.\n- Offers deep customization for interior colors and custom wheel sets.\n- Utilizes PBR materials and baked lighting for realistic exterior visuals.\n- Features opening parts and fully functional lighting systems for immersion.",
+    tags: [
+      "bmw",
+      "m4",
+      "sportscar",
+      "tuning",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 876,
+    game: "beamng",
+    title: "Ford Focus II",
+    category: "cars",
+    version: "1.0",
+    size: "192 MB",
+    images: [
+      "images/mods/ford-focus-ii-1.jpg",
+      "images/mods/ford-focus-ii-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7BmY5m4CA5eu500",
+    short: "A mid-quality Ford Focus II featuring seven different configurations.",
+    description: "You get seven unique configurations with this Ford Focus II, making it a versatile choice for your garage. The exterior and interior models are built to a mid-range quality standard, complete with modern PBR materials that react well to lighting. It handles the small details nicely, featuring fully functional lighting, mirrors, and animations for your dashboard, pedals, and gear shifter. You can also customize your driving experience by opening doors, adjusting the window tint, or swapping out the included custom wheels.",
+    tags: [
+      "ford",
+      "hatchback",
+      "sedan",
+      "beamng",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 877,
+    game: "beamng",
+    title: "Lada-2110",
+    category: "cars",
+    version: "1.0",
+    size: "83.4 MB",
+    images: [
+      "images/mods/lada-2110-1-2.jpg",
+      "images/mods/lada-2110-2-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Bgiy3aA8165r0an",
+    short: "High quality Lada rework with extensive interior and tuning options.",
+    description: "This comprehensive overhaul of the Lada-2110 brings incredible detail to one of the game's most iconic budget commuters. You get a fully functional vehicle featuring 49 distinct configurations, including a specialized police variant.\n\n- Features PBR materials with high-quality interior and exterior models.\n- Includes fully opening doors, hood, and trunk compartments.\n- Offers advanced audio components like Pride speakers, subwoofers, and DSP head units.\n- Boasts a starlight headliner that syncs with your low-beam headlights.\n- Provides functional interior lighting, animated pedals, and custom wheel options.",
+    tags: [
+      "lada",
+      "sedan",
+      "tuning",
+      "russian",
+      "rework"
+    ],
+    featured: true
+  },
+  {
+    id: 878,
+    game: "beamng",
+    title: "Subaru Legacy",
+    category: "cars",
+    version: "1.2",
+    size: "98 MB",
+    images: [
+      "images/mods/subaru-legacy-1-2.jpg",
+      "images/mods/subaru-legacy-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2i6ksWsOGs3pSSU",
+    short: "Detailed Subaru Legacy with twelve unique configurations and tuning.",
+    description: "This mid-poly Subaru Legacy brings a high level of detail to the game with its fully functional lighting, mirrors, and opening parts. You get 12 distinct configurations to choose from, all featuring high-quality PBR materials and a detailed engine bay.\n\n- Features an animated dashboard and gear shifter for immersion.\n- Includes custom wheels and various tuning options for customization.\n- Baked lighting textures provide a smooth light-up effect at night.\n- Lighting and optics have been recently rebaked for better visuals.\n- Texture issues and body shading glitches are now fully resolved.",
+    tags: [
+      "subaru",
+      "legacy",
+      "sedan",
+      "jdm",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 879,
+    game: "beamng",
+    title: "BMW 4-Series F32",
+    category: "cars",
+    version: "1.4",
+    size: "502 MB",
+    images: [
+      "images/mods/bmw-4-series-f32-1-2.jpg",
+      "images/mods/bmw-4-series-f32-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Wy4eo2qScuKNCwI",
+    short: "Detailed BMW 4-Series F32 with extensive configuration and customization.",
+    description: "This highly detailed BMW 4-Series F32 features 45 realistic configurations and a fully customized JBEAM for authentic driving physics. You can switch between eight distinct diesel and petrol engines, ranging from the N47 to the powerful V8 swap, each with unique power curves and xHP transmission tuning. The interior is equally impressive, offering functional dashboard lighting, RGB ambient strips, and a configurable starlight headliner.\n\n- Offers six distinct headlight and taillight options including LCI and Snake styles.\n- Includes extensive visual customization with M-Sport bumpers, carbon fiber trims, and various spoilers.\n- Features fully functional opening doors, hood, and trunk.\n- Updated version 1.4 reduces file size to 510 MB and adds a realistic color palette.\n- Provides engine-specific gauges and authentic badge detailing for every variant.",
+    tags: [
+      "bmw",
+      "german",
+      "coupe",
+      "sport",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 880,
+    game: "beamng",
+    title: "Nissan Qashqai (J11) 2013-2019",
+    category: "cars",
+    version: "1.5",
+    size: "210.3 MB",
+    images: [
+      "images/mods/nissan-qashqai-j11-2013-2019-1.jpg",
+      "images/mods/nissan-qashqai-j11-2013-2019-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/61YTZ3PJ0CEBA70",
+    short: "Detailed Nissan Qashqai pack with extensive trim and customization.",
+    description: "Experience incredible detail with this comprehensive Nissan Qashqai pack covering the J11 generation from 2013 through 2019. You get a massive variety of factory-accurate options and functional interactive elements that bring the daily driver experience to life in your garage.\n\n- Includes over 60 distinct configurations and 28 unique skins.\n- Features both pre-facelift and facelift models across all main trim levels.\n- Fully functional interior features like adjustable seats, opening windows, and working parking cameras.\n- Choose between left-hand or right-hand drive layouts to suit your preference.\n- Highly customizable with swappable engine sounds, ignition chimes, and removable badges.",
+    tags: [
+      "nissan",
+      "suv",
+      "crossover",
+      "j11",
+      "daily"
+    ],
+    featured: true
+  },
+  {
+    id: 882,
+    game: "beamng",
+    title: "Ford Mustang GT 2005 – 2009",
+    category: "cars",
+    version: "0.39",
+    size: "58.7 MB",
+    images: [
+      "images/mods/ford-mustang-gt-2005-2009-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/f5evPj35W93gKB5",
+    short: "Modernized 2005-2009 Ford Mustang with improved textures and engines.",
+    description: "Revive the classic American muscle era with this modernized iteration of the 2005-2009 Ford Mustang GT. It features high-fidelity textures that bring the interior and exterior up to modern BeamNG standards. You can experiment with various engine configurations to tailor the power delivery to your specific driving style. Whether you are hitting the track or just cruising, the physics feel much more responsive than the original release.",
+    tags: [
+      "ford",
+      "mustang",
+      "muscle",
+      "car",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 883,
+    game: "beamng",
+    title: "Lamborghini Aventador Ultimate Pack",
+    category: "cars",
+    version: "1.0",
+    size: "38.3 MB",
+    images: [
+      "images/mods/lamborghini-aventador-ultimate-pack-1.jpg",
+      "images/mods/lamborghini-aventador-ultimate-pack-2.jpg",
+      "images/mods/lamborghini-aventador-ultimate-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TGf3oBOtkRnTGAi",
+    short: "The complete Lamborghini Aventador lineup with high-quality engine sounds.",
+    description: "This comprehensive pack brings the iconic V12 Lamborghini Aventador lineage to life with high-fidelity models and authentic mechanical nuances. You get three distinct variants ranging from the refined S trim to the aggressive, track-focused SVJ flagship.\n\n- Features the Aventador S, SV, and record-breaking SVJ models with accurate body kits.\n- Includes a bespoke naturally-aspirated V12 engine with realistic high-revving exhaust crackle.\n- Fully functional scissor doors, engine covers, and a dynamic digital dashboard display.\n- Built with custom JBeam physics to ensure proper weight distribution and realistic crash deformation.\n- Offers factory-accurate OEM wheels including Dione, Dianthus, and Leirion sets.",
+    tags: [
+      "lamborghini",
+      "supercar",
+      "italian",
+      "v12"
+    ],
+    featured: true
+  },
+  {
+    id: 884,
+    game: "beamng",
+    title: "Audi A6/S6/RS6 C6 Type 4F",
+    category: "cars",
+    version: "0.5.3",
+    size: "389.8 MB",
+    images: [
+      "images/mods/audi-a6s6rs6-c6-type-4f-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/k3AVmIqV49vldzg",
+    short: "Highly detailed Audi C6 lineup with extensive customization options.",
+    description: "This comprehensive mod brings the Audi C6 platform to life with an incredible array of 357 configurations, ranging from the standard A6 to the high-performance RS6 Plus. You get a massive amount of factory-accurate detail, including working MMI systems, functional climate controls, and fully animated interior components like pedals and the parking brake.\n\n- Features a wide variety of factory-designed seats, interior trims, and 68 distinct body colors.\n- Includes a fully functional sunroof system with interior sunshade and tilt-slide glass.\n- Offers realistic engine parameters with customizable sounds and a massive selection of 33 wheel options.\n- The 0.5.3 update refines the MMI interactivity, adds functional windshield wipers, and improves the overall J-beam structure.\n- Comes with both sedan and station wagon body styles, featuring model-specific fuel door decals.",
+    tags: [
+      "audi",
+      "sedan",
+      "wagon",
+      "german",
+      "luxury"
+    ],
+    featured: true
+  },
+  {
+    id: 885,
+    game: "beamng",
+    title: "Audi S8 D4",
+    category: "cars",
+    version: "1.0",
+    size: "354.9 MB",
+    images: [
+      "images/mods/audi-s8-d4-1.jpg",
+      "images/mods/audi-s8-d4-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5wovNT9yC1AA350",
+    short: "High quality Audi S8 sedan featuring twenty-four unique configurations.",
+    description: "Experience this luxury sedan with twenty-four different configurations to suit various driving styles. The model features a well-crafted exterior paired with a decent interior layout that maintains decent visual standards for your sessions. You can operate the functional lights and open the doors for added immersion during gameplay.\n\n- Twenty-four distinct vehicle configurations\n- High quality exterior model\n- Functional lighting systems\n- Opening door functionality\n- Includes custom wheels and parts",
+    tags: [
+      "audi",
+      "sedan",
+      "luxury",
+      "car",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 886,
+    game: "beamng",
+    title: "BMW X3 F97",
+    category: "cars",
+    version: "1.5",
+    size: "200 MB",
+    images: [
+      "images/mods/bmw-x3-f97-1.jpg",
+      "images/mods/bmw-x3-f97-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1e5Zr9TeMyN3bdx",
+    short: "Highly customizable BMW X3 SUV with deep tuning options.",
+    description: "This high-quality SUV offers extensive customization options for your garage. With two distinct body kits and eight unique skins, you can dial in the exact aesthetic you prefer. The interior features a detailed digital cluster and two steering wheel choices, while performance can be tweaked through various engine modifications and a custom sound profile.\n\n- Features eight interior color options to match your style\n- Includes three wheel rim types available in four colors\n- Updated textures on the dashboard air vents and rims\n- Red accent lighting added to all interior buttons",
+    tags: [
+      "bmw",
+      "suv",
+      "german",
+      "cars",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 887,
+    game: "beamng",
+    title: "BMW M3 G80/G81 Fix",
+    category: "cars",
+    version: "1.0",
+    size: "110 MB",
+    images: [
+      "images/mods/bmw-m3-g80g81-fix-1.jpg",
+      "images/mods/bmw-m3-g80g81-fix-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1kHm009Q53866V0",
+    short: "A comprehensive fix for the BeamNG BMW M3 mod.",
+    description: "This release cleans up the BMW M3 G80/G81 experience by squashing persistent texture errors and optimizing overall performance. It refines the vehicle's mechanics and visual fidelity through a series of structural and aesthetic adjustments.\n\n- Includes 17 distinct configurations with detailed engine and chassis modeling.\n- Features fully functional navigation screens, lighting, mirrors, and animated interior controls.\n- Implements PBR materials for headlights and textures throughout the build.\n- Resolves previous \"No material\" errors and removes broken configuration files.\n- Updates Jbeam physics data and improves dashboard visual accuracy.",
+    tags: [
+      "bmw",
+      "m3",
+      "sedan",
+      "vehicle",
+      "pbr"
+    ],
+    featured: true
+  },
+  {
+    id: 888,
+    game: "beamng",
+    title: "Sangerhausen German Roadmap",
+    category: "maps",
+    version: "1.0.0.0",
+    size: "2.2 GB",
+    images: [
+      "images/mods/sangerhausen-german-roadmap-1.jpg",
+      "images/mods/sangerhausen-german-roadmap-2.jpg",
+      "images/mods/sangerhausen-german-roadmap-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T7ix61o9v89S2WF",
+    short: "Detailed German city map featuring custom buildings and assets.",
+    description: "Explore this meticulously crafted recreation of Sangerhausen, Germany, featuring custom architecture modeled directly after real-world local landmarks and shops. The project captures the essence of a central German town through unique assets rather than reused game files.\n\n- Features 99 percent custom-built structures including local signs and bus stops.\n- Demands high system specs due to dense object and vegetation placement.\n- Provides a large-scale road network focused on the city center.\n- Includes open permission for users to optimize, improve, or reuse assets.\n- Expect potential AI pathfinding quirks and varying frame rates in urban areas.",
+    tags: [
+      "germany",
+      "map",
+      "city",
+      "realistic",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 889,
+    game: "beamng",
+    title: "Dodge Dart GT/GTS 1968",
+    category: "cars",
+    version: "1.0",
+    size: "226 MB",
+    images: [
+      "images/mods/dodge-dart-gtgts-1968-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1k6232jdX5VCUxB",
+    short: "Highly detailed 1968 Dodge Dart with full performance tuning.",
+    description: "This meticulously crafted Barstow JBeam conversion delivers the 1968 Dodge Dart GT/GTS with an incredible level of mechanical depth. You get authentic engine performance tailored specifically to the Slant Six and V8, complete with unique weights and custom exhaust audio. \n\n- Features authentic 1968-1969 factory colors and extensive interior customization options.\n- Includes a dedicated Barn Find configuration with exclusive worn parts.\n- Offers drift-ready steering setups alongside precisely tuned stock suspension handling.\n- Supports full Career Mode integration with editable part pricing.\n- Dashboard includes functional gauges with accurate low fuel indicators.",
+    tags: [
+      "dodge",
+      "classic",
+      "muscle",
+      "car",
+      "beamng"
+    ],
+    featured: true
+  },
+  {
+    id: 890,
+    game: "beamng",
+    title: "Mercedes-Benz AMG GT Series",
+    category: "cars",
+    version: "1.0",
+    size: "341 MB",
+    images: [
+      "images/mods/mercedes-benz-amg-gt-series-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I3QMqy5DP1m6DgF",
+    short: "Comprehensive collection of high-quality Mercedes-Benz AMG GT variants.",
+    description: "This expansive mod captures the full spirit of the C190 generation, offering everything from the standard GT to the aggressive track-ready Black Series. You get a massive selection of factory-inspired configurations that utilize BeamNG’s soft-body physics to deliver highly realistic handling and crash deformation. The level of detail inside and out is impressive, featuring functional digital displays and fully opening panels.\n\n- High-quality 3D models with detailed PBR textures.\n- Includes Coupe and Cabriolet body styles with colorable interiors.\n- Features custom AMG engine sounds and accurate aerodynamics.\n- Fully operational analog and digital instrument clusters.\n- Optimized JBeam structure for authentic crash physics.",
+    tags: [
+      "mercedes",
+      "amg",
+      "luxury",
+      "german"
+    ],
+    featured: true
+  },
+  {
+    id: 891,
+    game: "beamng",
+    title: "Toyota Land Cruiser 70",
+    category: "cars",
+    version: "1.0",
+    size: "379 MB",
+    images: [
+      "images/mods/toyota-land-cruiser-70-1.jpg",
+      "images/mods/toyota-land-cruiser-70-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LRqWuVyRWFFAT0o",
+    short: "Detailed Toyota Land Cruiser 70 with fifteen customizable vehicle configurations.",
+    description: "This mod brings the legendary Land Cruiser 70 to the game with an impressive level of detail, including 15 unique configurations to choose from. You will notice high-quality modeling across both the exterior and interior, supported by fully PBR-based materials for realistic environmental reflections.\n\n- Features a highly detailed engine bay with a modeled engine.\n- Includes functional interior elements like animated dashboard gauges and pedals.\n- Offers interactive parts such as opening doors and functional mirrors.\n- Comes with custom wheels and various tuning options for customization.\n- Utilizes baked lighting systems for smooth, realistic headlight activation.",
+    tags: [
+      "toyota",
+      "offroad",
+      "suv",
+      "4x4",
+      "japanese"
+    ],
+    featured: true
+  },
+  {
+    id: 892,
+    game: "beamng",
+    title: "Nissan Patrol Nismo UAE4 2018",
+    category: "cars",
+    version: "1.0",
+    size: "81.3 MB",
+    images: [
+      "images/mods/nissan-patrol-nismo-uae4-2018-1-2.jpg",
+      "images/mods/nissan-patrol-nismo-uae4-2018-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KMK4vr6IReyKuhq",
+    short: "High-quality 2018 Nissan Patrol Nismo with fully functional features.",
+    description: "This mod brings the 2018 Nissan Patrol Nismo UAE4 to life with impressive attention to detail and full functionality. You get a highly authentic driving experience thanks to the intricate engine work and high-fidelity textures.\n\n- Features 3 unique vehicle configurations for variety.\n- Includes high-quality exterior and interior 3D models.\n- Fully animated dashboard, pedals, and gear selector.\n- Functional navigation system paired with a rear-view camera.\n- Opening parts, window tinting, and interior interaction triggers.",
+    tags: [
+      "nissan",
+      "patrol",
+      "nismo",
+      "suv",
+      "4x4"
+    ],
+    featured: true
+  },
+  {
+    id: 893,
+    game: "beamng",
+    title: "Audi A S RS7 (4K8/C8)",
+    category: "cars",
+    version: "0.39",
+    size: "332 MB",
+    images: [
+      "images/mods/audi-a-s-rs7-4k8c8-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Nq82m12E02XwuYA",
+    short: "High-quality Audi RS7 with active aerodynamics and functional interior.",
+    description: "Experience high-fidelity German engineering with this detailed Audi RS7 recreation, featuring PBR materials throughout the interior and exterior. The model includes an intricate engine bay and a fully functional dashboard that brings the luxury experience to life.\n\n- Includes 16 unique configurations with extensive customization options.\n- Features active aerodynamics like a deployable spoiler and sequential signals.\n- Fully interactive cabin with clickable triggers for radio, windows, and cruise.\n- Sophisticated rear-axle steering system that remains active up to 55 km/h.\n- Advanced ADAS driver assistance systems tied specifically to Comfort mode.",
+    tags: [
+      "audi",
+      "rs7",
+      "luxury",
+      "sedan",
+      "german"
+    ],
+    featured: true
+  },
+  {
+    id: 894,
+    game: "beamng",
+    title: "Nissan Skyline R32",
+    category: "cars",
+    version: "1.0",
+    size: "332 MB",
+    images: [
+      "images/mods/nissan-skyline-r32-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h0bdFTF2Vj525B7",
+    short: "High quality Nissan Skyline R32 with extensive tuning options.",
+    description: "This mod brings the iconic R32 to the game with both sedan and coupe body styles available. You get a highly detailed experience ranging from the engine bay to the interior, featuring a fully animated dashboard, pedals, and gear shifter.\n\n- Includes 30 distinct configurations to choose from.\n- Features PBR materials for realistic paint and lighting.\n- Fully functional mirrors, lights, and openable doors.\n- Custom engine audio provides an authentic driving experience.\n- Requires the Brdracing Wheel Pack for custom wheels.",
+    tags: [
+      "nissan",
+      "skyline",
+      "r32",
+      "jdm",
+      "drifting"
+    ],
+    featured: true
+  },
+  {
+    id: 895,
+    game: "beamng",
+    title: "Mercedes-Benz CLS Class C218 Restyling",
+    category: "cars",
+    version: "3.1.1",
+    size: "589 MB",
+    images: [
+      "images/mods/mercedes-benz-cls-class-c218-restyling-1.jpg",
+      "images/mods/mercedes-benz-cls-class-c218-restyling-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/06XJX0IZfLVa9DZ",
+    short: "Detailed Mercedes C218 mod featuring interactive parts and PBR.",
+    description: "This comprehensive pack brings the full C218, W218, and X218 lineup to the game with an impressive focus on functional interior details and build quality. Every surface benefits from a full PBR material overhaul, ensuring that the classic Mercedes lines look sharp under any lighting condition.\n\n- Features 134 distinct configurations and 28 unique skins.\n- Includes fully animated interior controls like pedals, stalks, and gauges.\n- Offers interactive triggers for sunroofs, seat adjustments, and folding mirrors.\n- Built on a 100% Jbeam structure with realistic physics and weight.\n- Includes specialized AIRMATIC air suspension and AMG ride control options.",
+    tags: [
+      "mercedes",
+      "luxury",
+      "sedan",
+      "pbr",
+      "jbeam"
+    ],
+    featured: true
+  },
+  {
+    id: 896,
+    game: "beamng",
+    title: "JDM Altezza Sport Sedan – Stock, Drift & Police Pack",
+    category: "cars",
+    version: "1.0",
+    size: "169 MB",
+    images: [
+      "images/mods/jdm-altezza-sport-sedan-stock-drift-police-pack-1.jpg",
+      "images/mods/jdm-altezza-sport-sedan-stock-drift-police-pack-2.jpg",
+      "images/mods/jdm-altezza-sport-sedan-stock-drift-police-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8X2HJ0y4oSogiE4",
+    short: "A versatile JDM sedan pack featuring drift and police variants.",
+    description: "Experience this faithful recreation of a classic JDM-style sport sedan, featuring the iconic body lines of the Toyota Altezza and Lexus IS300. Every version is tuned specifically for the engine's soft-body physics, ensuring authentic weight transfer and handling characteristics.\n\n- Features three distinct configurations: a clean Stock Street edition, two race-ready Drift variants, and a Japanese Police Interceptor.\n- Drift models come equipped with roll cages, wide front lips, and sponsor-style liveries for mountain touge runs.\n- The Police Interceptor includes a functional roof-mounted light bar and custom rear light cluster detailing.\n- Utilizes OEM+ alloy wheels and factory-inspired bumpers to capture an authentic tuner aesthetic.",
+    tags: [
+      "jdm",
+      "sedan",
+      "drift",
+      "police",
+      "toyota"
+    ],
+    featured: true
+  },
+  {
+    id: 897,
+    game: "beamng",
+    title: "Ibishu Skyline R32 Street & Drift Pack",
+    category: "cars",
+    version: "1.2",
+    size: "190 MB",
+    images: [
+      "images/mods/ibishu-skyline-r32-street-drift-pack-1.jpg",
+      "images/mods/ibishu-skyline-r32-street-drift-pack-2.jpg",
+      "images/mods/ibishu-skyline-r32-street-drift-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3k2CjMif63KW1q9",
+    short: "Legendary 90s Japanese coupe tuned for drift and street.",
+    description: "Experience the raw power of a classic 1990s JDM legend reimagined for your favorite scenarios. This pack focuses on performance handling, providing a specialized setup that feels right at home whether you are hitting the touge or burning rubber on a drift circuit.\n\n- Choose between street, drift, and high-speed racing configurations.\n- Custom body kits include aggressive aero parts and a signature large rear spoiler.\n- Highly detailed interior and exterior models feature functional lights and opening doors.\n- Performance is backed by tuned suspension setups and upgraded engine specs.\n- Includes a wide variety of paint finishes and unique racing livery options.",
+    tags: [
+      "jdm",
+      "drift",
+      "sports car",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 898,
+    game: "beamng",
+    title: "Mercedes-Benz C63 W204 Edit",
+    category: "cars",
+    version: "1.0",
+    size: "322 MB",
+    images: [
+      "images/mods/mercedes-benz-c63-w204-edit-1.jpg",
+      "images/mods/mercedes-benz-c63-w204-edit-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fePErq9v7g2v6kK",
+    short: "Detailed Mercedes C63 W204 with functional interior and tuning.",
+    description: "This Mercedes-Benz C63 W204 package delivers a highly detailed driving experience featuring 15 unique configurations and authentic custom engine sounds. You get a fully interactive interior equipped with functional navigation, working mirrors, and opening parts that add a great layer of immersion. The technical foundation relies on high-quality PBR materials and solid Jbeam construction for realistic deformation physics.\n\n- Includes 15 distinct configurations and various tuning options.\n- Features high-quality interior/exterior models with baked lighting.\n- Equipped with a fully functional navigation system and mirrors.\n- Built with a robust Jbeam structure and custom wheel assets.",
+    tags: [
+      "mercedes",
+      "c63",
+      "german",
+      "sedan",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 899,
+    game: "beamng",
+    title: "Mercedes-Benz M-Class W164",
+    category: "cars",
+    version: "1.5",
+    size: "432 MB",
+    images: [
+      "images/mods/mercedes-benz-m-class-w164-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e24aI02Q223fQAu",
+    short: "Detailed Mercedes SUV featuring multiple engines and high-quality parts.",
+    description: "This comprehensive W164 package offers sixteen unique configurations and a highly accurate driving experience. You get a massive variety of powertrains ranging from the OM642 3.0 V6 diesels to the powerful M156 6.2 V8 found in the ML63.\n\n- Features high-quality PBR materials for both the exterior and interior.\n- Includes functional navigation, opening parts, and fully animated pedals.\n- Realistic suspension geometry provides precise force feedback during handling.\n- Engine bay and engine models are detailed for maximum visual impact.\n- Version 1.5 adds authentic diesel instrument clusters and fixed headlight lighting.",
+    tags: [
+      "mercedes",
+      "suv",
+      "german",
+      "luxury",
+      "diesel"
+    ],
+    featured: true
+  },
+  {
+    id: 900,
+    game: "beamng",
+    title: "Uralsk",
+    category: "maps",
+    version: "1.2.1",
+    size: "1.86 GB",
+    images: [
+      "images/mods/uralsk-1.jpg",
+      "images/mods/uralsk-2.jpg",
+      "images/mods/uralsk-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z4O7U61mRNaO8sM",
+    short: "Detailed Russian urban map featuring improved traffic and fixes.",
+    description: "Navigate this immersive Russian-themed city map designed with great attention to environmental detail. The latest update significantly enhances the traffic system, allowing AI vehicles to pathfind across a much larger portion of the city streets.\n\n- Fixed incorrect track markings located on the drift course.\n- Cleared vegetation clipping by removing grass from the sidewalks.\n- Restored missing trees that were accidentally deleted in older versions.",
+    tags: [
+      "russian",
+      "map",
+      "city",
+      "driving",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 901,
+    game: "beamng",
+    title: "Lada Granta Sport",
+    category: "cars",
+    version: "1.0",
+    size: "250 MB",
+    images: [
+      "images/mods/lada-granta-sport-1.jpg",
+      "images/mods/lada-granta-sport-2.jpg",
+      "images/mods/lada-granta-sport-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/g732eN1G97329bD",
+    short: "A high-quality Lada Granta Sport with sixty-eight unique configurations.",
+    description: "This mod brings the Lada Granta Sport into your garage with a high-fidelity exterior and interior finish. You get 68 distinct configurations to play with, supported by PBR materials and a fully detailed engine bay.\n\n- Animated interior components include the dashboard, pedals, gearshift, and handbrake.\n- Functional features consist of working lights, mirrors, and a navigation screen.\n- The model includes fully openable doors and interactive interior triggers.\n- Customize your ride using a variety of included tuning parts and custom wheels.",
+    tags: [
+      "lada",
+      "sedan",
+      "russian",
+      "tuning",
+      "car"
+    ],
+    featured: true
   }
 ];
 
