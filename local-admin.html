@@ -246,36 +246,45 @@
 
     // Rebuilding the <select> via innerHTML always leaves the browser showing
     // the first <option> until something explicitly sets .value - for beamng
-    // that's "boats", alphabetically first in CATEGORIES. If `preferred` came
-    // from the AI and doesn't match a key exactly (wrong case, "car" instead
-    // of "cars", the human label instead of the key...), it used to fail
-    // silently and leave a random car mod filed under Boats. Now it tries a
-    // normalized/label match first, and falls back to "other" (a real
-    // "unsure" state) instead of whatever key happens to sort first.
+    // that's "boats", alphabetically first in CATEGORIES. `preferred` can be
+    // a clean key, but it can also be whatever loose text the AI wrote for
+    // CATEGORY - "cars (Cars)", "cars - clearly a sports car", extra
+    // capitalization, punctuation, etc. Rather than guessing every format the
+    // AI might use, resolution goes from strict to fuzzy: exact key, then
+    // normalized-slug key, then exact label, then (last resort) a whole-word
+    // search for any key or label anywhere in the raw text. Only if none of
+    // that finds anything does it fall back to "other"/"miscellaneous" - a
+    // real "unsure" state - instead of whatever key happens to sort first.
     function updateCategories(preferred) {
       const game = $("game").value;
       const cats = state.categories[game] || {};
       $("category").innerHTML = Object.entries(cats)
         .map(([key, label]) => `<option value="${key}">${label}</option>`)
         .join("");
-      // Guard against callers passing "key (Label)" straight through (e.g. the
-      // AI echoing the prompt's "key (Label)" format). Only strip parens here,
-      // not whitespace - some real category labels are multi-word ("User
-      // Interface") and are matched by full label further down.
-      if (preferred) preferred = String(preferred).replace(/\(.*?\)/g, "").trim();
+      const raw = String(preferred || "").trim();
+      const cleaned = raw.toLowerCase().replace(/\(.*?\)/g, "").trim();
       let resolved = "";
-      if (preferred) {
-        if (cats[preferred]) {
-          resolved = preferred;
+      if (cleaned) {
+        if (cats[cleaned]) {
+          resolved = cleaned;
         } else {
-          const normalized = slugCategoryName(preferred);
+          const normalized = slugCategoryName(cleaned);
           if (cats[normalized]) {
             resolved = normalized;
           } else {
-            const byLabel = Object.entries(cats).find(([, label]) => label.toLowerCase() === preferred.toLowerCase());
+            const byLabel = Object.entries(cats).find(([, label]) => label.toLowerCase() === cleaned.toLowerCase());
             if (byLabel) resolved = byLabel[0];
           }
         }
+      }
+      if (!resolved && raw) {
+        const haystack = raw.toLowerCase();
+        const escapeRe = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const hit = Object.entries(cats).find(([key, label]) => {
+          const keyRe = new RegExp(`\\b${escapeRe(key.toLowerCase())}\\b`);
+          return keyRe.test(haystack) || haystack.includes(label.toLowerCase());
+        });
+        if (hit) resolved = hit[0];
       }
       if (!resolved) resolved = cats.other ? "other" : (cats.miscellaneous ? "miscellaneous" : "");
       if (resolved) $("category").value = resolved;
@@ -412,19 +421,16 @@ ${$("rawText").value.trim()}`;
         const markers = ["TITLE", "GAME", "CATEGORY", "VERSION", "DESCRIPTION", "SHORT", "TAGS"];
         const title = readMarker(data.text, "TITLE", markers);
         const game = readMarker(data.text, "GAME", markers).toLowerCase();
-        // Category keys are always a single token (letters/digits/dashes, no
-        // spaces - see CATEGORIES in mods.js). The AI sometimes echoes the
-        // prompt's "key (Label)" format or tacks on a short explanation after
-        // the key (e.g. "cars (Cars)" or "cars - this is clearly a sports
-        // car"), so only keep the first whitespace/comma-delimited token.
-        const category = readMarker(data.text, "CATEGORY", markers).toLowerCase().replace(/\(.*?\)/g, "").trim().split(/[\s,]+/)[0] || "";
+        // Pass the raw CATEGORY text through untouched - updateCategories()
+        // does the strict-to-fuzzy matching itself, since the AI's format
+        // varies ("cars", "cars (Cars)", "cars - clearly a sports car"...).
+        const category = readMarker(data.text, "CATEGORY", markers);
         if (title) $("title").value = title;
         if (state.games[game]) {
           $("game").value = game;
           updateCategories(category);
         } else if (category) {
-          const normalized = slugCategoryName(category);
-          updateCategories(normalized);
+          updateCategories(category);
         }
         const version = readMarker(data.text, "VERSION", markers);
         const description = readMarker(data.text, "DESCRIPTION", markers);

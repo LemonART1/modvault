@@ -19320,6 +19320,29 @@ const MODS = [
     ],
     featured: true
   },
+  {
+    id: 870,
+    game: "beamng",
+    title: "AW T-Wagen 1990-1999",
+    category: "cars",
+    version: "1.5",
+    size: "243 MB",
+    images: [
+      "images/mods/aw-t-wagen-1990-1999-1.jpg",
+      "images/mods/aw-t-wagen-1990-1999-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/76Wcr3CMkZ2hRt4",
+    short: "A comprehensive restoration of the classic T-Wagen off-road vehicle.",
+    description: "This classic off-roader overhaul brings the 1990-1999 model into the modern era with significant mechanical and aesthetic upgrades. You get full utility out of the custom interior and exterior parts, making it feel much more grounded and capable on the trails.\n\n- Features a new 6-speed automatic transmission for smoother power delivery.\n- Includes a functional snorkel, grille-mounted fog lights, and a roof rack.\n- Integrated locking differential with dedicated interior switches for off-road control.\n- Updated lighting system utilizing the latest BeamNG technology, including LED facelift options.\n- The overhead console is fully functional with various interactive cabin switches.",
+    tags: [
+      "offroad",
+      "classic",
+      "suvs",
+      "beamng",
+      "cars"
+    ],
+    featured: true
+  }
 ];
 
 const CATEGORIES = {
