@@ -19579,7 +19579,7 @@ const MODS = [
     game: "beamng",
     title: "Ford Mustang GT 2005 – 2009",
     category: "cars",
-    version: "0.39",
+    version: "1.0",
     size: "58.7 MB",
     images: [
       "images/mods/ford-mustang-gt-2005-2009-1.jpg"
@@ -19828,7 +19828,7 @@ const MODS = [
     game: "beamng",
     title: "Audi A S RS7 (4K8/C8)",
     category: "cars",
-    version: "0.39",
+    version: "1.0",
     size: "332 MB",
     images: [
       "images/mods/audi-a-s-rs7-4k8c8-1.jpg"
