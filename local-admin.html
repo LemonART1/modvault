@@ -440,7 +440,13 @@ ${$("rawText").value.trim()}`;
         if (description) $("description").value = description;
         if (short) $("short").value = short;
         if (tags) $("tags").value = capTags(tags.toLowerCase());
-        setStatus($("aiStatus"), `Done via ${data.model}. Check fields before saving.`, "ok");
+        // Show exactly what the AI sent for GAME/CATEGORY and what got picked,
+        // so a wrong category dropdown can be diagnosed from the status line
+        // alone instead of needing devtools.
+        const debugBits = [];
+        if (!state.games[game]) debugBits.push(`AI game text: "${readMarker(data.text, "GAME", markers)}" (not recognized)`);
+        debugBits.push(`AI category text: "${category}" -> picked "${$("category").value}"`);
+        setStatus($("aiStatus"), `Done via ${data.model}. ${debugBits.join(" | ")} Check fields before saving.`, "ok");
       } catch (error) {
         setStatus($("aiStatus"), `AI error: ${error.message}`, "bad");
       } finally {
