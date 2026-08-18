@@ -475,6 +475,75 @@ async function handleModHub(req, res) {
   send(res, 200, { ok: true, name, description, images, downloadUrl, size, game: "beamng" });
 }
 
+// acmods.net has no Cloudflare challenge either, so it scrapes the same way
+// as GTA5-Mods/ModHub. Unlike those two, though, it never hosts the file
+// itself - the "Download" button just points wherever the original creator
+// put it (Patreon, Gumroad, Mediafire, a random personal site, etc.), so
+// there's no single consistent link to resolve. That link is only returned
+// as `sourceLink` for the admin UI to show as a reference - the user still
+// has to click through, download it themselves and reupload to modsfire,
+// same as they already do for GTA5-Mods.
+async function handleAcMods(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  const match = url.match(/acmods\.net\/[a-z0-9-]+\/[a-z0-9-]+/i);
+  if (!match) throw new Error("Invalid AC Mods URL. Expected: acmods.net/{category}/{slug}");
+  const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+  const pageRes = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" }, signal: AbortSignal.timeout(20000) });
+  if (!pageRes.ok) throw new Error(`AC Mods page returned ${pageRes.status}.`);
+  const html = await pageRes.text();
+
+  const name = decodeEntities((html.match(/<h1 class="entry-title">([^<]*)<\/h1>/i) || [])[1] || "").trim();
+  if (!name) throw new Error("Could not read the mod title from the page.");
+
+  // The write-up lives in .entry-content, but that same container also wraps
+  // the download button and a row of social links further down - stop at the
+  // button block so none of that leaks into the AI's raw text.
+  const contentMatch = html.match(/class="entry-content single-content">([\s\S]*?)<div[^>]*class="[^"]*\bub-buttons\b/i);
+  const rawContent = contentMatch ? contentMatch[1] : html;
+  const description = decodeEntities(
+    rawContent
+      .replace(/<li[^>]*>/gi, "\n- ")
+      .replace(/<\/(p|h[1-6])>/gi, "\n\n")
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<[^>]+>/g, "")
+  ).replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
+
+  // Every post has exactly one hero image, and WordPress's lazy-load plugin
+  // replaces the real <img src> with a 1x1 base64 placeholder (the real URL
+  // only shows up in a <noscript> fallback, and not reliably at full size -
+  // sometimes only a resized "-WxH" variant exists). og:image is always the
+  // real, best-available version, so it's the only source used here.
+  const ogImage = (html.match(/property="og:image" content="([^"]*)"/i) || [])[1];
+  const imageUrls = ogImage ? [ogImage] : [];
+
+  // The download button lives just past where rawContent was cut off, so it
+  // has to be found in the full html instead.
+  const skipHost = /facebook\.com|twitter\.com|x\.com|discord\.gg|discord\.com|instagram\.com|youtube\.com|twitch\.tv|acmods\.net/i;
+  const btnBlock = (html.match(/\bub-buttons\b[\s\S]{0,800}/i) || [""])[0];
+  let sourceLink = "";
+  for (const m of btnBlock.matchAll(/href="(https?:\/\/[^"]+)"/gi)) {
+    if (skipHost.test(m[1])) continue;
+    sourceLink = m[1];
+    break;
+  }
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, { headers: { "User-Agent": UA, Referer: url }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) return null;
+      const ct = r.headers.get("content-type") || "";
+      if (!ct.startsWith("image/")) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+
+  send(res, 200, { ok: true, name, description, images, sourceLink, game: "ac" });
+}
+
 // Factorio mod descriptions are Markdown, and popular mods often open with a
 // row of shields.io badge images and donate links. Strip all of that down to
 // plain prose so Gemini gets clean input instead of markup noise.
@@ -758,6 +827,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/modhub") {
       await handleModHub(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/acmods") {
+      await handleAcMods(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/modsfire-recent") {

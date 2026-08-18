@@ -118,6 +118,18 @@
 
     <div class="panel card">
       <div class="field">
+        <label for="acmodsUrl">AC Mods URL</label>
+        <input id="acmodsUrl" placeholder="https://acmods.net/cars/assetto-corsa-bmw-m5-e60-supercharged/">
+      </div>
+      <div class="actions">
+        <button id="acmodsBtn" type="button">Import from AC Mods</button>
+        <span class="hint">Заберёт название, описание и картинку, запустит AI. acmods.net не хостит файлы сам - ссылку на реальный файл (Patreon/Mediafire/Gumroad/etc) покажет в статусе, скачивать и заливать на modsfire всё равно вручную.</span>
+      </div>
+      <div class="status" id="acmodsStatus">Вставь URL мода AC Mods и нажми Import.</div>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
         <label for="rawText">AI raw text</label>
         <textarea id="rawText" placeholder="Вставь сюда грязное описание мода. ИИ заполнит title, game, category, version, short, description и tags."></textarea>
       </div>
@@ -630,6 +642,50 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function importAcMods() {
+      const url = $("acmodsUrl").value.trim();
+      if (!url) { setStatus($("acmodsStatus"), "Вставь URL мода AC Mods.", "bad"); return; }
+      $("acmodsBtn").disabled = true;
+      setStatus($("acmodsStatus"), "Загружаю данные с acmods.net...");
+      try {
+        const response = await fetch("/api/acmods", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        $("rawText").value = [data.name, data.description].filter(Boolean).join("\n\n");
+        if (data.game && state.games[data.game]) { $("game").value = data.game; updateCategories(); }
+
+        if (data.images && data.images.length) {
+          try {
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
+          } catch (_) { /* images optional */ }
+        }
+
+        const linkNote = data.sourceLink ? ` Файл тут: ${data.sourceLink}` : "";
+        setStatus($("acmodsStatus"), `Загружено: ${data.name}. Запускаю AI...${linkNote}`, "ok");
+        await runAi();
+        // acmods.net is Assetto Corsa only, but Gemini only sees the raw
+        // title/description text and can still guess a different game from
+        // it. The source is authoritative here, so re-apply it after runAi()
+        // - but only rebuild the category list (which wipes the current
+        // selection) if the game actually needs to change, same fix as the
+        // ModHub importer.
+        if (data.game && state.games[data.game] && $("game").value !== data.game) {
+          $("game").value = data.game;
+          updateCategories();
+        }
+      } catch (error) {
+        setStatus($("acmodsStatus"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("acmodsBtn").disabled = false;
+      }
+    }
+
     async function importFactorio() {
       const url = $("factorioUrl").value.trim();
       if (!url) { setStatus($("factorioStatus"), "Вставь URL мода Factorio.", "bad"); return; }
@@ -728,6 +784,7 @@ ${$("rawText").value.trim()}`;
     $("gta5Btn").addEventListener("click", importGta5);
     $("factorioBtn").addEventListener("click", importFactorio);
     $("modhubBtn").addEventListener("click", importModHub);
+    $("acmodsBtn").addEventListener("click", importAcMods);
     $("modsfireBtn").addEventListener("click", loadModsfireList);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.
@@ -860,6 +917,9 @@ ${$("rawText").value.trim()}`;
       } else if (payload.source === "modhub") {
         $("modhubUrl").value = payload.url;
         await importModHub();
+      } else if (payload.source === "acmods") {
+        $("acmodsUrl").value = payload.url;
+        await importAcMods();
       }
     }
 
