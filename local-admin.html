@@ -613,8 +613,16 @@ ${$("rawText").value.trim()}`;
         // ModHub only ever hosts BeamNG mods, but Gemini only sees the raw
         // title/description text and can still guess a different game from
         // it (e.g. a real-world track name reads as Assetto Corsa content).
-        // The source is authoritative here, so re-apply it after runAi().
-        if (data.game && state.games[data.game]) { $("game").value = data.game; updateCategories(); }
+        // The source is authoritative here, so re-apply it after runAi() -
+        // but only rebuild the category list (which wipes the current
+        // selection) if the game actually needs to change. Calling
+        // updateCategories() with no argument here used to unconditionally
+        // reset a correctly AI-picked category (e.g. "cars") back to the
+        // generic "other" fallback, even when the game was already right.
+        if (data.game && state.games[data.game] && $("game").value !== data.game) {
+          $("game").value = data.game;
+          updateCategories();
+        }
       } catch (error) {
         setStatus($("modhubStatus"), `Ошибка: ${error.message}`, "bad");
       } finally {
