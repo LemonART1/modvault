@@ -21485,6 +21485,467 @@ const MODS = [
       "outfits"
     ],
     featured: true
+  },
+  {
+    id: 968,
+    game: "ac",
+    title: "Toyota Supra Time Attack",
+    category: "cars",
+    version: "1.0",
+    size: "183 MB",
+    images: [
+      "images/mods/toyota-supra-time-attack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Io0i4WBl125a8V0",
+    short: "A high-performance Toyota Supra built for professional time attack.",
+    description: "Experience a purpose-built time attack machine that brings precise handling and authentic Japanese performance to your Assetto Corsa garage. This release focuses on high-fidelity visuals and mechanical realism, ensuring every lap feels as intense as the real thing.\n\n- Features detailed ambient occlusion shading for realistic interior and exterior depth.\n- Includes a fully functional, authentic dashboard layout for total cockpit immersion.\n- Offers a comprehensive physics overhaul designed specifically for aggressive time attack cornering.\n- Fully optimized for Custom Shaders Patch to utilize advanced lighting and reflections.\n- Comes with realistic driver animations and a custom panoramic session start configuration.",
+    tags: [
+      "toyota",
+      "supra",
+      "timeattack",
+      "jdm",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 969,
+    game: "ac",
+    title: "Toyota Mark II 1997 Tourer V",
+    category: "cars",
+    version: "1",
+    size: "109 MB",
+    images: [
+      "images/mods/toyota-mark-ii-1997-tourer-v-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/R0fVE19HpsTPWg1",
+    short: "A clean, uncrypted base model of the classic JDM sedan.",
+    description: "This clean base version of the iconic JDM sedan gives you a solid foundation for driving in Assetto Corsa. MacedoSTI developed this release as an uncrypted project, meaning you are free to modify the files for your own personal touch. While it provides a great baseline, keep an eye out for future updates that promise to flesh out the driving experience significantly.\n\n- Features a clean, base-level model ready for further community customization.\n- Fully uncrypted file structure allows enthusiasts to perform their own edits.\n- Upcoming V2 updates will include a manual transmission and TRD dashboard.\n- Future patches aim to add functional door animations and engine models.\n- Developers are optimizing a low-resolution cockpit for better performance on systems.",
+    tags: [
+      "toyota",
+      "jdm",
+      "sedan",
+      "drift",
+      "assetto corsa"
+    ],
+    featured: true
+  },
+  {
+    id: 970,
+    game: "ac",
+    title: "Porsche 911 (996) GT3 Track",
+    category: "cars",
+    version: "1.0",
+    size: "129 MB",
+    images: [
+      "images/mods/porsche-911-996-gt3-track-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0E8OT2wnY0Q5vZ1",
+    short: "Authentic Porsche 996 GT3 racing experience for Assetto Corsa.",
+    description: "Peter Crill brings the legendary 996 GT3 to life with this high-fidelity simulation designed for competitive circuit racing. It captures the raw spirit of the classic racing machine through a series of precision enhancements.\n\n- Detailed ambient occlusion mapping applied to both interior and exterior surfaces.\n- A fully functional, authentic dashboard layout for total cockpit immersion.\n- Custom physics tuned to replicate the specific handling of the 996 platform.\n- Integrated support for Custom Shaders Patch to boost lighting and reflections.\n- Realistic driver animations and a custom panoramic session start configuration included.",
+    tags: [
+      "porsche",
+      "911",
+      "gt3",
+      "track",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 971,
+    game: "ac",
+    title: "FUMI Car Pack",
+    category: "cars",
+    version: "1.0",
+    size: "1.25 GB",
+    images: [
+      "images/mods/fumi-car-pack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jxZvg8K8KK0aP6S",
+    short: "A drift car pack featuring WDTS physics for AC.",
+    description: "Experience a curated collection of vehicles specifically modeled after cars frequently spotted on French tracks and drift training sessions. This pack utilizes the popular WDTS physics engine to ensure a realistic handling experience tailored for both experienced simracers and newcomers to the drift scene.\n\n- Built on high-quality WDTS physics for authentic handling.\n- Focused on diverse vehicle styles common in French drifting.\n- Designed to make simracing accessible for real-world drifters.\n- All specific creator credits are included within each vehicle file.",
+    tags: [
+      "drift",
+      "ac",
+      "cars",
+      "wdts",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 972,
+    game: "ac",
+    title: "Nissan 240sx",
+    category: "cars",
+    version: "1.0",
+    size: "110 MB",
+    images: [
+      "images/mods/nissan-240sx-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/C03VR51GIHA3Vuk",
+    short: "A high-performance drift machine built for Assetto Corsa sliding.",
+    description: "If you are looking for a dedicated drift machine, this 240sx build from Night Runners feels incredibly responsive on the track. It packs a solid punch with 333hp and 400nm of torque, making it perfectly tuned for linking corners with ease. The handling is specifically balanced to make transitions feel natural, whether you are a beginner or a veteran drifter. You will find it holds angles surprisingly well during high-speed slides.",
+    tags: [
+      "nissan",
+      "drift",
+      "jdm",
+      "racing",
+      "240sx"
+    ],
+    featured: true
+  },
+  {
+    id: 973,
+    game: "ac",
+    title: "Corvette C5 Pandem Pack",
+    category: "cars",
+    version: "1.0",
+    size: "418 MB",
+    images: [
+      "images/mods/corvette-c5-pandem-pack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m5OMCzsNSHLoyiY",
+    short: "High performance Corvette C5 Pandem pack for Assetto Corsa.",
+    description: "This pack features three distinct Corvette C5 Pandem variants including a street-focused touge setup and two drift-oriented builds with optional supercharging. You get massive performance scaling and extensive customization options tailored for competitive drift scenes.\n\n- Multiple ECU maps are available for every vehicle to fine-tune your power delivery.\n- Full CSP support is included, featuring refracting lights, functional dash icons, and odometer/trip displays.\n- Compatibility for rain racing is built-in with proper wiper animations and rain tyres.\n- You can swap between over ten different wheel sets and dynamic tyre textures that update based on your pit-selected compound.\n- Interactive extras allow you to toggle interior lighting, raise or lower side windows, and trigger specific audio animations.",
+    tags: [
+      "corvette",
+      "drift",
+      "pandem",
+      "jdm",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 974,
+    game: "ac",
+    title: "Ford Mustang V8 GT",
+    category: "cars",
+    version: "1.0",
+    size: "47.0 MB",
+    images: [
+      "images/mods/ford-mustang-v8-gt-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QxBp7V0spah2A6I",
+    short: "Authentic Ford Mustang with high quality physics and details.",
+    description: "This classic Ford Mustang V8 GT features full ambient occlusion detailing both inside and out for a premium aesthetic. You get a completely realistic dashboard and refined physics handled by VRDRIVING for an authentic driving experience on the track.\n\n- Custom CSP settings included for optimized graphical performance\n- Fully functional driver animations for a more immersive feel\n- Special panoramic session start configuration by Daniel Nogal\n- Developed by Peter Crill with attention to authentic muscle car handling",
+    tags: [
+      "ford",
+      "mustang",
+      "muscle car",
+      "drift",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 975,
+    game: "ac",
+    title: "BMW E36 compact 30i",
+    category: "cars",
+    version: "1.0",
+    size: "202 MB",
+    images: [
+      "images/mods/bmw-e36-compact-30i-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/31B57hw5VCur6h6",
+    short: "A highly detailed BMW E36 compact for your garage.",
+    description: "This meticulously crafted BMW E36 compact 30i build by TIResArpi brings a fantastic driving experience to Assetto Corsa. It stays true to real-life handling characteristics right out of the box with the default setup. You get plenty of customization options for your setup, including toggles for a functional LED light bar, underglow, a rear ducktail spoiler, and side window adjustments. The build is fully rain-ready and features extended physics along with proper CSP wiper animations.\n\n- Authentic handling based on real-life vehicle characteristics.\n- Includes Kunos and Kumho 160TW tire compounds.\n- Interactive extras for LED bars, underglow, and aero parts.\n- Fully compatible with rain effects and CSP wiper logic.",
+    tags: [
+      "bmw",
+      "drift",
+      "e36",
+      "racing",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 976,
+    game: "ac",
+    title: "Mazda RX-8 Type-S",
+    category: "cars",
+    version: "1.0",
+    size: "47.0 MB",
+    images: [
+      "images/mods/mazda-rx-8-type-s-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/445zS9Nx5QSyq8u",
+    short: "Detailed Mazda RX-8 Type-S featuring realistic physics and animations.",
+    description: "This recreation of the Mazda RX-8 Type-S brings a high level of detail to the track, complete with comprehensive ambient occlusion both inside and out. The interior is fully functional with a realistic dashboard and driver animations that make cockpit views feel authentic.\n\n- Includes custom CSP settings for improved visual effects.\n- Features tailored physics configurations for a true-to-life driving feel.\n- Performance is optimized with updated LODs and a refined collider.kn5 file.\n- The cockpit has been upgraded to a high-resolution version for better fidelity.\n- Includes a panoramic session start configuration provided by Daniel Nogal.",
+    tags: [
+      "mazda",
+      "rx8",
+      "jdm",
+      "sports car",
+      "ac mod"
+    ],
+    featured: true
+  },
+  {
+    id: 977,
+    game: "ac",
+    title: "Mini John Cooper Works GP",
+    category: "cars",
+    version: "1.0",
+    size: "50.8 MB",
+    images: [
+      "images/mods/mini-john-cooper-works-gp-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/o0CQZF0lhMbSs0f",
+    short: "Agile Mini JCW GP featuring realistic physics and animations.",
+    description: "Experience the agility of the Mini John Cooper Works GP in Assetto Corsa with this high-quality model. It features a detailed realistic dashboard and comprehensive ambient occlusion effects both inside and out.\n\n- Includes fully custom physics for authentic handling.\n- Optimized for Custom Shader Patch settings.\n- Features fluid driver animations for immersive steering.\n- Uses a panoramic session start configuration by Daniel Nogal.",
+    tags: [
+      "mini",
+      "jcw",
+      "racing",
+      "compact",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 978,
+    game: "ac",
+    title: "Subaru Legacy B4 2.0 GT",
+    category: "cars",
+    version: "1.0",
+    size: "30.1 MB",
+    images: [
+      "images/mods/subaru-legacy-b4-20-gt-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WIu2QJ70567d17C",
+    short: "Detailed Subaru Legacy B4 with custom physics and animations.",
+    description: "This conversion from VRDRIVING brings the classic Subaru Legacy B4 2.0 GT into Assetto Corsa with high attention to detail. The vehicle has been optimized to feel authentic on the track while maintaining a clean aesthetic.\n\n- Features full AO mapping on both interior and exterior surfaces.\n- Includes a highly detailed, functional dashboard for realistic driving.\n- Utilizes custom physics profiles specifically tuned by VRDRIVING.\n- Comes with dedicated CSP settings to ensure proper visual performance.\n- Supports full driver animations for an immersive experience.",
+    tags: [
+      "subaru",
+      "legacy",
+      "sedan",
+      "jdm",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 979,
+    game: "ac",
+    title: "Nissan SILVIA spec-R AERO Time Attack",
+    category: "cars",
+    version: "1.0",
+    size: "70.8 MB",
+    images: [
+      "images/mods/nissan-silvia-spec-r-aero-time-attack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1H2p0DrL88f23sa",
+    short: "High performance Nissan Silvia built for intense time attacks.",
+    description: "This Silvia spec-R AERO build brings a competitive edge to your track sessions with its specialized Time Attack configuration. It features a complete AO pass inside and out, paired with a fully realistic dashboard that captures the spirit of the S15.\n\n- Features custom CSP settings and proper driver animations.\n- Includes a panoramic session start configuration by Daniel Nogal.\n- Updated COCKPIT_HR and optimized colliders for better performance.\n- Added LODs to ensure stable frame rates during races.\n- Tuned physics tailored specifically for aggressive time attack laps.",
+    tags: [
+      "nissan",
+      "silvia",
+      "timeattack",
+      "drift",
+      "jdm"
+    ],
+    featured: true
+  },
+  {
+    id: 980,
+    game: "ac",
+    title: "KTM X-Bow GT-XR",
+    category: "cars",
+    version: "1.0",
+    size: "67.1 MB",
+    images: [
+      "images/mods/ktm-x-bow-gt-xr-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h896yX35HVu4Iea",
+    short: "Road legal race car performance with functional interior animations.",
+    description: "Experience the closest thing to a road-legal race car with this high-performance machine. The mod translates the extreme lightweight dynamics of the real-world super sportscar into the simulation environment, offering radical styling and uncompromised driving thrills. \n\n- Features a fully functional Content Manager paintshop for custom looks.\n- Operates via extra buttons to toggle foglamps and rain lights.\n- Includes interactive interior elements like overhead lighting and side windows.\n- Features a signature jet fighter canopy door animation.\n- Note that some minor cockpit holes and slight interior inaccuracies exist.",
+    tags: [
+      "ktm",
+      "supercar",
+      "sportscar",
+      "lightweight"
+    ],
+    featured: true
+  },
+  {
+    id: 981,
+    game: "ac",
+    title: "Honda Civic SI",
+    category: "cars",
+    version: "1.0",
+    size: "33.6 MB",
+    images: [
+      "images/mods/honda-civic-si-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/lz5fD1x56rZksL9",
+    short: "Detailed Honda Civic SI with authentic physics and animations.",
+    description: "This Honda Civic SI feels incredibly authentic on track thanks to the specialized physics developed by VRDRIVING. The level of detail inside the cabin is impressive, featuring a fully functional and realistic dashboard that responds perfectly to your inputs. You will also notice smooth, immersive driver animations that add a great sense of presence while you are carving through corners.\n\n- Includes a highly detailed, realistic dashboard layout.\n- Physics engine tuned specifically by VRDRIVING for realism.\n- Requires Custom Shaders Patch (CSP) settings for functionality.\n- Features custom driver animations for a better cockpit experience.",
+    tags: [
+      "honda",
+      "civic",
+      "jdm",
+      "sports car",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 982,
+    game: "ac",
+    title: "BMW M3 G80",
+    category: "cars",
+    version: "1.0",
+    size: "87.4 MB",
+    images: [
+      "images/mods/bmw-m3-g80-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KsIb7n6uKt5Voh2",
+    short: "High performance 2025 BMW M3 G80 for Assetto Corsa.",
+    description: "Experience the raw power of the 2025 BMW M3 G80, featuring a twin-turbo inline-six that pushes up to 523 horsepower and achieves a 2.8-second 0-60 mph time. This build by the Sayrx Performance Team brings incredible detail to your track sessions with realistic physics and three distinct tire sets to choose from.\n\n- Includes fully functional Android Auto and animated interior features like blinkers, wipers, and paddle shifters.\n- Features complete animations for all doors, the hood, and the trunk for added immersion.\n- Supports RainFX and includes LODs to ensure smooth performance on lower-end hardware.\n- Fully paintable within the CSP showroom and equipped with dynamic interior and gauge lighting.",
+    tags: [
+      "bmw",
+      "m3",
+      "sports car",
+      "drift",
+      "sedan"
+    ],
+    featured: true
+  },
+  {
+    id: 983,
+    game: "ac",
+    title: "Honda S2000 2003 Race Car",
+    category: "cars",
+    version: "1.0",
+    size: "73.7 MB",
+    images: [
+      "images/mods/honda-s2000-2003-race-car-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pkWB39nmqn13eGb",
+    short: "High fidelity 2003 Honda S2000 race car for tracks.",
+    description: "This dedicated race-spec version of the 2003 Honda S2000 brings a refined driving experience to your track rotations with a focus on authentic simulation. The model features high-quality ambient occlusion baking both inside and out for realistic lighting interaction.\n\n- Full realistic dashboard gauges and interior details.\n- Dedicated custom physics tuned for competitive circuit racing.\n- Includes specialized CSP settings for optimal visual performance.\n- Features custom driver animations for increased cockpit immersion.\n- Panoramic session start configuration provided by Daniel Nogal.",
+    tags: [
+      "honda",
+      "s2000",
+      "racing",
+      "track",
+      "jdm"
+    ],
+    featured: true
+  },
+  {
+    id: 984,
+    game: "ac",
+    title: "Toyota Altezza RS200",
+    category: "cars",
+    version: "1.0",
+    size: "30.5 MB",
+    images: [
+      "images/mods/toyota-altezza-rs200-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y0RuKf2O3Ws9juI",
+    short: "Authentic Toyota Altezza RS200 featuring realistic physics and details.",
+    description: "Experience a highly detailed iteration of the Toyota Altezza RS200, designed specifically for Assetto Corsa with a heavy focus on visual and mechanical authenticity. The car features refined handling models that aim to replicate the spirit of the original sedan.\n\n- Ambient occlusion mapping applied to both the interior and exterior\n- Fully functional, realistic dashboard displays for authentic cockpit immersion\n- Professional physics tuning provided by VRDRIVING\n- Custom Shader Patch settings included for optimized graphical performance\n- Support for active driver animations during vehicle operation\n- Custom panoramic session start configuration by Daniel Nogal",
+    tags: [
+      "toyota",
+      "altezza",
+      "sedan",
+      "drifting",
+      "street"
+    ],
+    featured: true
+  },
+  {
+    id: 985,
+    game: "ac",
+    title: "BMW M135i",
+    category: "cars",
+    version: "1.0",
+    size: "40.5 MB",
+    images: [
+      "images/mods/bmw-m135i-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4wgS5bB7ftrU34n",
+    short: "High performance BMW M135i featuring realistic physics and animations.",
+    description: "This detailed recreation of the BMW M135i brings a professional touch to your Assetto Corsa garage with precise handling developed by VRDRIVING. The model features high-quality ambient occlusion applied both inside and outside the cockpit for deep visual immersion. You will find a fully functional, realistic dashboard that provides all the feedback you need during intense laps.\n\n- Includes custom CSP settings for improved visual fidelity\n- Features authentic driver animations for a realistic cockpit experience\n- Built with high-fidelity AO texturing across the entire model\n- Physics calibrated by VRDRIVING for authentic driving characteristics",
+    tags: [
+      "bmw",
+      "m135i",
+      "sedan",
+      "drift",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 986,
+    game: "ac",
+    title: "Mazda Atenza CUP",
+    category: "cars",
+    version: "1.0",
+    size: "72.5 MB",
+    images: [
+      "images/mods/mazda-atenza-cup-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/u26GPm6J8I72NLR",
+    short: "A high-quality racing Mazda tuned for competitive track sessions.",
+    description: "This Mazda Atenza CUP mod offers a polished racing experience for Assetto Corsa, featuring high-quality details and technical refinements for competitive driving. The build focuses on authenticity by incorporating specialized physics and visual touches meant to enhance your time on the track.\n\n- Comprehensive AO mapping applied to both interior and exterior surfaces.\n- Fully functional, realistic dashboard layout for accurate telemetry feedback.\n- Includes driver animations and dedicated Custom Shader Patch configuration files.\n- Refined collider.kn5 and updated LODs provided by the Garage ACTK team.\n- Panoramic session start configuration authored by Daniel Nogal.",
+    tags: [
+      "mazda",
+      "cup",
+      "racing",
+      "saloon",
+      "circuit"
+    ],
+    featured: true
+  },
+  {
+    id: 987,
+    game: "ac",
+    title: "BMW S1000RR",
+    category: "cars",
+    version: "1.0",
+    size: "86.2 MB",
+    images: [
+      "images/mods/bmw-s1000rr-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9MLNu5bUQF5YP6v",
+    short: "Race-oriented BMW sport bike with a high revving engine.",
+    description: "Experience the raw power of this race-oriented sport bike, originally engineered by BMW Motorrad for the 2009 Superbike World Championship. It is powered by a high-revving 999 cc transverse inline four-cylinder engine.\n\n- Features an impressive 14,200 rpm redline for aggressive performance.\n- Authentically modeled after the real-world production sport bike.\n- Designed specifically for competitive track racing in Assetto Corsa.\n- Credited to Bodysut for the development and porting work.",
+    tags: [
+      "bmw",
+      "motorcycle",
+      "sportbike",
+      "racing",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 988,
+    game: "ac",
+    title: "Saleen S281",
+    category: "cars",
+    version: "1.0",
+    size: "60.3 MB",
+    images: [
+      "images/mods/saleen-s281-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0jf9U0cau39P3ST",
+    short: "High fidelity Saleen S281 sports car for Assetto Corsa.",
+    description: "This mod brings the iconic Saleen S281 to the track with a focus on authentic visual and mechanical detail. The handling model is fine-tuned by VRDRIVING AI to ensure a realistic driving experience that captures the character of the real vehicle.\n\n- Detailed ambient occlusion rendering for both exterior and interior\n- Fully functional dashboard with accurate instrumentation and readouts\n- Includes custom CSP settings for optimized visual performance\n- Immersive driver animations synchronized with gear shifts and steering\n- Pre-configured panoramic session start setup by Daniel Nogal",
+    tags: [
+      "saleen",
+      "sports car",
+      "s281",
+      "drift",
+      "ac mods"
+    ],
+    featured: true
   }
 ];
 
