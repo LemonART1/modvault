@@ -20095,6 +20095,1396 @@ const MODS = [
       "sports"
     ],
     featured: true
+  },
+  {
+    id: 905,
+    game: "ac",
+    title: "Mitsubishi Lancer Evolution IX",
+    category: "cars",
+    version: "1.0",
+    size: "43.6 MB",
+    images: [
+      "images/mods/mitsubishi-lancer-evolution-ix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fC5x39s5j617I88",
+    short: "Legendary Mitsubishi Lancer Evolution IX for Assetto Corsa racing.",
+    description: "This meticulously crafted Evo IX brings the legendary JDM icon to life with impressive attention to detail and authentic performance dynamics. You can expect a highly responsive driving experience that balances that signature turbocharged punch with the reliable grip of a refined AWD system.\n\n- High-quality AO baking applied both inside and outside the vehicle.\n- Interior cockpit features a highly realistic, detailed dashboard setup.\n- Physics are tuned for a balance of accuracy and track-ready engagement.\n- Full support for Custom Shaders Patch features is included out-of-the-box.\n- Includes functional driver animations and a custom panoramic session start.",
+    tags: [
+      "mitsubishi",
+      "jdm",
+      "evo",
+      "rally",
+      "race"
+    ],
+    featured: true
+  },
+  {
+    id: 906,
+    game: "ac",
+    title: "Toyota Altezza RS200 Time Attack",
+    category: "cars",
+    version: "1.0",
+    size: "53.9 MB",
+    images: [
+      "images/mods/toyota-altezza-rs200-time-attack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BJ383ci842ImzBj",
+    short: "Precision tuned Toyota Altezza built for intense time attack.",
+    description: "Experience a lightweight, high-revving machine meticulously crafted for your hottest laps in Assetto Corsa. This version prioritizes authentic handling and immersive interior quality to ensure every corner feels responsive and sharp.\n\n- Fully baked interior and exterior ambient occlusion\n- Realistically detailed dashboard and cabin components\n- Physics specifically calibrated for competitive time attack sessions\n- Complete support for Custom Shaders Patch features\n- Includes fully functional driver animations",
+    tags: [
+      "toyota",
+      "jdm",
+      "drift",
+      "racing",
+      "altezza"
+    ],
+    featured: true
+  },
+  {
+    id: 907,
+    game: "ac",
+    title: "Scion FR-S Track",
+    category: "cars",
+    version: "1.0",
+    size: "36.5 MB",
+    images: [
+      "images/mods/scion-fr-s-track-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/978K0zJ18207XNB",
+    short: "Balanced track car optimized for grip and drift practice.",
+    description: "Experience a balanced and lightweight driving platform that excels during technical touge runs or intense track day sessions. This build emphasizes sharp steering feedback and predictable weight transfer to ensure the car remains responsive throughout every corner.\n\n- High-quality AO baking applied both inside and out for realistic depth.\n- Fully functional, accurate dashboard layout for authentic interior immersion.\n- Physics engine specifically calibrated to favor competitive track performance.\n- Built-in support for Custom Shaders Patch features and light effects.\n- Includes full driver animations and a custom panoramic session start.",
+    tags: [
+      "scion",
+      "frs",
+      "drift",
+      "track",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 908,
+    game: "ac",
+    title: "Mitsubishi Colt Ralliart 1.5 Turbo",
+    category: "cars",
+    version: "1.0",
+    size: "33.8 MB",
+    images: [
+      "images/mods/mitsubishi-colt-ralliart-15-turbo-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/L1Ln6Q2u52EJH98",
+    short: "Turbocharged Mitsubishi hatchback delivering agile handling and refined physics.",
+    description: "Experience the compact turbocharged thrill of the Mitsubishi Colt Ralliart 1.5 Turbo on the track. This lightweight hatchback offers an engaging balance of precision and speed, making it perfectly suited for tight street runs and technical circuit laps. The interior and exterior are polished with high-quality AO baking for realistic lighting and depth.\n\n- Includes fully functional, realistic dashboard instrumentation\n- Features authentic physics tuned for responsive handling\n- Compatible with Custom Shaders Patch for advanced lighting\n- Comes with complete driver animations and seating positions\n- Includes a panoramic session start configuration by Daniel Nogal",
+    tags: [
+      "mitsubishi",
+      "hatchback",
+      "turbo",
+      "japanese"
+    ],
+    featured: true
+  },
+  {
+    id: 909,
+    game: "ac",
+    title: "Toyota Vitz RS",
+    category: "cars",
+    version: "1.0",
+    size: "46.0 MB",
+    images: [
+      "images/mods/toyota-vitz-rs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Oa9iL7s968HCaeC",
+    short: "Nimble Toyota hatchback tuned for technical tracks and drifting.",
+    description: "This mod perfectly captures the nimble spirit of the Toyota Vitz RS, turning this compact hatchback into a dedicated track machine. It provides a balanced driving experience that works exceptionally well on tight technical circuits or during spirited drift practice sessions.\n\n- Features high-quality ambient occlusion for both interior and exterior\n- Includes a fully functional and detailed dashboard for immersion\n- Uses precise physics tuned specifically for track performance\n- Fully compatible with CSP settings to enhance graphical fidelity\n- Comes with complete driver animations for a realistic feel",
+    tags: [
+      "toyota",
+      "vitz",
+      "hatchback",
+      "track",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 910,
+    game: "ac",
+    title: "Saleen S281 2000 Track",
+    category: "cars",
+    version: "1.0",
+    size: "95.5 MB",
+    images: [
+      "images/mods/saleen-s281-2000-track-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/07ljrHZ5UcPOZDS",
+    short: "Experience raw American muscle power on your favorite circuit.",
+    description: "This mod perfectly captures the aggressive spirit of early 2000s American engineering in Assetto Corsa, offering a responsive driving experience that handles drift and grip sessions with ease. The attention to detail ensures you feel the weight and power of this classic machine while pushing it to the limit on track.\n\n- Features AO mapping inside and out for realistic shading effects\n- Detailed cockpit and dashboard layout provide authentic interior immersion\n- Physics are specifically tuned to support both VR and AI\n- Includes full Custom Shaders Patch settings for accurate lighting\n- Custom driver animations enhance the sense of presence while racing",
+    tags: [
+      "muscle",
+      "american",
+      "saleen",
+      "drift",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 911,
+    game: "ac",
+    title: "Subaru Impreza WRX STi Spec-C",
+    category: "cars",
+    version: "1.0",
+    size: "83.0 MB",
+    images: [
+      "images/mods/subaru-impreza-wrx-sti-spec-c-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QvC1p90ye1Vi544",
+    short: "Authentic Subaru rally legend for intense Assetto Corsa racing.",
+    description: "This mod brings the legendary rally heritage of the Subaru Impreza WRX STi Spec-C directly into your track sessions with high-fidelity detail. It captures the authentic handling and power expected from this iconic Japanese machine.\n\n- Custom dashboard built entirely from scratch with functional instruments\n- High-quality Ambient Occlusion lighting for both interior and exterior\n- Performance-optimized physics configuration designed specifically for STi handling\n- Fully functional driver animations to enhance cockpit immersion\n- Includes a specialized panoramic session start configuration by Daniel Nogal",
+    tags: [
+      "subaru",
+      "rally",
+      "jdm",
+      "sports car",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 912,
+    game: "ac",
+    title: "LD Drake’s S13 V2",
+    category: "cars",
+    version: "1.0",
+    size: "173 MB",
+    images: [
+      "images/mods/ld-drakes-s13-v2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/zsa79of5r67buR1",
+    short: "High performance Nissan Silvia drift machine for Assetto Corsa.",
+    description: "This S13 V2 build is built specifically for those who demand precision on the drift track. It swaps the standard power plant for a turbocharged KA24DET setup that pushes 456 HP and 485 Nm of torque. The handling is dialed in thanks to a Part Shop Max coilover setup combined with a PBM angle kit.\n\n- Engine features a KA24DET turbocharged configuration\n- Suspension utilizes a Part Shop Max and PBM angle kit\n- Underglow effects are activated through Extra A\n- Strobe lighting is toggled using Extra B\n- Custom livery work provided by Livery Delivery",
+    tags: [
+      "drift",
+      "nissan",
+      "jdm",
+      "silvia",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 913,
+    game: "ac",
+    title: "LD Chris’s ER34 V2",
+    category: "cars",
+    version: "2.0",
+    size: "242 MB",
+    images: [
+      "images/mods/ld-chriss-er34-v2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/zI3eq39p40uXv4X",
+    short: "High performance drift Skyline for your Assetto Corsa garage.",
+    description: "This iconic ER34 brings a refined drifting experience to Assetto Corsa, complete with a powerful RB26DET engine setup. You get a balanced 465 horsepower paired with 483 Nm of torque, making it a reliable machine for technical tracks.\n\n- Engine output is centered around the potent RB26DET powerhouse.\n- Precision drifting is enabled by BC Racing BR suspension components.\n- Includes a PBM angle kit for improved steering lock control.\n- Exterior underglow is fully functional and toggled via Extra A.\n- Lighting strobes are available for customization using Extra B.",
+    tags: [
+      "skyline",
+      "drift",
+      "jdm",
+      "rb26",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 914,
+    game: "ac",
+    title: "MAK-Corp F1 2008 V2",
+    category: "cars",
+    version: "V2",
+    size: "543 MB",
+    images: [
+      "images/mods/mak-corp-f1-2008-v2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dp2nLkit0ug8hpN",
+    short: "Complete 2008 Formula 1 season pack for Assetto Corsa.",
+    description: "This legendary project revives the canceled MAK-Corp F1 mod, bringing the entire 2008 grid into the modern era of racing simulation. You get a massive collection of iconic machines, from the dominant Ferrari F2008 to the underdog Super Aguri, all featuring authentic aerodynamic configurations.\n\n- Features every one of the 11 teams from the 2008 season.\n- Includes unique physics for each car plus a Ponz-tuned alternate version for controller users.\n- Offers a wide variety of tires including wet, intermediate, and special green Fuji slicks.\n- Provides toggleable aero upgrades like shark fins and Canada-spec wings directly in the pit menu.\n- Comes equipped with custom driver helmets and highly detailed dynamic steering wheel HUDs.\n\nNote that this requires a manual install to avoid shader issues; do not use Content Manager for the initial setup. Custom Shaders Patch is mandatory for full compatibility with these models.",
+    tags: [
+      "f1",
+      "formula1",
+      "classic",
+      "racing",
+      "cars"
+    ],
+    featured: true
+  },
+  {
+    id: 915,
+    game: "ac",
+    title: "BMW M3 CS G81 2025 Blacked-out Specs",
+    category: "cars",
+    version: "1.0",
+    size: "228 MB",
+    images: [
+      "images/mods/bmw-m3-cs-g81-2025-blacked-out-specs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WbHOY5fZ787UH4g",
+    short: "Aggressive high-detail M3 touring model for Assetto Corsa racing.",
+    description: "This high-performance G81 touring mod brings the latest aggressive BMW styling to your virtual garage, featuring a complete blackout aesthetic. It balances the practical estate form factor with track-ready handling tuned by Sayrx.\n\n- Fully supports RainFX and wiper animations for realistic weather driving.\n- Includes animated doors, hood, and turn signals with authentic sounds.\n- Features refractive headlights and PBR materials for next-gen visuals.\n- Optimized with LOD levels to ensure stable frame rates.\n- Compatible with CSP showroom paint for custom color configurations.",
+    tags: [
+      "bmw",
+      "m3",
+      "touring",
+      "sports",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 916,
+    game: "ac",
+    title: "BMW M340i 2024 Blacked-Out Specs",
+    category: "cars",
+    version: "2.0",
+    size: "233 MB",
+    images: [
+      "images/mods/bmw-m340i-2024-blacked-out-specs-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7HwSN9P4OF1DnQr",
+    short: "High performance BMW M340i with realistic physics and details.",
+    description: "This G20-generation 3 Series build by Sayrx strikes an excellent balance between modern comfort and high-end performance. It integrates perfectly with CSP, offering a deeply immersive driving experience that handles just as accurately on a track as it does on a cruise.\n\n- Features realistic RainFX support for dynamic wet-weather racing.\n- Includes fully animated doors mapped to extra inputs A, B, D, and E.\n- Utilizes PBR materials and refractive headlights for authentic visual depth.\n- Optimised with specific LODs to ensure stable performance on low-end hardware.\n- Comes equipped with functional turn signals and realistic brake disk effects.",
+    tags: [
+      "bmw",
+      "sports car",
+      "g20",
+      "street",
+      "m-series"
+    ],
+    featured: true
+  },
+  {
+    id: 917,
+    game: "ac",
+    title: "Renault Megane RS275 Trophy-R",
+    category: "cars",
+    version: "1.0",
+    size: "51.7 MB",
+    images: [
+      "images/mods/renault-megane-rs275-trophy-r-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fCOne2yWgJ30R7H",
+    short: "A track-focused hot hatch with realistic physics and handling.",
+    description: "Experience serious hot hatch energy with this track-focused Renault, featuring sharp handling characteristics tuned by VRDRIVING AI. It is an ideal addition for anyone who enjoys attacking twisty touge roads or technical circuit layouts in their spare time.\n\n- Full ambient occlusion mapping provides realistic depth and shadow quality.\n- Custom physics offer a responsive driving feel with precise torque curves.\n- The dashboard is fully functional with an accurate cockpit layout design.\n- Supports Custom Shaders Patch for advanced lighting and visual effects.\n- Includes synchronized driver animations to maximize immersion while you are racing.",
+    tags: [
+      "renault",
+      "hatchback",
+      "track",
+      "racing",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 918,
+    game: "ac",
+    title: "Volkswagen Gora I5-T Drift Build",
+    category: "cars",
+    version: "1.0",
+    size: "196 MB",
+    images: [
+      "images/mods/volkswagen-gora-i5-t-drift-build-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/awFe72E9mW8mUFV",
+    short: "High horsepower drift beast with Audi inline-5 engine swap.",
+    description: "This custom mashup combines a VW Bora and Golf chassis, featuring a longitudinally mounted Audi inline-5 engine designed specifically for aggressive drifting. You get a highly technical setup that pushes boundaries beyond standard drift builds.\n\n- Custom front subframe with full Wisefab suspension components\n- Three adjustable engine maps ranging from 436whp to 610whp\n- Seven distinct tire variants including slicks and rain options\n- Fully functional CSP features like refracting lights and rain wipers\n- Interactive dashboard with working trip functions and odometer\n- Extensive custom extras including underglow, sunroof, and LED bars",
+    tags: [
+      "drift",
+      "volkswagen",
+      "custom",
+      "sports",
+      "tuned"
+    ],
+    featured: true
+  },
+  {
+    id: 919,
+    game: "ac",
+    title: "Radical RXC Turbo 500",
+    category: "cars",
+    version: "1.0",
+    size: "49.7 MB",
+    images: [
+      "images/mods/radical-rxc-turbo-500-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0LfwMrge1GF7P8s",
+    short: "Extreme track performance for serious Assetto Corsa sim racers.",
+    description: "Peter Crill delivers a powerhouse track-day machine that captures the raw intensity of the real RXC Turbo 500. It features deep visual realism thanks to fully mapped ambient occlusion and a cockpit that feels truly immersive through its authentic gauges. You will notice the difference in the custom-tuned physics, which prioritize the aggressive aerodynamics and handling characteristics expected of this lightweight platform.\n\n- CSP support provides high-end shaders and dynamic lighting\n- Fully rigged driver character reacts precisely to your inputs\n- Authentic dashboard layout replicates the actual vehicle interface\n- Includes a cinematic panoramic session start configuration by Daniel Nogal",
+    tags: [
+      "radical",
+      "track car",
+      "sports car",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 920,
+    game: "ac",
+    title: "Volkswagen Kombi",
+    category: "cars",
+    version: "1.0",
+    size: "72.4 MB",
+    images: [
+      "images/mods/volkswagen-kombi-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VR5Geo6TGG9p0ey",
+    short: "Authentic stock Volkswagen Kombi for your Assetto Corsa garage.",
+    description: "MacedoSTI brings an iconic piece of automotive history to the sim with this fully stock Volkswagen Kombi. It avoids modern performance modifications to prioritize the nostalgic charm and handling of the original classic bus.\n\n- Features a 56hp 1.600cc engine and three optional gear ratios: 8x31, 8x33, and 8x35.\n- Includes functional wipers and an animated roof, which both require the Custom Shaders Patch to operate correctly.\n- Offers two different rim sets through the extension and a low-resolution cockpit option for better performance.\n- The mod files are provided uncrypted, allowing you to freely edit or customize the van as you see fit.\n- Requires no LODs for setup and is perfectly suited for relaxed cruises or cinematic replay captures.",
+    tags: [
+      "volkswagen",
+      "kombi",
+      "classic",
+      "van",
+      "ac"
+    ],
+    featured: true
+  },
+  {
+    id: 921,
+    game: "ac",
+    title: "KDT Teaser Pack 3",
+    category: "cars",
+    version: "1.0",
+    size: "407 MB",
+    images: [
+      "images/mods/kdt-teaser-pack-3-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XmciR9PqJkx9M9u",
+    short: "Authentic drift cars based on real life KDT builds.",
+    description: "Experience authentic street drifting with this collection modeled directly after the KDT team’s own real-world project builds. These vehicles focus on capturing the nuance of actual track sessions through specialized engineering and physics tuning.\n\n- Custom tire models provide realistic sidewall flex and grip characteristics.\n- Suspension geometry is tuned to mimic the response of professional drift builds.\n- Front-end dynamics feature accurate caster and kingpin inclination for authentic steering.\n- Engines deliver dyno-accurate power curves to ensure throttle feel matches real-life output.",
+    tags: [
+      "drift",
+      "cars",
+      "racing",
+      "kdt",
+      "physics"
+    ],
+    featured: true
+  },
+  {
+    id: 922,
+    game: "ac",
+    title: "BMW M2 G87",
+    category: "cars",
+    version: "1.0",
+    size: "174 MB",
+    images: [
+      "images/mods/bmw-m2-g87-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/V5KWg63jjNXH62n",
+    short: "Aggressive BMW M2 G87 with full CSP and RainFX support.",
+    description: "Dominate the track with this high-detail rendition of the BMW M2 G87, which perfectly captures the aggressive styling and raw performance of the real-life compact powerhouse. It features comprehensive CSP integration and a high-fidelity cabin designed for immersive sim racing sessions.\n\n- Full RainFX support with functional animated wipers\n- Interactive doors using EXTRA_A and EXTRA_B triggers\n- PBR materials throughout the interior and exterior\n- Functional turn signals complete with custom sound effects\n- Optimized LOD settings to ensure performance on various PCs",
+    tags: [
+      "bmw",
+      "m2",
+      "sports car",
+      "ac",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 923,
+    game: "ac",
+    title: "BMW X5M F95",
+    category: "cars",
+    version: "1.0",
+    size: "125 MB",
+    images: [
+      "images/mods/bmw-x5m-f95-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ls78x4hflnl3KW6",
+    short: "Aggressive 2022 BMW X5M SUV with full CSP support.",
+    description: "Experience the raw power and luxury of this 2022 BMW X5M F95, featuring detailed physics and a sleek blacked-out aesthetic. It is fully optimized for Custom Shaders Patch, ensuring high-quality visuals whether you are racing at night or in the rain.\n\n- RainFX-ready wipers and shaders for all weather conditions\n- Fully functional doors, hood, and front lights via CSP extras\n- Realistic M Power steering wheel and detailed brake disc FX\n- Optimized with LOD support to maintain performance on slower PCs\n- Compatible with full CSP paintshop for custom color schemes",
+    tags: [
+      "bmw",
+      "suv",
+      "luxury",
+      "ac",
+      "sport"
+    ],
+    featured: true
+  },
+  {
+    id: 924,
+    game: "ac",
+    title: "Nissan GT-R R33 Nismo",
+    category: "cars",
+    version: "1.0",
+    size: "89.0 MB",
+    images: [
+      "images/mods/nissan-gt-r-r33-nismo-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/UGrUbO47jUnhnVo",
+    short: "Legendary R33 GT-R Nismo with unique Supra gearbox tuning.",
+    description: "Experience this legendary JDM icon in Assetto Corsa, featuring a unique Supra gearbox swap that pushes the RB26DETT engine to new limits. The model includes fully functional animations for the doors and hood, making it perfect for cinematic shots or virtual car meets.\n\n- Features complete RainFX support for immersive wet-weather racing.\n- Fully compatible with the Custom Shaders Patch paintshop system.\n- Includes realistic refraction shaders for all lighting units.\n- Optimized LOD models ensure stable frame rates on all hardware.\n- Physics were developed by Sayrx to capture the R33's heritage.",
+    tags: [
+      "nissan",
+      "jdm",
+      "gtr",
+      "racing",
+      "drift"
+    ],
+    featured: true
+  },
+  {
+    id: 925,
+    game: "ac",
+    title: "Opel Astra V8 Coupé DTM 2003",
+    category: "cars",
+    version: "1.0",
+    size: "72.4 MB",
+    images: [
+      "images/mods/opel-astra-v8-coupe-dtm-2003-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VR5Geo6TGG9p0ey",
+    short: "Experience the legendary 2003 DTM touring car racing machine.",
+    description: "This classic DTM touring car brings high-speed racing thrills to your grid with impressive attention to technical detail. You will notice the high-quality ambient occlusion applied both inside and out, which really helps ground the vehicle in the simulation's lighting environment.\n\n- Fully functional and detailed dashboard for immersive VR cockpit racing.\n- Authentic handling physics calibrated for DTM-spec grip and downforce.\n- Fully compatible with Custom Shaders Patch for advanced lighting.\n- Includes smooth driver animations for professional-looking replay footage.\n- Cinematic panoramic session start sequence provides a polished race rollout.",
+    tags: [
+      "dtm",
+      "touring",
+      "racing",
+      "opel",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 926,
+    game: "ac",
+    title: "Nissan Silvia S13",
+    category: "cars",
+    version: "1.0",
+    size: "80.1 MB",
+    images: [
+      "images/mods/nissan-silvia-s13-1-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3YdOow6YzbWBH3n",
+    short: "Iconic drift-ready Nissan Silvia S13 for Assetto Corsa tracks.",
+    description: "This Sayrx-tuned S-chassis brings the golden era of drifting to your sim setup with predictable handling perfect for touge runs. It features a high-quality model sourced from Forza Motorsport 4, complete with a detailed BlitZ shift knob for that extra touch of authenticity.\n\n- Fully functional CSP-enhanced wipers for immersive rainy weather driving.\n- Interactive extras including fully animated left and right doors.\n- Extensive CSP Paintshop support for customizing rims and leather interiors.\n- Custom refraction-based headlight shaders currently in a work-in-progress state.",
+    tags: [
+      "nissan",
+      "silvia",
+      "drift",
+      "jdm",
+      "street"
+    ],
+    featured: true
+  },
+  {
+    id: 927,
+    game: "ac",
+    title: "Mazda RMX-75 Pandem Drift",
+    category: "cars",
+    version: "1.0",
+    size: "188 MB",
+    images: [
+      "images/mods/mazda-rmx-75-pandem-drift-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SuamTR5HWX5tMJZ",
+    short: "Aggressively styled drift car with multiple custom engine maps.",
+    description: "Experience pure drift performance with this highly detailed RMX-75 featuring a versatile selection of four power levels ranging from a manageable 441hp to a staggering 750hp drift monster. TIResArpi has integrated extensive Custom Shaders Patch support, allowing for immersive interior animations, functional underglow, and dynamic rain physics that keep you competitive in any weather.\n\n- Switch between four specific power tunes on the fly.\n- Toggle LED bars, interior lights, and window animations via Extra keys.\n- Monitor your session with a fully functional digital dashboard and trip counter.\n- Utilize dynamic tire texture switching to toggle between street, semi-slick, and slick rubber.\n- Enjoy realistic visual details like ambient occlusion, brake disc glow, and exhaust movement.",
+    tags: [
+      "drift",
+      "mazda",
+      "pandem",
+      "jdm",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 928,
+    game: "ac",
+    title: "BMW M3 E46 – Drift N Vibes Spec",
+    category: "cars",
+    version: "1.0",
+    size: "51.0 MB",
+    images: [
+      "images/mods/bmw-m3-e46-drift-n-vibes-spec-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SMSor7vE7YG38uz",
+    short: "Legendary BMW E46 tuned for professional drift performance levels.",
+    description: "Forget generic builds; this M3 E46 has been meticulously balanced by the Drift N Vibes team specifically for high-angle tandem drifting. You get a fully functional cockpit experience complete with animated analogue gauges, plus the reliability of standard VDC competition tires. \n\n- Features custom-tuned physics for improved balance and drift control.\n- Includes functional wipers, turn signals, and toggleable EXTRA_A styling.\n- Comes pre-installed with the signature DNV livery for a pro look.\n- Built with a full external config for maximum visual fidelity in game.",
+    tags: [
+      "bmw",
+      "drift",
+      "e46",
+      "racing",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 929,
+    game: "ac",
+    title: "SUPERDRIFT Street BMW Pack",
+    category: "cars",
+    version: "1.0",
+    size: "133 MB",
+    images: [
+      "images/mods/superdrift-street-bmw-pack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y74bceaf83MJ3hK",
+    short: "High-performance BMW drift pack for professional street style drifting.",
+    description: "Experience high-performance street drifting with this collection of iconic BMW models, each meticulously tuned to handle sideways action with authentic precision. These machines are engineered for responsive feedback, ensuring you can master complex drift lines and chaining maneuvers on any circuit.\n\n- Includes multiple high-quality BMW models featuring street-style modifications.\n- Physics are specifically optimized to replicate real-world drift dynamics.\n- Comes with custom liveries to match the aggressive street aesthetic.\n- Provides a challenging yet rewarding experience for all skill levels.",
+    tags: [
+      "bmw",
+      "drift",
+      "cars",
+      "racing",
+      "street"
+    ],
+    featured: true
+  },
+  {
+    id: 930,
+    game: "rdr2",
+    title: "Tallulah Jetty - Reimagined Version of the Cut Content",
+    category: "maps",
+    version: "1.0",
+    size: "6.6 MB",
+    images: [
+      "images/mods/tallulah-jetty-reimagined-version-of-the-cut-content-1.jpg",
+      "images/mods/tallulah-jetty-reimagined-version-of-the-cut-content-2.jpg",
+      "images/mods/tallulah-jetty-reimagined-version-of-the-cut-content-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kde0f6DG4N6GB82",
+    short: "Restores the cut Tallulah Jetty settlement to the map.",
+    description: "This mod breathes new life into the game by restoring the Tallulah Jetty settlement, a location that was originally cut from the RDR2 beta files. The area has been meticulously reimagined and integrated back into the main map to feel like a seamless part of the world. Please note that for this to function correctly, you must run the game using the Vulkan API.\n\n- Requires Lenny's Mod Loader and ScriptHook RDR2 to operate.\n- Features custom-fitted vegetation bitsets for realistic environmental blending.\n- Implements necessary .asi files for proper in-game object placement.\n- Collaboratively developed with research into original beta content files.",
+    tags: [
+      "rdr2",
+      "beta",
+      "map",
+      "restoration",
+      "settlement"
+    ],
+    featured: true
+  },
+  {
+    id: 931,
+    game: "rdr2",
+    title: "No Weapon Locks",
+    category: "weapons",
+    version: "1.0",
+    size: "17 KB",
+    images: [
+      "images/mods/no-weapon-locks-1.jpg",
+      "images/mods/no-weapon-locks-2.jpg",
+      "images/mods/no-weapon-locks-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DwJO5wt2fh5YyDD",
+    short: "Unlock all guns at any gunsmith from the start.",
+    description: "This script bypasses story-based weapon restrictions by telling the game engine that every purchasable item is already available for purchase. Unlike catalog-editing mods, this does not touch your shop files, which prevents compatibility conflicts with other store modifications.\n\n- Requires ScriptHook RDR2 V2 to function correctly.\n- Targets the red lock icons found on guns.\n- Maintains compatibility with existing catalog_sp.ymt mods.\n- Does not affect white-locked items restricted by other systems.\n- Features a simple ASI script installation for the main folder.",
+    tags: [
+      "weapons",
+      "unlocked",
+      "script",
+      "guns",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 932,
+    game: "rdr2",
+    title: "Crime Tweaks",
+    category: "gameplay",
+    version: "4.0",
+    size: "12 KB",
+    images: [
+      "images/mods/crime-tweaks-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ia8R4O6eVZjzdy4",
+    short: "Refines NPC perception and law response for realistic crime.",
+    description: "This mod refines crime detection and law behavior to create a fairer experience without removing consequences. It focuses on adjusting specific meta files to ensure that NPCs realistically witness crimes before acting, rather than magically identifying the player.\n\n- Masks and disguises feel more effective during criminal activities.\n- Self-defense during brawls is less likely to trigger immediate crimes.\n- Train robberies no longer result in an instant wanted status.\n- NPC hearing and sight behaviors are tuned for better immersion.\n- Requires Lenny's Mod Loader for proper installation and file management.",
+    tags: [
+      "realism",
+      "crime",
+      "immersive",
+      "gameplay",
+      "law"
+    ],
+    featured: true
+  },
+  {
+    id: 933,
+    game: "rdr2",
+    title: "Blackwater Capital Overhaul",
+    category: "maps",
+    version: "1.0",
+    size: "289 MB",
+    images: [
+      "images/mods/blackwater-capital-overhaul-1.jpg",
+      "images/mods/blackwater-capital-overhaul-2.jpg",
+      "images/mods/blackwater-capital-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WsLjQ9r0UwPH3nL",
+    short: "Revitalize Blackwater with restored buildings and classic RDR1 content.",
+    description: "Transform Blackwater into a more civilized city by integrating restored structures from RDR1, additional beta content, and fresh functional features. To ensure stability and avoid broken ped or prop spawns, you must ride into the town naturally rather than using teleportation or noclip commands.\n\n- Requires Project New Austin, ScriptHook, and Lenny's Mod Loader.\n- Includes custom scripts for the Gunsmith and boat rentals.\n- Features renovated factory districts and retextured saloon interiors.\n- Optimized vegetation placement and cleaned-up harbor areas.\n- Essential to use a PLUS gameconfig to prevent potential crashes.",
+    tags: [
+      "blackwater",
+      "rdr1",
+      "map",
+      "overhaul",
+      "western"
+    ],
+    featured: true
+  },
+  {
+    id: 934,
+    game: "rdr2",
+    title: "ForceSkeleton - A World of Consequences",
+    category: "gameplay",
+    version: "1.0",
+    size: "185 KB",
+    images: [
+      "images/mods/forceskeleton-a-world-of-consequences-1.jpg",
+      "images/mods/forceskeleton-a-world-of-consequences-2.jpg",
+      "images/mods/forceskeleton-a-world-of-consequences-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/L7anNhIqXazy0dj",
+    short: "Realistic, eight-stage wilderness corpse decay for immersive gameplay consequences.",
+    description: "This mod transforms the way your victims remain in the wilderness by replacing vanilla cleanup with a deep, eight-stage decay system. Instead of NPCs vanishing instantly, bodies left off-road undergo a realistic cycle where the environment gradually consumes them.\n\n- Cycles corpses through stages from fresh, to scavenger-visited, through rot, and finally into scattered, sun-bleached bones.\n- Includes a sinking mechanic for dried remains to simulate the earth naturally swallowing the deceased over time.\n- Features a highly configurable INI file for adjusting decay speed, corpse tracking limits, and detection distances.\n- Built-in debugging menu allows you to manually spawn test peds, teleport to tracked corpses, and observe state transitions.\n- Fully compatible with most mods, excluding global entity persistence tools like Enhanced Entity and World Persistence Reloaded.",
+    tags: [
+      "realism",
+      "immersion",
+      "wilderness"
+    ],
+    featured: true
+  },
+  {
+    id: 935,
+    game: "rdr2",
+    title: "Drag Bodies",
+    category: "scripts",
+    version: "1.0",
+    size: "131 KB",
+    images: [
+      "images/mods/drag-bodies-1.jpg",
+      "images/mods/drag-bodies-2.jpg",
+      "images/mods/drag-bodies-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tCd9Hnbqj4qYIUR",
+    short: "Drag dead bodies and animals with realistic ragdoll physics.",
+    description: "This script brings a dynamic dragging mechanic to the game, allowing you to pull victims across surfaces while they remain in an active ragdoll state. Depending on your approach angle, you can grab the body by its arms or legs to create a realistic experience.\n\n- Initiate dragging from any of the four sides of a body for varied grab points.\n- Works on animals, dismembered limbs, and even conscious enemies caught in ragdoll.\n- Enables firing a pistol simultaneously while dragging a target through the world.\n- Supports both keyboard and controller inputs with variable animation speeds based on movement.\n- Requires Script Hook V2 or Alexander Blade’s Script Hook to function correctly.",
+    tags: [
+      "realism",
+      "script",
+      "bodies",
+      "interaction"
+    ],
+    featured: true
+  },
+  {
+    id: 936,
+    game: "rdr2",
+    title: "No More Persecution Complex",
+    category: "gameplay",
+    version: "1.0",
+    size: "9 KB",
+    images: [
+      "images/mods/no-more-persecution-complex-1.jpg",
+      "images/mods/no-more-persecution-complex-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/AzO128e152zZkZ2",
+    short: "Reduces ped suspicion and increases law office interaction time.",
+    description: "Tired of being harassed for simply walking down the same street as an NPC? This fix stops those annoying false stalking accusations that plague crowded spots like the Valentine hotel.\n\n- Triples the time allowed before peds turn hostile.\n- Fixes overly sensitive lawmen in offices.\n- Prevents unwanted bounties during prisoner dialogue.\n- Allows for peaceful exploration without constant NPC paranoia.",
+    tags: [
+      "rdr2",
+      "gameplay",
+      "fixes",
+      "immersion",
+      "peds"
+    ],
+    featured: true
+  },
+  {
+    id: 937,
+    game: "rdr2",
+    title: "No Honor Loss When Looting",
+    category: "scripts",
+    version: "1.0",
+    size: "7 KB",
+    images: [
+      "images/mods/no-honor-loss-when-looting-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/99We43B34bUFNEj",
+    short: "Loot dead bodies without worrying about losing your honor.",
+    description: "You can finally pick up items from fallen enemies across the frontier without facing any honor penalties. This small utility is a direct response to player requests for a more relaxed approach to gathering loot during your adventures. To get it working, ensure you have ScriptHookRDR2 installed, then simply drop the .asi file into your main game directory. It is a straightforward, lightweight fix that keeps your reputation intact while you scavenge the world.",
+    tags: [
+      "honor",
+      "looting",
+      "scripts",
+      "rdr2",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 938,
+    game: "rdr2",
+    title: "Beecher's Hope Visitors",
+    category: "scripts",
+    version: "1.0",
+    size: "181 KB",
+    images: [
+      "images/mods/beechers-hope-visitors-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/13qY9H387ukE335",
+    short: "Sadie and Charles visit Beecher's Hope for authentic interactions.",
+    description: "After finishing American Venom, you can finally see Sadie and Charles stopping by your ranch to stay for a few days. Instead of just standing idle, they actively participate in farm life and interact with the property in realistic ways.\n\n- Charles spends his time chopping wood, drinking beer, smoking, and feeding the chickens.\n- Sadie takes on domestic tasks like preparing food, washing clothes and dishes, and cleaning windows.\n- The duo plays music by the fire and sleeps on bedrolls when night falls before riding away.\n- Dialogue automatically adjusts depending on whether you are playing as Arthur or John.\n- Installation is simple by placing the provided .asi and .ini files into your game directory.",
+    tags: [
+      "scripts",
+      "rdr2",
+      "immersion",
+      "npc",
+      "western"
+    ],
+    featured: true
+  },
+  {
+    id: 939,
+    game: "rdr2",
+    title: "Emerald Ranch General Store Restored",
+    category: "maps",
+    version: "1.0",
+    size: "3.3 MB",
+    images: [
+      "images/mods/emerald-ranch-general-store-restored-1.jpg",
+      "images/mods/emerald-ranch-general-store-restored-2.jpg",
+      "images/mods/emerald-ranch-general-store-restored-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2W5MUzdIg4rtG6D",
+    short: "Restores the abandoned Emerald Ranch general store to functionality.",
+    description: "You can finally step inside the Emerald Ranch store that was previously just an inaccessible prop. This restoration project cleans up the environment with fixed shaders and fresh textures while adding proper collision detection so you do not clip through the floor. The interior is fully populated with new props to give it that authentic, lived-in feel. \n\n- Requires Lenny's Mod Loader and ScriptHook for installation.\n- Simply drop the mod folder into LML and files into root.\n- Replaces static architecture with a fully functional shop interior.",
+    tags: [
+      "emerald",
+      "ranch",
+      "restoration",
+      "rdr2",
+      "store"
+    ],
+    featured: true
+  },
+  {
+    id: 940,
+    game: "rdr2",
+    title: "Optimized Ultra Settings",
+    category: "visuals",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/optimized-ultra-settings-1.jpg",
+      "images/mods/optimized-ultra-settings-2.jpg",
+      "images/mods/optimized-ultra-settings-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fnKp8VUXZ0dxR8f",
+    short: "High quality visual preset for better performance in RDR2.",
+    description: "Stop compromising your frame rate by running everything on maximum. This custom graphics preset preserves Ultra-level visual fidelity while intelligently balancing settings to reclaim lost performance. Originally developed for personal use to streamline reinstallation, the configuration is now available for anyone seeking a smoother experience without sacrificing image quality.\n\n- Delivers Ultra-level visuals with lower overhead than max settings.\n- Tested thoroughly on an RTX 2060 and Ryzen 5 3600.\n- Maintains stable average frame rates between 65 and 75 FPS.\n- Includes reference benchmarks based on Zykopath’s optimized configuration.\n- Requires users to have the latest nvngx_dlss.dll version installed.",
+    tags: [
+      "rdr2",
+      "graphics",
+      "preset",
+      "performance"
+    ],
+    featured: true
+  },
+  {
+    id: 941,
+    game: "rdr2",
+    title: "Lost and Found Rifleman Gloves",
+    category: "models-textures",
+    version: "1.0",
+    size: "3.4 MB",
+    images: [
+      "images/mods/lost-and-found-rifleman-gloves-1.jpg",
+      "images/mods/lost-and-found-rifleman-gloves-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/97OQL9UgKMG2So5",
+    short: "Refined visual overhaul for store-bought Rifleman Glove models.",
+    description: "This mod swaps the standard store-bought Rifleman Gloves for a sleeker model based on John Marston's iconic Chapter 1 attire. Instead of just tweaking textures, the author reshapes the entire mesh for a more refined look while leaving the Trapper variants completely untouched.\n\n- Replaces general store and tailor Rifleman Glove models.\n- Utilizes an edited, mirrored version of Marston's Chapter 1 gloves.\n- Requires ScriptHookRDR2 and Lenny's Mod Loader for installation.\n- Set load priority below Catalogue Improvements to ensure proper overwriting.\n- Features decal support implemented by modder slickcrazy.",
+    tags: [
+      "rdr2",
+      "clothing",
+      "gloves",
+      "retexture"
+    ],
+    featured: true
+  },
+  {
+    id: 942,
+    game: "rdr2",
+    title: "Molly Improvements - Fixes and Grave Restoration",
+    category: "models-textures",
+    version: "1.0",
+    size: "19.5 MB",
+    images: [
+      "images/mods/molly-improvements-fixes-and-grave-restoration-1.jpg",
+      "images/mods/molly-improvements-fixes-and-grave-restoration-2.jpg",
+      "images/mods/molly-improvements-fixes-and-grave-restoration-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/z8ZS0z1jO46uF0R",
+    short: "High-quality texture upgrades and restored content for Molly O'Shea.",
+    description: "This mod breathes new life into Molly O'Shea by restoring cut content and drastically upgrading her character model's visual fidelity. It addresses the lackluster textures that left her looking out of place compared to the rest of the gang.\n\n- Quadruples material map resolution and upscales albedo/normal maps to 2048x2048.\n- Restores cut assets including her beta hair model, Gala Outfit for the Mayor's Party, and two Chapter 3 Camp Outfits.\n- Features custom HD textures for her necklace and fixes all vanilla neck seams.\n- Enables her fully functional, inspectable grave at the Beaver Hollow location.\n- Restores her beta eye color and adds higher resolution eyebrows and eyelashes.",
+    tags: [
+      "molly",
+      "graphics",
+      "character",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 943,
+    game: "rdr2",
+    title: "Improved Item Interactions - Bandana",
+    category: "gameplay",
+    version: "1.0",
+    size: "62 KB",
+    images: [
+      "images/mods/improved-item-interactions-bandana-1.jpg",
+      "images/mods/improved-item-interactions-bandana-2.jpg",
+      "images/mods/improved-item-interactions-bandana-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5oAddR7OgdG1Pbl",
+    short: "Prevents eating while wearing a bandana with restored animations.",
+    description: "Stop chugging rum through your mask and finally see your character reach into their satchel to equip gear. This mod fixes the immersion-breaking issue where Arthur or John would eat, drink, or smoke while wearing a bandana, forcing you to remove it first.\n\n- Restores the original cut animation for pulling the bandana out of the satchel before applying it.\n- Prevents the ability to consume food, alcohol, or tobacco while the face covering is active.\n- Requires ScriptHookV2 to function properly within your game directory.\n- Acts as a work-in-progress project with potential future updates planned.",
+    tags: [
+      "realism",
+      "immersion",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 944,
+    game: "rdr2",
+    title: "HeapAdjusterRDR2",
+    category: "utilities",
+    version: "1.0",
+    size: "20 KB",
+    images: [
+      "images/mods/heapadjusterrdr2-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/W5KGg5BR65f4xNm",
+    short: "Prevent memory-related game crashes by increasing heap size allocation.",
+    description: "Stop game crashes caused by memory exhaustion when running large mod lists in Red Dead Redemption 2. This lightweight tool works by overriding the default 692MiB heap size, allowing you to allocate more memory through a simple configuration file.\n\n- Default memory allocation is increased from 692MiB to 1400MiB.\n- Custom heap sizes are easily managed via the included ini file.\n- Requires an ASI Loader, such as the one found in ScriptHookRDR2.\n- Designed specifically to prevent heap-related instability when using multiple mods.\n- Does not resolve crashes originating from core engine limitations.",
+    tags: [
+      "stability",
+      "memory",
+      "performance"
+    ],
+    featured: true
+  },
+  {
+    id: 945,
+    game: "rdr2",
+    title: "Train Autopilot",
+    category: "scripts",
+    version: "1.0",
+    size: "114 KB",
+    images: [
+      "images/mods/train-autopilot-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TzO7ng31w3N0z4q",
+    short: "Maintain train speed automatically even after leaving the cabin.",
+    description: "Stop worrying about manual locomotive operation during Red Dead Redemption 2 shootouts with this handy script. It lets you lock in your current velocity and maintain constant movement even after you hop out of the engineer's seat to fend off bandits.\n\n- Works with any drivable train in the game world.\n- Keeps moving at your set speed after you exit.\n- Customizable keybindings via the included TrainAutoPilot.ini configuration file.\n- Requires either Alexander Blade's Script Hook or Script Hook RDR2 V2 to function.",
+    tags: [
+      "train",
+      "autopilot",
+      "script",
+      "travel",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 946,
+    game: "rdr2",
+    title: "Enhanced Jail N' Arrest",
+    category: "scripts",
+    version: "1.0",
+    size: "142 KB",
+    images: [
+      "images/mods/enhanced-jail-n-arrest-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/S585ULy8HwfhYxJ",
+    short: "Add realistic jail and surrender mechanics to Red Dead 2.",
+    description: "Experience the Red Dead Online jail system in single-player, complete with the ability to surrender to lawmen whenever you are unarmed. \n\n- Access nine distinct jail animation scenes with the freedom to switch between laying, sitting, or standing poses.\n- Toggle between three unique camera modes using the V key or your controller's camera button.\n- Bribe the arresting officer or serve your sentence, with the cost scaling directly to your current bounty.\n- Trigger a surrender prompt during combat by approaching lawmen while unarmed and holding the focus button.\n- Resolve potential compatibility issues with other online asset loaders by using WinMerge to transfer changes.",
+    tags: [
+      "jail",
+      "arrest",
+      "surrender",
+      "realism",
+      "bounty"
+    ],
+    featured: true
+  },
+  {
+    id: 947,
+    game: "rdr2",
+    title: "HD Gators",
+    category: "models-textures",
+    version: "1.0",
+    size: "15.9 MB",
+    images: [
+      "images/mods/hd-gators-1.jpg",
+      "images/mods/hd-gators-2.jpg",
+      "images/mods/hd-gators-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YP79mJyAEmpPTkg",
+    short: "High definition textures for alligators in Red Dead Redemption.",
+    description: "Enhance your swamp encounters with these revamped alligator textures that provide a significant visual upgrade over the standard game assets. The mod replaces standard textures with high-definition versions derived from GTA V assets and custom materials.\n\n- Increases resolution from 512x512 to 1024x1024.\n- Includes updated diffuse, normal, and material maps.\n- Applies to all main adult alligator types.\n- Provides improved visuals for young alligators too.",
+    tags: [
+      "alligators",
+      "hd",
+      "textures",
+      "wildlife"
+    ],
+    featured: true
+  },
+  {
+    id: 948,
+    game: "rdr2",
+    title: "No Bone Limit",
+    category: "utilities",
+    version: "1.0",
+    size: "9 KB",
+    images: [
+      "images/mods/no-bone-limit-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qL3Ho4fIxax2igx",
+    short: "Remove hardcoded bone limits for complex custom clothing mods.",
+    description: "This essential utility lifts the restrictive hardcoded bone limit for ped and player skeletons, effectively enabling complex clothing mods and multiplayer assets that were previously impossible to implement. You will no longer encounter crashes or erratic model behavior when attempting to load high-fidelity custom skeletons.\n\n- Removes hardcoded bone constraints for player and ped models\n- Requires either AB's ScriptHook or the V2 version\n- Installation simply involves dropping the asi file into the root folder\n- Prevents crashes related to complex clothing or character modifications",
+    tags: [
+      "rdr2",
+      "utility",
+      "scripting",
+      "clothing"
+    ],
+    featured: true
+  },
+  {
+    id: 949,
+    game: "rdr2",
+    title: "Enhanced FPS Hipfire and Aiming",
+    category: "miscellaneous",
+    version: "1.3",
+    size: "23 KB",
+    images: [
+      "images/mods/enhanced-fps-hipfire-and-aiming-1.jpg",
+      "images/mods/enhanced-fps-hipfire-and-aiming-2.jpg",
+      "images/mods/enhanced-fps-hipfire-and-aiming-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fRn7q4ZUcVziU1h",
+    short: "Refines first-person gunplay with improved aiming and movement animations.",
+    description: "Experience significantly more dynamic gunplay with these overhauled first-person animation coordinates that prevent your weapon from obscuring the reticle. By shifting the hand and gun positions for hipfiring, mounted aiming, and ADS states, the mod provides a modern, immersive feel during firefights. \n\n- Adjusts animation blending speed for smoother transitions between hipfire and ADS.\n- Includes a modified firstperson.meta file with optimized translation values for one and two-handed weapons.\n- Offers dual wielding support and custom animation movesets for various actions.\n- Requires a base FOV of 62 to prevent alignment issues with reticles.\n- Fixes specific weapon alignment bugs previously found on long-barreled firearms.",
+    tags: [
+      "animations",
+      "gunplay",
+      "fps",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 950,
+    game: "rdr2",
+    title: "Ambient Gold",
+    category: "miscellaneous",
+    version: "2",
+    size: "4 KB",
+    images: [
+      "images/mods/ambient-gold-1.jpg",
+      "images/mods/ambient-gold-2.jpg",
+      "images/mods/ambient-gold-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/n74bRlQ5nYn4ikm",
+    short: "Find hidden gold stashes scattered across the frontier map.",
+    description: "Stumble upon hidden gold stashes tucked away in the most remote corners of the frontier. This mod intentionally omits map markers and quest guidance, forcing you to rely entirely on your own intuition and observational skills while traversing the landscape.\n\n- Includes several new gold cache locations added in the latest update.\n- Refined placement of existing stashes to ensure they feel more integrated into the game world.\n- Removed outdated gold spots that previously felt out of place or immersion-breaking.\n- Encourages organic exploration by rewarding players who stray from the beaten path.",
+    tags: [
+      "gold",
+      "exploration",
+      "treasure",
+      "secrets"
+    ],
+    featured: true
+  },
+  {
+    id: 951,
+    game: "rdr2",
+    title: "RDR1 Inspired Ranch Pants",
+    category: "models-textures",
+    version: "1.0",
+    size: "315 KB",
+    images: [
+      "images/mods/rdr1-inspired-ranch-pants-1.jpg",
+      "images/mods/rdr1-inspired-ranch-pants-2.jpg",
+      "images/mods/rdr1-inspired-ranch-pants-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/977e9NCmxPZ25s9",
+    short: "Authentic baggy ranch pants inspired by the original game.",
+    description: "Recreate John Marston's iconic look from the original game by replacing the standard cowboy, rancher, and catalogue-based elegant suit pants with these high-accuracy baggy alternatives. These meshes are designed to integrate seamlessly with your existing wardrobe, though you should avoid using them alongside classic cowboy textures to prevent visual conflicts. For the best aesthetic results, the author specifically recommends pairing these replacements with the Cowboy Reworked mod.\n\n- Replaces standard John cowboy and rancher pants\n- Includes RDR1 Elegant Suit style pants\n- Supports all shirts with an optional compatibility file\n- Designed for maximum accuracy while maintaining RDR2 visuals\n- Best used with the Cowboy Reworked mod textures",
+    tags: [
+      "john",
+      "marston",
+      "rdr1",
+      "pants",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 952,
+    game: "rdr2",
+    title: "Horse Bridle Bug Fix",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "145 KB",
+    images: [
+      "images/mods/horse-bridle-bug-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/i16W1ZorpMT5zHa",
+    short: "Fixes the bug causing incorrect rope bridles on horses.",
+    description: "Stop seeing generic rope bridles on every ambient NPC horse you encounter across the wilderness. This simple tweak corrects an engine bug where the game erroneously applies a rope bridle upon spawning any ridden horse, effectively overwriting their proper equipment.\n\n- Corrects the 100% consistent spawn error for NPC-ridden horses.\n- Overwrites the buggy rope bridle with proper character-specific gear.\n- Includes a provided tutorial for merging with settings.ymt files.\n- Removes the immersion-breaking visual inconsistency for all ambient mounts.",
+    tags: [
+      "rdr2",
+      "horse",
+      "bugfix",
+      "immersion",
+      "patch"
+    ],
+    featured: true
+  },
+  {
+    id: 953,
+    game: "rdr2",
+    title: "Armadillo Doctor - A PNA Addon",
+    category: "scripts",
+    version: "1.0",
+    size: "88 KB",
+    images: [
+      "images/mods/armadillo-doctor-a-pna-addon-1.jpg",
+      "images/mods/armadillo-doctor-a-pna-addon-2.jpg",
+      "images/mods/armadillo-doctor-a-pna-addon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/umk584keu5Xp9f7",
+    short: "Adds functional interaction for the Armadillo town doctor NPC.",
+    description: "This utility extends the existing Project New Austin 1907 mod by finally giving the Armadillo doctor some actual purpose. You can now engage with the character directly to utilize his services within the settlement.\n\n- Requires both Scripthook and Project New Austin 1907 installed.\n- Simply drag the provided .ASI files into your root folder.\n- Restores interaction functionality to the previously static town physician.",
+    tags: [
+      "rdr2",
+      "armadillo",
+      "doctor",
+      "script",
+      "addon"
+    ],
+    featured: true
+  },
+  {
+    id: 954,
+    game: "rdr2",
+    title: "Gunplay Overhaul",
+    category: "gameplay",
+    version: "2.1",
+    size: "73 KB",
+    images: [
+      "images/mods/gunplay-overhaul-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eJcveC27XV3Aw2k",
+    short: "Complete weapon mechanics rework featuring realistic ballistics and combat.",
+    description: "This comprehensive overhaul completely reimagines Red Dead Redemption 2's combat by introducing realistic ballistics and significantly more responsive mechanics. You get a much faster experience with increased fire rates and customizable reload speeds, moving away from the sluggish feel of the base game.\n\n- Weapons now use a physical projectile system instead of hitscan, allowing you to dodge bullets in Deadeye mode.\n- Recoil and spread patterns for every firearm have been fully reworked to reward precision over sustained spamming.\n- Ammo types now feature unique dynamic damage drop-off curves, forcing you to choose the right round for the distance.\n- Ragdoll impulses are minimized, so enemies stumble and collapse realistically rather than flying backward unnaturally.\n- Shotguns have been tightened up with improved pellet spreads and meaningful range adjustments across all models.",
+    tags: [
+      "gunplay",
+      "combat",
+      "realism",
+      "ballistics"
+    ],
+    featured: true
+  },
+  {
+    id: 955,
+    game: "rdr2",
+    title: "Ultimate Player Skeleton",
+    category: "player",
+    version: "1.0",
+    size: "156 KB",
+    images: [
+      "images/mods/ultimate-player-skeleton-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/vbzglyv1VrNFOYh",
+    short: "Equip any NPC clothing items on Arthur and John properly.",
+    description: "Stop worrying about glitchy clothing assets when trying to customize Arthur or John. By merging player skeletons with NPC bone structures, this mod finally allows proper deformation for over 287 unique coats, jackets, and vests.\n\n- Includes specific bones for vest deformation and closed jackets.\n- Preserves all 756 original player bones for full compatibility.\n- Works alongside major overhauls like Whyem's and AMAI.\n- Requires Lenny's Mod Loader and No Bone Limit ASI.",
+    tags: [
+      "rdr2",
+      "clothing",
+      "skeleton",
+      "arthur",
+      "john"
+    ],
+    featured: true
+  },
+  {
+    id: 956,
+    game: "rdr2",
+    title: "Dense Forests of New Austin",
+    category: "maps",
+    version: "1.0",
+    size: "17.4 MB",
+    images: [
+      "images/mods/dense-forests-of-new-austin-1.jpg",
+      "images/mods/dense-forests-of-new-austin-2.jpg",
+      "images/mods/dense-forests-of-new-austin-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1ZmHR38qidOQ872",
+    short: "Adds dense, realistic forests across the Gaptooth Ridge region.",
+    description: "Transform the arid landscape of New Austin by populating the Gaptooth Ridge area with thick, expansive woodland. The foliage density stretches continuously from the outskirts of Tumbleweed down to the shores of the Sea of Coronado. This mod completely alters the visual atmosphere of the desert, replacing barren terrain with deep greenery that feels integrated into the vanilla world map. It provides a refreshing change of scenery for explorers tired of the open, sun-scorched plains of the original game design.",
+    tags: [
+      "new austin",
+      "forests",
+      "map mod"
+    ],
+    featured: true
+  },
+  {
+    id: 957,
+    game: "rdr2",
+    title: "Micah's Schofield Revolvers",
+    category: "weapons",
+    version: "1.0",
+    size: "34.9 MB",
+    images: [
+      "images/mods/micahs-schofield-revolvers-1.jpg",
+      "images/mods/micahs-schofield-revolvers-2.jpg",
+      "images/mods/micahs-schofield-revolvers-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0T0H1WB31Gp943j",
+    short: "Custom Schofield revolvers inspired by iconic promotional artwork designs.",
+    description: "Experience Micah's signature look with these custom Schofield revolvers modeled directly from official game artwork. The mod provides a specialized loadout that captures his gritty aesthetic, complete with integrated dual-wielding capabilities for more aggressive gunfights. You will also notice subtle changes to the user interface that help keep the theme consistent while you roam the frontier. It is a great choice for players who want to roleplay as the notorious outlaw with authentic equipment.",
+    tags: [
+      "revolver",
+      "weapons",
+      "outlaw",
+      "western"
+    ],
+    featured: true
+  },
+  {
+    id: 958,
+    game: "rdr2",
+    title: "Winchester Model 1873 Rifle",
+    category: "weapons",
+    version: "1.0",
+    size: "3.1 MB",
+    images: [
+      "images/mods/winchester-model-1873-rifle-1.jpg",
+      "images/mods/winchester-model-1873-rifle-2.jpg",
+      "images/mods/winchester-model-1873-rifle-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/692BZRH849BSFTJ",
+    short: "Legendary Winchester 1873 rifle replacing the Lancaster repeater model.",
+    description: "Experience the iconic Wild West lever-action rifle with this high-fidelity replacement for the in-game Lancaster Repeater. The weapon is fully customizable, allowing you to personalize your loadout with various tints, engravings, carvings, and wraps.\n\n- Features two period-correct sight models for authentic gameplay.\n- Advanced texture linking connects the loading gate, dust cover, and screws to specific metal parts for better detail.\n- Includes a custom wrap derived from vanilla assets with properly compressed textures to prevent spawning issues.\n- Requires Lenny's Mod Loader to function correctly in your game.\n- Looks best when paired with Realistic Worn Gun Metals for improved case hardening visuals.",
+    tags: [
+      "winchester",
+      "rifle",
+      "western",
+      "weapon",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 959,
+    game: "rdr2",
+    title: "Grapple N' Shoot",
+    category: "scripts",
+    version: "1.0",
+    size: "106 KB",
+    images: [
+      "images/mods/grapple-n-shoot-1.jpg",
+      "images/mods/grapple-n-shoot-2.jpg",
+      "images/mods/grapple-n-shoot-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/V8v2XuJS9U45No1",
+    short: "Shoot and aim while grappling enemies from behind effectively.",
+    description: "You can now finally fire your one-handed weapons or throw knives while keeping an enemy in a grapple from behind. Just hold the right mouse button while grappling to transition into an aiming state. The included INI file allows you to toggle movement settings, though enabling them can cause Arthur to stand at an odd sideways angle. \n\n- Requires RDR2 Script Hook, preferably Script Hook V2.\n- Compatible with Take NPC's Hostage and Enhanced Brawling.\n- Aiming animations might look slightly rough during transitions.\n- Hostage taking prevents NPCs from hitting your captured target.\n- Avoid making sudden, fast aiming movements to prevent glitches.",
+    tags: [
+      "combat",
+      "script",
+      "grapple",
+      "stealth",
+      "guns"
+    ],
+    featured: true
+  },
+  {
+    id: 960,
+    game: "rdr2",
+    title: "Stash That Lantern - Relit",
+    category: "gameplay",
+    version: "1.0",
+    size: "24 KB",
+    images: [
+      "images/mods/stash-that-lantern-relit-1.jpg",
+      "images/mods/stash-that-lantern-relit-2.jpg",
+      "images/mods/stash-that-lantern-relit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/U5QixaCBwoSf1AX",
+    short: "Manually attach and stash lanterns on your horse and person.",
+    description: "This complete from-scratch remake of the original Stash That Lantern mod provides a seamless way to carry your light source. It integrates perfectly with native controls and weapon states to ensure a smoother, bug-free experience for Arthur.\n\n- Manually attach your lantern to your satchel, gun belt, or horse saddlebags.\n- Automatically transitions the lantern between player and horse during mounting.\n- Uses standard reload controls to manage lantern states without menu interference.\n- Sidearm logic ensures you can still reload weapons while the lantern is stashed.\n- Requires ScriptHookRDR2, an ASI loader, and supports optional front-mounted horse lanterns.",
+    tags: [
+      "rdr2",
+      "immersion",
+      "realism",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 961,
+    game: "rdr2",
+    title: "Pure Steady Aim and Camera",
+    category: "scripts",
+    version: "1.0",
+    size: "4 KB",
+    images: [
+      "images/mods/pure-steady-aim-and-camera-1.jpg",
+      "images/mods/pure-steady-aim-and-camera-2.jpg",
+      "images/mods/pure-steady-aim-and-camera-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fRWo9xx9Af6Dc3H",
+    short: "Remove camera shake and achieve perfect aim every time.",
+    description: "Stop dealing with annoying head bobbing or horse riding camera bounces in both first-person and third-person views. This script ensures your view remains completely rock-steady during intense gunfights and explosions.\n\n- Eliminates all screen shake and movement sway for a consistent visual experience.\n- Forces bullets to travel in a perfectly straight line toward the screen center.\n- Maintains natural-looking bloom visuals while guaranteeing precise, centered shot placement.\n- Operates safely without modifying any base game xml or ymt data files.\n- Requires ScriptHookRDR2 to function correctly within your game directory.",
+    tags: [
+      "aim",
+      "camera",
+      "realism",
+      "combat",
+      "script"
+    ],
+    featured: true
+  },
+  {
+    id: 962,
+    game: "rdr2",
+    title: "Train Tracker",
+    category: "scripts",
+    version: "1.1",
+    size: "20 KB",
+    images: [
+      "images/mods/train-tracker-1.jpg",
+      "images/mods/train-tracker-2.jpg",
+      "images/mods/train-tracker-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Qqegxf1st9x09EZ",
+    short: "Track active ambient trains on your map in RDR2.",
+    description: "Easily locate and intercept rail traffic across the map with this lightweight script that adds real-time blips for every active train in the game. It works by reading the internal train system, even revealing positions for trains before they are fully streamed into the world.\n\n- Tracks both fully loaded train entities and unstreamed positions.\n- Includes a handy clock icon for trains waiting at stations.\n- Automatically hides Saint Denis trolley blips to reduce map clutter.\n- Offers extensive customization via INI for language, naming, and radar behavior.\n- Supports 27 different languages including English, Russian, and Japanese.",
+    tags: [
+      "rdr2",
+      "trains",
+      "scripts",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 963,
+    game: "rdr2",
+    title: "Lost and Found Everyday Shirts",
+    category: "models-textures",
+    version: "1.0",
+    size: "45.2 MB",
+    images: [
+      "images/mods/lost-and-found-everyday-shirts-1.jpg",
+      "images/mods/lost-and-found-everyday-shirts-2.jpg",
+      "images/mods/lost-and-found-everyday-shirts-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/50x47bhCb9Dsy63",
+    short: "Detailed textures and improved color patterns for everyday shirts.",
+    description: "These retextures focus on enhancing the purchasable Everyday Shirt variants to match the high-quality look seen in official game renders. The mod swaps the subtle vanilla cotton pattern for a distinct stitched fabric texture while adding depth to the diffuse maps to eliminate that flat appearance. It serves as a spiritual successor to the Scout Jackets mod without altering Arthur’s default blue shirt.\n\n- Adds detailed stitched fabric microdetail to shirt textures.\n- Improves diffuse map consistency across all purchasable variants.\n- Includes optional compatibility patches for Scout Jackets and Catalogue.\n- Requires ScriptHookRDR2 and Lenny's Mod Loader for installation.\n- Must be set to overwrite priority in Lenny's Mod Manager.",
+    tags: [
+      "rdr2",
+      "texture",
+      "clothing",
+      "arthur"
+    ],
+    featured: true
+  },
+  {
+    id: 965,
+    game: "rdr2",
+    title: "Cattle Herding V3",
+    category: "gameplay",
+    version: "3.0",
+    size: "185 KB",
+    images: [
+      "images/mods/cattle-herding-v3-1.jpg",
+      "images/mods/cattle-herding-v3-2.jpg",
+      "images/mods/cattle-herding-v3-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/m7ksp2hhA1b3AH2",
+    short: "Transform your ranching life with immersive cattle herding mechanics.",
+    description: "You can finally take full control of your ranching career with this comprehensive overhaul that makes livestock management a core part of your experience. The mod is fully compatible with controllers and includes a completely toggleable UI and HUD to keep your screen clean while you work.\n\n- Manage your ranch through deep buying, selling, and herding systems.\n- Watch the economy shift with a functional dynamic pricing model.\n- Face off against AI cowboys and rustlers patrolling the frontier.\n- Track your growth using a built-in character experience system.",
+    tags: [
+      "rancher",
+      "cattle",
+      "economy",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 966,
+    game: "rdr2",
+    title: "A More Fitting Face for Kieran",
+    category: "player",
+    version: "1b",
+    size: "3.7 MB",
+    images: [
+      "images/mods/a-more-fitting-face-for-kieran-1.jpg",
+      "images/mods/a-more-fitting-face-for-kieran-2.jpg",
+      "images/mods/a-more-fitting-face-for-kieran-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/447j7Y5LRhDW3Bs",
+    short: "Refines Kieran's face to better match his younger appearance.",
+    description: "This mod refines Kieran's character model to better reflect his youth, moving away from the original weathered, middle-aged look that felt inconsistent with dialogue. By smoothing out heavy wrinkles and reshaping the brows, it creates a more accurate appearance that finally matches how the rest of the gang perceives him.\n\n- Includes an optional clean-shaven version for a different aesthetic.\n- Compressed to match vanilla assets, ensuring zero spawn issues.\n- Features a fully unhashed ymt file to cleanly remove beard textures.\n- Installation is streamlined with dedicated folders for your LML.\n- Improvements to skin color and texture provide a smoother finish.",
+    tags: [
+      "kieran",
+      "rdr2",
+      "overhaul",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 967,
+    game: "rdr2",
+    title: "Wheeler Rawson Catalogue Everyday Shirt Retextures",
+    category: "models-textures",
+    version: "1.0",
+    size: "96.7 MB",
+    images: [
+      "images/mods/wheeler-rawson-catalogue-everyday-shirt-retextures-1.jpg",
+      "images/mods/wheeler-rawson-catalogue-everyday-shirt-retextures-2.jpg",
+      "images/mods/wheeler-rawson-catalogue-everyday-shirt-retextures-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/p9xrfue9rohqgmr",
+    short: "Gritty, worn-in texture overhauls for the standard Everyday shirt.",
+    description: "These new textures trade the vibrant, clean colors of the base game for a muted, weathered aesthetic that feels much more authentic to an outlaw's lifestyle. The design philosophy specifically mirrors the art style and color palette found in the original game, providing a more cohesive look for your character. You will notice deeper, darker tones across all available color options, effectively stripping away the polished feel of store-bought clothing. \n\n- Replaces standard Everyday shirt textures with grittier alternatives.\n- Features a color palette inspired by the original game.\n- Provides a lived-in, worn-out appearance for immersion.\n- Compatible with Lennys Mod Loader by placing files in lml.",
+    tags: [
+      "rdr2",
+      "textures",
+      "clothing",
+      "outfits"
+    ],
+    featured: true
   }
 ];
 
