@@ -20029,6 +20029,72 @@ const MODS = [
       "car"
     ],
     featured: true
+  },
+  {
+    id: 902,
+    game: "ac",
+    title: "ORIGINAL34 Style Pack 1",
+    category: "cars",
+    version: "1.0",
+    size: "1.98 GB",
+    images: [
+      "images/mods/original34-style-pack-1-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/f6gu8Z98f1692Aw",
+    short: "Ten unique Japanese drift builds for your garage rotation.",
+    description: "This collection features 10 distinct Japanese drift builds, ranging from the lightweight 236 bhp AE86 Levin to heavy-hitting 500 bhp machines like the C35 Laurel and Z30 Soarer. Each car is tuned with realistic dyno-based power curves to ensure a unique feel while maintaining high-quality, consistent handling across the entire lineup. You will find that these builds are perfectly balanced for both solo practice and intense tandem sessions on the track.\n\n- Includes legendary platforms like the 180SX, S13, S15, and FD RX-7\n- Features street-inspired styling with adjustable drift setups for every vehicle\n- Designed for authentic power delivery and reliable physics performance\n- Provides consistent quality across all ten included drift machines",
+    tags: [
+      "drift",
+      "japanese",
+      "jdm",
+      "cars",
+      "racing"
+    ],
+    featured: true
+  },
+  {
+    id: 903,
+    game: "ac",
+    title: "KDT Teaser Pack 4",
+    category: "cars",
+    version: "1.0",
+    size: "766 MB",
+    images: [
+      "images/mods/kdt-teaser-pack-4-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/879jb0i3944U7k8",
+    short: "A collection of ten street-spec drift cars for tandems.",
+    description: "Kawaii Drift Team captures the spirit of grassroots Japanese culture with this comprehensive collection of ten street-spec drift machines. Each vehicle is tuned for tandem sessions, featuring authentic suspension geometries and custom physics tailored for aggressive sliding.\n\n- Includes a diverse garage ranging from the S13 and S15 to the RX-7 FD and BMW E36.\n- Features original tyre models designed specifically for realistic drift handling.\n- Offers precise power delivery and differential locking for consistent, fun cornering.\n- Built as street-spec projects that balance visual style with competitive multiplayer performance.",
+    tags: [
+      "drift",
+      "japanese",
+      "cars",
+      "tandem",
+      "street"
+    ],
+    featured: true
+  },
+  {
+    id: 904,
+    game: "ac",
+    title: "BMW E21 Pack",
+    category: "cars",
+    version: "1.0",
+    size: "442 MB",
+    images: [
+      "images/mods/bmw-e21-pack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J5MXziPq0S87QMY",
+    short: "Authentic classic BMW 3 Series pack for Assetto Corsa.",
+    description: "Experience the authentic character of early compact sports sedans with this meticulously crafted collection of four classic BMW 3 Series variants. Ataberk Ozer Works has focused heavily on period-correct detailing and realistic driving dynamics to ensure these vintage machines feel right at home on the track.\n\n- Features the 315 in both US and Euro specifications.\n- Includes the performance-oriented 323i and the upgraded 323i Hartge RS.\n- High-end textures and shaders provide professional-grade visual fidelity.\n- Optimized performance keeps frame rates high during intense driving sessions.\n- Assets are original creations with protected KN5 files for security.",
+    tags: [
+      "bmw",
+      "classic",
+      "vintage",
+      "cars",
+      "sports"
+    ],
+    featured: true
   }
 ];
 
