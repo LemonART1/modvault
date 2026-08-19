@@ -20540,11 +20540,11 @@ const MODS = [
     title: "Opel Astra V8 Coupé DTM 2003",
     category: "cars",
     version: "1.0",
-    size: "72.4 MB",
+    size: "33.45 MB",
     images: [
       "images/mods/opel-astra-v8-coupe-dtm-2003-1.jpg"
     ],
-    downloadUrl: "https://modsfire.com/VR5Geo6TGG9p0ey",
+    downloadUrl: "https://modsfire.com/uegySzLu0VU2viD",
     short: "Experience the legendary 2003 DTM touring car racing machine.",
     description: "This classic DTM touring car brings high-speed racing thrills to your grid with impressive attention to technical detail. You will notice the high-quality ambient occlusion applied both inside and out, which really helps ground the vehicle in the simulation's lighting environment.\n\n- Fully functional and detailed dashboard for immersive VR cockpit racing.\n- Authentic handling physics calibrated for DTM-spec grip and downforce.\n- Fully compatible with Custom Shaders Patch for advanced lighting.\n- Includes smooth driver animations for professional-looking replay footage.\n- Cinematic panoramic session start sequence provides a polished race rollout.",
     tags: [
