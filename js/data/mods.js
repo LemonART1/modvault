@@ -23387,6 +23387,670 @@ const MODS = [
       "home"
     ],
     featured: true
+  },
+  {
+    id: 1052,
+    game: "ets2",
+    title: "SCANIA P360",
+    category: "trucks",
+    version: "1.0",
+    size: "138 MB",
+    images: [
+      "images/mods/scania-p360-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1nQ4r1IZ9Sq60d8",
+    short: "High quality Scania NTG P360 truck with extensive customization options.",
+    description: "This mod brings the Scania NTG P360 to your fleet with a highly faithful 3D model that captures every nuance of the real-world truck. You will find that the interior is just as polished, featuring a fully functional dashboard and authentic controls to provide an immersive driving experience.\n\n- Extensive customization options including chassis types, bodywork, and trim pieces.\n- Functional accessories like marker lights, protection bars, and multimedia systems.\n- Unique interior details such as a phone, vape, and custom steering wheels.\n- Exterior flair with editable Mercosur license plates and various mudflaps.\n- Dynamic cargo loads that are both varied and fully animated.",
+    tags: [
+      "scania",
+      "truck",
+      "ets2",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1053,
+    game: "ets2",
+    title: "DAF XF95 EURO 3",
+    category: "trucks",
+    version: "2.4",
+    size: "472 MB",
+    images: [
+      "images/mods/daf-xf95-euro-3-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/79Gz4Fy64ScPFS0",
+    short: "Classic DAF XF95 truck with extensive customisation and GPS.",
+    description: "Andrii brings the classic DAF XF95 Euro 3 to your fleet with a highly detailed model featuring a functional Sony GPS display integrated into the original interior. This mod offers extensive customisation options to build your perfect long-haul rig.\n\n- Includes two unique cabin types and four distinct chassis configurations.\n- Features powerful Paccar MX 265 and 375 engine variants.\n- Comes with a 12-speed transmission setup complete with retarder functionality.\n- Provides a wide selection of exterior parts including three grills, two bumpers, two bullbars, and two sideskirts.",
+    tags: [
+      "daf",
+      "truck",
+      "euro3",
+      "scs",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 1054,
+    game: "ets2",
+    title: "XT Addons for Scania R & S Next Gen",
+    category: "parts-tuning",
+    version: "2.5",
+    size: "10.7 MB",
+    images: [
+      "images/mods/xt-addons-for-scania-r-s-next-gen-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/562hvNg6Lr8NpF3",
+    short: "Add rugged XT styling to your Scania Next Gen trucks.",
+    description: "This pack breathes new life into your Scania R and S Next Gen models by adding a selection of rugged XT-themed components. It fixes those annoying missing texture issues on the standard front mask ribs while expanding your aesthetic options significantly.\n\n- Includes specific XT bumper, mirrors, and intake variants.\n- Features custom XT badges for P, G, R, and S series trucks.\n- Resolves the missing texture bug on the standard front mask.\n- Designed specifically for the Scania Next Gen chassis.",
+    tags: [
+      "scania",
+      "tuning",
+      "truck",
+      "parts",
+      "xt"
+    ],
+    featured: true
+  },
+  {
+    id: 1055,
+    game: "ets2",
+    title: "Chereau Trailer Megamod",
+    category: "trailers",
+    version: "6.7",
+    size: "205 MB",
+    images: [
+      "images/mods/chereau-trailer-megamod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/76286dv1tks14nj",
+    short: "Highly customizable standalone trailer mod with extensive configuration options.",
+    description: "This comprehensive trailer package offers extensive customization options for your heavy haulage needs. You get a fully standalone experience that includes professional-grade ambient occlusion for realistic lighting and depth.\n\n- Choose between four different axle configurations for your trailer.\n- Personalize your build using nineteen distinct configurable slots.\n- Access seventy-five unique parts to fine-tune your trailer's aesthetic.\n- Includes functional Angles Mort safety decals and various logos.\n- Comes with dedicated skin templates for creating your own custom designs.",
+    tags: [
+      "chereau",
+      "trailer",
+      "custom",
+      "ets2",
+      "trucking"
+    ],
+    featured: true
+  },
+  {
+    id: 1056,
+    game: "ets2",
+    title: "OLDENBURGER Skin",
+    category: "skins",
+    version: "1.0",
+    size: "746 KB",
+    images: [
+      "images/mods/oldenburger-skin-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5Oo8ol5L8lvBW9x",
+    short: "Custom livery for Scania trucks and specific box trailers.",
+    description: "Deck out your fleet with this detailed OLDENBURGER livery designed for both base game and modded trucks. It captures the authentic aesthetic of the company branding while ensuring a clean fit across several popular configurations.\n\n- Fits the standard SCS Scania S and Eugene Scania PGRS S models.\n- Supports both SCS Box and Kast NTM trailer types.\n- Features a dedicated custom lightbox texture for added realism.\n- Created by modder Player Thurein for a professional look.",
+    tags: [
+      "scania",
+      "skin",
+      "oldenburger",
+      "trailer"
+    ],
+    featured: true
+  },
+  {
+    id: 1057,
+    game: "ets2",
+    title: "Ford Mustang 2025",
+    category: "cars-bus",
+    version: "1.3.1",
+    size: "84.0 MB",
+    images: [
+      "images/mods/ford-mustang-2025-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HIPXseIdhxddpJI",
+    short: "Modern Ford Mustang with custom interior and engine sounds.",
+    description: "You can find this modern beast waiting for you at the mod dealer. It feels quite authentic behind the wheel thanks to the fully functional custom interior, complete with smooth windshield and wiper animations.\n\n- Authentic custom engine performance and custom sound profile\n- Detailed interior lighting for those late-night delivery runs\n- Fully paintable exterior to match your company's branding\n- Includes custom wheels and updated material shaders throughout",
+    tags: [
+      "ford",
+      "mustang",
+      "car",
+      "sports car"
+    ],
+    featured: true
+  },
+  {
+    id: 1058,
+    game: "ets2",
+    title: "Mercedes-Benz Maybach S 400D",
+    category: "cars-bus",
+    version: "1.1.1",
+    size: "138 MB",
+    images: [
+      "images/mods/mercedes-benz-maybach-s-400d-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/W04cc8Hx2W3QGYo",
+    short: "Drive the luxurious Maybach S 400D in your trucking career.",
+    description: "Experience the luxury of this Maybach S 400D in Euro Truck Simulator 2, available for purchase directly at the mod dealer. It features several thoughtful refinements to elevate your driving experience.\n\n- Three distinct interior color options for cabin customization.\n- Fully functional windshield and wiper animations.\n- Custom engine performance and unique authentic sound profile.\n- Rearview camera system toggled by pressing the Щ key.\n- Paintable exterior and custom wheels included.",
+    tags: [
+      "mercedes",
+      "maybach",
+      "luxury",
+      "sedan",
+      "car"
+    ],
+    featured: true
+  },
+  {
+    id: 1059,
+    game: "ets2",
+    title: "Realistic Rain Reflections Standalone",
+    category: "other",
+    version: "1.3",
+    size: "106 MB",
+    images: [
+      "images/mods/realistic-rain-reflections-standalone-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5t41jeG9kBt56kW",
+    short: "Immersive rain and road reflection overhaul for wet weather.",
+    description: "This standalone mod completely overhauls the rainy driving experience by upgrading road textures and light handling for more immersive storms. You get much more convincing puddle effects and consistent sidewalk reflections that really pop during nighttime hauls.\n\n- Enhances wet road surface textures and overall reflection quality\n- Adds realistic puddle physics and improved windshield rain effects\n- Adjusts truck headlights to prevent texture flickering at night\n- Compatible with default trucks and most existing weather mods\n- Place at the top of your Mod Manager load order",
+    tags: [
+      "weather",
+      "rain",
+      "graphics",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 1060,
+    game: "ets2",
+    title: "Renault Magnum Integral",
+    category: "trucks",
+    version: "10",
+    size: "277 MB",
+    images: [
+      "images/mods/renault-magnum-integral-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yW6Zx09xHi1X130",
+    short: "A comprehensive Renault Magnum rework with extensive customization options.",
+    description: "This standalone Renault Magnum mod brings significant upgrades to the classic heavy hauler with a focus on both aesthetic and functional modularity. You get a fully featured truck that supports a wide range of aesthetic tweaks and mechanical configurations right out of the box.\n\n- Includes a dedicated template for both the cab and license plates.\n- Features custom interiors with an added shelf and support for cabin accessories.\n- Offers realistic mechanics like working window animations and functional truck cables.\n- Provides a comprehensive tuning suite including lightbars, fog lights, and removable rear fender tops.\n- Engine choices include 390, 430, and 470 horsepower variants with flexible fuel tank options.",
+    tags: [
+      "renault",
+      "magnum",
+      "truck",
+      "ets2",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 1061,
+    game: "ets2",
+    title: "JS Well-Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "148 MB",
+    images: [
+      "images/mods/js-well-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/d20f7NWqu4QyWK6",
+    short: "Detailed well trailer with custom wheels and seven cargoes.",
+    description: "This trailer mod provides a high-quality hauling experience with detailed 4K ambient occlusion textures. It features seven distinct cargo types compatible with both the cargo market and dedicated slots, offering plenty of variety for your logistics routes.\n\n- Seven unique cargo types available in the market\n- High-quality 4K ambient occlusion texture work\n- Customizable setup with both LED and standard taillights\n- Includes custom wheels and configurable side slots\n- Dual mudflap options for personalized exterior styling",
+    tags: [
+      "trailer",
+      "cargo",
+      "transport",
+      "logistics"
+    ],
+    featured: true
+  },
+  {
+    id: 1062,
+    game: "ets2",
+    title: "Scania P310 Bitruck",
+    category: "trucks",
+    version: "1.0",
+    size: "202 MB",
+    images: [
+      "images/mods/scania-p310-bitruck-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9q0hbf42h93KS32",
+    short: "A custom Scania P310 bitruck for heavy cargo transport.",
+    description: "This mod provides a Scania P310 configured as a specialized bitruck, perfect for players looking for unique axle setups for their cargo hauls. The truck features custom skins crafted by Wanderley Simulador that really highlight the vehicle's aesthetic in a simulation environment. It is designed specifically for those who prefer heavy-duty transport realism with a touch of personal visual style.",
+    tags: [
+      "scania",
+      "truck",
+      "bitruck",
+      "vehicle",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 1063,
+    game: "ets2",
+    title: "Marcopolo Paradiso G8 1800",
+    category: "cars-bus",
+    version: "1.60",
+    size: "129 MB",
+    images: [
+      "images/mods/marcopolo-paradiso-g8-1800-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/83mhlRf385J8hHl",
+    short: "High quality Marcopolo bus featuring extensive customization and skins.",
+    description: "This detailed recreation of the Marcopolo Paradiso G8 1800 offers significant flexibility for your long-haul journeys. You can fine-tune the performance and visual style of the coach to match your specific transport preferences.\n\n- Two distinct chassis options available for selection\n- Three unique engine choices to power your bus\n- Three transmission configurations for better road handling\n- Two different steering wheel models for the cabin\n- Numerous accessory slots to decorate your vehicle\n- Forty-one selectable skins included for exterior painting",
+    tags: [
+      "bus",
+      "marcopolo",
+      "coach",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1064,
+    game: "ets2",
+    title: "European Trailer Pack",
+    category: "trailers",
+    version: "3.2.1",
+    size: "1.80 GB",
+    images: [
+      "images/mods/european-trailer-pack-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hbhl7r20ddGu5Y4",
+    short: "Diverse trailer pack featuring multiple types and custom skins.",
+    description: "Expand your logistics fleet with this comprehensive collection of specialized trailers tailored for European trucking operations. You get a wide variety of cargo haulers including tipper, refrigerated, container, curtain, and food tank variants.\n\n- Features distinct, high-quality skins for every included trailer type.\n- Offers extensive customization options for personalized rig setups.\n- Includes specific container configurations compatible with SpecTransGroup.\n- Supports online World of Trucks loads for tanker, reefer, and curtain trailers.",
+    tags: [
+      "trailers",
+      "cargo",
+      "trucking",
+      "ets2",
+      "skins"
+    ],
+    featured: true
+  },
+  {
+    id: 1065,
+    game: "ets2",
+    title: "MB Axor by Bobtutoriais",
+    category: "trucks",
+    version: "1.0",
+    size: "229 MB",
+    images: [
+      "images/mods/mb-axor-by-bobtutoriais-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8RVHrvsRQRj4ysM",
+    short: "A detailed Mercedes-Benz Axor truck with custom cabin features.",
+    description: "This mod brings a detailed Mercedes-Benz Axor to your fleet with a high level of interior and exterior fidelity. It captures the essence of the classic heavy hauler while ensuring it fits seamlessly into the modern game environment.\n\n- Includes the authentic LX cabin configuration for drivers.\n- Features a standard 4x2 chassis setup for hauling.\n- Comes with custom engine sounds and a unique interior.\n- Fully integrated with SiSL's Mega Pack for customization.\n- Supports standard SCS license plates and trailer cables.",
+    tags: [
+      "mercedes",
+      "axor",
+      "trucks",
+      "european",
+      "sim"
+    ],
+    featured: true
+  },
+  {
+    id: 1066,
+    game: "ets2",
+    title: "Volvo FH 2023",
+    category: "trucks",
+    version: "1.6",
+    size: "140 MB",
+    images: [
+      "images/mods/volvo-fh-2023-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KJbGaf037qUpK74",
+    short: "Modern Volvo FH 2023 truck with extensive customization options.",
+    description: "This recreation of the modern Volvo FH brings the efficiency of the 2023 model directly to your virtual garage. You can customize the heavy-duty tractor unit with several aesthetic and functional adjustments.\n\n- Low-profile chassis configurations available for varied transport tasks\n- Extensive decal options for personalized exterior styling\n- Fully functional window tinting settings for the cabin\n- Aerodynamic design built for improved fuel and handling\n- Modern safety features integrated for long-haul operations",
+    tags: [
+      "volvo",
+      "fh2023",
+      "truck",
+      "transport",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1067,
+    game: "ets2",
+    title: "Scania Lion 164L V8 Special Megamod",
+    category: "trucks",
+    version: "1.60",
+    size: "755 MB",
+    images: [
+      "images/mods/scania-lion-164l-v8-special-megamod-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3u3ML4XE2dF10hJ",
+    short: "Detailed Scania 164L V8 truck with custom trailer and interior.",
+    description: "This comprehensive Scania 164L V8 overhaul brings an authentic 1998-era experience to your garage with extensive customization options. You get a fully detailed 3D model featuring high-quality 4K AO baking and fully replaceable templates for your own paint jobs. The package includes a matching Schmitz FCP245 trailer and an incredibly deep interior that captures the classic Scania aesthetic.\n\n- Includes 88 distinct configuration slots for the truck and 27 for the trailer.\n- Features high-fidelity exhaust notes with three unique stock and tuned sound profiles.\n- Offers 13 custom cabin lighting colors alongside ultra-bright red, purple, and blue neon options.\n- Equipped with realistic physics, precise power settings, and dynamic Alcoa wheel hubs.\n- Provides two swappable GPS units and a variety of 1998-specific interior accessories.",
+    tags: [
+      "scania",
+      "v8",
+      "classic",
+      "truck",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 1068,
+    game: "ets2",
+    title: "Scania NTG Pack + Box Trailer",
+    category: "trucks",
+    version: "1.60",
+    size: "475 MB",
+    images: [
+      "images/mods/scania-ntg-pack-box-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/hudCaeteP36z3Ht",
+    short: "Modern Scania NTG truck and matching trailer for haulers.",
+    description: "Upgrade your fleet with this highly detailed Scania NTG series, which comes fully customized for long-haul operations. You get a modern truck model alongside a matching box trailer that fits the aesthetic of both European and South American road networks.\n\n- Includes the modern Scania NTG truck lineup\n- Features a high-detail custom box trailer\n- Designed for European and South American routes\n- Optimized for professional long-distance hauling experiences",
+    tags: [
+      "scania",
+      "trucks",
+      "trailer",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 1069,
+    game: "rdr2",
+    title: "Sir Joseph's LML Startup Crash Fix",
+    category: "utilities",
+    version: "1.0",
+    size: "30 KB",
+    images: [
+      "images/mods/sir-josephs-lml-startup-crash-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I0yE214OU98iRX0",
+    short: "Fixes random RDR2 loading screen crashes for modded games.",
+    description: "Stop those frustrating random crashes occurring at the loading screen when you have a heavy mod load order installed. This utility addresses a specific issue where Lenny's Mod Loader injects assets before the game's streaming system initializes, leading to an ACCESS_VIOLATION error.\n\n- Prevents startup crashes caused by premature asset injection\n- Works silently in the background without requiring configuration\n- Compatible with ScriptHookRDR2 V2 and Ultimate ASI Loader\n- Simply place the file in your main root directory",
+    tags: [
+      "crash fix",
+      "lml",
+      "stability",
+      "rdr2",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 1070,
+    game: "rdr2",
+    title: "Enhanced Disarm N' Restored NPC Weapon Pickup",
+    category: "scripts",
+    version: "1.0",
+    size: "117 KB",
+    images: [
+      "images/mods/enhanced-disarm-n-restored-npc-weapon-pickup-1.jpg",
+      "images/mods/enhanced-disarm-n-restored-npc-weapon-pickup-2.jpg",
+      "images/mods/enhanced-disarm-n-restored-npc-weapon-pickup-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/C910KN086nQd08e",
+    short: "Restores RDR1 style weapon pickup and expands combat disarming.",
+    description: "This mod brings back the classic Red Dead Redemption 1 feature where NPCs actively retrieve weapons from the ground during combat, while also allowing you to disarm any enemy with precision shots. It requires either Alexander Blade's or V2 Script Hook to function correctly in your game directory.\n\n- Unarmed NPCs in combat will seek out and equip the nearest available firearm.\n- Hitting an enemy in the arm or hand forces them to drop their weapon.\n- The included ini file allows you to customize disarm cooldowns and pickup distances.\n- NPCs may occasionally prioritize melee weapons over guns found on the ground.\n- Be aware that the pickup animation can sometimes fail to trigger properly.",
+    tags: [
+      "combat",
+      "realism",
+      "rdr1",
+      "scripts",
+      "npc"
+    ],
+    featured: true
+  },
+  {
+    id: 1071,
+    game: "rdr2",
+    title: "Ultimate Free Climbing Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "104 KB",
+    images: [
+      "images/mods/ultimate-free-climbing-overhaul-1.jpg",
+      "images/mods/ultimate-free-climbing-overhaul-2.jpg",
+      "images/mods/ultimate-free-climbing-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ByHf2P6c1NN94Za",
+    short: "Scale any mountain or building with this climbing overhaul.",
+    description: "This mod introduces a sophisticated, customizable climbing system inspired by The Legend of Zelda: BOTW and TOTK, allowing you to scale nearly any surface in Red Dead Redemption 2. Whether you are navigating building facades, dense forests, or steep mountain ranges, the mechanics allow for fluid movement, corner-wrapping, and mid-air recovery.\n\n- Seamlessly grab objects or building ledges that are at least shoulder height to initiate climbing mode.\n- Utilize a stamina system that drains while moving or jumping, with optional configuration to toggle consumption and regeneration settings.\n- Perform strategic jumps, double jumps, or flip-turns to navigate complex terrain or prevent fall damage by disabling ragdoll physics.\n- Discover secret treasure chests scattered across major cities and remote mountain peaks, specifically placed to reward those who master the climbing mechanics.\n- Fully rebind all inputs for climbing, sprinting, and auto-grabbing to suit your controller or keyboard preferences via the included .ini file.",
+    tags: [
+      "climbing",
+      "movement",
+      "parkour"
+    ],
+    featured: true
+  },
+  {
+    id: 1072,
+    game: "rdr2",
+    title: "The Oathkeeper - Sir Joseph's Revolver",
+    category: "weapons",
+    version: "1.0",
+    size: "8.1 MB",
+    images: [
+      "images/mods/the-oathkeeper-sir-josephs-revolver-1.jpg",
+      "images/mods/the-oathkeeper-sir-josephs-revolver-2.jpg",
+      "images/mods/the-oathkeeper-sir-josephs-revolver-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/448Pop76Pt1nbW5",
+    short: "A beautifully customized Schofield revolver replacing Otis Miller's weapon.",
+    description: "Experience Sir Joseph's personal Schofield revolver, a sentimental sidearm gifted by his wife Helena. This intricately detailed weapon brings a unique narrative flair to your arsenal while maintaining authentic period aesthetics.\n\n- Replaces the existing Otis Miller's Revolver model.\n- Requires LML for proper installation within the game.\n- Can be unlocked using Rampage or found in New Austin.\n- Custom textures designed by Jack mistaswede for high visual quality.",
+    tags: [
+      "revolver",
+      "weapon",
+      "rdr2",
+      "schofield"
+    ],
+    featured: true
+  },
+  {
+    id: 1073,
+    game: "rdr2",
+    title: "RDR1 Hair",
+    category: "player",
+    version: "1.0",
+    size: "106 KB",
+    images: [
+      "images/mods/rdr1-hair-1.jpg",
+      "images/mods/rdr1-hair-2.jpg",
+      "images/mods/rdr1-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/R6v4qfrQR8Yo7t0",
+    short: "Authentic John Marston hair style from the original game.",
+    description: "Recreate John Marston's iconic look by importing his original hair model directly into Red Dead Redemption 2. This port features completely updated UV maps that utilize high-quality RDR2 textures for a modern, crisp appearance.\n\n- Fully functional vertex paint and weights ensure smooth character interaction.\n- Includes custom LODs to maintain performance during gameplay.\n- The hair model is fully compatible with all in-game hats.\n- Provides a significant visual upgrade over the base game version.",
+    tags: [
+      "john marston",
+      "hair",
+      "character",
+      "rdr1"
+    ],
+    featured: true
+  },
+  {
+    id: 1074,
+    game: "rdr2",
+    title: "Enemy Outposts",
+    category: "maps",
+    version: "1.0",
+    size: "78 KB",
+    images: [
+      "images/mods/enemy-outposts-1.jpg",
+      "images/mods/enemy-outposts-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/v4X2ouA0pzTVkfp",
+    short: "Adds thirty-nine tactical enemy camps throughout the open world.",
+    description: "Drawing heavy inspiration from MGSV, this modification injects thirty-nine unique enemy outposts across the world map to significantly increase combat opportunities. Each location is clearly marked with a white circle, categorized into aggressive camps that attack on sight and passive ones that only engage if you wander too close.\n\n- Randomized ammo crates spawn in every outpost tent.\n- Medical boxes containing tonics and horse-revivers appear with variable frequency.\n- Lock boxes filled with money provide extra incentive for raiding.\n- Included .ini configuration file allows you to toggle map markers or force specific weapon types.\n- Modifiable settings also let you customize enemy models and adjust loot spawn rates.",
+    tags: [
+      "combat",
+      "open world",
+      "pve",
+      "missions",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 1075,
+    game: "rdr2",
+    title: "Interactive Horse Utilities",
+    category: "scripts",
+    version: "1.0",
+    size: "59 KB",
+    images: [
+      "images/mods/interactive-horse-utilities-1.jpg",
+      "images/mods/interactive-horse-utilities-2.jpg",
+      "images/mods/interactive-horse-utilities-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b6z96zf0t6Bi6mt",
+    short: "Add immersive horse interactions and speed boosts to RDR2.",
+    description: "Enhance your equestrian experience with these quality-of-life tweaks designed to make horseback travel feel more dynamic and realistic. This utility script integrates seamlessly into your game to provide deeper engagement with your mount.\n\n- Toggle a lantern on your horse's saddle for night rides using reverse-engineered vanilla logic.\n- Greet your horse with custom dialogue lines to calm or compliment them while targeting.\n- Experience immersive mounting and dismounting with controller haptics and contextual voice lines.\n- Trigger an intense speed boost by pressing R3 or N, complete with a dynamic camera pull.\n- The mod automatically disables during combat and cutscenes to ensure your story remains uninterrupted.",
+    tags: [
+      "horses",
+      "immersion",
+      "scripts",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 1076,
+    game: "rdr2",
+    title: "Euphoria Grabs",
+    category: "scripts",
+    version: "1.0",
+    size: "131 KB",
+    images: [
+      "images/mods/euphoria-grabs-1.jpg",
+      "images/mods/euphoria-grabs-2.jpg",
+      "images/mods/euphoria-grabs-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/sl0aXZJu4Uk1idf",
+    short: "Add realistic ledge grabbing physics to RDR2 ragdolls.",
+    description: "This script brings back the classic Rockstar euphoria grabbing mechanic, allowing both you and NPCs to catch ledges during ragdoll sequences. It operates independently of physics overhauls, ensuring compatibility with other mods while providing deep customization through a dedicated configuration file.\n\n- Players and NPCs can perform two-handed grabs and climb back up.\n- Manual grabbing is supported via a customizable key bind or controller input.\n- Shoot a character's limb to force them to let go of a ledge.\n- Fine-tune climb chances, grab durations, and ledge detection distance in the ini file.\n- Works on nearly all surfaces, excluding humans and animals.",
+    tags: [
+      "physics",
+      "realism",
+      "ragdoll",
+      "scripts"
+    ],
+    featured: true
+  },
+  {
+    id: 1077,
+    game: "rdr2",
+    title: "Loansharking - Debt Collection",
+    category: "scripts",
+    version: "1.0",
+    size: "3.2 MB",
+    images: [
+      "images/mods/loansharking-debt-collection-1.jpg",
+      "images/mods/loansharking-debt-collection-2.jpg",
+      "images/mods/loansharking-debt-collection-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J9fTtw6uX991lvh",
+    short: "Become a ruthless debt collector through dynamic, unpredictable mission encounters.",
+    description: "This ASI script turns the life of a debt collector into an unpredictable, open-ended gameplay loop inspired by official missions. You start by picking up debt leads at any Post Office, triggering real-time letter events that launch unique collection encounters across the frontier.\n\n- Confront debtors using intimidation, melee, or firearms to secure your payment.\n- Deal with random variables like ambush traps, fake bills, or debtors fleeing with excuses.\n- Seize horses, furniture, or valuables if the target lacks sufficient cash on hand.\n- Handle dynamic scenarios where debtors might be found already deceased or mid-altercation.\n- Utilize the optional NonStopMissions mode to chain collections back-to-back without downtime.",
+    tags: [
+      "rdr2",
+      "scripts",
+      "outlaw",
+      "western",
+      "mission"
+    ],
+    featured: true
+  },
+  {
+    id: 1078,
+    game: "rdr2",
+    title: "Alright Kids Mod (AKM)",
+    category: "scripts",
+    version: "1.0",
+    size: "146 KB",
+    images: [
+      "images/mods/alright-kids-mod-akm-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2XEW81C1zb0ykvW",
+    short: "Adds roaming children to major towns in Red Dead Redemption.",
+    description: "This mod breathes new life into the frontier by populating eight major settlements with children that spawn and refresh naturally as you explore. You can interact with these kids using the standard greet and antagonize inputs just like other NPCs in the game.\n\n- Adds children to Valentine, Saint Denis, Rhodes, Blackwater, Strawberry, Annesburg, Armadillo, and Tumbleweed.\n- Includes an .ini configuration file to toggle the mod on or off.\n- Allows you to adjust the spawn population density between Low, Medium, and High settings.\n- Requires ScriptHookRDR2 to function correctly within your Story Mode save.",
+    tags: [
+      "rdr2",
+      "npc",
+      "scripts",
+      "immersion",
+      "towns"
+    ],
+    featured: true
+  },
+  {
+    id: 1079,
+    game: "rdr2",
+    title: "Dual Hermits Gun Belt",
+    category: "player",
+    version: "1.2",
+    size: "33.8 MB",
+    images: [
+      "images/mods/dual-hermits-gun-belt-1.jpg",
+      "images/mods/dual-hermits-gun-belt-2.jpg",
+      "images/mods/dual-hermits-gun-belt-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/h5vCfv9Ki4w60W6",
+    short: "Custom gun belt for Arthur with dual holster support.",
+    description: "This mod refits the Hermit gun belt for Arthur Morgan, offering multiple color variants that work seamlessly with his standard low holsters. You should note that this cosmetic overhaul is not compatible with coats, so you will need to plan your outfit accordingly. The latest update includes a functional lasso and moves the knife holster and satchel to the leg for a cleaner look. I have also adjusted the pants model to ensure the straps sit properly without clipping.\n\n- Adds dual gun access from the very beginning of the story.\n- Requires manual merging of assets_drawable.ymt by removing COMPONENT_HOLSTERS lines.\n- Replaces standard gun belts with remodeled hermit-style equipment.\n- Fixes previous issues where guns would appear invisible in-game.",
+    tags: [
+      "arthur",
+      "holsters",
+      "cosmetics",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 1080,
+    game: "rdr2",
+    title: "Penelope New Outfits",
+    category: "player",
+    version: "1.0",
+    size: "136 KB",
+    images: [
+      "images/mods/penelope-new-outfits-1.jpg",
+      "images/mods/penelope-new-outfits-2.jpg",
+      "images/mods/penelope-new-outfits-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/RRR6EV9ho209tC0",
+    short: "Add eight custom outfits for the Penelope companion mod.",
+    description: "Customize your Penelope Braithwaite companion with these eight unique custom outfits. You will definitely want to pair this with the Elite Companion Penelope mod to get the best results in-game. Please note that an online content unlock tool like version.dll or LITE is strictly required for these assets to load properly.",
+    tags: [
+      "penelope",
+      "rdr2",
+      "outfits",
+      "companion"
+    ],
+    featured: true
+  },
+  {
+    id: 1081,
+    game: "rdr2",
+    title: "DogProMan's Beta Rifle Holster",
+    category: "models-textures",
+    version: "1.0",
+    size: "2.5 MB",
+    images: [
+      "images/mods/dogpromans-beta-rifle-holster-1.jpg",
+      "images/mods/dogpromans-beta-rifle-holster-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0VmC440MoHAkjbl",
+    short: "Restores Arthur's original beta rifle holster to the game.",
+    description: "Reclaiming the look of the early development files, this mod modifies the Bear Claw Talisman to function as Arthur's beta rifle holster. You should pair this with a bandolier to ensure the straps look correct during gameplay.\n\n- Replaces the Bear Claw Talisman model entirely.\n- Includes a modified strap file to hide your rifle while holstered.\n- Renames the item to Arthur's Rifle Holster via included strings.\n- Requires Lenny's Mod Loader for proper installation.\n- Compatibility patches are provided for Catalogue Improvements users.",
+    tags: [
+      "arthur",
+      "holster",
+      "realism",
+      "rifle"
+    ],
+    featured: true
   }
 ];
 
