@@ -21946,6 +21946,667 @@ const MODS = [
       "ac mods"
     ],
     featured: true
+  },
+  {
+    id: 989,
+    game: "subnautica2",
+    title: "Too Many Rooms - Free Building",
+    category: "buildables",
+    version: "1.0.2",
+    size: "7 KB",
+    images: [
+      "images/mods/too-many-rooms-free-building-1.jpg",
+      "images/mods/too-many-rooms-free-building-2.jpg",
+      "images/mods/too-many-rooms-free-building-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Hl2nWHl4PYyi75S",
+    short: "Remove base placement collision restrictions for free habitat building.",
+    description: "This C++ DLL mod utilizes UE4SS to patch memory at runtime, effectively disabling the strict obstruction boundaries that typically prevent you from placing and resizing rooms. It allows you to construct habitats in previously invalid zones by bypassing standard validation checks, without modifying any actual game files.\n\n- Removes collision restrictions for all base rooms and extensions.\n- Supports both Steam and Microsoft Store/Game Pass versions.\n- Operates entirely in memory with no permanent file changes.\n- Does not yet affect interior furniture or equipment placement.\n- Requires UE4SS to be installed correctly in the game binaries folder.",
+    tags: [
+      "base",
+      "building",
+      "habitat",
+      "subnautica",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 990,
+    game: "subnautica2",
+    title: "Instant Scan",
+    category: "gameplay",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/instant-scan-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/XcZ39O77wvn1d57",
+    short: "Instantly complete object scanning and save your valuable time.",
+    description: "Forget about sitting through those tedious scanning animations every time you analyze a new blueprint or creature. This tweak forces the progress bar to fill the moment you start scanning, letting you gather data and move on with your exploration without a second of downtime. \n\n- Enables near-instant data collection for all scan targets.\n- Removes the lengthy waiting period of the default process.\n- Compatible with drag-and-drop installation via UE4SS Mod Manager.\n- Multiplayer functionality remains untested and potentially unstable.",
+    tags: [
+      "scan",
+      "gameplay",
+      "utility",
+      "tweak"
+    ],
+    featured: true
+  },
+  {
+    id: 991,
+    game: "subnautica2",
+    title: "Light Power Reduction",
+    category: "gameplay",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/light-power-reduction-1.jpg",
+      "images/mods/light-power-reduction-2.jpg",
+      "images/mods/light-power-reduction-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GLr8F38O5fS0eKR",
+    short: "Reduce base light power consumption to twenty-five percent.",
+    description: "Stop worrying about your base lights draining your power cells so quickly. This tweak slashes the energy consumption of all standard lights to just 25% of their original cost.\n\n- Lowers power drain for all base lighting components.\n- Includes an optional file to boost light radius and intensity.\n- Requires UE4SS to function correctly within the game files.\n- Fixes specific bugs previously occurring with exterior lighting modules.",
+    tags: [
+      "lighting",
+      "power",
+      "utility",
+      "base",
+      "energy"
+    ],
+    featured: true
+  },
+  {
+    id: 992,
+    game: "subnautica2",
+    title: "Scanner Room Icon Replacement",
+    category: "ui",
+    version: "1.0",
+    size: "19 KB",
+    images: [
+      "images/mods/scanner-room-icon-replacement-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1V3CG83c2667yUC",
+    short: "Replaces the default scanner room icon with improved graphics.",
+    description: "Swap out your standard scanner room UI element for this cleaner, more refined icon design. It is a lightweight visual tweak that focuses entirely on updating the game's interface clarity. Installation is straightforward, requiring you to manually move the extracted files into your local Mods directory. If the folder does not exist, simply create it to get the new asset working immediately.",
+    tags: [
+      "ui",
+      "icons",
+      "visuals",
+      "subnautica"
+    ],
+    featured: true
+  },
+  {
+    id: 993,
+    game: "subnautica2",
+    title: "Subnautica 2 - Polish Language Pack",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "441 KB",
+    images: [
+      "images/mods/subnautica-2-polish-language-pack-1.jpg",
+      "images/mods/subnautica-2-polish-language-pack-2.jpg",
+      "images/mods/subnautica-2-polish-language-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GorpM67UhU5RV77",
+    short: "Early Polish language translation for Subnautica 2 early access.",
+    description: "Experience Subnautica 2 in Polish with this initial translation project designed for early access players. While the core text was generated using the Gemma 2 AI model, significant manual refinements have already been applied to correct syntax and improve linguistic flow.\n\n- Contains .pak, .ucas, and .utoc files for manual installation.\n- Requires copying files directly into the Subnautica2/Content/Paks folder.\n- Ongoing alpha project receiving frequent updates to fix AI context errors.\n- Community feedback is encouraged via screenshot reports on the mod page.",
+    tags: [
+      "polish",
+      "language",
+      "translation"
+    ],
+    featured: true
+  },
+  {
+    id: 994,
+    game: "subnautica2",
+    title: "Flora Resonator",
+    category: "gameplay",
+    version: "1.0",
+    size: "8 KB",
+    images: [
+      "images/mods/flora-resonator-1.jpg",
+      "images/mods/flora-resonator-2.jpg",
+      "images/mods/flora-resonator-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DQbS2DIBj0tzD2W",
+    short: "Automatically harvest flora using your Sonic Resonator blast effect.",
+    description: "This utility makes gathering resources significantly faster by letting your Sonic Resonator automatically collect plants and fruits within its blast radius. You no longer need to approach every single item to manually press E for collection.\n\n- Automatically harvests fruits, sacs, and loose pickup items in the blast zone.\n- Instantly breaks and collects multi-tool harvestable plants in a single shot.\n- Fully compatible with both the standard Sonic Resonator and the upgraded Feedback variant.\n- Requires UE4SS to function correctly within your game files.",
+    tags: [
+      "farming",
+      "harvest",
+      "survival",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 995,
+    game: "gta5",
+    title: "Anti Combat Stance",
+    category: "scripts",
+    version: "1.0",
+    size: "40 KB",
+    images: [
+      "images/mods/anti-combat-stance-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/u2rMCbPE6KM3I4g",
+    short: "Prevents your character from automatically entering tense combat stances.",
+    description: "Your character no longer snaps into that stiff, weapon-ready combat pose for several seconds immediately after killing a pedestrian. You can finally keep walking or running naturally without the game forcing a tense alert animation and locking your camera. \n\n- Automatically cancels the forced action mode stance after kills.\n- Requires zero menu configuration or hotkey assignments to function.\n- Runs silently in the background once you install it.\n- Keeps movement fluid by preventing unnecessary freezing into alert poses.",
+    tags: [
+      "animation",
+      "script",
+      "combat",
+      "movement"
+    ],
+    featured: true
+  },
+  {
+    id: 996,
+    game: "gta5",
+    title: "Fleeca Bank System",
+    category: "scripts",
+    version: "2.0",
+    size: "1.1 MB",
+    images: [
+      "images/mods/fleeca-bank-system-1.jpg",
+      "images/mods/fleeca-bank-system-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/92w9hn14qrS2Yq8",
+    short: "Advanced banking script for managing your Los Santos finances.",
+    description: "Managing your finances in Los Santos just got a lot more streamlined with this major update. You can now use any of the real Fleeca ATMs scattered across the map to handle your cash, which is a significantly cheaper alternative to using your mobile banking app.\n\n- Uses a dedicated folder for all save files to keep your script directory clutter-free.\n- Automatically migrates your existing save data upon the first launch for seamless continuity.\n- Limits individual ATM withdrawals to $20,000 to maintain a realistic economic balance.\n- Charges a flat $25 fee for every successful ATM transaction.",
+    tags: [
+      "banking",
+      "economy",
+      "realism",
+      "scripts",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 997,
+    game: "gta5",
+    title: "Addon To Street",
+    category: "scripts",
+    version: "1.0",
+    size: "3.9 MB",
+    images: [
+      "images/mods/addon-to-street-1.jpg",
+      "images/mods/addon-to-street-2.jpg",
+      "images/mods/addon-to-street-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OMA0uKOAA3C7W5H",
+    short: "Populate Los Santos with custom addon ped character models.",
+    description: "This BETA script breathes life into your city by injecting your custom addon peds directly into the ambient population without overwriting any default game models. Your installed characters will wander the streets, stand around, check their phones, or smoke just like standard NPCs.\n\n- Utilizes a JSON-based system for precise coordinate-based spawning.\n- Integrates seamlessly with existing addon ped installations.\n- Supports varied NPC behaviors including walking and idle animations.\n- Eliminates the need to replace vanilla character files.",
+    tags: [
+      "scripts",
+      "peds",
+      "gta5",
+      "immersion",
+      "npcs"
+    ],
+    featured: true
+  },
+  {
+    id: 998,
+    game: "gta5",
+    title: "Realistic Gunplay Mod",
+    category: "weapons",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/realistic-gunplay-mod-1.jpg",
+      "images/mods/realistic-gunplay-mod-2.jpg",
+      "images/mods/realistic-gunplay-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BbjhFFGI7Lu37xp",
+    short: "Transform GTA V gunplay into a punishing, realistic combat experience.",
+    description: "Forget the floaty, arcade-style shooting mechanics that make base game firefights feel weightless. This mod forces you to manage intense, realistic recoil patterns and aggressive camera movement that actively fights your aim during intense close-quarters encounters.\n\n- Implements significant recoil physics for every weapon type\n- Removes cinematic kill-cams to keep the action grounded\n- Adds dynamic camera shake during first-person combat scenarios\n- Increases the overall lethality and weight of trigger pulls",
+    tags: [
+      "gunplay",
+      "combat",
+      "realism",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 999,
+    game: "gta5",
+    title: "2012 Chevrolet Corvette C6 ZR1",
+    category: "vehicles",
+    version: "1.0",
+    size: "26.3 MB",
+    images: [
+      "images/mods/2012-chevrolet-corvette-c6-zr1-1.jpg",
+      "images/mods/2012-chevrolet-corvette-c6-zr1-2.jpg",
+      "images/mods/2012-chevrolet-corvette-c6-zr1-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ci3696gY7jz4H0M",
+    short: "High quality Corvette C6 ZR1 with functional interior details.",
+    description: "This add-on brings the 2012 Corvette C6 ZR1 to Los Santos with a focus on high-fidelity modeling and interactive components. The exterior features detailed lighting and ambient occlusion, while the interior is fully functional for a more immersive driving experience.\n\n- Working dials and hands-on steering wheel animations\n- Fully operational doors, including the non-arched variant\n- Breakable and tintable glass surfaces for custom looks\n- Detailed wheels and realistic reflection mirrors\n- Multiple paint options for both the body and calipers",
+    tags: [
+      "chevrolet",
+      "corvette",
+      "sports car",
+      "c6"
+    ],
+    featured: true
+  },
+  {
+    id: 1000,
+    game: "gta5",
+    title: "Climb Guns",
+    category: "scripts",
+    version: "1.0",
+    size: "5 KB",
+    images: [
+      "images/mods/climb-guns-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A8496Bu2IWvOyIh",
+    short: "Keep your weapons equipped while climbing and vaulting obstacles.",
+    description: "This script solves the frustration of your weapons magically disappearing every time you perform a vault or climb action. It restores the classic behavior seen in older GTA titles, ensuring your equipped arsenal stays in your hands during traversal.\n\n- Maintains active weapon state during climbing animations\n- Works seamlessly with vaulting over obstacles\n- Restores classic movement mechanics from previous games\n- Fixes annoying immersion-breaking equipment holstering issues",
+    tags: [
+      "gta5",
+      "scripts",
+      "weapons",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 1001,
+    game: "gta5",
+    title: "Online Weapons",
+    category: "scripts",
+    version: "1.0",
+    size: "13 KB",
+    images: [
+      "images/mods/online-weapons-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Vsby8eoEOl9KEYB",
+    short: "Equip single-player characters with powerful Online mode exclusive weapons.",
+    description: "Customize Michael, Franklin, and Trevor's personal loadouts by injecting powerful Online-exclusive firearms directly into their single-player inventories. You can easily modify the specific equipment assigned to each protagonist by editing the included ini file to your preference.\n\n- Grants access to advanced hardware like the Service Carbine.\n- Includes full support for weapon customization and attachments.\n- Configurable settings allow unique loadouts for every character.\n- Simplifies the process of obtaining restricted multiplayer-only weaponry.",
+    tags: [
+      "gta5",
+      "scripts",
+      "weapons",
+      "online",
+      "firearms"
+    ],
+    featured: true
+  },
+  {
+    id: 1002,
+    game: "gta5",
+    title: "Tuned Lancer Evo 10 - Engine Sound",
+    category: "scripts",
+    version: "1.0",
+    size: "6.9 MB",
+    images: [
+      "images/mods/tuned-lancer-evo-10-engine-sound-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NZ95x2IV4hV6m99",
+    short: "High quality custom engine sound for your performance vehicles.",
+    description: "Forget standard replacements, this custom 8.4L Dodge Viper GTS sound package operates as a standalone add-on compatible with any vehicle in the game. It delivers professional-grade audio fidelity designed specifically for performance builds, ensuring your engine note commands attention on the streets of Los Santos. You can easily integrate this across your entire garage for a more immersive and aggressive driving experience.\n\n- Features realistic audio occlusion to muffle exhaust when obstructed.\n- Fully functional as a standalone add-on rather than replacing files.\n- Engineered specifically to capture the growl of the Viper engine.\n- Provides a high-fidelity alternative to the game's default audio.\n- Compatible with both FiveM servers and standard singleplayer setups.",
+    tags: [
+      "sound",
+      "engine",
+      "gta5",
+      "tuning",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1003,
+    game: "gta5",
+    title: "Sell Cars (Vehicle Black Markets)",
+    category: "scripts",
+    version: "1.0",
+    size: "6 KB",
+    images: [
+      "images/mods/sell-cars-vehicle-black-markets-1.jpg",
+      "images/mods/sell-cars-vehicle-black-markets-2.jpg",
+      "images/mods/sell-cars-vehicle-black-markets-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pWs4sxDAh10W8J4",
+    short: "Sell your unwanted vehicles to shady NPCs in-game.",
+    description: "Selling your cars or choppers in story mode is finally a reality thanks to this script. You can track down 27 distinct black market contacts hidden across the map who are ready to take unwanted vehicles off your hands.\n\n- Includes custom cutscenes triggered whenever you complete a sale.\n- Populates the world with 27 unique shady NPCs.\n- Works for both ground vehicles and aerial choppers.\n- Offers full compatibility with Enhanced for a seamless experience.",
+    tags: [
+      "scripts",
+      "vehicles",
+      "gta5",
+      "cars",
+      "trading"
+    ],
+    featured: true
+  },
+  {
+    id: 1004,
+    game: "gta5",
+    title: "BMW X6 M [Add-On | Legacy | Enhanced]",
+    category: "vehicles",
+    version: "1.0",
+    size: "80.2 MB",
+    images: [
+      "images/mods/bmw-x6-m-add-on-legacy-enhanced-1.jpg",
+      "images/mods/bmw-x6-m-add-on-legacy-enhanced-2.jpg",
+      "images/mods/bmw-x6-m-add-on-legacy-enhanced-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/517eaLONC8Tx0OP",
+    short: "High fidelity BMW X6 M with custom HUD features.",
+    description: "Experience this high-fidelity BMW X6 M brought to Los Santos with a focus on immersive interior and exterior details. It features a fully functional HUD and a custom speedometer that tracks your speed with precision. The model includes high-quality reflective mirrors and breakable glass for realistic collision feedback.\n\n- Four distinct paintable caliper options for custom styling.\n- Accurate steering wheel animation with proper hands-on placement.\n- Fully operational lighting system for all front and rear lamps.\n- Detailed cabin interior designed for an authentic driver's perspective.",
+    tags: [
+      "bmw",
+      "x6m",
+      "car",
+      "vehicle",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 1005,
+    game: "gta5",
+    title: "Logical Little Towns",
+    category: "maps",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/logical-little-towns-1.jpg",
+      "images/mods/logical-little-towns-2.jpg",
+      "images/mods/logical-little-towns-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/I89q7D27TJP23uk",
+    short: "Expands Los Santos suburbs with new houses and motels.",
+    description: "This pack breathes life into the quieter outskirts of Los Santos by adding custom YMAP structures to Sandy Shores and Grapeseed. You will find derelict motel-style buildings along the main strip of Sandy Shores, while Grapeseed receives several new houses and apartment blocks to feel more populated. Be sure to download every individual file provided to ensure the full collection appears in your game world.\n\n- Adds immersive residential and commercial structures to rural areas.\n- Specifically populates the Sandy Shores main road drag.\n- Includes new apartment buildings and houses for Grapeseed.\n- Designed as a modular pack for selective or total installation.",
+    tags: [
+      "maps",
+      "gta5",
+      "scenery",
+      "buildings",
+      "rural"
+    ],
+    featured: true
+  },
+  {
+    id: 1006,
+    game: "gta5",
+    title: "Iconic cars collection [Menyoo]",
+    category: "vehicles",
+    version: "1.0",
+    size: "17 KB",
+    images: [
+      "images/mods/iconic-cars-collection-menyoo-1.jpg",
+      "images/mods/iconic-cars-collection-menyoo-2.jpg",
+      "images/mods/iconic-cars-collection-menyoo-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4N6HgaA3245mUOC",
+    short: "Legendary movie vehicles brought directly into your game world.",
+    description: "Recreate classic cinematic moments by spawning these legendary vehicles directly into Los Santos using your Menyoo trainer. This collection focuses on some of the most recognizable rides in pop culture history, ranging from horror icons to high-speed action stars. \n\n- Features Dom's Dodge Charger from the Fast and Furious franchise.\n- Includes supernatural vehicles like the Ghostbusters Ecto-1 and Christine.\n- Adds the Mystery Machine and Herbie the Love Bug to your garage.\n- Requires the Menyoo PC trainer installed to function correctly in-game.\n- Includes the Batmobile, specifically utilizing the game's Vigilante model.",
+    tags: [
+      "movie cars",
+      "vehicles",
+      "menyoo",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 1007,
+    game: "gta5",
+    title: "Mclaren 720S GT3 Evo",
+    category: "vehicles",
+    version: "1.0",
+    size: "181 MB",
+    images: [
+      "images/mods/mclaren-720s-gt3-evo-1.jpg",
+      "images/mods/mclaren-720s-gt3-evo-2.jpg",
+      "images/mods/mclaren-720s-gt3-evo-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e0pBfDQ8WXiK6SB",
+    short: "High fidelity Mclaren GT3 race car for GTA V.",
+    description: "This conversion brings the sleek Mclaren 720S GT3 Evo into Los Santos with impressive detail sourced from Assetto Corsa Competizione. It includes full support for both Add-On and FiveM environments, making it a versatile choice for race-focused servers or personal gameplay.\n\n- Features a fully functional high-definition digital dashboard.\n- Custom signal lights allow for user-defined color changes.\n- Includes adjustable headlights and extensive tuning options.\n- Comes with crisp 4K livery assets.\n- Includes a template file for creating your own custom paintjobs.",
+    tags: [
+      "mclaren",
+      "gt3",
+      "racing",
+      "supercar",
+      "fivem"
+    ],
+    featured: true
+  },
+  {
+    id: 1008,
+    game: "gta5",
+    title: "IRL Pita's Preset [QuantV]",
+    category: "other",
+    version: "1.0",
+    size: "8 KB",
+    images: [
+      "images/mods/irl-pitas-preset-quantv-1.jpg",
+      "images/mods/irl-pitas-preset-quantv-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ukd2sDm31ZK728w",
+    short: "A realistic visual preset designed for QuantV graphics modification.",
+    description: "Enhance your game's visual fidelity with this custom configuration designed specifically for the QuantV graphics modification. By balancing color saturation and lighting parameters, this preset aims to provide a more grounded, realistic atmosphere during your sessions.\n\n- Copy the preset file directly into your main directory.\n- Developed to work seamlessly with QuantV installations.\n- Requires existing QuantV files to function correctly.\n- Offers a curated look for improved environmental immersion.",
+    tags: [
+      "graphics",
+      "visual",
+      "realism",
+      "preset"
+    ],
+    featured: true
+  },
+  {
+    id: 1009,
+    game: "gta5",
+    title: "iPhone 18 Pro Max for Franklin and MP",
+    category: "other",
+    version: "1.0",
+    size: "6.2 MB",
+    images: [
+      "images/mods/iphone-18-pro-max-for-franklin-and-mp-1.jpg",
+      "images/mods/iphone-18-pro-max-for-franklin-and-mp-2.jpg",
+      "images/mods/iphone-18-pro-max-for-franklin-and-mp-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7WtHSY74CWBQ52t",
+    short: "A high-end concept phone replacement for Franklin and MP.",
+    description: "Swap your standard in-game mobile device for this custom iPhone 18 Pro Max concept model. Originally designed as a private project for filming cinematic shorts, it brings a sleek, modern aesthetic to Franklin and your multiplayer character's smartphone.\n\n- Replaces the default phone model for both Franklin and MP.\n- Features custom high-resolution wallpapers for the lock and home screens.\n- Includes updated icon textures for specific applications.\n- Built as a concept device for visual flair rather than functional UI expansion.\n- The user interface remains largely untouched to ensure baseline compatibility.",
+    tags: [
+      "iphone",
+      "smartphone",
+      "franklin"
+    ],
+    featured: true
+  },
+  {
+    id: 1010,
+    game: "gta5",
+    title: "MaiXiaowen Ped Replacement",
+    category: "player",
+    version: "1.0",
+    size: "14.2 MB",
+    images: [
+      "images/mods/maixiaowen-ped-replacement-1.jpg",
+      "images/mods/maixiaowen-ped-replacement-2.jpg",
+      "images/mods/maixiaowen-ped-replacement-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9U83BG6a60Pdgg6",
+    short: "Add this custom ped character to your game easily.",
+    description: "You can integrate this custom character model into your game using the OpenIV tool by replacing the designated files within the patch2024_01_g9ec dlcpacks directory. Make sure you rename the four provided files to the specific MaiXiaowen replacement code before dropping them into the coureurhsw_mods folder. To ensure the character functions correctly, you will also need to utilize the Addonpeds tool to manage the installation process. Simply extract the archive contents and move the necessary files into the update path as specified in the configuration steps.",
+    tags: [
+      "character",
+      "player",
+      "peds",
+      "custom model"
+    ],
+    featured: true
+  },
+  {
+    id: 1011,
+    game: "gta5",
+    title: "Revenant-15 Carbine Rifle",
+    category: "weapons",
+    version: "1.0",
+    size: "158 MB",
+    images: [
+      "images/mods/revenant-15-carbine-rifle-1.jpg",
+      "images/mods/revenant-15-carbine-rifle-2.jpg",
+      "images/mods/revenant-15-carbine-rifle-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0d730BzcoR82232",
+    short: "High fidelity AR-15 rifle replacement for GTA V weapons.",
+    description: "- Replaces the standard Carbine Rifle with a custom Revenant-15 model.\n- Features a custom scope and perfectly zeroed ADS functionality.\n- High-quality mesh sitting at 57,606 polygons for detailed visuals.\n- Fully FiveM ready for immediate server implementation.\n- Installation requires OpenIV to replace existing files in patchday8ng.",
+    tags: [
+      "weapon",
+      "rifle",
+      "custom",
+      "ar15",
+      "fivem"
+    ],
+    featured: true
+  },
+  {
+    id: 1012,
+    game: "gta5",
+    title: "Cinematic Driving",
+    category: "scripts",
+    version: "1.0",
+    size: "126 KB",
+    images: [
+      "images/mods/cinematic-driving-1.jpg",
+      "images/mods/cinematic-driving-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/FHUpbVDAp1wd5bl",
+    short: "Add dynamic motion blur and camera shake to driving.",
+    description: "Driving in Los Santos finally gains some much-needed weight and intensity with this script. You will notice the camera reacts dynamically to your speed, introducing blur and shakes that make high-speed chases feel genuinely dangerous.\n\n- Triggers cinematic slow-motion effects during hard braking and crashes.\n- Implements speed-reactive camera shake for a more immersive perspective.\n- Adds genuine motion blur to emphasize your velocity on the road.\n- Features special camera triggers for near-misses with other vehicles.\n- Built from the ground up as a standalone passion project.",
+    tags: [
+      "driving",
+      "camera",
+      "scripts",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1013,
+    game: "gta5",
+    title: "GTA IV Style NPC Reaction",
+    category: "scripts",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/gta-iv-style-npc-reaction-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/g8345UZ430D9Gu3",
+    short: "Brings back the classic GTA IV style NPC panic.",
+    description: "Snacer has finally ported that iconic GTA IV behavior where NPCs don't instantly sprint away the moment you pull out a weapon. Instead, they linger for a tense two to three seconds, mimicking the more grounded and realistic reactions seen in Liberty City.\n\n- Forces NPCs to pause before fleeing from armed players.\n- Replicates the specific delay timing found in GTA IV.\n- Requires ScriptHookVDotNet version 3.7.0 or lower to run.\n- Simple installation by dropping the file into your scripts folder.",
+    tags: [
+      "npc",
+      "reaction",
+      "script",
+      "realism",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 1014,
+    game: "gta5",
+    title: "Monaco Minimap for GTA Belgium",
+    category: "scripts",
+    version: "1.0",
+    size: "130 KB",
+    images: [
+      "images/mods/monaco-minimap-for-gta-belgium-1.jpg",
+      "images/mods/monaco-minimap-for-gta-belgium-2.jpg",
+      "images/mods/monaco-minimap-for-gta-belgium-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5M8r667bv5AybjR",
+    short: "Live telemetry based minimap for the Monaco race track.",
+    description: "This script provides a real-time minimap overlay designed specifically for the GTA Belgium Monaco Grand Prix circuit. It follows the design philosophy of the Nurburgring Minimap project but tailors the visual feedback to the unique geometry of the Monaco layout. The tracking accuracy is remarkably high because the minimap was traced directly from real telemetry data captured during a full lap of the circuit rather than using a rough approximation.\n\n- Features a high-fidelity track outline based on real telemetry\n- Includes the custom monaco.png texture for accurate positioning\n- Seamlessly integrates with the GTA Belgium Monaco map\n- Designed for racers wanting a precise visual race aid",
+    tags: [
+      "monaco",
+      "racing",
+      "minimap",
+      "script",
+      "gta5"
+    ],
+    featured: true
+  },
+  {
+    id: 1015,
+    game: "gta5",
+    title: "Roleplay Alone [Legacy & Enhanced]",
+    category: "scripts",
+    version: "2.9",
+    size: "955 KB",
+    images: [
+      "images/mods/roleplay-alone-legacy-enhanced-1.jpg",
+      "images/mods/roleplay-alone-legacy-enhanced-2.jpg",
+      "images/mods/roleplay-alone-legacy-enhanced-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GDs35V02Yz01aD7",
+    short: "Comprehensive job system mod for immersive roleplay gameplay experiences.",
+    description: "This job system overhaul integrates directly with the G INVENTERY mod to track player data across various career paths. It provides a robust framework that allows you to scale up your server by adding unlimited custom workplaces using existing work patterns.\n\n- Includes several pre-configured job types for immediate gameplay challenges.\n- Offers multiple aesthetic presets like Modern, Vibrant, Sharp, and Regal.\n- Requires Script Hook V, ScriptHookVDotNet, LUA Plugin, and LemonUI.\n- Supports both Legacy and Enhanced editions for flexible installation.\n- Features integrated support for custom apartments and online-style housing.",
+    tags: [
+      "roleplay",
+      "jobs",
+      "scripts",
+      "gta v",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 1016,
+    game: "gta5",
+    title: "2024 Suzuki GSX-8R",
+    category: "vehicles",
+    version: "1.0",
+    size: "36.6 MB",
+    images: [
+      "images/mods/2024-suzuki-gsx-8r-1.jpg",
+      "images/mods/2024-suzuki-gsx-8r-2.jpg",
+      "images/mods/2024-suzuki-gsx-8r-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Uf2geiWs58v59YS",
+    short: "Detailed sportbike model with functional dials and custom liveries.",
+    description: "This conversion brings the 2024 Suzuki GSX-8R into Los Santos with a high-fidelity model sourced from Ride 6. It includes full support for both enhanced and legacy versions of the game, though you will need CodeWalker if you prefer the enhanced route.\n\n- Features a high-quality 3D model with optimized vertex ambient occlusion.\n- Includes fully functional lights, working dials, and breakable windscreen glass.\n- Comes with three unique liveries and three customizable wheel rim colors.\n- Supports standard GTA 5 license plates and realistic dirt mapping.",
+    tags: [
+      "suzuki",
+      "gsx8r",
+      "sportbike",
+      "motorcycle"
+    ],
+    featured: true
+  },
+  {
+    id: 1017,
+    game: "gta5",
+    title: "SVR Lamborghini Aventador Auto Veloce & LP780-4 Ultimae",
+    category: "vehicles",
+    version: "1.0",
+    size: "88.7 MB",
+    images: [
+      "images/mods/svr-lamborghini-aventador-auto-veloce-lp780-4-ultimae-1.jpg",
+      "images/mods/svr-lamborghini-aventador-auto-veloce-lp780-4-ultimae-2.jpg",
+      "images/mods/svr-lamborghini-aventador-auto-veloce-lp780-4-ultimae-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mhLh37k9dM0H4EO",
+    short: "High quality Lamborghini Aventador pack featuring two distinct models.",
+    description: "This pack bundles the Auto Veloce and the LP780-4 Ultimae into a single convenient download for your game. Both models feature highly detailed interiors and functional components designed for a realistic driving experience.\n\n- Features multiple paint options including body, interior, and four-color brake calipers.\n- Includes fully functional lighting systems and reflective mirrors for better immersion.\n- Equipped with a customized speedometer and breakable glass mechanics.\n- Both base models are sourced from Sketchfab and optimized for GTA V.",
+    tags: [
+      "lamborghini",
+      "supercar",
+      "sports car"
+    ],
+    featured: true
   }
 ];
 
