@@ -130,6 +130,18 @@
 
     <div class="panel card">
       <div class="field">
+        <label for="ets2worldUrl">ETS2World URL</label>
+        <input id="ets2worldUrl" placeholder="https://www.ets2world.com/man-tgx-1-60-ets2/">
+      </div>
+      <div class="actions">
+        <button id="ets2worldBtn" type="button">Import from ETS2World</button>
+        <span class="hint">Заберёт название, описание и картинку, запустит AI. Сайт хостит и ETS2, и ATS - моды ATS отклоняются автоматически. ets2world.com не хостит файлы сам - ссылку на реальный файл (modsfile.com) покажет в статусе, скачивать и заливать на modsfire всё равно вручную.</span>
+      </div>
+      <div class="status" id="ets2worldStatus">Вставь URL мода ETS2World и нажми Import.</div>
+    </div>
+
+    <div class="panel card">
+      <div class="field">
         <label for="rawText">AI raw text</label>
         <textarea id="rawText" placeholder="Вставь сюда грязное описание мода. ИИ заполнит title, game, category, version, short, description и tags."></textarea>
       </div>
@@ -686,6 +698,48 @@ ${$("rawText").value.trim()}`;
       }
     }
 
+    async function importEts2World() {
+      const url = $("ets2worldUrl").value.trim();
+      if (!url) { setStatus($("ets2worldStatus"), "Вставь URL мода ETS2World.", "bad"); return; }
+      $("ets2worldBtn").disabled = true;
+      setStatus($("ets2worldStatus"), "Загружаю данные с ets2world.com...");
+      try {
+        const response = await fetch("/api/ets2world", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        if (!data.ok) throw new Error(data.error);
+
+        $("rawText").value = [data.name, data.description].filter(Boolean).join("\n\n");
+        if (data.game && state.games[data.game]) { $("game").value = data.game; updateCategories(); }
+
+        if (data.images && data.images.length) {
+          try {
+            state.convertedImages = await Promise.all(data.images.map(convertDataUrl));
+            renderPreviews();
+          } catch (_) { /* images optional */ }
+        }
+
+        const linkNote = data.sourceLink ? ` Файл тут: ${data.sourceLink}` : "";
+        setStatus($("ets2worldStatus"), `Загружено: ${data.name}. Запускаю AI...${linkNote}`, "ok");
+        await runAi();
+        // The server already rejects ATS mods, so game is always ets2 here,
+        // but Gemini only sees the raw text and can still guess wrong. Same
+        // fix as ModHub/AC Mods: only rebuild the category list (which wipes
+        // the current selection) if the game actually needs to change.
+        if (data.game && state.games[data.game] && $("game").value !== data.game) {
+          $("game").value = data.game;
+          updateCategories();
+        }
+      } catch (error) {
+        setStatus($("ets2worldStatus"), `Ошибка: ${error.message}`, "bad");
+      } finally {
+        $("ets2worldBtn").disabled = false;
+      }
+    }
+
     async function importFactorio() {
       const url = $("factorioUrl").value.trim();
       if (!url) { setStatus($("factorioStatus"), "Вставь URL мода Factorio.", "bad"); return; }
@@ -785,6 +839,7 @@ ${$("rawText").value.trim()}`;
     $("factorioBtn").addEventListener("click", importFactorio);
     $("modhubBtn").addEventListener("click", importModHub);
     $("acmodsBtn").addEventListener("click", importAcMods);
+    $("ets2worldBtn").addEventListener("click", importEts2World);
     $("modsfireBtn").addEventListener("click", loadModsfireList);
     $("modForm").addEventListener("submit", saveMod);
     // Remove a single preview image via its x button.
@@ -920,6 +975,9 @@ ${$("rawText").value.trim()}`;
       } else if (payload.source === "acmods") {
         $("acmodsUrl").value = payload.url;
         await importAcMods();
+      } else if (payload.source === "ets2world") {
+        $("ets2worldUrl").value = payload.url;
+        await importEts2World();
       }
     }
 

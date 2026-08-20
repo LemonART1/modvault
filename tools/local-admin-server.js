@@ -544,6 +544,71 @@ async function handleAcMods(req, res) {
   send(res, 200, { ok: true, name, description, images, sourceLink, game: "ac" });
 }
 
+// ets2world.com has no Cloudflare challenge either, so same scrape-it-directly
+// approach as GTA5-Mods/ModHub/acmods. The site covers both ETS2 and ATS under
+// one roof, sharing the same page template, so the post's own category
+// breadcrumb is used to reject ATS mods outright rather than relying on the
+// AI to catch it after the fact. Like acmods.net, the "Download" button just
+// points at an external mirror (modsfile.com here, a different service from
+// the modsfire.com ModVault reuploads to) - not something to resolve
+// automatically, just returned as `sourceLink` for the admin UI.
+async function handleEts2World(req, res) {
+  const payload = JSON.parse(await readBody(req, 512 * 1024));
+  const url = String(payload.url || "").trim();
+  if (!/^https?:\/\/(www\.)?ets2world\.com\/[a-z0-9-]+\/?$/i.test(url)) {
+    throw new Error("Invalid ETS2World URL. Expected: ets2world.com/{slug}");
+  }
+  const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+  const pageRes = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" }, signal: AbortSignal.timeout(20000) });
+  if (!pageRes.ok) throw new Error(`ETS2World page returned ${pageRes.status}.`);
+  const html = await pageRes.text();
+
+  const name = decodeEntities((html.match(/<h1 class="post-title entry-title">([^<]*)<\/h1>/i) || [])[1] || "").trim();
+  if (!name) throw new Error("Could not read the mod title from the page.");
+
+  const categorySlug = (html.match(/class="category"><a href="https:\/\/www\.ets2world\.com\/category\/([a-z0-9-]+)\//i) || [])[1] || "";
+  if (categorySlug.startsWith("american-truck-simulator")) {
+    throw new Error("This is an American Truck Simulator mod, not ETS2 - skip it.");
+  }
+
+  const contentMatch = html.match(/class="entry-inner">([\s\S]*?)<a class="dmod"/i);
+  const rawContent = contentMatch ? contentMatch[1] : "";
+  const description = decodeEntities(
+    rawContent
+      .replace(/<!--[\s\S]*?-->/g, "")
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      .replace(/<ins[\s\S]*?<\/ins>/gi, "")
+      .replace(/How to install ETS2 mods or ATS Mods[\s\S]*?activate the mods you want to use\.\s*/i, "")
+      .replace(/Report bugs in the comments[\s\S]*?solution\.\s*/i, "")
+      .replace(/<li[^>]*>/gi, "\n- ")
+      .replace(/<\/(p|div|h[1-6])>/gi, "\n\n")
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<[^>]+>/g, "")
+  ).replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
+
+  // Every post has exactly one real image (the hero shot); everything else in
+  // the markup is sidebar "related mods" thumbnails.
+  const ogImage = (html.match(/property="og:image" content="([^"]*)"/i) || [])[1];
+  const imageUrls = ogImage ? [ogImage] : [];
+
+  const sourceLink = (html.match(/class="dmod"[^>]*href="(https?:\/\/[^"]+)"/i) || [])[1] || "";
+
+  async function fetchImageBase64(imgUrl) {
+    try {
+      const r = await fetch(imgUrl, { headers: { "User-Agent": UA, Referer: url }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) return null;
+      const ct = r.headers.get("content-type") || "";
+      if (!ct.startsWith("image/")) return null;
+      const buf = Buffer.from(await r.arrayBuffer());
+      return `data:${ct};base64,${buf.toString("base64")}`;
+    } catch (_) { return null; }
+  }
+  const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
+
+  send(res, 200, { ok: true, name, description, images, sourceLink, game: "ets2" });
+}
+
 // Factorio mod descriptions are Markdown, and popular mods often open with a
 // row of shields.io badge images and donate links. Strip all of that down to
 // plain prose so Gemini gets clean input instead of markup noise.
@@ -831,6 +896,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/api/acmods") {
       await handleAcMods(req, res);
+      return;
+    }
+    if (req.method === "POST" && req.url === "/api/ets2world") {
+      await handleEts2World(req, res);
       return;
     }
     if (req.method === "POST" && req.url === "/api/modsfire-recent") {
