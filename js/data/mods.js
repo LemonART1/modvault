@@ -22607,6 +22607,259 @@ const MODS = [
       "sports car"
     ],
     featured: true
+  },
+  {
+    id: 1018,
+    game: "cyberpunk",
+    title: "Mitsubishi Lancer Evolution IX MR",
+    category: "vehicles",
+    version: "1.0",
+    size: "143 MB",
+    images: [
+      "images/mods/mitsubishi-lancer-evolution-ix-mr-1.jpg",
+      "images/mods/mitsubishi-lancer-evolution-ix-mr-2.jpg",
+      "images/mods/mitsubishi-lancer-evolution-ix-mr-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/06qT17POw6x8127",
+    short: "Highly customizable Lancer Evolution IX with deep tuning options.",
+    description: "This incredibly detailed Mitsubishi Lancer Evolution IX MR brings authentic JDM flair to Night City, complete with deep customization and functional features. It utilizes ArchiveXL and supports CrystalCoat for high-quality paint and wheel color finishes.\n\n- Extensive tuning options including 10 hoods, 12 spoilers, 11 skirts, 10 sets of wheels, and various bumpers.\n- Features high-resolution dashboard elements like a functional clock and radio station display.\n- Includes specialized plugins for traffic integration, custom scanner data, and light component labeling.\n- Accurate real-life handling and a 155mph top speed, with an optional Caliburn engine setup for 200mph.\n- Comes with multiple iconic liveries like NFS Most Wanted and Carbon, plus support for user-created custom liveries.",
+    tags: [
+      "mitsubishi",
+      "car",
+      "vehicle",
+      "jdm",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 1019,
+    game: "cyberpunk",
+    title: "Post-Quest Delivery System (Chooms)",
+    category: "scripts",
+    version: "1.0",
+    size: "12 KB",
+    images: [
+      "images/mods/post-quest-delivery-system-chooms-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YOti6Mqz3V006P5",
+    short: "Get care packages from Night City friends at stashes.",
+    description: "Receive unique physical care packages from your Night City friends after completing specific questlines, delivered directly to your apartment stash points. The system uses a lore-friendly courier service called R.A. Delivery that functions off the Net for your safety.\n\n- Characters included in this first part are Mitch, Carol, Vik, Misty, and Nancy.\n- Misty sends non-linear messages regarding tarot card readings about your fate.\n- Each character provides unique rewards, and you may encounter hidden secrets.\n- Messages are fully gender-neutral, ensuring total immersion regardless of your V's pronouns.\n- The mod is fully compatible with Steam Deck and can be safely installed or removed mid-playthrough.",
+    tags: [
+      "scripts",
+      "immersion",
+      "quest",
+      "courier",
+      "loot"
+    ],
+    featured: true
+  },
+  {
+    id: 1020,
+    game: "cyberpunk",
+    title: "Cheerleader Outfit - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "46.9 MB",
+    images: [
+      "images/mods/cheerleader-outfit-archive-xl-1.jpg",
+      "images/mods/cheerleader-outfit-archive-xl-2.jpg",
+      "images/mods/cheerleader-outfit-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/G359vL9SK45Zp8J",
+    short: "Detailed cheerleader outfit for female V from TFD.",
+    description: "Customize your female V with this high-quality cheerleader set ported from TFD, featuring four distinct pieces including a top, skirt, shoes, and an ankle bracelet. The mod offers extensive compatibility with multiple body types to ensure a perfect fit for your character.\n\n- Includes several color variations for a personalized look.\n- Supports Vanilla, ANGEL, EBB, EBBP, EBBPRB, EBBRB, and RB body types.\n- Dedicated refits available for Small and Solo body shapes.\n- LUSH body compatibility is coming soon for additional options.\n- Requires Archive XL for proper in-game integration.",
+    tags: [
+      "clothing",
+      "female",
+      "outfit",
+      "cyberpunk"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1021,
+    game: "cyberpunk",
+    title: "Harris Outfit (Archive XL - ACM - FemV)",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "35.9 MB",
+    images: [
+      "images/mods/harris-outfit-archive-xl-acm-femv-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3hLZ7w49ZN95Q54",
+    short: "Custom outfit for FemV requiring Archive XL and ACM.",
+    description: "This stylish outfit provides a unique aesthetic for your female V in Night City. It features broad support for multiple body types including Vanilla, Angel, EBB, EBBP, EBBPRB, and EBBRB.\n\n- Requires Archive XL, Appearance Menu Mod, and Equipment-EX to function properly.\n- Built specifically for the FemV character model.\n- Offers modular compatibility across several popular body mesh variants.\n- Installation requires the latest versions of the specified dependencies to prevent clipping or mesh issues.",
+    tags: [
+      "clothing",
+      "femv",
+      "cyberpunk",
+      "outfit",
+      "mod"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1022,
+    game: "cyberpunk",
+    title: "Succubus Outfit for Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "21.2 MB",
+    images: [
+      "images/mods/succubus-outfit-for-archive-xl-1.jpg",
+      "images/mods/succubus-outfit-for-archive-xl-2.jpg",
+      "images/mods/succubus-outfit-for-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kCA3wC8a2K5Prhy",
+    short: "Custom Succubus themed outfit ported for female V characters.",
+    description: "This mod brings the iconic Succubus outfit from The First Descendant directly into Night City for your female V. To get it working, you will need to have Archive XL installed and choose the specific body mod version that best fits your current character setup.\n\n- Compatible with Vanilla, PUSH UP, and Enhanced Big Breasts bodies.\n- Also supports the ANGEL body mod and More Realistic Butt.\n- Simple installation by extracting the zip directly into your main game directory.\n- Requires you to pick only one version to avoid potential file conflicts.",
+    tags: [
+      "clothing",
+      "female v",
+      "outfit",
+      "cybermod"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1023,
+    game: "cyberpunk",
+    title: "Immersive Shower",
+    category: "animations",
+    version: "1.0",
+    size: "397 KB",
+    images: [
+      "images/mods/immersive-shower-1.jpg",
+      "images/mods/immersive-shower-2.jpg",
+      "images/mods/immersive-shower-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b0cr4X1P2ayr6dU",
+    short: "Add realistic shower interactions and singing to V's apartment.",
+    description: "Turn V's daily routine into a more lifelike experience by replacing the automatic, instant shower sequence with a new, interactive system. You gain full control over your hygiene routine with several custom choices:\n\n- Choose to undress manually or keep your clothes on while showering.\n- Toggle between standing or sitting animations ported from the game's cutscenes.\n- Select an option to hear V randomly sing lines from Never Fade Away.\n- Works across all vanilla apartments including the Kress Street Hideout and Megabuilding H10.\n- Features full support for all in-game languages for both subtitles and voiced prompts.",
+    tags: [
+      "immersion",
+      "animations",
+      "roleplay"
+    ],
+    featured: true
+  },
+  {
+    id: 1024,
+    game: "cyberpunk",
+    title: "Fluff Vendor Fixes",
+    category: "scripts",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/fluff-vendor-fixes-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0Qkm77m6HUW3t9F",
+    short: "Fixes broken inventory for minor vendors in Night City.",
+    description: "Stop those immersion-breaking bugs where small, unmarked vendors in Night City vanish after your first interaction. This mod targets those side vendors that lose their inventory or money the moment you leave the area, ensuring they stay stocked and functional.\n\n- Resolves the issue where vendors reset to zero money and stock after you move to a different district.\n- Corrects the Missing Vendor Name bug that left several side vendors completely empty and unclickable.\n- Uses redscript to ensure compatibility with other mods touching the same game functions.\n- Requires both redscript and TweakXL to properly initialize the vendor panel logic.",
+    tags: [
+      "scripts",
+      "vendors",
+      "fixes",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1025,
+    game: "cyberpunk",
+    title: "Immersion Patch - Waiting for Dodger Quest Fixes",
+    category: "scripts",
+    version: "1.0",
+    size: "7 KB",
+    images: [
+      "images/mods/immersion-patch-waiting-for-dodger-quest-fixes-1.jpg",
+      "images/mods/immersion-patch-waiting-for-dodger-quest-fixes-2.jpg",
+      "images/mods/immersion-patch-waiting-for-dodger-quest-fixes-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Rm5CmwJ864a8Xml",
+    short: "Fixes immersion breaking bugs in the Waiting for Dodger gig.",
+    description: "This patch addresses the root causes of several immersion-breaking glitches found during the Waiting for Dodger quest, going beyond the developer's partial workarounds.\n\n- Corrects a character animation bug that causes clipping through walls during key quest moments.\n- Resolves an issue where a departing police car hits a goon, accidentally triggering unintended combat.\n- Fixes the unnatural walking animation displayed by Charles when heading to the car in the final garage scene.\n- Operates only when quest data is loaded, ensuring zero impact on your overall game performance.\n- Requires Codeware 1.14.0 or higher to function properly within the Phantom Liberty DLC environment.",
+    tags: [
+      "bugfix",
+      "scripts",
+      "immersion",
+      "quest"
+    ],
+    featured: true
+  },
+  {
+    id: 1026,
+    game: "cyberpunk",
+    title: "Rosa's Clothes - Turtleneck Bodysuit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "6.7 MB",
+    images: [
+      "images/mods/rosas-clothes-turtleneck-bodysuit-1.jpg",
+      "images/mods/rosas-clothes-turtleneck-bodysuit-2.jpg",
+      "images/mods/rosas-clothes-turtleneck-bodysuit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/l2Fns0laKLSK917",
+    short: "Stylish turtleneck bodysuit featuring forty-four custom color and pattern options.",
+    description: "This sleek turtleneck bodysuit offers extensive body customization for female V. You can purchase the items directly through Rosa's Shop in your apartment or use the provided spawn codes for quick access. \n\n- Includes forty-four unique color and pattern variations.\n- Supports numerous refits including Vanilla, VHD, EVB, Songbird 2.0, Angel, and EBB/RB variants.\n- Built upon a base mesh sourced from Sketchfab with custom textures created in Blender and GIMP.\n- Note that minor clipping may occur near Cyberwear, scars, and the right elbow area.\n- Compatible with VTK3 and Big & Small body versions for specific refits.",
+    tags: [
+      "clothing",
+      "feminine",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 1027,
+    game: "cyberpunk",
+    title: "Silas - Male V Preset",
+    category: "appearance-change-unlocker",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/silas-male-v-preset-1.jpg",
+      "images/mods/silas-male-v-preset-2.jpg",
+      "images/mods/silas-male-v-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/228X25Np09r9v17",
+    short: "A custom male V face preset for Cyberpunk 2077.",
+    description: "Customize your male V with this specific facial preset designed for a unique look. The file is fully compatible with the Appearance Change Unlocker mod for easy implementation in-game. To install, simply drop the file into your bin/x64/plugins/cyber_engine_tweaks/mods/AppearanceChangeUnlocker/character-presets/male directory. If you encounter any issues or want to check for further updates, the creator encourages visiting their discord community for support and change logs.",
+    tags: [
+      "male v",
+      "preset",
+      "cyberpunk",
+      "custom face"
+    ],
+    featured: true
+  },
+  {
+    id: 1028,
+    game: "cyberpunk",
+    title: "Racing Suit (Archive XL)",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "84.0 MB",
+    images: [
+      "images/mods/racing-suit-archive-xl-1.jpg",
+      "images/mods/racing-suit-archive-xl-2.jpg",
+      "images/mods/racing-suit-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1u1gU07Hp7ESl50",
+    short: "Sleek racing suit compatible with multiple body type mods.",
+    description: "Customize your V with this sleek racing suit, fully compatible with both FemV and MaleV models. It utilizes Archive XL and ACM for a clean, stable implementation within the game's wardrobe system.\n\n- Supports body types including Vanilla, Angel, EBB, EBBP, EBBPRB, and EBBRB.\n- Requires Archive XL and ACM to function correctly.\n- Using the Equipment-EX mod is highly recommended for best results.\n- Designed as a standalone outfit choice for a high-octane look.",
+    tags: [
+      "cyberpunk",
+      "clothing",
+      "outfit",
+      "racing",
+      "v"
+    ],
+    featured: true,
+    mature: true
   }
 ];
 
