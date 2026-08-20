@@ -22860,6 +22860,533 @@ const MODS = [
     ],
     featured: true,
     mature: true
+  },
+  {
+    id: 1029,
+    game: "cyberpunk",
+    title: "Kitsch Cyber Legs for Masc and Fem V",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "1.3 MB",
+    images: [
+      "images/mods/kitsch-cyber-legs-for-masc-and-fem-v-1.jpg",
+      "images/mods/kitsch-cyber-legs-for-masc-and-fem-v-2.jpg",
+      "images/mods/kitsch-cyber-legs-for-masc-and-fem-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0vpY9Nn3h9en12D",
+    short: "Equip stylish Kitsch cyberlegs with extensive body mod support.",
+    description: "You can now equip these Kitsch cyberlegs on both Masc and Fem V, with support for an extensive range of body mods including VTK, UV, and more. The mod features sixteen distinct appearances, including three custom designs, and includes optional 4K normal maps for enhanced visual fidelity.\n\n- Toggle spike settings to customize your character's look.\n- Full compatibility with most body mods like EBB and Atlas.\n- Sixteen color options ranging from Maelstrom to Tygerclaw styles.\n- Easily acquire items through the KiasuBurger Cyberware Atelier store.\n- Designed to be worn alongside the Valentino Knees mod.",
+    tags: [
+      "cyberpunk",
+      "legs",
+      "cosmetic",
+      "cyberware"
+    ],
+    featured: true
+  },
+  {
+    id: 1030,
+    game: "cyberpunk",
+    title: "Christmas Outfit - (Fem - Male)",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "71.4 MB",
+    images: [
+      "images/mods/christmas-outfit-fem-male-1.jpg",
+      "images/mods/christmas-outfit-fem-male-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/68919Q6VolZ2JEj",
+    short: "Festive holiday outfit with support for many body types.",
+    description: "This complete rework of a 2024 holiday classic brings festive cheer to your character with extensive compatibility across multiple body types. Whether you are rocking VTK, EBB, or Solo body presets, this set ensures a polished look for both male and female avatars.\n\n- Supports VTK, EVB, RB, Lush, and Solo body types for females.\n- Fits vanilla, Gymfiend, Adonis, and Atlas male body frames.\n- Toggle antler ornaments like bows or baubles using ACM.\n- Includes CET codes within the archive for easy item spawning.\n- Expect some hair clipping when equipping the included santa hat.",
+    tags: [
+      "christmas",
+      "clothing",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 1031,
+    game: "cyberpunk",
+    title: "Veegee InkCloud Hair - CCXL",
+    category: "appearance",
+    version: "1.0",
+    size: "7.8 MB",
+    images: [
+      "images/mods/veegee-inkcloud-hair-ccxl-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mr1CCJRT1G34MPN",
+    short: "Stylish new hairstyle port for female V characters.",
+    description: "Give your female V a fresh look with this stylish hairstyle ported directly from Delta Force. Note that this mod is exclusively designed for female characters and requires ArchiveXL to function properly in your game. \n\n- Requires ArchiveXL for proper installation and game compatibility.\n- Designed specifically for female V character models only.\n- Features a high-quality mesh conversion from Delta Force.\n- Optimized primarily for capturing high-quality virtual photography shots.",
+    tags: [
+      "hair",
+      "female",
+      "cyberpunk",
+      "aesthetic",
+      "mesh"
+    ],
+    featured: true
+  },
+  {
+    id: 1032,
+    game: "cyberpunk",
+    title: "Maiden and Priest",
+    category: "weapons",
+    version: "1.0",
+    size: "8.8 MB",
+    images: [
+      "images/mods/maiden-and-priest-1.jpg",
+      "images/mods/maiden-and-priest-2.jpg",
+      "images/mods/maiden-and-priest-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oH77guffjS5d1oS",
+    short: "Customized Unity and Liberty pistol variants for Night City.",
+    description: "Tweak your loadout with these heavy-hitting pistols themed after Iron Maiden and Judas Priest. These modified versions of the Unity and Liberty offer superior combat stats compared to their stock counterparts.\n\n- Maiden variant of the Unity features an increased fire rate, wall-piercing capabilities, and a 100% bleeding effect.\n- Priest variant of the Liberty delivers a faster rate of fire with a 10% chance to shock and burn targets.\n- You can purchase these weapons from various gun vendors throughout Night City or directly via a virtual atelier.\n- Console users can use the provided CET command strings to add both items to their inventory instantly.",
+    tags: [
+      "pistols",
+      "weapons",
+      "cyberpunk",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 1033,
+    game: "cyberpunk",
+    title: "LADY FLUFFY BOB - CCXL HAIR",
+    category: "appearance",
+    version: "1.0",
+    size: "12.1 MB",
+    images: [
+      "images/mods/lady-fluffy-bob-ccxl-hair-1.jpg",
+      "images/mods/lady-fluffy-bob-ccxl-hair-2.jpg",
+      "images/mods/lady-fluffy-bob-ccxl-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/50uUO3y1Qk6QNxX",
+    short: "Fluffy short bixie cut for both mascV and femV.",
+    description: "Customize your V with this adorable, standalone bixie-style haircut designed specifically for the character creator. It features high-quality custom textures and fully functional physics for natural movement.\n\n- Fully compatible with Dynamic Materials and Hair Profiles CCXL\n- Requires ArchiveXL 1.20.0 or higher to function properly\n- Designed for both masculine and feminine character body types\n- Simple drag-and-drop installation into your game's mod folder",
+    tags: [
+      "hair",
+      "character",
+      "cyberpunk",
+      "bixie",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 1034,
+    game: "cyberpunk",
+    title: "Rosa's Clothes - Cute but sexy Bodysuit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "15.6 MB",
+    images: [
+      "images/mods/rosas-clothes-cute-but-sexy-bodysuit-1.jpg",
+      "images/mods/rosas-clothes-cute-but-sexy-bodysuit-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/r630N38uqYt0F87",
+    short: "A stylish, customizable bodysuit available in 44 diverse patterns.",
+    description: "Customize your Fem V with this versatile bodysuit that comes in 44 unique color and pattern combinations. It includes dynamic refits for various body types, such as Vanilla, Songbird 2.0, EBB, and Angel.\n\n- Supports wide range of body mods including EVB, VHD, RB, and EBBP.\n- Obtainable via spawn codes or purchase directly at Rosa's Shop in V's apartment.\n- Original mesh port from Sketchfab with custom textures created in GIMP and Blender.\n- Note that minor mesh stretching and weight issues may occur in extreme poses.",
+    tags: [
+      "clothing",
+      "cyberpunk",
+      "fem v",
+      "bodysuit"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1035,
+    game: "cyberpunk",
+    title: "Santiago's Jacket - Fem Masc V",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "35.5 MB",
+    images: [
+      "images/mods/santiagos-jacket-fem-masc-v-1.jpg",
+      "images/mods/santiagos-jacket-fem-masc-v-2.jpg",
+      "images/mods/santiagos-jacket-fem-masc-v-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/rbN7Fb5ob601sBH",
+    short: "Customizable Santiago jacket refits with dozens of color options.",
+    description: "This mod brings Santiago's jacket into your wardrobe with extensive customization for both male and female V. You get a massive variety of colors and optional accessories to mix and match.\n\n- Features 55 jacket colors, 30 hood colors, 25 strap variants, and 20 decal options.\n- Includes toggleable rolled sleeves that can be set for FPP gameplay only.\n- Designed with Garment Support and dedicated shadow meshes that adapt to your equipped toggles.\n- Offers automatic refit selection for major body mods like Angel, Eve, Gymfiend, and Solo 2.0.\n- Requires ArchiveXL, TweakXL, Equipment-EX, and The Community Palette Project to function.",
+    tags: [
+      "cyberpunk",
+      "clothes",
+      "jacket",
+      "fashion"
+    ],
+    featured: true
+  },
+  {
+    id: 1036,
+    game: "cyberpunk",
+    title: "Ferrari 458 Spider",
+    category: "vehicles",
+    version: "0.9.9",
+    size: "35.5 MB",
+    images: [
+      "images/mods/ferrari-458-spider-1.jpg",
+      "images/mods/ferrari-458-spider-2.jpg",
+      "images/mods/ferrari-458-spider-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/8Qb44TKxH6I0KqI",
+    short: "Drive a custom Ferrari 458 Spider with working roof mechanics.",
+    description: "Drive the iconic Ferrari 458 Spider in Night City, complete with a fully functional convertible roof that operates with a simple key press. You can push the car to its limits using the integrated Live Tuning system, which allows you to customize performance and save your favorite presets directly through CET. \n\n- Features full livery and crystal coat support for aesthetic customization.\n- Includes a working convertible mechanism mapped to the O key.\n- Requires Vehicle Resources version 1.0.9 or higher to function.\n- Provides deep integration with the CET console for spawning and tuning.\n- Ensures a smooth experience when used with the Enhanced Vehicle System.",
+    tags: [
+      "ferrari",
+      "supercar",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1037,
+    game: "cyberpunk",
+    title: "Veegee Polaris Hair",
+    category: "appearance",
+    version: "1.0",
+    size: "2.8 MB",
+    images: [
+      "images/mods/veegee-polaris-hair-1.jpg",
+      "images/mods/veegee-polaris-hair-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yu4NxP4qWUjsMo8",
+    short: "Stylized Polaris hairstyle for female V player characters.",
+    description: "Elevate your V's look with this sleek, custom hairstyle ported directly from the Naraka Bladepoint character library. Designed specifically for female characters, this mod requires ArchiveXL to function correctly within your game.\n\n- Exclusive to female V player models.\n- Requires ArchiveXL for proper asset integration.\n- Original high-quality mesh sourced from Naraka Bladepoint.\n- Optimized primarily for high-fidelity photo mode captures.\n- Manual installation requires placing files into your archive/pc/mod folder.",
+    tags: [
+      "hair",
+      "female",
+      "cyberpunk",
+      "cosmetic",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 1038,
+    game: "cyberpunk",
+    title: "Dusty x GrimmNetworks Hilde Outfit",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "45.4 MB",
+    images: [
+      "images/mods/dusty-x-grimmnetworks-hilde-outfit-1.jpg",
+      "images/mods/dusty-x-grimmnetworks-hilde-outfit-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/997Ho69qqqGJQZe",
+    short: "Stylish Hilde outfit for Female V with body support.",
+    description: "This collaboration between Dusty and GrimmNetworks brings the stylish Hilde Outfit to Female V. You will need Archive XL, ACM, and Equipment-EX to ensure everything functions and displays correctly in your game. The mod includes extensive body mod support to fit various character builds seamlessly.\n\n- Supports Vanilla, Angel, EBB, EBBP, EBBPRB, and EBBRB body types.\n- Requires Archive XL and Appearance Change Menu to equip.\n- Optimized for use with the Equipment-EX framework.\n- Designed specifically for the Female V player model.",
+    tags: [
+      "cyberpunk",
+      "outfit",
+      "clothing",
+      "femv",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 1039,
+    game: "cyberpunk",
+    title: "Nola Dreamer's Asymmetrical Skirt",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "32.9 MB",
+    images: [
+      "images/mods/nola-dreamers-asymmetrical-skirt-1.jpg",
+      "images/mods/nola-dreamers-asymmetrical-skirt-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/c7pu2alx7M1Y8CW",
+    short: "Stylish asymmetrical skirt featuring multiple colors and body compatibility.",
+    description: "Customize your V's style with this high-quality asymmetrical skirt that includes eight base colors and eight distinct lace variations. The mod features automatic refit selection to support a wide range of popular body mods like Vanilla, EBB, EBBRB, Angel, Lush, and Solo.\n\n- Requires ArchiveXL, TweakXL, RED4ext, redscript, and Cyber Engine Tweaks to function.\n- Offers sixteen unique color and pattern combinations via console commands or Virtual Boutique.\n- Compatible with diverse body types including VTK FemV, EVB, and KS-Lion's body suite.\n- Recommended for use with Equipment-EX to avoid item slot limitations.\n- Includes a dedicated SMALL refit option for players using specific breast-size configurations.",
+    tags: [
+      "clothing",
+      "cyberpunk",
+      "femv",
+      "skirt"
+    ],
+    featured: true
+  },
+  {
+    id: 1040,
+    game: "cyberpunk",
+    title: "Rosa's Clothes - Cozy Dress",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "6.2 MB",
+    images: [
+      "images/mods/rosas-clothes-cozy-dress-1.jpg",
+      "images/mods/rosas-clothes-cozy-dress-2.jpg",
+      "images/mods/rosas-clothes-cozy-dress-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/RBXa328x3Z3jhx2",
+    short: "A warm, comfortable dress for your female V character.",
+    description: "Keep your V looking cozy and fashionable during the colder seasons with this custom-made dress. The design is tailored specifically for photomode enthusiasts, featuring dynamic refits for various bodies including Songbird 2.0, Angel, Eve, and diverse Hyst options.\n\n- Compatible with Vanilla, EVB, VHD, RB, and Flat Chest body types.\n- Items can be purchased directly through Rosa's Shop in V's apartment.\n- Includes spawn codes and ACM paths within the mod folder for easier acquisition.\n- Optimized for photoshoots, though weight painting may show minor clipping during active combat.\n- Built using an open-source base mesh from Sketchfab with original custom textures.",
+    tags: [
+      "clothing",
+      "cyberpunk",
+      "female",
+      "aesthetic"
+    ],
+    featured: true
+  },
+  {
+    id: 1041,
+    game: "cyberpunk",
+    title: "V's Accessory Drawer",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "2.9 MB",
+    images: [
+      "images/mods/vs-accessory-drawer-1.jpg",
+      "images/mods/vs-accessory-drawer-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VzTa9YGDZmq9516",
+    short: "Expand V's wardrobe with eight customizable new clothing accessories.",
+    description: "This mod fills V's wardrobe with 8 distinct wearable accessories, including various bracelets, chokers, a bunny bag, and the heart rate monitor previously worn by Claire. Each item comes with a wide range of color options, and the mod includes built-in support for Gymfiend and Solo arms refits where necessary.\n\n- Requires Archive XL to function correctly in-game.\n- Microblend Resource is needed for proper bunny shirt pattern rendering.\n- All items can be obtained via console commands or the Breezy's Accessory Alcove Atelier shop.\n- Permissions allow for use in NPC creation for personal projects with proper credit.",
+    tags: [
+      "clothing",
+      "accessories",
+      "v",
+      "cyberpunk"
+    ],
+    featured: true
+  },
+  {
+    id: 1042,
+    game: "cyberpunk",
+    title: "Trophy Tanishi",
+    category: "vehicles",
+    version: "1.1.0",
+    size: "50.5 MB",
+    images: [
+      "images/mods/trophy-tanishi-1.jpg",
+      "images/mods/trophy-tanishi-2.jpg",
+      "images/mods/trophy-tanishi-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/21q5VwVdnai4Vbp",
+    short: "Weaponized off-road Tanishi truck with twelve unique vehicle variants.",
+    description: "This mod takes the humble Makigai Tanishi and transforms it into a massive, weaponized all-terrain beast capable of dominating the Badlands. It features a custom long-travel suspension, a twin-turbo V8 engine with a 6.7-litre stroker kit, and specialized gear like side-mounted cannons and front-facing missile launchers.\n\n- Includes 12 distinct variants such as Maxtac, Militech, Trauma Team, and the rev-reactive Flame On model.\n- Each vehicle is a standalone addition that does not replace existing cars and features unique in-game scan info.\n- Fully compatible with the Virtual Car Dealer mod for easy in-game purchase.\n- Requires Phantom Liberty and the latest versions of core game mods to function correctly.\n- Features highly detailed customization, including long and short body styles with various faction liveries.",
+    tags: [
+      "cyberpunk",
+      "vehicles",
+      "truck",
+      "offroad"
+    ],
+    featured: true
+  },
+  {
+    id: 1043,
+    game: "cyberpunk",
+    title: "DELTA COLLECTION - CCXL HAIR",
+    category: "appearance",
+    version: "1.0",
+    size: "105 MB",
+    images: [
+      "images/mods/delta-collection-ccxl-hair-1.jpg",
+      "images/mods/delta-collection-ccxl-hair-2.jpg",
+      "images/mods/delta-collection-ccxl-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/n57f604FG5qGiAC",
+    short: "Custom hair collection featuring physics and support for ArchiveXL.",
+    description: "This pack delivers a variety of custom hairstyles and accessories for both mascV and femV, featuring fully rigged physics and bespoke textures. You can pick between a convenient megapak or install individual files to suit your style preference.\n\n- Features standalone hairs that utilize ArchiveXL for seamless integration.\n- Includes accessory items like goggles and glasses restricted to femV.\n- Compatible with Dynamic Materials and the Hair Profiles CCXL mod.\n- Requires ArchiveXL 1.20.0 or higher for proper game functionality.\n- Offers multiple color variations for eyewear through console commands.",
+    tags: [
+      "hair",
+      "cyberpunk",
+      "femv",
+      "mascv",
+      "physics"
+    ],
+    featured: true
+  },
+  {
+    id: 1044,
+    game: "cyberpunk",
+    title: "Veegee Alicia Hair",
+    category: "appearance",
+    version: "1.0",
+    size: "2.8 MB",
+    images: [
+      "images/mods/veegee-alicia-hair-1.jpg",
+      "images/mods/veegee-alicia-hair-2.jpg",
+      "images/mods/veegee-alicia-hair-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/yu4NxP4qWUjsMo8",
+    short: "Stylish new hair option for female V character models.",
+    description: "Customize your female V's look with this sleek hairstyle ported directly from Naraka Bladepoint. This asset requires ArchiveXL to function correctly within your game files.\n\n- Designed specifically for female V character models.\n- Utilizes an original mesh sourced from Naraka Bladepoint.\n- Manual installation requires placing archive and XL files into the game root.\n- Optimized primarily for high-quality photo mode captures.",
+    tags: [
+      "hair",
+      "female",
+      "style",
+      "custom",
+      "appearance"
+    ],
+    featured: true
+  },
+  {
+    id: 1045,
+    game: "cyberpunk",
+    title: "Radio Volume Control",
+    category: "user-interface",
+    version: "1.0",
+    size: "12 KB",
+    images: [
+      "images/mods/radio-volume-control-1.jpg",
+      "images/mods/radio-volume-control-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MTu7M85788E8J61",
+    short: "Adjust radio volume levels directly within your in-game menu.",
+    description: "You can finally tweak your radio volume beyond the default settings using this handy interface addition. It integrates seamlessly into the existing radio menu, appearing right alongside the standard Off, Previous, and Next buttons.\n\n- Increases volume from 1 up to a maximum of 11.\n- Adjustments occur in steps of 2 for faster control.\n- Uses icon-based navigation to remain language-independent.\n- Persists your chosen volume settings after toggling the radio.\n- Compatible with most mods since it avoids editing audio files.",
+    tags: [
+      "radio",
+      "audio",
+      "volume",
+      "settings",
+      "quality"
+    ],
+    featured: true
+  },
+  {
+    id: 1046,
+    game: "cyberpunk",
+    title: "Kolac Expanded",
+    category: "weapons",
+    version: "1.0",
+    size: "132 KB",
+    images: [
+      "images/mods/kolac-expanded-1.jpg",
+      "images/mods/kolac-expanded-2.jpg",
+      "images/mods/kolac-expanded-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TAe49he62A8h7a0",
+    short: "Adds missing Kolac weapon variants and scopes to vendors.",
+    description: "Integrating unused Kolac weapon variants into the game world, this mod populates vendors and enemy loot tables with diverse options. You can now equip scopes on these weapons, significantly expanding their tactical versatility compared to the base version.\n\n- Includes ten distinct skin variants including Military, Neon, Pimp, and X-Mod2.\n- Dedicated crafting recipes are available through the Northside Docks gun vendor.\n- Enhanced Craft support is fully integrated for all weapon versions.\n- Enemy snipers from Sixth Street, Barghest, Scavengers, and Valentinos will now carry these weapons.\n- Spawns begin as early as level 1 for a consistent gear progression.",
+    tags: [
+      "weapons",
+      "cyberpunk",
+      "shooter",
+      "guns"
+    ],
+    featured: true
+  },
+  {
+    id: 1047,
+    game: "cyberpunk",
+    title: "0-Engine",
+    category: "utilities",
+    version: "0.18.6",
+    size: "50 KB",
+    images: [
+      "images/mods/0-engine-1.jpg",
+      "images/mods/0-engine-2.jpg",
+      "images/mods/0-engine-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/35jS008pn1CyN67",
+    short: "A shared engine framework optimizing performance for multiple CET mods.",
+    description: "0-Engine acts as a foundational runtime layer for Cyber Engine Tweaks mods, centralizing resource-heavy tasks like state caching, lifecycle management, and event dispatching to prevent redundant engine calls across multiple projects. If you are a modder, this system eliminates the need to reinvent boilerplate code by providing a stable, high-performance infrastructure for your mods.\n\n- Centralizes blackboard polling, proximity checks, and state caching into a single managed update loop.\n- Features a sophisticated NPCWatcherSystem that filters spawns via RedScript, significantly reducing cross-boundary performance overhead.\n- Includes a grid-based Spatial Hash for large coordinate sets, enabling efficient O(1) proximity queries.\n- Manages player lifecycle states defensively, ensuring mods remain stable during reloads, respawns, or streaming chunk loads.\n- Provides a comprehensive CET overlay for monitoring registered mods, callback breakdowns, and debug logging.",
+    tags: [
+      "cet",
+      "framework",
+      "performance",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 1048,
+    game: "cyberpunk",
+    title: "SHAREN MINI HUSH CUT - CCXL HAIR",
+    category: "appearance-change-unlocker",
+    version: "1.0",
+    size: "13.8 MB",
+    images: [
+      "images/mods/sharen-mini-hush-cut-ccxl-hair-1.jpg",
+      "images/mods/sharen-mini-hush-cut-ccxl-hair-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/S3nR2uyrBbEdx47",
+    short: "Soft wispy mini shag hairstyle for male and female V.",
+    description: "This mod provides a soft, wispy mini shag hairstyle that integrates directly into the character creator for both femV and mascV. It functions as a complete standalone addition that brings a modern, textured look to your character's head.\n\n- Features high-quality custom textures and fully implemented hair physics\n- Compatible with Dynamic Materials and the Hair Profiles CCXL mod\n- Requires ArchiveXL 1.20.0 or higher to function properly\n- Designed as a standalone file for easy folder installation",
+    tags: [
+      "hair",
+      "cyberpunk",
+      "appearance",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1049,
+    game: "cyberpunk",
+    title: "Violet M F CCXL MCH Hair",
+    category: "appearance",
+    version: "1.0",
+    size: "4.2 MB",
+    images: [
+      "images/mods/violet-m-f-ccxl-mch-hair-1.jpg",
+      "images/mods/violet-m-f-ccxl-mch-hair-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0GHg9f5x6R2lql4",
+    short: "Stylized physics-enabled hair for masculine and feminine V models.",
+    description: "Give your V a fresh look with this physics-enabled hairstyle compatible with both masculine and feminine frames. It leverages the Archive XL and TweakXL systems to function in-game, and you can grab the MCH version if you want access to multi-colored options.\n\n- Supports both masculine and feminine body types\n- Includes physics for natural movement in the wind\n- Requires Archive XL 1.20.1 and TweakXL 1.10.7 to run\n- MCH Framework is required specifically for the multi-colored variant\n- Simple drag and drop installation into your game directory",
+    tags: [
+      "hair",
+      "cyberpunk",
+      "appearance",
+      "cosmetic",
+      "v"
+    ],
+    featured: true
+  },
+  {
+    id: 1050,
+    game: "cyberpunk",
+    title: "Bunny Outfit - Archive XL",
+    category: "armour-clothing",
+    version: "1.0",
+    size: "87.9 MB",
+    images: [
+      "images/mods/bunny-outfit-archive-xl-1.jpg",
+      "images/mods/bunny-outfit-archive-xl-2.jpg",
+      "images/mods/bunny-outfit-archive-xl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/L6W61Bh7Wsp33Nd",
+    short: "Stylish bunny outfit ported from TFD for Fem V.",
+    description: "Ported directly from TFD, this stylish bunny outfit for Fem V features five distinct customizable items including a corset, tie, bracelet, and combo-compatible stockings and shoes. The mod offers deep flexibility by allowing players to mix and match individual components while retaining full support for all Hyst body presets, including Vanilla, ANGEL, EBB, and various RB configurations. A dedicated small body variant is also included to ensure a perfect fit for your specific character build.\n\n- Includes five modular items like the corset and tie.\n- Supports all Hyst body types including EBB and ANGEL.\n- Features a specialized fit for the small body type.\n- Allows mixing stockings and shoes via the combo variant.",
+    tags: [
+      "bunny",
+      "outfit",
+      "fem v",
+      "clothing"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1051,
+    game: "cyberpunk",
+    title: "R.A. Militech Behemoth Mobile Living Conversion",
+    category: "vehicles",
+    version: "1.3",
+    size: "1.7 MB",
+    images: [
+      "images/mods/ra-militech-behemoth-mobile-living-conversion-1.jpg",
+      "images/mods/ra-militech-behemoth-mobile-living-conversion-2.jpg",
+      "images/mods/ra-militech-behemoth-mobile-living-conversion-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/RkJAZYGqam2b5pM",
+    short: "Drivable mobile homebase with interior storage and tactical drones.",
+    description: "Turn your travel experience into a nomadic lifestyle with this fully drivable, customizable mobile homebase. You can purchase this beast through the Virtual Dealer or visit the Dedka Car Dealership for a nice discount.\n\n- Includes a functional bed, stash, computer, and vending machine.\n- Features a pickup-ready turret and four distraction-focused repair drones.\n- Requires Improved Vehicle Persistence for full support of your parked state.\n- Note that saving is disabled while inside the truck interior.\n- Occasionally struggles with position registration if parked on steep mountains.",
+    tags: [
+      "truck",
+      "vehicle",
+      "nomadic",
+      "militech",
+      "home"
+    ],
+    featured: true
   }
 ];
 
