@@ -587,10 +587,17 @@ async function handleEts2World(req, res) {
       .replace(/<[^>]+>/g, "")
   ).replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
 
-  // Every post has exactly one real image (the hero shot); everything else in
-  // the markup is sidebar "related mods" thumbnails.
-  const ogImage = (html.match(/property="og:image" content="([^"]*)"/i) || [])[1];
-  const imageUrls = ogImage ? [ogImage] : [];
+  // Some posts have a real screenshot gallery: small 160x160 thumbnails, each
+  // wrapped in <a href="{full-size}.jpg" data-rel="lightbox">, sitting right
+  // before the download button. Others have none - just the single hero shot
+  // (og:image) and nothing else in the body. Prefer the gallery when present,
+  // since those are curated screenshots rather than one auto-picked thumbnail.
+  const galleryUrls = [...rawContent.matchAll(/<a href="(https:\/\/www\.ets2world\.com\/wp-content\/uploads\/[^"]+?\.(?:jpg|jpeg|png|webp))" data-rel="lightbox"/gi)].map(m => m[1]);
+  let imageUrls = [...new Set(galleryUrls)];
+  if (!imageUrls.length) {
+    const ogImage = (html.match(/property="og:image" content="([^"]*)"/i) || [])[1];
+    imageUrls = ogImage ? [ogImage] : [];
+  }
 
   const sourceLink = (html.match(/class="dmod"[^>]*href="(https?:\/\/[^"]+)"/i) || [])[1] || "";
 
