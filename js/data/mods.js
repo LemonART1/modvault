@@ -23048,12 +23048,12 @@ const MODS = [
     title: "Veegee Polaris Hair",
     category: "appearance",
     version: "1.0",
-    size: "2.8 MB",
+    size: "2.71 MB",
     images: [
       "images/mods/veegee-polaris-hair-1.jpg",
       "images/mods/veegee-polaris-hair-2.jpg"
     ],
-    downloadUrl: "https://modsfire.com/yu4NxP4qWUjsMo8",
+    downloadUrl: "https://modsfire.com/FzCAgP82ZmY37b3",
     short: "Stylized Polaris hairstyle for female V player characters.",
     description: "Elevate your V's look with this sleek, custom hairstyle ported directly from the Naraka Bladepoint character library. Designed specifically for female characters, this mod requires ArchiveXL to function correctly within your game.\n\n- Exclusive to female V player models.\n- Requires ArchiveXL for proper asset integration.\n- Original high-quality mesh sourced from Naraka Bladepoint.\n- Optimized primarily for high-fidelity photo mode captures.\n- Manual installation requires placing files into your archive/pc/mod folder.",
     tags: [
