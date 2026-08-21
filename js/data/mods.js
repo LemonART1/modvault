@@ -24890,6 +24890,583 @@ const MODS = [
       "icons"
     ],
     featured: true
+  },
+  {
+    id: 1118,
+    game: "re4",
+    title: "Silver Ghost Tactical Version",
+    category: "weapons",
+    version: "1.0",
+    size: "12.3 MB",
+    images: [
+      "images/mods/silver-ghost-tactical-version-1.jpg",
+      "images/mods/silver-ghost-tactical-version-2.jpg",
+      "images/mods/silver-ghost-tactical-version-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/KnDd96fkN21f7pd",
+    short: "A tactical redesign for the SG-09 R handgun model.",
+    description: "This tactical overhaul for the SG-09 R transforms the standard sidearm with a sleek, military-inspired aesthetic. It integrates custom silenced gunshot audio, providing a distinct sound profile that differs from the default vanilla handgun. Installation is streamlined for Fluffy Mod Manager users; simply drag the archive into the application or drop it directly into the game's mod directory folder.",
+    tags: [
+      "re4",
+      "weapon",
+      "tactical",
+      "silencer",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1119,
+    game: "re4",
+    title: "Salazar - Definitive Classic Style",
+    category: "characters",
+    version: "1.0",
+    size: "69.1 MB",
+    images: [
+      "images/mods/salazar-definitive-classic-style-1.jpg",
+      "images/mods/salazar-definitive-classic-style-2.jpg",
+      "images/mods/salazar-definitive-classic-style-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ujps618BQfb9pIS",
+    short: "Reimagined classic Salazar look for the Resident Evil remake.",
+    description: "This collaborative project restores Salazar to his iconic 2005 aesthetic through custom modeling and community-sourced assets. It streamlines the installation process by bundling multiple character enhancements into one unified package for Fluffy Mod Manager.\n\n- Custom reimagined hat model crafted to match the original silhouette.\n- Integration of Rqqp’s detailed face mod for an authentic look.\n- Replaces the castle portrait with Glitch’s classic picture frame asset.\n- Simple single-package installation compatible with the latest game updates.",
+    tags: [
+      "salazar",
+      "classic",
+      "horror",
+      "remake"
+    ],
+    featured: true
+  },
+  {
+    id: 1120,
+    game: "re4",
+    title: "Vendetta Leon",
+    category: "characters",
+    version: "1.0",
+    size: "195 MB",
+    images: [
+      "images/mods/vendetta-leon-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1doQ7cfeEpZ045e",
+    short: "Replaces Leon with a stylish new Vendetta themed skin.",
+    description: "Swap out Leon's standard gear for this sharp Vendetta-inspired look that stays true to the game's gritty aesthetic. The outfit features high-quality textures and fits perfectly into the existing rigging system, ensuring no clipping issues during intense combat sequences. This mod specifically targets the default model, making it a reliable choice for players who want a fresh appearance without breaking the game's core animation set.",
+    tags: [
+      "leon",
+      "skin",
+      "re4",
+      "character",
+      "outfit"
+    ],
+    featured: true
+  },
+  {
+    id: 1121,
+    game: "re4",
+    title: "RE4VR",
+    category: "gameplay",
+    version: "1.0",
+    size: "36.8 MB",
+    images: [
+      "images/mods/re4vr-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/01pru8C9CjOLzXM",
+    short: "Turn Resident Evil 4 Remake into full virtual reality.",
+    description: "Experience the Resident Evil 4 Remake in complete virtual reality, fully optimized for modern hardware. This project grants you total immersion by implementing native support for motion controllers throughout the entire campaign. You can now aim, reload, and interact with the environment using physical movements instead of button presses. It completely transforms how you handle combat encounters against the Ganados. Please visit the official project website for the most recent installation files and setup instructions.",
+    tags: [
+      "vr",
+      "resident evil",
+      "immersion",
+      "motion"
+    ],
+    featured: true
+  },
+  {
+    id: 1122,
+    game: "re4",
+    title: "Azur Lane - Anchorage",
+    category: "characters",
+    version: "1.0",
+    size: "33.1 MB",
+    images: [
+      "images/mods/azur-lane-anchorage-1.jpg",
+      "images/mods/azur-lane-anchorage-2.jpg",
+      "images/mods/azur-lane-anchorage-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7y953PV7Z420iPo",
+    short: "Replaces Leon with Anchorage character model from Azur Lane.",
+    description: "Swap out Leon for Anchorage from Azur Lane with this character replacement mod. It includes fully functional physics for both the body and hair, along with expressive facial animations and full gore compatibility for combat sequences. You can choose between two distinct outfits: the Pajamas replacing the Default look, and the Swimsuit replacing the Pinstripe outfit. An optional addon is also provided to remove emissive materials, substituting them with a specialized material that features realistic wet effects.\n\n- Custom hair and body physics\n- Full facial animation support\n- Includes gore and damage effects\n- Two outfits: Pajamas and Swimsuit\n- Optional wet effect texture addon",
+    tags: [
+      "azur lane",
+      "anchorage",
+      "character",
+      "re4"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1123,
+    game: "re4",
+    title: "Damage Multiplier Collection",
+    category: "gameplay",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/damage-multiplier-collection-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xb6FSmLokEIhlez",
+    short: "Adjust combat lethality with various damage multiplier presets provided.",
+    description: "Tweak the difficulty of the main campaign by adjusting damage dealt to enemies and damage taken by Leon. These multipliers work alongside the game's native difficulty settings, allowing for a highly customized combat experience. Simply use Fluffy Manager to drop the desired multiplier into your RE4R folder and activate it.\n\n- Includes specific multipliers ranging from x0.5 up to x10.\n- Configure different combinations for damage to enemies and player.\n- Choose x0.5 for a tougher challenge or higher values for lethality.\n- Compatible with existing difficulty levels via multiplicative stacking.",
+    tags: [
+      "difficulty",
+      "combat",
+      "re4",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 1124,
+    game: "re4",
+    title: "Zenless Zone Zero - Ye Shunguang",
+    category: "characters",
+    version: "1.0",
+    size: "70.7 MB",
+    images: [
+      "images/mods/zenless-zone-zero-ye-shunguang-1.jpg",
+      "images/mods/zenless-zone-zero-ye-shunguang-2.jpg",
+      "images/mods/zenless-zone-zero-ye-shunguang-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ur2whA8cvDuuHLj",
+    short: "Replaces Leon with Ye Shunguang from Zenless Zone Zero.",
+    description: "Swap out Leon for Ye Shunguang with this character model replacement mod. You will need to use Fluffy Mod Manager to get this running by moving the contents of the archive into your specific RE4R mods directory.\n\n- Features a high-quality character model imported from Hoyoverse.\n- Requires Hair Strands to be disabled in your graphics settings.\n- Failure to disable Hair Strands will cause the character hair to disappear.\n- Installation requires the Fluffy Mod Manager tool.",
+    tags: [
+      "re4",
+      "character",
+      "skin",
+      "mod",
+      "hoyoverse"
+    ],
+    featured: true
+  },
+  {
+    id: 1125,
+    game: "re4",
+    title: "Azur Lane - New Jersey",
+    category: "characters",
+    version: "1.0",
+    size: "57.8 MB",
+    images: [
+      "images/mods/azur-lane-new-jersey-1.jpg",
+      "images/mods/azur-lane-new-jersey-2.jpg",
+      "images/mods/azur-lane-new-jersey-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uiZKS9PTfNgj1zk",
+    short: "Replaces Leon with New Jersey from Azur Lane game.",
+    description: "Swap out Leon for New Jersey from Azur Lane with this character model overhaul by Histy. It features custom physics for her body and hair along with functional facial animations. You can switch between several distinct outfits including a Bunnysuit and two variations of her Pajamas. \n\n- Includes a selection of addons to toggle bunny ears and stockings.\n- Features a special material option that replaces emissive glow with wet effects.\n- Requires model replacement for Leon in the main campaign.\n- Original character model assets provided by Yostar Games.",
+    tags: [
+      "azur lane",
+      "anime",
+      "character",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 1126,
+    game: "re4",
+    title: "100 Critical Rate",
+    category: "gameplay",
+    version: "1.0",
+    size: "16 KB",
+    images: [
+      "images/mods/100-critical-rate-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fZzF2Fr46KUVdLv",
+    short: "Guaranteed critical hits for every weapon in the game.",
+    description: "Turn every shot into a guaranteed critical hit with this mod, forcing the engine to always trigger the maximum 4.5x damage multiplier. By overriding the base critical chance to 100%, you eliminate the randomness of combat encounters while keeping the game's internal weapon-specific damage values intact.\n\n- Forces a 100% critical hit chance for all weapon types.\n- Maintains original game multipliers for pistols, rifles, and shotguns.\n- Stacks with headshot damage bonuses for massive damage output.\n- Designed strictly for fun and trivializing difficult boss encounters.",
+    tags: [
+      "re4",
+      "gameplay",
+      "combat",
+      "damage",
+      "cheat"
+    ],
+    featured: true
+  },
+  {
+    id: 1127,
+    game: "re4",
+    title: "Zenless Zone Zero - Nicole Demara",
+    category: "characters",
+    version: "1.0",
+    size: "18.3 MB",
+    images: [
+      "images/mods/zenless-zone-zero-nicole-demara-1.jpg",
+      "images/mods/zenless-zone-zero-nicole-demara-2.jpg",
+      "images/mods/zenless-zone-zero-nicole-demara-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/TO1BD610v3Msb76",
+    short: "Replaces Leon with Nicole Demara from Zenless Zone Zero.",
+    description: "Play as Nicole Demara from Zenless Zone Zero by swapping out Leon with this high-quality character model. The mod includes fully functional physics for both her hair and body, ensuring natural movement during cutscenes and gameplay.\n\n- Features custom facial animations for expressive dialogue and combat.\n- Includes two outfit variants with jacket and jacketless options.\n- Authentic character model originally created by Hoyoverse.",
+    tags: [
+      "nicole",
+      "zzz",
+      "character",
+      "re4",
+      "anime"
+    ],
+    featured: true
+  },
+  {
+    id: 1128,
+    game: "re4",
+    title: "White Monster First Aid Spray",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "4.2 MB",
+    images: [
+      "images/mods/white-monster-first-aid-spray-1.jpg",
+      "images/mods/white-monster-first-aid-spray-2.jpg",
+      "images/mods/white-monster-first-aid-spray-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qj885wzmVuA3TnU",
+    short: "Replaces the standard First Aid Spray with White Monster.",
+    description: "Swap out your standard medical recovery item for a refreshing can of White Monster energy drink. This aesthetic replacer modifies the textures, mdf, and mesh files of the First Aid Spray to create a more caffeinated survival experience.\n\n- Compatible with BIORAND and other mods that avoid altering the spray's original files.\n- Installation requires dropping the compressed file directly into the Fluffy Mod Manager directory.\n- Requires enabling the modification through the Fluffy Mod Manager interface before launching the game.",
+    tags: [
+      "re4",
+      "monster",
+      "drink",
+      "texture",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 1129,
+    game: "re4",
+    title: "Changli - Laurel Nymph over Ada",
+    category: "characters",
+    version: "1.0",
+    size: "31.6 MB",
+    images: [
+      "images/mods/changli-laurel-nymph-over-ada-1.jpg",
+      "images/mods/changli-laurel-nymph-over-ada-2.jpg",
+      "images/mods/changli-laurel-nymph-over-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GxALAjDa2782N1t",
+    short: "Replaces Ada model with Changli from Wuthering Waves game.",
+    description: "Fayzvl brings Changli from Wuthering Waves into the game as a direct replacement for Ada. This mod ports the Laurel Nymph outfit model and textures for a fresh look, though it is important to note that the dress itself is not included. All character assets remain the property of Kuro Games, having been repurposed here for your adventures. It is a sleek way to customize your character appearance if you are a fan of the original source material.",
+    tags: [
+      "changli",
+      "wuthering",
+      "replacer",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 1130,
+    game: "re4",
+    title: "Hound Wolf Squad USM AI for RED9",
+    category: "weapons",
+    version: "1.0",
+    size: "13.4 MB",
+    images: [
+      "images/mods/hound-wolf-squad-usm-ai-for-red9-1.jpg",
+      "images/mods/hound-wolf-squad-usm-ai-for-red9-2.jpg",
+      "images/mods/hound-wolf-squad-usm-ai-for-red9-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kCXW32X5aNhyIUR",
+    short: "Replaces the standard RED9 with the tactical USM-AI pistol.",
+    description: "Swap out your standard RED9 pistol for the high-tech USM-AI used by the elite Hound Wolf Squad. This model replacement keeps the weapon feeling authentic to the squad's tactical aesthetic while maintaining compatibility with the original gun's animations and handling. It is a straightforward aesthetic upgrade perfect for players who prefer the Resident Evil Village special forces look over the classic Resident Evil 4 sidearm.",
+    tags: [
+      "re4",
+      "weapon",
+      "skin",
+      "pistol",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 1131,
+    game: "re4",
+    title: "Toggle Flashlight (Fluffy Manager Edition)",
+    category: "gameplay",
+    version: "1.0",
+    size: "901 KB",
+    images: [
+      "images/mods/toggle-flashlight-fluffy-manager-edition-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jhz835QzgM0hv79",
+    short: "Manually toggle your flashlight on or off anytime desired.",
+    description: "You finally have full control over your character's flashlight rather than relying on the game's automatic lighting triggers. By installing this via Fluffy Manager and ensuring REFramework is active, you gain the ability to illuminate dark areas at your own convenience.\n\n- Toggle the light using X on your keyboard or R3 on a gamepad.\n- Customize your preferred hotkeys by editing the Lua script directly in Notepad.\n- Requires the latest REFramework to function properly within your game install.\n- Check the included documentation if you encounter any input conflicts with other mods.",
+    tags: [
+      "flashlight",
+      "gameplay",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 1132,
+    game: "re4",
+    title: "Leon-style Haircut for Ada",
+    category: "characters",
+    version: "2.0",
+    size: "25.4 MB",
+    images: [
+      "images/mods/leon-style-haircut-for-ada-1.jpg",
+      "images/mods/leon-style-haircut-for-ada-2.jpg",
+      "images/mods/leon-style-haircut-for-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Nz7jPPo2KNxnaE5",
+    short: "A refined Leon-inspired hairstyle mod for Ada Wong.",
+    description: "Give Ada a fresh look with this Leon-inspired hairstyle, featuring improved geometry and a more natural silhouette compared to the initial release. The v2.0 update focuses on better framing for her eyes and a more dynamic shape for the bangs to prevent that bulky, teardrop aesthetic.\n\n- Optimized hair length keeps your vision clear during parries and intense combat encounters.\n- Includes a vital fix for the bald cap texture that previously stretched down the neck.\n- Completely constructed from Ada's vanilla hair mesh for native visual consistency.\n- Fully compatible with Fluffy Mod Manager for quick installation alongside other cosmetic mods.",
+    tags: [
+      "ada wong",
+      "hair",
+      "cosmetics",
+      "re4",
+      "remake"
+    ],
+    featured: true
+  },
+  {
+    id: 1133,
+    game: "re4",
+    title: "FOV Controls (Includes ADS and Hotkey Toggle)",
+    category: "utilities",
+    version: "1.0",
+    size: "494 KB",
+    images: [
+      "images/mods/fov-controls-includes-ads-and-hotkey-toggle-1.jpg",
+      "images/mods/fov-controls-includes-ads-and-hotkey-toggle-2.jpg",
+      "images/mods/fov-controls-includes-ads-and-hotkey-toggle-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2fl0J6Hu96GOXie",
+    short: "Adjust your gameplay and ADS camera settings with ease.",
+    description: "Fine-tune your visual experience with this REFramework plugin, which allows for independent field of view adjustments during normal gameplay and when aiming down sights. Because it specifically targets gameplay camera parameters, your cutscenes and interface elements remain completely untouched and stable.\n\n- Provides separate FOV sliders for standard movement and ADS.\n- Requires REFramework to function within your game installation.\n- Compatible with Fluffy Mod Manager for simple drag-and-drop installation.\n- Settings are accessible via the Script Generated UI overlay.\n- Does not distort the game's UI or cutscene cinematic framing.",
+    tags: [
+      "fov",
+      "camera",
+      "utility",
+      "re4",
+      "fix"
+    ],
+    featured: true
+  },
+  {
+    id: 1134,
+    game: "re4",
+    title: "Simon Riley - MW1 2019 over Leon",
+    category: "characters",
+    version: "1.0",
+    size: "220 MB",
+    images: [
+      "images/mods/simon-riley-mw1-2019-over-leon-1.jpg",
+      "images/mods/simon-riley-mw1-2019-over-leon-2.jpg",
+      "images/mods/simon-riley-mw1-2019-over-leon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/29USVlo2Lb41X5x",
+    short: "Play as Ghost from Modern Warfare using Leon's slots.",
+    description: "Swap Leon's default and Pinstripe outfits for Simon Riley, featuring his iconic look from the 2019 Modern Warfare and Warzone releases. The mod includes his distinct Dreadwood and Last Breath attire styles. Keep in mind that this is a character replacement, so you might run into some visual quirks during your playthrough.\n\n- Replaces Leon Pinstripe and Default character models\n- Features Dreadwood and Last Breath outfit variations\n- Includes authentic assets from Infinity Ward and Activision\n- Expect minor clipping issues during regular gameplay\n- First-person camera clipping occurs when aiming with scopes",
+    tags: [
+      "ghost",
+      "call of duty",
+      "character",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1135,
+    game: "re4",
+    title: "Girls' Frontline 2 - Helen (DP-12)",
+    category: "characters",
+    version: "1.0",
+    size: "47.7 MB",
+    images: [
+      "images/mods/girls-frontline-2-helen-dp-12-1.jpg",
+      "images/mods/girls-frontline-2-helen-dp-12-2.jpg",
+      "images/mods/girls-frontline-2-helen-dp-12-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/eS0qVipHv7iEl4P",
+    short: "Replaces Leon with Helen from Girls' Frontline 2 character model.",
+    description: "Swap out Leon for Helen from Girls' Frontline 2, complete with custom body and hair physics. This conversion feels seamless during cutscenes since it maintains perfect skeleton accuracy, ensuring your weapons and items never float or clip.\n\n- Includes a specialized dress skin replacing the Pinstripe outfit.\n- Two optional addons available to further customize the dress.\n- Full gore compatibility ensures no immersion breaks during combat.\n- Animation rigs are tuned so you do not need external patches.",
+    tags: [
+      "re4",
+      "character",
+      "skin",
+      "anime",
+      "helen"
+    ],
+    featured: true
+  },
+  {
+    id: 1136,
+    game: "re4",
+    title: "Ashley Sherry",
+    category: "characters",
+    version: "1.0",
+    size: "189 MB",
+    images: [
+      "images/mods/ashley-sherry-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7mP06aeXbYlyz59",
+    short: "Replaces Ashley Graham with Sherry Birkin character model mod.",
+    description: "Swap out Ashley Graham for Sherry Birkin with this character replacement mod. It features a fully rigged model that integrates directly into the game files. You will need a mod manager to ensure the textures load correctly during cutscenes and gameplay segments. This is a purely aesthetic change and does not alter any of the survival horror mechanics or dialogue scripts.",
+    tags: [
+      "ashley",
+      "sherry",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1137,
+    game: "re4",
+    title: "NEMESIS OVER EL GIGANTE",
+    category: "monsters",
+    version: "1.0",
+    size: "32.9 MB",
+    images: [
+      "images/mods/nemesis-over-el-gigante-1.jpg",
+      "images/mods/nemesis-over-el-gigante-2.jpg",
+      "images/mods/nemesis-over-el-gigante-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3gx9KADEyfy8n4j",
+    short: "Replaces the El Gigante boss with Nemesis model assets.",
+    description: "Swap out the standard El Gigante encounter for the terrifying presence of Nemesis from the Resident Evil 3 Remake. This visual replacement modifies the boss model entirely to bring the iconic pursuer into the village. You will face Nemesis instead of the original giant, maintaining the classic scale and behavior while changing the aesthetic threat of the encounter.",
+    tags: [
+      "nemesis",
+      "boss",
+      "re3",
+      "monster",
+      "horror"
+    ],
+    featured: true
+  },
+  {
+    id: 1138,
+    game: "re4",
+    title: "Overkill",
+    category: "gameplay",
+    version: "1.0",
+    size: "1.3 MB",
+    images: [
+      "images/mods/overkill-1.jpg",
+      "images/mods/overkill-2.jpg",
+      "images/mods/overkill-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WJonq80k9s701pV",
+    short: "Powerful weaponry and increased enemy counts for Leon Kennedy.",
+    description: "Drawing inspiration from Adventure Phi, this mod reimagines your journey through Resident Evil 4 with a focus on intensified combat scenarios. You get to wield significantly more powerful weapons right from the start to handle the surge in enemy density throughout the campaign. \n\n- Features expanded exploration areas not found in the base game.\n- Maintains original key item placements to keep progression familiar.\n- Excludes annoying traps and box bombs for a smoother experience.\n- Requires Fluffy Mod Manager for proper installation and management.\n- Provides a fresh, aggressive challenge while keeping level design intact.",
+    tags: [
+      "re4",
+      "combat",
+      "weapons",
+      "leon",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1139,
+    game: "re4",
+    title: "Street Fighter 6 Mai Shiranui for Ada",
+    category: "characters",
+    version: "1.0",
+    size: "383 MB",
+    images: [
+      "images/mods/street-fighter-6-mai-shiranui-for-ada-1.jpg",
+      "images/mods/street-fighter-6-mai-shiranui-for-ada-2.jpg",
+      "images/mods/street-fighter-6-mai-shiranui-for-ada-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/IH2057AD6WUPPJ8",
+    short: "Replaces Ada Wong with Mai Shiranui using SF6 models.",
+    description: "Replaces Ada Wong with Mai Shiranui in her Street Fighter 6 aesthetic, featuring highly detailed models and a variety of included add-ons. The mod is built upon the XXTB Ada physics framework, providing intensified movement for the character's body.\n\n- Each outfit variant includes normal, topless, and nude options for customization.\n- Requires the Separate Ways DLC; otherwise, the game will display a black screen.\n- You must disable Hair Strands in the game settings to prevent visual glitches.\n- Installation requires FluffyModmanager, and zip files should remain compressed.\n- Includes an additional cowgirl outfit as part of the latest update.",
+    tags: [
+      "ada wong",
+      "mai",
+      "sf6",
+      "character",
+      "re4r"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1140,
+    game: "re4",
+    title: "Ada in Leon's RE2 Noir",
+    category: "characters",
+    version: "1.0",
+    size: "31.2 MB",
+    images: [
+      "images/mods/ada-in-leons-re2-noir-1.jpg",
+      "images/mods/ada-in-leons-re2-noir-2.jpg",
+      "images/mods/ada-in-leons-re2-noir-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/58aE1wxJh692qap",
+    short: "Equip Ada with Leon's iconic Noir outfit from RE2.",
+    description: "Experience Ada Wong sporting the classic noir look originally worn by Leon in Resident Evil 2. This mod is a faithful recreation of the visual style previously designed by Zkys3dge for the 2019 remake. It provides a distinct aesthetic shift for Ada during her gameplay sections, perfectly capturing that moody, detective-inspired atmosphere. Please ensure your game files are updated to support custom character skins before installation.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "outfit",
+      "noir"
+    ],
+    featured: true
+  },
+  {
+    id: 1141,
+    game: "re4",
+    title: "Naked Snake Pack",
+    category: "characters",
+    version: "1.0",
+    size: "475 MB",
+    images: [
+      "images/mods/naked-snake-pack-1.jpg",
+      "images/mods/naked-snake-pack-2.jpg",
+      "images/mods/naked-snake-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mo7CAgQWtxji4YL",
+    short: "Play as Naked Snake with multiple outfits and accessories.",
+    description: "Step into the role of Naked Snake from Metal Gear Solid Delta throughout the main Resident Evil 4 story. This character replacement mod swaps out Leon with the iconic operative and features a comprehensive wardrobe to suit your stealth missions.\n\n- Choose from seven distinct camo outfits including Olive Drab, Tiger Stripe, and the classic Sneaking Suit.\n- Customize your look with wearable accessories like the bandana, eyepatch, or Eva's signature hair.\n- Built using high-fidelity assets compatible with Fluffy's Mod Manager.\n- Developed with specialized RE Mesh and Chain editing tools to ensure seamless in-game integration.",
+    tags: [
+      "metal gear",
+      "snake",
+      "character",
+      "stealth"
+    ],
+    featured: true
+  },
+  {
+    id: 1142,
+    game: "re4",
+    title: "Ada Wong 30th Anniversary Outfit",
+    category: "characters",
+    version: "1.0",
+    size: "23.8 MB",
+    images: [
+      "images/mods/ada-wong-30th-anniversary-outfit-1.jpg",
+      "images/mods/ada-wong-30th-anniversary-outfit-2.jpg",
+      "images/mods/ada-wong-30th-anniversary-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BrTI19mUSB5L7lw",
+    short: "Celebrate Resident Evil history with this custom Ada outfit.",
+    description: "Commemorating the Resident Evil 30th anniversary, this high-fidelity 3D model recreates Ada Wong's iconic look from official Capcom concept art. While the source material provided limited perspectives, this mod bridges the gaps with creative re-imaginings that maintain the authentic spirit of the design.\n\n- Faithful 3D recreation based on official anniversary concept art.\n- Features custom detailing to flesh out unseen design elements.\n- Stays true to the character aesthetic while adding flair.\n- High-quality model conversion optimized for the Resident Evil engine.",
+    tags: [
+      "ada wong",
+      "re4",
+      "outfit",
+      "character",
+      "skin"
+    ],
+    featured: true
   }
 ];
 
