@@ -24051,6 +24051,514 @@ const MODS = [
       "rifle"
     ],
     featured: true
+  },
+  {
+    id: 1082,
+    game: "ets2",
+    title: "Volvo FH II-III MegaMod",
+    category: "trucks",
+    version: "10.0",
+    size: "648 MB",
+    images: [
+      "images/mods/volvo-fh-ii-iii-megamod-1.jpg",
+      "images/mods/volvo-fh-ii-iii-megamod-2.jpg",
+      "images/mods/volvo-fh-ii-iii-megamod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1ibY0j8tJIB0TGm",
+    short: "Massive Volvo FH tuning pack with extensive customization options.",
+    description: "This comprehensive overhaul for the Volvo FH II and III series transforms your driving experience with a massive variety of custom parts and visual upgrades. The truck is fully autonomous and features high-quality baked AO for realistic lighting effects.\n\n- Includes three distinct interior variations with five options for curtains and custom bed items.\n- Offers a wide engine selection ranging from 420 to 540 horsepower.\n- Features extensive tuning options such as side reflectors, six front mudflap styles, and multiple badge types.\n- Adds functional trailer cables, custom wheels, and various safety decals like ADR and TIR plates.\n- Provides specialized interior shelves and five variations of Angels Morts signage.",
+    tags: [
+      "volvo",
+      "truck",
+      "tuning",
+      "scania",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 1083,
+    game: "ets2",
+    title: "Schmitz MegaPack",
+    category: "trailers",
+    version: "1.60",
+    size: "96.2 MB",
+    images: [
+      "images/mods/schmitz-megapack-1.jpg",
+      "images/mods/schmitz-megapack-2.jpg",
+      "images/mods/schmitz-megapack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/E6yK477fMH6DVrb",
+    short: "Detailed trailer pack featuring custom skins and tuning options.",
+    description: "This comprehensive trailer pack includes four distinct trailer models and five types of cargo to haul across Europe. You get a highly customizable experience with support for personal tuning and the ability to paint your trailer any color you desire.\n\n- Includes four different trailer types for varied hauling needs.\n- Features high-quality baked ambient occlusion for realistic lighting effects.\n- Comes with 60 unique skins for both reefer and curtain trailers.\n- Fully compatible with trailer cables for enhanced immersion.\n- Mod is completely autonomous and supports user-defined skinning.",
+    tags: [
+      "trailer",
+      "schmitz",
+      "ets2",
+      "trucking",
+      "cargo"
+    ],
+    featured: true
+  },
+  {
+    id: 1084,
+    game: "ets2",
+    title: "Renault T480",
+    category: "trucks",
+    version: "1.60",
+    size: "43.9 MB",
+    images: [
+      "images/mods/renault-t480-1.jpg",
+      "images/mods/renault-t480-2.jpg",
+      "images/mods/renault-t480-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LVcideFi11t2quz",
+    short: "High quality Renault T480 truck with authentic custom tuning parts.",
+    description: "Experience the Renault T480 with high-quality modeling and optimized textures throughout. This standalone truck includes a specific cabin, chassis, and interior configuration, designed to mimic the real-world counterpart.\n\n- Features custom 3D headlights for improved night visibility.\n- Includes authentic tuning parts and a redesigned rear mudguard.\n- Upgraded 3D side icons add a professional touch to the exterior.\n- Incorporates a detailed custom silencer and adblue tank setup.",
+    tags: [
+      "renault",
+      "trucks",
+      "ets2",
+      "realistic"
+    ],
+    featured: true
+  },
+  {
+    id: 1085,
+    game: "ets2",
+    title: "DAF XF 106 480",
+    category: "trucks",
+    version: "1.60",
+    size: "580 MB",
+    images: [
+      "images/mods/daf-xf-106-480-1.jpg",
+      "images/mods/daf-xf-106-480-2.jpg",
+      "images/mods/daf-xf-106-480-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/s02V28WYSZPU6HJ",
+    short: "A fully customizable DAF XF 106 with detailed interior lighting.",
+    description: "Customize your DAF experience with this high-quality XF 106 480, which includes full template support for your own personal skins. The interior features a sharp cream and beige leather aesthetic accented by striking red cabin lighting.\n\n- Includes specific ALCOA wheels and matching tire sets\n- Fully functional trailer cables supporting advanced coupling mechanics\n- Custom lightbox textures and swappable license plates\n- Dedicated flarepack included for authentic lighting effects\n- Original templates and paths provided in the archive",
+    tags: [
+      "daf",
+      "truck",
+      "interior",
+      "skinning",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 1086,
+    game: "ets2",
+    title: "Volvo F88",
+    category: "trucks",
+    version: "1.60",
+    size: "41.4 MB",
+    images: [
+      "images/mods/volvo-f88-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OlZFdgQLwsKFiAL",
+    short: "Classic Volvo F88 truck with various chassis and engine options.",
+    description: "Experience this classic Swedish workhorse that brings incredible depth to your heavy hauling operations. XBS and Antonio62 have meticulously recreated this vintage hauler with authentic configurations that feel true to the era.\n\n- Choose between long and short cab variants for your preferred aesthetic.\n- Access multiple chassis options including 4x2, 6x2 with lift axles, and tandem setups.\n- Select from three distinct engine types ranging from 200Hp to 330Hp.\n- Use the included BDF trailers and enjoy custom rear fender support.\n- Benefit from fine-tuned animations like cabin tremors and functional wipers.",
+    tags: [
+      "volvo",
+      "classic",
+      "truck",
+      "bdf",
+      "vintage"
+    ],
+    featured: true
+  },
+  {
+    id: 1087,
+    game: "ets2",
+    title: "8K UPS 2003 Fiat Ducato Skin",
+    category: "skins",
+    version: "1.0",
+    size: "123 KB",
+    images: [
+      "images/mods/8k-ups-2003-fiat-ducato-skin-1.jpg",
+      "images/mods/8k-ups-2003-fiat-ducato-skin-2.jpg",
+      "images/mods/8k-ups-2003-fiat-ducato-skin-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/skL8lmrx8K3Hs4B",
+    short: "High resolution UPS skin for the Fiat Ducato van.",
+    description: "Give your delivery fleet a professional look with this high-resolution UPS branding for the Fiat Ducato. It replaces standard textures with crisp, photorealistic imagery that maintains quality even at close range.\n\n- Features a massive 8K (8192 x 8192) resolution texture.\n- Requires the original Fiat Ducato 2026 mod by TRZPRO to function.\n- Installation requires manual extraction directly into your game mod folder.\n- Includes authentic UPS design elements for a realistic logistics experience.",
+    tags: [
+      "ups",
+      "fiat",
+      "skin",
+      "delivery",
+      "van"
+    ],
+    featured: true
+  },
+  {
+    id: 1088,
+    game: "ets2",
+    title: "Iveco Turbostar Gold Premium",
+    category: "trucks",
+    version: "2.2",
+    size: "726 MB",
+    images: [
+      "images/mods/iveco-turbostar-gold-premium-1.jpg",
+      "images/mods/iveco-turbostar-gold-premium-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WmQmHETI7n6tjJY",
+    short: "A detailed Iveco Turbostar truck with various chassis options.",
+    description: "This classic Italian hauler arrives with an impressive array of configuration options to suit your transport needs. You can choose between multiple engine outputs ranging from the 330 HP inline-six to the powerful 480 HP V8.\n\n- Includes both 4x2 and 6x2/4 midlift chassis options\n- Features five distinct engine variants and two transmission types\n- Offers four different interior styles with various cabin accessories\n- Comes with original factory skins and a dedicated template\n- Fully compatible with SiSL accessories for deeper customization",
+    tags: [
+      "iveco",
+      "truck",
+      "ets2",
+      "classic",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1089,
+    game: "ets2",
+    title: "Volvo FH4 Reworked Zahed Truck",
+    category: "trucks",
+    version: "1.60",
+    size: "124 MB",
+    images: [
+      "images/mods/volvo-fh4-reworked-zahed-truck-1.jpg",
+      "images/mods/volvo-fh4-reworked-zahed-truck-2.jpg",
+      "images/mods/volvo-fh4-reworked-zahed-truck-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/555k796mtHc10Ly",
+    short: "Detailed Volvo FH4 rework with massive tuning part library.",
+    description: "This comprehensive overhaul of the Volvo FH4 introduces a massive library of over 300 parts and tuning options to customize your rig. Zahed has meticulously fixed the hook, chassis components, and light materials to ensure the truck looks and performs better than ever.\n\n- Features specialized Euro6 and I-Save engine configurations.\n- Includes unique Holland style parts and original horns.\n- Offers four distinct interior designs with a 25-year edition.\n- Comes as a standalone truck dealer model.\n- Provides specialized Performance and Dual Clutch skins.",
+    tags: [
+      "volvo",
+      "trucks",
+      "ets2",
+      "tuning",
+      "eurotruck"
+    ],
+    featured: true
+  },
+  {
+    id: 1090,
+    game: "ets2",
+    title: "Volvo FH5",
+    category: "trucks",
+    version: "1.60",
+    size: "128 MB",
+    images: [
+      "images/mods/volvo-fh5-1.jpg",
+      "images/mods/volvo-fh5-2.jpg",
+      "images/mods/volvo-fh5-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/e5kulB8jH3iG9E8",
+    short: "High quality Volvo FH5 truck with extensive tuning options.",
+    description: "This detailed Volvo FH5 package brings the modern truck experience to your fleet without sacrificing performance. You can choose between Globetrotter and Globetrotter XL cabins, paired with either D13k or D16k engine configurations. The build quality stands out with high-quality interiors and optimized AO textures that ensure no FPS drops during gameplay.\n\n- Two distinct interior styles are available for customization\n- Diverse chassis options include 4x2, 6x2, 6x2/4, and 6x4 variants\n- Over 200 individual parts and tuning accessories provided\n- Fully functional as a traffic truck within the game",
+    tags: [
+      "volvo",
+      "fh5",
+      "truck",
+      "ets2",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 1091,
+    game: "ets2",
+    title: "Scania R560 Fisotrans & Son",
+    category: "trucks",
+    version: "1.60",
+    size: "378 MB",
+    images: [
+      "images/mods/scania-r560-fisotrans-son-1.jpg",
+      "images/mods/scania-r560-fisotrans-son-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/VIVhqd6k7yf04NW",
+    short: "Detailed Scania truck featuring custom livery and working animations.",
+    description: "Experience this highly detailed Scania R560 featuring the distinct Fisotrans & Son livery. It feels like a premium addition to your fleet thanks to the authentic custom interior and comprehensive animation set.\n\n- Includes custom wheels and its own unique engine sound.\n- Full cabin animations support windows, dashboard buttons, and accessories.\n- Features functional air suspension and advanced coupling mechanics.\n- Trailer cable support ensures a realistic connection to your cargo.\n- Standalone truck build allows for seamless integration without replacing assets.",
+    tags: [
+      "scania",
+      "truck",
+      "ets2",
+      "vehicle",
+      "standalone"
+    ],
+    featured: true
+  },
+  {
+    id: 1092,
+    game: "ets2",
+    title: "Serin Dumper Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "30.5 MB",
+    images: [
+      "images/mods/serin-dumper-trailer-1.jpg",
+      "images/mods/serin-dumper-trailer-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/4cIExeo6MPE0P3J",
+    short: "Detailed Serin dumper trailer with multiple cargo load options.",
+    description: "Haul heavy loads with this highly detailed Serin dumper trailer, featuring high-quality textures that hold up well under close inspection. The mod includes several customization options to personalize your rig for the road.\n\n- Fully ownable trailer for your career mode.\n- Transport gravel, sand, and stone payloads efficiently.\n- Choose between different rear stop light configurations.\n- Access various paint and color modification options.",
+    tags: [
+      "serin",
+      "trailer",
+      "dumper",
+      "ets2",
+      "haulage"
+    ],
+    featured: true
+  },
+  {
+    id: 1093,
+    game: "ets2",
+    title: "Krone SDC27 Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "273 MB",
+    images: [
+      "images/mods/krone-sdc27-trailer-1.jpg",
+      "images/mods/krone-sdc27-trailer-2.jpg",
+      "images/mods/krone-sdc27-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ox5i10S8E4Z065w",
+    short: "A high-quality, fully customizable trailer with realistic coupling physics.",
+    description: "This high-quality trailer model features stunning 4k resolution and impressive attention to detail for your hauling operations. You can fully customize the look and functionality to suit your long-haul preferences.\n\n- Features a fully baked trailer model in 4k\n- Supports advanced coupling physics for realistic docking\n- Includes 51 different cargo options for variety\n- Offers three distinct sideskirt designs\n- Fully paintable with support for 50k wheels",
+    tags: [
+      "krone",
+      "trailer",
+      "eurotruck",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 1094,
+    game: "ets2",
+    title: "Volvo NH16 2012 Megamod",
+    category: "trucks",
+    version: "1.60",
+    size: "208 MB",
+    images: [
+      "images/mods/volvo-nh16-2012-megamod-1.jpg",
+      "images/mods/volvo-nh16-2012-megamod-2.jpg",
+      "images/mods/volvo-nh16-2012-megamod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/JmVXbvZnRJ5D1qH",
+    short: "Detailed Volvo NH16 heavy truck with extensive tuning options.",
+    description: "Experience this classic heavy-duty hauler that brings the iconic 2012 Volvo NH16 into your fleet. You will need to own the official Volvo Tuning DLC for all the parts to function correctly without issues. The truck offers significant flexibility for builders and drivers who enjoy detailed aesthetic control over their rigs.\n\n- Includes seven unique chassis options for various haulage tasks.\n- Choose between comfortable sleeper or spacious high-roof cabin variants.\n- Fully skinable exterior to support your custom paint jobs.\n- Extensive tuning list featuring custom bumpers, roofracks, and lightboxes.\n- Includes functional sideskirts and various other aftermarket exterior accessories.",
+    tags: [
+      "volvo",
+      "truck",
+      "tuning",
+      "european"
+    ],
+    featured: true
+  },
+  {
+    id: 1095,
+    game: "rdr2",
+    title: "Instant Travel Pro",
+    category: "scripts",
+    version: "1.0",
+    size: "54 KB",
+    images: [
+      "images/mods/instant-travel-pro-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/apd8x4s7zPS5tgV",
+    short: "Instantly teleport anywhere on the map during your travels.",
+    description: "Forget clunky menus and agitated horses when moving across the map. This edit of the original Instant Travel mod allows you to teleport across any distance in just three seconds, providing a much smoother experience than Rampage Trainer.\n\n- Teleport to any map location instantly without consuming health, stamina, or deadeye.\n- Keeps your horse calm and stable, avoiding the typical agitation found in other versions.\n- Works perfectly during combat or while being pursued by enemies.\n- Requires ScriptHookRDR2 to function and activates via the cinematic camera and jump hotkey.\n- Compatible with Horse Nap and avoids conflicts with most existing modifications.",
+    tags: [
+      "teleport",
+      "rdr2",
+      "scripts",
+      "travel",
+      "horses"
+    ],
+    featured: true
+  },
+  {
+    id: 1096,
+    game: "rdr2",
+    title: "Ultimate Dive and Combat Roll Overhaul",
+    category: "gameplay",
+    version: "1.0",
+    size: "90 KB",
+    images: [
+      "images/mods/ultimate-dive-and-combat-roll-overhaul-1.jpg",
+      "images/mods/ultimate-dive-and-combat-roll-overhaul-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/235Ag127ZP4Z41x",
+    short: "Advanced invincibility and combat mechanics for Red Dead Redemption.",
+    description: "This essential enhancement builds upon the original Combat Roll mod, introducing a highly configurable system that adds I-frames, slow-motion capabilities, and refined first-person handling. You can fully customize your experience via an INI file, allowing you to fine-tune how these maneuvers impact your tactical play.\n\n- Gain invincibility frames against bullets, explosions, and melee damage.\n- Enable slow-motion during rolls for improved aiming and positioning.\n- Use the first-person invisibility fix to prevent jarring camera clipping.\n- Configure stamina costs and requirements to balance movement frequency.\n- Fire weapons mid-animation to maintain pressure during intense shootouts.",
+    tags: [
+      "rdr2",
+      "gameplay",
+      "combat",
+      "mechanics"
+    ],
+    featured: true
+  },
+  {
+    id: 1097,
+    game: "rdr2",
+    title: "Waypoint Teleport",
+    category: "scripts",
+    version: "2.0",
+    size: "11 KB",
+    images: [
+      "images/mods/waypoint-teleport-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/0v52D2cpQclgX6i",
+    short: "Instantly travel to any map waypoint in Red Dead Redemption.",
+    description: "Navigate the frontier with this professional fast-travel utility that bypasses standard game limitations using direct XInput hardware reading. It creates a seamless experience by integrating with your horse and applying cinematic fade effects upon arrival.\n\n- Smart terrain detection scans from the sky to ensure you always land on solid ground or water surfaces.\n- Safety protocols grant you and your horse two seconds of invincibility to prevent physics-related accidents.\n- Controller support allows for instant teleportation via button combinations like LB and RB without interfering with Dead Eye.\n- Includes ten pre-configured hotkeys for immediate travel to major towns and stations like Valentine or Blackwater.\n- Fully customizable via an .ini file where you can remap keys using standard virtual-key decimal codes.",
+    tags: [
+      "fast travel",
+      "utility",
+      "scripts",
+      "rdr2"
+    ],
+    featured: true
+  },
+  {
+    id: 1098,
+    game: "rdr2",
+    title: "UMAMUSUME - Manhattan Cafe and Agnes Tachyon",
+    category: "player",
+    version: "1.0",
+    size: "7.7 MB",
+    images: [
+      "images/mods/umamusume-manhattan-cafe-and-agnes-tachyon-1.jpg",
+      "images/mods/umamusume-manhattan-cafe-and-agnes-tachyon-2.jpg",
+      "images/mods/umamusume-manhattan-cafe-and-agnes-tachyon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/191bjZU3uV2xRN3",
+    short: "Play as Manhattan Cafe and Agnes Tachyon in RDR2.",
+    description: "This mod brings the characters Manhattan Cafe and Agnes Tachyon into Red Dead Redemption 2 using original custom models from Cygames. It operates as an add-on rather than a replacer, meaning your existing gear remains untouched.\n\n- Includes two unique character models: Cafe and Tachyon.\n- Requires the Rampage Trainer to access the wardrobe menu.\n- Must be used with the Vulkan API for proper rendering.\n- Not compatible with the DX12 graphics setting.\n- Load via the model changer by inputting the specific character names.",
+    tags: [
+      "anime",
+      "character",
+      "models",
+      "rdr2",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 1099,
+    game: "gta5",
+    title: "Unholster Pistol Twirl Animation",
+    category: "scripts",
+    version: "1.0",
+    size: "55 KB",
+    images: [
+      "images/mods/unholster-pistol-twirl-animation-1.jpg",
+      "images/mods/unholster-pistol-twirl-animation-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/54fHAuVhE391A07",
+    short: "Add stylish pistol twirl animations when pulling your weapon.",
+    description: "Perform a stylish spin whenever you draw a pistol from your primary slot. You can trigger this flair by double-tapping the standard unholster button, which corresponds to Tab on PC, L1 on PlayStation controllers, or LB on Xbox gamepads.\n\n- Double-tap input required for the animation to play.\n- Works specifically for pistols equipped in the primary slot.\n- Requires Scripthook to function correctly within the game.\n- Simple drag-and-drop installation into your main game folder.\n- Currently lacks custom audio effects for the drawing action.",
+    tags: [
+      "animation",
+      "pistol",
+      "script",
+      "weapons"
+    ],
+    featured: true
+  },
+  {
+    id: 1100,
+    game: "rdr2",
+    title: "Functional Bandana",
+    category: "gameplay",
+    version: "1.1",
+    size: "147 KB",
+    images: [
+      "images/mods/functional-bandana-1.jpg",
+      "images/mods/functional-bandana-2.jpg",
+      "images/mods/functional-bandana-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/htm1aU4C91N1yu1",
+    short: "Makes bandanas functional by managing identity, bounties, and honor.",
+    description: "This mod gives masks and bandanas a practical purpose in RDR2 free roam by preventing honor loss, stopping bounty increases, and keeping you as an unknown suspect. Every feature is configurable via an ini file, allowing you to tailor the experience to your preference.\n\n- Per-town identity cooldowns prevent repeated mask usage after being identified.\n- Line of sight detection ensures lawmen must actually see your face to reveal your identity.\n- Custom mask support allows you to add hashes from other clothing mods.\n- Mission recognition increases the chance of being identified as you complete more quests in a town.\n- Choose between hard or exponential cooldown modes for managing exposure risk.",
+    tags: [
+      "realism",
+      "mask",
+      "bounty",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1101,
+    game: "rdr2",
+    title: "Best Camera Settings",
+    category: "user-interface",
+    version: "1.0",
+    size: "148 KB",
+    images: [
+      "images/mods/best-camera-settings-1.jpg",
+      "images/mods/best-camera-settings-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A6o02y7DJ728C7L",
+    short: "Refined camera settings with zero smoothing and better FOV.",
+    description: "Experience a more natural perspective with this refined camera configuration, which synthesizes the most effective community tweaks into one package. By removing input smoothing, you gain significantly tighter and more responsive control over your character's movement.\n\n- Zero smoothing for direct and precise camera input.\n- Improved third-person views for both on-foot and mounted exploration.\n- Expanded character visibility to help you see your full outfit.\n- Optimized first-person field of view for a modern shooter feel.",
+    tags: [
+      "camera",
+      "fov",
+      "realism",
+      "controls"
+    ],
+    featured: true
+  },
+  {
+    id: 1102,
+    game: "rdr2",
+    title: "Warthington Ranch 1907",
+    category: "maps",
+    version: "1.0",
+    size: "29.4 MB",
+    images: [
+      "images/mods/warthington-ranch-1907-1.jpg",
+      "images/mods/warthington-ranch-1907-2.jpg",
+      "images/mods/warthington-ranch-1907-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7J0U1fgWovRG3Di",
+    short: "Restored Warthington Ranch location from the original Red Dead.",
+    description: "Experience the classic Warthington Ranch from Red Dead Redemption 1, now fully restored and optimized for Red Dead Redemption 2. This mod keeps the authentic aesthetic of the original location while upgrading the lighting and atmosphere to match the newer game engine.\n\n- Includes specific ymap files to resolve overlapping or clipped props.\n- Uses updated xml files to ensure all ranch peds are friendly.\n- Integrates the Horse Fence Script and Bitsets Fixed by 1Vex16.\n- Installation requires moving files directly to your root folder.\n- You must select replace if prompted to overwrite existing PNA files.",
+    tags: [
+      "rdr2",
+      "map",
+      "ranch",
+      "location",
+      "restoration"
+    ],
+    featured: true
+  },
+  {
+    id: 1103,
+    game: "rdr2",
+    title: "Macfarlane's General Store - A PNA Addon",
+    category: "maps",
+    version: "2.0",
+    size: "94 KB",
+    images: [
+      "images/mods/macfarlanes-general-store-a-pna-addon-1.jpg",
+      "images/mods/macfarlanes-general-store-a-pna-addon-2.jpg",
+      "images/mods/macfarlanes-general-store-a-pna-addon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/X2obx0wG1V718ft",
+    short: "Add a functional general store to MacFarlane’s Ranch easily.",
+    description: "Revitalize the quiet atmosphere of MacFarlane’s Ranch by dropping in a fully operational, accessible General Store. This mod functions as a direct addon for the PNA framework, allowing you to interact with the facility as you would any other merchant location in the game world.\n\n- Integrates a complete functional store into the ranch site.\n- Requires the PNA framework to load and function correctly.\n- Features custom exterior design work by original creators.\n- Includes updated branding and thumbnails provided by soggy.",
+    tags: [
+      "rdr2",
+      "store",
+      "ranch",
+      "pna",
+      "map"
+    ],
+    featured: true
   }
 ];
 
