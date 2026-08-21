@@ -24559,6 +24559,337 @@ const MODS = [
       "map"
     ],
     featured: true
+  },
+  {
+    id: 1104,
+    game: "nierautomata",
+    title: "A2 Bunny Girl",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "26.1 MB",
+    images: [
+      "images/mods/a2-bunny-girl-1.jpg",
+      "images/mods/a2-bunny-girl-2.jpg",
+      "images/mods/a2-bunny-girl-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3c9W6vcs8X20H46",
+    short: "Replaces A2 default outfit with a custom bunny suit.",
+    description: "Swap out A2's standard combat attire for this playful bunny girl outfit designed by Awedsy. This mod includes high-quality 4K textures originally crafted by Alprazolam and ported to the game by oli. \n\n- Features a detailed bunny costume model ported via Nier2Blender2Nier.\n- Requires manual installation into the game's data/pl folder.\n- Includes specific instructions for players missing the DLC files.\n- Provides a fresh aesthetic overhaul specifically for the A2 character.",
+    tags: [
+      "a2",
+      "bunny",
+      "outfit",
+      "nier",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1105,
+    game: "nierautomata",
+    title: "2B Curvy",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "20.6 MB",
+    images: [
+      "images/mods/2b-curvy-1.jpg",
+      "images/mods/2b-curvy-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/3XzVO893xuwfuap",
+    short: "Replaces the standard 2B model with a curvier version.",
+    description: "This aesthetic overhaul provides a more pronounced silhouette for 2B, modifying the base character model to feature a curvier physique. It focuses purely on visual geometry changes without altering her standard combat animations or equipment functionality. You will notice a significant difference in her proportions compared to the default outfit, particularly during cutscenes and high-action sequences. The textures remain compatible with existing character recolors, allowing you to maintain your preferred color palette while using this new model shape.",
+    tags: [
+      "2b",
+      "character",
+      "model",
+      "overhaul"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1106,
+    game: "nierautomata",
+    title: "2B - Shortened Skirt",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "18.9 MB",
+    images: [
+      "images/mods/2b-shortened-skirt-1.jpg",
+      "images/mods/2b-shortened-skirt-2.jpg",
+      "images/mods/2b-shortened-skirt-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/HxPNdGLB4qdMic3",
+    short: "Modify 2B's dress with this shorter skirt length adjustment.",
+    description: "This aesthetic adjustment modifies 2B's iconic dress by significantly decreasing the skirt length. Installation is straightforward, requiring you to simply extract the files directly into your main NieR: Automata game directory to see the changes in-game. The mod is explicitly compatible with both the 2BBE and Androids Remastered versions. Development was made possible using the NieR2Blender and Blender2NieR toolsets.",
+    tags: [
+      "2b",
+      "nier",
+      "outfit",
+      "cosmetic",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1107,
+    game: "nierautomata",
+    title: "Evangelion Spear of Longinus",
+    category: "weapons",
+    version: "1.0",
+    size: "538 KB",
+    images: [
+      "images/mods/evangelion-spear-of-longinus-1.jpg",
+      "images/mods/evangelion-spear-of-longinus-2.jpg",
+      "images/mods/evangelion-spear-of-longinus-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fD904GczqIu6ew7",
+    short: "Wield the iconic Evangelion Spear in NieR Automata now.",
+    description: "Swap your standard weapons for the iconic Spear of Longinus pulled straight from Neon Genesis Evangelion. This high-quality model replaces either the Spear of the Usurper or Virtuous Dignity with ease.\n\n- Features two distinct color variants including iconic Red and tactical Grey.\n- Includes the mass-production replica design for the Grey variant.\n- Utilizes an original model by cgasia for authentic proportions.\n- Fully compatible with the base game weapon replacement system.",
+    tags: [
+      "nier",
+      "spear",
+      "anime",
+      "weapon",
+      "model"
+    ],
+    featured: true
+  },
+  {
+    id: 1108,
+    game: "nierautomata",
+    title: "A2's Kimono",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "12.7 MB",
+    images: [
+      "images/mods/a2s-kimono-1.jpg",
+      "images/mods/a2s-kimono-2.jpg",
+      "images/mods/a2s-kimono-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/WcFcC8Zfi5BOJUF",
+    short: "Unlock the exclusive A2 Kimono outfit for your game.",
+    description: "Bring the fancy Switch-exclusive Kimono outfit for A2 to your PC version of the game. This mod includes improved textures with more detail than the original release and requires manual file placement within your installation directory.\n\n- Features two distinct hairstyle versions because dynamic hair is currently bugged for the DLC model.\n- Requires the official game DLC, though you can rename files to use it without the expansion.\n- Sleeves lack physics due to current limitations in NieR:Automata's custom bone and animation support.\n- Requires the File Size Limit Patch if you encounter white error message boxes during loading.\n- Does not require FAR, though it remains compatible if you use it for texture injection.",
+    tags: [
+      "a2",
+      "kimono",
+      "outfit",
+      "costume",
+      "nier"
+    ],
+    featured: true
+  },
+  {
+    id: 1109,
+    game: "nierautomata",
+    title: "Zero (With custom physics)",
+    category: "characters",
+    version: "1.0",
+    size: "20.1 MB",
+    images: [
+      "images/mods/zero-with-custom-physics-1.jpg",
+      "images/mods/zero-with-custom-physics-2.jpg",
+      "images/mods/zero-with-custom-physics-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/AVo88sIEqoYEcY7",
+    short: "Transform 2B into Zero with full physics support.",
+    description: "Experience NieR: Reincarnation's Zero within NieR: Automata as a character model replacement for 2B. This mod features fully implemented custom physics, ensuring the character’s cape behaves correctly even during self-destruct animations.\n\n- Integrates seamlessly with existing DLC Kaine outfits and armor.\n- Includes a dedicated Pod Mikhail model courtesy of Kekoulis.\n- Requires manual installation via the game's data/pl directory.\n- Features a togglable flower effect controlled by the Camouflage Goggles.\n- Built using specialized tools including Nier2Blender2Nier for weight conversion.",
+    tags: [
+      "zero",
+      "2b",
+      "model",
+      "nier",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1110,
+    game: "nierautomata",
+    title: "Dark 2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "35.7 MB",
+    images: [
+      "images/mods/dark-2b-1.jpg",
+      "images/mods/dark-2b-2.jpg",
+      "images/mods/dark-2b-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6Hh8qYI609SkNw3",
+    short: "A sleek dark casual outfit for the android 2B.",
+    description: "This mod provides a stylish, casual alternative look for 2B, serving as a direct follow-up to the previously released Dark A2 outfit. You will find that it incorporates assets from several community creators to achieve a highly detailed, layered aesthetic. Please note that the physics for these new clothing meshes can occasionally behave in unexpected or strange ways.\n\n- Features a custom crop top, waist-tied shirt, and harness.\n- Includes specific bracelet, ring, and pants assets.\n- Utilizes hair models derived from the 2V Cyberpunk mod.\n- Designed as a sequel to the Dark A2 mod.",
+    tags: [
+      "nier",
+      "2b",
+      "casual",
+      "outfit",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1111,
+    game: "nierautomata",
+    title: "Nier Automata ReShade Preset",
+    category: "visuals-and-graphics",
+    version: "1.0",
+    size: "33 KB",
+    images: [
+      "images/mods/nier-automata-reshade-preset-1.jpg",
+      "images/mods/nier-automata-reshade-preset-2.jpg",
+      "images/mods/nier-automata-reshade-preset-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1gmyRjBmAQz4Ps6",
+    short: "Improve NieR Automata visuals with contrast and color adjustments.",
+    description: "Enhance your NieR experience with these custom ReShade presets that improve overall image clarity through increased contrast and color saturation. You can choose between LUT-based versions for better performance or the standard ReShade file for a cleaner look. The package includes ShaderToggler support, allowing you to selectively disable game elements like fog, HUD, particles, or specific glow effects during combat. It also provides specialized toggles for weapon charge animations, pod shots, and even the arena-specific glitch effects. For those using Special K, the provided configuration guide ensures proper compatibility when chaining DLL files.",
+    tags: [
+      "reshade",
+      "graphics",
+      "visuals",
+      "lighting"
+    ],
+    featured: true
+  },
+  {
+    id: 1112,
+    game: "nierautomata",
+    title: "2B - DT Model (Dummy Thicc)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "16.0 MB",
+    images: [
+      "images/mods/2b-dt-model-dummy-thicc-1.jpg",
+      "images/mods/2b-dt-model-dummy-thicc-2.jpg",
+      "images/mods/2b-dt-model-dummy-thicc-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/qFtud8155lEHlY4",
+    short: "Extremely exaggerated character model for 2B and A2.",
+    description: "If you are looking for the absolute largest proportions for 2B, this custom model overhaul delivers the most exaggerated figure available. To prevent severe clipping, the creator removed the skirt and feathers, ensuring the extreme geometry remains intact during gameplay.\n\n- Includes an experimental update for A2, though it remains largely untested by the author.\n- Uses original base game textures, meaning some custom skin packs may experience stretching.\n- Self-destruct mode is supported and functions without the dress model attached.\n- Installation requires manual placement of .dtt and .dat files into the game's data/pl directory.\n- Features simplified armor variants, as the character's new size makes the standard gear incompatible.",
+    tags: [
+      "2b",
+      "nier",
+      "character",
+      "model",
+      "body"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1113,
+    game: "nierautomata",
+    title: "Somewhat RealisTHICC 2B",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "27.0 MB",
+    images: [
+      "images/mods/somewhat-realisthicc-2b-1.jpg",
+      "images/mods/somewhat-realisthicc-2b-2.jpg",
+      "images/mods/somewhat-realisthicc-2b-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Jx00NIPQk7B2wvf",
+    short: "Subtle model adjustments for 2B with three body variants.",
+    description: "This mod enhances 2B's character model by providing a more human-like, curvy aesthetic while maintaining a balanced design. It avoids extreme proportions, focusing instead on subtle silhouette adjustments and refined cleavage.\n\n- Includes three distinct self-destruction variants: skirtless, topless, and nude.\n- All versions retain 2B's iconic boots and stockings.\n- Requires the NAMH installation tool for proper file management.\n- Users must ensure Wolf's Limit Break is applied to the game.\n- Players should only install one variant at a time to avoid conflicts.",
+    tags: [
+      "2b",
+      "nier",
+      "character",
+      "model",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1114,
+    game: "nierautomata",
+    title: "The Black Flower - Zero's Sword",
+    category: "weapons",
+    version: "1.0",
+    size: "5.5 MB",
+    images: [
+      "images/mods/the-black-flower-zeros-sword-1.jpg",
+      "images/mods/the-black-flower-zeros-sword-2.jpg",
+      "images/mods/the-black-flower-zeros-sword-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5nf04zO7E413fA0",
+    short: "Replaces game weapons with Zero's iconic Reincarnation sword model.",
+    description: "Swap your standard gear for this faithful recreation of Zero's signature blade from NieR Reincarnation. The mod package features a high-quality model rip and crisp 4K textures, ensuring the weapon looks sharp during fast-paced combat.\n\n- Replaces the Ancient Overlord sword by default.\n- Optional conversion provided for Virtuous Contract as well.\n- Utilizes upscaled 4K texture work for visual clarity.\n- Simple installation process by dropping files into the data folder.\n- Pairs perfectly with Kekoulis' Zero character skin mod.",
+    tags: [
+      "nier",
+      "sword",
+      "weapon",
+      "skin",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 1115,
+    game: "nierautomata",
+    title: "2B-A2 in YoRHa Unofficial Ceremonial Attire (Stellar Blade)",
+    category: "models-and-textures",
+    version: "1.0",
+    size: "57.5 MB",
+    images: [
+      "images/mods/2b-a2-in-yorha-unofficial-ceremonial-attire-stellar-blade-1.jpg",
+      "images/mods/2b-a2-in-yorha-unofficial-ceremonial-attire-stellar-blade-2.jpg",
+      "images/mods/2b-a2-in-yorha-unofficial-ceremonial-attire-stellar-blade-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/zpgDcg0jFXOlDFI",
+    short: "Equip 2B and A2 with Stellar Blade ceremonial outfits.",
+    description: "This mod outfits 2B and A2 in the YoRHa Unofficial Ceremonial Attire ported directly from Stellar Blade. You can purchase the new look from the Resistance Camp Supply Trader once installed.\n\n- Requires the WAX mod by Woeful_Wolf to function correctly.\n- Must be installed manually; do not use NAMH or Vortex.\n- Overwrites original character files, meaning it is incompatible with other outfit mods.\n- Minor clipping issues are present due to the nature of the model port.\n- Text support is limited to English only.",
+    tags: [
+      "2b",
+      "a2",
+      "stellar blade",
+      "outfits",
+      "port"
+    ],
+    featured: true,
+    mature: true
+  },
+  {
+    id: 1116,
+    game: "nierautomata",
+    title: "Fresh Start Save with All Weapons and Cosmetics",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "5 KB",
+    images: [
+      "images/mods/fresh-start-save-with-all-weapons-and-cosmetics-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9PqV6Z3b6nR2Plt",
+    short: "Start the game with unlocked cosmetics and base weapons.",
+    description: "Jump into a new game save file immediately after the prologue concludes, featuring all base-level weapons and every available cosmetic item unlocked. This package includes the Quality Sachet item and provides all Pod programs along with Pod B. To use it, simply drop the SlotData_2.dat file into your NieR_Automata folder located within your Documents. \n\n- Unlocked base weapons and all cosmetic items included.\n- Includes Pod B and all available Pod programs.\n- Starts directly after the prologue sequence ends.\n- Overwrites your existing third save slot automatically.",
+    tags: [
+      "savegame",
+      "starter",
+      "weapons",
+      "cosmetics"
+    ],
+    featured: true
+  },
+  {
+    id: 1117,
+    game: "nierautomata",
+    title: "PS4 Button Prompts",
+    category: "user-interface",
+    version: "1.0",
+    size: "151 KB",
+    images: [
+      "images/mods/ps4-button-prompts-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2x1EqX66U77C398",
+    short: "Custom PS4 controller button prompts for NieR Automata UI.",
+    description: "These custom button prompts were created during an early morning session to replace the standard input icons. While they serve their purpose for PS4 controller users, the creator suggests checking out Spodi's version if you are looking for a more polished or official aesthetic. The installation requires extracting the archive directly into the parent directory of your SK_Res folder. It is highly recommended to pair this with The Definitive NieR Automata Experience mod if you want to optimize your setup. Future updates may improve the design, but these currently function as a direct functional replacement.",
+    tags: [
+      "ui",
+      "controller",
+      "prompts",
+      "ps4",
+      "icons"
+    ],
+    featured: true
   }
 ];
 
