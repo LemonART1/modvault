@@ -24447,7 +24447,7 @@ const MODS = [
   },
   {
     id: 1099,
-    game: "gta5",
+    game: "rdr2",
     title: "Unholster Pistol Twirl Animation",
     category: "scripts",
     version: "1.0",

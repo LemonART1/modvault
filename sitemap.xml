@@ -3433,12 +3433,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://modvault.space/mods/gta5/1099-unholster-pistol-twirl-animation</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://modvault.space/mods/gta5/13-2018-maybach-s650</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -4340,6 +4334,12 @@
   </url>
   <url>
     <loc>https://modvault.space/mods/rdr2/1098-umamusume-manhattan-cafe-and-agnes-tachyon</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://modvault.space/mods/rdr2/1099-unholster-pistol-twirl-animation</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
