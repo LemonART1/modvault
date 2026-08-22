@@ -27035,6 +27035,652 @@ const MODS = [
       "zzz"
     ],
     featured: true
+  },
+  {
+    id: 1210,
+    game: "ats",
+    title: "Etnyre Black Hawk Lowboy Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "214 MB",
+    images: [
+      "images/mods/etnyre-black-hawk-lowboy-trailer-1.jpg",
+      "images/mods/etnyre-black-hawk-lowboy-trailer-2.jpg",
+      "images/mods/etnyre-black-hawk-lowboy-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/d17hU5wCa0IEIS8",
+    short: "Customizable Etnyre lowboy trailer with multiple axle and body options.",
+    description: "This high-quality Lowboy trailer offers extensive customization options for heavy-haul enthusiasts looking to diversify their fleet. You can configure your setup across several axle layouts and body styles to handle any cargo task.\n\n- Select between single, double, or triple trailer configurations.\n- Choose from three distinct body styles and three chassis types.\n- Customize your look with paintable parts and multiple bumper options.\n- Access eight unique banners and various mudflap styles for personalization.\n- Install different fender types and chassis covers for a refined finish.",
+    tags: [
+      "trailer",
+      "lowboy",
+      "heavyhaul",
+      "ats",
+      "etnyre"
+    ],
+    featured: true
+  },
+  {
+    id: 1211,
+    game: "ats",
+    title: "MAC Half Round MAC SIMIZER",
+    category: "trailers",
+    version: "1.0.1",
+    size: "443 MB",
+    images: [
+      "images/mods/mac-half-round-mac-simizer-1.jpg",
+      "images/mods/mac-half-round-mac-simizer-2.jpg",
+      "images/mods/mac-half-round-mac-simizer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/06yHyZO8xE58Or6",
+    short: "High quality MAC half round trailer with custom load options.",
+    description: "This trailer setup brings a high-fidelity model into your game, featuring sharp 4K AO bakes that make the details really pop under different lighting conditions. It feels solid on the road and offers plenty of room for personal touches through extensive customization.\n\n- Includes 13 fully custom loads plus support for standard SCS cargo.\n- Fully ownable and compatible with World of Trucks contracts.\n- Features a functional body raise mechanism triggered via the F7 menu.\n- Comes bundled with a dedicated lightpack, plate pack, and officially licensed United Tarps.\n- Clean build that is free from Modguard and Modfy restrictions.",
+    tags: [
+      "trailer",
+      "cargo",
+      "custom",
+      "mac",
+      "american"
+    ],
+    featured: true
+  },
+  {
+    id: 1212,
+    game: "ats",
+    title: "Timpte Hopper Bottom Trailer",
+    category: "trailers",
+    version: "1.0",
+    size: "272 MB",
+    images: [
+      "images/mods/timpte-hopper-bottom-trailer-1.jpg",
+      "images/mods/timpte-hopper-bottom-trailer-2.jpg",
+      "images/mods/timpte-hopper-bottom-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/DR1lC4B4apxNx5X",
+    short: "High quality ownable hopper trailer featuring 4K textures and lightpack.",
+    description: "Experience high-quality hauling with this fully ownable hopper bottom trailer based on D3D models. It features 4K AO bakes for sharp visual depth and supports dynamic loading and unloading animations.\n\n- Built from high-quality D3D base models\n- Includes Glass Is Class lightpack and custom plate pack\n- Fully templated for your own custom paint jobs\n- Compatible with ATS Expansion maps and standard trailers\n- Planned future updates include Canadian B-train configurations",
+    tags: [
+      "trailer",
+      "hopper",
+      "trucking",
+      "ownable",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 1213,
+    game: "ats",
+    title: "TITAN Unibody Hopper",
+    category: "trailers",
+    version: "1.60",
+    size: "173 MB",
+    images: [
+      "images/mods/titan-unibody-hopper-1.jpg",
+      "images/mods/titan-unibody-hopper-2.jpg",
+      "images/mods/titan-unibody-hopper-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GKtGOL929c9goLm",
+    short: "High quality unibody hopper trailer with custom light pack.",
+    description: "This highly detailed trailer model by D3D features impressive 4K AO bakes that really bring out the structural depth. You get a functional dynamic loading and unloading experience that integrates smoothly with current ATS map expansions. It is fully ownable and includes two separate bonus packs to enhance your visual customization options.\n\n- Modeled entirely by D3D with high-resolution 4K textures.\n- Supports dynamic cargo loading and unloading sequences.\n- Includes a dedicated Glass Is Class lightpack.\n- Comes with a custom plate pack for personalization.\n- Fully compatible with the base ATS expansion maps.",
+    tags: [
+      "trailer",
+      "hopper",
+      "trucking",
+      "ats",
+      "custom"
+    ],
+    featured: true
+  },
+  {
+    id: 1214,
+    game: "ats",
+    title: "Boreman Mack Granite",
+    category: "trucks",
+    version: "1.60",
+    size: "1.60 GB",
+    images: [
+      "images/mods/boreman-mack-granite-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/08F744k4wi63S4r",
+    short: "Highly detailed Mack Pinnacle and Granite truck mod pack.",
+    description: "This mod brings the rugged feel of the 2005-2012 Mack series to your virtual fleet, featuring highly detailed models of the Pinnacle and Granite built from real-world references. You will find extensive customization options that let you replicate a personal rig with precision.\n\n- Includes over 10 bumper variations for both truck models.\n- Offers 28 unique chassis configurations for various hauling needs.\n- Features high-quality interior options for each individual truck model.\n- Adds a specific dumper variant along with a bonus pony heritage trailer.",
+    tags: [
+      "mack",
+      "trucks",
+      "ats",
+      "realism",
+      "vehicles"
+    ],
+    featured: true
+  },
+  {
+    id: 1215,
+    game: "ats",
+    title: "Western Commodity Express Trailer",
+    category: "trailers",
+    version: "1.0.0",
+    size: "572 MB",
+    images: [
+      "images/mods/western-commodity-express-trailer-1.jpg",
+      "images/mods/western-commodity-express-trailer-2.jpg",
+      "images/mods/western-commodity-express-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/9ib776wc2MMI11S",
+    short: "High quality custom trailer with fifteen unique load options.",
+    description: "Experience superior visual fidelity with this high-quality commodity trailer, featuring detailed 4K ambient occlusion bakes. You get plenty of versatility on the road thanks to the fifteen fully custom loads and extensive customization options available.\n\n- Includes the exclusive Glass Is Class lightpack and plate pack.\n- Features an officially licensed United Tarps tarp system.\n- Fully ownable trailer that is completely free of Modguard.\n- Optimized specifically for the latest game build.",
+    tags: [
+      "trailer",
+      "western",
+      "custom",
+      "trucking",
+      "ats"
+    ],
+    featured: true
+  },
+  {
+    id: 1216,
+    game: "ats",
+    title: "Mack Titan Rework",
+    category: "trucks",
+    version: "1.60",
+    size: "56.5 MB",
+    images: [
+      "images/mods/mack-titan-rework-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Ei5nPcxhiVX5K79",
+    short: "A detailed rework of the classic Mack Titan truck.",
+    description: "Mahad110 and the team have put together a comprehensive update for the Mack Titan, focusing on authentic customization options for your heavy hauling needs. You get a solid, standalone build that feels right at home on the highway.\n\n- Features the classic Super Liner cabin style.\n- Includes a rugged 6x4 chassis configuration.\n- Engine options ranging from 425hp up to 600hp.\n- Eight distinct transmission types for better gear control.\n- Customizable with three different bullbars and interior flags.\n- Comes with a stock interior and a clean paintjob.",
+    tags: [
+      "mack",
+      "titan",
+      "truck",
+      "american",
+      "heavy"
+    ],
+    featured: true
+  },
+  {
+    id: 1217,
+    game: "ats",
+    title: "Max Atlas Container Trailer",
+    category: "trailers",
+    version: "1.0.3",
+    size: "1.03 GB",
+    images: [
+      "images/mods/max-atlas-container-trailer-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/96qM9T1nsz74wI5",
+    short: "Detailed quad-axle container trailer with massive cargo variety included.",
+    description: "This high-quality trailer mod by Habdorn brings the Max Atlas container hauler to your fleet with impressive attention to detail. It features a robust single quad-axle chassis and supports both 20ft and 40ft containers for a wide variety of hauling jobs.\n\n- Includes 49 uniquely textured containers and 4 distinct reefer units.\n- Offers 3 different wood deck styles to customize your setup.\n- Comes with a full set of 50 U.S. state license plates.\n- Features custom rims and tires, though you must use the included tires to prevent clipping.\n- Provides a massive selection of cargo options featuring real-world company names.",
+    tags: [
+      "trailer",
+      "container",
+      "hauling",
+      "ats"
+    ],
+    featured: true
+  },
+  {
+    id: 1218,
+    game: "ats",
+    title: "International Transtar 4070A",
+    category: "trucks",
+    version: "1.60",
+    size: "791 MB",
+    images: [
+      "images/mods/international-transtar-4070a-1.jpg",
+      "images/mods/international-transtar-4070a-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Og03TJC6q7w3BHf",
+    short: "Classic International Transtar 4070A truck with extensive tuning options.",
+    description: "Classic trucking enthusiasts will appreciate the faithful recreation of this legendary rig, which functions as a fully standalone vehicle available at the mod dealer. It offers a surprising amount of depth for custom builds, whether you are focusing on the driver's perspective or the exterior aesthetic.\n\n- Includes two distinct cabin styles and three chassis configurations.\n- Features a wide variety of engine options and paintjob support.\n- Deep tuning system covers both interior and exterior components.\n- Choose between four unique interior designs for your cab.",
+    tags: [
+      "international",
+      "truck",
+      "classic",
+      "ats"
+    ],
+    featured: true
+  },
+  {
+    id: 1219,
+    game: "ats",
+    title: "Kenworth W900B",
+    category: "trucks",
+    version: "1.60",
+    size: "190 MB",
+    images: [
+      "images/mods/kenworth-w900b-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/37v22xjzVhpvMaI",
+    short: "Classic Kenworth W900B truck with extensive chassis and customization.",
+    description: "Experience this classic American workhorse with extensive customization options tailored for long-haul trucking. The mod stands out by offering a completely standalone experience, meaning it won't conflict with your base game trucks while providing high-quality custom audio.\n\n- Choose between Daycab, AeroCab, or the massive Studio Sleeper configurations.\n- Select from various chassis options including 4x2, 6x4, and 8x4 setups.\n- Fully compatible with the latest tuning parts and interior accessories.\n- Includes a dedicated interior modeled to match the specific cab.\n- Features steeraxle options for both short and long wheelbase builds.",
+    tags: [
+      "kenworth",
+      "truck",
+      "american",
+      "ats",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 1220,
+    game: "ats",
+    title: "Pizz 389 Peterbilt Megapack",
+    category: "trucks",
+    version: "1.60",
+    size: "1.58 GB",
+    images: [
+      "images/mods/pizz-389-peterbilt-megapack-1.jpg",
+      "images/mods/pizz-389-peterbilt-megapack-2.jpg",
+      "images/mods/pizz-389-peterbilt-megapack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/63yg65W7J0eRixr",
+    short: "Extensive Peterbilt 389 customization options for your trucking fleet.",
+    description: "This comprehensive Peterbilt package offers a massive range of configuration options for your heavy hauler. You get a variety of cab setups, including daycab models, multiple flattop sleepers, standup versions, and even a custom chopped 72-inch sleeper with unique rear diamond windows.\n\n- Chassis lengths include 220, 250, and 305-inch options with an added pusher axle variant.\n- Extensive exterior customization includes various headlights, mirrors, exhaust stacks, and airline setups.\n- Choose from a wide selection of front and rear bumpers to match your style.\n- Full template support is included for those looking to create custom paint jobs.",
+    tags: [
+      "peterbilt",
+      "truck",
+      "semi",
+      "custom",
+      "american"
+    ],
+    featured: true
+  },
+  {
+    id: 1221,
+    game: "ats",
+    title: "Talbert 55CC Lowboy",
+    category: "trailers",
+    version: "1.0",
+    size: "1.14 GB",
+    images: [
+      "images/mods/talbert-55cc-lowboy-1.jpg",
+      "images/mods/talbert-55cc-lowboy-2.jpg",
+      "images/mods/talbert-55cc-lowboy-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1P1fpQ9PR4vas8G",
+    short: "High quality custom trailer with extensive customization options included.",
+    description: "This trailer features an extremely high-quality model enhanced by 4K AO bakes, ensuring every detail stands out on the road. It includes several customization options and comes bundled with both a custom plate pack and the Glass Is Class lightpack.\n\n- The trailer is fully ownable within your game fleet.\n- It is released as Modguard and Modfy free content.\n- If you encounter lag, you can optimize performance by increasing the buffer_page_size in your config.cfg file to 30.\n- The build is fully compatible with the current 1.60 game version.",
+    tags: [
+      "trailer",
+      "lowboy",
+      "custom",
+      "transport"
+    ],
+    featured: true
+  },
+  {
+    id: 1222,
+    game: "ats",
+    title: "Kenworth W900A 1967-1975",
+    category: "trucks",
+    version: "1.60",
+    size: "155 MB",
+    images: [
+      "images/mods/kenworth-w900a-1967-1975-1.jpg",
+      "images/mods/kenworth-w900a-1967-1975-2.jpg",
+      "images/mods/kenworth-w900a-1967-1975-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/GTUPq9wX64u035H",
+    short: "Authentic 1967 to 1975 Kenworth W900A for American Truck Simulator.",
+    description: "Experience a historically accurate replica of the iconic Kenworth W900A produced between 1967 and 1975. Every included part is strictly limited to what Kenworth offered during those production years, excluding later additions like the 1976 Aerodyne roof or post-production tri-axle modifications.\n\n- Features 5 unique cabins and 4 distinct chassis options.\n- Includes 11 transmissions and period-correct engine selections.\n- Fully compatible with DX11 and the Real Eaton Fuller mod.\n- Supports interior customization and various cabin accessory packs.\n- Features genuine flattop sleeper styles consistent with 1974 specifications.",
+    tags: [
+      "kenworth",
+      "classic",
+      "truck",
+      "american"
+    ],
+    featured: true
+  },
+  {
+    id: 1223,
+    game: "ats",
+    title: "Kenworth W990 edited by Harven",
+    category: "trucks",
+    version: "1.60",
+    size: "135 MB",
+    images: [
+      "images/mods/kenworth-w990-edited-by-harven-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dEU6mU9Xg9W5H0Z",
+    short: "Highly detailed Kenworth W990 with realistic engine and physics.",
+    description: "Harven brings a highly detailed Kenworth W990 to your garage, featuring balanced pricing that aligns perfectly with standard SCS trucks. This version includes custom Kriechbaum engine sounds and a unique multitorque PACCAR configuration for better performance in overdrive.\n\n- Choose from 13 distinct transmissions including manual, automated, and automatic options with accurate shifter animations.\n- Customize your rig with 3 cabin options, 5 chassis variants, and 5 interior styles to suit your hauling preference.\n- Includes a dedicated light pack, a functional Cobra 29 LX CB radio, and full support for SiSL Mega Packs.\n- Fully compatible with advanced coupling and trailer cables, featuring precise collision boxes for realistic navigation.",
+    tags: [
+      "kenworth",
+      "truck",
+      "ats",
+      "simulator"
+    ],
+    featured: true
+  },
+  {
+    id: 1224,
+    game: "ats",
+    title: "Marmon 57P 1987",
+    category: "trucks",
+    version: "1.60",
+    size: "471 MB",
+    images: [
+      "images/mods/marmon-57p-1987-1.jpg",
+      "images/mods/marmon-57p-1987-2.jpg",
+      "images/mods/marmon-57p-1987-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/P8OpYE84afNmf32",
+    short: "Classic 1987 Marmon 57P truck with extensive customization and tuning.",
+    description: "This classic 1987 Marmon 57P features a comprehensive model and texture overhaul in version 1.60. You get extensive customization options for your heavy hauler, along with improved GPS functionality and full cable support.\n\n- Four distinct cab configurations and a 6x4 chassis layout.\n- Five interior options featuring unique upholstery color variations.\n- Wide selection of engines paired with 10, 13, and 18-speed transmissions.\n- Integrated retarder support and extensive aftermarket accessory slots.\n- Dedicated tuning parts to personalize your truck's exterior look.",
+    tags: [
+      "marmon",
+      "classic",
+      "truck",
+      "tuning",
+      "ats"
+    ],
+    featured: true
+  },
+  {
+    id: 1225,
+    game: "ats",
+    title: "Cali Hay Flats Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "724 MB",
+    images: [
+      "images/mods/cali-hay-flats-trailer-1.jpg",
+      "images/mods/cali-hay-flats-trailer-2.jpg",
+      "images/mods/cali-hay-flats-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xFs23Ed54L0j0J9",
+    short: "High-quality flatbed trailer with multiple configurations and custom loads.",
+    description: "This custom-modeled flatbed trailer features high-quality 4K AO bakes for exceptional visual depth. It offers great flexibility for your hauling jobs with single, double, and triple trailer configurations available.\n\n- Includes 16 realistic, correctly positioned load options.\n- Fully ownable with custom trailer wheels included.\n- Compatible with the ATS Expansion cargo add-on.\n- Bundled with the Glass Is Class lightpack and custom plates.\n- If you encounter lag, increase the buffer_page_size to 30 in your config.cfg file.",
+    tags: [
+      "trailer",
+      "flatbed",
+      "haul",
+      "trucking",
+      "ats"
+    ],
+    featured: true
+  },
+  {
+    id: 1226,
+    game: "ats",
+    title: "Kenworth T880 by Duck3D",
+    category: "trucks",
+    version: "1.60",
+    size: "378 MB",
+    images: [
+      "images/mods/kenworth-t880-by-duck3d-1.jpg",
+      "images/mods/kenworth-t880-by-duck3d-2.jpg",
+      "images/mods/kenworth-t880-by-duck3d-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6DLSsC8AOO8wQX7",
+    short: "A high-quality, stable Kenworth T880 with extensive customization options.",
+    description: "This highly polished Kenworth T880 build features a fully functional digital dashboard developed with assistance from Frank Peru. It offers a stable, clean driving experience designed to feel professional and reliable on the open road. You can tailor the truck to your specific aesthetic preferences using a variety of finishes and configuration options.\n\n- Three distinct cabin options to choose from.\n- Two unique interior designs included.\n- Extensive customization parts featuring plastic, chrome, and matte black.\n- Built with support and expertise from Bormanns Performance.",
+    tags: [
+      "kenworth",
+      "t880",
+      "truck",
+      "simulator"
+    ],
+    featured: true
+  },
+  {
+    id: 1227,
+    game: "ats",
+    title: "Vintage Fruehauf Tanker",
+    category: "trailers",
+    version: "1.0",
+    size: "204 MB",
+    images: [
+      "images/mods/vintage-fruehauf-tanker-1.jpg",
+      "images/mods/vintage-fruehauf-tanker-2.jpg",
+      "images/mods/vintage-fruehauf-tanker-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mvOnz4YmJ9Mtyr9",
+    short: "Classic aluminum tanker trailer for your vintage trucking fleet.",
+    description: "Recreate a slice of trucking history with this classic aluminum tanker trailer designed specifically for your American Truck Simulator fleet. It maintains a high-quality, authentic look that blends seamlessly with the game's existing aesthetic while ensuring smooth performance on the road.\n\n- Faithful recreation of the classic Fruehauf tanker design\n- Fully compatible with standard SCS liquid cargo types\n- Includes various options to customize your trailer's appearance\n- Optimized model ensures steady frame rates during heavy hauling\n- Works perfectly alongside the base game and ATS Expansion",
+    tags: [
+      "trailer",
+      "vintage",
+      "tanker",
+      "hauling"
+    ],
+    featured: true
+  },
+  {
+    id: 1228,
+    game: "ats",
+    title: "Chassis King Double Drop Container Chassis",
+    category: "trailers",
+    version: "1.0",
+    size: "67.8 MB",
+    images: [
+      "images/mods/chassis-king-double-drop-container-chassis-1.jpg",
+      "images/mods/chassis-king-double-drop-container-chassis-2.jpg",
+      "images/mods/chassis-king-double-drop-container-chassis-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iegn2HOC5osm3go",
+    short: "Versatile container trailer with extensive customization and cargo compatibility.",
+    description: "Expand your logistics capabilities with this versatile double drop trailer, fully compatible with both standard SCS container cargo and Arnhook’s custom loads. It provides excellent modularity for specialized hauling setups and fleet branding.\n\n- Choose between Factory, Painted, Aluminum, and Steel chassis finishes.\n- Install one of seven different fender configurations for a custom look.\n- Utilize optional light slots to expand your truck's visibility.\n- Apply company branding on both the left and right sides.\n- Maintain stock lighting configurations for a realistic aesthetic.",
+    tags: [
+      "trailer",
+      "logistics",
+      "cargo",
+      "chassis"
+    ],
+    featured: true
+  },
+  {
+    id: 1229,
+    game: "ats",
+    title: "Simuverse ReShade Preset Pack",
+    category: "other",
+    version: "1.60",
+    size: "485 MB",
+    images: [
+      "images/mods/simuverse-reshade-preset-pack-1.jpg",
+      "images/mods/simuverse-reshade-preset-pack-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/QFiW0uX18H1Fbw0",
+    short: "Graphic preset pack enhancing realism and lighting for ETS2.",
+    description: "Forget that washed-out vanilla look with this comprehensive ReShade preset collection. It completely revamps your visual experience by tweaking bloom, vibrance, and tonemapping for a much more grounded feel.\n\n- Dynamic lighting configurations simulate realistic day and night cycles.\n- Multiple presets range from light versions to heavy overhauls.\n- Performance-friendly options ensure high framerates remain stable.\n- Custom shaders aggressively combat the game's default gray tint.",
+    tags: [
+      "reshade",
+      "graphics",
+      "realism",
+      "visual",
+      "ets2"
+    ],
+    featured: true
+  },
+  {
+    id: 1230,
+    game: "ats",
+    title: "Shmutes Custom Wheel Pack",
+    category: "parts-tuning",
+    version: "1.0",
+    size: "240 MB",
+    images: [
+      "images/mods/shmutes-custom-wheel-pack-1.jpg",
+      "images/mods/shmutes-custom-wheel-pack-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iU120d1TVZpJ57E",
+    short: "High-detail aftermarket rims and tires for custom truck builds.",
+    description: "Elevate your rig's aesthetic with this premium set of aftermarket wheels, designed specifically for players who want their heavy haulers to pop in game. These assets offer a much higher poly count than vanilla options, ensuring your truck looks like a legitimate show vehicle rather than a stock fleet machine.\n\n- Features unique, high-poly aftermarket front and rear rim designs.\n- Includes specialized tires with custom rubber profiles and sidewall lettering.\n- Offers deep accessory support like hub covers and lug nuts.\n- Fully compatible with standard configurations and popular truck mods.\n- Engineered to maintain vanilla physics frameworks without causing stability issues.",
+    tags: [
+      "wheels",
+      "tires",
+      "custom",
+      "tuning",
+      "rims"
+    ],
+    featured: true
+  },
+  {
+    id: 1231,
+    game: "ats",
+    title: "Kenworth T600",
+    category: "trucks",
+    version: "2.7",
+    size: "230 MB",
+    images: [
+      "images/mods/kenworth-t600-1.jpg",
+      "images/mods/kenworth-t600-2.jpg",
+      "images/mods/kenworth-t600-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2RLhhMYo7eGf6xg",
+    short: "A detailed Kenworth T600 truck with various engine configurations.",
+    description: "This highly anticipated recreation of the classic Kenworth T600 brings a detailed workhorse to your garage with plenty of configuration options. It features a standard cabin layout and two distinct chassis choices to suit your heavy hauling needs.\n\n- Includes multiple engine options like the CAT C15, ISX 12/15, and MX-13.\n- Four unique interior styles are available for customization.\n- Offers 10, 13, and 18-speed transmission choices.\n- Native compatibility with SiSL accessory packs.\n- Features custom engine sounds provided by Kriechbaum.",
+    tags: [
+      "kenworth",
+      "truck",
+      "american",
+      "diesel"
+    ],
+    featured: true
+  },
+  {
+    id: 1232,
+    game: "ats",
+    title: "Pete 362 Cabover",
+    category: "trucks",
+    version: "5.7.1",
+    size: "1.29 GB",
+    images: [
+      "images/mods/pete-362-cabover-1.jpg",
+      "images/mods/pete-362-cabover-2.jpg",
+      "images/mods/pete-362-cabover-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/923lueRl252dw4e",
+    short: "Detailed Peterbilt 362 cabover truck with extensive customization options.",
+    description: "This high-quality recreation of the iconic Peterbilt 362 brings both the standard and 362E variants to life with exceptional detail. You get access to a massive variety of configurations tailored to your specific hauling needs:\n\n- Nine distinct chassis options ranging from 4x2 to 8x6 setups.\n- Nine total cabin sizes including various sleeper lengths and DayCab options.\n- Authentic engines and custom sound sets provided by Kapitan Kriechbaum.\n- Extensive customization featuring grilles, bumpers, exhaust stacks, and lightbars.\n- Full compatibility with SISL’s Mega Pack and interior cabin accessories.\n- Includes a dedicated skinpack along with a template for custom paint jobs.",
+    tags: [
+      "peterbilt",
+      "cabover",
+      "truck",
+      "classic"
+    ],
+    featured: true
+  },
+  {
+    id: 1233,
+    game: "ats",
+    title: "Mack Superliner",
+    category: "trucks",
+    version: "3.0",
+    size: "231 MB",
+    images: [
+      "images/mods/mack-superliner-1.jpg",
+      "images/mods/mack-superliner-2.jpg",
+      "images/mods/mack-superliner-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/D8akRbcZAu9op1V",
+    short: "Detailed Mack Superliner truck featuring extensive customization and interior options.",
+    description: "This comprehensive package combines both first and second-generation Mack Superliner models into a single, highly detailed experience. You get an authentic 80s-era tri-axle configuration along with a completely re-imagined, fully animated dashboard that captures that classic heavy-duty feel.\n\n- Select from 8 distinct cabin styles and 6 chassis configurations.\n- Customize your rig with 14 unique engine options and 77 different transmissions.\n- Enjoy an extensive array of retro to modern parts for both work-ready and show-truck aesthetics.\n- Access a dedicated pack for interior accessories with full SiSL compatibility.\n- Utilize the new red node hook-up system by searching vd for various rear lights, mudflaps, and plates.",
+    tags: [
+      "mack",
+      "truck",
+      "ats",
+      "classic",
+      "vehicle"
+    ],
+    featured: true
+  },
+  {
+    id: 1234,
+    game: "ats",
+    title: "Freightliner FLA 86″",
+    category: "trucks",
+    version: "1.60",
+    size: "283 MB",
+    images: [
+      "images/mods/freightliner-fla-86-1.jpg",
+      "images/mods/freightliner-fla-86-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CWg7agI27055rpM",
+    short: "Classic Freightliner truck with extensive tuning and custom sounds.",
+    description: "Customize your hauler with this classic Freightliner FLA 86″, featuring a variety of modular components to make it your own. You can pick it up directly from the in-game mod dealer to start your custom build.\n\n- Includes two distinct chassis options for different hauling needs.\n- Features one cabin type with support for various cabin accessories.\n- Offers numerous tuning parts including multiple exhausts, filters, and fuel tanks.\n- Comes equipped with custom engine and road sounds for better immersion.\n- Provides extensive options for exterior and interior cosmetic customization.",
+    tags: [
+      "freightliner",
+      "trucks",
+      "ats",
+      "tuning"
+    ],
+    featured: true
+  },
+  {
+    id: 1235,
+    game: "ats",
+    title: "Kenworth T700",
+    category: "trucks",
+    version: "1.60",
+    size: "129 MB",
+    images: [
+      "images/mods/kenworth-t700-1.jpg",
+      "images/mods/kenworth-t700-2.jpg",
+      "images/mods/kenworth-t700-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1W7a4QbFjPY8bz7",
+    short: "Detailed Kenworth T700 truck with extensive customization and engine options.",
+    description: "Revisit the 2011-2014 era of Paccar design with this high-fidelity recreation of the Kenworth T700, a key predecessor to the modern T680 series. You get a massive selection of chassis, interior options, and accessories to customize your long-haul experience to your exact specifications.\n\n- Features functional cabin suspension and updated interior shadows consistent with official SCS standards.\n- Powered by Paccar and Cummins engine options reaching up to 600hp.\n- Includes 18-speed Eaton Fuller transmissions for heavy hauling flexibility.\n- Supports custom player photos and flags via interchangeable .DDS files.\n- Fully compatible with Kriechbaums Engine Mega Pack 4.2 and Slav Jerrys MX-13 mod.",
+    tags: [
+      "kenworth",
+      "truck",
+      "american",
+      "heavy"
+    ],
+    featured: true
+  },
+  {
+    id: 1236,
+    game: "ats",
+    title: "Ford LTL 9000",
+    category: "trucks",
+    version: "1.60",
+    size: "593 MB",
+    images: [
+      "images/mods/ford-ltl-9000-1.jpg",
+      "images/mods/ford-ltl-9000-2.jpg",
+      "images/mods/ford-ltl-9000-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/R1crOB4OIf8r5M6",
+    short: "Powerful classic Ford truck with extensive engine and interior options.",
+    description: "This classic heavy-hauler brings the iconic Ford LTL 9000 to your fleet with impressive customization options for both the interior and exterior. You have full control over your rig's configuration, from the cabin style down to the engine performance under the hood.\n\n- Choose between Flattop or Sleeper cabin variants.\n- Two distinct chassis options are included.\n- Extensive engine selection featuring Cummins, DD92, and Caterpillar powerplants.\n- Two unique interior designs to suit your driving style.\n- Heavily updated to ensure full compatibility with current game versions.",
+    tags: [
+      "ford",
+      "truck",
+      "american",
+      "classic",
+      "heavy"
+    ],
+    featured: true
+  },
+  {
+    id: 1237,
+    game: "ats",
+    title: "Vanguard Reefer Trailer",
+    category: "trailers",
+    version: "1.60",
+    size: "72.7 MB",
+    images: [
+      "images/mods/vanguard-reefer-trailer-1.jpg",
+      "images/mods/vanguard-reefer-trailer-2.jpg",
+      "images/mods/vanguard-reefer-trailer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/fL62CCVb1EDg65f",
+    short: "Highly detailed and customizable Vanguard reefer trailer for ATS.",
+    description: "This mod gives you a highly customizable Vanguard reefer with plenty of options to tailor your trailer to your specific hauling needs. Whether you want to swap out your cooling unit or adjust your axle configuration, the sheer level of detail makes it feel like a professional build.\n\n- Choose between five different axle configurations, including slide front and various rear layouts.\n- Pick your preferred reefer unit from the TK-C600 or the Carrier 7500x4 models.\n- Customization options extend to sideskirts, Hogebuilt fenders, and three distinct fuel tank sizes.\n- Select from multiple mudflap, rear body, and frontal corner styles to complete your custom look.\n- Includes open defs and a skinning template for players who want to create their own liveries.",
+    tags: [
+      "vanguard",
+      "reefer",
+      "trailer",
+      "hauling",
+      "ats"
+    ],
+    featured: true
   }
 ];
 
