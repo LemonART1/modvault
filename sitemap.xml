@@ -91,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://modvault.space/ats</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://modvault.space/cyberpunk</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,6 +128,24 @@
   </url>
   <url>
     <loc>https://modvault.space/bg3</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://modvault.space/fs25</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://modvault.space/kcd2</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://modvault.space/mhwilds</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

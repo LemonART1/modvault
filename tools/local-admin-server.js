@@ -547,11 +547,12 @@ async function handleAcMods(req, res) {
 // ets2world.com has no Cloudflare challenge either, so same scrape-it-directly
 // approach as GTA5-Mods/ModHub/acmods. The site covers both ETS2 and ATS under
 // one roof, sharing the same page template, so the post's own category
-// breadcrumb is used to reject ATS mods outright rather than relying on the
-// AI to catch it after the fact. Like acmods.net, the "Download" button just
-// points at an external mirror (modsfile.com here, a different service from
-// the modsfire.com ModVault reuploads to) - not something to resolve
-// automatically, just returned as `sourceLink` for the admin UI.
+// breadcrumb decides which of the two games this mod belongs to - not the AI,
+// a deterministic string read off the page itself. Like acmods.net, the
+// "Download" button just points at an external mirror (modsfile.com here, a
+// different service from the modsfire.com ModVault reuploads to) - not
+// something to resolve automatically, just returned as `sourceLink` for the
+// admin UI.
 async function handleEts2World(req, res) {
   const payload = JSON.parse(await readBody(req, 512 * 1024));
   const url = String(payload.url || "").trim();
@@ -567,10 +568,17 @@ async function handleEts2World(req, res) {
   const name = decodeEntities((html.match(/<h1 class="post-title entry-title">([^<]*)<\/h1>/i) || [])[1] || "").trim();
   if (!name) throw new Error("Could not read the mod title from the page.");
 
+  // The site hosts both ETS2 and ATS mods under the same template, so the
+  // post's own breadcrumb category (not the AI, not a guess) decides which
+  // game this is. If that breadcrumb is ever missing or doesn't match either
+  // known prefix, reject rather than silently defaulting to one game - a
+  // wrong game here has actually happened before ("over Ada"-type
+  // mislabeling) and this check is cheap insurance against the same thing.
   const categorySlug = (html.match(/class="category"><a href="https:\/\/www\.ets2world\.com\/category\/([a-z0-9-]+)\//i) || [])[1] || "";
-  if (categorySlug.startsWith("american-truck-simulator")) {
-    throw new Error("This is an American Truck Simulator mod, not ETS2 - skip it.");
-  }
+  let game;
+  if (categorySlug.startsWith("american-truck-simulator")) game = "ats";
+  else if (categorySlug.startsWith("euro-truck-simulator")) game = "ets2";
+  else throw new Error(`Could not tell ETS2 and ATS apart from this page's category ("${categorySlug || "none found"}") - check it manually.`);
 
   const contentMatch = html.match(/class="entry-inner">([\s\S]*?)<a class="dmod"/i);
   const rawContent = contentMatch ? contentMatch[1] : "";
@@ -613,7 +621,7 @@ async function handleEts2World(req, res) {
   }
   const images = (await Promise.all(imageUrls.slice(0, 3).map(fetchImageBase64))).filter(Boolean);
 
-  send(res, 200, { ok: true, name, description, images, sourceLink, game: "ets2" });
+  send(res, 200, { ok: true, name, description, images, sourceLink, game });
 }
 
 // Factorio mod descriptions are Markdown, and popular mods often open with a

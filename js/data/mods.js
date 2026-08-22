@@ -58,6 +58,15 @@ const GAMES = {
     "intro": "Find Euro Truck Simulator 2 mods for trucks, maps, interiors, traffic and long-haul realism. ETS2 is built around steady road detail, so good mods can make routes, cabins and freight runs feel much more alive.",
     "accent": "#ffb13b"
   },
+  "ats": {
+    "name": "American Truck Simulator",
+    "shortName": "ATS",
+    "page": "ats",
+    "label": "American highways",
+    "description": "Truck packs, trailers, maps and long-haul realism upgrades for the American highway sim.",
+    "intro": "Find American Truck Simulator mods for trucks, trailers, maps and long-haul realism. ATS shares its engine and much of its modding scene with ETS2, so expect the same deep truck customization across the American highway system.",
+    "accent": "#1f6feb"
+  },
   "cyberpunk": {
     "name": "Cyberpunk 2077",
     "shortName": "Cyberpunk",
@@ -111,6 +120,33 @@ const GAMES = {
     "description": "Classes, spells, character presets, UI tweaks and party customization mods.",
     "intro": "Browse Baldur's Gate 3 mods for characters, spells, interface tweaks and party customization. This section focuses on additions that expand roleplay options while keeping the game easy to browse and filter.",
     "accent": "#c77dff"
+  },
+  "fs25": {
+    "name": "Farming Simulator 25",
+    "shortName": "FS25",
+    "page": "fs25",
+    "label": "Farming sim",
+    "description": "Tractors, implements, trailers, maps and equipment packs for the modern farm.",
+    "intro": "Browse Farming Simulator 25 mods for tractors, combines, implements, trailers and full map overhauls. FS25 has one of the biggest modding scenes in sim gaming, with new equipment and farms added constantly.",
+    "accent": "#7a9e3f"
+  },
+  "kcd2": {
+    "name": "Kingdom Come: Deliverance II",
+    "shortName": "KCD2",
+    "page": "kcd2",
+    "label": "Medieval RPG",
+    "description": "Gameplay tweaks, visual overhauls, armor and weapon mods for medieval Bohemia.",
+    "intro": "Browse Kingdom Come: Deliverance II mods for gameplay tweaks, visual overhauls, armor, weapons and UI improvements. The sequel's grounded medieval sandbox keeps growing with community fixes and realism mods.",
+    "accent": "#8b6f47"
+  },
+  "mhwilds": {
+    "name": "Monster Hunter Wilds",
+    "shortName": "MH Wilds",
+    "page": "mhwilds",
+    "label": "Monster hunting",
+    "description": "Armor skins, weapon mods, UI tweaks and quality-of-life fixes for the newest hunt.",
+    "intro": "Browse Monster Hunter Wilds mods for armor and character skins, weapon reskins, UI overhauls and quality-of-life improvements. A fresh AAA release with an actively growing modding scene.",
+    "accent": "#e67e22"
   }
 };
 
@@ -27085,6 +27121,18 @@ const CATEGORIES = {
     "trucks": "Trucks",
     "tutorials": "Tutorials & Cheats"
   },
+  "ats": {
+    "cars-bus": "Cars & Bus",
+    "interiors": "Interiors",
+    "maps": "Maps",
+    "other": "Other",
+    "parts-tuning": "Parts & Tuning",
+    "skins": "Skins",
+    "sounds": "Sounds",
+    "trailers": "Trailers",
+    "trucks": "Trucks",
+    "tutorials": "Tutorials & Cheats"
+  },
   "cyberpunk": {
     "add-on-apartment": "Add-On Apartment",
     "adverts": "Adverts",
@@ -27189,6 +27237,35 @@ const CATEGORIES = {
     "scripts": "Scripts",
     "tools": "Tools",
     "transport": "Transport",
+    "user-interface": "User Interface",
+    "utilities": "Utilities",
+    "visuals": "Visuals",
+    "weapons": "Weapons"
+  },
+  "fs25": {
+    "combines": "Combines",
+    "implements": "Implements & Tools",
+    "maps": "Maps",
+    "other": "Other",
+    "placeables": "Placeables",
+    "tractors": "Tractors",
+    "trailers": "Trailers",
+    "trucks": "Trucks"
+  },
+  "kcd2": {
+    "armor": "Armor & Clothing",
+    "gameplay": "Gameplay",
+    "maps": "Maps",
+    "miscellaneous": "Miscellaneous",
+    "user-interface": "User Interface",
+    "utilities": "Utilities",
+    "visuals": "Visuals",
+    "weapons": "Weapons"
+  },
+  "mhwilds": {
+    "characters": "Characters & Armor",
+    "gameplay": "Gameplay",
+    "miscellaneous": "Miscellaneous",
     "user-interface": "User Interface",
     "utilities": "Utilities",
     "visuals": "Visuals",
