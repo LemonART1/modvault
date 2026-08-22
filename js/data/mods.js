@@ -26461,6 +26461,544 @@ const MODS = [
       "aiming"
     ],
     featured: true
+  },
+  {
+    id: 1187,
+    game: "re4",
+    title: "Cute Black Side Dress for Ashley",
+    category: "characters",
+    version: "1.0",
+    size: "113 MB",
+    images: [
+      "images/mods/cute-black-side-dress-for-ashley-1.jpg",
+      "images/mods/cute-black-side-dress-for-ashley-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/49lTjIOs5dR1mT2",
+    short: "Replaces Ashley's jacket and jacketless outfits with black dress.",
+    description: "This aesthetic mod gives Ashley Graham a fresh look by swapping out her default jacket and jacketless attires for a sleek, cute black side dress. You will need to use Fluffy Mod Manager to get this running in your game. Simply place the downloaded file into your dedicated mods folder, toggle the switch inside the manager, and you are all set. It is a straightforward cosmetic change that does not affect gameplay mechanics.",
+    tags: [
+      "ashley",
+      "re4",
+      "outfit",
+      "cosmetic",
+      "dress"
+    ],
+    featured: true
+  },
+  {
+    id: 1188,
+    game: "re4",
+    title: "RE9 Commander over Hunk",
+    category: "characters",
+    version: "1.0",
+    size: "22.1 MB",
+    images: [
+      "images/mods/re9-commander-over-hunk-1.jpg",
+      "images/mods/re9-commander-over-hunk-2.jpg",
+      "images/mods/re9-commander-over-hunk-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/5NFfh8E73oJTu6t",
+    short: "Swap Hunk with The Commander from Resident Evil Requiem.",
+    description: "This replacement swaps out Hunk’s character model for The Commander, pulled directly from Resident Evil Requiem. As a personal project involving custom rigging and weight painting, it serves as an alternative appearance for the Hunk character slot.\n\n- Replaces Hunk’s base model with The Commander asset.\n- Retains original gloves due to technical modeling constraints.\n- Optimized for use with Fluffy Mod Manager for simple installation.\n- Compatible with specific backpack-less variety mods for better visibility.\n- May contain minor clipping issues due to the author's initial rigging process.",
+    tags: [
+      "hunk",
+      "re4",
+      "character",
+      "skin",
+      "mod"
+    ],
+    featured: true
+  },
+  {
+    id: 1189,
+    game: "re4",
+    title: "Winchester M1897 Shotgun Replacement",
+    category: "weapons",
+    version: "1.0",
+    size: "9.3 MB",
+    images: [
+      "images/mods/winchester-m1897-shotgun-replacement-1.jpg",
+      "images/mods/winchester-m1897-shotgun-replacement-2.jpg",
+      "images/mods/winchester-m1897-shotgun-replacement-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EfAh9M94K8pQ72p",
+    short: "Replaces the W-870 shotgun with the classic Winchester M1897.",
+    description: "Swap out your standard W-870 for the iconic Winchester M1897 model ripped straight from Resident Evil Village. This weapon replacer maintains a high level of visual detail to fit right into the Resident Evil 4 atmosphere.\n\n- Directly replaces the W-870 shotgun model\n- Authentic design sourced from Resident Evil Village\n- Fully compatible with the Gold Edition\n- Works seamlessly with Fluffy Mod Manager",
+    tags: [
+      "shotgun",
+      "weapon",
+      "re4",
+      "replacer"
+    ],
+    featured: true
+  },
+  {
+    id: 1190,
+    game: "re4",
+    title: "Bath Towel Ashley",
+    category: "characters",
+    version: "1.0",
+    size: "15.1 MB",
+    images: [
+      "images/mods/bath-towel-ashley-1.jpg",
+      "images/mods/bath-towel-ashley-2.jpg",
+      "images/mods/bath-towel-ashley-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/y4tlAS171v37522",
+    short: "Replaces Ashley's standard outfits with a bath towel model.",
+    description: "Swap Ashley's standard jacket and jacketless outfits for this casual bath towel look. It is designed for seamless installation using Fluffy Mod Manager. Simply drop the zip file into your designated mods directory and toggle the switch in the Ashley section to activate. The creator is actively taking community suggestions for future updates or adjustments to the model.",
+    tags: [
+      "ashley",
+      "re4",
+      "cosmetic",
+      "outfit",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1191,
+    game: "re4",
+    title: "Ninja Gaiden 4 Seori",
+    category: "characters",
+    version: "1.0",
+    size: "207 MB",
+    images: [
+      "images/mods/ninja-gaiden-4-seori-1.jpg",
+      "images/mods/ninja-gaiden-4-seori-2.jpg",
+      "images/mods/ninja-gaiden-4-seori-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BQ17l52w8Mgdj56",
+    short: "Replace Ada with Seori from Ninja Gaiden 4 today.",
+    description: "Transform your Resident Evil 4 experience by swapping Ada Wong with the character Seori from Ninja Gaiden 4. Built upon the XXTB Ada framework, this mod features physics-heavy body animations and requires the Separate Ways DLC to function correctly.\n\n- Features two body variations: thick and extra thick.\n- Requires FluffyModmanager for installation without unzipping files.\n- Must disable Hair Strands to avoid graphical issues.\n- Includes support for unlocking cover and spy outfits.\n- Developed using ReChainEditor and ReMesh Editor tools.",
+    tags: [
+      "ada",
+      "character",
+      "re4",
+      "cosmetic",
+      "ninja"
+    ],
+    featured: true
+  },
+  {
+    id: 1192,
+    game: "re4",
+    title: "Leon S. Kennedy Black and White",
+    category: "visuals",
+    version: "1.0",
+    size: "64.7 MB",
+    images: [
+      "images/mods/leon-s-kennedy-black-and-white-1.jpg",
+      "images/mods/leon-s-kennedy-black-and-white-2.jpg",
+      "images/mods/leon-s-kennedy-black-and-white-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/B3Ly2Ma6W900U01",
+    short: "Monochromatic texture overhaul for Leon S. Kennedy's main outfits.",
+    description: "Give Leon a sleek, monochromatic aesthetic by swapping his standard gear for a crisp black and white color scheme. This texture overhaul applies to both the jacket and shirt outfit variants, ensuring a consistent look throughout your playthrough.\n\n- Recolor includes jacket, shirt, pants, shoes, holsters, and gloves.\n- Tactical vest becomes completely invisible when equipped for a clean silhouette.\n- Compatible with both default and hero hairstyles for Leon.\n- Requires Fluffy Mod Manager for a simple drag-and-drop installation.",
+    tags: [
+      "leon",
+      "re4",
+      "cosmetic",
+      "re4r",
+      "monochrome"
+    ],
+    featured: true
+  },
+  {
+    id: 1193,
+    game: "re4",
+    title: "Ammo Stack x999",
+    category: "gameplay",
+    version: "1.1",
+    size: "2.8 MB",
+    images: [
+      "images/mods/ammo-stack-x999-1.jpg",
+      "images/mods/ammo-stack-x999-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7FF337uT31FLfyC",
+    short: "Increase ammo stack limits for better inventory management efficiency.",
+    description: "This lightweight REFramework patch increases your ammo stack limits up to 999 or even 9999 without modifying any native game files. Because it patches values at runtime, it plays nicely with most weapon overhauls and gameplay balancing mods.\n\n- Supports custom stack limits configured directly through REFramework.\n- Fully compatible with Fluffy Mod Manager for easy installation.\n- Does not overwrite core game data to ensure stability.\n- Version 1.1 includes an optional toggle for disabling herb stacking.\n- Requires REFramework to be installed as a base dependency.",
+    tags: [
+      "ammo",
+      "inventory",
+      "re4",
+      "reframework"
+    ],
+    featured: true
+  },
+  {
+    id: 1194,
+    game: "re4",
+    title: "Deadpool - Leon Default Outfit",
+    category: "characters",
+    version: "1.0",
+    size: "3.8 MB",
+    images: [
+      "images/mods/deadpool-leon-default-outfit-1.jpg",
+      "images/mods/deadpool-leon-default-outfit-2.jpg",
+      "images/mods/deadpool-leon-default-outfit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Fc00w1TS8DbQCpB",
+    short: "Transform Leon Kennedy into the iconic mercenary Deadpool character.",
+    description: "Swap out Leon's standard survival gear for the classic red and black tactical suit worn by Deadpool. This mod replaces the default character model entirely, allowing you to experience the campaign with a completely different look. Installation is straightforward using the standard Fluffy Mod Manager interface. Simply drag and drop the provided files into the manager, enable the mod, and launch the game to see the change in-engine. It provides a fun, thematic visual overhaul that fits surprisingly well into the chaotic action of the game.",
+    tags: [
+      "deadpool",
+      "leon",
+      "re4",
+      "character",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1195,
+    game: "re4",
+    title: "Permanent Corpses and Blood - No Despawn",
+    category: "gameplay",
+    version: "1.0",
+    size: "1.8 MB",
+    images: [
+      "images/mods/permanent-corpses-and-blood-no-despawn-1.jpg",
+      "images/mods/permanent-corpses-and-blood-no-despawn-2.jpg",
+      "images/mods/permanent-corpses-and-blood-no-despawn-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NDPkMt7i72KuibB",
+    short: "Prevents enemy corpses and blood splatters from ever despawning.",
+    description: "Keep your combat zones looking gritty by stopping enemy bodies from dissolving during Leon's campaign. This tweak ensures that defeated foes and environmental damage remain visible long after the fighting stops.\n\n- Bodies stay on the ground indefinitely rather than vanishing once the limit is reached.\n- Bullet holes and blood splatter textures persist on surfaces permanently.\n- The engine's decal limit is significantly increased to prevent premature cleanup of gore.\n- Aftermath stays until a scripted cutscene triggers or the chapter concludes.\n- Keep in mind that this is not compatible with the Separate Ways DLC and might slightly impact frame rates.",
+    tags: [
+      "gore",
+      "immersion",
+      "gameplay",
+      "realism"
+    ],
+    featured: true
+  },
+  {
+    id: 1196,
+    game: "re4",
+    title: "Sexy Ada Suit",
+    category: "characters",
+    version: "1.0",
+    size: "10.1 MB",
+    images: [
+      "images/mods/sexy-ada-suit-1.jpg",
+      "images/mods/sexy-ada-suit-2.jpg",
+      "images/mods/sexy-ada-suit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/M3L5U9D06ofpok9",
+    short: "Replaces Ada's outfit with the Lisa suit from Fortnite.",
+    description: "This replacement mod swaps out Ada’s default undercover outfit for the Lisa Suit ported from Fortnite. Along with the new attire, I have customized the character model by increasing the butt size and adding detailed skin pores for a more polished look. To get this running, make sure you have the Fluffy Mod Manager installed before dropping the zip file into your designated mod folder.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "cosmetic"
+    ],
+    featured: true
+  },
+  {
+    id: 1197,
+    game: "re4",
+    title: "Ghostface (Billy Loomis) Replacement for Krauser",
+    category: "characters",
+    version: "1.0",
+    size: "189 MB",
+    images: [
+      "images/mods/ghostface-billy-loomis-replacement-for-krauser-1.jpg",
+      "images/mods/ghostface-billy-loomis-replacement-for-krauser-2.jpg",
+      "images/mods/ghostface-billy-loomis-replacement-for-krauser-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/38oa5U6Spz7l1lE",
+    short: "Play as Ghostface from Scream replacing Krauser in RE4.",
+    description: "Transform your Resident Evil 4 experience by swapping Krauser for the iconic Ghostface from the 1996 Scream film, featuring the high-quality model from Mortal Kombat 1. This mod functions seamlessly across both the main campaign and the Mercenaries mode, including a custom knife replacement modeled after the film's signature blade.\n\n- Character model transitions from masked to unmasked during the final boss encounter.\n- Mercenaries mode features a unique angry unmasked state instead of the standard mutation.\n- Includes a direct replacement for Krauser's combat knife.\n- Simple installation process using the Fluffy Manager tool.",
+    tags: [
+      "ghostface",
+      "horror",
+      "scream",
+      "krauser",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 1198,
+    game: "re4",
+    title: "Adventure phi",
+    category: "gameplay",
+    version: "3.1",
+    size: "1.1 MB",
+    images: [
+      "images/mods/adventure-phi-1.jpg",
+      "images/mods/adventure-phi-2.jpg",
+      "images/mods/adventure-phi-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dGta1jbdiEcH62w",
+    short: "Revisit RE4 with balanced difficulty and enhanced weapon upgrades.",
+    description: "This mod reimagines the RE4R experience by mirroring the original game's difficulty and pacing without introducing frustrating traps or bomb-filled crates. You will find plenty of ammo to keep the classic resource management loop engaging, while the exploration of previously cleared areas now yields significantly higher rewards for those willing to take risks.\n\n- Features secondary exclusive weapon upgrades for a deeper tactical experience.\n- Boosts critical hit rates or raw damage depending on your initial upgrade path.\n- Removes forced enemy encounters to reward optional exploration.\n- Keeps key item locations identical to the vanilla game layout.\n- Optimized specifically for a first professional difficulty playthrough.",
+    tags: [
+      "re4r",
+      "gameplay",
+      "balancing",
+      "difficulty"
+    ],
+    featured: true
+  },
+  {
+    id: 1199,
+    game: "re4",
+    title: "Dignity Weapons Pack",
+    category: "weapons",
+    version: "1.0",
+    size: "1.13 GB",
+    images: [
+      "images/mods/dignity-weapons-pack-1.jpg",
+      "images/mods/dignity-weapons-pack-2.jpg",
+      "images/mods/dignity-weapons-pack-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CG7T8O85Nb6RWb7",
+    short: "Apply a sleek dignity camo pattern to your weapon arsenal.",
+    description: "Give your arsenal a fresh tactical look with this comprehensive collection of weapon skins. The pack applies a custom dignity camo pattern to a wide selection of firearms, though the rocket launcher and bolt thrower remain in their original states.\n\n- Includes custom skins for the P890, SW M500, and M4A1.\n- Features special models like the Remington 870 tactical and FJX Imperium.\n- Choose between the aw-model or Mach 5 for the SG replacement.\n- Built on the efforts of multiple community weapon contributors.",
+    tags: [
+      "re4",
+      "weapons",
+      "skins",
+      "cosmetic",
+      "camo"
+    ],
+    featured: true
+  },
+  {
+    id: 1200,
+    game: "re4",
+    title: "CQBR Assault Rifle Anime Girl Skin",
+    category: "weapons",
+    version: "1.0",
+    size: "11.5 MB",
+    images: [
+      "images/mods/cqbr-assault-rifle-anime-girl-skin-1.jpg",
+      "images/mods/cqbr-assault-rifle-anime-girl-skin-2.jpg",
+      "images/mods/cqbr-assault-rifle-anime-girl-skin-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J7M89178B0uoXNd",
+    short: "Replaces the standard CQBR rifle with anime art design.",
+    description: "Customize your firepower with this visual overhaul for the CQBR Assault Rifle. This mod swaps out the standard military-grade finish for a stylized aesthetic featuring a vibrant anime girl illustration. It provides a distinct look for your loadout during combat scenarios without altering any of the actual weapon statistics or fire rates. The skin is applied directly to the CQBR model for a clean appearance throughout your playthrough.",
+    tags: [
+      "cqbr",
+      "skin",
+      "anime",
+      "weapon",
+      "re4"
+    ],
+    featured: true
+  },
+  {
+    id: 1201,
+    game: "re4",
+    title: "P90 With Silencer (Snow Miku Edition)",
+    category: "weapons",
+    version: "1.0",
+    size: "29.9 MB",
+    images: [
+      "images/mods/p90-with-silencer-snow-miku-edition-1.jpg",
+      "images/mods/p90-with-silencer-snow-miku-edition-2.jpg",
+      "images/mods/p90-with-silencer-snow-miku-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/OLD40nnOALb34Ei",
+    short: "Custom P90 tactical skin replacing the game's standard TMP.",
+    description: "This tactical P90 replacement for the TMP features a custom Snow Miku aesthetic and integrated silenced gunshot sounds. I really appreciate how the developer addressed the early feedback regarding audio glitches, so the firing sequence is now smooth and bug-free. You can get this running easily by dragging the archive into Fluffy Mod Manager or manually dropping it into the game folder. It is a great way to personalize your loadout if you enjoy the anime-inspired gear aesthetic.",
+    tags: [
+      "p90",
+      "miku",
+      "weapon",
+      "re4",
+      "tactical"
+    ],
+    featured: true
+  },
+  {
+    id: 1202,
+    game: "re4",
+    title: "Easy Trader Requests",
+    category: "gameplay",
+    version: "1.0",
+    size: "86 KB",
+    images: [
+      "images/mods/easy-trader-requests-1.jpg",
+      "images/mods/easy-trader-requests-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/09Tc0g3CZsEZGNd",
+    short: "Instantly complete merchant requests or double your reward payouts.",
+    description: "Stop grinding for merchant objectives with this utility that streamlines your inventory progression. You can instantly mark trader requests as finished to claim your rewards immediately upon visiting a vendor, or opt for a multiplier to earn twice the payout for completing them manually.\n\n- Choose between auto-completion, double rewards, or a combination of both for either the main campaign or the Separate Ways DLC.\n- Installation requires FluffyModManager, and you do not need to restart your save file to see these changes.\n- Ensure you only activate one specific option for the main game and one for the DLC at any given time.\n- Switch between different mod configurations mid-playthrough via the mod manager without losing progress.",
+    tags: [
+      "re4",
+      "merchant",
+      "trader",
+      "rewards",
+      "utility"
+    ],
+    featured: true
+  },
+  {
+    id: 1203,
+    game: "re4",
+    title: "AWM Miku Expo Edition",
+    category: "weapons",
+    version: "1.0",
+    size: "30.0 MB",
+    images: [
+      "images/mods/awm-miku-expo-edition-1.jpg",
+      "images/mods/awm-miku-expo-edition-2.jpg",
+      "images/mods/awm-miku-expo-edition-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H0m7Hz8Y9gfS3BM",
+    short: "Custom AWM sniper rifle featuring a vibrant Miku skin.",
+    description: "Deck out your inventory with this custom AWM skin themed after Miku EXPO, designed to replace the standard CQBR rifle. The package includes an optional set of custom gunshot audio to help the weapon stand out during combat encounters. \n\n- Replaces the in-game CQBR model.\n- Includes optional custom gunshot sound effects.\n- Requires Fluffy Mod Manager for simple installation.\n- Biosensor scope compatibility is intentionally limited for aesthetics.",
+    tags: [
+      "awm",
+      "miku",
+      "weapon",
+      "sniper",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1204,
+    game: "re4",
+    title: "Ghostface - Leon (Pinstripe)",
+    category: "characters",
+    version: "1.0",
+    size: "31.8 MB",
+    images: [
+      "images/mods/ghostface-leon-pinstripe-1.jpg",
+      "images/mods/ghostface-leon-pinstripe-2.jpg",
+      "images/mods/ghostface-leon-pinstripe-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/LBFCW9mrvw2AAtP",
+    short: "Replaces Leon's mafia outfit with MK1 Ghostface character models.",
+    description: "Swap out Leon's pinstripe mafia costume for the iconic Ghostface look directly ported from Mortal Kombat 1. This pack features various mask and skin variations, including a custom gold mask, and offers multiple knife options to complete the aesthetic.\n\n- Replaces the Pinstripe outfit using Fluffy Manager for installation.\n- Includes numerous MK1 masks and skin color variants.\n- Features a Billy Loomis head option for an unmasked appearance.\n- Some materials may appear imperfect due to engine differences between games.",
+    tags: [
+      "ghostface",
+      "horror",
+      "leon",
+      "re4",
+      "mk1"
+    ],
+    featured: true
+  },
+  {
+    id: 1205,
+    game: "re4",
+    title: "RE9 REQUIEM Ada Wong",
+    category: "characters",
+    version: "1.0",
+    size: "33.3 MB",
+    images: [
+      "images/mods/re9-requiem-ada-wong-1.jpg",
+      "images/mods/re9-requiem-ada-wong-2.jpg",
+      "images/mods/re9-requiem-ada-wong-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Wj9avE09M2nkB65",
+    short: "Mature Ada Wong redesign based on Resident Evil 9.",
+    description: "This mod swaps Ada's standard look for a mature aesthetic inspired by her conceptual design in the upcoming Resident Evil 9 Requiem. It focuses on a more seasoned, tactical iteration of the character that feels distinct from her classic iterations in the remake. The textures and model work are tailored to integrate seamlessly with the existing character lighting within Resident Evil 4. It is a great choice if you prefer a battle-hardened appearance for Ada during your campaign runs.",
+    tags: [
+      "ada wong",
+      "resident evil",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1206,
+    game: "re4",
+    title: "Hair PACK (RE9 and RE4R) for Ada Wong",
+    category: "characters",
+    version: "1.0",
+    size: "210 MB",
+    images: [
+      "images/mods/hair-pack-re9-and-re4r-for-ada-wong-1.jpg",
+      "images/mods/hair-pack-re9-and-re4r-for-ada-wong-2.jpg",
+      "images/mods/hair-pack-re9-and-re4r-for-ada-wong-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6w6J78DIKiRY3jQ",
+    short: "New hair styles for Ada Wong using RE9 models.",
+    description: "Revamp Ada's appearance with this overhauled collection of hairstyles ported directly from RE9 and RE4R. Every model has been adjusted to fit her head geometry perfectly, offering a much more polished look than previous versions.\n\n- Includes specific Hair Strands ON versions for all styles with optional support for Hair Strands OFF configurations.\n- Compatible with existing Hair Strands Color PACKs to allow for custom color combinations.\n- Requires ownership of specific DLCs to utilize the Casual, Romantic, Hero, and Villain hair variations.\n- Certain hair types from RE9 characters like Grace and Sherry are currently limited to Hair Strands ON only.",
+    tags: [
+      "ada wong",
+      "hair",
+      "re4",
+      "cosmetic",
+      "remake"
+    ],
+    featured: true
+  },
+  {
+    id: 1207,
+    game: "re4",
+    title: "Ada BlackSuit",
+    category: "characters",
+    version: "1.0",
+    size: "147 MB",
+    images: [
+      "images/mods/ada-blacksuit-1.jpg",
+      "images/mods/ada-blacksuit-2.jpg",
+      "images/mods/ada-blacksuit-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/io1TgPWkr5T8CV4",
+    short: "A sleek black suit replacement for Ada in RE4.",
+    description: "This outfit replacement swaps Ada's standard look for a sleek, all-black ensemble. It integrates directly with Fluffy Mod Manager, ensuring you can toggle the appearance with minimal effort during your campaign. \n\n- Requires Fluffyquack's Mod Manager to function correctly.\n- Place the archive directly into your RE4R mods folder.\n- Simply activate via the manager and select the outfit in-game.",
+    tags: [
+      "ada",
+      "re4",
+      "outfit",
+      "character",
+      "skin"
+    ],
+    featured: true
+  },
+  {
+    id: 1208,
+    game: "re4",
+    title: "Krauser Animations For Leon",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "809 KB",
+    images: [
+      "images/mods/krauser-animations-for-leon-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ogK0WCS0Ef5Ty3c",
+    short: "Swap Leon's melee moves with Krauser's iconic combat animations.",
+    description: "This mod injects Jack Krauser's aggressive melee moveset directly into Leon's animations, giving your close-quarters combat a much more visceral feel. It is designed to work seamlessly alongside intense overhaul mods like Berserker Plus, Biorand, Chaos, and Fear Decent.\n\n- Replaces all standard melee animations with Krauser's signature moves.\n- Fully compatible with major difficulty and hardcore gameplay mods.\n- Requires Fluffy Mod Manager for installation and proper file management.",
+    tags: [
+      "re4",
+      "animations",
+      "krauser",
+      "melee",
+      "leon"
+    ],
+    featured: true
+  },
+  {
+    id: 1209,
+    game: "re4",
+    title: "Zenless Zone Zero - Astra Yao",
+    category: "characters",
+    version: "1.0",
+    size: "24.7 MB",
+    images: [
+      "images/mods/zenless-zone-zero-astra-yao-1.jpg",
+      "images/mods/zenless-zone-zero-astra-yao-2.jpg",
+      "images/mods/zenless-zone-zero-astra-yao-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/6vIOUFu621hYRhI",
+    short: "Replaces Leon with Astra Yao from Zenless Zone Zero.",
+    description: "Swap out Leon for Astra Yao in your Resident Evil 4 playthrough. This character model features dynamic physics for both hair and body movement to ensure a realistic look during gameplay.\n\n- Fully functional facial animations are included for cutscenes.\n- Addon module removes emissive lighting for a custom material.\n- Material update adds high-quality wet effects to the model.\n- Histy created this mod using original assets from Hoyoverse.\n- Use alongside General Animations Corrector for the best results.",
+    tags: [
+      "character",
+      "resident evil",
+      "anime",
+      "zzz"
+    ],
+    featured: true
   }
 ];
 
