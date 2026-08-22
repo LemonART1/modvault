@@ -25467,6 +25467,1000 @@ const MODS = [
       "skin"
     ],
     featured: true
+  },
+  {
+    id: 1143,
+    game: "starfield",
+    title: "Nightlife VS Corpo Life - Astral Lounge and Trade Tower",
+    category: "locations",
+    version: "1.0",
+    size: "476 KB",
+    images: [
+      "images/mods/nightlife-vs-corpo-life-astral-lounge-and-trade-tower-1.jpg",
+      "images/mods/nightlife-vs-corpo-life-astral-lounge-and-trade-tower-2.jpg",
+      "images/mods/nightlife-vs-corpo-life-astral-lounge-and-trade-tower-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/2ptr8Ke21i49867",
+    short: "Revitalizes Neon locations with immersive NPC crowds and detailing.",
+    description: "This Vanilla+ overhaul injects much-needed atmosphere into Neon's most iconic buildings without relying on external assets. The Astral Lounge entrance now feels like a premium club, while the Trade Tower lobby finally reflects the corporate status of the city.\n\n- Astral Lounge features a red carpet, custom bouncer, crowd NPCs, and festive idle markers.\n- Trade Tower adds security gates, glass partitions, employee NPCs, and immersive coffee clutter.\n- Performance remains stable as the mod avoids heavy scripts and utilizes existing assets.\n- Manual navmesh adjustments ensure NPCs navigate the new structure without collision bugs.\n- Crowd density adapts dynamically to your existing in-game performance settings.",
+    tags: [
+      "starfield",
+      "neon",
+      "immersion",
+      "atmosphere"
+    ],
+    featured: true
+  },
+  {
+    id: 1144,
+    game: "starfield",
+    title: "UC Distribution Center - On Duty",
+    category: "locations",
+    version: "1.0",
+    size: "42 KB",
+    images: [
+      "images/mods/uc-distribution-center-on-duty-1.jpg",
+      "images/mods/uc-distribution-center-on-duty-2.jpg",
+      "images/mods/uc-distribution-center-on-duty-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jp1v6dCxbPjb0fU",
+    short: "A vibrant logistics hub overhaul for New Atlantis' center.",
+    description: "This overhaul turns the quiet UC Distribution Center in New Atlantis into a buzzing, authentic logistics hub. It replaces the empty interior with a functional layout populated by new personnel and gear, making the facility finally feel like it belongs to the United Colonies military.\n\n- Staff includes two Quartermasters, a Chief Quartermaster, and visiting UC crew members.\n- The interior features a visual refresh with UC orange and blue themes instead of plain grey.\n- Adds immersive details like wall-mounted weapon racks, packed shelving, and specialized storage crates.\n- Provides non-theft access to Vanguard Officer Uniforms and full Vanguard Spacesuit sets.\n- Script-free design ensures 100% compatibility with existing save files and minimal performance impact.",
+    tags: [
+      "starfield",
+      "immersion",
+      "newatlantis"
+    ],
+    featured: true
+  },
+  {
+    id: 1145,
+    game: "starfield",
+    title: "Grav Lanes",
+    category: "gameplay",
+    version: "1.0",
+    size: "20 KB",
+    images: [
+      "images/mods/grav-lanes-1.jpg",
+      "images/mods/grav-lanes-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Lt8LfymAT1f08NS",
+    short: "Travel to star centers instead of direct planetary orbits.",
+    description: "Re-routing your jump destination to the center of a star system forces you to travel to your final destination manually, creating a more engaging gameplay loop. This approach prevents common loading bugs by bypassing direct planetary arrival and lets you walk around your ship while in transit.\n\n- Lightweight design using only one script that activates during jumps\n- Customizable arrival timers ranging from ten seconds to ten minutes\n- Instant mode available for players who prefer to skip delays\n- Fully compatible with Real Fuel, Astrodynamics, and Payloads skills\n- Requires you to sit in the pilot seat to finish arrival",
+    tags: [
+      "immersion",
+      "space",
+      "travel",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 1146,
+    game: "starfield",
+    title: "New Homestead - New Dawn",
+    category: "locations",
+    version: "1.0",
+    size: "3.3 MB",
+    images: [
+      "images/mods/new-homestead-new-dawn-1.jpg",
+      "images/mods/new-homestead-new-dawn-2.jpg",
+      "images/mods/new-homestead-new-dawn-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BT5TR0KXne64nwj",
+    short: "Complete overhaul breathing life into Titan’s iconic New Homestead settlement.",
+    description: "This comprehensive overhaul breathes new life into New Homestead, transforming the underwhelming settlement into a coherent, maintained environment that respects its retro atmosphere. It eliminates the feeling of neglect found in vanilla by removing illogical clutter and upgrading infrastructure to make Titan’s iconic site feel truly inhabited.\n\n- Adds a UC Command tower, residential tourist towers, and a secondary landing pad.\n- Features custom welcome signs, radio telescopes, and expanded terrain with ice formations.\n- Completely renovates interior spaces like the Museum, Brown Horse Tavern, and the shop.\n- Increases NPC variety with a larger pool of faces, new roles, and improved outfit leveled lists.\n- Includes script-free, performance-friendly design that is safe for existing save files.",
+    tags: [
+      "starfield",
+      "settlement",
+      "overhaul",
+      "titan"
+    ],
+    featured: true
+  },
+  {
+    id: 1147,
+    game: "starfield",
+    title: "More Lore - Legacy of the Mantis",
+    category: "gameplay",
+    version: "1.0",
+    size: "4.9 MB",
+    images: [
+      "images/mods/more-lore-legacy-of-the-mantis-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/pf5waj8W87updLE",
+    short: "Expands the Mantis questline with lore-friendly depth and mystery.",
+    description: "This mod transforms the Mantis from a quick side quest into a sprawling, multi-layered mythos integrated directly into the Settled Systems. It shifts the quest start to level 25, requiring you to track down rumors across the galaxy to truly earn your mantle.\n\n- Adds 20+ new data slates found on Spacers, Pirates, and Ecliptic enemies.\n- Features 5+ fully voice-acted logs recorded by a professional team.\n- Updates terminal entries and security logs to provide a more cohesive backstory.\n- Implements scripted leveled list injection for high mod compatibility.\n- Note: Conflicts with mods editing quest MS04 or the Mantis Lair.",
+    tags: [
+      "lore",
+      "quest",
+      "immersive",
+      "overhaul",
+      "mantis"
+    ],
+    featured: true
+  },
+  {
+    id: 1148,
+    game: "starfield",
+    title: "Mossy Plateau - Biome Visual Transformation",
+    category: "visuals",
+    version: "1.0",
+    size: "2 KB",
+    images: [
+      "images/mods/mossy-plateau-biome-visual-transformation-1.jpg",
+      "images/mods/mossy-plateau-biome-visual-transformation-2.jpg",
+      "images/mods/mossy-plateau-biome-visual-transformation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/oL5J0k9bv2tL48J",
+    short: "Transform dusty plateau biomes with Icelandic coastal aesthetic visuals.",
+    description: "This mod provides a visual overhaul for specific plateau biomes, replacing the muted, arid color palette with a vibrant black and green landscape reminiscent of the Icelandic South Coast. It functions as a pure aesthetic skin pack, meaning it avoids altering any gameplay mechanics, flora, fauna, or quest data.\n\n- Features a permanent valley fog weather effect and removes standard sandstorms.\n- Successfully applied to ten celestial bodies including Alchiba IV-a and Fermi VI.\n- Compatible with most weather mods due to its independent climate entry system.\n- Requires loading after other mods that modify the CanyonsNoLife04 biome record.\n- Compatible with mid-game installations without requiring worldspace or cell edits.",
+    tags: [
+      "visuals",
+      "biomes",
+      "overhaul",
+      "scenery"
+    ],
+    featured: true
+  },
+  {
+    id: 1149,
+    game: "starfield",
+    title: "Vanilla Biomes Enhanced",
+    category: "environment",
+    version: "1.0",
+    size: "737 KB",
+    images: [
+      "images/mods/vanilla-biomes-enhanced-1.jpg",
+      "images/mods/vanilla-biomes-enhanced-2.jpg",
+      "images/mods/vanilla-biomes-enhanced-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/kEaJBIufy1ay2ZB",
+    short: "Overhaul planetary biomes with denser forests and realistic fauna.",
+    description: "Experience Starfield's planetary landscapes with a major overhaul that makes exploration feel significantly more natural and less cluttered. This mod breathes new life into world generation by adjusting densities, flora sizes, and creature behaviors across various biomes.\n\n- Increases vegetation variety with randomized tree and shrub sizing.\n- Streamlines traversal by reducing rock clutter and footprint sizes.\n- Overhauls fauna systems to prevent mixed-pack spawns and improve group sizing.\n- Enhances predator and prey interactions with more realistic hunting and defense logic.\n- Adds NPC markers to fill out empty spaces for better landscape reactivity.\n\nNote that this mod may affect existing outpost placements, and it is strictly incompatible with Fantastical Frontiers or other mods that modify rocks and fauna.",
+    tags: [
+      "environment",
+      "biomes",
+      "fauna",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1150,
+    game: "starfield",
+    title: "Red Mile Blackjack Table",
+    category: "items",
+    version: "1.0",
+    size: "487 KB",
+    images: [
+      "images/mods/red-mile-blackjack-table-1.jpg",
+      "images/mods/red-mile-blackjack-table-2.jpg",
+      "images/mods/red-mile-blackjack-table-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Z5qe13Bj82l0tcB",
+    short: "Enjoy fully functional blackjack tables at your custom outposts.",
+    description: "You can finally test your luck at the Red Mile with this fully interactive blackjack table, featuring betting options that scale from standard 200 credit games up to high-stakes 50,000 credit matches. The mod also includes six craftable table variants that you can install in your ship, home, or outpost to gamble wherever you please.\n\n- Standard betting ranges from 200 to 500 credits per hand.\n- High Roller mode allows for bets between 5,000 and 50,000 credits.\n- Buildable tables offer both free-to-play and wager-based game modes.\n- Integrated tablet terminal provides access to house rules and personal player statistics.\n- Visual display shows active card drawing and dealer hand results in real-time.",
+    tags: [
+      "blackjack",
+      "casino",
+      "gambling",
+      "minigame"
+    ],
+    featured: true
+  },
+  {
+    id: 1151,
+    game: "starfield",
+    title: "Dark Universe - Outlaws 01",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "4.4 MB",
+    images: [
+      "images/mods/dark-universe-outlaws-01-1.jpg",
+      "images/mods/dark-universe-outlaws-01-2.jpg",
+      "images/mods/dark-universe-outlaws-01-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tNacN0xXhy5D3m3",
+    short: "Adds one hundred dynamic bounty hunting quest chains throughout Starfield.",
+    description: "Track down dangerous criminals across settlements and major cities using a narrative system powered by AI-driven backstories. You gain leads by reading dataslates or visiting the Outlaw Terminal in The Broken Spear bar at Cydonia.\n\n- 100 procedurally assembled bounty quest chains featuring named gangs and crews.\n- Dynamic location integration utilizes your current library of installed POIs.\n- Earn unique legendary helmets, packs, and spacesuits as quest rewards.\n- Encounters and loot are fully level-scaled to your current progression.\n- Narrative content uses ChatGPT to generate lore-friendly motives and backstories.",
+    tags: [
+      "bounties",
+      "quests",
+      "lore",
+      "combat"
+    ],
+    featured: true
+  },
+  {
+    id: 1152,
+    game: "starfield",
+    title: "BetterConsole - Free lanes compatibility",
+    category: "utilities",
+    version: "1.0",
+    size: "209 KB",
+    images: [
+      "images/mods/betterconsole-free-lanes-compatibility-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/W1a2u7VIfdNb63P",
+    short: "Updated console replacement for Starfield supporting latest game patch.",
+    description: "This release serves as a functional maintenance update for the original BetterConsole by linux18, which had become incompatible with the game's recent free lanes patch. It maintains the exact same feature set and modder SDK as the abandoned version while restoring essential functionality for modern builds. You can expect the same improved command interface and expanded scripting capabilities without any hidden changes or additional bloat.",
+    tags: [
+      "console",
+      "scripts",
+      "utilities",
+      "modding"
+    ],
+    featured: true
+  },
+  {
+    id: 1153,
+    game: "starfield",
+    title: "Graf's Outpost BioDome",
+    category: "environment",
+    version: "1.0",
+    size: "1.2 MB",
+    images: [
+      "images/mods/grafs-outpost-biodome-1.jpg",
+      "images/mods/grafs-outpost-biodome-2.jpg",
+      "images/mods/grafs-outpost-biodome-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/CY6Gl2Vw6L28Ni8",
+    short: "Create a breathable, massive enclosed habitat on any planet.",
+    description: "Stop living in cramped, pressurized tubes and build a massive geodesic biodome that generates a breathable Earth-like atmosphere on any hostile planet. It provides an expansive interior volume capable of housing over 20 standard hab modules, allowing you to create a complete, enclosed colony.\n\n- Eliminates the need for helmets or spacesuits inside the dome.\n- Features eight interchangeable floor presets including flat, raised, and decorative options.\n- Includes a large industrial airlock that permits vehicle entry.\n- Fully navmeshed for crew and companion pathing and AI activity.\n- Optimized with custom LOD meshes to maintain performance and reduce pop-in.\n- Requires no power, script extenders, or external mod dependencies.",
+    tags: [
+      "outpost",
+      "biodome",
+      "basebuild",
+      "structure"
+    ],
+    featured: true
+  },
+  {
+    id: 1154,
+    game: "starfield",
+    title: "Terran Armada Quest Bug Fixes",
+    category: "gameplay",
+    version: "3.2",
+    size: "9 KB",
+    images: [
+      "images/mods/terran-armada-quest-bug-fixes-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/A5P4PYaonqlZSc8",
+    short: "Fixes broken Terran Armada quests and cleans up incursion bugs.",
+    description: "This utility addresses critical issues preventing completion of the Terran Armada questline by monitoring quest states and incursion spawning. It cleans up the galaxy map and ensures you can progress through the campaign without game-breaking script errors.\n\n- Forces completion of Black Box objectives by respawning stuck Major Incursions.\n- Corrects script errors that prevent new incursions from spawning or moving.\n- Removes stale map markers from systems without active incursion events.\n- Resolves a bug where fast travel is incorrectly restricted due to false location flagging.\n- Automatically disables its own scripts if the game version detects an official patch.",
+    tags: [
+      "bug fix",
+      "quest",
+      "gameplay",
+      "starfield"
+    ],
+    featured: true
+  },
+  {
+    id: 1155,
+    game: "starfield",
+    title: "Rabbit's Real Lights New Babylon",
+    category: "visuals",
+    version: "1.0",
+    size: "3.1 MB",
+    images: [
+      "images/mods/rabbits-real-lights-new-babylon-1.jpg",
+      "images/mods/rabbits-real-lights-new-babylon-2.jpg",
+      "images/mods/rabbits-real-lights-new-babylon-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/IMBy93uP37356As",
+    short: "Overhauls New Babylon lighting with many custom light sources.",
+    description: "This lighting overhaul breathes new life into New Babylon by implementing over 100 hand-placed light sources and objects throughout the city. The mod meticulously corrects existing lighting inconsistencies while completely redesigning the visual atmosphere of walkways and lanterns.\n\n- Adds over 100 hand-placed light sources and objects.\n- Improves lighting for multiple city buildings.\n- Overhauls the aesthetic of walkways and lanterns.\n- Compatible with all external LUTs and reshade presets.\n- Should be placed at the very end of your load order.",
+    tags: [
+      "lighting",
+      "graphics",
+      "immersion",
+      "city"
+    ],
+    featured: true
+  },
+  {
+    id: 1156,
+    game: "starfield",
+    title: "Save Game Thumbnails - SFSE",
+    category: "user-interface",
+    version: "3.1",
+    size: "912 KB",
+    images: [
+      "images/mods/save-game-thumbnails-sfse-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/uG5YBLac9OWZn26",
+    short: "Adds visual save game thumbnails to your Starfield menus.",
+    description: "This utility enhances your save menu by rendering .png thumbnails directly into the Main and Pause menus, helping you identify specific save files at a glance. It operates independently of the save file content itself, storing images within your documents folder to ensure system safety.\n\n- Generates .png previews for save games created after installation\n- Includes hotkeys to save thumbnails to Photo Mode or delete them\n- Automatically cleans up orphaned thumbnails to keep your storage organized\n- Allows full customization of image size, feedback sounds, and hotkeys via optional INI\n- Compatible with common aspect ratios like 16:9, 16:10, and 21:9",
+    tags: [
+      "ui",
+      "saves",
+      "utility",
+      "sfse",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 1157,
+    game: "starfield",
+    title: "Cross Heavy Industries - Model 3 Ship Modules",
+    category: "ships",
+    version: "1.0",
+    size: "3.9 MB",
+    images: [
+      "images/mods/cross-heavy-industries-model-3-ship-modules-1.jpg",
+      "images/mods/cross-heavy-industries-model-3-ship-modules-2.jpg",
+      "images/mods/cross-heavy-industries-model-3-ship-modules-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Es1RO6Fzg426v60",
+    short: "Add over 100 standalone ship modules with advanced rotation options.",
+    description: "Expand your shipbuilding capabilities with this collection of over 100 standalone modules that utilize base game assets. You gain significant architectural freedom through an advanced rotation system that allows for 24 distinct positions per module, effectively providing 15-degree increments along the ship's longitudinal axis.\n\n- Over 2500 new placeable morphs and rotations available for custom builds.\n- Includes custom snap points derived directly from module geometry.\n- Access these parts within the ship builder under the CHI prefix.\n- Fully compatible with Vortex and Mod Organizer 2 mod managers.\n- Performance is optimized by using original assets to maintain game consistency.",
+    tags: [
+      "starfield",
+      "ship",
+      "building",
+      "modules"
+    ],
+    featured: true
+  },
+  {
+    id: 1158,
+    game: "starfield",
+    title: "HONKCORE - Dynamic Custom HUD Overhaul",
+    category: "user-interface",
+    version: "1.0",
+    size: "682 KB",
+    images: [
+      "images/mods/honkcore-dynamic-custom-hud-overhaul-1.jpg",
+      "images/mods/honkcore-dynamic-custom-hud-overhaul-2.jpg",
+      "images/mods/honkcore-dynamic-custom-hud-overhaul-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/w6qt9vQr09C0rlE",
+    short: "Modular custom HUD widgets for a tactical Starfield experience.",
+    description: "This modular framework replaces the default UI with a highly configurable widget system designed to make your helmet feel like actual tactical hardware. Every element can be individually toggled, positioned, and styled using over ten included color themes like mono, sepia, or neon blue. \n\n- PULSR: Advanced vitals monitor tracking ECG, SpO2, and CO2 levels.\n- MAPR: A dynamic tactical radar for spotting enemies and locations.\n- TACR: Environmental CBRN threat readout for detecting hazardous atmospheric conditions.\n- HEADR: A streamlined, sleek compass display integrated with your navigational feed.\n- Configuration system: Manage visibility flags and conditions to curate exactly which elements appear on your screen.",
+    tags: [
+      "hud",
+      "immersion",
+      "ui",
+      "starfield",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1159,
+    game: "starfield",
+    title: "The Den - Last Stop Before The Dark",
+    category: "locations",
+    version: "1.0",
+    size: "2.4 MB",
+    images: [
+      "images/mods/the-den-last-stop-before-the-dark-1.jpg",
+      "images/mods/the-den-last-stop-before-the-dark-2.jpg",
+      "images/mods/the-den-last-stop-before-the-dark-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Zh827b8AdO46Yp2",
+    short: "A lore-friendly visual and functional overhaul of The Den.",
+    description: "This overhaul transforms The Den into a lived-in, atmospheric transit hub while respecting Bethesda’s original vision for the station. It avoids heavy scripting to keep the experience vanilla-friendly and safe for your existing save files.\n\n- Adds two new fully decorated areas featuring transit quarters and Vanguard barracks.\n- Overhauls key zones including the Ship Technician, Trade Authority, and Vanguard control rooms.\n- Populates the station with new NPCs like UC veterans, long-haul truckers, and a recruitable crew member.\n- Introduces immersive ambient sound effects like radio chatter and ventilation hums to boost realism.\n- Enhances visual storytelling through new decals, overhauled lighting, and refined clutter throughout the station.",
+    tags: [
+      "starfield",
+      "station",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1160,
+    game: "starfield",
+    title: "Project Rework - Akila",
+    category: "environment",
+    version: "1.0",
+    size: "135 KB",
+    images: [
+      "images/mods/project-rework-akila-1.jpg",
+      "images/mods/project-rework-akila-2.jpg",
+      "images/mods/project-rework-akila-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/iH2stJHQKglsnXf",
+    short: "Transform Akila into a lush, mountainous, cold alpine world.",
+    description: "Revitalize the planet Akila by stripping away the dusty, arid aesthetic and replacing it with a diverse alpine landscape. The mod integrates three distinct biomes: the snowy, lake-filled Alpine Highlands, the lush Temperate Forest, and the flat Polar Cap.\n\n- Adds dense, fluffy clouds and enables cloud shadows via .ini settings.\n- Features aggressive river creatures lurking within the new waterways.\n- Makes the Cheyenne and Maheo stars visible from the planet surface.\n- Updates water safety status and removes native life from polar regions.\n- Requires placement after other weather or city mods for full compatibility.",
+    tags: [
+      "akila",
+      "planets",
+      "overhaul",
+      "terrain"
+    ],
+    featured: true
+  },
+  {
+    id: 1161,
+    game: "starfield",
+    title: "Mantle of the Mantis",
+    category: "gameplay",
+    version: "1.0",
+    size: "58 KB",
+    images: [
+      "images/mods/mantle-of-the-mantis-1.jpg",
+      "images/mods/mantle-of-the-mantis-2.jpg",
+      "images/mods/mantle-of-the-mantis-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/20Fvo8Jweohs6g4",
+    short: "Gain unique intimidation dialogue options wearing the Mantis helmet.",
+    description: "Wearing the Mantis helmet finally feels earned with these specialized dialogue options that let you intimidate space pirates and criminals during key questlines. Because this mod uses a standalone perk and keyword-based script, it avoids conflicts with appearance replacers or cosmetic mods.\n\n- Introduces unique intimidation dialogue options triggered by the Mantis helmet.\n- Features a standalone perk and keyword-based script for high compatibility.\n- Supports legendary re-rolls and x-tech functionality via Free Lanes.\n- Implemented through non-destructive additions to vanilla dialogue trees.",
+    tags: [
+      "mantis",
+      "dialogue",
+      "perks",
+      "space"
+    ],
+    featured: true
+  },
+  {
+    id: 1162,
+    game: "starfield",
+    title: "Eris Hairstyles",
+    category: "appearance",
+    version: "1.0",
+    size: "113 MB",
+    images: [
+      "images/mods/eris-hairstyles-1.jpg",
+      "images/mods/eris-hairstyles-2.jpg",
+      "images/mods/eris-hairstyles-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/W3GgpcaHA5dT21x",
+    short: "Ten custom hairstyles featuring realistic physics for all characters.",
+    description: "Enhance your character's look with ten brand-new, scratch-made hairstyles that function seamlessly on both body types. These styles are designed with built-in physics, ensuring your hair moves naturally as you explore the galaxy. Access these options directly through the in-game Enhance menu for a quick makeover.\n\n- Includes ten unique hairstyles prefixed with EH_ for easy identification.\n- Features custom physics support for dynamic movement during gameplay.\n- Fully compatible with existing hair color mods using standard vanilla materials.\n- Works alongside other hairstyle mods that utilize form list injection.\n- Installation requires enabling the provided ESM file in your load order.",
+    tags: [
+      "hair",
+      "visuals",
+      "cosmetics",
+      "character"
+    ],
+    featured: true
+  },
+  {
+    id: 1163,
+    game: "starfield",
+    title: "Scopes Without Overlays",
+    category: "visuals",
+    version: "1.0",
+    size: "3.8 MB",
+    images: [
+      "images/mods/scopes-without-overlays-1.jpg",
+      "images/mods/scopes-without-overlays-2.jpg",
+      "images/mods/scopes-without-overlays-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ik65Unrl6vOB6Mt",
+    short: "Remove blurry scope overlays for a cleaner, immersive sight picture.",
+    description: "Forget the intrusive, blurry scope overlays and switch to a clean, transparent view that lets you aim through your weapons naturally. This mod replaces all vanilla scope overlays with dynamic reticles that align perfectly with the center of your screen.\n\n- Adjusts zoom levels to x4 for Short, x6 for Medium, and x8 for Long scopes.\n- Includes an optional Hold Breath feature via SFSE and Cassiopeia Papyrus Extender to maintain stability.\n- Automatically hides obstructive weapon parts while aiming to prevent visual clutter.\n- Optimized for FOV settings between 90 and 110 for the best alignment.\n- Compatible with many popular skin mods and includes a patch for Shattered Space.",
+    tags: [
+      "realism",
+      "scopes",
+      "combat",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1164,
+    game: "starfield",
+    title: "Integrated Ship Optimization Terminal",
+    category: "ships",
+    version: "1.0",
+    size: "6 KB",
+    images: [
+      "images/mods/integrated-ship-optimization-terminal-1.jpg",
+      "images/mods/integrated-ship-optimization-terminal-2.jpg",
+      "images/mods/integrated-ship-optimization-terminal-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/SQm93fXBECDL5b9",
+    short: "Embeds ship optimization terminals directly into existing ship habs.",
+    description: "Stop cluttering your ship interiors by manually placing consoles everywhere. This mod seamlessly embeds the Ship Optimization Terminal directly into your existing Control Stations, Engineering rooms, and Computer Core habs.\n\n- Terminals are automatically integrated into specific ship modules upon placement.\n- Functionality is restricted to your home ship to maintain intended game balance.\n- Fully compatible with TN's Out in the Blackness and other stat-altering mods.\n- Requires replacing existing hab modules on current saves to initialize the new terminals.\n- Uses a non-intrusive design that adds new objects to cells without modifying existing data.",
+    tags: [
+      "ship",
+      "habs",
+      "immersion",
+      "console",
+      "terminal"
+    ],
+    featured: true
+  },
+  {
+    id: 1165,
+    game: "starfield",
+    title: "Snowy Volcanic Landscape",
+    category: "visuals",
+    version: "1.0",
+    size: "1 KB",
+    images: [
+      "images/mods/snowy-volcanic-landscape-1.jpg",
+      "images/mods/snowy-volcanic-landscape-2.jpg",
+      "images/mods/snowy-volcanic-landscape-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/EAXe2H2a580076y",
+    short: "Visual overhaul turning volcanic biomes into snowy highland landscapes.",
+    description: "Transform the dusty VolcanicWornNoLife01 biome into a winter wonderland by stripping away rocks, gas vents, and procedural obstacles. This overhaul retextures the terrain and updates the climate to \"ClimateFrozen01\" while renaming the area to Volcanic Highlands on moons like Nikola VII-a. \n\n- Removes all proc-gen rocks and vents for smoother flight navigation.\n- Preserves resource veins and outpost harvester functionality despite resource scanning difficulties.\n- Retains existing POI rocks and ship landing site geometry for consistency.\n- Remains compatible with weather mods by utilizing vanilla weather sets.\n- Can be installed or updated safely during an active save file.",
+    tags: [
+      "snow",
+      "biome",
+      "overhaul",
+      "terrain",
+      "visual"
+    ],
+    featured: true
+  },
+  {
+    id: 1166,
+    game: "starfield",
+    title: "Rampart-17",
+    category: "weapons",
+    version: "1.0",
+    size: "91.7 MB",
+    images: [
+      "images/mods/rampart-17-1.jpg",
+      "images/mods/rampart-17-2.jpg",
+      "images/mods/rampart-17-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/jwJ4QSaaPHF7MTK",
+    short: "Battle rifle featuring high damage and custom firing sounds.",
+    description: "This recreation of the Rampart-17 from Black Ops 4 brings a high-impact battle rifle into the Starfield arsenal. It prioritizes raw damage output, though you will notice a trade-off in stability and fire rate compared to vanilla firearms.\n\n- Integrates into leveled lists via script starting at level 33.\n- Available for purchase at Rowland Arms, Neon Tactical, and Best Defense once you reach level 25.\n- Includes a variety of weapon attachments and custom HUD icons.\n- Utilizes the AA99 animation set for fluid weapon handling.\n- Requires an FOV setting of 85 or 90 to prevent scope breakage.",
+    tags: [
+      "rifle",
+      "shooter",
+      "weapon",
+      "tactical",
+      "fps"
+    ],
+    featured: true
+  },
+  {
+    id: 1167,
+    game: "starfield",
+    title: "PraxisUI Inventory",
+    category: "user-interface",
+    version: "3.4.4",
+    size: "6.2 MB",
+    images: [
+      "images/mods/praxisui-inventory-1.jpg",
+      "images/mods/praxisui-inventory-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/592L0SL8gDXwqFI",
+    short: "Clean inventory overhaul with widescreen support and sorting features.",
+    description: "PraxisUI is a comprehensive inventory overhaul that maintains a vanilla aesthetic while adding significant quality-of-life improvements and modern ultrawide support. It streamlines item management by breaking down the default list into more granular categories like Aid, Consumables, and Contraband.\n\n- Features specialized sorting attributes such as DPS, DR, value-to-mass ratios, and local UT clock displays.\n- Includes mass-action tools like Store All and Sell All for faster inventory management at vendors.\n- Offers distinct visual icons for weapons, aid, and notes, plus explicit damage type indicators in the list.\n- Supports high-end customization via INI files for column filtering, width adjustments, and custom FormID categorization.\n- Provides dedicated installer options for 16:9 and 21:9 monitors across multiple framerate targets.",
+    tags: [
+      "ui",
+      "inventory",
+      "overhaul",
+      "qol",
+      "starfield"
+    ],
+    featured: true
+  },
+  {
+    id: 1168,
+    game: "starfield",
+    title: "Baka Free Legendary Rolls",
+    category: "gameplay",
+    version: "1.0",
+    size: "3 KB",
+    images: [
+      "images/mods/baka-free-legendary-rolls-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/MMA63aGqGwVP9u0",
+    short: "Remove credit costs from your Starfield legendary mod rerolls.",
+    description: "Stop worrying about your bank account every time you want to optimize your gear. This tweak changes the crafting requirements for your equipment by stripping away the mandatory credit fees. You will now only need the raw X-Tech components to finalize your upgrades.\n\n- Eliminates all credit costs for rerolling legendary modifiers.\n- Applies the cost removal to Tier 4 legendary mods.\n- Covers upgrades for both high-end weapons and armor.\n- Makes crafting T5 plus items significantly cheaper to produce.",
+    tags: [
+      "starfield",
+      "crafting",
+      "legendary"
+    ],
+    featured: true
+  },
+  {
+    id: 1169,
+    game: "starfield",
+    title: "Rabbit's Real Lights Asteroid Mansion",
+    category: "environment",
+    version: "1.0",
+    size: "89 KB",
+    images: [
+      "images/mods/rabbits-real-lights-asteroid-mansion-1.jpg",
+      "images/mods/rabbits-real-lights-asteroid-mansion-2.jpg",
+      "images/mods/rabbits-real-lights-asteroid-mansion-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dv8N7Zw6vBthn53",
+    short: "Overhauls lighting at the Château des Étoiles player home.",
+    description: "Transform your player home with this comprehensive lighting improvement that replaces flat vanilla ambiance with a more realistic feel. It is currently a work in progress, with the creator actively planning additional tweaks and refinement cycles for the interior.\n\n- Includes over 100 hand-placed light sources throughout the mansion.\n- Removes specific existing lights to improve overall environmental realism.\n- Enhances general visibility for a more welcoming atmosphere.\n- Designed to pair perfectly with Luxor’s texture overhaul mods.",
+    tags: [
+      "lighting",
+      "home",
+      "overhaul",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 1170,
+    game: "starfield",
+    title: "Dazra Uncut",
+    category: "environment",
+    version: "2.0",
+    size: "32.6 MB",
+    images: [
+      "images/mods/dazra-uncut-1.jpg",
+      "images/mods/dazra-uncut-2.jpg",
+      "images/mods/dazra-uncut-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/J2qR8dUD8tokX9s",
+    short: "Restores deleted scenery to make Dazra city feel complete.",
+    description: "Populating Dazra with the scenery Bethesda removed for performance, this mod restores various objects to their intended places. It effectively fixes floating items like antennas by restoring their original bases and removes vanilla assets that caused clipping issues with the returned objects.\n\n- Navmeshes are fully adjusted to prevent NPC pathing errors.\n- Includes objects spotted in trailers and PackIns files.\n- Features a tweaked gate entrance for better vehicle access.\n- Landing pads now exhibit realistic burn marks.\n- Compatible with Unofficial and Community patches without crashing.",
+    tags: [
+      "dazra",
+      "restoration",
+      "environment"
+    ],
+    featured: true
+  },
+  {
+    id: 1171,
+    game: "starfield",
+    title: "Sarah The Comet - A Visual Replacer",
+    category: "appearance",
+    version: "1.0",
+    size: "6.1 MB",
+    images: [
+      "images/mods/sarah-the-comet-a-visual-replacer-1.jpg",
+      "images/mods/sarah-the-comet-a-visual-replacer-2.jpg",
+      "images/mods/sarah-the-comet-a-visual-replacer-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/mZjjHOwFPxx9D15",
+    short: "A vibrant and charming visual overhaul for Sarah Morgan.",
+    description: "This visual overhaul reimagines Sarah Morgan with a softer, more vibrant aesthetic while maintaining the mature, experienced essence of her original character design. It moves away from rigid commander tropes to highlight her backstory as a spirited musician and seasoned traveler.\n\n- Features a redesigned hairstyle utilizing assets from Starfarer's Hairstyles.\n- Captures a more charismatic and magnetic look for the Constellation leader.\n- Functions as a pure visual replacer with no impact on gameplay mechanics.\n- Does not modify existing voice lines or quest interactions.",
+    tags: [
+      "sarah morgan",
+      "starfield",
+      "npc",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1172,
+    game: "starfield",
+    title: "Volcanic Kreet - Biome Visual Transformation",
+    category: "visuals",
+    version: "1.0",
+    size: "14.6 MB",
+    images: [
+      "images/mods/volcanic-kreet-biome-visual-transformation-1.jpg",
+      "images/mods/volcanic-kreet-biome-visual-transformation-2.jpg",
+      "images/mods/volcanic-kreet-biome-visual-transformation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/T6RS0ub32sdex07",
+    short: "A cosmetic overhaul adding lava and ice to Kreet.",
+    description: "Refresh your playthroughs with this complete cosmetic overhaul of Kreet, turning the moon into a dramatic, lava-filled landscape without touching any gameplay mechanics. It replaces textures across all three major biomes and adjusts the atmosphere so the new lighting remains stunning regardless of the time of day.\n\n- Glowing lava is added to the Volcanic and Mountain biomes for a striking aesthetic update.\n- Mountains feature unique orange rocks and volcanic mineral deposits to stand out from other terrain.\n- The Frozen Volcanic Biome is transformed into a vast, bioluminescent blue ice field.\n- Custom low-fog settings and color grading ensure the terrain looks deep and atmospheric.\n- Weather patterns are modified to interact with the new glow effects, particularly during sunrise and sunset.",
+    tags: [
+      "kreet",
+      "overhaul",
+      "planet",
+      "visuals"
+    ],
+    featured: true
+  },
+  {
+    id: 1173,
+    game: "starfield",
+    title: "Fauna- A GRiNDTerra Mini Mod",
+    category: "gameplay",
+    version: "1.0",
+    size: "8 KB",
+    images: [
+      "images/mods/fauna-a-grindterra-mini-mod-1.jpg",
+      "images/mods/fauna-a-grindterra-mini-mod-2.jpg",
+      "images/mods/fauna-a-grindterra-mini-mod-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/ffBo513J5aaaU4j",
+    short: "Overhauls wildlife behavior and planet population logic for realism.",
+    description: "This overhaul completely rebalances how wildlife inhabits planets to create a more immersive and less chaotic ecosystem. You will find that animal behavior and placement are now significantly more grounded in realism.\n\n- Fauna now feature randomized physical sizing and spawn in more natural, varied group patterns.\n- Lair frequency is reduced to make discovery feel rewarding, while prey level scaling is boosted to survive against predators.\n- Predator attack patterns are more lethal with no warning signals, and prey behavior is adjusted to be more defensive and curious.\n- Mixed packs are removed to ensure predator and prey species no longer spawn together in the same groups.\n- Outposts on existing saves may require minor repositioning, and the mod is incompatible with Vanilla Biomes Enhanced or Fantastical Frontiers.",
+    tags: [
+      "fauna",
+      "wildlife",
+      "immersion",
+      "gameplay"
+    ],
+    featured: true
+  },
+  {
+    id: 1174,
+    game: "starfield",
+    title: "New Homestead Eternal",
+    category: "locations",
+    version: "1.0",
+    size: "6.2 MB",
+    images: [
+      "images/mods/new-homestead-eternal-1.jpg",
+      "images/mods/new-homestead-eternal-2.jpg",
+      "images/mods/new-homestead-eternal-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/BjI95BKG3BnO38s",
+    short: "Transform New Homestead into a vibrant, living, breathing settlement.",
+    description: "Turn New Homestead into a truly immersive hub by upgrading its environment, population, and atmosphere. This overhaul breathes life into the settlement, making it feel like a genuine frontier colony rather than just a quick stopover.\n\n- Added workers, guards, and citizens populate the streets to create a dynamic, lived-in community.\n- Dynamic snow and wind weather effects increase the realism of this harsh, beautiful world.\n- Enhanced lighting adjustments add warmth and depth through natural shadows and strategic light placement.\n- Dense environmental detailing through new props and improved textures makes every area feel more engaging.\n- Immersive audio cues and subtle visual animations like flickering lights enhance the overall settlement ambiance.",
+    tags: [
+      "starfield",
+      "settlement",
+      "immersive"
+    ],
+    featured: true
+  },
+  {
+    id: 1175,
+    game: "starfield",
+    title: "Shape Casting BGS Vehicles AIO",
+    category: "miscellaneous",
+    version: "1.0",
+    size: "4 KB",
+    images: [
+      "images/mods/shape-casting-bgs-vehicles-aio-1.jpg",
+      "images/mods/shape-casting-bgs-vehicles-aio-2.jpg",
+      "images/mods/shape-casting-bgs-vehicles-aio-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/Mrh45jswe82ee4H",
+    short: "Improved wheel handling for all official Bethesda planet vehicles.",
+    description: "Improve your off-road experience by applying a shape casting wheel handling tweak to all three official Bethesda vehicles. This adjustment significantly helps your ride clamber over smaller rocks and terrain obstacles without getting stuck instantly.\n\n- Updates the Rev-8, Moon Jumper, and Deimog handling physics.\n- Requires the Deimog vehicle installed via the Creations menu.\n- Replaces the standalone Rev-8 Shape Casting mod version.\n- Compatible with existing game saves and installations.\n- Enables smoother navigation over uneven planetary terrain.",
+    tags: [
+      "vehicles",
+      "physics",
+      "handling",
+      "starfield"
+    ],
+    featured: true
+  },
+  {
+    id: 1176,
+    game: "starfield",
+    title: "Orbital Defense - Capital Ships (Optimized)",
+    category: "environment",
+    version: "1.0",
+    size: "2.0 MB",
+    images: [
+      "images/mods/orbital-defense-capital-ships-optimized-1.jpg",
+      "images/mods/orbital-defense-capital-ships-optimized-2.jpg",
+      "images/mods/orbital-defense-capital-ships-optimized-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/YEGunOTK1RI7YIz",
+    short: "Adds functional capital ships to orbit around strategic worlds.",
+    description: "This optimized release significantly reduces the reference handle footprint by replacing dynamic interior generation with pre-generated assets. It is distributed as a Full Master to maintain stability, replacing the original Small Master version which caused excessive handle bloat. These faction-owned cruisers serve as immersive, destructible military installations rather than simple static props, ensuring they react appropriately to player aggression.\n\n- Adds 5 UC Class M cruisers and 3 Freestar Class M cruisers across key systems.\n- Reduces reference handle usage by approximately 98-99% compared to the original mod.\n- Ships are fully destructible and faction-owned, triggering combat responses if attacked.\n- Uses only vanilla game assets with zero external files or scripts.\n- Compatible with existing save files and designed for performance stability.",
+    tags: [
+      "starfield",
+      "space",
+      "ships",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1177,
+    game: "starfield",
+    title: "Extra Face Sliders for Enhance Menu",
+    category: "appearance",
+    version: "1.0.1",
+    size: "108 KB",
+    images: [
+      "images/mods/extra-face-sliders-for-enhance-menu-1.jpg",
+      "images/mods/extra-face-sliders-for-enhance-menu-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/xee01wFhiki95c8",
+    short: "Add detailed facial sculpt sliders to Starfield character creator.",
+    description: "Customize your Starfield character with much greater precision using these additional sliders for the Enhance menu. This mod is designed to be highly stable, with every slider carefully calibrated for both male and female body types to prevent crashes.\n\n- Adds over 30 granular controls for features like ears, chin, lips, and brows.\n- Includes specific aesthetic adjustments such as elf ears, eyebag positioning, and cheekbone size.\n- Functions via mesh overrides, meaning no .esm plugin is required for operation.\n- Conflicts with any mods replacing humanracefacialboneregionsmale.txt or humanracefacialboneregionsfemale.txt files.\n- Reverts characters to standard presets if you choose to uninstall the mod later.",
+    tags: [
+      "character",
+      "sliders",
+      "enhance",
+      "face"
+    ],
+    featured: true
+  },
+  {
+    id: 1178,
+    game: "starfield",
+    title: "Rabbit's Open New Atlantis",
+    category: "locations",
+    version: "1.0",
+    size: "10.8 MB",
+    images: [
+      "images/mods/rabbits-open-new-atlantis-1.jpg",
+      "images/mods/rabbits-open-new-atlantis-2.jpg",
+      "images/mods/rabbits-open-new-atlantis-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/r2gY9CApd6jp1pN",
+    short: "Remove loading screens for various New Atlantis city buildings.",
+    description: "Experience New Atlantis without constant transitions by replacing static wall textures with functional, transparent windows across multiple stores and points of interest. This proof-of-concept mod aims to blend interiors seamlessly with the city exterior, though it may interfere with specific questlines if installed mid-playthrough.\n\n- Replaces opaque wall textures with real glass windows on city structures.\n- Removes loading screens for major shops to increase immersion.\n- Adjusts city lighting and reflections to complement the new exterior-facing designs.\n- Fully compatible with existing LUTs, ENBs, and ReShade presets.\n- Requires installation while in space for maximum stability.",
+    tags: [
+      "immersion",
+      "city",
+      "overhaul",
+      "exploration"
+    ],
+    featured: true
+  },
+  {
+    id: 1179,
+    game: "starfield",
+    title: "Cassilia's Old Constellation Uniform",
+    category: "clothing",
+    version: "1.1",
+    size: "65.5 MB",
+    images: [
+      "images/mods/cassilias-old-constellation-uniform-1.jpg",
+      "images/mods/cassilias-old-constellation-uniform-2.jpg",
+      "images/mods/cassilias-old-constellation-uniform-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/b53dwVXL8084D4J",
+    short: "A weathered Constellation uniform featuring legendary stats and customization.",
+    description: "This weathered Constellation suit features a rich backstory tied to Cassilia’s journey and is conveniently located for retrieval at The Lodge. You will find the current iteration is now a 4-Star Legendary item, providing significant stat improvements over the original release.\n\n- Legendary status added to the base uniform piece.\n- Craftable No Name Tag variant available at Chem Labs.\n- Full Spacesuit Workbench support for further outfit modifications.\n- Optional Sarah Morgan and Andreja style skins included.\n- Compatible with body mods like SFF and ZBB.",
+    tags: [
+      "constellation",
+      "starfield",
+      "armor"
+    ],
+    featured: true
+  },
+  {
+    id: 1180,
+    game: "starfield",
+    title: "Exit To Landing Bay",
+    category: "gameplay",
+    version: "1.0",
+    size: "109 KB",
+    images: [
+      "images/mods/exit-to-landing-bay-1.jpg",
+      "images/mods/exit-to-landing-bay-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/K4xv7i4b7p2z5Iu",
+    short: "Directly exit to your ship interior landing bay hub.",
+    description: "Stop skipping the ship interior when you leave the pilot seat. This mod repurposes the Exit Ship button to spawn you directly inside the landing bay hub rather than teleporting you to the planet surface.\n\n- Supports both first-person and third-person camera perspectives.\n- Compatible with Immersive Landing Ramps and custom bay mods.\n- Improves roleplay immersion by walking out of your ship.\n- Lightweight script that functions without complex load order dependencies.",
+    tags: [
+      "immersion",
+      "starfield",
+      "gameplay",
+      "ships"
+    ],
+    featured: true
+  },
+  {
+    id: 1181,
+    game: "starfield",
+    title: "NPCs Use Items",
+    category: "gameplay",
+    version: "1.0",
+    size: "11 KB",
+    images: [
+      "images/mods/npcs-use-items-1.jpg",
+      "images/mods/npcs-use-items-2.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/7Y98cvMWrafFnOk",
+    short: "Enables NPCs to use healing and buff items effectively.",
+    description: "NPCs in Starfield finally become dynamic threats by utilizing healing and buff items throughout their combat encounters. You can tailor every aspect of their behavior via in-game menus to ensure the challenge remains perfectly balanced for your playstyle.\n\n- NPCs trigger healing items based on specific health thresholds\n- Buff items are intelligently used when entering combat scenarios\n- Every feature is fully configurable including faction-based restrictions\n- Mod remains highly compatible since it uses scripts exclusively\n- Unused inventory items have a configurable chance to drop",
+    tags: [
+      "gameplay",
+      "npc",
+      "combat",
+      "balancing"
+    ],
+    featured: true
+  },
+  {
+    id: 1182,
+    game: "starfield",
+    title: "Anchorpoint Expanded",
+    category: "locations",
+    version: "1.0",
+    size: "9.7 MB",
+    images: [
+      "images/mods/anchorpoint-expanded-1.jpg",
+      "images/mods/anchorpoint-expanded-2.jpg",
+      "images/mods/anchorpoint-expanded-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/1wgb9nK4c21nmtK",
+    short: "Expand the Anchorpoint station with new rooms and features.",
+    description: "This mod breathes new life into the Algorab system by integrating a seamless, lore-friendly expansion directly into the existing Anchorpoint station. You can access a variety of new amenities near the bar area, including gameplay-focused mission boards and personal living quarters.\n\n- Includes fully voiced appearance vendor and Trackers Alliance board.\n- Features functional blackjack tables for extra in-game activities.\n- Offers a player room purchaseable for 30,000 credits with customizable furniture.\n- Adds a secret Crimson Fleet area hidden behind a marked door near the clinic.\n- Resolves object placement bugs by simply waiting one day on Venus.",
+    tags: [
+      "starfield",
+      "station",
+      "quests",
+      "housing"
+    ],
+    featured: true
+  },
+  {
+    id: 1183,
+    game: "starfield",
+    title: "Pointer Handle Limit Fix",
+    category: "utilities",
+    version: "1.0",
+    size: "194 KB",
+    images: [
+      "images/mods/pointer-handle-limit-fix-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/tGtY39HZ6eYtWP8",
+    short: "Increase game pointer handle limit to prevent mod crashes.",
+    description: "Heavy mod loads often exhaust Starfield's default 2 million pointer handle pool, leading to crashes or missing game content. This utility injects a fix during the early startup phase that expands your available capacity up to 4 or 8 million handles. \n\n- Doubles the usable handle pool from 2,097,151 to 4,194,303.\n- Includes optional logging to track references exceeding the vanilla limit.\n- Compatible with game versions 1.16.236 and 1.16.244.\n- Operates entirely at runtime without altering game files permanently.\n- Validates handle generation and slot assignment to ensure stability.",
+    tags: [
+      "performance",
+      "stability",
+      "sfse",
+      "memory"
+    ],
+    featured: true
+  },
+  {
+    id: 1184,
+    game: "starfield",
+    title: "Luminous Paradiso - Biome Visual Transformation",
+    category: "visuals",
+    version: "1.0",
+    size: "9 KB",
+    images: [
+      "images/mods/luminous-paradiso-biome-visual-transformation-1.jpg",
+      "images/mods/luminous-paradiso-biome-visual-transformation-2.jpg",
+      "images/mods/luminous-paradiso-biome-visual-transformation-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/NVm4i18hY59L6pQ",
+    short: "Breathtaking visual overhaul for Paradiso and Porrima II biomes.",
+    description: "Transform your vacation experience on Porrima II with this comprehensive texture overhaul that turns the resort area into a stunning, bioluminescent paradise. By replacing drab vanilla ground cover with vibrant red moss and pure white silica sand, the mod creates a genuinely scenic atmosphere without touching underlying gameplay or quest scripts. \n\n- Features glowing organisms and fluorescent minerals scattered across the landscape.\n- Adds reactive bioluminescent plankton to coastal waves for a magical effect.\n- Includes dynamic low-fog weather patterns appearing 50 percent of the time.\n- Implements atmospheric Aurora in the night sky for Shattered Space owners.\n- Maintains compatibility with building mods since it avoids editing worldspace cells.",
+    tags: [
+      "visuals",
+      "porrima",
+      "paradise",
+      "overhaul"
+    ],
+    featured: true
+  },
+  {
+    id: 1185,
+    game: "starfield",
+    title: "Fly Closer To Planets in Cruise Mode",
+    category: "gameplay",
+    version: "1.0",
+    size: "438 bytes",
+    images: [
+      "images/mods/fly-closer-to-planets-in-cruise-mode-1.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/H1w1uDms0z2f8Ad",
+    short: "Approach planets at a much closer distance during cruise.",
+    description: "This tweak collection allows you to approach planets much more closely while flying in cruise mode. It pairs exceptionally well with high definition planet mods if you have the spare drive space. Keep in mind that you might occasionally be forced into an orbital cell when coming from deep space. Additionally, approaching from unique locations like The Eye can sometimes trigger a repeat orbital cell transition error.",
+    tags: [
+      "space",
+      "flight",
+      "cruise",
+      "immersion"
+    ],
+    featured: true
+  },
+  {
+    id: 1186,
+    game: "starfield",
+    title: "Functional Reflex Sights",
+    category: "weapons",
+    version: "1.0",
+    size: "244 KB",
+    images: [
+      "images/mods/functional-reflex-sights-1.jpg",
+      "images/mods/functional-reflex-sights-2.jpg",
+      "images/mods/functional-reflex-sights-3.jpg"
+    ],
+    downloadUrl: "https://modsfire.com/dt24jVD10f2scWW",
+    short: "Replaces inaccurate reflex sight textures with functional camera-locked models.",
+    description: "Bethesda's default reflex sights often fail to represent true bullet trajectory, as the reticles are merely static textures that move with weapon animations. This mod replaces them with actual models attached to the camera, ensuring the aim point remains perfectly centered while aiming down sights.\n\n- Reticles consistently point to the center of the screen, making shots accurate regardless of weapon sway.\n- The reticle scale dynamically adjusts based on your FOV settings between 70 and 110.\n- Visibility is restricted to first-person view, appearing only when you are actively aiming.\n- Note that a compatibility patch is required for every additional custom weapon mod you use.\n- Minor visual artifacts may occur during specific animations like jumping or sprinting due to rendering limitations.",
+    tags: [
+      "combat",
+      "optics",
+      "weapons",
+      "aiming"
+    ],
+    featured: true
   }
 ];
 
